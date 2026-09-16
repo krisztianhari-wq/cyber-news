@@ -6,7 +6,7 @@ Automated daily cybersecurity briefing. A GitHub Actions job collects public RSS
 AI Security News & Trends · Global Security News (non-cyber) · Global Cybersecurity Incidents & Threats · Vulnerabilities, Malware & TTPs · Policy, Regulation & Governance (EU) · EU & European Country Threat Landscape
 
 ## Layout
-- `config/feeds.json` – curated feed list per category (edit to add/remove sources)
+- `config/feeds.json` – curated source list per category: RSS/Atom feeds, `"type": "html"` listing pages for sites without feeds (ENISA, BSI, NKI, IAPP; matched by URL regex, first-seen tracking in `data/seen-urls.json`), and Google News RSS proxies (`"via": "google-news"`) for sites that block feeds (Reuters, AP, Euractiv)
 - `scripts/collect.mjs` – fetch, filter (last 30 h), dedupe, sanitise, Claude classify + summarise, write `public/data/days/YYYY-MM-DD.json` and `posts/YYYY-MM-DD.md`
 - `scripts/build-index.mjs` – merges all days into `public/data/index.json` (client-side search corpus)
 - `src/` – Vite + React site, Yettel brand (navy / lime / ice), MiniSearch full-text search over the whole archive
@@ -30,4 +30,7 @@ With `ANTHROPIC_API_KEY` set, `npm run collect` uses Claude (`claude-opus-5`, st
 - Static site only: no server, no database, no auth, no user input reaches a backend.
 - Feed content is untrusted: HTML is stripped, only `http(s)` links are rendered, text is never injected as HTML; the LLM prompt treats items as data and returns schema-validated JSON without tools.
 - Strict CSP meta tag, `no-referrer`, `rel="noopener noreferrer nofollow"` on outbound links.
-- API key lives only in GitHub Secrets; Dependabot watches npm and Actions.
+- Dependabot watches npm and Actions.
+
+## View counter (optional)
+The site can show total page views via [GoatCounter](https://www.goatcounter.com) (privacy-friendly, no cookies, free for non-commercial use). Create a site there, then add a repository **variable** `GOATCOUNTER_CODE` (Settings → Secrets and variables → Actions → Variables) with your site code (`CODE` in `CODE.goatcounter.com`). The build injects the counter script and widens the CSP only for that host; without the variable nothing is loaded.

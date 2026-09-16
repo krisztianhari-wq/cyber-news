@@ -19,7 +19,7 @@ const KEEP_ALL = args.has("--keep-all");
 const WINDOW_H = Number(process.env.WINDOW_HOURS ?? 30);
 const MAX_PER_FEED = 12;
 const MAX_PER_CATEGORY = 10;
-const MAX_LLM_ITEMS = 90;
+const MAX_LLM_ITEMS = 120;
 const FETCH_TIMEOUT_MS = 20_000;
 const MODEL = "claude-opus-5";
 
@@ -40,6 +40,7 @@ const stripHtml = (s) =>
     .replace(/&quot;/g, '"')
     .replace(/&#39;|&apos;/g, "'")
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/\s+/g, " ")
     .trim();
 
@@ -121,6 +122,54 @@ async function fetchFeed(feed) {
   }
 }
 
+
+// ---------- sources without RSS: HTML listing pages ----------
+// Listing pages carry no reliable dates, so we remember which URLs we have already
+// published (data/seen-urls.json, committed) and only take URLs never seen before.
+const SEEN_PATH = path.join(ROOT, "data/seen-urls.json");
+let seen = {};
+try { seen = JSON.parse(await fs.readFile(SEEN_PATH, "utf8")); } catch { seen = {}; }
+const SEEN_KEEP_DAYS = 90;
+const MAX_PER_HTML_SOURCE = 5;
+
+function scrapeListing(htmlText, feed) {
+  const re = /<a\b[^>]*?href=["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  const match = new RegExp(feed.match, "i");
+  const out = [];
+  const seenHere = new Set();
+  let m;
+  while ((m = re.exec(htmlText)) && out.length < 40) {
+    let href;
+    try { href = new URL(m[1], feed.base ?? feed.url).toString(); } catch { continue; }
+    if (!match.test(href) || seenHere.has(href)) continue;
+    const title = stripHtml(m[2]).replace(feed.titleStrip ? new RegExp(feed.titleStrip, "i") : /$^/, "").trim();
+    if (title.length < 15 || /[{}]|^\.css|^css-/.test(title)) continue; // skip icon/CSS-noise anchors
+    seenHere.add(href);
+    out.push({ title, link: href, published: "", summary: "" });
+  }
+  return out;
+}
+
+async function fetchHtml(feed) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
+  try {
+    const res = await fetch(feed.url, {
+      signal: ctrl.signal, redirect: "follow",
+      headers: { "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 cyber-news-digest/0.1", accept: "text/html,*/*" },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+    if (html.length > 5_000_000) throw new Error("page too large");
+    return scrapeListing(html, feed);
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+// Google News RSS proxies (for sites that block feeds): titles end with " - Publisher".
+const stripPublisher = (title) => title.replace(/\s+-\s+[^-]{2,40}$/, "").trim();
+
 // ---------- collect ----------
 console.log(`[collect] ${today} window=${WINDOW_H}h llm=${NO_LLM ? "off" : MODEL}`);
 const raw = [];
@@ -128,16 +177,23 @@ const feedStatus = [];
 await Promise.all(
   CONFIG.feeds.map(async (feed) => {
     try {
-      const items = await fetchFeed(feed);
+      const isHtml = feed.type === "html";
+      const items = isHtml ? await fetchHtml(feed) : await fetchFeed(feed);
       let kept = 0;
       for (const it of items) {
         const link = safeUrl(it.link);
         const ts = Date.parse(it.published);
         if (!link || !it.title) continue;
-        if (Number.isFinite(ts) && ts < cutoff) continue;
-        if (!Number.isFinite(ts) && kept >= 3) continue; // undated feeds: take a few newest only
+        if (isHtml) {
+          if (seen[link] && seen[link] !== today) continue; // already published on an earlier day
+          if (kept >= MAX_PER_HTML_SOURCE) break;
+          seen[link] = today;
+        } else {
+          if (Number.isFinite(ts) && ts < cutoff) continue;
+          if (!Number.isFinite(ts) && kept >= 3) continue; // undated feeds: take a few newest only
+        }
         raw.push({
-          title: clip(it.title, 200),
+          title: clip(feed.via === "google-news" ? stripPublisher(it.title) : it.title, 200),
           url: link,
           source: feed.name,
           published: Number.isFinite(ts) ? new Date(ts).toISOString() : new Date().toISOString(),
@@ -152,6 +208,14 @@ await Promise.all(
     }
   }),
 );
+
+// persist the seen-URL store for HTML sources (prune entries older than SEEN_KEEP_DAYS)
+{
+  const pruneBefore = new Date(Date.now() - SEEN_KEEP_DAYS * 86400_000).toISOString().slice(0, 10);
+  for (const [u, d] of Object.entries(seen)) if (d < pruneBefore) delete seen[u];
+  await fs.mkdir(path.dirname(SEEN_PATH), { recursive: true });
+  await fs.writeFile(SEEN_PATH, JSON.stringify(Object.fromEntries(Object.entries(seen).sort()), null, 0) + "\n");
+}
 
 // dedupe by URL, then by normalised title
 const seenUrl = new Set();
