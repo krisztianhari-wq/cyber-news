@@ -85,13 +85,17 @@ export function App() {
 
       <section className="hero">
         <div className="wrap">
-          <p className="kicker">{searching ? "Archive search" : "Daily edition"}</p>
-          <h1>{searching ? `“${query.trim()}”` : day ? fmtLong(day.date) : "Loading…"}</h1>
-          <p className="lead">
-            {searching
-              ? `${searchResults.length} matching stor${searchResults.length === 1 ? "y" : "ies"} across ${index?.days.length ?? 0} editions.`
-              : "AI security, global incidents, vulnerabilities, EU policy and the European threat landscape. Summarised every morning for security professionals."}
-          </p>
+          <div className="hero-row">
+            <div>
+              <p className="kicker">{searching ? "Archive search" : "Daily edition"}</p>
+              <h1>{searching ? `“${query.trim()}”` : day ? fmtLong(day.date) : "Loading…"}</h1>
+            </div>
+            <p className="lead">
+              {searching
+                ? `${searchResults.length} matching stor${searchResults.length === 1 ? "y" : "ies"} across ${index?.days.length ?? 0} editions.`
+                : "AI security, global incidents, vulnerabilities, EU policy and the European threat landscape. Summarised every morning for security professionals."}
+            </p>
+          </div>
           <label className="search">
             <SearchIcon />
             <input type="search" placeholder="Search the archive: ransomware, NIS2, CVE…" value={query} onChange={(e) => setQuery(e.target.value)} maxLength={120} aria-label="Search archive" />
@@ -99,10 +103,10 @@ export function App() {
           </label>
           {!searching && day && (
             <div className="hero-stats">
-              <div className="stat"><b>{day.itemCount}</b><span>stories</span></div>
-              <div className="stat"><b>{sourcesOk}</b><span>sources</span></div>
-              <div className="stat"><b>{index?.days.length ?? 1}</b><span>editions archived</span></div>
-              <div className="stat"><b>{fmtTime(day.generatedAt).split(", ")[1]}</b><span>generated</span></div>
+              <span><b>{day.itemCount}</b>stories</span>
+              <span><b>{sourcesOk}</b>sources</span>
+              <span><b>{index?.days.length ?? 1}</b>editions archived</span>
+              <span><b>{fmtTime(day.generatedAt).split(", ")[1]}</b>generated</span>
             </div>
           )}
         </div>
