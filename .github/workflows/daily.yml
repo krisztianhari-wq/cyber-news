@@ -2,7 +2,9 @@ name: Daily digest
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # 04:00 UTC = 06:00 CEST / 05:00 CET
+    # Safety net only: the Claude Code routine normally publishes at 04:00 UTC.
+    # This run skips collection when today's file already exists.
+    - cron: "30 5 * * *"   # 05:30 UTC = 07:30 CEST / 06:30 CET
   workflow_dispatch:
   push:
     branches: [main]
@@ -29,9 +31,14 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: Collect today's news
+      - name: Collect today's news (skipped if the routine already published today)
         if: github.event_name != 'push'
-        run: npm run collect
+        run: |
+          if [ -f "public/data/days/$(date -u +%F).json" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            echo "today's digest already exists, skipping collection"
+          else
+            npm run collect
+          fi
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
