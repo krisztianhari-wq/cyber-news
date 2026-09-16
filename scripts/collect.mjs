@@ -13,6 +13,9 @@ const POSTS_DIR = path.join(ROOT, "posts");
 
 const args = new Set(process.argv.slice(2));
 const NO_LLM = args.has("--no-llm") || !process.env.ANTHROPIC_API_KEY;
+// --keep-all: write every candidate uncapped so an external editor (e.g. a Claude Code routine)
+// can rate them; scripts/apply-editorial.mjs applies the caps afterwards.
+const KEEP_ALL = args.has("--keep-all");
 const WINDOW_H = Number(process.env.WINDOW_HOURS ?? 30);
 const MAX_PER_FEED = 12;
 const MAX_PER_CATEGORY = 10;
@@ -255,12 +258,12 @@ const final = candidates
     const r = byId.get(it.id);
     return { id: it.id, title: it.title, url: it.url, source: it.source, published: it.published, category: r.category, summary: r.summary, relevance: r.relevance, tags: r.tags };
   })
-  .filter((it) => it.relevance >= 2)
+  .filter((it) => KEEP_ALL || it.relevance >= 2)
   .sort((a, b) => b.relevance - a.relevance || b.published.localeCompare(a.published));
 
 const capped = [];
 const catCount = Object.fromEntries(CATEGORY_IDS.map((c) => [c, 0]));
-for (const it of final) if (catCount[it.category]++ < MAX_PER_CATEGORY) capped.push(it);
+for (const it of final) if (KEEP_ALL || catCount[it.category]++ < MAX_PER_CATEGORY) capped.push(it);
 
 if (!post) {
   const top = capped.slice(0, 4);
@@ -271,6 +274,7 @@ const day = {
   date: today,
   generatedAt: new Date().toISOString(),
   model: NO_LLM ? null : MODEL,
+  editorial: KEEP_ALL ? "pending" : "done",
   itemCount: capped.length,
   feeds: feedStatus.sort((a, b) => a.name.localeCompare(b.name)),
   items: capped,
