@@ -1,0 +1,33 @@
+# Yettel Cyber Digest
+
+Automated daily cybersecurity briefing. A GitHub Actions job collects public RSS/Atom feeds every morning, has Claude classify and summarise the items into six categories, stores the day as a JSON file in the repo (the archive), generates a ready-to-paste social media post (**never posted automatically**), and deploys a static, searchable site to GitHub Pages.
+
+## Categories
+AI Security News & Trends · Global Security News (non-cyber) · Global Cybersecurity Incidents & Threats · Vulnerabilities, Malware & TTPs · Policy, Regulation & Governance (EU) · EU & European Country Threat Landscape
+
+## Layout
+- `config/feeds.json` – curated feed list per category (edit to add/remove sources)
+- `scripts/collect.mjs` – fetch, filter (last 30 h), dedupe, sanitise, Claude classify + summarise, write `public/data/days/YYYY-MM-DD.json` and `posts/YYYY-MM-DD.md`
+- `scripts/build-index.mjs` – merges all days into `public/data/index.json` (client-side search corpus)
+- `src/` – Vite + React site, Yettel brand (navy / lime / ice), MiniSearch full-text search over the whole archive
+- `.github/workflows/daily.yml` – 04:00 UTC cron: collect → commit → build → deploy Pages
+
+## Run locally
+```bash
+npm install
+npm run collect -- --no-llm   # heuristic summaries, no API key needed
+npm run dev
+```
+With `ANTHROPIC_API_KEY` set, `npm run collect` uses Claude (`claude-opus-5`, structured JSON output, refusal fallbacks enabled).
+
+## Setup on GitHub
+1. Create repo, push `main`.
+2. Settings → Pages → Source: **GitHub Actions**.
+3. Settings → Secrets and variables → Actions → new secret `ANTHROPIC_API_KEY`.
+4. Actions → *Daily digest* → *Run workflow* for the first edition.
+
+## Security notes
+- Static site only: no server, no database, no auth, no user input reaches a backend.
+- Feed content is untrusted: HTML is stripped, only `http(s)` links are rendered, text is never injected as HTML; the LLM prompt treats items as data and returns schema-validated JSON without tools.
+- Strict CSP meta tag, `no-referrer`, `rel="noopener noreferrer nofollow"` on outbound links.
+- API key lives only in GitHub Secrets; Dependabot watches npm and Actions.

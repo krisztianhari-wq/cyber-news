@@ -1,0 +1,216 @@
+{
+  "categories": [
+    {
+      "id": "ai-security",
+      "name": "AI Security News & Trends",
+      "short": "AI Security"
+    },
+    {
+      "id": "global-security",
+      "name": "Global Security News (non-cyber, high level)",
+      "short": "Global Security"
+    },
+    {
+      "id": "incidents-threats",
+      "name": "Global Cybersecurity Incidents & Threats",
+      "short": "Incidents & Threats"
+    },
+    {
+      "id": "vulns-malware-ttps",
+      "name": "Vulnerabilities, Malware & TTPs",
+      "short": "Vulns, Malware & TTPs"
+    },
+    {
+      "id": "policy-regulation",
+      "name": "Policy, Regulation & Governance (EU focused)",
+      "short": "Policy & Regulation"
+    },
+    {
+      "id": "eu-threat-landscape",
+      "name": "EU & European Country Threat Landscape",
+      "short": "EU Threat Landscape"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "ai-security"
+    },
+    {
+      "name": "Schneier on Security",
+      "url": "https://www.schneier.com/feed/atom/",
+      "category": "ai-security"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "category": "ai-security"
+    },
+    {
+      "name": "Wired – AI",
+      "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+      "category": "ai-security"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "category": "global-security"
+    },
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "category": "global-security"
+    },
+    {
+      "name": "DW World",
+      "url": "https://rss.dw.com/rdf/rss-en-world",
+      "category": "global-security"
+    },
+    {
+      "name": "Defense One",
+      "url": "https://www.defenseone.com/rss/all/",
+      "category": "global-security"
+    },
+    {
+      "name": "NPR World",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "category": "global-security"
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/feed/",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "CyberScoop",
+      "url": "https://www.cyberscoop.com/feed/",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/feed/",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "SecurityWeek",
+      "url": "https://www.securityweek.com/feed/",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "The Record",
+      "url": "https://therecord.media/feed",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "The Register – Security",
+      "url": "https://www.theregister.com/security/headlines.atom",
+      "category": "incidents-threats"
+    },
+    {
+      "name": "CISA Advisories",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "ESET WeLiveSecurity",
+      "url": "https://feeds.feedburner.com/eset/blog",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Google Threat Intelligence",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/rss",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Rapid7 Blog",
+      "url": "https://www.rapid7.com/blog/rss/",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "SANS ISC",
+      "url": "https://isc.sans.edu/rssfeed_full.xml",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Talos Intelligence",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "Zero Day Initiative",
+      "url": "https://www.zerodayinitiative.com/blog?format=rss",
+      "category": "vulns-malware-ttps"
+    },
+    {
+      "name": "EDPB",
+      "url": "https://www.edpb.europa.eu/feed/news_en",
+      "category": "policy-regulation"
+    },
+    {
+      "name": "EU Commission – Digital",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/rss.xml",
+      "category": "policy-regulation"
+    },
+    {
+      "name": "Euronews – Europe",
+      "url": "https://www.euronews.com/rss?level=vertical&name=my-europe",
+      "category": "policy-regulation"
+    },
+    {
+      "name": "Politico Europe",
+      "url": "https://www.politico.eu/feed/",
+      "category": "policy-regulation"
+    },
+    {
+      "name": "CERT-EU",
+      "url": "https://cert.europa.eu/publications/security-advisories-rss",
+      "category": "eu-threat-landscape"
+    },
+    {
+      "name": "CERT-FR",
+      "url": "https://www.cert.ssi.gouv.fr/feed/",
+      "category": "eu-threat-landscape"
+    },
+    {
+      "name": "CERT.at",
+      "url": "https://cert.at/cert-at.de.all.rss_2.0.xml",
+      "category": "eu-threat-landscape"
+    },
+    {
+      "name": "Europol",
+      "url": "https://www.europol.europa.eu/rss.xml",
+      "category": "eu-threat-landscape"
+    },
+    {
+      "name": "NCSC UK",
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "category": "eu-threat-landscape"
+    }
+  ]
+}
