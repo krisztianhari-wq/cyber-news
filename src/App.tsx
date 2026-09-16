@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import MiniSearch from "minisearch";
 import { Logo } from "./Logo";
-import { ViewCounter } from "./ViewCounter";
 import { CATEGORIES, categoryName } from "./categories";
 import type { DayFile, IndexFile, NewsItem } from "./types";
 
@@ -135,7 +134,7 @@ export function App() {
         <div className="limebar" />
         <div className="wrap">
           <span>Automated digest of public RSS feeds · summaries are AI-generated, always verify with the linked source.</span>
-          <span>{index ? `Archive: ${index.days.length} days` : ""}<ViewCounter /></span>
+          <span>{index ? `Archive: ${index.days.length} days` : ""}</span>
         </div>
       </footer>
     </>
