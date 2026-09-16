@@ -58,8 +58,8 @@ const out = {
   model: typeof ed.model === "string" ? clean(ed.model, 60) : day.model ?? "claude-code-routine",
   itemCount: capped.length,
   items: capped,
-  post: post || day.post,
 };
+delete out.post;
 await fs.writeFile(dayPath, JSON.stringify(out, null, 1));
-await fs.writeFile(path.join(ROOT, "posts", `${date}.md`), `# Social post – ${date}\n\n${out.post}\n`);
-console.log(`[editorial] ${matched}/${day.items.length} items updated, ${capped.length} kept -> ${path.relative(ROOT, dayPath)}`);
+await fs.writeFile(path.join(ROOT, "posts", `${date}.md`), `# Social post – ${date}\n\n${post || "(no post generated)"}\n`);
+console.log(`[editorial] ${matched}/${day.items.length} items updated, ${capped.length} kept -> ${path.relative(ROOT, dayPath)}; post -> posts/${date}.md (local only)`);

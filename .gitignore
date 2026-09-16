@@ -3,3 +3,4 @@ dist
 .env
 public/data/index.json
 .DS_Store
+posts/

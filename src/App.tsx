@@ -17,7 +17,6 @@ export function App() {
   const [query, setQuery] = useState("");
   const [cat, setCat] = useState<string>("all");
   const [error, setError] = useState<string | null>(null);
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     fetch(`${BASE}data/index.json`, { cache: "no-cache" })
@@ -58,10 +57,6 @@ export function App() {
   const filtered = cat === "all" ? shown : shown.filter((it) => it.category === cat);
   const counts = useMemo(() => Object.fromEntries(CATEGORIES.map((c) => [c.id, shown.filter((i) => i.category === c.id).length])), [shown]);
 
-  const copyPost = async () => {
-    if (!day) return;
-    try { await navigator.clipboard.writeText(day.post); setCopied(true); setTimeout(() => setCopied(false), 1800); } catch { /* clipboard blocked */ }
-  };
 
   return (
     <>
@@ -109,14 +104,6 @@ export function App() {
 
         {error && <p className="status">Could not load data: {error}</p>}
 
-        {!searching && day && cat === "all" && (
-          <section className="post" aria-label="Social media post">
-            <h2>Social media post</h2>
-            <small>Ready to paste – nothing is published automatically.</small>
-            <pre>{day.post}</pre>
-            <button className="btn" onClick={copyPost}>{copied ? "Copied ✓" : "Copy post"}</button>
-          </section>
-        )}
 
         {filtered.length === 0 && (index || error) && <p className="empty">{searching ? "No matches." : "No items in this category today."}</p>}
 
