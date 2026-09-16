@@ -51,7 +51,8 @@ const capped = [];
 const count = {};
 for (const it of sorted) if ((count[it.category] = (count[it.category] ?? 0) + 1) <= MAX_PER_CATEGORY) capped.push(it);
 
-const post = clean(ed.post, 1500);
+// keep paragraph breaks in the post, only strip tags and collapse spaces within lines
+const post = String(ed.post ?? "").replace(/<[^>]+>/g, " ").split(/\n/).map((l) => l.replace(/[ \t]+/g, " ").trim()).join("\n").replace(/\n{3,}/g, "\n\n").trim().slice(0, 1500);
 const out = {
   ...day,
   editorial: "done",
