@@ -1,8 +1,9 @@
 {
  "date": "2026-09-16",
- "generatedAt": "2026-09-16T10:59:15.429Z",
- "model": null,
- "itemCount": 55,
+ "generatedAt": "2026-09-16T11:18:26.877Z",
+ "model": "claude-opus-5[1m]",
+ "editorial": "done",
+ "itemCount": 40,
  "feeds": [
   {
    "name": "Al Jazeera",
@@ -187,488 +188,64 @@
  ],
  "items": [
   {
-   "id": "2026-09-16-001",
-   "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
-   "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026",
-   "source": "Dark Reading",
-   "published": "2026-11-12T16:00:00.000Z",
-   "category": "incidents-threats",
-   "summary": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-002",
-   "title": "Andorran Police joins Europol’s secure communication network",
-   "url": "https://www.europol.europa.eu/media-press/newsroom/news/andorran-police-joins-europol%E2%80%99s-secure-communication-network",
-   "source": "Europol",
-   "published": "2026-09-16T10:59:14.488Z",
-   "category": "eu-threat-landscape",
-   "summary": "Through this connection, the Andorran Police will be able to securely share law enforcement information with Europol and a wide network of European and international partners.This Memorandum of Understanding builds upon a Working Arrangement signed between Andorra and Europol in…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-003",
-   "title": "Crackdown on Italian organised criminal network involved in large-scale euro counterfeiting",
-   "url": "https://www.europol.europa.eu/media-press/newsroom/news/crackdown-italian-organised-criminal-network-involved-in-large-scale-euro-counterfeiting",
-   "source": "Europol",
-   "published": "2026-09-16T10:59:14.488Z",
-   "category": "eu-threat-landscape",
-   "summary": "Europol has supported an international operation targeting a criminal network linked to the Italian mafia-type organisation Camorra. The operation, coordinated by the Baden-Württemberg State Criminal Police Office and the Stuttgart Public Prosecutor’s Office, resulted in the exe…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-004",
-   "title": "Thousands of horses caught up in Europe-wide trafficking scheme",
-   "url": "https://www.europol.europa.eu/media-press/newsroom/news/thousands-of-horses-caught-in-europe-wide-trafficking-scheme",
-   "source": "Europol",
-   "published": "2026-09-16T10:59:14.488Z",
-   "category": "eu-threat-landscape",
-   "summary": "Europol has supported a major operation against a criminal network suspected of trafficking horses across Europe using falsified documents and manipulated microchips to conceal the animals’ true identities.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
    "id": "2026-09-16-005",
    "title": "2026-012: Critical Vulnerabilities in Check Point Products",
    "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
    "source": "CERT-EU",
-   "published": "2026-09-16T10:59:13.503Z",
-   "category": "eu-threat-landscape",
-   "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both vulnerabi…",
-   "relevance": 3,
-   "tags": []
+   "published": "2026-09-16T11:18:25.750Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-012: Check Point released emergency updates for two critical flaws in Security Gateway, Security Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "vpn",
+    "patch"
+   ]
   },
   {
    "id": "2026-09-16-006",
    "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
    "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
    "source": "CERT-EU",
-   "published": "2026-09-16T10:59:13.503Z",
-   "category": "eu-threat-landscape",
-   "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Pas…",
-   "relevance": 3,
-   "tags": []
+   "published": "2026-09-16T11:18:25.750Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-011: SAP's September Patch Day fixes two critical flaws, the most severe CVE-2026-44756 (CVSS 10.0), a memory corruption issue in SAP Extended Password-related components affecting a broad product range.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "sap",
+    "patch"
+   ]
   },
   {
    "id": "2026-09-16-007",
    "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
    "url": "https://cert.europa.eu/publications/security-advisories/2026-010/",
    "source": "CERT-EU",
-   "published": "2026-09-16T10:59:13.503Z",
-   "category": "eu-threat-landscape",
-   "summary": "On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway). CERT-EU recommends updating affected devices as soon as possible.",
-   "relevance": 3,
-   "tags": []
+   "published": "2026-09-16T11:18:25.750Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-010 covers multiple critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway; CERT-EU urges updating affected appliances as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "patch"
+   ]
   },
   {
    "id": "2026-09-16-008",
-   "title": "EU's Ursula von der Leyen says she wants Canada to become an associate member",
-   "url": "https://www.npr.org/2026/09/16/nx-s1-5970985/canada-become-eu-associate-member",
-   "source": "NPR World",
-   "published": "2026-09-16T10:48:22.000Z",
-   "category": "global-security",
-   "summary": "European Commission President Ursula von der Leyen on Wednesday proposed making Canada the European Union's first associate member, a striking overture as U.S. President Donald Trump's tariffs drive Ottawa closer to Europe.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-009",
-   "title": "280,000 Impacted by Premier Medical Group Data Breach",
-   "url": "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
-   "source": "SecurityWeek",
-   "published": "2026-09-16T10:47:18.000Z",
-   "category": "incidents-threats",
-   "summary": "In June 2026, hackers accessed files containing patients’ names, contact information, diagnosis details, and health insurance information. The post 280,000 Impacted by Premier Medical Group Data Breach appeared first on SecurityWeek .",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-010",
-   "title": "India summons Pakistani diplomat after incident in Arabian Sea",
-   "url": "https://www.aljazeera.com/news/2026/9/16/india-summons-pakistani-diplomat-after-incident-in-arabian-sea?traffic_source=rss",
-   "source": "Al Jazeera",
-   "published": "2026-09-16T10:46:34.000Z",
-   "category": "global-security",
-   "summary": "India accuses Pakistan of ignoring bilateral agreement after collison between the two countries' navies.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-011",
-   "title": "South African president vows justice as more women's bodies found near Johannesburg",
-   "url": "https://www.bbc.co.uk/news/articles/crgqde1nex2vo?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "published": "2026-09-16T10:44:02.000Z",
-   "category": "global-security",
-   "summary": "Police have not linked the deaths to a serial killer but are investigating this possibility.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-012",
-   "title": "Ministry of Justice apologizes after court staff accessed Southport victims' files",
-   "url": "https://www.theregister.com/security/2026/09/16/ministry-of-justice-apologizes-after-court-staff-accessed-southport-victims-files/5296808",
-   "source": "The Register – Security",
-   "published": "2026-09-16T10:42:28.000Z",
-   "category": "incidents-threats",
-   "summary": "Sensitive personal data was involved, but there is no evidence it was shared with third parties",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-013",
-   "title": "Rubrik MCP gives AI agents controlled access to security intelligence",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/rubrik-mcp/",
-   "source": "Help Net Security",
-   "published": "2026-09-16T10:41:44.000Z",
-   "category": "incidents-threats",
-   "summary": "Rubrik has announced Rubrik MCP (Model Context Protocol), giving an organization’s AI agents a secure, programmable path to Rubrik’s data, identity, and application intelligence. Support for MCP expands Rubrik AI, which is now trusted by one-third of its global customers, and un…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-014",
-   "title": "At least 20 killed after war-damaged Gaza building collapses",
-   "url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "published": "2026-09-16T10:40:36.000Z",
-   "category": "global-security",
-   "summary": "Dozens of people are missing beneath the rubble of the building in Gaza City, where some 10 families had been living.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-015",
-   "title": "Poll: Americans say there’s a serious risk of AI destroying humanity",
-   "url": "https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087",
-   "source": "Politico Europe",
-   "published": "2026-09-16T10:38:39.000Z",
-   "category": "policy-regulation",
-   "summary": "A new POLITICO Poll finds that a plurality of Americans favor pausing the development of more advanced AI models, and 63 percent say the technology poses at least a moderate risk of destroying humanity.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-016",
-   "title": "CenterPoint Energy confirms data breach following claims on hacking forum",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/centerpoint-energy-data-breach-hacker-claims/",
-   "source": "Help Net Security",
-   "published": "2026-09-16T10:35:02.000Z",
-   "category": "incidents-threats",
-   "summary": "CenterPoint Energy disclosed that an unauthorized third party got into customer data through one of its external systems, after online claims by a hacker that millions of records had been stolen from the company. CenterPoint Energy is a Houston-based public utility company that…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-017",
-   "title": "EU capitals caught off guard as von der Leyen announces ‘associate membership’ for Canada",
-   "url": "https://www.politico.eu/article/eu-capitals-mark-carney-ursula-von-der-leyen-associate-membership-canada/",
-   "source": "Politico Europe",
-   "published": "2026-09-16T10:30:34.000Z",
-   "category": "policy-regulation",
-   "summary": "Further alignment than currently planned would create new issues around steel, cars, genetically modified crops and other substantive issues, diplomats said.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-018",
-   "title": "EU chief opens door for Canada to become 'associate member'",
-   "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "published": "2026-09-16T10:28:45.000Z",
-   "category": "global-security",
-   "summary": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-019",
-   "title": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
-   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
-   "source": "SecurityWeek",
-   "published": "2026-09-16T10:28:36.000Z",
-   "category": "incidents-threats",
-   "summary": "Google resolved 42 security defects in Chrome, and Mozilla fixed 73 bugs in Firefox. The post Chrome, Firefox Updates Patch 115 Vulnerabilities appeared first on SecurityWeek .",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-020",
-   "title": "Nozomi Compass helps industrial teams manage OT assets and vulnerabilities",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/nozomi-networks-compass/",
-   "source": "Help Net Security",
-   "published": "2026-09-16T10:27:44.000Z",
-   "category": "incidents-threats",
-   "summary": "Nozomi Networks announced Nozomi Compass, an OT asset and service management platform designed to help organizations manage industrial assets, vulnerabilities, and exposures. The platform brings asset data, remediation workflows, and operational processes together, reducing reli…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-021",
-   "title": "Israeli double-tap strike kills 15-year-old and paramedic in Gaza",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/09-16-sv-gaza-double-tap-strike?traffic_source=rss",
-   "source": "Al Jazeera",
-   "published": "2026-09-16T10:21:49.000Z",
-   "category": "global-security",
-   "summary": "A child has been killed in an Israeli double-tap strike as he rushed to help a paramedic wounded in an earlier attack.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-022",
-   "title": "Citrix adds AI-powered browser activity analysis to SecurAccess",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/citrix-session-insights-capability/",
-   "source": "Help Net Security",
-   "published": "2026-09-16T10:14:29.000Z",
-   "category": "incidents-threats",
-   "summary": "Citrix has announced Citrix Session Insights, a new AI-powered capability for Citrix SecurAccess with Chrome Enterprise that helps organizations capture, analyze and understand browser activity from users and autonomous agents. By combining visual session evidence, AI-powered ri…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-023",
-   "title": "Real Madrid stars appear to hide Ceuta solidarity message",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/16/real-madrid-stars-appear-to-hide-ceuta-solidarity-message?traffic_source=rss",
-   "source": "Al Jazeera",
-   "published": "2026-09-16T10:11:54.000Z",
-   "category": "global-security",
-   "summary": "Three Real Madrid players covered a ‘We are all Caballas’ message on shirts worn in solidarity with Spain’s Ceuta.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-024",
-   "title": "JD Vance: US cannot be ‘subservient’ to Israel on Middle East policy",
-   "url": "https://www.politico.eu/article/jd-vance-us-israel-middle-east-policy/",
-   "source": "Politico Europe",
-   "published": "2026-09-16T10:05:53.000Z",
-   "category": "policy-regulation",
-   "summary": "The U.S. vice president delivered another warning to Israeli officials, amid ongoing conflict in the Middle East.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-025",
-   "title": "Global Gender Gap Report: Women's hard-won gains 'fragile'",
-   "url": "https://www.dw.com/en/global-gender-gap-report-women-s-hard-won-gains-fragile/a-79280086?maca=en-rss-en-world-4025-rdf",
-   "source": "DW World",
-   "published": "2026-09-16T10:05:00.000Z",
-   "category": "global-security",
-   "summary": "Two decades of progress toward gender parity is at risk as women's political representation declines, according to a new World Economic Forum report. At the current pace, the remaining gap could take 120 years to close.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-026",
-   "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-   "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-   "source": "BBC World",
-   "published": "2026-09-16T10:02:05.000Z",
-   "category": "global-security",
-   "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-027",
-   "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
-   "url": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
-   "source": "Talos Intelligence",
-   "published": "2026-09-16T10:00:36.000Z",
+   "title": "Critical ScreenConnect flaw now actively exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+   "source": "BleepingComputer",
+   "published": "2026-09-16T11:14:28.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensato…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-028",
-   "title": "Atomic macOS (AMOS) Stealer Activity",
-   "url": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
-   "source": "Unit 42",
-   "published": "2026-09-16T10:00:06.000Z",
-   "category": "vulns-malware-ttps",
-   "summary": "Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-029",
-   "title": "Debating Ursula von der Leyen's speech on The Ring",
-   "url": "https://www.euronews.com/my-europe/2026/09/16/debating-ursula-von-der-leyens-speech-on-the-ring",
-   "source": "Euronews – Europe",
-   "published": "2026-09-16T10:00:02.000Z",
-   "category": "policy-regulation",
-   "summary": "After Ursula von der Leyen's address, the debate: MEPs Li Andersson and Lukas Mandl deconstruct the EU Commission president's speech in a live edition of The Ring.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-030",
-   "title": "Turkey sees Greece’s militarization of Aegean Islands as ‘threat’",
-   "url": "https://www.politico.eu/article/ankara-turkey-greece-militarization-aegean-islands-threat/",
-   "source": "Politico Europe",
-   "published": "2026-09-16T09:58:40.000Z",
-   "category": "policy-regulation",
-   "summary": "“Greece must not add another provocation to the numerous security challenges our region faces,” Turkish Foreign Minister Hakan Fidan said.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-031",
-   "title": "Kosovo ex-president Thaci sentenced to 25 years for war crimes",
-   "url": "https://www.dw.com/en/kosovo-ex-president-thaci-sentenced-to-25-years-for-war-crimes/a-79286344?maca=en-rss-en-world-4025-rdf",
-   "source": "DW World",
-   "published": "2026-09-16T09:58:00.000Z",
-   "category": "global-security",
-   "summary": "A Hague tribunal ruled that Hashim Thaci, a former leader of the Kosovo Liberation Army (KLA), is responsible for war crimes carried out during the war of independence with Serbia.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-033",
-   "title": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
-   "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
-   "source": "SecurityWeek",
-   "published": "2026-09-16T09:52:31.000Z",
-   "category": "incidents-threats",
-   "summary": "CVE-2026-87886 is a high-severity insecure file permissions flaw that can lead to local privilege escalation. The post Acronis Patches Exploited Vulnerability in cPanel Backup Plugin appeared first on SecurityWeek .",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-036",
-   "title": "One runaway AI agent racked up a $50,000 cloud bill",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/",
-   "source": "Help Net Security",
-   "published": "2026-09-16T09:45:43.000Z",
-   "category": "incidents-threats",
-   "summary": "Organizations are deploying autonomous AI systems that execute API calls, optimize production configurations, and analyze telemetry across hybrid cloud environments. At the same time, attacks are expanding from direct prompts to indirect prompt injection and AI supply chain comp…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-039",
-   "title": "Where in Europe are homes most at risk of a break in?",
-   "url": "https://www.euronews.com/my-europe/2026/09/16/where-in-europe-are-homes-most-at-risk-of-a-break-in",
-   "source": "Euronews – Europe",
-   "published": "2026-09-16T09:34:43.000Z",
-   "category": "policy-regulation",
-   "summary": "Burglary rates vary widely across the EU as Europe's security alarm market flourishes.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-043",
-   "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
-   "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
-   "source": "Wired – AI",
-   "published": "2026-09-16T09:30:00.000Z",
-   "category": "ai-security",
-   "summary": "The US and China agree that advanced AI poses serious risks. But Beijing is deeply skeptical of a deal that prioritizes keeping US companies ahead.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-045",
-   "title": "Thousands of suspicious accounts followed Swedish political voices, researchers say",
-   "url": "https://www.euronews.com/my-europe/2026/09/16/thousands-of-suspicious-accounts-followed-swedish-political-voices-researchers-say",
-   "source": "Euronews – Europe",
-   "published": "2026-09-16T09:19:09.000Z",
-   "category": "policy-regulation",
-   "summary": "More than 8,500 X accounts were identified as suspicious in the run-up to Sweden's general election, in which the centre-left opposition secured a narrow preliminary lead.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-046",
-   "title": "Canada invited to become first 'associate member' of the EU",
-   "url": "https://www.euronews.com/my-europe/2026/09/16/canada-to-become-first-associate-member-of-the-eu",
-   "source": "Euronews – Europe",
-   "published": "2026-09-16T09:18:47.000Z",
-   "category": "policy-regulation",
-   "summary": "The status announced by von der Leyen during the State of the Union is an entirely new one, with details yet to be made clear. The European Commission’s President also proposed a new alliance with Ottawa covering tech, critical raw materials, energy and defence.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-048",
-   "title": "UK to make ‘doxxing’ a criminal offense",
-   "url": "https://www.politico.eu/article/uk-to-make-doxxing-a-criminal-offense/",
-   "source": "Politico Europe",
-   "published": "2026-09-16T09:12:04.000Z",
-   "category": "policy-regulation",
-   "summary": "The U.K. is clamping down on 'doxxing' following a wave of online abuse against lifeboat volunteers.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-049",
-   "title": "Tiny village votes to quit UK in protest at asylum-seeker accommodation",
-   "url": "https://www.politico.eu/article/piddington-oxfordshire-votes-to-quit-uk-protest-asylum-seeker-accommodation/",
-   "source": "Politico Europe",
-   "published": "2026-09-16T09:11:01.000Z",
-   "category": "policy-regulation",
-   "summary": "Piddington's exercise has no legal authority, but shows scale of local opposition on a hot-button issue.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-070",
-   "title": "ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096, (Wed, Sep 16th)",
-   "url": "https://isc.sans.edu/diary/rss/33342",
-   "source": "SANS ISC",
-   "published": "2026-09-16T02:00:02.000Z",
-   "category": "vulns-malware-ttps",
-   "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-071",
-   "title": "Gemini Live audio",
-   "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
-   "source": "Simon Willison",
-   "published": "2026-09-15T22:47:07.000Z",
-   "category": "ai-security",
-   "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying o…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-072",
-   "title": "AI ‘Actor’ Tilly Norwood Told Me That ‘All Lives Matter’",
-   "url": "https://www.wired.com/story/ai-actor-tilly-norwood-told-me-that-all-lives-matter/",
-   "source": "Wired – AI",
-   "published": "2026-09-15T18:00:09.000Z",
-   "category": "ai-security",
-   "summary": "The virtual character, which is promoting its upcoming movie Misaligned, tries to evade politics by repetitively commenting on the clothes you’re wearing.",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-073",
-   "title": "Tageszusammenfassung - 15.09.2026",
-   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-15092026",
-   "source": "CERT.at",
-   "published": "2026-09-15T17:16:38.000Z",
-   "category": "eu-threat-landscape",
-   "summary": "End-of-Day report Timeframe: Montag 14-09-2026 18:00 - Dienstag 15-09-2026 18:00 Handler: Michael Schlagenhaufer Co-Handler: n/a News Eine Phishing-Mail, vier Fallen, drei Sprachen - Wenn Kriminelle schlampig arbeiten Betrugsmaschen im Namen von FinanzOnline gehören zu den absol…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-074",
-   "title": "MacOS 27 - First Boot, (Tue, Sep 15th)",
-   "url": "https://isc.sans.edu/diary/rss/33340",
-   "source": "SANS ISC",
-   "published": "2026-09-15T15:23:45.000Z",
-   "category": "vulns-malware-ttps",
-   "summary": "I have not done this type of diary in a while: What traffic will you see from a system on boot, before a user logs in&#x3f; I just took a quick look at macOS 27 \"Golden Gate\" to see what traffic you should expect. Here are some of the highlights: &#xd;",
-   "relevance": 3,
-   "tags": []
+   "summary": "CISA reports active in-the-wild exploitation of a critical ConnectWise ScreenConnect vulnerability, putting remote access and RMM tooling back in the spotlight.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "exploited",
+    "rmm"
+   ]
   },
   {
    "id": "2026-09-16-075",
@@ -677,9 +254,13 @@
    "source": "CERT.at",
    "published": "2026-09-15T14:56:21.000Z",
    "category": "eu-threat-landscape",
-   "summary": "15. September 2026 Beschreibung In Cisco Secure Email Gateway existiert eine kritische Sicherheitsl&uuml;cke. Bei erfolgreicher Ausnutzung k&ouml;nnte diese Sicherheitsl&uuml;cke es nicht authentifizierten Angreifer:innen aus der Ferne erm&ouml;glichen Befehle mit Root-Rechten a…",
-   "relevance": 3,
-   "tags": []
+   "summary": "CERT.at warns of a critical, actively exploited vulnerability in Cisco Secure Email Gateway that could let unauthenticated remote attackers execute commands with root privileges; updates are available.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "exploited",
+    "cisco"
+   ]
   },
   {
    "id": "2026-09-16-076",
@@ -688,64 +269,148 @@
    "source": "Rapid7 Blog",
    "published": "2026-09-15T12:22:50.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "Overview On September 14, 2026, Cisco published a security advisory for CVE-2026-76461 , a critical SQL injection vulnerability affecting Cisco AsyncOS Software for Cisco Secure Email Gateway. The vulnerability has a reported CVSS v3.1 base score of 9.8 and could allow an unauth…",
-   "relevance": 3,
-   "tags": []
+   "summary": "Cisco disclosed CVE-2026-76461, a critical SQL injection flaw (CVSS 9.8) in AsyncOS for Secure Email Gateway that unauthenticated attackers are exploiting in the wild, per Rapid7's analysis.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "exploited",
+    "cisco"
+   ]
   },
   {
-   "id": "2026-09-16-077",
-   "title": "Protecting Tokens and Assertions from Forgery, Theft, and Misuse: Implementation Recommendations for Agencies and Cloud Service Providers",
-   "url": "https://www.cisa.gov/resources-tools/resources/protecting-tokens-and-assertions-forgery-theft-and-misuse-implementation-recommendations-agencies",
-   "source": "CISA Advisories",
-   "published": "2026-09-15T12:00:00.000Z",
+   "id": "2026-09-16-022",
+   "title": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
+   "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
+   "source": "SecurityWeek",
+   "published": "2026-09-16T10:28:36.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "Developed by the National Institute of Standards and Technology (NIST) and CISA, this interagency report provides federal agencies and cloud service providers with guidelines to protect the identity assertions, access tokens, and cryptographic mechanisms that support modern auth…",
-   "relevance": 3,
-   "tags": []
+   "summary": "Browser patch round: Google fixed 42 security defects in Chrome and Mozilla resolved 73 bugs in Firefox, 115 vulnerabilities in total. Endpoint fleets should roll updates promptly.",
+   "relevance": 4,
+   "tags": [
+    "patch",
+    "browser",
+    "cve"
+   ]
   },
   {
-   "id": "2026-09-16-078",
-   "title": "Digital Watchdog VMAX DVR and NVR Product Lineups",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-01",
-   "source": "CISA Advisories",
-   "published": "2026-09-15T12:00:00.000Z",
-   "category": "vulns-malware-ttps",
-   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could grant full administrative control of the device, allowing an attacker to view live and recorded surveillance, alter device configurations, and use the device as a network pivot point. The following versions…",
-   "relevance": 3,
-   "tags": []
+   "id": "2026-09-16-030",
+   "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
+   "url": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-16T10:00:36.000Z",
+   "category": "ai-security",
+   "summary": "Cisco Talos argues AI will keep surfacing vulnerabilities that are hard or impossible to patch, and recommends network segmentation, rigorous visibility and NGFW/IPS as compensating controls.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "segmentation",
+    "vulnerability-management"
+   ]
   },
   {
-   "id": "2026-09-16-079",
-   "title": "mySCADA myPRO Manager",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-03",
-   "source": "CISA Advisories",
-   "published": "2026-09-15T12:00:00.000Z",
+   "id": "2026-09-16-031",
+   "title": "Atomic macOS (AMOS) Stealer Activity",
+   "url": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
+   "source": "Unit 42",
+   "published": "2026-09-16T10:00:06.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access privileged management functions or send arbitrary SMS messages through the connected GSM modem. The following versions of mySCADA myPRO Manager are affected: mySCADA myPRO Manage…",
-   "relevance": 3,
-   "tags": []
+   "summary": "Unit 42 details ongoing Atomic macOS (AMOS) stealer activity, where deceptive setup guides trick users into handing over credentials and sensitive data, with detection and blocking guidance.",
+   "relevance": 4,
+   "tags": [
+    "macos",
+    "stealer",
+    "malware"
+   ]
   },
   {
-   "id": "2026-09-16-080",
-   "title": "Schneider Electric SCADAPack x70 Products",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-04",
-   "source": "CISA Advisories",
-   "published": "2026-09-15T12:00:00.000Z",
+   "id": "2026-09-16-036",
+   "title": "Acronis Patches Exploited Vulnerability in cPanel Backup Plugin",
+   "url": "https://www.securityweek.com/acronis-patches-exploited-vulnerability-in-cpanel-backup-plugin/",
+   "source": "SecurityWeek",
+   "published": "2026-09-16T09:52:31.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its SCADAPack x70 products. The SCADAPack 47x, SCADAPack 47xi, SCADAPack 47xd, SCADAPack 470R and SCADAPack 57x products are Remote Terminal Units that provide communication capabilities for remote monitoring an…",
-   "relevance": 3,
-   "tags": []
+   "summary": "Acronis patched CVE-2026-87886, a high-severity insecure file permissions flaw in its cPanel backup plugin that enables local privilege escalation and is reported as exploited.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "exploited",
+    "privilege-escalation"
+   ]
   },
   {
-   "id": "2026-09-16-081",
-   "title": "Siemens Teamcenter",
-   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-258-07",
-   "source": "CISA Advisories",
-   "published": "2026-09-15T12:00:00.000Z",
+   "id": "2026-09-16-044",
+   "title": "Acronis backup plugin flaw exploited in targeted attacks (CVE-2026-87886)",
+   "url": "https://www.helpnetsecurity.com/2026/09/16/acronis-backup-plugin-vulnerability-exploited-cve-2026-87886/",
+   "source": "Help Net Security",
+   "published": "2026-09-16T09:33:34.000Z",
    "category": "vulns-malware-ttps",
-   "summary": "View CSAF Summary A reflected cross site scripting vulnerability in the authentication redirect flow (/auth/) of Teamcenter allows an unauthenticated remote attacker to inject JavaScript into an authenticated user's session by crafting a malicious URL. Successful exploitation ma…",
-   "relevance": 3,
-   "tags": []
+   "summary": "Acronis warns CVE-2026-87886, a Linux privilege escalation flaw in its backup extensions for cPanel, WHM and Plesk, is being exploited in targeted attacks in the wild.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "exploited",
+    "linux"
+   ]
+  },
+  {
+   "id": "2026-09-16-053",
+   "title": "Windows Server 2022 reaches end of mainstream support next month",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
+   "source": "BleepingComputer",
+   "published": "2026-09-16T09:10:20.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft reminds customers Windows Server 2022 reaches end of mainstream support next month and moves into extended support until October 2031, a lifecycle planning item for server estates.",
+   "relevance": 4,
+   "tags": [
+    "microsoft",
+    "eol",
+    "patch-management"
+   ]
+  },
+  {
+   "id": "2026-09-16-054",
+   "title": "Iranian hackers use CHOSEN BRICK data-stealing malware to spy on dissidents and journalists",
+   "url": "https://www.helpnetsecurity.com/2026/09/16/iranian-hackers-chosen-brick-malware-dissidents-journalists/",
+   "source": "Help Net Security",
+   "published": "2026-09-16T09:06:54.000Z",
+   "category": "incidents-threats",
+   "summary": "Three Western intelligence agencies, including the UK NCSC, warn Iranian state actors are deploying CHOSEN BRICK data-stealing malware against dissidents and journalists, reaching victims via messaging apps and infecting Windows devices.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "iran",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-09-16-058",
+   "title": "US exposes alleged Russian terror network targeting Ukraine allies",
+   "url": "https://www.politico.eu/article/russia-intelligence-network-us-europe-murder-terrorism-charges/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T08:42:26.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "US prosecutors exposed an alleged Russian network that planned attacks on civilian and military infrastructure across Europe, targeting countries supporting Ukraine.",
+   "relevance": 4,
+   "tags": [
+    "russia",
+    "sabotage",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-09-16-064",
+   "title": "EU's von der Leyen calls for pacing frontier AI models",
+   "url": "https://www.euronews.com/my-europe/2026/09/16/eus-von-der-leyen-calls-for-pacing-frontier-ai-models",
+   "source": "Euronews – Europe",
+   "published": "2026-09-16T07:41:56.000Z",
+   "category": "policy-regulation",
+   "summary": "In her State of the Union address, von der Leyen called for pacing the development of frontier AI models and pledged closer AI safety cooperation with Canada, the UK and other partners.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "eu",
+    "governance"
+   ]
   },
   {
    "id": "2026-09-16-086",
@@ -754,9 +419,13 @@
    "source": "NCSC UK",
    "published": "2026-09-15T12:00:00.000Z",
    "category": "eu-threat-landscape",
-   "summary": "Advisory on CHOSEN BRICK malware, including technical analysis and advice to help individuals and organisations protect themselves.",
-   "relevance": 3,
-   "tags": []
+   "summary": "The UK NCSC published an advisory on CHOSEN BRICK malware, with technical analysis and protective advice for individuals and organisations at risk.",
+   "relevance": 4,
+   "tags": [
+    "iran",
+    "spyware",
+    "advisory"
+   ]
   },
   {
    "id": "2026-09-16-087",
@@ -765,9 +434,337 @@
    "source": "NCSC UK",
    "published": "2026-09-15T12:00:00.000Z",
    "category": "eu-threat-landscape",
-   "summary": "UK and allies provide advice to help organisations and individuals at risk detect and counter the threat from CHOSEN BRICK malware.",
+   "summary": "The UK and allied agencies publicly exposed spyware used by Iranian state actors against dissidents, activists and journalists, with detection and mitigation advice.",
+   "relevance": 4,
+   "tags": [
+    "iran",
+    "spyware",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-09-16-015",
+   "title": "Ministry of Justice apologizes after court staff accessed Southport victims' files",
+   "url": "https://www.theregister.com/security/2026/09/16/ministry-of-justice-apologizes-after-court-staff-accessed-southport-victims-files/5296808",
+   "source": "The Register – Security",
+   "published": "2026-09-16T10:42:28.000Z",
+   "category": "incidents-threats",
+   "summary": "The UK Ministry of Justice apologised after court staff improperly accessed Southport victims' files containing sensitive personal data; no evidence of onward sharing has been found.",
    "relevance": 3,
-   "tags": []
+   "tags": [
+    "insider",
+    "data-protection",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-09-16-020",
+   "title": "CenterPoint Energy confirms data breach following claims on hacking forum",
+   "url": "https://www.helpnetsecurity.com/2026/09/16/centerpoint-energy-data-breach-hacker-claims/",
+   "source": "Help Net Security",
+   "published": "2026-09-16T10:35:02.000Z",
+   "category": "incidents-threats",
+   "summary": "US utility CenterPoint Energy confirmed an unauthorised third party accessed customer data via an external system, after a hacking forum claim that millions of records were stolen.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "utilities",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-09-16-039",
+   "title": "One runaway AI agent racked up a $50,000 cloud bill",
+   "url": "https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-09-16T09:45:43.000Z",
+   "category": "ai-security",
+   "summary": "Report on autonomous AI systems running API calls and production changes, including a runaway agent that generated a USD 50,000 cloud bill, alongside indirect prompt injection and AI supply chain risks.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "prompt-injection"
+   ]
+  },
+  {
+   "id": "2026-09-16-048",
+   "title": "Thousands of suspicious accounts followed Swedish political voices, researchers say",
+   "url": "https://www.euronews.com/my-europe/2026/09/16/thousands-of-suspicious-accounts-followed-swedish-political-voices-researchers-say",
+   "source": "Euronews – Europe",
+   "published": "2026-09-16T09:19:09.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Researchers identified more than 8,500 suspicious X accounts following Swedish political voices ahead of the general election, pointing to coordinated influence activity.",
+   "relevance": 3,
+   "tags": [
+    "disinformation",
+    "elections",
+    "influence-ops"
+   ]
+  },
+  {
+   "id": "2026-09-16-063",
+   "title": "Von der Leyen pitches European Security Council in response to Trump and Putin",
+   "url": "https://www.politico.eu/article/von-der-leyen-pitches-european-security-council-in-response-to-trump-and-putin/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T07:59:26.000Z",
+   "category": "policy-regulation",
+   "summary": "The Commission president pitched a European Security Council in response to pressure from Washington and Moscow, citing the nature and scale of current risks.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "defence",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-09-16-068",
+   "title": "EU digital wallet: 24 of 27 members will miss the deadline",
+   "url": "https://www.euronews.com/my-europe/2026/09/16/eu-digital-wallet-24-of-27-members-will-miss-the-deadline",
+   "source": "Euronews – Europe",
+   "published": "2026-09-16T06:25:37.000Z",
+   "category": "policy-regulation",
+   "summary": "Only three of 27 EU member states have launched a digital ID wallet, so 24 are set to miss the 24 December 2026 deadline, a compliance gap for eIDAS-dependent services.",
+   "relevance": 3,
+   "tags": [
+    "eidas",
+    "digital-id",
+    "compliance"
+   ]
+  },
+  {
+   "id": "2026-09-16-073",
+   "title": "Tageszusammenfassung - 15.09.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-15092026",
+   "source": "CERT.at",
+   "published": "2026-09-15T17:16:38.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's end-of-day report for 15 September 2026 covers current Austrian threat items, including multilingual phishing campaigns abusing the FinanzOnline tax portal brand.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "austria",
+    "cert"
+   ]
+  },
+  {
+   "id": "2026-09-16-002",
+   "title": "Andorran Police joins Europol’s secure communication network",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/andorran-police-joins-europol%E2%80%99s-secure-communication-network",
+   "source": "Europol",
+   "published": "2026-09-16T11:18:25.878Z",
+   "category": "eu-threat-landscape",
+   "summary": "The Andorran Police joined Europol's secure communication network under a Memorandum of Understanding, enabling secure law enforcement information sharing with European and international partners.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "cooperation"
+   ]
+  },
+  {
+   "id": "2026-09-16-003",
+   "title": "Crackdown on Italian organised criminal network involved in large-scale euro counterfeiting",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/crackdown-italian-organised-criminal-network-involved-in-large-scale-euro-counterfeiting",
+   "source": "Europol",
+   "published": "2026-09-16T11:18:25.878Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol supported an international operation against a Camorra-linked network involved in large-scale euro counterfeiting, coordinated by German police and the Stuttgart prosecutor's office.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-09-16-011",
+   "title": "EU chief backs plan for Canada to become 'associate member'",
+   "url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-16T10:59:53.000Z",
+   "category": "global-security",
+   "summary": "The European Commission president backs a plan for Canada to become an EU 'associate member', as Ottawa seeks closer ties with Europe after strained relations with the US.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-16-013",
+   "title": "EU's Ursula von der Leyen says she wants Canada to become an associate member",
+   "url": "https://www.npr.org/2026/09/16/nx-s1-5970985/canada-become-eu-associate-member",
+   "source": "NPR World",
+   "published": "2026-09-16T10:48:22.000Z",
+   "category": "global-security",
+   "summary": "European Commission President von der Leyen proposed making Canada the EU's first associate member, an overture as US tariffs push Ottawa closer to Europe.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-16-014",
+   "title": "280,000 Impacted by Premier Medical Group Data Breach",
+   "url": "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
+   "source": "SecurityWeek",
+   "published": "2026-09-16T10:47:18.000Z",
+   "category": "incidents-threats",
+   "summary": "Premier Medical Group says a June 2026 intrusion exposed files with patient names, contact details, diagnosis information and health insurance data, affecting about 280,000 people.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "healthcare",
+    "pii"
+   ]
+  },
+  {
+   "id": "2026-09-16-019",
+   "title": "Poll: Americans say there’s a serious risk of AI destroying humanity",
+   "url": "https://www.politico.com/news/2026/09/16/poll-ai-technology-risks-humanity-trump-voters-01078087",
+   "source": "Politico Europe",
+   "published": "2026-09-16T10:38:39.000Z",
+   "category": "ai-security",
+   "summary": "A POLITICO poll finds a plurality of Americans favour pausing development of more advanced AI models, with 63 percent seeing at least moderate risk of AI destroying humanity.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance",
+    "polling"
+   ]
+  },
+  {
+   "id": "2026-09-16-021",
+   "title": "EU capitals caught off guard as von der Leyen announces ‘associate membership’ for Canada",
+   "url": "https://www.politico.eu/article/eu-capitals-mark-carney-ursula-von-der-leyen-associate-membership-canada/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T10:30:34.000Z",
+   "category": "policy-regulation",
+   "summary": "EU capitals were caught off guard by von der Leyen's 'associate membership' offer to Canada; diplomats warn deeper alignment raises issues on steel, cars and GM crops.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-09-16-029",
+   "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-16T10:02:05.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI's chief executive said the world is 'right to be afraid' of AI but should trust AI firms, as tech CEOs argue there are incentives to limit advances amid growing safety concerns.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-09-16-034",
+   "title": "Kosovo ex-president Thaci sentenced to 25 years for war crimes",
+   "url": "https://www.dw.com/en/kosovo-ex-president-thaci-sentenced-to-25-years-for-war-crimes/a-79286344?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-09-16T09:58:00.000Z",
+   "category": "global-security",
+   "summary": "A Hague tribunal sentenced former Kosovo president Hashim Thaci to 25 years for war crimes committed during the independence war with Serbia.",
+   "relevance": 2,
+   "tags": [
+    "balkans",
+    "justice"
+   ]
+  },
+  {
+   "id": "2026-09-16-045",
+   "title": "At least five killed in Russian drone strike near Ukraine front line",
+   "url": "https://www.aljazeera.com/news/2026/9/16/at-least-five-killed-in-russian-drone-strike-near-ukraine-front-line?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-16T09:32:52.000Z",
+   "category": "global-security",
+   "summary": "A Russian drone strike near Nikopol in south-eastern Ukraine killed at least five people and injured seven, the Dnipropetrovsk governor said.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "russia",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-09-16-046",
+   "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+   "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/",
+   "source": "Wired – AI",
+   "published": "2026-09-16T09:30:00.000Z",
+   "category": "ai-security",
+   "summary": "Analysis of why Beijing is sceptical of Silicon Valley's proposed AI slowdown: both the US and China acknowledge advanced AI risks, but China resists a deal seen as locking in US leadership.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-16-049",
+   "title": "Canada invited to become first 'associate member' of the EU",
+   "url": "https://www.euronews.com/my-europe/2026/09/16/canada-to-become-first-associate-member-of-the-eu",
+   "source": "Euronews – Europe",
+   "published": "2026-09-16T09:18:47.000Z",
+   "category": "policy-regulation",
+   "summary": "Canada was invited to become the EU's first 'associate member', with a proposed alliance covering technology, critical raw materials, energy and defence; details remain unclear.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-09-16-051",
+   "title": "UK to make ‘doxxing’ a criminal offense",
+   "url": "https://www.politico.eu/article/uk-to-make-doxxing-a-criminal-offense/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T09:12:04.000Z",
+   "category": "policy-regulation",
+   "summary": "The UK will criminalise doxxing following a wave of online abuse directed at lifeboat volunteers, tightening rules on publishing personal data to harass.",
+   "relevance": 2,
+   "tags": [
+    "uk",
+    "privacy",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-09-16-057",
+   "title": "Von der Leyen tries to stem tide on global threats ― from Trump to AI and climate",
+   "url": "https://www.politico.eu/article/ursula-von-der-leyen-state-of-the-union-europe-independence-ai-climate/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T08:56:37.000Z",
+   "category": "policy-regulation",
+   "summary": "Von der Leyen's State of the Union pushed European 'independence' against threats ranging from US policy to AI and climate, while floating associate membership for Canada.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ai",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-09-16-062",
+   "title": "EU wants Canada to become ‘associate member,’ von der Leyen says",
+   "url": "https://www.politico.eu/article/eu-wants-canada-to-become-associate-member-von-der-leyen-says/",
+   "source": "Politico Europe",
+   "published": "2026-09-16T08:01:24.000Z",
+   "category": "policy-regulation",
+   "summary": "Von der Leyen proposed an 'Alliance for the Future' with Canada, building on the existing EU-Canada trade agreement alongside the associate membership offer.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics",
+    "trade"
+   ]
   },
   {
    "id": "2026-09-16-088",
@@ -775,21 +772,14 @@
    "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
    "source": "Schneier on Security",
    "published": "2026-09-15T11:01:41.000Z",
-   "category": "ai-security",
-   "summary": "This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such as individual wiretaps or pen register/trap and trace orders—to mass surveillan…",
-   "relevance": 3,
-   "tags": []
-  },
-  {
-   "id": "2026-09-16-089",
-   "title": "On the NSA’s Supercomputer from the 1960s",
-   "url": "https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html",
-   "source": "Schneier on Security",
-   "published": "2026-09-15T10:16:24.000Z",
-   "category": "ai-security",
-   "summary": "Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA.",
-   "relevance": 3,
-   "tags": []
+   "category": "policy-regulation",
+   "summary": "Essay by Bruce Schneier and Cindy Cohn arguing the post-9/11 shift from targeted surveillance to mass surveillance should end, 25 years on.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "surveillance",
+    "commentary"
+   ]
   }
  ]
 }
