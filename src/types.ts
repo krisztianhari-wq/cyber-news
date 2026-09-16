@@ -30,7 +30,6 @@ export interface DayFile {
   itemCount: number;
   feeds: FeedStatus[];
   items: NewsItem[];
-  post: string;
 }
 
 export interface IndexFile {

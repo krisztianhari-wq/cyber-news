@@ -278,11 +278,10 @@ const day = {
   itemCount: capped.length,
   feeds: feedStatus.sort((a, b) => a.name.localeCompare(b.name)),
   items: capped,
-  post,
 };
 
 await fs.mkdir(DAYS_DIR, { recursive: true });
 await fs.mkdir(POSTS_DIR, { recursive: true });
 await fs.writeFile(path.join(DAYS_DIR, `${today}.json`), JSON.stringify(day, null, 1));
-await fs.writeFile(path.join(POSTS_DIR, `${today}.md`), `# Social post – ${today}\n\n${post}\n`);
+await fs.writeFile(path.join(POSTS_DIR, `${today}.md`), `# Social post – ${today}\n\n${post}\n`); // local only, gitignored
 console.log(`[collect] wrote ${capped.length} items -> public/data/days/${today}.json, posts/${today}.md`);

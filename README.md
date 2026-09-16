@@ -1,6 +1,6 @@
 # Yettel Cyber Digest
 
-Automated daily cybersecurity briefing. A GitHub Actions job collects public RSS/Atom feeds every morning, has Claude classify and summarise the items into six categories, stores the day as a JSON file in the repo (the archive), generates a ready-to-paste social media post (**never posted automatically**), and deploys a static, searchable site to GitHub Pages.
+Automated daily cybersecurity briefing. A GitHub Actions job collects public RSS/Atom feeds every morning, has Claude classify and summarise the items into six categories, stores the day as a JSON file in the repo (the archive), and deploys a static, searchable site to GitHub Pages. A ready-to-paste social media post is generated too, but it stays **local only** (`posts/` is gitignored, never published or posted automatically) and is handed to the editor in the scheduled task's final report.
 
 ## Categories
 AI Security News & Trends · Global Security News (non-cyber) · Global Cybersecurity Incidents & Threats · Vulnerabilities, Malware & TTPs · Policy, Regulation & Governance (EU) · EU & European Country Threat Landscape
