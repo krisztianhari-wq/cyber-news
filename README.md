@@ -23,4 +23,4 @@ npm run dev                   # preview at http://localhost:5173
 - Summaries are AI-generated; always verify with the linked source.
 
 ## View counter
-Page views are counted with [GoatCounter](https://www.goatcounter.com) (no cookies, no personal data). The build reads the site code from the repository variable `GOATCOUNTER_CODE`; without it nothing is loaded.
+Page views are counted with [GoatCounter](https://www.goatcounter.com) (no cookies, no personal data). The site code is set in `vite.config.ts` (override or disable with the `VITE_GOATCOUNTER_CODE` build variable).
