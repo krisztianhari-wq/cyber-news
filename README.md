@@ -8,7 +8,7 @@ Daily cybersecurity briefing, published automatically every morning.
 - Collects news from ~44 public sources (RSS/Atom feeds, HTML news pages, Google News proxies) defined in `config/feeds.json`.
 - Classifies and summarises them into six categories: AI Security · Global Security (non-cyber) · Incidents & Threats · Vulnerabilities, Malware & TTPs · Policy & Regulation (EU) · EU Threat Landscape.
 - Stores each day as `public/data/days/YYYY-MM-DD.json`; the archive is searchable on the site.
-- Static site (Vite + React) deployed to GitHub Pages by `.github/workflows/daily.yml`, which also runs a heuristic fallback collection if no edition exists by 07:30 CEST.
+- Static site (Vite + React) deployed to GitHub Pages by `.github/workflows/daily.yml`, which also runs a heuristic fallback collection if no edition exists by 10:30 CEST.
 
 ## Local use
 ```bash
