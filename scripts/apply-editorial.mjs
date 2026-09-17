@@ -1,6 +1,7 @@
 // Merge an externally produced editorial file into a day file.
 // Usage: node scripts/apply-editorial.mjs YYYY-MM-DD path/to/editorial.json
-// editorial.json = { "items": [{ "id", "category", "summary", "relevance", "tags" }], "post": "..." }
+// editorial.json = { "items": [{ "id", "category", "summary", "relevance", "tags", "title"? }], "post": "..." }
+// "title" is optional: an English translation for non-English headlines (the original is kept as originalTitle).
 // Everything in the editorial file is validated and sanitised here; the site never trusts it blindly.
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -25,6 +26,7 @@ for (const r of Array.isArray(ed.items) ? ed.items : []) {
   if (typeof r?.id !== "string") continue;
   const rel = Math.round(Number(r.relevance));
   byId.set(r.id, {
+    title: typeof r.title === "string" ? clean(r.title, 200) : "",
     category: CATEGORY_IDS.has(r.category) ? r.category : null,
     summary: clean(r.summary, 320),
     relevance: rel >= 1 && rel <= 5 ? rel : null,
@@ -37,8 +39,10 @@ const items = day.items.map((it) => {
   const r = byId.get(it.id);
   if (!r) return it;
   matched++;
+  const translated = r.title && r.title !== it.title;
   return {
     ...it,
+    ...(translated ? { title: r.title, originalTitle: it.originalTitle ?? it.title } : {}),
     category: r.category ?? it.category,
     summary: r.summary || it.summary,
     relevance: r.relevance ?? it.relevance,
