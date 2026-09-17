@@ -66,5 +66,5 @@ const out = {
 };
 delete out.post;
 await fs.writeFile(dayPath, JSON.stringify(out, null, 1));
-await fs.writeFile(path.join(ROOT, "posts", `${date}.md`), `# Social post – ${date}\n\n${post || "(no post generated)"}\n`);
+if (post) await fs.writeFile(path.join(ROOT, "posts", `${date}.md`), `# Social post – ${date}\n\n${post}\n`); // title-only edits leave the existing post untouched
 console.log(`[editorial] ${matched}/${day.items.length} items updated, ${capped.length} kept -> ${path.relative(ROOT, dayPath)}; post -> posts/${date}.md (local only)`);
