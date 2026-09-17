@@ -11,6 +11,8 @@ export interface Category { id: CategoryId; name: string; short: string }
 export interface NewsItem {
   id: string;
   title: string;
+  /** Original headline when `title` is an English translation */
+  originalTitle?: string;
   url: string;
   source: string;
   published: string;

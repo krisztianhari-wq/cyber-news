@@ -44,10 +44,10 @@ export function App() {
   const search = useMemo(() => {
     if (!index) return null;
     const ms = new MiniSearch<NewsItem>({
-      fields: ["title", "summary", "source", "tags"],
+      fields: ["title", "originalTitle", "summary", "source", "tags"],
       storeFields: ["id"],
       searchOptions: { boost: { title: 3, tags: 2 }, fuzzy: 0.15, prefix: true, combineWith: "AND" },
-      extractField: (doc, f) => (f === "tags" ? doc.tags.join(" ") : (doc as never as Record<string, string>)[f]),
+      extractField: (doc, f) => (f === "tags" ? doc.tags.join(" ") : ((doc as never as Record<string, string | undefined>)[f] ?? "")),
     });
     ms.addAll(index.items.map((it) => ({ ...it, id: `${it.date}/${it.id}` })));
     return ms;
@@ -185,7 +185,7 @@ function Story({ item, showDate }: { item: NewsItem; showDate: boolean }) {
   const safe = isHttp(item.url);
   return (
     <article className="story">
-      <h3>{safe ? <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">{item.title}</a> : item.title}</h3>
+      <h3 title={item.originalTitle ? `Original: ${item.originalTitle}` : undefined}>{safe ? <a href={item.url} target="_blank" rel="noopener noreferrer nofollow">{item.title}</a> : item.title}</h3>
       <p>{item.summary}</p>
       <div className="meta">
         <span className="src">{item.source}</span>
@@ -193,6 +193,7 @@ function Story({ item, showDate }: { item: NewsItem; showDate: boolean }) {
         <span className="rel" title={`Relevance ${item.relevance}/5`} aria-label={`Relevance ${item.relevance} of 5`}>
           {[1, 2, 3, 4, 5].map((n) => <i key={n} className={n <= item.relevance ? "on" : ""} />)}
         </span>
+        {item.originalTitle && <span className="tag" title={item.originalTitle}>translated</span>}
         {item.tags.map((t) => <span className="tag" key={t}>{t}</span>)}
         {showDate && <span className="tag">{categoryName(item.category)}</span>}
       </div>
