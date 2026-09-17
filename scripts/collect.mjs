@@ -338,7 +338,9 @@ const day = {
   date: today,
   generatedAt: new Date().toISOString(),
   model: NO_LLM ? null : MODEL,
-  editorial: KEEP_ALL ? "pending" : "done",
+  // "pending": waiting for the external editor; "heuristic": fallback edition without AI review
+  // (the editor still overrides it); "done" is only set by scripts/apply-editorial.mjs.
+  editorial: KEEP_ALL ? "pending" : "heuristic",
   itemCount: capped.length,
   feeds: feedStatus.sort((a, b) => a.name.localeCompare(b.name)),
   items: capped,
