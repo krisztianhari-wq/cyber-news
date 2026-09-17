@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const CODE = import.meta.env.VITE_GOATCOUNTER_CODE as string | undefined;
+const CODE = (import.meta.env.VITE_GOATCOUNTER_CODE as string | undefined) ?? "hadzsy";
 
 /** Total page views from GoatCounter's public counter endpoint. Renders nothing when the counter is not configured. */
 export function ViewCounter() {

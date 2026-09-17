@@ -1,6 +1,9 @@
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 
+// GoatCounter site code (public, visible in page source anyway). Set VITE_GOATCOUNTER_CODE="" to disable.
+const DEFAULT_GOATCOUNTER = "hadzsy";
+
 // Optional privacy-friendly view counter (GoatCounter). Enabled only when
 // VITE_GOATCOUNTER_CODE is set at build time; the CSP is widened for exactly that host.
 function goatcounter(code: string | undefined): Plugin {
@@ -18,7 +21,7 @@ function goatcounter(code: string | undefined): Plugin {
 }
 
 export default defineConfig({
-  plugins: [react(), goatcounter(process.env.VITE_GOATCOUNTER_CODE)],
+  plugins: [react(), goatcounter(process.env.VITE_GOATCOUNTER_CODE ?? DEFAULT_GOATCOUNTER)],
   base: process.env.VITE_BASE ?? "/",
   build: { target: "es2022" },
 });
