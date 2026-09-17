@@ -1,0 +1,880 @@
+{
+ "date": "2026-09-17",
+ "generatedAt": "2026-09-17T05:40:20.205Z",
+ "model": null,
+ "editorial": "done",
+ "itemCount": 59,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 1
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-17-001",
+   "title": "Kibertámadás bénította meg a Nemzetközi Meteor Szervezet infrastruktúráját A Nemzetközi Meteor Szervezetet (International Meteor Organization, IMO) kibertámadás érte, amely jelentős részben elérhetet…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-benitotta-meg-a-nemzetkozi-meteor-szervezet-infrastrukturajat/",
+   "source": "NKI Hungary",
+   "published": "2026-09-17T05:40:19.783Z",
+   "category": "eu-threat-landscape",
+   "summary": "Kibertámadás bénította meg a Nemzetközi Meteor Szervezet infrastruktúráját A Nemzetközi Meteor Szervezetet (International Meteor Organization, IMO) kibertámadás érte, amely jelentős részben elérhetet…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-002",
+   "title": "Több százezer Trezor-ügyfelet céloznak adathalász támadásokkal A hardveres kriptotárcákat gyártó Trezor újabb adatbiztonsági incidensre figyelmeztette ügyfeleit. A vállalat hírleveleinek kiküldésére…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-szazezer-trezor-ugyfelet-celoznak-adathalasz-tamadasokkal/",
+   "source": "NKI Hungary",
+   "published": "2026-09-17T05:40:19.783Z",
+   "category": "eu-threat-landscape",
+   "summary": "Több százezer Trezor-ügyfelet céloznak adathalász támadásokkal A hardveres kriptotárcákat gyártó Trezor újabb adatbiztonsági incidensre figyelmeztette ügyfeleit. A vállalat hírleveleinek kiküldésére…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-003",
+   "title": "A TA488 minimális felhasználói interakciót igénylő támadással célozza az Outlookot A Proofpoint 2026. július 29-én egy új, a Laundry Bear (Void Blizzard, TA488) nevű, Oroszországhoz köthető hacker cs…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/a-ta488-minimalis-felhasznaloi-interakciot-igenylo-tamadassal-celozza-az-outlookot/",
+   "source": "NKI Hungary",
+   "published": "2026-09-17T05:40:19.783Z",
+   "category": "eu-threat-landscape",
+   "summary": "A TA488 minimális felhasználói interakciót igénylő támadással célozza az Outlookot A Proofpoint 2026. július 29-én egy új, a Laundry Bear (Void Blizzard, TA488) nevű, Oroszországhoz köthető hacker cs…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-004",
+   "title": "Hamis hirdetések az HBO Max hivatalos Reddit fiókján 2026 szeptemberében az HBO Max hivatalos, ellenőrzött Reddit fiókját (u/hbomax) támadók kompromittálták, és több mint száz rosszindulatú hirdetést…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/hamis-hirdetesek-az-hbo-max-hivatalos-reddit-fiokjan/",
+   "source": "NKI Hungary",
+   "published": "2026-09-17T05:40:19.783Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hamis hirdetések az HBO Max hivatalos Reddit fiókján 2026 szeptemberében az HBO Max hivatalos, ellenőrzött Reddit fiókját (u/hbomax) támadók kompromittálták, és több mint száz rosszindulatú hirdetést…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-005",
+   "title": "Aktívan kihasznált kritikus sérülékenységet javított a Cisco A Cisco sürgős figyelmeztetést adott ki a Secure Email Gateway eszközeit érintő, aktívan kihasznált nulladik napi sérülékenységről.",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/aktivan-kihasznalt-kritikus-serulekenyseget-javitott-a-cisco/",
+   "source": "NKI Hungary",
+   "published": "2026-09-17T05:40:19.783Z",
+   "category": "eu-threat-landscape",
+   "summary": "Aktívan kihasznált kritikus sérülékenységet javított a Cisco A Cisco sürgős figyelmeztetést adott ki a Secure Email Gateway eszközeit érintő, aktívan kihasznált nulladik napi sérülékenységről.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-006",
+   "title": "A window into PETs use cases, organizational concerns",
+   "url": "https://iapp.org/news/a/a-window-into-pets-use-cases-organizational-concerns",
+   "source": "IAPP",
+   "published": "2026-09-17T05:40:17.649Z",
+   "category": "policy-regulation",
+   "summary": "A window into PETs use cases, organizational concerns",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-007",
+   "title": "Frontier AI curbs, children's social media restrictions among priorities in EU State of the Union address",
+   "url": "https://iapp.org/news/a/frontier-ai-curbs-childrens-social-media-restrictions-among-priorities-in-eu-state-of-the-union-address",
+   "source": "IAPP",
+   "published": "2026-09-17T05:40:17.649Z",
+   "category": "policy-regulation",
+   "summary": "Frontier AI curbs, children's social media restrictions among priorities in EU State of the Union address",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-008",
+   "title": "When 'agentic AI' meets data protection law: A fundamental mismatch?",
+   "url": "https://iapp.org/news/a/when-agentic-ai-meets-data-protection-law-a-fundamental-mismatch",
+   "source": "IAPP",
+   "published": "2026-09-17T05:40:17.649Z",
+   "category": "policy-regulation",
+   "summary": "When 'agentic AI' meets data protection law: A fundamental mismatch?",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-009",
+   "title": "The multilingual gap is a governance gap",
+   "url": "https://iapp.org/news/a/the-multilingual-gap-is-a-governance-gap",
+   "source": "IAPP",
+   "published": "2026-09-17T05:40:17.649Z",
+   "category": "policy-regulation",
+   "summary": "The multilingual gap is a governance gap",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-010",
+   "title": "Truyo launches new warranty program for privacy compliance, AI governance platforms",
+   "url": "https://iapp.org/news/a/truyo-launches-new-warranty-program-for-privacy-compliance-ai-governance-platforms",
+   "source": "IAPP",
+   "published": "2026-09-17T05:40:17.649Z",
+   "category": "policy-regulation",
+   "summary": "Truyo launches new warranty program for privacy compliance, AI governance platforms",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-011",
+   "title": "Andorran Police joins Europol’s secure communication network",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/andorran-police-joins-europol%E2%80%99s-secure-communication-network",
+   "source": "Europol",
+   "published": "2026-09-17T05:40:17.473Z",
+   "category": "eu-threat-landscape",
+   "summary": "Through this connection, the Andorran Police will be able to securely share law enforcement information with Europol and a wide network of European and international partners.This Memorandum of Understanding builds upon a Working Arrangement signed between Andorra and Europol in…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-012",
+   "title": "Crackdown on Italian organised criminal network involved in large-scale euro counterfeiting",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/crackdown-italian-organised-criminal-network-involved-in-large-scale-euro-counterfeiting",
+   "source": "Europol",
+   "published": "2026-09-17T05:40:17.473Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol has supported an international operation targeting a criminal network linked to the Italian mafia-type organisation Camorra. The operation, coordinated by the Baden-Württemberg State Criminal Police Office and the Stuttgart Public Prosecutor’s Office, resulted in the exe…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-013",
+   "title": "Thousands of horses caught up in Europe-wide trafficking scheme",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/thousands-of-horses-caught-in-europe-wide-trafficking-scheme",
+   "source": "Europol",
+   "published": "2026-09-17T05:40:17.473Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol has supported a major operation against a criminal network suspected of trafficking horses across Europe using falsified documents and manipulated microchips to conceal the animals’ true identities.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-014",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-17T05:40:16.781Z",
+   "category": "eu-threat-landscape",
+   "summary": "On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both vulnerabi…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-015",
+   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+   "source": "CERT-EU",
+   "published": "2026-09-17T05:40:16.781Z",
+   "category": "eu-threat-landscape",
+   "summary": "On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Pas…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-022",
+   "title": "ENISA on Air: Our first podcast launches on Frontier AI",
+   "url": "https://www.enisa.europa.eu/news/enisa-on-air-our-first-podcast-launches-on-frontier-ai",
+   "source": "ENISA",
+   "published": "2026-09-17T05:40:15.896Z",
+   "category": "policy-regulation",
+   "summary": "ENISA on Air: Our first podcast launches on Frontier AI",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-023",
+   "title": "NIS360: The bigger picture on maturity and criticality of NIS critical sectors",
+   "url": "https://www.enisa.europa.eu/news/nis360-the-bigger-picture-on-maturity-and-criticality-of-nis-critical-sectors",
+   "source": "ENISA",
+   "published": "2026-09-17T05:40:15.896Z",
+   "category": "policy-regulation",
+   "summary": "NIS360: The bigger picture on maturity and criticality of NIS critical sectors",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-024",
+   "title": "What’s Driving Cybersecurity Investments and where lie the challenges?",
+   "url": "https://www.enisa.europa.eu/news/whats-driving-cybersecurity-investments-and-where-lie-the-challenges",
+   "source": "ENISA",
+   "published": "2026-09-17T05:40:15.896Z",
+   "category": "policy-regulation",
+   "summary": "What’s Driving Cybersecurity Investments and where lie the challenges?",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-025",
+   "title": "ENISA to operate the EU Cybersecurity Reserve with EUR 36 million",
+   "url": "https://www.enisa.europa.eu/news/enisa-to-operate-the-eu-cybersecurity-reserve-with-eur-36-million",
+   "source": "ENISA",
+   "published": "2026-09-17T05:40:15.896Z",
+   "category": "policy-regulation",
+   "summary": "ENISA to operate the EU Cybersecurity Reserve with EUR 36 million",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-026",
+   "title": "The CRA Single Reporting Platform is launched",
+   "url": "https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched",
+   "source": "ENISA",
+   "published": "2026-09-17T05:40:15.896Z",
+   "category": "policy-regulation",
+   "summary": "The CRA Single Reporting Platform is launched",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-027",
+   "title": "The AI security question leaders should be asking instead",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/frederic-bull-gremlin-ai-in-cybersecurity-gap/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T05:30:48.000Z",
+   "category": "incidents-threats",
+   "summary": "In this Help Net Security interview, Frederic Bull, Security Officer at Gremlin, talks about what AI means for security teams. The conversation covers why asking what data a model was trained on is only part of the picture, and why least privilege and access controls still matte…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-028",
+   "title": "International students, 'visa hoppers' and backpackers targeted in Australia migration crackdown",
+   "url": "https://www.bbc.co.uk/news/articles/cm986j81ky55o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-17T05:05:09.000Z",
+   "category": "global-security",
+   "summary": "The government wants to reduce net overseas migration to 225,000 people by 2028.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-029",
+   "title": "A flat cybersecurity budget doesn’t have to mean weaker coverage",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/flat-cybersecurity-budget-video/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T05:00:57.000Z",
+   "category": "incidents-threats",
+   "summary": "Cheri Hotman, Managing Partner of Hotman Group, works as a vCISO and vGRC leader. In this Help Net Security video, she talks about holding coverage steady when the CFO asks for a flat budget or a 12% cut. Her advice is to stop trimming every line by the same percentage. Instead,…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-031",
+   "title": "Rosenberg: Russia's elections will have few surprises, but for the Kremlin they matter",
+   "url": "https://www.bbc.co.uk/news/articles/ck62m0r4r1y3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-17T05:00:36.000Z",
+   "category": "global-security",
+   "summary": "There is no doubt over the outcome of this vote, but for the Kremlin they are still an important moment.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-032",
+   "title": "Assad regime planned US journalist's kidnap for weeks, BBC finds",
+   "url": "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-17T05:00:18.000Z",
+   "category": "global-security",
+   "summary": "Austin Tice’s abduction was approved by Syria’s former leader Bashar al-Assad, a source claims.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-035",
+   "title": "Argentinian judge orders suspension of Falklands oil project",
+   "url": "https://www.aljazeera.com/news/2026/9/17/argentinian-judge-orders-suspension-of-falklands-oil-project?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T04:52:07.000Z",
+   "category": "global-security",
+   "summary": "The symbolic move comes as Argentina escalates its claim over the British-administered territory.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-036",
+   "title": "AWS’s new sign-up gives accounts spend caps, email invites, and agent-set permissions",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/aws-spend-limit-agent-set-permissions/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T04:51:04.000Z",
+   "category": "incidents-threats",
+   "summary": "New AWS customers can now sign up with a Google, GitHub, or Apple login, start with $100 in Free Tier credits, and build inside a “project” where AWS and coding agents set up permissions automatically. Paid projects get a monthly spend limit, starting at $20, and a project that…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-037",
+   "title": "Trump threatens to end trade with Mexico and Europe after rate hike",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/trump-threatens-to-end-trade-with-mexico-and-europe-after-rate-hike?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T04:43:01.000Z",
+   "category": "global-security",
+   "summary": "US President Donald Trump had tried to pressure the Fed to lower rates, but it voted unanimously to raise them instead.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-038",
+   "title": "Can AI regulation keep America ahead of China?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/aje-onl-nf_can-ai-regulation-keep-america-ahead-of-china-170926?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T04:42:27.000Z",
+   "category": "global-security",
+   "summary": "As Washington debates how to regulate AI, industry experts say that governance doesn’t have to mean hitting the brakes.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-039",
+   "title": "GNOME 51 adds passkey logins, offline maps and drawn PDF signatures",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/gnome-51-new-features/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T04:36:56.000Z",
+   "category": "incidents-threats",
+   "summary": "GNOME 51, the new version of the Linux desktop, came out on September 16 under the codename A Coruña. The release adds offline maps and live transit information to Maps, new login options at the login screen, hand-drawn signatures in the Papers document viewer, and smoother anim…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-040",
+   "title": "US bars Palestinian president from attending UNGA for second year",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/us-bars-palestinian-president-from-attending-unga-for-second-year?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T04:35:52.000Z",
+   "category": "global-security",
+   "summary": "The United States has declined to grant visas to Palestinian President Mahmoud Abbas.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-041",
+   "title": "AI is adding to the review load on open-source projects, many of them thinly funded",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/ai-and-open-source-projects/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T04:30:21.000Z",
+   "category": "incidents-threats",
+   "summary": "AI coding tools are making open source software harder to maintain and secure, according to six authors writing for the Association for Computing Machinery’s Technology Policy Council, among them Simson Garfinkel and Josiah Dykstra. The tools write code and find security flaws q…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-042",
+   "title": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-17T04:23:00.000Z",
+   "category": "global-security",
+   "summary": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates Reuters",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-044",
+   "title": "The world must establish red lines for autonomous AI weapons",
+   "url": "https://www.helpnetsecurity.com/2026/09/17/autonomous-ai-weapons-future/",
+   "source": "Help Net Security",
+   "published": "2026-09-17T04:00:36.000Z",
+   "category": "incidents-threats",
+   "summary": "AI is transforming warfare and international conflict. Autonomous weapon systems pose a genuine threat to civilians. The war in Ukraine has become a proving ground for weapons that can navigate, identify targets, resist electronic countermeasures, and pursue and engage targets a…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-045",
+   "title": "US extends visa ban on Palestinian officials before UN General Assembly",
+   "url": "https://www.aljazeera.com/news/2026/9/17/us-extends-visa-ban-on-palestinian-officials-before-un-general-assembly?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T03:44:13.000Z",
+   "category": "global-security",
+   "summary": "Palestinian President Mahmoud Abbas is among those barred for the second year in a row.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-047",
+   "title": "Yemeni forces target Houthis as US rules out direct role",
+   "url": "https://www.aljazeera.com/news/2026/9/17/yemeni-forces-target-houthis-and-a-saudi-base-as-us-rules-out-direct-role?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-17T03:26:56.000Z",
+   "category": "global-security",
+   "summary": "Saudi Arabia requests missile defence support from allies as the US sees its own stock of interceptors dwindle.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-049",
+   "title": "Associated Press News: Breaking News | Latest News Today",
+   "url": "https://news.google.com/rss/articles/CBMiNkFVX3lxTE1JRTBkY0d6emFJTklfMk1FZkEtdnc2dmtQVGhJQUcxb3cxdVZNajFoUnMxbGx1UQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-17T03:13:47.000Z",
+   "category": "incidents-threats",
+   "summary": "Associated Press News: Breaking News | Latest News Today AP News",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-060",
+   "title": "ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098, (Thu, Sep 17th)",
+   "url": "https://isc.sans.edu/diary/rss/33346",
+   "source": "SANS ISC",
+   "published": "2026-09-17T02:00:03.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-072",
+   "title": "Anthropic wants Claude to analyze your bank account and financial data",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-wants-claude-to-analyze-your-bank-account-and-financial-data/",
+   "source": "BleepingComputer",
+   "published": "2026-09-17T00:35:48.000Z",
+   "category": "incidents-threats",
+   "summary": "Anthropic is testing a new personal finance feature called \"Claude Money\" that will allow you to connect your bank accounts directly to Claude and \"understand your money.\" [...]",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-075",
+   "title": "datasette 1.0a40",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+   "source": "Simon Willison",
+   "published": "2026-09-16T23:51:43.000Z",
+   "category": "ai-security",
+   "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like t…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-076",
+   "title": "datasette 0.65.5",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+   "source": "Simon Willison",
+   "published": "2026-09-16T23:51:08.000Z",
+   "category": "ai-security",
+   "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-077",
+   "title": "EU chief Ursula von der Leyen says she wants Canada to become the bloc's 1st associate member",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSWR4THFwSEZWZWEzV1RCLWh1bFZieGlkR0VGMmNKNm15RE8zMnI1YzlqQmFFYjhvWWU5UDJIWVFWOXU3RF9zZEFIUUZUWnRqQTJUQkRBdWx2NWl2c2pOS3hSYkw5aFlMUVhkSHNtdzA0ZE9reFd6RGVDQ1Z3QUN1cTFFREJFWnFsT2V2Skw4WDEyRFpHTzEyRWxsZjZOUQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-16T23:21:00.000Z",
+   "category": "incidents-threats",
+   "summary": "EU chief Ursula von der Leyen says she wants Canada to become the bloc's 1st associate member AP News",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-078",
+   "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2RNOFJnNVFtSUxoYTBUczVlemRjdHUtYndvcEc0MEF5QTRiRWxSOTFXU1ZqLUFKSjU1QXN2Tnh1TEhWQ195M0dUSTM3WEN3eTVxUlRja2liZmNyYXlrZGpOY2FTMUVzMmxZWkxISHZ1RFVTNUhGdUl6R3o3Y284b0l1VXZyVU9CMlIwLXVRTzVwUG8zSG1lOG4yTFJTQm9mLUFKQWREU08zVFI0VDY3NGNJNEtfQTcwdUtSa0Y5aS1OdUZQZ2czWi1nWFVhdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-16T22:25:54.000Z",
+   "category": "incidents-threats",
+   "summary": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack Reuters",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-081",
+   "title": "OpenAI Creates a New Framework to Disclose Bad AI Behavior",
+   "url": "https://www.wired.com/story/openai-releases-new-policy-for-reporting-incidents-of-model-misalignment/",
+   "source": "Wired – AI",
+   "published": "2026-09-16T22:07:24.000Z",
+   "category": "ai-security",
+   "summary": "The company also disclosed previously unreported incidents in which its AI models behaved in misaligned ways, including uploading files to the internet without being asked.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-088",
+   "title": "Washington Won’t Be Regulating AI Anytime Soon",
+   "url": "https://www.wired.com/story/washington-wont-be-regulating-ai-anytime-soon/",
+   "source": "Wired – AI",
+   "published": "2026-09-16T21:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Even with mounting concerns about AI models going rogue, legislation appears unlikely, and the White House is outright opposed to oversight.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-095",
+   "title": "The Apple Security Update Review for September 2026",
+   "url": "https://www.thezdi.com/blog/2026/9/16/the-apple-security-update-review-for-september-2026",
+   "source": "Zero Day Initiative",
+   "published": "2026-09-16T19:58:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Welcome back to our monthly look at Apple security patches. This release shows Apple is not immune to the new normal of AI-assisted vulnerability discovery as they release patches for 273 total CVEs. For the September 2026 release, Apple released 273 unique CVEs across macOS 27…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-097",
+   "title": "I Trained a Fly’s Brain to Generate WIRED Story Ideas",
+   "url": "https://www.wired.com/story/i-trained-a-fly-on-wired-story-ideas/",
+   "source": "Wired – AI",
+   "published": "2026-09-16T19:00:00.000Z",
+   "category": "ai-security",
+   "summary": "I used an open-source map of a fruit fly’s brain to vibe code a website called PitchFly. Its headline suggestions were delightfully bananas.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-099",
+   "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33344",
+   "source": "SANS ISC",
+   "published": "2026-09-16T18:44:04.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-101",
+   "title": "Claude Cowork and chat are now one Claude",
+   "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+   "source": "Simon Willison",
+   "published": "2026-09-16T18:09:49.000Z",
+   "category": "ai-security",
+   "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at no…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-102",
+   "title": "Our framework for reporting model misalignment",
+   "url": "https://openai.com/index/model-misalignment-reporting-framework",
+   "source": "OpenAI News",
+   "published": "2026-09-16T17:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-103",
+   "title": "Quoting Mustafa Suleyman",
+   "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+   "source": "Simon Willison",
+   "published": "2026-09-16T16:00:54.000Z",
+   "category": "ai-security",
+   "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evid…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-104",
+   "title": "Helping older adults use AI in everyday life",
+   "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+   "source": "OpenAI News",
+   "published": "2026-09-16T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-105",
+   "title": "Reimagining advertising with AI",
+   "url": "https://openai.com/index/reimagining-advertising-with-ai",
+   "source": "OpenAI News",
+   "published": "2026-09-16T13:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-107",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-16T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-58704 Google Pixel Improper Authorization Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actor…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-108",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-16T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-76460 Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability CVE-2026-87886 Acronis Backup Incorrect Default Pe…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-109",
+   "title": "Using Cyber Decoys to Strengthen Detection and Response",
+   "url": "https://www.cisa.gov/resources-tools/resources/using-cyber-decoys-strengthen-detection-and-response",
+   "source": "CISA Advisories",
+   "published": "2026-09-16T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA developed this guidance to help defensive teams at varying levels of cybersecurity maturity plan and implement cyber decoy strategies that strengthen their detection and response capabilities. Many organizations struggle to detect adversaries who use legitimate credentials,…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-111",
+   "title": "Securing the unpatchable in an age of AI-driven vulnerabilities",
+   "url": "https://blog.talosintelligence.com/securing-the-unpatchable-in-an-age-of-ai-driven-vulnerabilities/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-16T10:00:36.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Advances in AI technology will continue to identify vulnerabilities that in some circumstances are difficult, or effectively impossible, to patch. Appropriate network segmentation, rigorous visibility, and the deployment of NGFW/IPS combinations can provide a powerful compensato…",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-112",
+   "title": "Atomic macOS (AMOS) Stealer Activity",
+   "url": "https://unit42.paloaltonetworks.com/atomic-macos-amos-stealer-activity/",
+   "source": "Unit 42",
+   "published": "2026-09-16T10:00:06.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Modern macOS malware uses deceptive setup guides to steal credentials and sensitive user data. Learn how to identify and block these threats. The post Atomic macOS (AMOS) Stealer Activity appeared first on Unit 42 .",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-09-17-115",
+   "title": "ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096, (Wed, Sep 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33342",
+   "source": "SANS ISC",
+   "published": "2026-09-16T02:00:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "relevance": 3,
+   "tags": []
+  }
+ ]
+}
