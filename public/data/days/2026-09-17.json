@@ -229,7 +229,7 @@
  "items": [
   {
    "id": "2026-09-17-013",
-   "title": "Aktívan kihasznált kritikus sérülékenységet javított a Cisco A Cisco sürgős figyelmeztetést adott ki a Secure Email Gateway eszközeit érintő, aktívan kihasznált nulladik napi sérülékenységről.",
+   "title": "Cisco patches actively exploited critical zero-day in Secure Email Gateway",
    "url": "https://nki.gov.hu/it-biztonsag/hirek/aktivan-kihasznalt-kritikus-serulekenyseget-javitott-a-cisco/",
    "source": "NKI Hungary",
    "published": "2026-09-17T07:16:41.143Z",
@@ -240,7 +240,8 @@
     "cve",
     "zero-day",
     "cisco"
-   ]
+   ],
+   "originalTitle": "Aktívan kihasznált kritikus sérülékenységet javított a Cisco A Cisco sürgős figyelmeztetést adott ki a Secure Email Gateway eszközeit érintő, aktívan kihasznált nulladik napi sérülékenységről."
   },
   {
    "id": "2026-09-17-014",
@@ -349,7 +350,7 @@
   },
   {
    "id": "2026-09-17-011",
-   "title": "A TA488 minimális felhasználói interakciót igénylő támadással célozza az Outlookot A Proofpoint 2026. július 29-én egy új, a Laundry Bear (Void Blizzard, TA488) nevű, Oroszországhoz köthető hacker cs…",
+   "title": "TA488 (Laundry Bear) targets Outlook with a minimal-interaction attack, Proofpoint reports",
    "url": "https://nki.gov.hu/it-biztonsag/hirek/a-ta488-minimalis-felhasznaloi-interakciot-igenylo-tamadassal-celozza-az-outlookot/",
    "source": "NKI Hungary",
    "published": "2026-09-17T07:16:41.143Z",
@@ -360,11 +361,12 @@
     "apt",
     "phishing",
     "outlook"
-   ]
+   ],
+   "originalTitle": "A TA488 minimális felhasználói interakciót igénylő támadással célozza az Outlookot A Proofpoint 2026. július 29-én egy új, a Laundry Bear (Void Blizzard, TA488) nevű, Oroszországhoz köthető hacker cs…"
   },
   {
    "id": "2026-09-17-019",
-   "title": "BSI führt verpflichtende Personenzertifizierung für KRITIS-Auditorinnen und -Auditoren ein",
+   "title": "BSI introduces mandatory personal certification for KRITIS auditors",
    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/KRITIS_Personenzertifizierung_260831.html",
    "source": "BSI Germany",
    "published": "2026-09-17T07:16:41.001Z",
@@ -375,7 +377,8 @@
     "kritis",
     "audit",
     "compliance"
-   ]
+   ],
+   "originalTitle": "BSI führt verpflichtende Personenzertifizierung für KRITIS-Auditorinnen und -Auditoren ein"
   },
   {
    "id": "2026-09-17-025",
@@ -544,7 +547,7 @@
   },
   {
    "id": "2026-09-17-010",
-   "title": "Több százezer Trezor-ügyfelet céloznak adathalász támadásokkal A hardveres kriptotárcákat gyártó Trezor újabb adatbiztonsági incidensre figyelmeztette ügyfeleit. A vállalat hírleveleinek kiküldésére…",
+   "title": "Hundreds of thousands of Trezor customers targeted by phishing after new data incident",
    "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-szazezer-trezor-ugyfelet-celoznak-adathalasz-tamadasokkal/",
    "source": "NKI Hungary",
    "published": "2026-09-17T07:16:41.143Z",
@@ -555,11 +558,12 @@
     "phishing",
     "supply-chain",
     "crypto"
-   ]
+   ],
+   "originalTitle": "Több százezer Trezor-ügyfelet céloznak adathalász támadásokkal A hardveres kriptotárcákat gyártó Trezor újabb adatbiztonsági incidensre figyelmeztette ügyfeleit. A vállalat hírleveleinek kiküldésére…"
   },
   {
    "id": "2026-09-17-018",
-   "title": "Sovereign Tech Agency und BSI empfehlen speichersichere Programmiersprachen",
+   "title": "Sovereign Tech Agency and BSI recommend memory-safe programming languages",
    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/STA_Programmiersprachen_260903.html",
    "source": "BSI Germany",
    "published": "2026-09-17T07:16:41.001Z",
@@ -569,7 +573,8 @@
    "tags": [
     "secure-coding",
     "bsi"
-   ]
+   ],
+   "originalTitle": "Sovereign Tech Agency und BSI empfehlen speichersichere Programmiersprachen"
   },
   {
    "id": "2026-09-17-024",
@@ -702,7 +707,7 @@
   },
   {
    "id": "2026-09-17-100",
-   "title": "Tageszusammenfassung - 16.09.2026",
+   "title": "CERT.at daily summary – 16 September 2026",
    "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-16092026",
    "source": "CERT.at",
    "published": "2026-09-16T18:18:03.000Z",
@@ -712,11 +717,12 @@
    "tags": [
     "account-takeover",
     "phishing"
-   ]
+   ],
+   "originalTitle": "Tageszusammenfassung - 16.09.2026"
   },
   {
    "id": "2026-09-17-009",
-   "title": "Kibertámadás bénította meg a Nemzetközi Meteor Szervezet infrastruktúráját A Nemzetközi Meteor Szervezetet (International Meteor Organization, IMO) kibertámadás érte, amely jelentős részben elérhetet…",
+   "title": "Cyberattack cripples the International Meteor Organization's infrastructure",
    "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-benitotta-meg-a-nemzetkozi-meteor-szervezet-infrastrukturajat/",
    "source": "NKI Hungary",
    "published": "2026-09-17T07:16:41.143Z",
@@ -726,11 +732,12 @@
    "tags": [
     "incident",
     "outage"
-   ]
+   ],
+   "originalTitle": "Kibertámadás bénította meg a Nemzetközi Meteor Szervezet infrastruktúráját A Nemzetközi Meteor Szervezetet (International Meteor Organization, IMO) kibertámadás érte, amely jelentős részben elérhetet…"
   },
   {
    "id": "2026-09-17-012",
-   "title": "Hamis hirdetések az HBO Max hivatalos Reddit fiókján 2026 szeptemberében az HBO Max hivatalos, ellenőrzött Reddit fiókját (u/hbomax) támadók kompromittálták, és több mint száz rosszindulatú hirdetést…",
+   "title": "Malicious ads posted from HBO Max's compromised official Reddit account",
    "url": "https://nki.gov.hu/it-biztonsag/hirek/hamis-hirdetesek-az-hbo-max-hivatalos-reddit-fiokjan/",
    "source": "NKI Hungary",
    "published": "2026-09-17T07:16:41.143Z",
@@ -740,11 +747,12 @@
    "tags": [
     "account-takeover",
     "malvertising"
-   ]
+   ],
+   "originalTitle": "Hamis hirdetések az HBO Max hivatalos Reddit fiókján 2026 szeptemberében az HBO Max hivatalos, ellenőrzött Reddit fiókját (u/hbomax) támadók kompromittálták, és több mint száz rosszindulatú hirdetést…"
   },
   {
    "id": "2026-09-17-017",
-   "title": "XAI in der Cybersicherheit: Whitepaper schafft Bewertungsgrundlagen und Orientierung",
+   "title": "Explainable AI in cybersecurity: BSI whitepaper sets evaluation criteria and guidance",
    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/XAI-Chancen-Risiken-Cybersicherheit_260910.html",
    "source": "BSI Germany",
    "published": "2026-09-17T07:16:41.001Z",
@@ -754,11 +762,12 @@
    "tags": [
     "ai",
     "bsi"
-   ]
+   ],
+   "originalTitle": "XAI in der Cybersicherheit: Whitepaper schafft Bewertungsgrundlagen und Orientierung"
   },
   {
    "id": "2026-09-17-021",
-   "title": "CSP-Spezifikation veröffentlicht: Standardisierte API für kryptografische Dienste",
+   "title": "BSI publishes CSP specification: standardised API for cryptographic services",
    "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/Spec_Cryptographic-Service-Provider_260814.html",
    "source": "BSI Germany",
    "published": "2026-09-17T07:16:41.001Z",
@@ -769,7 +778,8 @@
     "crypto",
     "bsi",
     "standards"
-   ]
+   ],
+   "originalTitle": "CSP-Spezifikation veröffentlicht: Standardisierte API für kryptografische Dienste"
   },
   {
    "id": "2026-09-17-032",
