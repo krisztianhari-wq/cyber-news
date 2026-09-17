@@ -21,3 +21,6 @@ npm run dev                   # preview at http://localhost:5173
 - No backend, no database, no user accounts.
 - Feed content is treated as untrusted: HTML stripped, only `http(s)` links rendered, strict CSP, `no-referrer`, `noopener` links.
 - Summaries are AI-generated; always verify with the linked source.
+
+## View counter
+Page views are counted with [GoatCounter](https://www.goatcounter.com) (no cookies, no personal data). The build reads the site code from the repository variable `GOATCOUNTER_CODE`; without it nothing is loaded.

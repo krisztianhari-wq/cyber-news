@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import MiniSearch from "minisearch";
 import { Logo } from "./Logo";
+import { ViewCounter } from "./ViewCounter";
 import { CATEGORIES, categoryName } from "./categories";
 import type { DayFile, IndexFile, NewsItem } from "./types";
 
@@ -164,7 +165,7 @@ export function App() {
       <footer>
         <div className="wrap">
           <span>Automated digest of public sources · summaries are AI-generated, always verify with the linked article.</span>
-          <span>Yettel Cyber Digest</span>
+          <span>Yettel Cyber Digest<ViewCounter /></span>
           {!searching && day && (
             <details>
               <summary>Sources for this edition · {sourcesOk}/{day.feeds.length} reachable</summary>
