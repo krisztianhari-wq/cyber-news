@@ -2,6 +2,7 @@
 // Usage: node scripts/apply-editorial.mjs YYYY-MM-DD path/to/editorial.json
 // editorial.json = { "items": [{ "id", "category", "summary", "relevance", "tags", "title"? }], "post": "..." }
 // "title" is optional: an English translation for non-English headlines (the original is kept as originalTitle).
+// "duplicateOf" is optional: the id of the kept item covering the same story; items carrying it are dropped.
 // Everything in the editorial file is validated and sanitised here; the site never trusts it blindly.
 import fs from "node:fs/promises";
 import path from "node:path";
@@ -27,6 +28,7 @@ for (const r of Array.isArray(ed.items) ? ed.items : []) {
   const rel = Math.round(Number(r.relevance));
   byId.set(r.id, {
     title: typeof r.title === "string" ? clean(r.title, 200) : "",
+    duplicateOf: typeof r.duplicateOf === "string" && r.duplicateOf !== r.id ? r.duplicateOf : null,
     category: CATEGORY_IDS.has(r.category) ? r.category : null,
     summary: clean(r.summary, 320),
     relevance: rel >= 1 && rel <= 5 ? rel : null,
@@ -35,7 +37,13 @@ for (const r of Array.isArray(ed.items) ? ed.items : []) {
 }
 
 let matched = 0;
-const items = day.items.map((it) => {
+const ids = new Set(day.items.map((it) => it.id));
+let dropped = 0;
+const items = day.items.filter((it) => {
+  const r = byId.get(it.id);
+  if (r?.duplicateOf && ids.has(r.duplicateOf)) { dropped++; return false; } // same story, kept elsewhere
+  return true;
+}).map((it) => {
   const r = byId.get(it.id);
   if (!r) return it;
   matched++;
@@ -67,4 +75,4 @@ const out = {
 delete out.post;
 await fs.writeFile(dayPath, JSON.stringify(out, null, 1));
 if (post) await fs.writeFile(path.join(ROOT, "posts", `${date}.md`), `# Social post – ${date}\n\n${post}\n`); // title-only edits leave the existing post untouched
-console.log(`[editorial] ${matched}/${day.items.length} items updated, ${capped.length} kept -> ${path.relative(ROOT, dayPath)}; post -> posts/${date}.md (local only)`);
+console.log(`[editorial] ${matched}/${day.items.length} items updated, ${dropped} duplicates dropped, ${capped.length} kept -> ${path.relative(ROOT, dayPath)}; post -> posts/${date}.md (local only)`);
