@@ -76,6 +76,7 @@ export function App() {
             <span className="brand-name">Cyber Digest <span>· daily security briefing</span></span>
           </div>
           <div className="topbar-right">
+            <ViewCounter />
             <select className="select" value={selectedDate} onChange={(e) => { setSelectedDate(e.target.value); setQuery(""); }} aria-label="Choose edition" disabled={!index}>
               {index?.days.map((d) => <option key={d.date} value={d.date}>{fmtDate(d.date)}</option>)}
             </select>
@@ -165,7 +166,7 @@ export function App() {
       <footer>
         <div className="wrap">
           <span>Automated digest of public sources · summaries are AI-generated, always verify with the linked article.</span>
-          <span>Yettel Cyber Digest<ViewCounter /></span>
+          <span>Yettel Cyber Digest</span>
           {!searching && day && (
             <details>
               <summary>Sources for this edition · {sourcesOk}/{day.feeds.length} reachable</summary>

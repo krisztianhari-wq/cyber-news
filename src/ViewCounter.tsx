@@ -13,5 +13,5 @@ export function ViewCounter() {
       .catch(() => {});
   }, []);
   if (!count) return null;
-  return <span title="Total page views (GoatCounter, no cookies)">{count} views</span>;
+  return <span className="views" title="Total page views (GoatCounter, no cookies)"><b>{count}</b>views</span>;
 }
