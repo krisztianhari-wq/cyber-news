@@ -1,8 +1,26 @@
 version: 2
 updates:
+  # One grouped PR per month for npm packages; major version jumps are left out
+  # (Vite/TypeScript/React majors need a manual build check).
   - package-ecosystem: npm
     directory: /
-    schedule: { interval: weekly }
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 1
+    groups:
+      npm-all:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+
+  # One grouped PR per month for GitHub Actions steps.
   - package-ecosystem: github-actions
     directory: /
-    schedule: { interval: weekly }
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 1
+    groups:
+      actions-all:
+        patterns: ["*"]
