@@ -16,6 +16,13 @@ deliver_post() {
   local pushed="$1" dest="$HOME/Desktop/Cyber Digest posts"
   mkdir -p "$dest"
   [ -f "posts/$TODAY.md" ] && cp "posts/$TODAY.md" "$dest/$TODAY.md"
+  # Power Automate hand-off: plain-text copy (no markdown header) into a OneDrive-synced folder.
+  # A flow in the company tenant picks it up and posts to Viva Engage under the owner's account.
+  # Only active if the folder exists (creating it is the owner's opt-in).
+  local od="${ENGAGE_INBOX:-$HOME/Library/CloudStorage/OneDrive-CEETelcoGroup/Documents/CyberDigest/engage-inbox}"
+  if [ "$pushed" = 1 ] && [ -d "$od" ] && [ -f "posts/$TODAY.md" ]; then
+    tail -n +3 "posts/$TODAY.md" > "$od/cyber-digest-$TODAY.txt"
+  fi
   local msg
   if [ "$pushed" = 1 ]; then msg="Edition published. Post: Desktop/Cyber Digest posts/$TODAY.md"; else msg="Edition built but push FAILED. Post: Desktop/Cyber Digest posts/$TODAY.md"; fi
   osascript -e "display notification \"$msg\" with title \"Yettel Cyber Digest\" subtitle \"$TODAY\" sound name \"Glass\"" >/dev/null 2>&1 || true
