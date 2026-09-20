@@ -9,6 +9,18 @@ cd "$REPO"
 TODAY=$(date -u +%F)
 DAY="public/data/days/$TODAY.json"
 
+
+# Hand the private social post to the editor: copy to the Desktop and show a macOS notification.
+# Never uploads or posts anywhere.
+deliver_post() {
+  local pushed="$1" dest="$HOME/Desktop/Cyber Digest posts"
+  mkdir -p "$dest"
+  [ -f "posts/$TODAY.md" ] && cp "posts/$TODAY.md" "$dest/$TODAY.md"
+  local msg
+  if [ "$pushed" = 1 ]; then msg="Edition published. Post: Desktop/Cyber Digest posts/$TODAY.md"; else msg="Edition built but push FAILED. Post: Desktop/Cyber Digest posts/$TODAY.md"; fi
+  osascript -e "display notification \"$msg\" with title \"Yettel Cyber Digest\" subtitle \"$TODAY\" sound name \"Glass\"" >/dev/null 2>&1 || true
+}
+
 case "${1:-}" in
   prepare)
     git pull -q --ff-only origin main
@@ -26,10 +38,13 @@ case "${1:-}" in
     git add "$DAY" data/seen-urls.json
     if git diff --cached --quiet; then echo "STATUS=nothing-to-commit"; exit 0; fi
     git -c user.name="Krisztian Hari" -c user.email="khari@yettel.hu" commit -q -m "digest: $TODAY (editorial)"
+    PUSHED=0
     for i in 1 2 3; do
-      if git push -q origin main 2>/dev/null; then echo "STATUS=pushed DATE=$TODAY POST=posts/$TODAY.md"; exit 0; fi
+      if git push -q origin main 2>/dev/null; then PUSHED=1; break; fi
       sleep 30
     done
+    deliver_post "$PUSHED"
+    if [ "$PUSHED" = 1 ]; then echo "STATUS=pushed DATE=$TODAY POST=posts/$TODAY.md"; exit 0; fi
     echo "STATUS=push-failed DATE=$TODAY (commit kept locally)"; exit 1
     ;;
   *) echo "usage: daily.sh prepare | publish <editorial.json>"; exit 2 ;;
