@@ -1,0 +1,746 @@
+{
+ "date": "2026-09-21",
+ "generatedAt": "2026-09-21T06:22:25.724Z",
+ "model": "claude-opus-5[1m]",
+ "editorial": "done",
+ "itemCount": 36,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-21-005",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-21T06:22:20.129Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-012: Check Point released emergency updates on 9 September 2026 for two critical flaws in Security Gateway, Security Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "vpn",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-09-21-006",
+   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+   "source": "CERT-EU",
+   "published": "2026-09-21T06:22:20.129Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-011 covers two critical SAP flaws from the September Patch Day, the most severe being CVE-2026-44756 (CVSS 10.0), a memory corruption issue affecting a broad range of SAP products.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "sap",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-09-21-007",
+   "title": "2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-010/",
+   "source": "CERT-EU",
+   "published": "2026-09-21T06:22:20.129Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-010 flags multiple critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway, published by Citrix on 19 August 2026. CERT-EU recommends updating affected devices as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-09-21-023",
+   "title": "Intent injection attacks are a new worry for AI-native 6G networks",
+   "url": "https://www.helpnetsecurity.com/2026/09/21/6g-intent-injection-attacks/",
+   "source": "Help Net Security",
+   "published": "2026-09-21T04:30:55.000Z",
+   "category": "ai-security",
+   "summary": "Researchers at the University of Ottawa and Nokia Bell Labs warn that intent-based networking in AI-native 6G designs opens a new 'intent injection' attack surface, where the translation of stated intent into network policy can be manipulated.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "telecom",
+    "6g"
+   ]
+  },
+  {
+   "id": "2026-09-21-009",
+   "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+   "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+   "source": "The Hacker News",
+   "published": "2026-09-21T06:06:44.000Z",
+   "category": "incidents-threats",
+   "summary": "North Korean threat actor Jade Sleet has been linked to the compromise of a small India-based IT services provider, deploying the FLATROOF and ROOFDECK backdoors. The group continues to target developers to reach downstream victims.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "north-korea",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-09-21-018",
+   "title": "Europe's AI ambitions depend on getting the Digital Networks Act right",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT202WkpFRnd6NTBkdTh5cmpVRTg5RVVzSDJEdlFUT1ItY1R6T0pzZTJ0Z0RBNEtQV2YyV2R6SVJuM3FsMXBjanhBLXBQb2FybDItbGltaGVQbVZISnowRWU1TG5sQWpBbVE4ME80cnFCN2U0RkROMWpSWUczbk5ydXpNN1dBXzRHOW9sV2VsV0xkbkItbWxyMzFxVm40czBWODl0RC1R?oc=5",
+   "source": "Euractiv (via Google News)",
+   "published": "2026-09-21T05:04:48.000Z",
+   "category": "policy-regulation",
+   "summary": "Euractiv opinion argues Europe's AI ambitions depend on getting the Digital Networks Act right. Headline only; no further detail in the feed entry.",
+   "relevance": 4,
+   "tags": [
+    "eu",
+    "telecom",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-09-21-067",
+   "title": "Malicious npm packages evade install-script defenses at runtime",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+   "source": "BleepingComputer",
+   "published": "2026-09-20T14:11:21.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An ongoing npm malware campaign centred on the 'indexed-btree' package hides malicious code in the package's normal runtime behaviour rather than in install scripts, bypassing install-script-based supply chain defences.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "npm",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-09-21-068",
+   "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+   "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+   "source": "BleepingComputer",
+   "published": "2026-09-20T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Researchers demonstrated two escapes from OpenAI's Codex sandbox, one of which ran commands on a developer's host machine from the most locked-down mode. OpenAI has patched both.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "sandbox-escape"
+   ]
+  },
+  {
+   "id": "2026-09-21-076",
+   "title": "Week in review: Cisco patches exploited email gateway 0-day, Revolut breach",
+   "url": "https://www.helpnetsecurity.com/2026/09/20/week-in-review-cisco-patches-exploited-email-gateway-0-day-revolut-breach/",
+   "source": "Help Net Security",
+   "published": "2026-09-20T08:00:21.000Z",
+   "category": "incidents-threats",
+   "summary": "Weekly roundup covering an exploited Cisco email gateway zero-day and the Revolut data breach, in which someone impersonating a government agency from that agency's own domain obtained sensitive customer records.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "zero-day",
+    "social-engineering"
+   ]
+  },
+  {
+   "id": "2026-09-21-008",
+   "title": "How is the EU improving kids’ safety online? Ask the Euronews AI chatbot",
+   "url": "https://www.euronews.com/my-europe/2026/09/21/how-is-the-eu-improving-kids-safety-online-ask-the-euronews-ai-chatbot",
+   "source": "Euronews – Europe",
+   "published": "2026-09-21T06:15:56.000Z",
+   "category": "policy-regulation",
+   "summary": "Commission President von der Leyen proposed the EU KIDS ACT on 17 September, limiting children's access to social media and requiring online games, video-sharing sites and AI chatbots to be minor-proof.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "regulation",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-09-21-026",
+   "title": "AI compliance issues hit 2 in 5 large companies, and legacy workflows are a big factor",
+   "url": "https://www.helpnetsecurity.com/2026/09/21/ai-compliance-issues-research/",
+   "source": "Help Net Security",
+   "published": "2026-09-21T04:00:31.000Z",
+   "category": "policy-regulation",
+   "summary": "A Sapio Research survey of 1,000 senior IT and transformation leaders found 40% of large companies had an AI-related compliance or governance issue in the past 12 months, with process problems contributing to 84% of cases.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "governance",
+    "compliance"
+   ]
+  },
+  {
+   "id": "2026-09-21-040",
+   "title": "Cybercrime feud erupts on dark web as notorious group claims hijack of rival's website",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNlhfNzZkZ20wMmZ4LVk3OGdpaEZhTk9yUXBOWnB6ZzZ2c3BVYTRzYmNiS1NyX1NXV3VaLUlYbmdSUUxlbGtPN3JNN3BDNGp6ZHE4ekZmcHFzelZLQmMtYW5IX0ctMmhUSk10bkQ5Q1h6NGl0cWJMNDFsaFdJOFpqNFpva0pCZVJpVHFwZ2lfcTVOM3Qtd2J0b3VNREtRRE5WbEY5dElNVW96d2xLUHQ1X0VfNXUwT1o3WHI0aGdVOGloV21EV2dNdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-21T01:58:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports a feud among cybercrime groups on the dark web, with a notorious group claiming it hijacked a rival's website. No further detail in the feed entry.",
+   "relevance": 3,
+   "tags": [
+    "cybercrime",
+    "dark-web"
+   ]
+  },
+  {
+   "id": "2026-09-21-056",
+   "title": "Russia’s secret plan to supercharge kamikaze drone production",
+   "url": "https://www.politico.eu/article/russias-secret-plan-to-supercharge-kamikaze-drone-production/",
+   "source": "Politico Europe",
+   "published": "2026-09-20T20:00:00.000Z",
+   "category": "global-security",
+   "summary": "Documents obtained by POLITICO show a Russian state company's blueprint for scaling up carbon fibre production for kamikaze drones as the Kremlin escalates its air war over Europe.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "drones",
+    "hybrid-threat"
+   ]
+  },
+  {
+   "id": "2026-09-21-074",
+   "title": "Massive Ukrainian drone attack hits Moscow on last day of Russian elections",
+   "url": "https://www.politico.eu/article/ukraine-drone-attack-moscow-elections/",
+   "source": "Politico Europe",
+   "published": "2026-09-20T09:23:27.000Z",
+   "category": "global-security",
+   "summary": "Ukraine launched its largest drone attack on Moscow to date on the final day of Russia's elections, hitting what Zelenskyy described as a key oil industry facility and a logistics site. Moscow's mayor called the attack unprecedented.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "drones",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-09-21-077",
+   "title": "Bessent proposes US-China AI safety notifications in talks with Chinese vice premier",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdDhlbkM4N1NRMjZYdkFnclBwZUlLTWFvelg4dUpkZzVkTnZ5TVJ6Yjl5NUlfQjMtTVdMOEc3ZUdzaHpLNjZrcUk0Y3JMNXdfVmh3VnZjdkN5cTJoZXJGNDJ6ZkoteGhiU3huNnVTa0p4VXpZcU9LVTRMLTVJREYyQ3VBTEtlYWVxLTgwNzdnSkFkcjZpaFZZZXBpclVpazhrbkJFdG1zTEVsaGZPLXV6d3NSdk03amxqRHNMTDdnUFQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-20T05:06:00.000Z",
+   "category": "ai-security",
+   "summary": "US Treasury Secretary Bessent proposed US-China AI safety notifications in talks with the Chinese vice premier. No further detail in the feed entry.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "policy",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-002",
+   "title": "International investigation identifies over 70 potential victims exploited in Indian restaurants",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/international-investigation-identifies-over-70-potential-victims-exploited-in-indian-restaurants",
+   "source": "Europol",
+   "published": "2026-09-21T06:22:20.214Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol-supported action on 18 September 2026 identified over 70 potential labour-trafficking victims exploited in Indian restaurants, leading to two arrests. The network is estimated to have generated at least EUR 4 million.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-09-21-003",
+   "title": "Two-week Europol task force identifies 18 sexually abused children worldwide",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-week-europol-task-force-identifies-18-sexually-abused-children-worldwide",
+   "source": "Europol",
+   "published": "2026-09-21T06:22:20.214Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's two-week Victim Identification Task Force identified 18 sexually abused children worldwide, with specialists analysing images, video and intelligence to trace victims and offenders.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "csam"
+   ]
+  },
+  {
+   "id": "2026-09-21-004",
+   "title": "Seven arrests in Brazil during crackdown on South America-Europe cocaine pipeline",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/seven-arrests-in-brazil-during-crackdown-south-america-europe-cocaine-pipeline",
+   "source": "Europol",
+   "published": "2026-09-21T06:22:20.214Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol supported Italian and Brazilian agencies in operation 'EREDITA', dismantling a drug trafficking and money laundering network linked to the 'Ndrangheta. Seven arrests were made in Brazil.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "money-laundering"
+   ]
+  },
+  {
+   "id": "2026-09-21-011",
+   "title": "Know what was tested before your SAP ECC migration goes live",
+   "url": "https://www.helpnetsecurity.com/2026/09/21/guilherme-joventino-mignow-sap-ecc-migration/",
+   "source": "Help Net Security",
+   "published": "2026-09-21T06:00:31.000Z",
+   "category": "incidents-threats",
+   "summary": "Help Net Security interview on SAP ECC migrations: some large companies plan to stay on ECC past the 2027 deadline and pay for extended support to 2030, with fear of disruption stalling projects.",
+   "relevance": 2,
+   "tags": [
+    "sap",
+    "migration"
+   ]
+  },
+  {
+   "id": "2026-09-21-015",
+   "title": "Iran’s military says US preparing to resume strikes",
+   "url": "https://www.aljazeera.com/news/2026/9/21/irans-military-says-us-preparing-to-resume-strikes?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-21T05:21:41.000Z",
+   "category": "global-security",
+   "summary": "Iran's military says it has learned the US may be preparing a new round of strikes and warns of retaliation 'without limitations', while Qatar pushes to revive talks.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-09-21-019",
+   "title": "Gopass: Open-source command-line password manager for teams",
+   "url": "https://www.helpnetsecurity.com/2026/09/21/gopass-open-source-password-manager/",
+   "source": "Help Net Security",
+   "published": "2026-09-21T05:00:32.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Gopass is a free, open-source command-line password manager for teams, built as a drop-in replacement for pass. It encrypts each secret with GPG and keeps the store in Git.",
+   "relevance": 2,
+   "tags": [
+    "open-source",
+    "secrets"
+   ]
+  },
+  {
+   "id": "2026-09-21-021",
+   "title": "Three South Korean soldiers injured in blast at DMZ, military says",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSi1xRjVYVlJCeTZWZUUzNldFc2xjYlpNTVVnSjVudVZXRi04VVloaUYtdXVEay01eTM5Q0J3VF9USXAyUGp0UU5QVXZBUGNsZUNJNDhwZG5ONDBLZ1RMclJJeXBOTDNUbkxkaVZEanU0SVVUWENWa2wtNWFFNDgzbkxGV213VmdtTEp6M191NEpGeDJNM1VTbllBLUZiWHNhN2ViVHBSMW0xNjlMLTRiek1LWjY?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-21T04:38:00.000Z",
+   "category": "global-security",
+   "summary": "Three South Korean soldiers were injured in a blast at the DMZ, according to the military. No further detail in the feed entry.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-029",
+   "title": "At least three killed in Pakistani airstrikes on Afghanistan, officials say",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUnNNQ0pjRUhkOVRfZ2EwNWN1WDBXWmgxNXlweDlWRzVqMTBfemRWT2x0NG5hRVdtSFowS0QwVld3MkdqZ2RLSWVuWE5KNjRxWVFlMXR1emZyTTZ4UFlkS2tQWmF0T0xlRExmQktSN2xha3hIZ0JPWTFJUUNORjc5LXloMWV6QS1SeE5oR2tzU01jNExMdXVTYVBDb1l6NzM3bF9SVWplQW1aZ1ZYcXdBMTdLdEhTNW5WV2g4U2hUQnA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-21T03:27:00.000Z",
+   "category": "global-security",
+   "summary": "Officials say at least three people were killed in Pakistani airstrikes on Afghanistan. No further detail in the feed entry.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-030",
+   "title": "German Chancellor Merz calls state election a 'disaster' for his party but vows to stay on",
+   "url": "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-21T03:22:44.000Z",
+   "category": "global-security",
+   "summary": "Germany's final state elections of the year delivered heavy losses for Chancellor Merz's CDU, which recorded its worst postwar result; the Left won Berlin and the AfD came first in Mecklenburg-Vorpommern. Merz called it a disaster but vowed to stay on.",
+   "relevance": 2,
+   "tags": [
+    "germany",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-09-21-033",
+   "title": "Xi rolls into Trump summit with China's trade engine roaring",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjdmUF9fTEcySTFqT2t2NUZsd1prTmZjTjJVbmZwOVVVQzVCYV9mem5YNGRVUUdYT05uRTlXTWFheEh5azN5blpURFI1YXItOEJBZWZRRDlLQkx3aGJsdkZia0M2WEpaNHRhTTVmOEpUeU5FdWRPYVN1dUV1bVZrbHpzVEhZZzBrRXNXMTYzOTZzQTVETVkxM1pJT3JIZlpucUJoQTVFaE5LX28?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-21T02:50:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters reports Xi entering a summit with Trump against the backdrop of strong Chinese trade performance. No further detail in the feed entry.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-09-21-034",
+   "title": "Vessels trickle through Strait of Hormuz as Middle East conflict persists",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNHdMbF8wY2pMdE0tcHdWa3l5dkc5MGpKWVJEZW9VUnV2UTFlaTlVbVpOZ1pQN245SWZOLU4zWDd3ODlBTUhhZmlmaE1jUGltMzRKUF9xRl9CT2ZpMnNxcXkxOXdQeHJHajFzMkpoNWVnS3N6X3ExamF1ejcyQ3I1LW5DVHRXTXQ5MVVtTEE1cmtxLWhGMURaZ19pajA1blpROVVxRXQ3MHE4Zy1BLUVybldpUm01NU0?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-21T02:36:00.000Z",
+   "category": "global-security",
+   "summary": "Shipping traffic through the Strait of Hormuz remains sharply reduced as the Middle East conflict continues. No further detail in the feed entry.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "shipping"
+   ]
+  },
+  {
+   "id": "2026-09-21-038",
+   "title": "Commission’s industrial AI push has yet to accelerate",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTlwMlNPdDU2Y293a3ZSbTUxYlRzUTZrSkotM2hDMTVfdU1UOFo4V05YYU5nOV90bUgzeUdFT1IybVlpb3NzcmJOMzI2ckFhMHpKRUlwMThTblVlNHcwUkkxZDVQcVBNY2VHSWQyczRnUFZBSG0tWjFfV1I3c0xWQW4xRHNST04zLTQ4?oc=5",
+   "source": "Euractiv (via Google News)",
+   "published": "2026-09-21T02:05:37.000Z",
+   "category": "policy-regulation",
+   "summary": "Euractiv reports that the European Commission's industrial AI push has yet to accelerate. Headline only; no further detail in the feed entry.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-09-21-039",
+   "title": "Why the far right lost: 11 lessons for Europe from Sweden’s election",
+   "url": "https://www.politico.eu/article/why-the-far-right-failed-11-lessons-for-europe-from-swedens-election/",
+   "source": "Politico Europe",
+   "published": "2026-09-21T02:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "POLITICO analysis of the Sweden Democrats' drop in support, drawing lessons for other European countries from interviews with party leaders and analysts.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-21-043",
+   "title": "Trump administration readies sweeping sanctions against ICC, reports say",
+   "url": "https://www.aljazeera.com/news/2026/9/21/trump-administration-readies-sweeping-sanctions-against-icc-reports-say?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-21T01:19:42.000Z",
+   "category": "global-security",
+   "summary": "Reports say the Trump administration is preparing broad sanctions against the International Criminal Court; measures targeting the court itself could disrupt its payments, IT services and investigations.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-047",
+   "title": "Ethiopian armed groups forge alliance against government",
+   "url": "https://www.aljazeera.com/news/2026/9/21/ethiopian-armed-groups-forge-alliance-against-government?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-21T00:34:30.000Z",
+   "category": "global-security",
+   "summary": "Ethiopian armed groups that were previously adversaries have announced an alliance against the government, amid fears of an expanding war.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-055",
+   "title": "Quoting voxium",
+   "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+   "source": "Simon Willison",
+   "published": "2026-09-20T21:06:43.000Z",
+   "category": "ai-security",
+   "summary": "A quoted practitioner account describes a large company where specs, code, tests, PRDs, tickets and reports are all produced by an AI coding agent, with the team uneasy about being pushed to ship that output.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "sdlc"
+   ]
+  },
+  {
+   "id": "2026-09-21-058",
+   "title": "Macron and Carney vow closer France-Canada ties amid strained US relations",
+   "url": "https://www.euronews.com/my-europe/2026/09/20/macron-and-carney-vow-closer-france-canada-ties-amid-strained-us-relations",
+   "source": "Euronews – Europe",
+   "published": "2026-09-20T19:12:54.000Z",
+   "category": "policy-regulation",
+   "summary": "Macron hosted Canadian PM Carney at Saint-Pierre-et-Miquelon for talks on deepening economic and security ties, as Canada seeks closer relations with France and Europe amid tensions with the US.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-21-059",
+   "title": "EU wants ‘closest possible’ relationship with Canada, Costa tells POLITICO",
+   "url": "https://www.politico.eu/article/eu-wants-closest-possible-relation-with-canada-antonio-costa-tells-politico/",
+   "source": "Politico Europe",
+   "published": "2026-09-20T17:00:37.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council President Antonio Costa told POLITICO the EU wants the closest possible relationship with Canada, naming defence, AI and strengthening democracy as areas for cooperation.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ai",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-09-21-060",
+   "title": "EU budget needs taxes governments aren’t already raising, Costa says",
+   "url": "https://www.politico.eu/article/eu-budget-taxes-government-antonio-costa-deal-money-raise/",
+   "source": "Politico Europe",
+   "published": "2026-09-20T16:37:56.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council President Costa said the EU budget needs revenue sources governments are not already taxing, and urged member states to soften red lines to reach a deal.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-09-21-066",
+   "title": "Meloni promises to ban veils in Italian schools and limit foreign students",
+   "url": "https://www.politico.eu/article/giorgia-meloni-ban-veils-italy-schools-limit-foreign-students/",
+   "source": "Politico Europe",
+   "published": "2026-09-20T14:56:27.000Z",
+   "category": "policy-regulation",
+   "summary": "Italian PM Meloni announced plans to ban the burqa and niqab in Italian schools and to cap the number of foreign students per class, saying Italian children must not feel like a minority in class.",
+   "relevance": 2,
+   "tags": [
+    "italy",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-09-21-071",
+   "title": "Meta's Muse Is Better at Surveilling Than Helping Me",
+   "url": "https://www.wired.com/story/metas-muse-is-better-at-surveilling-than-helping-me/",
+   "source": "Wired – AI",
+   "published": "2026-09-20T10:30:00.000Z",
+   "category": "ai-security",
+   "summary": "Wired reports that Meta's Muse app opts users into data collection for AI training and prompts them to share bank account, email and passport details.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "privacy"
+   ]
+  }
+ ]
+}
