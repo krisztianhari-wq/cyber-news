@@ -1,0 +1,907 @@
+{
+ "date": "2026-09-23",
+ "generatedAt": "2026-09-23T06:13:22.649Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 46,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-23-008",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-09-23T06:13:21.788Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns that F5 published an advisory on 22 September for a critical BIG-IP APM vulnerability that the vendor confirms is actively exploited; patch as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "f5",
+    "cve",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-09-23-075",
+   "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-09-22T19:13:29.000Z",
+   "category": "incidents-threats",
+   "summary": "ShinyHunters claims it breached FBI systems via a new Oracle PeopleSoft zero-day, stealing data on nearly all agents, staff and job applicants; the defaced FBI jobs site remains offline and the FBI is investigating.",
+   "relevance": 5,
+   "tags": [
+    "shinyhunters",
+    "zero-day",
+    "oracle"
+   ]
+  },
+  {
+   "id": "2026-09-23-080",
+   "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+   "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+   "source": "The Hacker News",
+   "published": "2026-09-22T18:29:39.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Check Point says a zero-day in its Security Management Server, CVE-2026-93616, was exploited in targeted attacks on 23 July; it lets anyone reaching the web service run scripts without authentication. CISA has added it to KEV.",
+   "relevance": 5,
+   "tags": [
+    "check-point",
+    "zero-day",
+    "kev"
+   ]
+  },
+  {
+   "id": "2026-09-23-095",
+   "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-22T15:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft's DCU and partners disrupted EvilTokens, a leading device code phishing-as-a-service platform targeting Microsoft 365, seizing 50 websites and disabling over 150 domains; it used AI-assisted lures and token theft.",
+   "relevance": 5,
+   "tags": [
+    "phishing",
+    "phaas",
+    "m365"
+   ]
+  },
+  {
+   "id": "2026-09-23-115",
+   "title": "The Closed Quorum: Inside the first reported autonomous AI C2 implant",
+   "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-22T10:00:58.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos details CLOSEDQUORUM, reportedly the first Windows implant with fully autonomous AI-driven C2: it queries Gemini, DeepSeek, Qwen and Mistral models to choose post-compromise actions without operator input.",
+   "relevance": 5,
+   "tags": [
+    "malware",
+    "ai",
+    "c2"
+   ]
+  },
+  {
+   "id": "2026-09-23-006",
+   "title": "CISA warns of three actively exploited Linux vulnerabilities",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/harom-aktivan-kihasznalt-linux-serulekenysegre-figyelmeztet-a-cisa/",
+   "source": "NKI Hungary",
+   "published": "2026-09-23T06:13:21.821Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Hungary's NKI highlights that CISA added three actively exploited Linux vulnerabilities, rated medium to critical, to its KEV catalog last week; Linux fleets should be checked and patched.",
+   "relevance": 4,
+   "tags": [
+    "linux",
+    "kev",
+    "cve"
+   ],
+   "originalTitle": "Három aktívan kihasznált Linux sérülékenységre figyelmeztet a CISA A CISA előző héten három aktívan kihasznált Linux sérülékenységet vett fel a KEV katalógusába, amelyek súlyossága közepestől kritiku…"
+  },
+  {
+   "id": "2026-09-23-009",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-23T06:13:21.788Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical Check Point flaws (fixed 9 September) affecting Security Gateway, Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN.",
+   "relevance": 4,
+   "tags": [
+    "check-point",
+    "vpn",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-09-23-010",
+   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+   "source": "CERT-EU",
+   "published": "2026-09-23T06:13:21.788Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags two critical SAP flaws from September Patch Day, including CVE-2026-44756 (CVSS 10.0), a memory corruption bug in the SAP Kernel/NetWeaver Message Server affecting a broad range of products.",
+   "relevance": 4,
+   "tags": [
+    "sap",
+    "cve",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-09-23-011",
+   "title": "Exploring the evolution of the cyber threat landscape: How dependencies weaken our digital resilience",
+   "url": "https://www.enisa.europa.eu/news/exploring-the-evolution-of-the-cyber-threat-landscape-how-dependencies-weaken-our-digital-resilience",
+   "source": "ENISA",
+   "published": "2026-09-23T06:13:21.498Z",
+   "category": "eu-threat-landscape",
+   "summary": "ENISA examines how the cyber threat landscape is evolving and how growing technology and supply-chain dependencies weaken Europe's digital resilience.",
+   "relevance": 4,
+   "tags": [
+    "enisa",
+    "supply-chain",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-09-23-019",
+   "title": "EU Commission rejects calls to delay phase-out of Chinese power inverters",
+   "url": "https://www.euronews.com/my-europe/2026/09/23/eu-commission-rejects-calls-to-delay-phase-out-of-chinese-power-inverters",
+   "source": "Euronews – Europe",
+   "published": "2026-09-23T05:00:05.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission is keeping its 1 November deadline to phase out Chinese power inverters despite investor and renewables industry pushback, a notable supply-chain security move for critical infrastructure.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "china",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-09-23-060",
+   "title": "Rogue external MFA providers can steal passwords during logins",
+   "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+   "source": "BleepingComputer",
+   "published": "2026-09-22T21:45:45.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Researchers show that attackers with privileged access can register a rogue external MFA provider that captures users' passwords during legitimate logins, a stealthy identity persistence technique.",
+   "relevance": 4,
+   "tags": [
+    "mfa",
+    "identity",
+    "ttp"
+   ]
+  },
+  {
+   "id": "2026-09-23-061",
+   "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+   "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+   "source": "BleepingComputer",
+   "published": "2026-09-22T21:40:37.000Z",
+   "category": "policy-regulation",
+   "summary": "Sweden's IMY fined IT provider Miljödata SEK 1.8m (~$183,000) over inadequate security that led to an August 2025 breach affecting 2.2 million people.",
+   "relevance": 4,
+   "tags": [
+    "gdpr",
+    "fine",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-09-23-069",
+   "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+   "source": "BleepingComputer",
+   "published": "2026-09-22T20:35:24.000Z",
+   "category": "incidents-threats",
+   "summary": "A Chinese-speaking threat actor exploited flaws in ZyXEL GS1900 smart managed switches and WordPress to steal government data from 996 devices and over 18,500 database records.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "zyxel",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-09-23-079",
+   "title": "Volexity spots another China-aligned threat group exploiting Chrome and Microsoft defects",
+   "url": "https://cyberscoop.com/volexity-uta0565-china-exploit-chain-chrome-microsoft/",
+   "source": "CyberScoop",
+   "published": "2026-09-22T18:47:07.000Z",
+   "category": "incidents-threats",
+   "summary": "Volexity reports China-aligned group UTA0565 exploiting Chrome and Microsoft flaws using the same exploit kit shared by several Chinese threat groups.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "china",
+    "exploit"
+   ]
+  },
+  {
+   "id": "2026-09-23-085",
+   "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+   "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+   "source": "The Hacker News",
+   "published": "2026-09-22T18:03:10.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "WordPress fixed a critical core flaw on 22 September that lets unauthenticated attackers load PHP files from outside theme folders, enabling code execution on some servers; update immediately.",
+   "relevance": 4,
+   "tags": [
+    "wordpress",
+    "cve",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-09-23-105",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-22T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added four actively exploited vulnerabilities to KEV, including Check Point CVE-2026-85102 (certificate validation) and CVE-2026-93616 (path traversal).",
+   "relevance": 4,
+   "tags": [
+    "kev",
+    "cve",
+    "check-point"
+   ]
+  },
+  {
+   "id": "2026-09-23-106",
+   "title": "lwIP (Lightweight IP)",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
+   "source": "CISA Advisories",
+   "published": "2026-09-22T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA warns of an lwIP TCP/IP stack flaw (versions 2.0.1–2.2.1) that can crash devices or corrupt memory, potentially enabling code execution; lwIP is widely embedded in network and IoT devices.",
+   "relevance": 4,
+   "tags": [
+    "lwip",
+    "embedded",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-09-23-007",
+   "title": "Phishing emails target ChatGPT users",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adathalasz-e-mailekkel-veszik-celba-a-chatgpt-felhasznalokat/",
+   "source": "NKI Hungary",
+   "published": "2026-09-23T06:13:21.821Z",
+   "category": "eu-threat-landscape",
+   "summary": "NKI relays a Cofense warning about a phishing campaign using fake ChatGPT billing emails to steal users' account and payment data.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "ai"
+   ],
+   "originalTitle": "Adathalász e-mailekkel veszik célba a ChatGPT felhasználókat A Cofense egy adathalász kampányra hívta fel a figyelmet, amely hamis, ChatGPT-számlázásra hivatkozó e-mailekkel próbálja megszerezni a fe…"
+  },
+  {
+   "id": "2026-09-23-015",
+   "title": "Prismor: Open-source runtime control plane for AI agents",
+   "url": "https://www.helpnetsecurity.com/2026/09/23/prismor-open-source-ai-agent-security/",
+   "source": "Help Net Security",
+   "published": "2026-09-23T05:30:31.000Z",
+   "category": "ai-security",
+   "summary": "Prismor is a free open-source policy layer that sits between AI coding agents (Claude Code, Codex, Cursor) and their tool calls, checking each action against policy before it runs.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "open-source"
+   ]
+  },
+  {
+   "id": "2026-09-23-022",
+   "title": "Nearly two-thirds of tested websites fail every bot test",
+   "url": "https://www.helpnetsecurity.com/2026/09/23/datadome-growing-bad-bot-traffic-report/",
+   "source": "Help Net Security",
+   "published": "2026-09-23T04:30:37.000Z",
+   "category": "incidents-threats",
+   "summary": "DataDome reports malicious bot activity up 124% between July 2025 and June 2026 versus 13.2% human traffic growth, with AI agent and LLM crawler traffic up 82.3%; most tested sites failed every bot test.",
+   "relevance": 3,
+   "tags": [
+    "bots",
+    "ai",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-09-23-032",
+   "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines",
+   "url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-23T02:57:00.000Z",
+   "category": "global-security",
+   "summary": "Trump threatened to 'annihilate' Iran at the UN while US and Iranian officials held mediated talks on ending the war and reopening the Strait of Hormuz; Tehran ties progress to lifting blockades and unfreezing assets.",
+   "relevance": 3,
+   "tags": [
+    "iran",
+    "geopolitics",
+    "hormuz"
+   ]
+  },
+  {
+   "id": "2026-09-23-038",
+   "title": "Can we still call Russia’s strategy against the EU hybrid?",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNHloZ2x2cW1qWFg2c01XTUp0T2xobEN2YUdPc0daZk9CMFU1aHMySTZUNnZNY1FBVnhYSVBPSFpMcjlDUW9RSXFmd0poa0tyR2w3eksxbzJZNklvaFVJSGZxR3pHNHRKcnpPNkpuUUpzanpuQjBTOHVURGdLQlg5TVJQVkdUNDBlZUJYdUY1SkM?oc=5",
+   "source": "Euractiv (via Google News)",
+   "published": "2026-09-23T02:02:31.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Euractiv examines whether 'hybrid' still adequately describes Russia's escalating campaign against the EU.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "hybrid-threats"
+   ]
+  },
+  {
+   "id": "2026-09-23-049",
+   "title": "Zelenskyy says Ukraine ready for energy truce with Russia after Trump talks",
+   "url": "https://www.aljazeera.com/news/2026/9/23/zelenskyy-says-ukraine-ready-for-energy-truce-with-russia-after-trump-talks?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-23T01:20:39.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy said Ukraine is ready to halt strikes on Russian energy facilities if Moscow stops attacking Ukraine's energy system, following talks with Trump.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "russia",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-09-23-062",
+   "title": "US to build two military bases in Greenland under new deal with Denmark",
+   "url": "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-22T21:36:55.000Z",
+   "category": "global-security",
+   "summary": "A US-Denmark defence deal signed at the UN lets the US expand Pituffik Space Base and build new defence areas at Narsarsuaq and Mestersvig in Greenland, while reaffirming Danish sovereignty.",
+   "relevance": 3,
+   "tags": [
+    "greenland",
+    "arctic",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-09-23-065",
+   "title": "After water attacks, Capitol Hill offers its own proposal for an AI-cyber test program",
+   "url": "https://cyberscoop.com/gottheimer-ai-cyber-defense-act-cisa-pilot/",
+   "source": "CyberScoop",
+   "published": "2026-09-22T21:14:32.000Z",
+   "category": "policy-regulation",
+   "summary": "Following attacks on water utilities, a bipartisan House bill proposes a $100m DHS pilot to help critical infrastructure operators use AI for cyber defence, separate from an administration-proposed pilot.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "critical-infrastructure",
+    "us-policy"
+   ]
+  },
+  {
+   "id": "2026-09-23-066",
+   "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+   "url": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+   "source": "Dark Reading",
+   "published": "2026-09-22T21:12:37.000Z",
+   "category": "ai-security",
+   "summary": "More than 80,000 AI relay servers help users in China mask their identity to access US frontier LLMs, likely to clone them via distillation.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "china",
+    "model-theft"
+   ]
+  },
+  {
+   "id": "2026-09-23-091",
+   "title": "Daily summary - 22.09.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-22092026",
+   "source": "CERT.at",
+   "published": "2026-09-22T16:29:18.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report: Austria's new Federal Office for Cybersecurity launches in October, headed by Markus Kasinger, formerly of Austrian Power Grid.",
+   "relevance": 3,
+   "tags": [
+    "austria",
+    "cert",
+    "governance"
+   ],
+   "originalTitle": "Tageszusammenfassung - 22.09.2026"
+  },
+  {
+   "id": "2026-09-23-096",
+   "title": "EU renews Russia sanctions but removes Usmanov at France's request",
+   "url": "https://www.euronews.com/my-europe/2026/09/22/eu-renews-russia-sanctions-but-removes-usmanov-at-frances-request",
+   "source": "Euronews – Europe",
+   "published": "2026-09-22T14:47:22.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU renewed Russia sanctions but removed Alisher Usmanov at France's request, tied to a prisoner release with Azerbaijan, and Mikhail Fridman; Latvia's PM warned cherry-picking sanctions risks normalising Russia.",
+   "relevance": 3,
+   "tags": [
+    "sanctions",
+    "russia",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-23-098",
+   "title": "Brussels seeks power to order electricity demand cuts in energy crisis",
+   "url": "https://www.euronews.com/my-europe/2026/09/22/brussels-seeks-power-to-order-electricity-demand-cuts-in-energy-crisis",
+   "source": "Euronews – Europe",
+   "published": "2026-09-22T14:00:09.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission seeks powers to order electricity demand cuts to prevent power failures in future energy crises.",
+   "relevance": 3,
+   "tags": [
+    "energy",
+    "resilience",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-23-116",
+   "title": "Introducing CAIRN: Frontier tracking for AI-integrated malware",
+   "url": "https://blog.talosintelligence.com/introducing-cairn-frontier-tracking-for-ai-integrated-malware/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-22T10:00:25.000Z",
+   "category": "ai-security",
+   "summary": "Talos released CAIRN, a research toolkit for hunting, classifying and tracking AI-integrated malware; it led to the CLOSEDQUORUM discovery.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "malware",
+    "threat-hunting"
+   ]
+  },
+  {
+   "id": "2026-09-23-002",
+   "title": "Beyond the fine: What the TikTok case reveals about LGPD enforcement",
+   "url": "https://iapp.org/news/a/beyond-the-fine-what-the-tiktok-case-reveals-about-lgpd-enforcement",
+   "source": "IAPP",
+   "published": "2026-09-23T06:13:22.219Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of what the TikTok fine under Brazil's LGPD data protection law signals about enforcement practice beyond the penalty itself.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "lgpd",
+    "tiktok"
+   ]
+  },
+  {
+   "id": "2026-09-23-004",
+   "title": "Two-week Europol task force identifies 18 sexually abused children worldwide",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/two-week-europol-task-force-identifies-18-sexually-abused-children-worldwide",
+   "source": "Europol",
+   "published": "2026-09-23T06:13:21.901Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's two-week Victim Identification Task Force analysed images, video and intelligence and identified 18 sexually abused children worldwide.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "csam"
+   ]
+  },
+  {
+   "id": "2026-09-23-013",
+   "title": "The Trump-Xi summit: Why Europe has so much at stake",
+   "url": "https://www.euronews.com/my-europe/2026/09/23/the-trump-xi-summit-why-europe-has-so-much-at-stake",
+   "source": "Euronews – Europe",
+   "published": "2026-09-23T06:00:17.000Z",
+   "category": "global-security",
+   "summary": "The Trump-Xi summit in Washington will address tariffs, rare earths and AI, with significant knock-on effects for European economic and technology interests.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "china",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-09-23-026",
+   "title": "Worries about an AI internet takeover gain new urgency among doomsday scenarios",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOVdWczZ6dUhnTjZialpMU3BVRW5qZmVqakxOazk1LXlybzFGVE1ia3ZyeG04djRSekxmM2VPZ2hidFNoblZxckJvVHA2bGExX2YxSjdFNDN6a2FUZHZsam9OUnY3ekE4WkFPa2t6WXJWQTFkZEVnLWdfX0g4TXdYZXdPZ1lmQ1VnMC1rbFJUaklZQjh2TkFIUHdweFhMZ09SXzZ3V01iMzAtUQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-23T04:00:00.000Z",
+   "category": "ai-security",
+   "summary": "AP reports growing concern over scenarios in which AI systems take over parts of the internet, among broader AI doomsday debates.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "ai-safety"
+   ]
+  },
+  {
+   "id": "2026-09-23-050",
+   "title": "'Super Intelligence': the president’s new term for AI, explained",
+   "url": "https://www.defenseone.com/technology/2026/09/super-intelligence-presidents-new-term-ai-explained/416153/",
+   "source": "Defense One",
+   "published": "2026-09-23T01:16:27.000Z",
+   "category": "ai-security",
+   "summary": "Defense One explains Trump's relabelling of AI as 'Super Intelligence' and the term's original meaning.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-09-23-053",
+   "title": "Cambodia no 'safe haven' for scams, prime minister tells anti-fraud summit",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPckdJUkJ2MDBxWlBiTWNxcjVZS2puRG80dkZ2cEtaUmJ2M1ZoUWg2bjFhNXl4NW1DQVR6WDVvOEZkWi1PZzlXanN4dWExcW02QnpJd2cwT3g1TUh6dmdRb2tzSFdMYWl3TVZoMnoxWTJObjF3d0I4VzZPdGpuQmVQRGFPWmZYa0FsbEdGek9tTjNLX29TWEhJaXY1REIxSEVWVzZUV0l0SlQ0N1hjcExSVg?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-23T00:33:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Cambodia's prime minister told an anti-fraud summit the country will not be a safe haven for scam operations.",
+   "relevance": 2,
+   "tags": [
+    "fraud",
+    "scam-centres"
+   ]
+  },
+  {
+   "id": "2026-09-23-057",
+   "title": "Trump supports diesel export ban as fuel prices hit records",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRVVYazU2NVBYOUFueHpwS0lxNDJzbFgzYVhRZ1ZjcjRyTGdESUlaT0UzQ0MtbDcyYklsVkk0TVRseTZHUjI0dlU4UmhfVmhQNzEwVVAwY1FTMVFaSHByTDNXd19NUHc5bXRuMWYyaGhmbXBsRUo0TkQ5LVRBQm5ZbndBSEc1amtZR3BrN21XWkFsZw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-22T23:22:15.000Z",
+   "category": "global-security",
+   "summary": "Trump backs a US diesel export ban as fuel prices hit records; analysts warn it would hurt rather than help fuel markets.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "markets"
+   ]
+  },
+  {
+   "id": "2026-09-23-070",
+   "title": "In UN farewell, Macron denounces Trump's Gaza diplomacy as spectacle of shame",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2JxU1lEYzdqQzRSTmRPbUJMSWd2WTJqSWlReHpJb1A0bXJLcThQV0JGR2xIOHZsVHVucmRvSGhiOHIwMFpPWWtRVUdiWlc2OWNPNWZFOGluUkpqdlFTRS12ZDZ6Mi1mdWNIMWFxcDNZU01CaVBJalhEeHJhV1liTXFsWm1ER0hZOGFaSjdCOGpUYW13alFZakxJSTVfak53UWlwbVp1RGNHekxfYThBYkVrYXo1UQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-22T20:11:00.000Z",
+   "category": "global-security",
+   "summary": "In his UN farewell, Macron called Trump's Gaza diplomacy a spectacle of shame, while Canada pledged $71m for two-state efforts and the UK backed Palestinian statehood.",
+   "relevance": 2,
+   "tags": [
+    "gaza",
+    "unga"
+   ]
+  },
+  {
+   "id": "2026-09-23-071",
+   "title": "Microsoft to give DARPA hands-on access to quantum system at new Maryland site",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOTVRMXpJeWMzYnQzYnFEQ2JRdEI5X1RHaDVTRDNrYlhkbXRNNThYZDhiZWhpalA5dUEweGthNy1EdEVOTk45MXJxbG5mcXNSbjZHeHc1aUFmaDJVbFNFU290RlFwOGlXdkVvcENHVk0yNmUtRlFpS01DeWJuN1JPdU9fOXlyN2J6THJtRkxBWG5aSDRCcTR4d1o1ZXNfamh5VzlQM0k3ZHh4RDRHc05Cbk81bzNQX2xY?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-22T20:07:45.000Z",
+   "category": "global-security",
+   "summary": "Microsoft will give DARPA hands-on access to a quantum computing system at a new site in Maryland.",
+   "relevance": 2,
+   "tags": [
+    "quantum",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-09-23-073",
+   "title": "Canadian regulator opens probe of IDScan for allegedly violating data privacy laws",
+   "url": "https://therecord.media/canadian-regulator-opens-probe-of-idscan-following-data-breach",
+   "source": "The Record",
+   "published": "2026-09-22T19:52:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Canada's privacy regulator opened an investigation into IDScan's security practices and the adequacy of its breach notifications.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-09-23-086",
+   "title": "Introducing GPT-6 Sol and Luna",
+   "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+   "source": "OpenAI News",
+   "published": "2026-09-22T18:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI released GPT-6 Sol and GPT-6 Luna, hours after Anthropic launched Claude Opus 5.5, intensifying a frontier model price war.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-09-23-092",
+   "title": "Rabbit Is Back, This Time With an AI Agent App",
+   "url": "https://www.wired.com/story/rabbit-r1-os3-jesse-lyu/",
+   "source": "Wired – AI",
+   "published": "2026-09-22T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Rabbit launched OS3, a cloud-hosted agentic OS that operates users' computers through a local agent installed with one command, raising new questions about remote agent access to endpoints.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-09-23-094",
+   "title": "17-year-old detained in Poland over alleged plans for terrorist attack",
+   "url": "https://www.euronews.com/my-europe/2026/09/22/17-year-old-detained-in-poland-over-alleged-plans-for-terrorist-attack",
+   "source": "Euronews – Europe",
+   "published": "2026-09-22T15:35:27.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Polish authorities detained a 17-year-old suspected of planning a mass terrorist attack, including on a school and a mosque.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "terrorism"
+   ]
+  },
+  {
+   "id": "2026-09-23-097",
+   "title": "Fake passport images claim Zelenskyy and family chose Israel as homeland",
+   "url": "https://www.euronews.com/my-europe/2026/09/22/fake-passport-images-claim-zelenskyy-and-family-chose-israel-as-homeland",
+   "source": "Euronews – Europe",
+   "published": "2026-09-22T14:47:10.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Euronews fact-checks recycled fake passport images falsely claiming Zelenskyy chose Israel as his homeland, a disinformation narrative circulating since 2023.",
+   "relevance": 2,
+   "tags": [
+    "disinformation"
+   ]
+  },
+  {
+   "id": "2026-09-23-113",
+   "title": "GPT-6 Astra Breaks an Old Enigma Message",
+   "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+   "source": "Schneier on Security",
+   "published": "2026-09-22T11:02:45.000Z",
+   "category": "ai-security",
+   "summary": "Schneier highlights GPT-6 Astra autonomously breaking a previously unbroken historical Enigma message, a sign of growing AI cryptanalytic and research capability.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "cryptography"
+   ]
+  },
+  {
+   "id": "2026-09-23-120",
+   "title": "How to Use AI With Your Privacy Intact",
+   "url": "https://www.wired.com/story/how-to-use-ai-with-your-privacy-intact/",
+   "source": "Wired – AI",
+   "published": "2026-09-22T09:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Wired guide to reducing privacy and surveillance exposure when using AI chatbots.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "ai"
+   ]
+  }
+ ]
+}
