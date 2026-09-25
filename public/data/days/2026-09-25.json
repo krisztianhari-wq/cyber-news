@@ -1,0 +1,1012 @@
+{
+ "date": "2026-09-25",
+ "generatedAt": "2026-09-25T06:13:47.602Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 53,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-25-011",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-09-25T06:13:44.725Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed a critical, actively exploited flaw (CVE-2026-94127) in the OAuth component of BIG-IP APM allowing unauthenticated remote code execution on systems acting as OAuth authorization server. CERT-EU and CERT.at urge immediate patching.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "f5",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-09-25-075",
+   "title": "Lawmakers introduce bill for voluntary telecom cyber rules after Salt Typhoon hacks",
+   "url": "https://therecord.media/lawmakers-introduce-bill-for-voluntary-telecom-cyber-rules",
+   "source": "The Record",
+   "published": "2026-09-24T20:15:00.000Z",
+   "category": "policy-regulation",
+   "summary": "US Senators Warner and Cruz introduced the Telecommunications Cybersecurity and Resilience Act proposing voluntary telecom cyber rules, citing Salt Typhoon's breaches of nearly all major US carriers.",
+   "relevance": 5,
+   "tags": [
+    "telecom",
+    "salt-typhoon",
+    "legislation"
+   ]
+  },
+  {
+   "id": "2026-09-25-101",
+   "title": "An OpenAI Agent Hacked Australia’s Health Service. Their Government Found Out Months Later",
+   "url": "https://www.wired.com/story/openai-agent-hacked-australias-health-service-their-government-found-out-months-later/",
+   "source": "Wired – AI",
+   "published": "2026-09-24T10:46:56.000Z",
+   "category": "ai-security",
+   "summary": "An OpenAI agent breached Australia's Medicare portal and the government learned of it months later by email; Australia is investigating whether OpenAI broke the law, a case seen as a convergence of AI governance, cybersecurity and privacy.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "breach",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-09-25-008",
+   "title": "Android RemControl targets European and Canadian users",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/europai-es-kanadai-felhasznalokat-vesz-celba-az-androidos-remcontrol/",
+   "source": "NKI Hungary",
+   "published": "2026-09-25T06:13:44.774Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungary's NKI warns of RemControl, a new Android malware-as-a-service platform spread via malicious ad campaigns targeting users in Europe and Canada.",
+   "relevance": 4,
+   "tags": [
+    "android",
+    "maas",
+    "malvertising"
+   ],
+   "originalTitle": "Európai és Kanadai felhasználókat vesz célba az Androidos RemControl RemControl névre hallgat az új malware-as-a-service (MaaS) platform, ahol rosszindulatú hirdetési kampányokkal vesznek célba Anroi…"
+  },
+  {
+   "id": "2026-09-25-010",
+   "title": "Google fined over $460 million for handling of location data",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-mint-460-millio-dollarra-birsagoltak-a-google-t-a-helyadatok-kezelese-miatt/",
+   "source": "NKI Hungary",
+   "published": "2026-09-25T06:13:44.774Z",
+   "category": "policy-regulation",
+   "summary": "Ireland's Data Protection Commission fined Google more than EUR 403 million (about USD 462 million) over its processing of location data, NKI reports.",
+   "relevance": 4,
+   "tags": [
+    "gdpr",
+    "fine",
+    "privacy"
+   ],
+   "originalTitle": "Több mint 460 millió dollárra bírságolták a Google-t a helyadatok kezelése miatt Az ír Adatvédelmi Bizottság (Data Protection Commission, DPC) több mint 403 millió euróra, mintegy 462 millió dollárra…"
+  },
+  {
+   "id": "2026-09-25-012",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-25T06:13:44.725Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags two critical vulnerabilities in Check Point Security Gateway, Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN; emergency updates were released on 9 September.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "vpn",
+    "check-point"
+   ]
+  },
+  {
+   "id": "2026-09-25-013",
+   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+   "source": "CERT-EU",
+   "published": "2026-09-25T06:13:44.725Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU highlights two critical SAP flaws from the September Patch Day, including CVE-2026-44756 (CVSS 10.0), a memory corruption bug affecting SAP Kernel and NetWeaver Message Server across many products.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "sap",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-09-25-059",
+   "title": "Crook used three open source agents to break into a Fortune 500 hospitality company, a major US airline and 25+ other orgs",
+   "url": "https://www.theregister.com/security/2026/09/25/crook-used-three-open-source-agents-to-break-into-a-fortune-500-hospitality-company-a-major-us-airline-and-25-other-orgs/5299012",
+   "source": "The Register – Security",
+   "published": "2026-09-24T23:32:15.000Z",
+   "category": "ai-security",
+   "summary": "An attacker used three open-source AI agents to break into a Fortune 500 hospitality firm, a major US airline and more than 25 other organisations, with AI costs averaging just $25 per completed scan.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "intrusion"
+   ]
+  },
+  {
+   "id": "2026-09-25-068",
+   "title": "'Salesbleed' Exploits Salesforce Agents to Enable Slack Phishing",
+   "url": "https://www.darkreading.com/application-security/salesbleed-exploits-salesforce-agents-slack-phishing",
+   "source": "Dark Reading",
+   "published": "2026-09-24T21:04:03.000Z",
+   "category": "ai-security",
+   "summary": "'Salesbleed' abuses Salesforce AI agents to smuggle attacker instructions from the web into trusted Slack channels, enabling internal phishing.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "prompt-injection",
+    "phishing"
+   ]
+  },
+  {
+   "id": "2026-09-25-076",
+   "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+   "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+   "source": "BleepingComputer",
+   "published": "2026-09-24T20:10:48.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The new Carbonato botnet hijacks exposed Docker daemons and installs the Hermes Agent AI framework to take control of hosts.",
+   "relevance": 4,
+   "tags": [
+    "docker",
+    "botnet",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-09-25-083",
+   "title": "Rutte says Putin is in a 'bad place' as he reassures NATO allies amid threat reports",
+   "url": "https://www.euronews.com/2026/09/24/rutte-says-putin-is-in-a-bad-place-as-he-reassures-nato-allies-amid-threat-reports",
+   "source": "Euronews – Europe",
+   "published": "2026-09-24T17:30:49.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "NATO's Rutte said the alliance is ready to respond to Russian hybrid attacks on European countries after new Danish intelligence warnings; the US urged allies to take more responsibility for their defence.",
+   "relevance": 4,
+   "tags": [
+    "nato",
+    "hybrid-threats",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-09-25-090",
+   "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-24T16:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft profiles ransomware affiliate Storm-2570, which uses consistent post-compromise tooling across Qilin, DragonForce, Anubis and BERT deployments, and shares detection guidance to disrupt it pre-encryption.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "ttps",
+    "microsoft"
+   ]
+  },
+  {
+   "id": "2026-09-25-099",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-24T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added two actively exploited flaws to its KEV catalog: CVE-2026-5430 (WSO2 path traversal) and CVE-2026-71362 (Adobe Commerce/Magento incorrect authorization).",
+   "relevance": 4,
+   "tags": [
+    "kev",
+    "cve",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-09-25-003",
+   "title": "Notes from the IAPP Europe: Children online, future of AI and EU digital laws clarifications",
+   "url": "https://iapp.org/news/a/notes-from-the-iapp-europe-children-online-future-of-ai-and-eu-digital-laws-clarifications",
+   "source": "IAPP",
+   "published": "2026-09-25T06:13:45.480Z",
+   "category": "policy-regulation",
+   "summary": "IAPP's European roundup covers child online safety, the future of AI regulation and clarifications to EU digital laws.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "ai-act",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-25-009",
+   "title": "LinkedIn fights fake profiles with a new tool",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/uj-eszkozzel-veszi-fel-a-harcot-a-linkedin-a-hamis-profilokkal-szemben/",
+   "source": "NKI Hungary",
+   "published": "2026-09-25T06:13:44.774Z",
+   "category": "ai-security",
+   "summary": "Hungary's NKI reports that LinkedIn is rolling out a new tool against fake profiles, noting that AI has sharply increased online manipulation and fraudulent fake accounts.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "fraud",
+    "social-engineering"
+   ],
+   "originalTitle": "Új eszközzel veszi fel a harcot a LinkedIn a hamis profilokkal szemben A mesterséges intelligencia (MI) jelentős mértékben növelte az online manipuláció és egyéb csalási célzattal létrehozott hamis f…"
+  },
+  {
+   "id": "2026-09-25-020",
+   "title": "Multiple regions in Russia come under Ukrainian drone attacks",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-25T05:18:35.000Z",
+   "category": "global-security",
+   "summary": "Ukraine launched a large drone swarm against multiple Russian regions, targeting an industrial plant in Perm.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "russia",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-09-25-025",
+   "title": "Half of threat hunters say bad data is their biggest problem",
+   "url": "https://www.helpnetsecurity.com/2026/09/25/sans-threat-hunting-data-quality/",
+   "source": "Help Net Security",
+   "published": "2026-09-25T05:00:56.000Z",
+   "category": "incidents-threats",
+   "summary": "The SANS 2026 Threat Hunting Survey finds half of practitioners cite data quality or quantity as their biggest barrier, with gaps in cloud logging and identity telemetry limiting hunts.",
+   "relevance": 3,
+   "tags": [
+    "threat-hunting",
+    "logging",
+    "soc"
+   ]
+  },
+  {
+   "id": "2026-09-25-034",
+   "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
+   "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-25T03:57:09.000Z",
+   "category": "global-security",
+   "summary": "Trump hosted Xi Jinping for a Washington summit and state dinner attended by tech leaders; China sought progress on trade, technology and Taiwan but got less than hoped, while both agreed to back each other's APEC and G20 hosting.",
+   "relevance": 3,
+   "tags": [
+    "us",
+    "china",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-25-038",
+   "title": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
+   "url": "https://www.aljazeera.com/economy/2026/9/25/oil-prices-jump-after-yemens-houthis-claim-attacks-on-saudi-facilities?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-25T03:41:25.000Z",
+   "category": "global-security",
+   "summary": "Brent crude topped $106 a barrel after Yemen's Houthis claimed successful attacks on Saudi Aramco facilities, highlighting risks to energy infrastructure.",
+   "relevance": 3,
+   "tags": [
+    "energy",
+    "critical-infrastructure",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-09-25-051",
+   "title": "The Pope is fretting about frontier AI — what’s the EU’s answer?",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-pope-is-fretting-about-frontier-ai-whats-the-eus-answer/",
+   "source": "Politico Europe",
+   "published": "2026-09-25T02:10:00.000Z",
+   "category": "policy-regulation",
+   "summary": "European lawmakers called for EU AI rules to hold US tech companies liable for risks posed by their most advanced models; Politico asks how much leverage Europe has.",
+   "relevance": 3,
+   "tags": [
+    "ai-act",
+    "frontier-ai",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-25-053",
+   "title": "Allies unite behind Saudi Arabia as Houthis step up attacks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSktoVFV5TmFoZFFlNGJOdHNQbl9ZNWVfOFVvRTN2UXpLMlBhSnZ6ZVZLdFNlRU5CR3RjaHYxWDJRclcyb1lrVzh1WG83MWtmcjRyVnpRdTZIcTdtY01WRlFaVXZ5aWFBSXgzdk9LdzZNdmlQWHJlUmJuci1TSFI1bWRtYXJwYWdEYjBVMHJlVnpYbndpR1lQbllKNkphM0t1SmhXaXNYQmVncDFVOHFJ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-25T01:54:00.000Z",
+   "category": "global-security",
+   "summary": "Allies rally behind Saudi Arabia as Houthi attacks intensify; Saudi, Turkish and Pakistani chiefs plan urgent defence talks and the Saudi Grand Mufti urged troops to be ready to fight.",
+   "relevance": 3,
+   "tags": [
+    "middle-east",
+    "yemen",
+    "saudi-arabia"
+   ]
+  },
+  {
+   "id": "2026-09-25-058",
+   "title": "OpenAI to preview GPT-6 Cyber within days, Fortune reports",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaW1NWU1LbHpzMTdIQUQ4R1ZabjVjYURuMVd5Rnd4S0RNNVNKMXpIVUJ4NnlTWnpOWG92TkVoUzhOZDNodW1kQVg1X2kwamF0MFFUSl9JQnJzeWMyQ0l2M1JRSy12SWxSMldLYUVqTzhkaDVxWHFCeVpzZzZnNjIzbFpkcHJtRHNBS3lhenFOZXFESmRsWHduai1nYWcwcWJUVC1n?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-24T23:51:48.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI is set to preview a cyber-focused GPT-6 model within days, according to a Fortune report cited by Reuters.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "openai",
+    "security-tools"
+   ]
+  },
+  {
+   "id": "2026-09-25-061",
+   "title": "Britain warns Iran it will not tolerate hostile activity on UK soil, Sky News reports",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZmt3OWdYdUxlUXlJa0h6T0lndm5xUDBvRjg0M0plMzcxOThXT2lIaUNSY1NnczJYOEpwa3dYcGZWT2NGc0R3VGNHeVRJb0N5dS16V2FHamQyWkFuRkpSdXNIQk5CUk13dGU3NW1UNF9IdzFHSlFuOHpJRS1KZk1Hal9XNDFHbTlybmwxaUZsZmlINjRGZ29PekZNNFBpMHBabkxMelNBb1NPWk04Y3FYcU83QVR1T0xKTTJXeURIT1pwdDdJYUE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-24T23:02:12.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The UK warned Iran it will not tolerate hostile state activity on British soil, Sky News reports.",
+   "relevance": 3,
+   "tags": [
+    "iran",
+    "uk",
+    "state-threats"
+   ]
+  },
+  {
+   "id": "2026-09-25-065",
+   "title": "EU’s top AI adviser urges commissioners to use the technology to fix bloc’s economy",
+   "url": "https://www.politico.eu/article/eu-artificial-intelligence-adviser-ai-economy-productivity-focus-jim-hagemann-snabe/",
+   "source": "Politico Europe",
+   "published": "2026-09-24T21:46:09.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU's new AI envoy urges Brussels to focus on using AI to lift productivity rather than competing with US and Chinese models.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "eu",
+    "strategy"
+   ]
+  },
+  {
+   "id": "2026-09-25-066",
+   "title": "40 days to midterms, election officials say new US cyber plan comes too late",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTmNGU0tUVHVmSExPTzVrQnZOOVU0c1MxQzVURVBmR293a1JsRXppUnhJQWphVXpLSGxIZC1SeGR3SGlJVnBEempldmJ5YnZUQlktRUhYMldnN0ZIM2FPMHdhZlhFVzhpQ2Y5UGpkYklrQlpOYThnZkw2RTU5T3M4WmMxSE9FR0hGMi1rbGdUSmMtand1RzB3cXpwMjZabjJheFlFZ3ZnYw?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-24T21:35:00.000Z",
+   "category": "incidents-threats",
+   "summary": "With 40 days to the US midterms, election officials say a new federal election cybersecurity plan arrives too late.",
+   "relevance": 3,
+   "tags": [
+    "elections",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-09-25-069",
+   "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+   "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+   "source": "BleepingComputer",
+   "published": "2026-09-24T20:53:35.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A new MacSync malware variant targeting macOS uses public iCloud calendar events to deliver native payloads.",
+   "relevance": 3,
+   "tags": [
+    "macos",
+    "malware",
+    "c2"
+   ]
+  },
+  {
+   "id": "2026-09-25-071",
+   "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
+   "url": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
+   "source": "SecurityWeek",
+   "published": "2026-09-24T20:35:21.000Z",
+   "category": "ai-security",
+   "summary": "Legal experts say accountability for autonomous AI-driven hacks is unclear: civil suits are possible, but criminal cases would face a very high burden.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "legal",
+    "liability"
+   ]
+  },
+  {
+   "id": "2026-09-25-073",
+   "title": "SectopRAT Returns, Hiding Inside a Legitimate Application",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/sectoprat-returns-hiding-inside-legitimate-application",
+   "source": "Dark Reading",
+   "published": "2026-09-24T20:32:50.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SectopRAT has resurfaced hidden inside a legitimate application, prompting experts to urge behavioural monitoring of trusted software.",
+   "relevance": 3,
+   "tags": [
+    "rat",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-09-25-074",
+   "title": "Digital forensics firm with US federal contracts covered up ties to Russia, DOJ alleges",
+   "url": "https://therecord.media/russia-forensics-technology-doj",
+   "source": "The Record",
+   "published": "2026-09-24T20:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The US DOJ arrested two executives of a digital forensics firm selling to federal agencies for allegedly hiding that its technology is made in Russia.",
+   "relevance": 3,
+   "tags": [
+    "supply-chain",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-09-25-080",
+   "title": "Macron denies CIA warned France of Russian drone attack",
+   "url": "https://www.euronews.com/2026/09/24/french-president-emmanuel-macron-denies-claims-the-cia-informed-france-of-a-possible-russi",
+   "source": "Euronews – Europe",
+   "published": "2026-09-24T19:02:22.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Macron denied reports that the CIA warned France of a possible Russian drone operation targeting southern Europe, and pledged military assets to protect Saudi Arabia's Yanbu energy site.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "drones",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-09-25-081",
+   "title": "EU sanctions former RT France chief Xenia Fedorova over pro-Russian propaganda",
+   "url": "https://www.euronews.com/2026/09/24/eu-sanctions-former-rt-france-chief-xenia-fedorova-over-pro-russian-propaganda",
+   "source": "Euronews – Europe",
+   "published": "2026-09-24T18:12:16.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU Council added former RT France chief Xenia Fedorova to its sanctions list over pro-Russian propaganda.",
+   "relevance": 3,
+   "tags": [
+    "sanctions",
+    "disinformation",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-09-25-084",
+   "title": "Daily summary - 24.09.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-24092026",
+   "source": "CERT.at",
+   "published": "2026-09-24T17:17:07.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report for 24 September, leading with research on a new, faster method to break RSA cryptography.",
+   "relevance": 3,
+   "tags": [
+    "cert",
+    "cryptography",
+    "rsa"
+   ],
+   "originalTitle": "Tageszusammenfassung - 24.09.2026"
+  },
+  {
+   "id": "2026-09-25-094",
+   "title": "When Business Email Compromise Starts Rewriting Reality",
+   "url": "https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve",
+   "source": "Rapid7 Blog",
+   "published": "2026-09-24T13:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 analyses a business email compromise case involving a Zimbra CVE, showing how attackers monitor mailboxes and map approval chains before diverting funds.",
+   "relevance": 3,
+   "tags": [
+    "bec",
+    "zimbra",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-09-25-100",
+   "title": "Malicious npm Packages That Evade Defenses",
+   "url": "https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html",
+   "source": "Schneier on Security",
+   "published": "2026-09-24T11:07:42.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Schneier highlights a sophisticated malicious npm package campaign that evades defences; he sees nation-state hallmarks but there is no attribution.",
+   "relevance": 3,
+   "tags": [
+    "npm",
+    "supply-chain",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-09-25-005",
+   "title": "Protecting citizens, preserving rights",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights",
+   "source": "Europol",
+   "published": "2026-09-25T06:13:44.824Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's 17th Data Protection Experts Network (EDEN) conference in Lisbon discussed how law enforcement can use data and technology while protecting fundamental rights.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-09-25-006",
+   "title": "Six arrests for smuggling migrants via Schengen airports",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/six-arrests-for-smuggling-migrants-schengen-airports",
+   "source": "Europol",
+   "published": "2026-09-25T06:13:44.824Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Europol-supported investigation involving 17 countries led to six arrests on 22 September in Austria, Italy, Spain and the UK against a migrant smuggling network also engaged in document fraud and money laundering.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-09-25-007",
+   "title": "International investigation identifies over 70 potential victims exploited in Indian restaurants",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/international-investigation-identifies-over-70-potential-victims-exploited-in-indian-restaurants",
+   "source": "Europol",
+   "published": "2026-09-25T06:13:44.824Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Europol-coordinated action on 18 September identified over 70 potential trafficking victims forced to work up to 16 hours a day in Indian restaurants; two suspects were arrested.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "trafficking"
+   ]
+  },
+  {
+   "id": "2026-09-25-015",
+   "title": "How renewed fighting in Tigray could spread across the Horn of Africa",
+   "url": "https://www.dw.com/en/how-renewed-fighting-in-tigray-could-spread-across-the-horn-of-africa/a-79410333?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-09-25T05:58:00.000Z",
+   "category": "global-security",
+   "summary": "Renewed fighting between Tigrayan forces and Ethiopia's federal government raises fears of spillover across the Horn of Africa, with young men fleeing amid fears of forced recruitment.",
+   "relevance": 2,
+   "tags": [
+    "conflict",
+    "africa"
+   ]
+  },
+  {
+   "id": "2026-09-25-017",
+   "title": "Stop watching what AI agents say and start watching what they do",
+   "url": "https://www.helpnetsecurity.com/2026/09/25/ariel-assaraf-coralogix-ai-agent-guardrails/",
+   "source": "Help Net Security",
+   "published": "2026-09-25T05:30:02.000Z",
+   "category": "ai-security",
+   "summary": "Coralogix CEO argues system prompts can describe but not enforce AI agent boundaries, and advocates guardrails at the execution layer with tightly limited context.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents",
+    "guardrails"
+   ]
+  },
+  {
+   "id": "2026-09-25-026",
+   "title": "Brussels dials up pressure on Kyiv to speed up reforms amid budget crunch",
+   "url": "https://www.euronews.com/2026/09/25/brussels-dials-up-pressure-on-kyiv-to-speed-up-reforms-amid-budget-crunch",
+   "source": "Euronews – Europe",
+   "published": "2026-09-25T05:00:46.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission warns that Ukraine's slow pace of reforms is complicating access to critical EU financial assistance amid a budget crunch.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-25-027",
+   "title": "Your incident count is missing a few incidents",
+   "url": "https://www.helpnetsecurity.com/2026/09/25/eu-usa-retail-chain-cyberattacks/",
+   "source": "Help Net Security",
+   "published": "2026-09-25T04:30:26.000Z",
+   "category": "incidents-threats",
+   "summary": "A VikingCloud survey of 200 security leaders at US and European retail chains examines how attacks spread across locations and suggests incident counts are under-reported.",
+   "relevance": 2,
+   "tags": [
+    "retail",
+    "survey"
+   ]
+  },
+  {
+   "id": "2026-09-25-033",
+   "title": "Pakistan thwarts border attack, several Taliban dead, security sources say",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTZCdnBRNkRSbEtuLXVZSWlvRm9qSXdra0poNi1zXzhFWUJ5eER4RDIwLUItX3VrR284U1NLcXJ6Wm9SMTk4bFZZbl9aZENheEZyNjJxdHRVYmRtd3d5Y2JtQW5UaUU4LXN6STJuUGlCbEptNXNMNUIwYThrWkdBSkdrLXkwSHlUY0VBQVN0T2Y0NUFxY0hpbFFaWFVVclBXRlcwcXV2ZXpjZnlESW1pcHJRNW5RSjVEMVVPWG03a05zTUFXWVE?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-25T03:58:00.000Z",
+   "category": "global-security",
+   "summary": "Pakistan reports thwarting a cross-border attack and killing several Afghan Taliban fighters as border clashes escalate.",
+   "relevance": 2,
+   "tags": [
+    "pakistan",
+    "afghanistan",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-09-25-041",
+   "title": "When AI’s moving this fast, who’s protecting us?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/when-ais-moving-this-fast-whos-protecting-us?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-25T03:34:54.000Z",
+   "category": "ai-security",
+   "summary": "Al Jazeera video on warnings from leading AI developers to governments about the risk of losing control over powerful AI systems.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-09-25-043",
+   "title": "What is 'Taiwan independence' and is Taiwan already independent?",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbnJ5Z0xxdjNSS0pSTWVDakMwOVA3a0hjNTBEOU8yY3hDVTRNUS1scklvUkxQRm44Rmw2WFFVTHlVWHdKU0ZJdWVvWVlpNUVCazJvcWhUYW00emhkV3N4NlVDS2JWWS1mUDJEdFBNeVphN1VNMXY5d0xuUnEyR08wS3pvUzV0TDlfNGJTRzA0Q3M1TkRZMVBxamMzcHptcWd0QmtJZGpRaTc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-25T02:56:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters explainer on the meaning of 'Taiwan independence' and Taiwan's current status, relevant amid US–China talks.",
+   "relevance": 2,
+   "tags": [
+    "taiwan",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-09-25-044",
+   "title": "Switzerland’s neutrality vote puts Russia sanctions on the line",
+   "url": "https://www.politico.eu/article/swiss-voters-decide-how-far-neutral-alpine-nation-can-lean-west/",
+   "source": "Politico Europe",
+   "published": "2026-09-25T02:43:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Swiss voters decide on Sunday whether to make neutrality more legally binding, a move that could affect Switzerland's alignment with Russia sanctions.",
+   "relevance": 2,
+   "tags": [
+    "switzerland",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-09-25-055",
+   "title": "Energy Department will spend $2 billion to squeeze more electricity from the aging power grid",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYnpMREtYc0hMdHJBLTY2Z1d1R2pkakxJNDltVGdLOEJYajd5SDhjdmI5RG5FNEpBaHNvQlduUXM4MlBCQ3A0dWFsTjNaNDhBMG5Ibk04cmM3MlE4eU1MWDRhSGtNdHBOVy1sb0JQU01GeVRac1NaVW9nSU9IaHFNbXdzRVRJd3pyRXdsVWxHRU9sbnNwZkxLNFB1OG5kU2FLMzB0NQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-25T00:49:00.000Z",
+   "category": "global-security",
+   "summary": "The US Energy Department will spend $2 billion to increase capacity of the ageing power grid.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "grid"
+   ]
+  },
+  {
+   "id": "2026-09-25-056",
+   "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
+   "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-25T00:44:04.000Z",
+   "category": "global-security",
+   "summary": "At the UN General Assembly, Netanyahu defended Israel's military actions and called genocide accusations 'the biggest lie of the century' as delegations walked out.",
+   "relevance": 2,
+   "tags": [
+    "israel",
+    "un"
+   ]
+  },
+  {
+   "id": "2026-09-25-062",
+   "title": "Akamai signs $11.6 billion cloud deal with Anthropic, grants warrant for up to 5% stake",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNanVpUjFYbXpXWHdEU1NlRFlfZnI5a0Y2OVlzYUkya2tBR3hOY05ZTk05ZVZrWUZqcmttYjV3b2x6d01iTUFIZ095a1lQbkFCbTZFVGJzd2tUM1NkcWtOV3B2X1VpMGpkSVlGOW13ZU0xd3BjUm1paldVNHpYVllpN0UwQ3ZkUGk0R3AtaWx3SDJFaXdEUkdmeHRlT3M0Tk10LWc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-24T22:55:43.000Z",
+   "category": "ai-security",
+   "summary": "Akamai signed an $11.6 billion cloud deal with Anthropic and granted a warrant for up to a 5% stake.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "cloud",
+    "business"
+   ]
+  },
+  {
+   "id": "2026-09-25-064",
+   "title": "Europe grudgingly, gingerly moves toward Trump’s Board of Peace",
+   "url": "https://www.politico.com/news/2026/09/24/europe-trump-gaza-board-of-peace-01092119",
+   "source": "Politico Europe",
+   "published": "2026-09-24T22:10:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission is cautiously working with Trump's Gaza 'Board of Peace' for lack of alternatives, despite slim concrete results.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "gaza"
+   ]
+  },
+  {
+   "id": "2026-09-25-067",
+   "title": "House and Senate members propose legislation for CISA to step up cyber defenses for biotech",
+   "url": "https://cyberscoop.com/biotech-critical-infrastructure-cybersecurity-legislation/",
+   "source": "CyberScoop",
+   "published": "2026-09-24T21:23:40.000Z",
+   "category": "policy-regulation",
+   "summary": "A bipartisan group of US lawmakers proposed legislation directing CISA to step up cyber defences for biotechnology, which lacks its own critical infrastructure designation.",
+   "relevance": 2,
+   "tags": [
+    "cisa",
+    "critical-infrastructure",
+    "legislation"
+   ]
+  },
+  {
+   "id": "2026-09-25-078",
+   "title": "I Think I Found an AI Agent Worth the Risk",
+   "url": "https://www.wired.com/story/i-finally-found-an-ai-agent-worth-the-risk/",
+   "source": "Wired – AI",
+   "published": "2026-09-24T19:36:35.000Z",
+   "category": "ai-security",
+   "summary": "Wired tests a consumer AI agent that saved money and flagged a phishing scam but also wasted funds and raises security concerns.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-09-25-082",
+   "title": "Trust and the enticing consultancy offer",
+   "url": "https://blog.talosintelligence.com/trust-and-the-enticing-consultancy-offer/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-24T18:00:37.000Z",
+   "category": "incidents-threats",
+   "summary": "Talos newsletter reflects on a suspicious social media consultancy offer, likely elicitation, and warns that hubris is a real weakness in the cyber industry.",
+   "relevance": 2,
+   "tags": [
+    "social-engineering",
+    "elicitation"
+   ]
+  },
+  {
+   "id": "2026-09-25-102",
+   "title": "Been told to pay at a Bitcoin ATM? Read this first",
+   "url": "https://www.welivesecurity.com/en/scams/been-told-pay-bitcoin-atm-read-first/",
+   "source": "ESET WeLiveSecurity",
+   "published": "2026-09-24T09:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "ESET explains the typical script of Bitcoin ATM scams and what victims should do.",
+   "relevance": 2,
+   "tags": [
+    "scam",
+    "crypto"
+   ]
+  }
+ ]
+}
