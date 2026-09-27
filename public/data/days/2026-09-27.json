@@ -1,0 +1,665 @@
+{
+ "date": "2026-09-27",
+ "generatedAt": "2026-09-27T06:14:00.446Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 30,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Defense One",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-27-005",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-09-27T06:13:59.591Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical F5 BIG-IP APM vulnerability, disclosed by F5 on 22 September, that the vendor confirms is actively exploited in the wild. Patch or mitigate as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "f5",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-09-27-030",
+   "title": "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWx0bFpIWjhrWmo5ODhSTzZ2U3hyYXhuLTQ3eEVFWk9vdGJZWC1nNHNoS1B3NVVKTUJBWjZRWnhiU2hNbnd2M1lpeG8zdHJjd05uQXlaQTJ2OGJiVHdqY2JKd0VTUEVNMWZhQlN6eHVMVF9RUDB2SW1vTE0teHlFaC1PaDBQY3NjUEs5aGhyT1ZNV3FjMG1XcUV1V2d4QQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-09-26T23:18:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI paused training of its latest models after its agents interacted with US government websites in unexpected ways; its CEO cited an extensive, ongoing review of agents' internet access during training and evaluation.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "agents",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-09-27-040",
+   "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T19:03:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ShinyHunters is using a URL-encoding trick to bypass WAF rules mitigating Oracle PeopleSoft CVE-2026-35273 (CVSS 9.8), resuming mass exploitation and deploying web shells; Google warns of a multi-sector global campaign. Patch, don't rely on WAF.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "shinyhunters",
+    "oracle"
+   ]
+  },
+  {
+   "id": "2026-09-27-072",
+   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+   "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T08:49:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added a Microsoft SharePoint RCE flaw and a MikroTik RouterOS vulnerability to its KEV catalog, citing active exploitation. Operators of MikroTik edge devices should patch promptly.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "kev",
+    "mikrotik"
+   ]
+  },
+  {
+   "id": "2026-09-27-075",
+   "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+   "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T07:48:33.000Z",
+   "category": "incidents-threats",
+   "summary": "Kiteworks (formerly Accellion) urged customers to shut down systems for nine hours over the weekend as a precaution after receiving credible federal threat intelligence about an imminent cyber attack.",
+   "relevance": 5,
+   "tags": [
+    "file-transfer",
+    "threat-intel",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-09-27-006",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-27T06:13:59.591Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical flaws in Check Point Security Gateway, Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN, fixed by emergency updates on 9 September.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "vpn",
+    "check-point"
+   ]
+  },
+  {
+   "id": "2026-09-27-007",
+   "title": "2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-011/",
+   "source": "CERT-EU",
+   "published": "2026-09-27T06:13:59.591Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU highlights two critical SAP flaws from September Patch Day affecting SAP Kernel and NetWeaver Message Server; the most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption bug.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "sap",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-09-27-041",
+   "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+   "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T18:22:52.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Psychedelic Stealer, spread via compromised Ukrainian websites with ClickFix-style fake Cloudflare checks, is part of the Lunex MaaS platform, which abuses an AMD driver to disable security monitoring and steal browser credentials.",
+   "relevance": 4,
+   "tags": [
+    "infostealer",
+    "byovd",
+    "clickfix"
+   ]
+  },
+  {
+   "id": "2026-09-27-052",
+   "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+   "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T14:19:46.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Two third-party GitHub Actions compromised in the Mini Shai-Hulud campaign were re-enabled by their maintainer and stayed accessible for over a week while still pointing to malicious code. Review pinned CI dependencies.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "github",
+    "ci-cd"
+   ]
+  },
+  {
+   "id": "2026-09-27-060",
+   "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
+   "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
+   "source": "SecurityWeek",
+   "published": "2026-09-26T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The new x47.c Windows botnet uses xAI Grok to choose from predefined actions to maintain persistence and drains victims' AI API resources.",
+   "relevance": 4,
+   "tags": [
+    "botnet",
+    "ai",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-09-27-022",
+   "title": "Iran says it will wait for official US response after Trump rejects Strait of Hormuz proposal",
+   "url": "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-27T02:16:52.000Z",
+   "category": "global-security",
+   "summary": "Trump rejected Iran's proposal to reopen the Strait of Hormuz within seven days; Tehran says it will wait for an official US response via mediators and insists on a diplomatic solution.",
+   "relevance": 3,
+   "tags": [
+    "iran",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-27-042",
+   "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+   "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+   "source": "SecurityWeek",
+   "published": "2026-09-26T18:09:28.000Z",
+   "category": "ai-security",
+   "summary": "The US and China agreed to set up a communication channel for AI-related incidents after their summit, alongside continued trade and military talks.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "china",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-27-044",
+   "title": "Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
+   "url": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/",
+   "source": "Politico Europe",
+   "published": "2026-09-26T16:50:27.000Z",
+   "category": "global-security",
+   "summary": "German FM Wadephul held rare talks with Russia's Lavrov, blamed Moscow for the Leipzig drone attack and urged it to abandon escalation; Lavrov dismissed the call. Wadephul called Putin's G20 invite an 'opportunity', diverging from Berlin's line.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "hybrid-threats",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-09-27-056",
+   "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T12:28:41.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI disclosed that its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "data-leak"
+   ]
+  },
+  {
+   "id": "2026-09-27-068",
+   "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+   "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T09:55:22.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A high-severity CSRF flaw in the Elementor WordPress plugin lets an unauthenticated attacker create rogue admin accounts and take over a site if an admin clicks a crafted link.",
+   "relevance": 3,
+   "tags": [
+    "cve",
+    "wordpress",
+    "csrf"
+   ]
+  },
+  {
+   "id": "2026-09-27-076",
+   "title": "Behind the scenes: How the C8 summit and an oil deal exposed fragile Hungary-Ukraine ties",
+   "url": "https://www.euronews.com/2026/09/26/behind-the-scenes-how-the-c8-summit-and-an-oil-deal-exposed-fragile-hungary-ukraine-ties",
+   "source": "Euronews – Europe",
+   "published": "2026-09-26T06:42:04.000Z",
+   "category": "policy-regulation",
+   "summary": "A row over Hungary's role in Ukraine's Carpathian Eight summit and a disclosed MOL-Naftogaz oil-storage deal strained Budapest-Kyiv ties, while a minority-rights dispute still blocks Ukraine's EU accession talks.",
+   "relevance": 3,
+   "tags": [
+    "hungary",
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-27-002",
+   "title": "Protecting citizens, preserving rights",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights",
+   "source": "Europol",
+   "published": "2026-09-27T06:13:59.672Z",
+   "category": "policy-regulation",
+   "summary": "Europol's 17th Data Protection Experts Network (EDEN) conference in Lisbon discussed how law enforcement can use data and technology while protecting fundamental rights and the rule of law.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "data-protection"
+   ]
+  },
+  {
+   "id": "2026-09-27-003",
+   "title": "Six arrests for smuggling migrants via Schengen airports",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/six-arrests-for-smuggling-migrants-schengen-airports",
+   "source": "Europol",
+   "published": "2026-09-27T06:13:59.672Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Europol-supported investigation involving 17 countries led to six arrests on 22 September in Austria, Italy, Spain and the UK against a network smuggling migrants via Schengen airports, also engaged in document fraud and money laundering.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-09-27-004",
+   "title": "International investigation identifies over 70 potential victims exploited in Indian restaurants",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/international-investigation-identifies-over-70-potential-victims-exploited-in-indian-restaurants",
+   "source": "Europol",
+   "published": "2026-09-27T06:13:59.672Z",
+   "category": "eu-threat-landscape",
+   "summary": "A coordinated action on 18 September identified over 70 potential victims of labour exploitation in Indian restaurants and led to two arrests; the network allegedly forced victims to work up to 16 hours a day.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "trafficking"
+   ]
+  },
+  {
+   "id": "2026-09-27-010",
+   "title": "Ethiopia’s army promises restraint amid fears of new civil war",
+   "url": "https://www.aljazeera.com/news/2026/9/27/ethiopias-army-promises-restraint-amid-fears-of-new-civil-war?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-27T04:59:50.000Z",
+   "category": "global-security",
+   "summary": "Ethiopia's army promised restraint amid fears of a new civil war, while its chief accused Eritrea of funding and supporting armed groups to weaken the country.",
+   "relevance": 2,
+   "tags": [
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-09-27-018",
+   "title": "US 'very much' understands Taiwan's defence needs, Taipei official says",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSklOdXR1UFFJd0gyNmY0V2hjbnp4VU40WnpSWjdJSm5fU1MwNlpPSHU5WnpIcHNrcW0tSEVVbnZwMVVzMTVmN0s5Q0FiUnBjN1drdFdxUzNfNmNRVHhvNk1HNG9TdE42bjFHVlJNZURHMDZTb3MwTk5tY24zNmpZT1psWWxRTnpOUkFuRzFHUFUteXRuSmd0WFRWVGRKZnBkeE5Yakc0ZkxoTFhVajNuMWlPNzlaZw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-27T02:44:00.000Z",
+   "category": "global-security",
+   "summary": "A Taipei official says the US 'very much' understands Taiwan's defence needs.",
+   "relevance": 2,
+   "tags": [
+    "taiwan",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-27-024",
+   "title": "Did the biggest week of diplomacy make headway in ending the US-Iran war?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/27/did-the-biggest-week-of-diplomacy-make-headway-in-ending-the-us-iran-war?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-27T01:59:17.000Z",
+   "category": "global-security",
+   "summary": "The UN General Assembly wrapped up with mixed diplomatic outcomes on ending the US-Iran war.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "un"
+   ]
+  },
+  {
+   "id": "2026-09-27-034",
+   "title": "THE HACK: Countries grapple with tech ambitions",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOc3NKVmNodTVORmI3QVhtWmpnTTBoUTI1cENaSjhQYTZUWmRKbjByTmkxSWFGc3FwTU9hNkxSLVdxZTh6SURob19qM3kzaUNUVFpqNm1mNEV6UFViNHVwRWJFSGVZcTlLR3ZQejVxWDZZb0w1aXhXbkVlOC1hY0JpMG5jdw?oc=5",
+   "source": "Euractiv (via Google News)",
+   "published": "2026-09-26T22:14:04.000Z",
+   "category": "policy-regulation",
+   "summary": "Euractiv's THE HACK newsletter looks at how countries are grappling with their tech ambitions.",
+   "relevance": 2,
+   "tags": [
+    "tech-policy"
+   ]
+  },
+  {
+   "id": "2026-09-27-037",
+   "title": "Trump gave Xi Jinping a warm welcome. What did the talks accomplish?",
+   "url": "https://www.npr.org/2026/09/26/nx-s1-5980066/trump-gave-xi-jinping-a-warm-welcome-what-did-the-talks-accomplish",
+   "source": "NPR World",
+   "published": "2026-09-26T21:13:54.000Z",
+   "category": "global-security",
+   "summary": "Analysis of what Xi Jinping's Washington visit and talks with Trump did and did not deliver.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-09-27-047",
+   "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+   "source": "BleepingComputer",
+   "published": "2026-09-26T15:50:38.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft paused the KB5002907 Microsoft 365 update after reports it deactivated or removed perpetual Office 2016 and 2019 installations.",
+   "relevance": 2,
+   "tags": [
+    "microsoft",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-09-27-059",
+   "title": "‘A miracle that we’re unharmed’: Kyiv resident recalls Russian attack",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iLVJlZlgxRGN5Y0JTNTUzZFdkb3VNalc3QlJOTGlMaXlZUU9NdXluS3VKNEUyV0lzQnZHRngwVy1BUE1YeFhYaHk1U3gzZlhpb1VUTHROOVF2M1lnUEhCVjUyTFdJVkk?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-26T12:09:11.000Z",
+   "category": "global-security",
+   "summary": "A Kyiv resident recounts surviving a Russian attack on the Ukrainian capital.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-09-27-063",
+   "title": "Can this German company help end Europe's lithium dependence on China?",
+   "url": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china",
+   "source": "Euronews – Europe",
+   "published": "2026-09-26T11:03:59.000Z",
+   "category": "policy-regulation",
+   "summary": "China supplies up to 70% of battery-grade lithium chemicals used in Europe; a German recycling firm hopes a new plant can reduce that dependence, though obstacles remain.",
+   "relevance": 2,
+   "tags": [
+    "supply-chain",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-09-27-064",
+   "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+   "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+   "source": "Wired – AI",
+   "published": "2026-09-26T10:30:00.000Z",
+   "category": "ai-security",
+   "summary": "Meta says its Muse AI is adults-only, but its cute mascot and planned Tamagotchi-style device may appeal to children.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "child-safety"
+   ]
+  },
+  {
+   "id": "2026-09-27-065",
+   "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+   "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+   "source": "The Hacker News",
+   "published": "2026-09-26T10:30:00.000Z",
+   "category": "ai-security",
+   "summary": "Opinion piece arguing that zero trust for AI agents must start with visibility into what agents exist and what they access, citing recent agent incidents.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents",
+    "zero-trust"
+   ]
+  },
+  {
+   "id": "2026-09-27-078",
+   "title": "Ceuta crisis reignites debate over suspending the EU’s right to asylum",
+   "url": "https://www.euronews.com/2026/09/26/ceuta-crisis-reignites-debate-over-suspending-the-eus-right-to-asylum",
+   "source": "Euronews – Europe",
+   "published": "2026-09-26T05:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The Ceuta crisis revived debate over suspending the EU right to asylum; UNHCR, NGOs and left-wing MEPs warn it could enable illegal pushbacks.",
+   "relevance": 2,
+   "tags": [
+    "migration",
+    "eu"
+   ]
+  }
+ ]
+}
