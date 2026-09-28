@@ -1,26 +1,6 @@
 import { defineConfig, type Plugin } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GoatCounter site code (public, visible in page source anyway). Change the constant to disable or switch sites.
-const DEFAULT_GOATCOUNTER = "hadzsy";
-
-// Optional privacy-friendly view counter (GoatCounter). Enabled only when
-// VITE_GOATCOUNTER_CODE is set at build time; the CSP is widened for exactly that host.
-function goatcounter(code: string | undefined): Plugin {
-  return {
-    name: "goatcounter",
-    transformIndexHtml(html) {
-      if (!code || !/^[a-z0-9-]+$/i.test(code)) return html;
-      const host = `https://${code}.goatcounter.com`;
-      return html
-        .replace("script-src 'self'", "script-src 'self' https://gc.zgo.at")
-        .replace("connect-src 'self'", `connect-src 'self' ${host}`)
-        .replace("img-src 'self' data:", `img-src 'self' data: ${host}`)
-        .replace("</body>", `  <script src="${process.env.VITE_BASE ?? "/"}gc-config.js"></script>\n  <script data-goatcounter="${host}/count" async src="https://gc.zgo.at/count.js"></script>\n  </body>`);
-    },
-  };
-}
-
 // Brand switch (see src/brand.ts): VITE_BRAND=yettel gives the Yettel title, favicon and palette hook;
 // anything else keeps index.html as written (sadrobot).
 function brand(name: string | undefined): Plugin {
@@ -39,7 +19,7 @@ function brand(name: string | undefined): Plugin {
 }
 
 export default defineConfig({
-  plugins: [react(), brand(process.env.VITE_BRAND), goatcounter(process.env.VITE_GOATCOUNTER_CODE || DEFAULT_GOATCOUNTER)],
+  plugins: [react(), brand(process.env.VITE_BRAND)],
   base: process.env.VITE_BASE ?? "/",
   build: { target: "es2022" },
 });

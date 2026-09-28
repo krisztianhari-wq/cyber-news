@@ -23,7 +23,7 @@ npm run dev                   # preview at http://localhost:5173
 - Summaries are AI-generated; always verify with the linked source.
 
 ## View counter
-Page views are counted with [GoatCounter](https://www.goatcounter.com) (no cookies, no personal data). The site code is set in `vite.config.ts` (override with the `VITE_GOATCOUNTER_CODE` build variable).
+Page views are counted server-side by sadrobot Status on cyber.sadrobot.eu (from the web server's access log: no cookies, no third-party script, no stored IP addresses); the footer counter reads `/_views.json`. The GitHub Pages build shows no counter.
 
 ## Two brands, one codebase
 The look is chosen at build time with `VITE_BRAND`: the GitHub Pages workflow builds with `VITE_BRAND=yettel` (Yettel palette, wordmark, "Open" label), while cyber.sadrobot.eu builds without it and gets the sadrobot brand. Content and daily editions are identical.
