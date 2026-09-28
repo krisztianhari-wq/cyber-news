@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import MiniSearch from "minisearch";
 import { Logo } from "./Logo";
+import { BRAND, SITE_NAME } from "./brand";
 import { ViewCounter } from "./ViewCounter";
 import { CATEGORIES, categoryName } from "./categories";
 import type { DayFile, IndexFile, NewsItem } from "./types";
@@ -73,13 +74,14 @@ export function App() {
           <div className="brand">
             <Logo fill="currentColor" height={20} />
             <span className="brand-sep" />
-            <span className="brand-name">Cyber <span>· daily security briefing</span></span>
+            <span className="brand-name">{BRAND === "yettel" ? "Cyber Digest" : "Cyber"} <span>· daily security briefing</span></span>
           </div>
           <div className="topbar-right">
             <ViewCounter />
             <select className="select" value={selectedDate} onChange={(e) => { setSelectedDate(e.target.value); setQuery(""); }} aria-label="Choose edition" disabled={!index}>
               {index?.days.map((d) => <option key={d.date} value={d.date}>{fmtDate(d.date)}</option>)}
             </select>
+            {BRAND === "yettel" && <span className="classification">Open</span>}
           </div>
         </div>
       </header>
@@ -165,7 +167,7 @@ export function App() {
       <footer>
         <div className="wrap">
           <span>Automated digest of public sources · summaries are AI-generated, always verify with the linked article.</span>
-          <span>sadrobot Cyber Digest</span>
+          <span>{SITE_NAME}</span>
           {!searching && day && (
             <details>
               <summary>Sources for this edition · {sourcesOk}/{day.feeds.length} reachable</summary>

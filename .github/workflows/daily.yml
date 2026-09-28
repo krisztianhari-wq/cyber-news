@@ -59,6 +59,7 @@ jobs:
         run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
+          VITE_BRAND: yettel   # GitHub Pages keeps the Yettel look; cyber.sadrobot.eu builds without it (sadrobot)
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

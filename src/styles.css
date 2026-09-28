@@ -12,8 +12,20 @@
   --panel: #f5f9fb;
   --hero-bg: var(--y-navy);
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Arial, sans-serif;
+  --glow: rgba(90, 209, 232, 0.22);
   --radius: 16px;
   --max: 1080px;
+}
+/* Yettel brand (GitHub Pages build, VITE_BRAND=yettel): official palette and typeface */
+:root[data-brand="yettel"] {
+  --y-navy: #002340;
+  --y-lime: #b4ff00;
+  --y-ice: #c4dfe9;
+  --y-grey: #99a7b3;
+  --y-llime: #e1ff99;
+  --y-pale: #e7f2f6;
+  --glow: rgba(180, 255, 0, 0.2);
+  --font: "Yettel", "Yettel Light", Arial, Helvetica, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) { --bg: #04131f; --fg: #e9f1f5; --muted: #93a6b5; --line: #133048; --panel: #0a2135; --hero-bg: #001a30; }
@@ -44,7 +56,7 @@ button { font: inherit; cursor: pointer; }
 
 /* ---------- hero ---------- */
 .hero { background: var(--hero-bg); color: #fff; padding: clamp(28px, 4vw, 44px) 0 clamp(24px, 3vw, 36px); position: relative; overflow: hidden; }
-.hero::after { content: ""; position: absolute; right: -8vw; top: -60%; width: 40vw; max-width: 520px; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 30% 30%, rgba(90, 209, 232, 0.22), transparent 62%); pointer-events: none; }
+.hero::after { content: ""; position: absolute; right: -8vw; top: -60%; width: 40vw; max-width: 520px; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 30% 30%, var(--glow), transparent 62%); pointer-events: none; }
 .hero .wrap { position: relative; }
 .hero-row { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 20px 48px; align-items: end; }
 .kicker { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.72rem; color: var(--y-ice); margin: 0 0 8px; }
