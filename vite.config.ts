@@ -15,7 +15,8 @@ function goatcounter(code: string | undefined): Plugin {
       return html
         .replace("script-src 'self'", "script-src 'self' https://gc.zgo.at")
         .replace("connect-src 'self'", `connect-src 'self' ${host}`)
-        .replace("</body>", `  <script data-goatcounter="${host}/count" async src="https://gc.zgo.at/count.js"></script>\n  </body>`);
+        .replace("img-src 'self' data:", `img-src 'self' data: ${host}`)
+        .replace("</body>", `  <script src="${process.env.VITE_BASE ?? "/"}gc-config.js"></script>\n  <script data-goatcounter="${host}/count" async src="https://gc.zgo.at/count.js"></script>\n  </body>`);
     },
   };
 }

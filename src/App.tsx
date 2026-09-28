@@ -80,7 +80,6 @@ export function App() {
             <select className="select" value={selectedDate} onChange={(e) => { setSelectedDate(e.target.value); setQuery(""); }} aria-label="Choose edition" disabled={!index}>
               {index?.days.map((d) => <option key={d.date} value={d.date}>{fmtDate(d.date)}</option>)}
             </select>
-            <span className="classification">Open</span>
           </div>
         </div>
       </header>
@@ -166,7 +165,7 @@ export function App() {
       <footer>
         <div className="wrap">
           <span>Automated digest of public sources · summaries are AI-generated, always verify with the linked article.</span>
-          <span>Yettel Cyber Digest</span>
+          <span>sadrobot Cyber Digest</span>
           {!searching && day && (
             <details>
               <summary>Sources for this edition · {sourcesOk}/{day.feeds.length} reachable</summary>

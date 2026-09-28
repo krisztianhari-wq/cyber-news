@@ -25,7 +25,7 @@ deliver_post() {
   fi
   local msg
   if [ "$pushed" = 1 ]; then msg="Edition published. Post: Desktop/Cyber Digest posts/$TODAY.md"; else msg="Edition built but push FAILED. Post: Desktop/Cyber Digest posts/$TODAY.md"; fi
-  osascript -e "display notification \"$msg\" with title \"Yettel Cyber Digest\" subtitle \"$TODAY\" sound name \"Glass\"" >/dev/null 2>&1 || true
+  osascript -e "display notification \"$msg\" with title \"sadrobot Cyber Digest\" subtitle \"$TODAY\" sound name \"Glass\"" >/dev/null 2>&1 || true
 }
 
 case "${1:-}" in
@@ -44,7 +44,7 @@ case "${1:-}" in
     npm run --silent build >/dev/null
     git add "$DAY" data/seen-urls.json
     if git diff --cached --quiet; then echo "STATUS=nothing-to-commit"; exit 0; fi
-    git -c user.name="Krisztian Hari" -c user.email="khari@yettel.hu" commit -q -m "digest: $TODAY (editorial)"
+    git -c user.name="sadrobot" -c user.email="329515810+krisztianhari-wq@users.noreply.github.com" commit -q -m "digest: $TODAY (editorial)"
     PUSHED=0
     for i in 1 2 3; do
       if git push -q origin main 2>/dev/null; then PUSHED=1; break; fi

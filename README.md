@@ -1,4 +1,4 @@
-# Yettel Cyber Digest
+# sadrobot Cyber Digest
 
 Daily cybersecurity briefing, published automatically every morning.
 
