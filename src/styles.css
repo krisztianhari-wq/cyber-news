@@ -124,3 +124,11 @@ footer details[open] summary::after { content: " ↑"; }
   .classification, .brand-sep, .brand-name span { display: none; }
   .views { font-size: 0.78rem; }
 }
+
+/* sadrobot logó */
+.sr-logo { display: inline-flex; align-items: center; gap: 10px; }
+.sr-logo img { display: block; border-radius: 9px; background: #fff; padding: 2px; box-sizing: border-box; }
+.sr-word { font-weight: 800; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; }
+.sr-word span { color: var(--y-lime); }
+@media (prefers-color-scheme: light) { .sr-word span { color: #1a9fbd; } }
+:root[data-theme="light"] .sr-word span { color: #1a9fbd; }

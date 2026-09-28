@@ -73,7 +73,7 @@ export function App() {
           <div className="brand">
             <Logo fill="currentColor" height={20} />
             <span className="brand-sep" />
-            <span className="brand-name">Cyber Digest <span>· daily security briefing</span></span>
+            <span className="brand-name">Cyber <span>· daily security briefing</span></span>
           </div>
           <div className="topbar-right">
             <ViewCounter />
