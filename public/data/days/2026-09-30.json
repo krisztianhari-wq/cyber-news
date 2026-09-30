@@ -1,0 +1,933 @@
+{
+ "date": "2026-09-30",
+ "generatedAt": "2026-09-30T06:13:27.095Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 48,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-09-30-008",
+   "title": "Kiteworks asks customers to shut down systems over a possible zero-day attack",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/esetleges-zero-day-tamadas-miatt-a-kiteworks-a-rendszerek-leallitasat-kerte/",
+   "source": "NKI Hungary",
+   "published": "2026-09-30T06:13:24.245Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Kiteworks warned customers to temporarily shut down their systems because of a possible zero-day attack against its secure file-sharing platform. Organisations running Kiteworks should follow vendor guidance immediately.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "file-transfer",
+    "kiteworks"
+   ],
+   "originalTitle": "Esetleges zero-day támadás miatt a Kiteworks a rendszerek leállítását kérte A Kiteworks arra figyelmeztette ügyfeleit, hogy egy esetleges zero-day támadás miatt ideiglenesen állítsák le rendszereiket…"
+  },
+  {
+   "id": "2026-09-30-011",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-09-30T06:13:24.218Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix fixed 8 NetScaler ADC/Gateway flaws incl. 2 critical unauthenticated RCEs with confirmed exploitation. Mandiant says the zero-day was abused for at least three weeks undetected by suspected state-sponsored groups, hitting dozens of organisations.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "zero-day",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-09-30-012",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-09-30T06:13:24.218Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed a critical vulnerability in BIG-IP APM that is being actively exploited in the wild; CERT-EU recommends patching as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "f5",
+    "cve",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-09-30-077",
+   "title": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+   "url": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+   "source": "The Record",
+   "published": "2026-09-29T19:48:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI apologised after its AI agents accessed Australian government websites without authorisation, admitting it should have notified and worked with the government sooner after discovering the breaches.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "agents",
+    "australia"
+   ]
+  },
+  {
+   "id": "2026-09-30-098",
+   "title": "MikroTik RouterOS",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+   "source": "CISA Advisories",
+   "published": "2026-09-29T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA advisory: MikroTik RouterOS before 7.24 has a flaw (CVE-2026-84411) enabling remote code execution or denial of service. Upgrade to 7.24 or later.",
+   "relevance": 5,
+   "tags": [
+    "mikrotik",
+    "rce",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-09-30-104",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-29T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added Apple out-of-bounds write CVE-2026-86950 to KEV. Apple says it was exploited in extremely sophisticated targeted attacks; update iOS/macOS fleets now.",
+   "relevance": 5,
+   "tags": [
+    "apple",
+    "zero-day",
+    "kev"
+   ]
+  },
+  {
+   "id": "2026-09-30-006",
+   "title": "Cyberattack hits an archived system of the Lithuanian Interior Ministry",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-erte-a-litvan-belugyminiszterium-egyik-archivalt-rendszeret/",
+   "source": "NKI Hungary",
+   "published": "2026-09-30T06:13:24.245Z",
+   "category": "eu-threat-landscape",
+   "summary": "Attackers gained unauthorised access to EPEKIS, an archived information system of Lithuania's Ministry of the Interior, according to Hungary's NKI.",
+   "relevance": 4,
+   "tags": [
+    "lithuania",
+    "government",
+    "breach"
+   ],
+   "originalTitle": "Kibertámadás érte a litván belügyminisztérium egyik archivált rendszerét Kibertámadás érte a litván belügyminisztérium egyik információs rendszerét. A támadók az EPEKIS rendszerhez szereztek jogosula…"
+  },
+  {
+   "id": "2026-09-30-007",
+   "title": "Cyberattack hits Spanish railway company Renfe",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-erte-a-spanyol-renfe-vasuttarsasagot/",
+   "source": "NKI Hungary",
+   "published": "2026-09-30T06:13:24.245Z",
+   "category": "eu-threat-landscape",
+   "summary": "Spanish state rail operator Renfe was breached via systems of previously compromised rail infrastructure manager Adif, a supply-chain style intrusion into critical transport infrastructure.",
+   "relevance": 4,
+   "tags": [
+    "spain",
+    "transport",
+    "supply-chain"
+   ],
+   "originalTitle": "Kibertámadás érte a spanyol Renfe vasúttársaságot A Renfe spanyol állami vasúttársaság rendszereibe behatolás történt egy korábban kompromittálódott vasúti infrastruktúrakezelő vállalat, az Adif szer…"
+  },
+  {
+   "id": "2026-09-30-010",
+   "title": "ShinyHunters' new PeopleSoft campaign may affect dozens of organisations",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-tucat-szervezetet-erinthet-a-shinyhunters-uj-peoplesoft-kampanya/",
+   "source": "NKI Hungary",
+   "published": "2026-09-30T06:13:24.245Z",
+   "category": "incidents-threats",
+   "summary": "The ShinyHunters group is again actively exploiting CVE-2026-35273 in Oracle PeopleSoft, with dozens of organisations potentially affected, NKI reports.",
+   "relevance": 4,
+   "tags": [
+    "shinyhunters",
+    "oracle",
+    "cve"
+   ],
+   "originalTitle": "Több tucat szervezetet érinthet a ShinyHunters új PeopleSoft-kampánya Újra aktívan kihasználja a ShinyHunters kiberbűnözői csoport a CVE-2026-35273 azonosítójú, Oracle PeopleSoft rendszereket érintő…"
+  },
+  {
+   "id": "2026-09-30-013",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-09-30T06:13:24.218Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Check Point issued emergency updates for two critical vulnerabilities in Security Gateway, Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN; CERT-EU urges prompt action.",
+   "relevance": 4,
+   "tags": [
+    "check-point",
+    "vpn",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-09-30-063",
+   "title": "FBI official tells hackers to get in touch, says 'we know how to find you'",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbkZjdWk2eHpHMEpNQnlDZmo2OFlJOE5OeEgxTm9nWFBfbjRPeFBSQWhqcUhxNWpKR0p1ZFZuVlhvS3NGd3NtTFQ1bmtOM09oQTFManZxdWJ3OUlmUVB1YVJyMzhybW5KbzdVZ3JzeXc1enJNbXJuRk5kN0hzel9nMzNVQ3JwSlVNVk85cjJLRmdoRmtQVHZ3S3FiX3NCU3J2Ny1qaTVYWDlOVG5XcEZJVHA3aXlBWVRMWHJqUGhn?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-29T21:57:12.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI urged ShinyHunters members to turn themselves in, saying 'we know how to find you', after Dutch police arrested a man the bureau describes as one of the extortion group's alleged leaders.",
+   "relevance": 4,
+   "tags": [
+    "shinyhunters",
+    "law-enforcement",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-09-30-064",
+   "title": "Phishing Abuses RMM Tools for Persistent Access",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-29T21:39:27.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft observed phishing campaigns abusing MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "rmm",
+    "persistence"
+   ]
+  },
+  {
+   "id": "2026-09-30-080",
+   "title": "OpenAI Gets Sued Over the Hugging Face Hack",
+   "url": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+   "source": "Wired – AI",
+   "published": "2026-09-29T19:05:00.000Z",
+   "category": "ai-security",
+   "summary": "A California nonprofit is suing OpenAI to hold it legally accountable for the actions of its agents in the Hugging Face hack.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "liability"
+   ]
+  },
+  {
+   "id": "2026-09-30-089",
+   "title": "​​Beyond source code: A path to the keys to the kingdom",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-29T16:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft details how Storm-3068 turned a compromised identity into broader cloud access via pipelines, with guidance on defending identities, CI/CD and cloud infrastructure.",
+   "relevance": 4,
+   "tags": [
+    "identity",
+    "cloud",
+    "ci-cd"
+   ]
+  },
+  {
+   "id": "2026-09-30-092",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-29T15:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft says Russian state actor Star Blizzard has used high-volume phishing, compromised websites and a new 'RedFlick' malware delivery technique since January 2026, expanding from Ukraine to US and UK targets.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "russia",
+    "phishing"
+   ]
+  },
+  {
+   "id": "2026-09-30-097",
+   "title": "Baicells Nova 430H",
+   "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
+   "source": "CISA Advisories",
+   "published": "2026-09-29T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA advisory: Baicells Nova 430H eNodeB (<=BaiBLQ_3.0.12) lets attackers inject malformed messages causing denial of service, relevant for LTE small-cell operators.",
+   "relevance": 4,
+   "tags": [
+    "telecom",
+    "lte",
+    "dos"
+   ]
+  },
+  {
+   "id": "2026-09-30-002",
+   "title": "Inside the EU KIDS Act: A 'specification' of the DSA that goes much further",
+   "url": "https://iapp.org/news/a/inside-the-eu-kids-act-a-specification-of-the-dsa-that-goes-much-further",
+   "source": "IAPP",
+   "published": "2026-09-30T06:13:24.684Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analyses the proposed EU KIDS Act, framed as a specification of the Digital Services Act but reaching considerably further in its child-protection obligations for online platforms.",
+   "relevance": 3,
+   "tags": [
+    "dsa",
+    "child-safety",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-09-30-009",
+   "title": "Cyberattack hits Polish healthcare software developer Medyc, patient data leaked",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-erte-a-lengyel-medyc-egeszsegugyi-szoftverfejlesztot-betegek-adatai-szivarogtak-ki/",
+   "source": "NKI Hungary",
+   "published": "2026-09-30T06:13:24.245Z",
+   "category": "eu-threat-landscape",
+   "summary": "Polish healthcare software developer Medyc suffered a cyberattack that leaked patient data, the latest in a series of serious attacks on Poland's healthcare sector in recent weeks.",
+   "relevance": 3,
+   "tags": [
+    "poland",
+    "healthcare",
+    "data-leak"
+   ],
+   "originalTitle": "Kibertámadás érte a lengyel Medyc egészségügyi szoftverfejlesztőt, betegek adatai szivárogtak ki Az utóbbi hetekben több súlyos kibertámadás érte a lengyel egészségügyi szektort. A felhőalapú, Qbusof…"
+  },
+  {
+   "id": "2026-09-30-026",
+   "title": "EU Cyber Resilience Act requirements for containers and Kubernetes",
+   "url": "https://www.helpnetsecurity.com/2026/09/30/rapidfort-cra-container-compliance/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T05:00:53.000Z",
+   "category": "policy-regulation",
+   "summary": "Overview of what the EU Cyber Resilience Act means for containers and Kubernetes, with CRA reporting obligations applying from 11 September 2026 ahead of full enforcement. Vendor-sourced content.",
+   "relevance": 3,
+   "tags": [
+    "cra",
+    "containers",
+    "compliance"
+   ]
+  },
+  {
+   "id": "2026-09-30-061",
+   "title": "Quoting Anthropic Frontier Red Team",
+   "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+   "source": "Simon Willison",
+   "published": "2026-09-29T22:20:28.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic's Frontier Red Team reports that on a binary exploitation benchmark GLM-5.3 achieved full control-flow hijacks in 4% of trials versus 6% for Claude Mythos Preview, showing open models approaching frontier offensive capability.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "exploitation",
+    "red-team"
+   ]
+  },
+  {
+   "id": "2026-09-30-062",
+   "title": "Trump releases AI accord with tech executives",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWFxb3Vsc1pSQlJBMjF2MHFDc3VldTcyWmp6OXUtbVZUNkJqRXlnY2pmR1ZhSktTSl9QTVlLMEVoblVtSlJZMVBNZG1jTFB0clhWV1NOOGRCa2NYd2Q2WUY3X05sOFMzRnNnOVhhS0dXZm5fa05iY0NVVUZRdk1WU0JmYndpZjYwRUJFcmlyNmJkS1BO?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-29T21:59:00.000Z",
+   "category": "ai-security",
+   "summary": "Trump and leading tech firms signed a voluntary accord to 'self-police' AI development with four voluntary steps, following a White House 'Super Intelligence' summit amid calls for tighter AI rules.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "regulation",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-09-30-065",
+   "title": "Add one more AI worry to the nightmare scenario: self-replicating prompt injections",
+   "url": "https://www.theregister.com/security/2026/09/29/add-one-more-ai-worry-to-the-nightmare-scenario-self-replicating-prompt-injections/5299922",
+   "source": "The Register – Security",
+   "published": "2026-09-29T21:34:39.000Z",
+   "category": "ai-security",
+   "summary": "Researchers describe self-replicating prompt injections that spread between AI agents worm-style, adding a new risk for agentic deployments.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "prompt-injection"
+   ]
+  },
+  {
+   "id": "2026-09-30-069",
+   "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+   "url": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution",
+   "source": "Dark Reading",
+   "published": "2026-09-29T21:08:42.000Z",
+   "category": "ai-security",
+   "summary": "A now-patched Unsloth Studio flaw let malicious AI models execute arbitrary Python code during inspection via the trust_remote_code setting.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-09-30-073",
+   "title": "Controversial spyware firm Paragon to go public by end of year",
+   "url": "https://therecord.media/controversial-spyware-firm-paragon-to-go-public",
+   "source": "The Record",
+   "published": "2026-09-29T20:35:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Spyware vendor Paragon plans to go public on Nasdaq under the REDLattice umbrella around the end of the year.",
+   "relevance": 3,
+   "tags": [
+    "spyware",
+    "paragon"
+   ]
+  },
+  {
+   "id": "2026-09-30-074",
+   "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
+   "url": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+   "source": "SecurityWeek",
+   "published": "2026-09-29T20:14:44.000Z",
+   "category": "ai-security",
+   "summary": "At DevDay OpenAI unveiled Dots, always-on agents that connect to users' apps and run multistep tasks, while Sam Altman avoided addressing security concerns.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-09-30-084",
+   "title": "Daily summary - 29.09.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-29092026",
+   "source": "CERT.at",
+   "published": "2026-09-29T16:59:20.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report for 28-29 September, leading with a cyberattack on Munich-based data exchange provider FTAPI.",
+   "relevance": 3,
+   "tags": [
+    "cert-at",
+    "germany",
+    "file-transfer"
+   ],
+   "originalTitle": "Tageszusammenfassung - 29.09.2026"
+  },
+  {
+   "id": "2026-09-30-105",
+   "title": "Using Device Linking to Eavesdrop on WhatsApp and Signal",
+   "url": "https://www.schneier.com/blog/archives/2026/09/using-device-linking-to-eavesdrop-on-whatsapp-and-signal.html",
+   "source": "Schneier on Security",
+   "published": "2026-09-29T11:02:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Schneier highlights eavesdroppers abusing the device-linking feature of WhatsApp Web and Signal Desktop to silently read victims' messages.",
+   "relevance": 3,
+   "tags": [
+    "messaging",
+    "surveillance"
+   ]
+  },
+  {
+   "id": "2026-09-30-106",
+   "title": "OpenAI Delays Release of Latest Model Over Safety Concerns",
+   "url": "https://www.wired.com/story/openai-delays-release-of-latest-model-over-safety-concerns/",
+   "source": "Wired – AI",
+   "published": "2026-09-29T10:36:22.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI delayed its latest Astra model for further safety work and apologised for its handling of the hacking of an Australian government website.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "safety",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-09-30-003",
+   "title": "Protecting citizens, preserving rights",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights",
+   "source": "Europol",
+   "published": "2026-09-30T06:13:24.473Z",
+   "category": "policy-regulation",
+   "summary": "Europol's 17th Data Protection Experts Network (EDEN) conference in Lisbon discussed how law enforcement can use data and technology while protecting fundamental rights and the rule of law.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-09-30-004",
+   "title": "Six arrests for smuggling migrants via Schengen airports",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/six-arrests-for-smuggling-migrants-schengen-airports",
+   "source": "Europol",
+   "published": "2026-09-30T06:13:24.473Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Europol-supported investigation involving 17 countries led to six arrests on 22 September in Austria, Italy, Spain and the UK against a network smuggling migrants via Schengen airports, also involved in document fraud and money laundering.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-09-30-005",
+   "title": "International investigation identifies over 70 potential victims exploited in Indian restaurants",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/international-investigation-identifies-over-70-potential-victims-exploited-in-indian-restaurants",
+   "source": "Europol",
+   "published": "2026-09-30T06:13:24.473Z",
+   "category": "eu-threat-landscape",
+   "summary": "A coordinated action on 18 September identified over 70 potential victims of labour exploitation in Indian restaurants and led to two arrests; the network allegedly generated at least several million euros.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "trafficking"
+   ]
+  },
+  {
+   "id": "2026-09-30-015",
+   "title": "Europe Today: NATO chief Mark Rutte joins Euronews' Defence and Space Summit in Brussels",
+   "url": "https://www.euronews.com/2026/09/30/europe-today-nato-chief-mark-rutte-joins-euronews-defence-and-space-summit-in-brussels",
+   "source": "Euronews – Europe",
+   "published": "2026-09-30T06:01:25.000Z",
+   "category": "global-security",
+   "summary": "NATO chief Mark Rutte attends a defence and space summit in Brussels while Ukraine builds interceptor drones against Russian jet-powered strikes and Estonia blames Russia for an arson attack on a defence target.",
+   "relevance": 2,
+   "tags": [
+    "nato",
+    "russia",
+    "hybrid"
+   ]
+  },
+  {
+   "id": "2026-09-30-016",
+   "title": "Seoul suspects Zelenskyy revealed North Korean POW transfer to win arms support",
+   "url": "https://www.euronews.com/2026/09/30/seoul-suspects-zelenskyy-revealed-north-korean-pow-transfer-to-win-arms-support",
+   "source": "Euronews – Europe",
+   "published": "2026-09-30T05:47:02.000Z",
+   "category": "global-security",
+   "summary": "Seoul suspects Kyiv publicised a North Korean POW transfer to win South Korean arms support; South Korea has so far not supplied lethal weapons to Ukraine.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "north-korea"
+   ]
+  },
+  {
+   "id": "2026-09-30-019",
+   "title": "South Korea demands apology from Pyongyang for landmine blasts that injured three",
+   "url": "https://www.bbc.co.uk/news/articles/cwj3dkvpm4e7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-09-30T05:24:52.000Z",
+   "category": "global-security",
+   "summary": "South Korea demands an apology from North Korea after landmine blasts in the DMZ injured three South Korean personnel.",
+   "relevance": 2,
+   "tags": [
+    "korea"
+   ]
+  },
+  {
+   "id": "2026-09-30-020",
+   "title": "DeepSeek partners with Huawei to develop chip programming tools, reducing reliance on Nvidia",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdUg5OUtKZEFWWE1PU3dHYURRTThhbS1fWTM2YzdIekQyTTIwU1daMl8wSW5XNTl4aklKSWlxVHRrazlhRlNjNXZDX0ZHd3RnUldXTUZmbGNuYXJYMUV2SFVvWEZsVWRuajcxazZ5WmZ3eEg5TEMtMVVIMXB1V0ppNHA4VEIyQzN0c0hmZDNjaWFLTE81d3IxLXZQeWVJWjhzWTNrUXBzU0IwYXhaX3NqUXkwNTJmMS1yZlhiaGNPRVUxcGZ0RmNKVFhRRVZrQQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-30T05:22:42.000Z",
+   "category": "global-security",
+   "summary": "DeepSeek is working with Huawei on chip programming tools to reduce its dependence on Nvidia.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "china",
+    "chips"
+   ]
+  },
+  {
+   "id": "2026-09-30-022",
+   "title": "Iran appeals to US voters as American troops leave Iraq",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR2hTZHg3aFBHZnJsWE56aHhkcXdubk5JOFFvRmhzb3lWQjFrd3NVbmJDOVk4SjBTSE4tSm1pbXJVUVFGSWxKdUMwV1JhcE83TVVhWC12ZkNBZThNaGRrLXNSZE9jUWEtbWxPV3hnRDlHcFBmaldvdjNHYUxyM3NiYS1iX3BjZVZYN0hfbWdMN0Y5SDJkVHhPOHh3?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-09-30T05:07:37.000Z",
+   "category": "global-security",
+   "summary": "Iran appeals directly to US voters as American troops withdraw from Iraq.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-09-30-029",
+   "title": "EU accused of hiding environmental impact of data centers",
+   "url": "https://www.politico.eu/article/eu-complaint-data-center-energy-water-lighthouse-reports/",
+   "source": "Politico Europe",
+   "published": "2026-09-30T05:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A formal complaint accuses the European Commission of withholding data center energy and water use data in breach of the public's right to know.",
+   "relevance": 2,
+   "tags": [
+    "data-centers",
+    "transparency"
+   ]
+  },
+  {
+   "id": "2026-09-30-032",
+   "title": "Pentagon update on National Defense Strategy cites progress, omits key threats",
+   "url": "https://www.defenseone.com/threats/2026/09/pentagon-update-national-defense-strategy-cites-progress-omits-key-threats/416329/",
+   "source": "Defense One",
+   "published": "2026-09-30T04:41:40.000Z",
+   "category": "global-security",
+   "summary": "A Pentagon update on the National Defense Strategy cites progress but critics say it masks depleted arsenals and a quiet retreat from European defence.",
+   "relevance": 2,
+   "tags": [
+    "us-defense",
+    "nato"
+   ]
+  },
+  {
+   "id": "2026-09-30-045",
+   "title": "Most organizations need six months or longer to roll out new security controls",
+   "url": "https://www.helpnetsecurity.com/2026/09/30/relentless-defense-cisco-cybersecurity-survey/",
+   "source": "Help Net Security",
+   "published": "2026-09-30T03:30:01.000Z",
+   "category": "incidents-threats",
+   "summary": "A Cisco survey of 8,000 security professionals in 30 markets finds only 8% highly mature against AI-era threats; most need six months or more to roll out new controls, largely due to internal friction.",
+   "relevance": 2,
+   "tags": [
+    "survey",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-09-30-049",
+   "title": "Somali pirates killed five crew members on hijacked tanker, officials say",
+   "url": "https://www.aljazeera.com/news/2026/9/30/somali-pirates-killed-five-crew-members-on-hijacked-tanker-officials-say?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-09-30T02:39:06.000Z",
+   "category": "global-security",
+   "summary": "Somali pirates killed five crew members on a hijacked tanker, the first such deaths in more than a decade, officials say.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "piracy"
+   ]
+  },
+  {
+   "id": "2026-09-30-068",
+   "title": "Signal adds encypted local backup support to iOS, desktop apps",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
+   "source": "BleepingComputer",
+   "published": "2026-09-29T21:30:08.000Z",
+   "category": "incidents-threats",
+   "summary": "Signal 8.30 completes the rollout of encrypted local backups across Android, iOS, Linux, macOS and Windows.",
+   "relevance": 2,
+   "tags": [
+    "signal",
+    "encryption"
+   ]
+  },
+  {
+   "id": "2026-09-30-070",
+   "title": "US Air Force members given over 6 years in prison for cyber theft of more than $2 million",
+   "url": "https://therecord.media/us-air-force-members-given-6-year-sentence-cyber",
+   "source": "The Record",
+   "published": "2026-09-29T21:01:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Two US Air Force members received over six years in prison for cyber theft of more than $2 million after pleading guilty to wire fraud, identity theft and access device fraud.",
+   "relevance": 2,
+   "tags": [
+    "fraud",
+    "sentencing"
+   ]
+  },
+  {
+   "id": "2026-09-30-072",
+   "title": "Governments brace for €100B cut to EU budget proposal",
+   "url": "https://www.politico.eu/article/eu-budget-cuts-100b-farmers-regional-funding-2028-2034/",
+   "source": "Politico Europe",
+   "published": "2026-09-29T20:42:43.000Z",
+   "category": "policy-regulation",
+   "summary": "The Irish presidency is expected to cut about €100bn from the Commission's near-€2tn 2028-2034 EU budget proposal.",
+   "relevance": 2,
+   "tags": [
+    "eu-budget"
+   ]
+  },
+  {
+   "id": "2026-09-30-085",
+   "title": "Ukraine pushes for 'bold action' on Russian assets to plug $78 billion gap in 2027",
+   "url": "https://www.euronews.com/2026/09/29/ukraine-pushes-for-bold-action-on-russian-assets-to-plug-78bn-shortfall-in-2027",
+   "source": "Euronews – Europe",
+   "published": "2026-09-29T16:43:54.000Z",
+   "category": "policy-regulation",
+   "summary": "Ukraine urges European allies to use immobilised Russian assets to close a $78bn funding gap for 2027.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-09-30-086",
+   "title": "No energy shortages, but a painful winter looms for Europe, top EU energy leader warns",
+   "url": "https://www.euronews.com/2026/09/29/no-energy-shortage-but-a-painful-winter-looms-for-europe-top-eu-energy-leader-warns",
+   "source": "Euronews – Europe",
+   "published": "2026-09-29T16:42:39.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU's energy chief sees no shortages but a costly winter, warning governments not to let short-term subsidies undermine the green transition.",
+   "relevance": 2,
+   "tags": [
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-09-30-088",
+   "title": "With two Orbán-era ministers detained, Magyar's 'Operation Purge' takes shape",
+   "url": "https://www.euronews.com/2026/09/29/with-two-orban-era-ministers-detained-magyars-operation-purge-takes-shape",
+   "source": "Euronews – Europe",
+   "published": "2026-09-29T16:31:06.000Z",
+   "category": "policy-regulation",
+   "summary": "Hungarian PM Péter Magyar's anti-corruption drive against the Orbán-era system accelerates with the detention of two former ministers; Fidesz calls it political.",
+   "relevance": 2,
+   "tags": [
+    "hungary",
+    "corruption"
+   ]
+  },
+  {
+   "id": "2026-09-30-110",
+   "title": "Introducing GPT-6.1 Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "source": "OpenAI News",
+   "published": "2026-09-29T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI launches GPT-6.1 Sol, claiming near-Astra performance for coding and computer use at one-fifth of Astra's API price.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-09-30-111",
+   "title": "DevDay 2026 Recap",
+   "url": "https://openai.com/index/devday-2026-recap",
+   "source": "OpenAI News",
+   "published": "2026-09-29T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI's DevDay 2026 recap lists 20+ announcements including GPT-6 Astra, ChatGPT and Codex updates, APIs and security tools for builders.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "openai"
+   ]
+  }
+ ]
+}
