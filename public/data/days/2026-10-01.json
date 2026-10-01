@@ -1,0 +1,820 @@
+{
+ "date": "2026-10-01",
+ "generatedAt": "2026-10-01T06:12:14.733Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 40,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-01-005",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-01T06:12:14.010Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix fixed 8 NetScaler ADC/Gateway flaws incl. 2 critical pre-auth RCEs (CVE-2026-88771/-88772), exploited in the wild. Attackers drop web shells mapped to CSS-like URLs, create superusers and try to steal config data. Patch and hunt now.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-10-01-095",
+   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-09-30T14:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft tracks exploitation of CVE-2026-73570, an unauthenticated command injection in internet-facing Zimbra mail servers, with attack paths, detections and mitigations.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "zimbra",
+    "email"
+   ]
+  },
+  {
+   "id": "2026-10-01-096",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/09/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-09-30T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added CVE-2026-76504 to KEV: a CVSS 9.8 Cisco Catalyst SD-WAN Manager API auth bypass via improper URL/hex encoding handling, exploited in the wild. Cisco's advisory came 30 Sept.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "cisco",
+    "kev"
+   ]
+  },
+  {
+   "id": "2026-10-01-006",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-10-01T06:12:14.010Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory: F5 patched a critical BIG-IP APM vulnerability on 22 September that is actively exploited in the wild; organisations should act as soon as possible.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "f5",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-01-007",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-10-01T06:12:14.010Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical Check Point vulnerabilities in Security Gateway, Management Server and Spark Firewall setups using Remote Access or Site-to-Site VPN, fixed by emergency updates on 9 September.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "checkpoint",
+    "vpn"
+   ]
+  },
+  {
+   "id": "2026-10-01-011",
+   "title": "Apple vulnerability may also have been exploited in targeted attacks",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/celzott-tamadasban-is-kihasznalhattak-az-apple-serulekenyseget/",
+   "source": "NKI Hungary",
+   "published": "2026-10-01T06:12:13.969Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Hungary's NKI reports Apple released security updates for older iOS, iPadOS and macOS versions to fix a vulnerability that may have been exploited in targeted attacks.",
+   "relevance": 4,
+   "tags": [
+    "apple",
+    "exploited",
+    "patch"
+   ],
+   "originalTitle": "Célzott támadásban is kihasználhatták az Apple sérülékenységét Az Apple biztonsági frissítést adott ki az iOS, iPadOS és macOS rendszerek régebbi verzióit érintő sebezhetősége miatt, amelyet a cég el…"
+  },
+  {
+   "id": "2026-10-01-068",
+   "title": "ShinyHunters website goes offline after FBI deadline expires",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMVozZUotSE9ZUi10aWpCRUt0dHF0OHVlekROdWw3OXoyRmVOVWtJMjYxXzNsTEdOc3Znd3Y0SXRxbE5SdDFldU1RVWlZb1U5Sk5tVEd0eWFuQ1J0bHB6LXBFRnRhZ3VRclczemRzQU5TVDZON1FwU1ZUdklrYjhUUXlWbTUxYjJBVDcyczkzdnJ5VXd2UUcyck5yajBFZ0JkWEgtc1ZaQXNucHplMkF1TVpsSQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-30T21:58:09.000Z",
+   "category": "incidents-threats",
+   "summary": "The ShinyHunters extortion group's website went offline after an FBI deadline expired, Reuters reports.",
+   "relevance": 4,
+   "tags": [
+    "extortion",
+    "fbi",
+    "data-leak"
+   ]
+  },
+  {
+   "id": "2026-10-01-071",
+   "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
+   "source": "Dark Reading",
+   "published": "2026-09-30T21:25:47.000Z",
+   "category": "ai-security",
+   "summary": "ClickFix-style campaign uses malicious custom GPTs and legitimate OpenAI and Google domains as lures to deliver remote access trojans.",
+   "relevance": 4,
+   "tags": [
+    "clickfix",
+    "rat",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-01-073",
+   "title": "Russian state hackers use new RedFlick technique to push malware",
+   "url": "https://www.bleepingcomputer.com/news/security/russian-state-hackers-use-new-redflick-technique-to-push-malware/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T20:34:01.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Russian state actor Star Blizzard uses a new installation technique dubbed RedFlick to deploy its CosmicPulse backdoor.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "russia",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-01-078",
+   "title": "DIVD says Zammad zero-days enabled AI-driven network breach",
+   "url": "https://www.bleepingcomputer.com/news/security/divd-says-zammad-zero-days-enabled-ai-driven-network-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-09-30T19:49:15.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Dutch disclosure institute DIVD says its network breach was enabled by a chain of two zero-days in the open-source Zammad ticketing system, in an AI-driven attack.",
+   "relevance": 4,
+   "tags": [
+    "zero-day",
+    "netherlands",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-01-084",
+   "title": "Google: Vulnerability disclosures double to 10,000 per month as AI fuels exploitation",
+   "url": "https://therecord.media/google-vulnerabilities-cyberattacks-ai",
+   "source": "The Record",
+   "published": "2026-09-30T19:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Google GTIG: disclosures doubled this year to 10,000+ a month and exploitation is rising; a flaw found by an AI research agent was exploited within four days of disclosure.",
+   "relevance": 4,
+   "tags": [
+    "vulnerability",
+    "ai",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-01-001",
+   "title": "The accountability gap in the standard powering enterprise AI agents",
+   "url": "https://iapp.org/news/a/the-accountability-gap-in-the-standard-powering-enterprise-ai-agents",
+   "source": "IAPP",
+   "published": "2026-10-01T06:12:14.414Z",
+   "category": "ai-security",
+   "summary": "IAPP analysis of an accountability gap in the protocol standard that enterprise AI agents rely on, raising questions about who answers for agent actions.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-01-012",
+   "title": "OpenAI's new model will not be released over safety concerns",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/biztonsagi-aggalyok-miatt-nem-adjak-ki-az-openai-uj-modelljet/",
+   "source": "NKI Hungary",
+   "published": "2026-10-01T06:12:13.969Z",
+   "category": "ai-security",
+   "summary": "Hungary's NKI reports OpenAI is holding back the release of Astra, presented earlier this month as its most capable model, citing safety concerns.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "openai",
+    "safety"
+   ],
+   "originalTitle": "Biztonsági aggályok miatt nem adják ki az OpenAI új modelljét Az OpenAI még a hónap elején mutatta be az Astrát, mint eddigi legerősebb modelljét. A cég a következő hónapban tervezte az újabb modell…"
+  },
+  {
+   "id": "2026-10-01-017",
+   "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
+   "url": "https://isc.sans.edu/diary/rss/33388",
+   "source": "SANS ISC",
+   "published": "2026-10-01T05:32:13.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC describes attackers abusing the legitimate ScreenConnect remote access client instead of custom malware to gain and keep access.",
+   "relevance": 3,
+   "tags": [
+    "rmm",
+    "ttp"
+   ]
+  },
+  {
+   "id": "2026-10-01-019",
+   "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+   "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+   "source": "The Hacker News",
+   "published": "2026-10-01T05:21:10.000Z",
+   "category": "incidents-threats",
+   "summary": "Crypto exchange Bitget says attackers who stole $387.5 million last week exploited a zero-day in third-party security products, citing SlowMist's investigation.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "zero-day",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-01-021",
+   "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+   "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+   "source": "The Hacker News",
+   "published": "2026-10-01T05:10:09.000Z",
+   "category": "incidents-threats",
+   "summary": "MetaMask is responding to an ongoing security incident affecting part of its infrastructure, prompting affected Ethereum validators to exit.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-01-030",
+   "title": "Employment scam victims tripled at financial firms in 21 countries",
+   "url": "https://www.helpnetsecurity.com/2026/10/01/employment-scam-victims-research/",
+   "source": "Help Net Security",
+   "published": "2026-10-01T04:30:35.000Z",
+   "category": "incidents-threats",
+   "summary": "Reported employment scam victims rose 258% in a year at 370+ banks in 21 countries, outpacing all other scam types while total scams grew 35%.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "scam",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-10-01-050",
+   "title": "UK says Iran may be linked to alleged airbase plot, drawing angry denial",
+   "url": "https://www.aljazeera.com/news/2026/10/1/uk-says-iran-may-be-linked-to-alleged-airbase-plot-drawing-angry-denial?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-01T02:30:45.000Z",
+   "category": "global-security",
+   "summary": "UK says there are strong indications Iran was involved in a security incident at RAF Fairford, used by US forces; Tehran denies it and five suspects are on bail.",
+   "relevance": 3,
+   "tags": [
+    "iran",
+    "uk",
+    "hybrid"
+   ]
+  },
+  {
+   "id": "2026-10-01-052",
+   "title": "AI agents tried to hack a Canadian government website, research firm says",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYzhEbGpQTnhlQWp0SnozRGlpaGlBQ3Fud3lnTHB5Wi15NmJDaXhZZ2RGc2ZSUDJVYjZuY3RaQ3V5ajUtelBiU3E5UDlMVUtMY3hOUG02ZW9McXotTWdPeUVRMG9uWG00ZG1ZVTZTUTBWVm1aSUxvdVJRajZ5NTR4aGdoblF6dktQV2VSVDVENmJybDBRaldyTDRSclVVRVBLeHFfeW14Vk5pVEl3NlE?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-01T02:04:00.000Z",
+   "category": "ai-security",
+   "summary": "A research firm says AI agents attempted to hack a Canadian government website, per Reuters.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-10-01-060",
+   "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
+   "url": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
+   "source": "SecurityWeek",
+   "published": "2026-09-30T23:43:51.000Z",
+   "category": "ai-security",
+   "summary": "The US FTC confirmed it is investigating OpenAI and Anthropic over possible risks to consumers.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "ftc",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-10-01-065",
+   "title": "US sanctions 10 over ATM malware scheme tied to Tren de Aragua",
+   "url": "https://therecord.media/us-sanctions-10-atm-jackpotting-tren-de-aragua",
+   "source": "The Record",
+   "published": "2026-09-30T22:35:00.000Z",
+   "category": "incidents-threats",
+   "summary": "US Treasury OFAC sanctioned 10 Venezuelan nationals and companies laundering money from ATM jackpotting malware attacks tied to Tren de Aragua.",
+   "relevance": 3,
+   "tags": [
+    "sanctions",
+    "atm",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-01-067",
+   "title": "Google announces Gemini 4 flagship AI model after months of delays",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa0kxM3JDazhISnQtVGJ1Q2phRmxPR2Mtb2R4X1dQX0U3TkVZLWV0YUZNSnRfQ25OQnRuWHpNczNHSzhCZFFkdHFCWEVXYUhuazBDLWJ0eV92WU9nMDR6Nnl5ZDRCOG5UdWtwNnpTNkVtS2NLejVrX1Y3eXFvbDRMc0Y2Q2hvN0Q5YTEzTVA3NDFLaHprbnpuNWVBejNPVUlKemJCSHZUcHZSVE9iNmt3TWxXMXFBWkU?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-09-30T22:16:26.000Z",
+   "category": "ai-security",
+   "summary": "Google launched Gemini 4 after delays, incl. Gemini 4 Argon, rolled out to trusted defenders via its Fairwind Program; Google says it can find, validate and patch critical flaws without human help.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "google",
+    "vulnerability"
+   ]
+  },
+  {
+   "id": "2026-10-01-072",
+   "title": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
+   "url": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
+   "source": "Dark Reading",
+   "published": "2026-09-30T20:51:15.000Z",
+   "category": "ai-security",
+   "summary": "Six major AI firms signed a voluntary, 'morally binding' White House accord on 'super intelligence' safety, pledging more controls and oversight; critics question its weight.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "safety",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-01-074",
+   "title": "Automakers routinely share personally identifiable connected-car data with third parties, report says",
+   "url": "https://therecord.media/automakers-routinely-share-connected-car-data-third-parties",
+   "source": "The Record",
+   "published": "2026-09-30T20:32:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A study finds automakers routinely share personally identifiable connected-car data with third parties in the advertising ecosystem.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "automotive",
+    "data"
+   ]
+  },
+  {
+   "id": "2026-10-01-088",
+   "title": "From nuclear to hybrid: The key moments from the Euronews Defence Summit",
+   "url": "https://www.euronews.com/2026/09/30/from-nuclear-to-hybrid-the-key-moments-from-the-euronews-defence-summit",
+   "source": "Euronews – Europe",
+   "published": "2026-09-30T16:53:21.000Z",
+   "category": "global-security",
+   "summary": "At the Euronews Defence Summit NATO's Rutte told Russia to stop nuclear threats, saw no imminent threat to NATO territory and called the European-preference debate a 'luxury'; hybrid threats also discussed.",
+   "relevance": 3,
+   "tags": [
+    "nato",
+    "russia",
+    "hybrid"
+   ]
+  },
+  {
+   "id": "2026-10-01-089",
+   "title": "Daily summary - 30.09.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/9/tagesberichte-30092026",
+   "source": "CERT.at",
+   "published": "2026-09-30T16:27:33.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily summary for 30 September, leading with a new Spectre v2 Branch Target Reuse attack variant that can leak the Linux root password hash within minutes.",
+   "relevance": 3,
+   "tags": [
+    "cert-at",
+    "spectre",
+    "linux"
+   ],
+   "originalTitle": "Tageszusammenfassung - 30.09.2026"
+  },
+  {
+   "id": "2026-10-01-098",
+   "title": "Disrupting a coordinated model-distillation campaign",
+   "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "source": "OpenAI News",
+   "published": "2026-09-30T10:30:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI says it disrupted a coordinated distillation campaign to extract protected model reasoning using a 'novel' encryption bypass, attributing parts to people tied to China's MoonshotAI without public evidence.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "distillation",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-01-099",
+   "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+   "url": "https://blog.talosintelligence.com/china-nexus-uat-11587-targets-government-and-policy-organizations-across-asia-with-antino-backdoor/",
+   "source": "Talos Intelligence",
+   "published": "2026-09-30T10:00:01.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos tracks China-nexus UAT-11587 targeting government and policy organisations in Taiwan, India, the Philippines and Cambodia with a new backdoor called Antino.",
+   "relevance": 3,
+   "tags": [
+    "apt",
+    "china",
+    "backdoor"
+   ]
+  },
+  {
+   "id": "2026-10-01-002",
+   "title": "AI by any other name? White House directs federal agencies to enter the era of 'super intelligence'",
+   "url": "https://iapp.org/news/a/ai-by-any-other-name-white-house-directs-federal-agencies-to-enter-the-era-of-super-intelligence",
+   "source": "IAPP",
+   "published": "2026-10-01T06:12:14.414Z",
+   "category": "ai-security",
+   "summary": "The White House has directed US federal agencies to prepare for what it calls the era of 'super intelligence', according to IAPP.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "us",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-01-004",
+   "title": "Notes from the AI Governance Center: AI auditing is getting amplified",
+   "url": "https://iapp.org/news/a/notes-from-the-ai-governance-center-ai-auditing-is-getting-amplified",
+   "source": "IAPP",
+   "published": "2026-10-01T06:12:14.414Z",
+   "category": "ai-security",
+   "summary": "IAPP AI Governance Center notes that AI auditing is gaining momentum as organisations face growing assurance demands for AI systems.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "audit",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-01-008",
+   "title": "EU law enforcement chiefs gather to discuss new challenges in EU security",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/eu-law-enforcement-chiefs-gather-to-discuss-new-challenges-in-eu-security",
+   "source": "Europol",
+   "published": "2026-10-01T06:12:13.994Z",
+   "category": "eu-threat-landscape",
+   "summary": "At the European Police Chiefs Convention, Europol's acting director said organised crime has become digital by default, with technology now central to criminal operations.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "cybercrime"
+   ]
+  },
+  {
+   "id": "2026-10-01-010",
+   "title": "Protecting citizens, preserving rights",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/protecting-citizens-preserving-rights",
+   "source": "Europol",
+   "published": "2026-10-01T06:12:13.994Z",
+   "category": "policy-regulation",
+   "summary": "Europol's 17th EDEN data protection conference in Lisbon discussed how police can use data and technology while protecting fundamental rights.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-01-013",
+   "title": "Cybersecurity Month @ work: Employees' skills under the looking glass",
+   "url": "https://www.enisa.europa.eu/news/cybersecurity-month-work-employees-skills-under-the-looking-glass",
+   "source": "ENISA",
+   "published": "2026-10-01T06:12:13.580Z",
+   "category": "policy-regulation",
+   "summary": "ENISA kicks off European Cybersecurity Month with a focus on employees' security skills at work.",
+   "relevance": 2,
+   "tags": [
+    "enisa",
+    "awareness"
+   ]
+  },
+  {
+   "id": "2026-10-01-034",
+   "title": "The €865 billion brainstorming session",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-e865-billion-brainstorming-session/",
+   "source": "Politico Europe",
+   "published": "2026-10-01T04:05:00.000Z",
+   "category": "global-security",
+   "summary": "Ukraine warns of a $20 billion defence funding gap as Russian attacks intensify.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-10-01-038",
+   "title": "South Korea's Lee urges North Korea to restore dialogue, pledges military buildup",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1ZMd3lpakxZNmdpZXV4cTM2OWR2dFlTOTI3bnJWdE0zdjU1SGxYUmhLQ2FTdUtOVjZER3FMZGs4U3VRck05bGxNNG1BeTJkNUNNOHdWNzF6d1FReU1OR3ZhbUFORzRFSnNTOGFEaVU0TVNycUJmSzdhSWpIN2JaMUZwcndlSFVGTkZtWmNrMlB5OXRaYkRSRy0xMWtXZG1BZFhRNkFBazFlWFVTZFBQRXF5eUdWNmJWbTFxWmtEbkVxSm0zcWFGclpmaw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-01T03:48:00.000Z",
+   "category": "global-security",
+   "summary": "South Korea's president urges North Korea to resume dialogue while pledging a military buildup.",
+   "relevance": 2,
+   "tags": [
+    "korea"
+   ]
+  },
+  {
+   "id": "2026-10-01-049",
+   "title": "What we know about stabbing on Flydubai flight to Israel",
+   "url": "https://www.bbc.co.uk/news/articles/cqjdv7pmj9dno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-01T02:31:24.000Z",
+   "category": "global-security",
+   "summary": "A pilot stabbed another pilot on a Flydubai Dubai-Tel Aviv flight; passengers and crew overpowered him. He is under investigation in Saudi Arabia and Flydubai suspended Israel flights.",
+   "relevance": 2,
+   "tags": [
+    "aviation",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-10-01-058",
+   "title": "Iraq celebrates Sovereignty Day as US troops complete withdrawal",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/1/iraq-celebrates-sovereignty-day-as-us-troops-complete-withdrawal?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-01T01:11:22.000Z",
+   "category": "global-security",
+   "summary": "Iraq marks Sovereignty Day as US troops complete their withdrawal.",
+   "relevance": 2,
+   "tags": [
+    "iraq",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-01-063",
+   "title": "Hegseth vows to shrink the Pentagon — and then announces plans to grow it",
+   "url": "https://www.politico.com/news/2026/09/30/hegseth-pentagon-defense-speech-01101242",
+   "source": "Politico Europe",
+   "published": "2026-09-30T23:09:18.000Z",
+   "category": "global-security",
+   "summary": "US Defense Secretary Hegseth announced firing 20% of generals and admirals while also unveiling initiatives that would expand the Pentagon.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-10-01-079",
+   "title": "After reports on suicide deaths, Pentagon puts Cyber Command on notice",
+   "url": "https://therecord.media/cyber-command-suicide-deaths-pentagon-memo",
+   "source": "The Record",
+   "published": "2026-09-30T19:35:00.000Z",
+   "category": "global-security",
+   "summary": "A Pentagon memo made demands of US Cyber Command leadership after reports of a cluster of suicide deaths.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "cybercom"
+   ]
+  },
+  {
+   "id": "2026-10-01-090",
+   "title": "The War in the Sky: Kyiv braces for another winter of Russian attacks",
+   "url": "https://www.euronews.com/2026/09/30/the-war-in-the-sky-kyiv-braces-for-another-winter-of-russian-attacks",
+   "source": "Euronews – Europe",
+   "published": "2026-09-30T15:58:34.000Z",
+   "category": "global-security",
+   "summary": "Documentary on Ukraine's air defence ahead of another winter of Russian drone attacks.",
+   "relevance": 2,
+   "tags": [
+    "ukraine"
+   ]
+  }
+ ]
+}
