@@ -1,0 +1,464 @@
+{
+ "date": "2026-10-04",
+ "generatedAt": "2026-10-04T06:39:34.935Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 16,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BSI Germany",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CERT-EU",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CERT-FR",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CERT.at",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Dark Reading",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Defense One",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "ENISA",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Europol",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Help Net Security",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "IAPP",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "NCSC UK",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "SANS ISC",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "The Record",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "The Register – Security",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Unit 42",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": false,
+   "error": "This operation was aborted"
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-04-028",
+   "title": "ShinyHunters hacker reportedly detained in Jordan, aiding FBI",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacker-reportedly-detained-in-jordan-aiding-fbi/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T19:09:38.000Z",
+   "category": "incidents-threats",
+   "summary": "A suspected ShinyHunters member known as 'Rey' has reportedly been detained in Jordan and is cooperating with the FBI to help locate other members of the data extortion group.",
+   "relevance": 4,
+   "tags": [
+    "shinyhunters",
+    "extortion",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-04-031",
+   "title": "Danish university DTU breach exposes data of up to 200,000 people",
+   "url": "https://www.bleepingcomputer.com/news/security/danish-university-dtu-breach-exposes-data-of-up-to-200-000-people/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T14:35:20.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The Technical University of Denmark (DTU) says data of up to 200,000 people may be exposed after attackers accessed its identity and access management system and downloaded a large amount of data.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "iam",
+    "denmark"
+   ]
+  },
+  {
+   "id": "2026-10-04-011",
+   "title": "Houthis claim strike on Aramco site as Yemen fighting intensifies",
+   "url": "https://www.aljazeera.com/news/2026/10/4/houthis-claim-strike-on-saudi-energy-facility-as-yemen-fighting-intensifies?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-04T03:33:49.000Z",
+   "category": "global-security",
+   "summary": "The Houthis claim a strike on a Saudi Aramco energy site as Yemen fighting intensifies; the Saudi-led coalition calls Houthi claims of targeting Riyadh 'misleading'. Attacks on energy infrastructure remain a regional risk.",
+   "relevance": 3,
+   "tags": [
+    "critical-infrastructure",
+    "energy",
+    "yemen"
+   ]
+  },
+  {
+   "id": "2026-10-04-021",
+   "title": "Google Gemini could soon get full access to your Mac’s files, apps and the web",
+   "url": "https://www.bleepingcomputer.com/news/google/google-gemini-could-soon-get-full-access-to-your-macs-files-apps-and-the-web/",
+   "source": "BleepingComputer",
+   "published": "2026-10-03T23:12:34.000Z",
+   "category": "ai-security",
+   "summary": "Google's Gemini may soon be able to access any file on macOS, open apps, browse the web and act without asking permission each time, widening the attack surface of desktop AI agents on managed endpoints.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "endpoint"
+   ]
+  },
+  {
+   "id": "2026-10-04-027",
+   "title": "AI giants 'not being nearly careful enough,' warns outgoing OpenAI safety engineer",
+   "url": "https://www.dw.com/en/ai-giants-not-being-nearly-careful-enough-warns-outgoing-openai-safety-engineer/a-79533080?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-10-03T21:55:00.000Z",
+   "category": "ai-security",
+   "summary": "A departing OpenAI safety engineer says AI companies are not being careful enough and need nuclear- or aviation-style safeguards, days after the US president signed a voluntary pact with AI firms.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "ai-safety",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-04-032",
+   "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+   "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+   "source": "Wired – AI",
+   "published": "2026-10-03T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Meta's AI agent Muse, downloaded by millions, builds detailed profiles of users' friends and family, raising privacy concerns about the data it collects to act on users' behalf.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "privacy",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-04-003",
+   "title": "Somalia President: Houthis ‘not in a position’ to bring Yemen peace",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/somalia-president-houthis-not-in-a-position-to-bring-yemen-peace?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-04T05:00:40.000Z",
+   "category": "global-security",
+   "summary": "Somalia's president says the Houthis are not in a position to bring peace to Yemen and accuses them of destabilising the region and disrupting navigation through the Bab al-Mandeb strait.",
+   "relevance": 2,
+   "tags": [
+    "yemen",
+    "shipping",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-04-004",
+   "title": "Bosnia general election 2026 explained in maps and charts",
+   "url": "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-04T04:58:50.000Z",
+   "category": "global-security",
+   "summary": "Bosnia and Herzegovina holds its general election on 4 October; an explainer covers the voting process, candidates and what is at stake for the country.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "balkans"
+   ]
+  },
+  {
+   "id": "2026-10-04-005",
+   "title": "Flydubai co-pilot attacked captain with axe, UAE official says",
+   "url": "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-04T04:57:20.000Z",
+   "category": "global-security",
+   "summary": "A UAE official says a flydubai co-pilot attacked the captain with an axe while allegedly trying to take over an Israel-bound flight; media have named the suspect.",
+   "relevance": 2,
+   "tags": [
+    "aviation",
+    "insider-threat"
+   ]
+  },
+  {
+   "id": "2026-10-04-007",
+   "title": "Saudi-backed Yemeni army says 700 Houthis killed in 24 hours",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/saudi-backed-yemeni-army-says-700-houthis-killed-in-24-hours?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-04T04:09:13.000Z",
+   "category": "global-security",
+   "summary": "Saudi-backed Yemeni government forces claim to have killed about 700 Houthi fighters in 24 hours as they try to retake lost territory.",
+   "relevance": 2,
+   "tags": [
+    "yemen",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-04-010",
+   "title": "'Anger in the streets': Tens of thousands protest in Spain over housing crisis",
+   "url": "https://www.bbc.co.uk/news/articles/cm2kej47095no?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-04T03:42:15.000Z",
+   "category": "global-security",
+   "summary": "More than 50 protests over the housing crisis took place across Spain on Saturday after the government failed to pass emergency legislation through parliament.",
+   "relevance": 2,
+   "tags": [
+    "spain",
+    "protests"
+   ]
+  },
+  {
+   "id": "2026-10-04-015",
+   "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/4/ethiopian-government-troops-seize-tigrays-capital-mekelle?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-04T01:41:28.000Z",
+   "category": "global-security",
+   "summary": "Ethiopian government forces say they have seized Tigray's capital Mekelle from Tigrayan fighters after a week of intense fighting.",
+   "relevance": 2,
+   "tags": [
+    "ethiopia",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-04-016",
+   "title": "Brazil's 2026 presidential election is kicking off with polls showing Lula and Bolsonaro nearly tied.",
+   "url": "https://www.dw.com/en/brazil-s-2026-presidential-election-is-kicking-off-with-polls-showing-lula-and-bolsonaro-nearly-tied/a-79533857?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-10-04T01:26:00.000Z",
+   "category": "global-security",
+   "summary": "Brazil's presidential election opens with incumbent Lula da Silva and Flavio Bolsonaro nearly tied in polls; a runoff is likely, and some voters say they want neither candidate.",
+   "relevance": 2,
+   "tags": [
+    "brazil",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-04-019",
+   "title": "We're going to need default hard budget caps on pretty much everything",
+   "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+   "source": "Simon Willison",
+   "published": "2026-10-03T23:34:02.000Z",
+   "category": "ai-security",
+   "summary": "Simon Willison argues pay-per-use services and APIs, especially AI ones, need default hard budget caps that cut off usage and return errors once a monthly spend limit is reached.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "cost-control",
+    "api"
+   ]
+  },
+  {
+   "id": "2026-10-04-020",
+   "title": "Why Canada is preparing for a (long shot) US invasion",
+   "url": "https://www.bbc.co.uk/news/articles/c9m2mjj3yvg4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-03T23:30:06.000Z",
+   "category": "global-security",
+   "summary": "Canadian PM Mark Carney says the military is running scenarios for the unlikely case of a US invasion, a sign of strained relations between NATO allies.",
+   "relevance": 2,
+   "tags": [
+    "canada",
+    "us",
+    "nato"
+   ]
+  },
+  {
+   "id": "2026-10-04-024",
+   "title": "France arrests 5,000 people, mostly teens, as school protests spread",
+   "url": "https://www.npr.org/2026/10/03/nx-s1-5989532/france-arrests-5-000-people-mostly-teens-as-school-protests-spread",
+   "source": "NPR World",
+   "published": "2026-10-03T21:57:35.000Z",
+   "category": "global-security",
+   "summary": "School protests over overcrowded classrooms, missing teachers and run-down buildings have spread across France, with some 5,000 people, mostly teenagers, arrested.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "protests"
+   ]
+  }
+ ]
+}
