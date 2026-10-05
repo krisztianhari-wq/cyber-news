@@ -1,0 +1,599 @@
+{
+ "date": "2026-10-05",
+ "generatedAt": "2026-10-05T06:13:54.018Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 25,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-05-004",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-05T06:13:53.213Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on Citrix's 27 September bulletin fixing 8 flaws in customer-managed NetScaler ADC and Gateway, including 2 critical unauthenticated RCE bugs that Citrix confirms are actively exploited. Patch as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-05-005",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-10-05T06:13:53.213Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical F5 BIG-IP APM vulnerability, disclosed by F5 on 22 September and confirmed as exploited in the wild. Organisations running APM should apply the vendor fix promptly.",
+   "relevance": 5,
+   "tags": [
+    "f5",
+    "cve",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-05-057",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-10-04T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added Citrix NetScaler CVE-2026-88779, a memory buffer flaw in SAML handling exploited as a zero-day, to KEV. Citrix issued emergency fixes days after patching two other exploited bugs; researchers are checking if it allows RCE.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "kev",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-10-05-002",
+   "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+   "source": "Europol",
+   "published": "2026-10-05T06:13:53.335Z",
+   "category": "incidents-threats",
+   "summary": "Law enforcement seized KillSec ransomware servers and took over its leak site on 30 September, securing at least 110 TB of stolen data. A teenager is suspected of leading the group, which extorted victims by threatening to publish files.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "law-enforcement",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-05-006",
+   "title": "2026-012: Critical Vulnerabilities in Check Point Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-012/",
+   "source": "CERT-EU",
+   "published": "2026-10-05T06:13:53.213Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical Check Point flaws, fixed in emergency updates on 9 September, affecting Security Gateway, Management Server and Spark Firewall deployments using Remote Access or Site-to-Site VPN.",
+   "relevance": 4,
+   "tags": [
+    "check-point",
+    "vpn",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-05-022",
+   "title": "How RMM abuse gives attackers a way in that looks like business as usual",
+   "url": "https://www.helpnetsecurity.com/2026/10/05/remote-monitoring-and-management-rmm-abuse/",
+   "source": "Help Net Security",
+   "published": "2026-10-05T04:30:08.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Huntress saw legitimate remote monitoring and management (RMM) tools abused in 45% of endpoint-related incidents in Q1 2026, and ranked 11 attack tactics by frequency and potential damage.",
+   "relevance": 4,
+   "tags": [
+    "rmm",
+    "initial-access",
+    "ttp"
+   ]
+  },
+  {
+   "id": "2026-10-05-064",
+   "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
+   "source": "The Hacker News",
+   "published": "2026-10-04T07:22:05.000Z",
+   "category": "incidents-threats",
+   "summary": "A suspected ShinyHunters extortion group member known as 'Rey', named as Saif al-Din Khader, has reportedly been detained in Jordan and is helping the FBI identify other members, Reuters reports citing three sources.",
+   "relevance": 4,
+   "tags": [
+    "shinyhunters",
+    "extortion",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-05-065",
+   "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
+   "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-10-04T07:20:32.000Z",
+   "category": "incidents-threats",
+   "summary": "A new China-nexus espionage group, TA419, has run credential phishing campaigns using Microsoft adversary-in-the-middle pages against AI experts at US think tanks, universities and legal organisations.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "phishing",
+    "aitm"
+   ]
+  },
+  {
+   "id": "2026-10-05-019",
+   "title": "US air force removes all bombers from British military base RAF Fairford",
+   "url": "https://www.bbc.co.uk/news/articles/cmwyve191dlko?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-05T04:58:56.000Z",
+   "category": "global-security",
+   "summary": "The US Air Force has withdrawn all bombers from RAF Fairford in the UK without giving a reason, following an incident last week in which police were alerted to suspicious vehicles near the base.",
+   "relevance": 3,
+   "tags": [
+    "military",
+    "uk",
+    "nato"
+   ]
+  },
+  {
+   "id": "2026-10-05-023",
+   "title": "FBI arrests ‘Chinese foreign agent’ for spying on Taiwan president’s son",
+   "url": "https://www.aljazeera.com/news/2026/10/5/fbi-arrests-chinese-foreign-agent-for-spying-on-taiwan-presidents-son?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-05T04:13:20.000Z",
+   "category": "global-security",
+   "summary": "The FBI arrested a California woman accused of acting as a Chinese agent and sending photos and videos of Taiwan President Lai's son and his family to Chinese officials.",
+   "relevance": 3,
+   "tags": [
+    "espionage",
+    "china",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "2026-10-05-030",
+   "title": "Trump unveils 'Super Intelligence Force' to oversee AI policy",
+   "url": "https://www.bbc.co.uk/news/articles/cqj6jenp26zyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-05T03:37:41.000Z",
+   "category": "ai-security",
+   "summary": "President Trump created a federal AI task force, dubbed a 'Super Intelligence Force', led by Director of National Intelligence Jay Clayton to oversee AI policy, days after hosting AI company executives at the White House.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "us-policy",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-05-032",
+   "title": "Germany in defence mode",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/deutschland-im-verteidigungsmodus/",
+   "source": "Politico Europe",
+   "published": "2026-10-05T03:30:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Politico Berlin podcast: after Merz's surprise Kyiv visit during heavy Russian drone strikes, German intelligence chiefs are expected to speak about how far Russia's hybrid shadow war has reached Germany.",
+   "relevance": 3,
+   "tags": [
+    "hybrid-threats",
+    "germany",
+    "russia"
+   ],
+   "originalTitle": "Deutschland im Verteidigungsmodus"
+  },
+  {
+   "id": "2026-10-05-056",
+   "title": "Merz makes surprise visit to Kyiv: Germany pledges further aid to Ukraine",
+   "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+   "source": "Euronews – Europe",
+   "published": "2026-10-04T12:14:06.000Z",
+   "category": "global-security",
+   "summary": "German Chancellor Merz made a surprise visit to Kyiv with defence and energy industry representatives, pledging €1.3 billion in further support, as Russia launched missile and drone strikes on the city.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "germany",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-05-058",
+   "title": "Anthropic asks Claude users to share voice data for AI model training",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-asks-claude-users-to-share-voice-data-for-ai-model-training/",
+   "source": "BleepingComputer",
+   "published": "2026-10-04T10:53:21.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic has begun asking Claude users to voluntarily share their voice conversations to help train and improve its AI models.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "privacy",
+    "data-protection"
+   ]
+  },
+  {
+   "id": "2026-10-05-001",
+   "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+   "source": "Europol",
+   "published": "2026-10-05T06:13:53.335Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's Operational Taskforce GRIMM reports five arrests in Spain, Morocco and France in August and September, targeting upper levels of networks that organise and recruit people for serious violence ordered from abroad.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-05-010",
+   "title": "Serb separatist politician Milorad Dodik thanks Trump, Putin as he declares victory in contested Bosnia vote",
+   "url": "https://www.euronews.com/2026/10/05/serb-separatist-politician-milorad-dodik-thanks-trump-putin-as-he-declares-victory-in-cont",
+   "source": "Euronews – Europe",
+   "published": "2026-10-05T05:44:29.000Z",
+   "category": "global-security",
+   "summary": "Pro-Russia Bosnian Serb leader Milorad Dodik, serving a six-year public office ban, claimed a large victory for his party in Bosnia's contested elections and thanked Trump and Putin.",
+   "relevance": 2,
+   "tags": [
+    "bosnia",
+    "elections",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-05-013",
+   "title": "Middle East oil exports surpass pre-war levels despite tensions, data shows",
+   "url": "https://www.aljazeera.com/news/2026/10/5/middle-east-oil-exports-surpass-pre-war-levels-despite-tensions-data-shows?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-05T05:20:57.000Z",
+   "category": "global-security",
+   "summary": "Data shows Middle East oil exports have surpassed pre-war levels despite tensions, while an IRGC commander says flows through the US-supervised Hormuz route are negligible.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "hormuz",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-10-05-021",
+   "title": "France closes up to 500 schools Monday over student protests",
+   "url": "https://www.bbc.co.uk/news/articles/cwkg5n7lm3y5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-05T04:49:14.000Z",
+   "category": "global-security",
+   "summary": "France kept 400 to 500 secondary schools fully or partly closed on Monday after clashes between riot police and student protesters; 24 schools were burned or vandalised and more protests are planned for Tuesday.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "protests"
+   ]
+  },
+  {
+   "id": "2026-10-05-024",
+   "title": "Russian lab worker dies of suspected plague in Siberia; US monitoring case",
+   "url": "https://www.aljazeera.com/news/2026/10/5/russian-lab-worker-dies-of-suspected-plague-in-siberia-us-monitoring-case?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-05T04:07:51.000Z",
+   "category": "global-security",
+   "summary": "A Russian laboratory worker in Siberia has died of suspected plague; a Russian agency cites pneumonia of unknown origin and the US says it is monitoring the case.",
+   "relevance": 2,
+   "tags": [
+    "biosecurity",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-05-034",
+   "title": "Brazil election goes to run-off as right-wing Flávio Bolsonaro wins first round",
+   "url": "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-05T03:16:16.000Z",
+   "category": "global-security",
+   "summary": "Brazil's presidential election goes to a 25 October run-off after right-wing Flávio Bolsonaro beat expectations to win the first round, with neither he nor Lula passing 50%.",
+   "relevance": 2,
+   "tags": [
+    "brazil",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-05-035",
+   "title": "Yemen gov’t forces commence major combat operation against Houthis",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/5/yemen-govt-forces-commence-major-combat-operation-against-houthis?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-05T03:11:03.000Z",
+   "category": "global-security",
+   "summary": "Yemeni government forces launched a major combat operation, declared a 'battle for liberation', to retake territory held by the Houthis.",
+   "relevance": 2,
+   "tags": [
+    "yemen",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-05-038",
+   "title": "US military says it struck vessel in Caribbean, killing four",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWnlnMlA2NTU4aWRPOFA1VUlXR2kwc1RNNWJOUk9VcGtrWG1JMFN2bm1HZTRFWnJFbktKd0pjaGNjcThoZ1dvS25meGY1MkY4QWVTbDFrcVR1S1N3dUt1RWFnMHJVUjhwRWMxVUdtR3pWNTV2Nk5ZMEhpeXQ3SzdzaU9WdktNRUpzUjBXaFFxcjBXamRJNW9uRzVpODNJVzA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-05T02:44:00.000Z",
+   "category": "global-security",
+   "summary": "The US military says it struck a vessel in the Caribbean, killing four people.",
+   "relevance": 2,
+   "tags": [
+    "military",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-05-048",
+   "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33396",
+   "source": "SANS ISC",
+   "published": "2026-10-05T00:15:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC diary describes a script that parses TTY logs of commands run by attackers and bots after logging in to DShield honeypot sensors and ships them daily to a SIEM for analysis.",
+   "relevance": 2,
+   "tags": [
+    "honeypot",
+    "threat-hunting"
+   ]
+  },
+  {
+   "id": "2026-10-05-062",
+   "title": "Week in review: Researcher breaks into Microsoft analytics service, NetScaler RCE 0-day exploited",
+   "url": "https://www.helpnetsecurity.com/2026/10/04/week-in-review-researcher-breaks-into-microsoft-analytics-service-netscaler-rce-0-day-exploited/",
+   "source": "Help Net Security",
+   "published": "2026-10-04T08:00:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Help Net Security weekly roundup, led by a 16-year-old researcher's break-in to Microsoft's internal Titan analytics service with access to 17 trillion rows of data, and the exploited NetScaler RCE zero-day.",
+   "relevance": 2,
+   "tags": [
+    "roundup",
+    "microsoft",
+    "citrix"
+   ]
+  },
+  {
+   "id": "2026-10-05-063",
+   "title": "User Agent Strings Curiosities, (Sun, Oct 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33394",
+   "source": "SANS ISC",
+   "published": "2026-10-04T07:58:51.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC diary on unusual User-Agent strings observed in honeypot logs.",
+   "relevance": 2,
+   "tags": [
+    "honeypot",
+    "user-agent"
+   ]
+  }
+ ]
+}
