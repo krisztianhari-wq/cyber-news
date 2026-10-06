@@ -1,6 +1,6 @@
 #!/bin/bash
 # Single entry point for the daily editorial task (so only one command needs to be allow-listed).
-#   daily.sh prepare              -> git pull, collect all candidates, print status
+#   daily.sh prepare              -> git pull --rebase, collect all candidates, print status
 #   daily.sh publish <editorial>  -> apply editorial JSON, build, commit day file + seen store, push (with retry)
 set -euo pipefail
 export PATH=/Users/KHari/Claude_code/gue-dive-planner/.node/bin:$PATH
@@ -28,9 +28,19 @@ deliver_post() {
   osascript -e "display notification \"$msg\" with title \"sadrobot Cyber Digest\" subtitle \"$TODAY\" sound name \"Glass\"" >/dev/null 2>&1 || true
 }
 
+# Pull with rebase; on conflicts the local commit wins (-X theirs = the replayed local commits),
+# so a finished editorial is never overwritten by the scheduled safety-net digest (daily.yml).
+sync() {
+  git pull -q --rebase --autostash -X theirs origin main
+  for f in public/data/days/*.json data/seen-urls.json; do
+    [ -f "$f" ] || continue
+    python3 -c "import json,sys;json.load(open(sys.argv[1]))" "$f" || { echo "STATUS=sync-broken-json FILE=$f"; exit 1; }
+  done
+}
+
 case "${1:-}" in
   prepare)
-    git pull -q --ff-only origin main
+    sync
     if [ -f "$DAY" ] && grep -q '"editorial": "done"' "$DAY"; then
       echo "STATUS=already-published DATE=$TODAY DAY=$DAY POST=posts/$TODAY.md"
       exit 0
@@ -49,6 +59,7 @@ case "${1:-}" in
     for i in 1 2 3; do
       if git push -q origin main 2>/dev/null; then PUSHED=1; break; fi
       sleep 30
+      sync   # origin moved (e.g. the safety-net digest): rebase our commit on top, then retry
     done
     deliver_post "$PUSHED"
     if [ "$PUSHED" = 1 ]; then echo "STATUS=pushed DATE=$TODAY POST=posts/$TODAY.md"; exit 0; fi

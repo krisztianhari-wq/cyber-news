@@ -37,7 +37,4 @@ Napi, automatikus kiberbiztonsági hírösszefoglaló statikus oldalként (RSS/H
 - A Git-remote SSH a 443-as porton (`ssh://git@ssh.github.com:443/...`), mert a 22-es port a céges hálón tiltott; más repónál is ez a megoldás, ha a push időtúllép.
 - A sessiononkénti auto mode nem öröklődik a későbbi ütemezett futásokra; a projekt-settings allow-szabályai igen.
 - A github.com és a github.io a Claude böngészőpaneljén blokkolt.
-
-## Nyitott
-- A `daily.sh` még `pull --ff-only`-t használ és a push-retry előtt nem szinkronizál. Az ai-news-ban már javítva van (`sync()`: `pull --rebase --autostash -X theirs` + JSON-validálás); érdemes ide is átvenni, ha a feladat 08:30 UTC után futna.
-- AGENTS.md / HANDOFF.md még GoatCountert említ – frissíteni a Status számlálóra.
+- `daily.sh` `sync()`: `pull --rebase --autostash -X theirs` (ütközésnél a helyi editorial nyer a `daily.yml` safety-net digesttel szemben) + JSON-ellenőrzés; push-hiba után újraszinkronizál és újrapróbál.
