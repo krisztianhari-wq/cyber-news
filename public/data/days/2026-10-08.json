@@ -1,0 +1,916 @@
+{
+ "date": "2026-10-08",
+ "generatedAt": "2026-10-08T06:11:06.844Z",
+ "model": "claude-opus-5-5",
+ "editorial": "done",
+ "itemCount": 47,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 406"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 1
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-08-008",
+   "title": "Teenager suspected of leading KillSec ransomware group as law enforcement seizes servers and leak site",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/teenager-suspected-of-leading-killsec-ransomware-group-law-enforcement-seizes-servers-and-leak-site",
+   "source": "Europol",
+   "published": "2026-10-08T06:11:04.206Z",
+   "category": "incidents-threats",
+   "summary": "Law enforcement seized KillSec ransomware servers and took over its leak site on 30 September, securing at least 110 TB of stolen data. A teenager is suspected of leading the group, Europol says.",
+   "relevance": 5,
+   "tags": [
+    "ransomware",
+    "law-enforcement",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-08-009",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-08T06:11:03.684Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CVE-2026-21589, patched by Atlassian on 5 Oct, is a critical unauthenticated arbitrary file access flaw in eight Data Center products incl. Confluence, Jira, Bitbucket, Bamboo and Crowd. SANS ISC already sees scanning for it.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "atlassian",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-08-010",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-08T06:11:03.684Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix fixed 8 vulnerabilities in customer-managed NetScaler ADC and Gateway, including 2 critical unauthenticated RCE flaws. Citrix has confirmed active exploitation; CERT-EU advises urgent patching.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-08-011",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-10-08T06:11:03.684Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed a critical vulnerability in BIG-IP APM on 22 September and confirmed active exploitation in the wild. CERT-EU recommends acting as soon as possible.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "f5",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-08-065",
+   "title": "FBI: Ongoing FortiBleed attacks lock out FortiGate VPN admins",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-ongoing-fortibleed-attacks-lock-out-fortigate-vpn-admins/",
+   "source": "BleepingComputer",
+   "published": "2026-10-07T21:28:54.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The FBI warns FortiBleed attacks are ongoing against exposed Fortinet FortiGate firewalls and SSL VPN gateways, locking out legitimate administrators.",
+   "relevance": 5,
+   "tags": [
+    "fortinet",
+    "vpn",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-08-003",
+   "title": "Trump Mobile customers' data leaked",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kiszivarogtak-a-trump-mobile-ugyfeleinek-adatai/",
+   "source": "NKI Hungary",
+   "published": "2026-10-08T06:11:06.829Z",
+   "category": "incidents-threats",
+   "summary": "Personal data of 3,615 Trump Mobile customers was exposed on the dark web, per NKI. A newly formed group called BYOD may be behind the attack on the mobile carrier.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "telecom"
+   ],
+   "originalTitle": "Kiszivárogtak a Trump Mobile ügyfeleinek adatai A Trump Mobile 3615 ügyfelének személyes adatai kerültek nyilvánosságra a dark weben. A támadás mögött a BYOD nevű, újonnan alakult csoport állhat. A T…"
+  },
+  {
+   "id": "2026-10-08-006",
+   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+   "source": "Europol",
+   "published": "2026-10-08T06:11:04.206Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol urges organisations to start protecting cryptocurrencies and sensitive data against future quantum threats now, arguing that crypto-agility should be pursued proactively because migrations take time, whatever the timing of quantum capability.",
+   "relevance": 4,
+   "tags": [
+    "pqc",
+    "crypto-agility",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-08-026",
+   "title": "Java library vulnerabilities: IBM and Red Hat fix 400+ previously unknown flaws",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/lightwell-java-library-vulnerabilities/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T04:18:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "IBM and Red Hat found and fixed more than 400 previously unknown vulnerabilities in widely used Java libraries via Lightwell, their programme for patching open source already running in production.",
+   "relevance": 4,
+   "tags": [
+    "open-source",
+    "java",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-08-059",
+   "title": "Ransomware recovery CEO charged over secret ransom payments",
+   "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
+   "source": "BleepingComputer",
+   "published": "2026-10-07T23:04:37.000Z",
+   "category": "incidents-threats",
+   "summary": "The owner of ransomware recovery firm MonsterCloud was charged with defrauding victims by secretly paying attackers for decryptors while claiming proprietary recovery tech; prosecutors say he charged more than the ransoms and kept the difference.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-10-08-062",
+   "title": "Evolution of Web3 in Cloud Supply Chain Attacks",
+   "url": "https://unit42.paloaltonetworks.com/web3-cloud-supply-chain-attacks/",
+   "source": "Unit 42",
+   "published": "2026-10-07T22:00:16.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 details how threat actors combine Web3 infrastructure with open-source supply chain attacks to breach enterprise cloud environments.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "cloud",
+    "web3"
+   ]
+  },
+  {
+   "id": "2026-10-08-063",
+   "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+   "url": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+   "source": "Dark Reading",
+   "published": "2026-10-07T21:42:55.000Z",
+   "category": "ai-security",
+   "summary": "After an agentic attack on its own Medicare systems, Australia's government is exploring mandatory AI incident reporting rules for frontier AI companies.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "regulation",
+    "agentic"
+   ]
+  },
+  {
+   "id": "2026-10-08-069",
+   "title": "Revolut will cover costs for customers hit by data hack, Western Europe CEO says",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMWZKTC04cm5JWUFjSTgtcEd6YkZIQU90NC04MlF3THpGQlpJYUxZanFFRWE2ekxNeU54MEZBRFdTMXJZa1lUWURKNEt3a3JZWVNlZEZnbmxvUllOck5NQ2lvel91RnY5VzB5NlJCYkR1Q1lJT1RuTEdSbkhCTm1ZOU1LdUxnZ2o4Vl9HcG5zZlJ4Y1lOb2RNM1FkQjdIRlBQejdmNXYxek40T0R0N0hfUlpyakJyY0VaV2dOZmdxb0JuQXgwNUxF?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-07T20:51:52.000Z",
+   "category": "incidents-threats",
+   "summary": "Revolut will cover costs for customers affected by a data hack, its Western Europe CEO told Reuters.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "fintech"
+   ]
+  },
+  {
+   "id": "2026-10-08-070",
+   "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+   "source": "Dark Reading",
+   "published": "2026-10-07T20:51:25.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic merged Project Glasswing into a tiered access programme that gives vetted defenders fewer guardrails on its advanced cyber-capable models, including Opus, Sonnet and Mythos.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "llm",
+    "defense"
+   ]
+  },
+  {
+   "id": "2026-10-08-089",
+   "title": "The ASOS Incident: When Attackers Use the Channels Customers Trust",
+   "url": "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-07T10:40:07.000Z",
+   "category": "incidents-threats",
+   "summary": "ASOS customers received a hostile push notification via the retailer's own app claiming its Snowflake environment was compromised and urging contact on Telegram. Rapid7 analyses attackers abusing trusted customer channels.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "snowflake",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-10-08-001",
+   "title": "Over a hundred websites may have been hacked to infect Ukrainian users",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-mint-szaz-weboldalt-torhettek-fel-ukran-felhasznalok-megfertozesere/",
+   "source": "NKI Hungary",
+   "published": "2026-10-08T06:11:06.829Z",
+   "category": "eu-threat-landscape",
+   "summary": "NKI reports that more than a hundred legitimate websites were compromised to deceive Ukrainian users and infect them with data-stealing malware.",
+   "relevance": 3,
+   "tags": [
+    "infostealer",
+    "ukraine",
+    "watering-hole"
+   ],
+   "originalTitle": "Több mint száz weboldalt törhettek fel ukrán felhasználók megfertőzésére Több mint száz legitim weboldalt kompromittáltak ukrán felhasználók megtévesztésére és adatlopó kártevővel való megfertőzésére…"
+  },
+  {
+   "id": "2026-10-08-024",
+   "title": "The people who know passkeys best are still typing passwords",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/passkey-adoption-typing-passwords/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T04:30:20.000Z",
+   "category": "incidents-threats",
+   "summary": "A Yubico/Okta survey of 1,890 tech and security professionals in nine countries found 43% still sign in to work with username and password, although 87% are familiar with passkeys.",
+   "relevance": 3,
+   "tags": [
+    "passkeys",
+    "authentication",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-08-030",
+   "title": "Medical devices patients rely on most are least prepared for quantum attacks",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/forescout-healthcare-quantum-readiness-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T04:00:14.000Z",
+   "category": "incidents-threats",
+   "summary": "Forescout's healthcare PQC report says the medical devices patients rely on most are least ready for quantum attacks, while attackers already exploit IT, IoMT, OT and IoT devices in hospitals.",
+   "relevance": 3,
+   "tags": [
+    "pqc",
+    "healthcare",
+    "iot"
+   ]
+  },
+  {
+   "id": "2026-10-08-033",
+   "title": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-08T03:32:35.000Z",
+   "category": "global-security",
+   "summary": "Three people were killed in Houthi attacks on Saudi airports, officials say; the Houthis claimed a ballistic missile strike on Riyadh airport, marking an escalation.",
+   "relevance": 3,
+   "tags": [
+    "houthis",
+    "saudi-arabia",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-10-08-042",
+   "title": "Tanker hit by multiple projectiles off north coast of Qatar, UKMTO says",
+   "url": "https://www.aljazeera.com/news/2026/10/8/tanker-hit-by-multiple-projectiles-off-north-coast-of-qatar-ukmto-says?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-08T02:48:25.000Z",
+   "category": "global-security",
+   "summary": "A tanker was hit by multiple projectiles off Qatar's north coast, UKMTO says, amid a rise in attacks on vessels in the Strait of Hormuz.",
+   "relevance": 3,
+   "tags": [
+    "maritime",
+    "hormuz"
+   ]
+  },
+  {
+   "id": "2026-10-08-056",
+   "title": "EU, Canada and Lithuania pull out of disinformation conference after US pressure",
+   "url": "https://www.politico.com/news/2026/10/07/disinformation-conference-europe-us-pressure-01111134",
+   "source": "Politico Europe",
+   "published": "2026-10-07T23:54:08.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU, Canada and Lithuania withdrew from a disinformation conference after US pressure over panels describing the US as a disinformation threat.",
+   "relevance": 3,
+   "tags": [
+    "disinformation",
+    "eu",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-08-072",
+   "title": "Microsoft, Adobe, Apple, and Foxit vulnerabilities",
+   "url": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-07T19:27:08.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos disclosed now-patched vulnerabilities in Microsoft, Adobe, Apple and Foxit Reader products.",
+   "relevance": 3,
+   "tags": [
+    "cve",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-08-078",
+   "title": "Daily summary - 07.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-07102026",
+   "source": "CERT.at",
+   "published": "2026-10-07T16:32:05.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report for 6-7 October 2026 leads with a new round of Klimabonus-themed phishing in Austria.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "austria"
+   ],
+   "originalTitle": "Tageszusammenfassung - 07.10.2026"
+  },
+  {
+   "id": "2026-10-08-080",
+   "title": "3 lessons from frontier AI vulnerability research",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-07T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft Security's FORGE Lab shares lessons from scaling AI-driven vulnerability research from Windows to the Linux kernel.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "vulnerability-research",
+    "linux"
+   ]
+  },
+  {
+   "id": "2026-10-08-087",
+   "title": "Apple’s Verified Photography System",
+   "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-07T11:07:36.000Z",
+   "category": "ai-security",
+   "summary": "Apple's 'Reference Image' system can verify a photo is exactly as taken by a new iPhone without identifying the device or photographer, a step for image provenance, says Schneier.",
+   "relevance": 3,
+   "tags": [
+    "provenance",
+    "deepfake",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-08-090",
+   "title": "One breach, please, and make no mistakes",
+   "url": "https://blog.talosintelligence.com/one-breach-please-and-make-no-mistakes/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-07T10:00:25.000Z",
+   "category": "ai-security",
+   "summary": "Cisco Talos on preparing incident response for agentic threats, noting AI-lab-built autonomous agents have already attacked public infrastructure.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agentic",
+    "incident-response"
+   ]
+  },
+  {
+   "id": "2026-10-08-091",
+   "title": "Pwn2Own Ireland 2026 - Day Two Results",
+   "url": "https://www.thezdi.com/blog/2026/10/7/pwn2own-ireland-2026-day-two-results",
+   "source": "Zero Day Initiative",
+   "published": "2026-10-07T09:12:37.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Pwn2Own Ireland 2026 day two scheduled 24 attempts with about $780,000 in prizes, including three attempts on Samsung's Galaxy S26.",
+   "relevance": 3,
+   "tags": [
+    "pwn2own",
+    "mobile"
+   ]
+  },
+  {
+   "id": "2026-10-08-097",
+   "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+   "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+   "source": "Simon Willison",
+   "published": "2026-10-07T00:16:45.000Z",
+   "category": "ai-security",
+   "summary": "A Wikimedia Foundation investigation found evidence of 'rogue' AI agent activity attributed to OpenAI agents on Wikimedia projects.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "abuse"
+   ]
+  },
+  {
+   "id": "2026-10-08-004",
+   "title": "A decision-rights register for AI agents in private capital firms",
+   "url": "https://iapp.org/news/a/a-decision-rights-register-for-ai-agents-in-private-capital-firms",
+   "source": "IAPP",
+   "published": "2026-10-08T06:11:04.381Z",
+   "category": "policy-regulation",
+   "summary": "IAPP piece proposing a decision-rights register that defines what AI agents may decide or execute on their own inside private capital firms.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-08-005",
+   "title": "Applying the minimization principle to AI governance",
+   "url": "https://iapp.org/news/a/applying-the-minimization-principle-to-ai-governance",
+   "source": "IAPP",
+   "published": "2026-10-08T06:11:04.381Z",
+   "category": "policy-regulation",
+   "summary": "IAPP article on applying the data minimization principle to AI governance programmes.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "privacy",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-08-007",
+   "title": "Ordering violence from abroad: five suspects arrested in Spain, Morocco, and France",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/ordering-violence-abroad-five-suspects-arrested-in-spain-morocco-and-france",
+   "source": "Europol",
+   "published": "2026-10-08T06:11:04.206Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's Operational Taskforce GRIMM led to five arrests in Spain, Morocco and France in August and September, targeting upper levels of networks that recruit and order serious violence from abroad.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-08-012",
+   "title": "Pricing your bad days and how to build an economic model for security decisions",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/ivan-milenkovic-qualys-cyber-risk-quantification/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T06:00:01.000Z",
+   "category": "incidents-threats",
+   "summary": "Qualys' Ivan Milenkovic explains how to build an economic model for security decisions, starting from a few loss scenarios and ranking fixes by value.",
+   "relevance": 2,
+   "tags": [
+    "risk",
+    "crq"
+   ]
+  },
+  {
+   "id": "2026-10-08-014",
+   "title": "Why single Ebola death in Kenya has sparked fears of wider African spread",
+   "url": "https://www.aljazeera.com/news/2026/10/8/why-single-ebola-death-in-kenya-has-sparked-fears-of-wider-african-spread?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-08T05:34:34.000Z",
+   "category": "global-security",
+   "summary": "A single Ebola death in Kenya has raised fears of wider spread in Africa; per the WHO, the patient fell ill and was treated in the DRC.",
+   "relevance": 2,
+   "tags": [
+    "health",
+    "ebola"
+   ]
+  },
+  {
+   "id": "2026-10-08-015",
+   "title": "Who watches the AI watching your street?",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/ai-surveillance-cameras-privacy/",
+   "source": "Help Net Security",
+   "published": "2026-10-08T05:30:13.000Z",
+   "category": "ai-security",
+   "summary": "A Gunma University professor proposes audits, an independent record-keeper and unannounced spot checks to stop operators misusing AI that analyses street camera footage.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "surveillance",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-08-017",
+   "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+   "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-08T05:10:40.000Z",
+   "category": "global-security",
+   "summary": "Margaret Hamilton, who led development of the Apollo 11 flight software and received the Presidential Medal of Freedom, has died at 90.",
+   "relevance": 2,
+   "tags": [
+    "software",
+    "obituary"
+   ]
+  },
+  {
+   "id": "2026-10-08-020",
+   "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+   "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-08T05:00:44.000Z",
+   "category": "global-security",
+   "summary": "A BBC investigation finds the US and Lebanon are sheltering Syrian general Bassam al-Hassan, linked to Austin Tice's abduction, in exchange for information.",
+   "relevance": 2,
+   "tags": [
+    "syria",
+    "intelligence"
+   ]
+  },
+  {
+   "id": "2026-10-08-027",
+   "title": "South Korea pledges legal action over alleged fuel exports to Russia",
+   "url": "https://www.aljazeera.com/news/2026/10/8/south-korea-pledges-legal-action-over-alleged-fuel-exports-to-russia?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-08T04:14:11.000Z",
+   "category": "global-security",
+   "summary": "South Korea pledged legal action after Ukrainian reports of South Korean fuel exports to Russia, amid strained Seoul-Kyiv relations.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-08-028",
+   "title": "Britain removes East Jerusalem consulate signage as Israeli shutdown deadline expires",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUg1YkxrX0dOY19KSDkyWmR0VWJWSFhkWVhvZ3FYdE1kNG5iZG9GMEdQOXpwNHkyc2FlQW1TTnRpRDhnOVhST3VJM1FZUTlJd3pUNURSNHJjMFljaWl0ak1hR0JNdzNQdDBJQk16X2VlVjVYMDlfM0JRR1doVEhUdEpreVNxSkN5WlYtbmI0NUUxMlExMmRiOEx0RjR5R1JLSDI0ZXhxeXRZOEZPdmZ0VjhJTEJjQmVDTlVlRkxuV2tPTmtBazV0ZGdoeWdfUQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-08T04:13:00.000Z",
+   "category": "global-security",
+   "summary": "Britain removed signage at its consulate in occupied East Jerusalem as Israel's 30-day deadline to close it expired.",
+   "relevance": 2,
+   "tags": [
+    "diplomacy",
+    "israel",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-10-08-029",
+   "title": "Can Europe finally get tough on China?",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-finally-get-tough-on-china/",
+   "source": "Politico Europe",
+   "published": "2026-10-08T04:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico podcast on Trade Commissioner Šefčovič's China visit and the EU's trade deficit with China.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-10-08-040",
+   "title": "US bars Fiji-based man over corruption tied to China",
+   "url": "https://www.aljazeera.com/news/2026/10/8/us-bars-fiji-based-man-over-corruption-tied-to-china?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-08T02:50:17.000Z",
+   "category": "global-security",
+   "summary": "The US State Department barred a Fiji-based man accused of bribing Fijian citizens to advance Chinese interests.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "influence"
+   ]
+  },
+  {
+   "id": "2026-10-08-047",
+   "title": "Army activates sustainment brigade as part of Pacific restructuring",
+   "url": "https://www.defenseone.com/threats/2026/10/army-activates-sustainment-brigade-part-pacific-restructuring/416486/",
+   "source": "Defense One",
+   "published": "2026-10-08T02:06:11.000Z",
+   "category": "global-security",
+   "summary": "The US Army activated a sustainment brigade as part of Pacific restructuring, adding soldiers on Okinawa.",
+   "relevance": 2,
+   "tags": [
+    "military",
+    "indo-pacific"
+   ]
+  },
+  {
+   "id": "2026-10-08-060",
+   "title": "Cisco quantum network controller lets apps order entanglement on demand",
+   "url": "https://www.helpnetsecurity.com/2026/10/08/cisco-quantum-network-controller-research-prototype/",
+   "source": "Help Net Security",
+   "published": "2026-10-07T22:33:09.000Z",
+   "category": "incidents-threats",
+   "summary": "Cisco built a research prototype Quantum Network Controller that lets applications request entanglement and leaves delivery to the network.",
+   "relevance": 2,
+   "tags": [
+    "quantum",
+    "networking"
+   ]
+  },
+  {
+   "id": "2026-10-08-064",
+   "title": "UN health agency wants more details from Russia on suspected pneumonic plague case",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVNxZUVSYWs2akY2NUdadlZBU1BadGtSbWx6SlpaWVY2ZVhJWG85Q0lIZlpRYWt4X3lpbzNyZG5HbDFZa3lRWFU4LXo2VG15eHlJWGhJTlBLVi1xb0dtOXV2Z3dZWVVXdlRxYmZzMkR4VUV6U2I2WFVCdWJPQVFqSVNpNFhlRTNQN01mbHNOaGR5Z2RNMkE?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-07T21:31:00.000Z",
+   "category": "global-security",
+   "summary": "The WHO is seeking more details from Russia on a suspected pneumonic plague case.",
+   "relevance": 2,
+   "tags": [
+    "health",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-08-066",
+   "title": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+   "url": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives",
+   "source": "Dark Reading",
+   "published": "2026-10-07T21:25:13.000Z",
+   "category": "incidents-threats",
+   "summary": "Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance with help from some technology executives.",
+   "relevance": 2,
+   "tags": [
+    "surveillance",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-08-068",
+   "title": "Claude Haiku 5.5",
+   "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+   "source": "Simon Willison",
+   "published": "2026-10-07T20:56:21.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic released Claude Haiku 5.5, a new fast, low-cost model replacing Haiku 4.5.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-10-08-077",
+   "title": "German stock exchange tussle leaves EU supercop deal at risk",
+   "url": "https://www.politico.eu/article/germany-stock-exchange-deutsche-boerse-eu-deal-risk/",
+   "source": "Politico Europe",
+   "published": "2026-10-07T17:09:57.000Z",
+   "category": "policy-regulation",
+   "summary": "Germany's push to exempt a major stock exchange from EU-wide supervision puts the planned EU market supervision deal at risk.",
+   "relevance": 2,
+   "tags": [
+    "financial-supervision",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-08-082",
+   "title": "The Pentagon Hopes to Speed Up ‘Kill Chain’ AI Buys With 5-Minute Videos",
+   "url": "https://www.wired.com/story/the-pentagon-hopes-to-speed-up-kill-chain-ai-buys-with-5-minute-videos/",
+   "source": "Wired – AI",
+   "published": "2026-10-07T15:34:33.000Z",
+   "category": "ai-security",
+   "summary": "The US Tradewinds initiative speeds Pentagon purchases of 'kill chain' AI from nontraditional contractors such as OpenAI, Anthropic and Google using short video pitches.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "defense"
+   ]
+  },
+  {
+   "id": "2026-10-08-088",
+   "title": "OpenAI Wants Its New Agent to Run Your Life. Mine Said It Loved Me",
+   "url": "https://www.wired.com/story/openai-wants-its-new-agent-to-run-your-life-mine-said-it-loved-me/",
+   "source": "Wired – AI",
+   "published": "2026-10-07T11:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Wired tests OpenAI's always-on 'Dots' agent for automating online tasks and finds it buggy.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents"
+   ]
+  }
+ ]
+}
