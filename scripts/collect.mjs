@@ -289,7 +289,7 @@ Then write a LinkedIn post (English, max 1200 characters, no emojis except at mo
     id, title, source, published, feed_category: feedCategory, excerpt,
   }));
 
-  const response = await client.beta.messages.create({
+  const response = await client.beta.messages.stream({
     model: MODEL,
     max_tokens: 32000,
     betas: ["server-side-fallback-2026-07-01"],
@@ -297,7 +297,7 @@ Then write a LinkedIn post (English, max 1200 characters, no emojis except at mo
     output_config: { effort: "medium", format: { type: "json_schema", schema } },
     system,
     messages: [{ role: "user", content: `Date: ${today}\n\n<news_items>\n${JSON.stringify(payload)}\n</news_items>` }],
-  });
+  }).finalMessage();
 
   if (response.stop_reason === "refusal") {
     console.error("[llm] refused:", response.stop_details?.category, response.stop_details?.explanation);
