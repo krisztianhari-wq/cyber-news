@@ -276,8 +276,8 @@ Then write a LinkedIn post (English, max 1200 characters, no emojis except at mo
             id: { type: "string" },
             category: { type: "string", enum: CATEGORY_IDS },
             summary: { type: "string" },
-            relevance: { type: "integer", minimum: 1, maximum: 5 },
-            tags: { type: "array", items: { type: "string" }, maxItems: 3 },
+            relevance: { type: "integer" },   // 1–5 a promptban; a strukturált séma nem enged min/max-ot
+            tags: { type: "array", items: { type: "string" } },   // max 3 a kódban (slice), a séma nem enged maxItems-et
           },
         },
       },
@@ -309,7 +309,7 @@ Then write a LinkedIn post (English, max 1200 characters, no emojis except at mo
     const byId = new Map(parsed.items.map((r) => [r.id, r]));
     results = results.map((r) => {
       const m = byId.get(r.id);
-      return m ? { ...r, category: m.category, summary: clip(stripHtml(m.summary), 320), relevance: m.relevance, tags: m.tags.map((t) => clip(stripHtml(t).toLowerCase(), 24)) } : r;
+      return m ? { ...r, category: m.category, summary: clip(stripHtml(m.summary), 320), relevance: m.relevance, tags: m.tags.slice(0, 3).map((t) => clip(stripHtml(t).toLowerCase(), 24)) } : r;
     });
     post = stripHtml(parsed.post).replace(/ (?=#)/g, "\n").trim();
     llmOk = true;
