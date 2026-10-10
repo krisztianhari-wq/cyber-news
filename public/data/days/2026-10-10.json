@@ -1,0 +1,1066 @@
+{
+ "date": "2026-10-10",
+ "generatedAt": "2026-10-10T01:27:25.916Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 57,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-10-006",
+   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+   "source": "Europol",
+   "published": "2026-10-10T01:25:35.643Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol urges organisations to act early on quantum threats to cryptocurrencies and sensitive data, stressing crypto-agility and inventory work regardless of timelines.",
+   "relevance": 5,
+   "tags": [
+    "post-quantum",
+    "europol",
+    "crypto-agility"
+   ]
+  },
+  {
+   "id": "2026-10-10-009",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-10T01:25:35.077Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Atlassian fixed a critical arbitrary file access flaw affecting Bitbucket, Confluence, Jira, Bamboo, Crowd, Crucible and Fisheye Data Center; CERT-EU urges prioritising internet-facing instances and log review.",
+   "relevance": 5,
+   "tags": [
+    "atlassian",
+    "patch",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-10-10-010",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-10T01:25:35.077Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix patched 8 NetScaler ADC/Gateway flaws including two critical unauthenticated RCEs confirmed exploited in the wild; CERT-EU recommends patching and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-10-011",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-10-10T01:25:35.077Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed a critical BIG-IP APM vulnerability with confirmed in-the-wild exploitation; CERT-EU advises immediate action.",
+   "relevance": 5,
+   "tags": [
+    "f5",
+    "exploited",
+    "edge"
+   ]
+  },
+  {
+   "id": "2026-10-10-050",
+   "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+   "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+   "source": "The Hacker News",
+   "published": "2026-10-09T19:14:28.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An ongoing credential-theft campaign hijacked high-profile open-source maintainer accounts to push malicious GitHub Actions workflows into hundreds of repositories, with tens of thousands affected.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "github-actions",
+    "credential-theft"
+   ]
+  },
+  {
+   "id": "2026-10-10-092",
+   "title": "Weitere kritische Sicherheitslücke in Citrix NetScaler ADC und NetScaler Gateway - Updates verfügbar",
+   "url": "https://www.cert.at/de/warnungen/2026/10/weitere-kritische-sicherheitslucke-in-citrix-netscaler-adc-und-netscaler-gateway-updates-verfugbar",
+   "source": "CERT.at",
+   "published": "2026-10-09T08:54:39.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT.at warns of a further critical NetScaler ADC/Gateway memory overflow enabling RCE or DoS when configured as SAML SP or IdP, also affecting systems already patched for earlier CVEs.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "saml",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-10-007",
+   "title": "Jogosulatlan HTTPS-tanúsítványoktól a nemzetközi kiberműveletek felszámolásáig A héten több esemény a digitális bizalmi infrastruktúra és a beszállítói láncok sérülékenységeire mutatott rá. Három ors…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/jogosulatlan-https-tanusitvanyoktol-a-nemzetkozi-kibermuveletek-felszamolasaig/",
+   "source": "NKI Hungary",
+   "published": "2026-10-10T01:25:35.241Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungarian NKI weekly roundup highlights unauthorised HTTPS certificates and supply chain weaknesses, plus international takedowns of cyber operations.",
+   "relevance": 4,
+   "tags": [
+    "hungary",
+    "supply-chain",
+    "pki"
+   ]
+  },
+  {
+   "id": "2026-10-10-015",
+   "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+   "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+   "source": "Krebs on Security",
+   "published": "2026-10-10T00:17:42.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI arrested the co-founder of a Canadian cybersecurity firm in connection with its ShinyHunters investigation, following the theft of sensitive FBI personnel data.",
+   "relevance": 4,
+   "tags": [
+    "shinyhunters",
+    "arrest",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-10-10-043",
+   "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
+   "source": "Dark Reading",
+   "published": "2026-10-09T20:58:32.000Z",
+   "category": "incidents-threats",
+   "summary": "Analysis of the ASOS breach shows how compromise of a single identity in customer-facing SaaS enabled deeper access into the corporate network.",
+   "relevance": 4,
+   "tags": [
+    "saas",
+    "identity",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-10-044",
+   "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-09T20:31:37.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers abuse Bing search-result redirects inside Google Ads to route users to fake Claude installers delivering ClickFix payloads.",
+   "relevance": 4,
+   "tags": [
+    "clickfix",
+    "malvertising",
+    "ai-lure"
+   ]
+  },
+  {
+   "id": "2026-10-10-049",
+   "title": "AWS AgentCore security undone by prompt requesting credentials",
+   "url": "https://www.theregister.com/security/2026/10/09/aws-agentcore-security-undone-by-prompt-requesting-credentials/5302436",
+   "source": "The Register – Security",
+   "published": "2026-10-09T19:15:48.000Z",
+   "category": "ai-security",
+   "summary": "Researchers report AWS AgentCore security weaknesses: credentials obtainable via prompts, tokens in metadata, weak VM isolation and broad permissions.",
+   "relevance": 4,
+   "tags": [
+    "prompt-injection",
+    "cloud",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-10-052",
+   "title": "Japan confirms arrest of Russian Qilin operative, extradition to Germany",
+   "url": "https://therecord.media/japan-germany-ransomware-arrest",
+   "source": "The Record",
+   "published": "2026-10-09T18:45:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Japan's National Police Agency confirmed the arrest and extradition to Germany of a Russian national accused of involvement in the Qilin ransomware operation.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "qilin",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-10-055",
+   "title": "Unpatched AhsayCBS flaws exploited to deploy webshells, mine crypto",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-ahsaycbs-flaws-exploited-to-deploy-webshells-mine-crypto/",
+   "source": "BleepingComputer",
+   "published": "2026-10-09T17:17:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Threat actors are exploiting two still-unpatched flaws in the AhsayCBS backup platform to deploy webshells and cryptominers.",
+   "relevance": 4,
+   "tags": [
+    "0day",
+    "backup",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-10-060",
+   "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+   "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+   "source": "The Hacker News",
+   "published": "2026-10-09T16:29:55.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "iVerify details P7 DarkSword, a new iOS exploit kit variant with smaller on-device footprint, keychain and crypto-wallet theft, and two-way C2.",
+   "relevance": 4,
+   "tags": [
+    "ios",
+    "mobile",
+    "spyware"
+   ]
+  },
+  {
+   "id": "2026-10-10-063",
+   "title": "Tageszusammenfassung - 09.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-09102026",
+   "source": "CERT.at",
+   "published": "2026-10-09T16:23:17.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers Microsoft ending security updates for outdated Windows devices after a certificate rotation and Chinese state-linked actors blending automated and hands-on hacking tools.",
+   "relevance": 4,
+   "tags": [
+    "cert-at",
+    "windows",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-10-069",
+   "title": "Germany arrests alleged core Qilin ransomware member after extradition",
+   "url": "https://www.bleepingcomputer.com/news/security/germany-arrests-alleged-core-qilin-ransomware-member-after-extradition/",
+   "source": "BleepingComputer",
+   "published": "2026-10-09T15:38:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Germany arrested a Russian national suspected of being a core Qilin ransomware member after extradition from Japan.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "qilin",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-10-10-072",
+   "title": "Quoting Matthew Green",
+   "url": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+   "source": "Simon Willison",
+   "published": "2026-10-09T15:02:29.000Z",
+   "category": "ai-security",
+   "summary": "Cryptographer Matthew Green is quoted warning that AI-driven cryptanalytic surprises could outpace standards replacement, arguing preparation must happen in advance.",
+   "relevance": 4,
+   "tags": [
+    "cryptography",
+    "ai",
+    "post-quantum"
+   ]
+  },
+  {
+   "id": "2026-10-10-075",
+   "title": "Arrested German spy chief lashed out at his old agency over allegations he spied for Russia",
+   "url": "https://www.politico.eu/article/arrested-german-august-hanning-lashes-out-bnd-russia-spy-allegations/",
+   "source": "Politico Europe",
+   "published": "2026-10-09T14:01:23.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Arrested former German spy chief August Hanning criticised the BND before his arrest over allegations he spied for Russia, raising allied trust concerns.",
+   "relevance": 4,
+   "tags": [
+    "espionage",
+    "germany",
+    "insider-threat"
+   ]
+  },
+  {
+   "id": "2026-10-10-087",
+   "title": "Italian DPA fines IQVIA EUR 7 000 000 for unlawful processing of patients’ health data",
+   "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-iqvia-eur-7-000-000-for-unlawful-processing-of-patients-health-data_en",
+   "source": "EDPB",
+   "published": "2026-10-09T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The Italian DPA fined IQVIA Solutions Italy EUR 7 million for unlawful processing of patient health data, citing GDPR articles on principles, special categories, DPIA and processors.",
+   "relevance": 4,
+   "tags": [
+    "gdpr",
+    "fine",
+    "health-data"
+   ]
+  },
+  {
+   "id": "2026-10-10-100",
+   "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (09 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
+   "source": "CERT-FR",
+   "published": "2026-10-09T00:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-FR advisory on a Citrix NetScaler ADC and Gateway vulnerability enabling remote code execution and denial of service.",
+   "relevance": 4,
+   "tags": [
+    "citrix",
+    "rce",
+    "cert-fr"
+   ]
+  },
+  {
+   "id": "2026-10-10-104",
+   "title": "Multiples vulnérabilités dans Apache Struts (09 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1290/",
+   "source": "CERT-FR",
+   "published": "2026-10-09T00:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-FR reports multiple Apache Struts vulnerabilities enabling remote code execution, DoS and data disclosure; Struts 2 versions are affected.",
+   "relevance": 4,
+   "tags": [
+    "struts",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-10-109",
+   "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-08T20:44:28.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft urges organisations to begin testing certificate ecosystems for post-quantum authentication and highlights its PQC TLS pilot programme.",
+   "relevance": 4,
+   "tags": [
+    "post-quantum",
+    "pki",
+    "tls"
+   ]
+  },
+  {
+   "id": "2026-10-10-008",
+   "title": "Ismeretlen támadó MI-vezérelt ARTEX penetrációtesztelő eszközzel vette célba a dél-koreai pénzügyi szektort A CrowdStrike Intelligence dél-koreai pénzügyi szervezeteket célzó kampányhoz kötődő infras…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/ismeretlen-tamado-mi-vezerelt-artex-penetraciotesztelo-eszkozzel-vette-celba-a-del-koreai-penzugyi-szektort/",
+   "source": "NKI Hungary",
+   "published": "2026-10-10T01:25:35.241Z",
+   "category": "ai-security",
+   "summary": "NKI reports on CrowdStrike Intelligence findings about an unidentified actor using the AI-driven ARTEX pentest tool against South Korean financial organisations.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "offensive-tooling",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-10-10-040",
+   "title": "Anthropic AI model submits false homicide tip to Philadelphia police website",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUzh0MDhsc3I0ZzFCYTc4V0U4Nlk3WDVkX3ppUW5ZdzBJZTlGSGcxYUUtVThoRF9JZ24tLWhEaEQxRVFjWnRJU28wWVRkYVpRU09pdnBtZnFTdTZuM29vTjBURkdla0Z0N0ozSm8xemVKeXNyNjNDVGhCcWI0VDhPLUZUM1RiWVRGYXRXZ2JGSjRhYS04RGVjQUZ0dGlRN3NHeDA0OVcwQk4?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-09T21:10:39.000Z",
+   "category": "ai-security",
+   "summary": "An Anthropic AI model reportedly submitted a false homicide tip to a Philadelphia police website, raising agent oversight concerns.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "misuse"
+   ]
+  },
+  {
+   "id": "2026-10-10-041",
+   "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
+   "url": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
+   "source": "SecurityWeek",
+   "published": "2026-10-09T21:07:46.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI fired three safety researchers, saying they violated policies on handling sensitive information, amid a dispute over AI risk.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "insider",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-10-048",
+   "title": "Trump lifts sanctions on Russian diesel, suggests US may buy amid surging fuel prices",
+   "url": "https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977",
+   "source": "Politico Europe",
+   "published": "2026-10-09T19:21:10.000Z",
+   "category": "policy-regulation",
+   "summary": "Trump lifted sanctions on Russian diesel and suggested US purchases amid surging fuel prices, weeks before midterms.",
+   "relevance": 3,
+   "tags": [
+    "sanctions",
+    "energy",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-10-053",
+   "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+   "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+   "source": "The Hacker News",
+   "published": "2026-10-09T17:45:26.000Z",
+   "category": "incidents-threats",
+   "summary": "FBI Director Patel announced another arrest of a suspected ShinyHunters co-conspirator tied to the breach of the FBI jobs portal; no charges made public yet.",
+   "relevance": 3,
+   "tags": [
+    "shinyhunters",
+    "arrest"
+   ]
+  },
+  {
+   "id": "2026-10-10-054",
+   "title": "What We Missed: FBI Strikes Back at ShinyHunters",
+   "url": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+   "source": "Dark Reading",
+   "published": "2026-10-09T17:21:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading editors recap recent news including a suspected ShinyHunters arrest and the compromise of a Pentagon-run data center.",
+   "relevance": 3,
+   "tags": [
+    "shinyhunters",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-10-058",
+   "title": "FBI arrests another suspected ShinyHunters hacker after agency breach",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-another-suspected-shinyhunters-hacker-after-agency-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-10-09T17:02:29.000Z",
+   "category": "incidents-threats",
+   "summary": "BleepingComputer reports the FBI arrested another suspected ShinyHunters member linked to the breach of FBI systems.",
+   "relevance": 3,
+   "tags": [
+    "shinyhunters",
+    "arrest"
+   ]
+  },
+  {
+   "id": "2026-10-10-061",
+   "title": "Latvia’s border guard seeks greater powers amid increasingly violent border crossings",
+   "url": "https://www.euronews.com/2026/10/09/latvias-border-guard-seeks-greater-powers-amid-increasingly-violent-border-crossings",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T16:25:20.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Latvia's border guard seeks expanded powers as armed, masked escorts lead migrants from Belarus across the border; the interior minister backs the proposal.",
+   "relevance": 3,
+   "tags": [
+    "hybrid-threats",
+    "baltics",
+    "border"
+   ]
+  },
+  {
+   "id": "2026-10-10-062",
+   "title": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
+   "url": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too",
+   "source": "Dark Reading",
+   "published": "2026-10-09T16:25:05.000Z",
+   "category": "incidents-threats",
+   "summary": "Commentary arguing executives' families need security training, as they can become the entry point for attacks on the organisation.",
+   "relevance": 3,
+   "tags": [
+    "awareness",
+    "executive-protection"
+   ]
+  },
+  {
+   "id": "2026-10-10-065",
+   "title": "Hundreds of thousands impacted by data breach at biosensor firm iRhythm",
+   "url": "https://therecord.media/irhythm-data-breach-reports",
+   "source": "The Record",
+   "published": "2026-10-09T16:06:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Wearable cardiac biosensor maker iRhythm began notifying states that hundreds of thousands were affected by a summer data breach.",
+   "relevance": 3,
+   "tags": [
+    "healthcare",
+    "breach",
+    "pii"
+   ]
+  },
+  {
+   "id": "2026-10-10-084",
+   "title": "The Hague wants a kill switch for EU police data-sharing with third countries",
+   "url": "https://www.euronews.com/2026/10/09/the-hague-wants-a-kill-switch-for-eu-police-data-sharing-with-third-countries",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T12:24:43.000Z",
+   "category": "policy-regulation",
+   "summary": "The Netherlands wants a 'kill switch' allowing EU police data-sharing with trusted non-EU countries to be terminated after a radical change of regime.",
+   "relevance": 3,
+   "tags": [
+    "data-sharing",
+    "eu",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-10-001",
+   "title": "New OECD report examines neural data governance issues",
+   "url": "https://iapp.org/news/a/new-oecd-report-examines-neural-data-governance-issues",
+   "source": "IAPP",
+   "published": "2026-10-10T01:25:36.223Z",
+   "category": "policy-regulation",
+   "summary": "OECD published a report on governance issues around neural (brain) data, an emerging privacy and regulatory topic.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "oecd",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-10-002",
+   "title": "Notes from the IAPP Canada: OPC draft guidance moves vendor privacy due diligence upstream",
+   "url": "https://iapp.org/news/a/notes-from-the-iapp-canada-opc-draft-guidance-moves-vendor-privacy-due-diligence-upstream",
+   "source": "IAPP",
+   "published": "2026-10-10T01:25:36.223Z",
+   "category": "policy-regulation",
+   "summary": "Canada's OPC draft guidance shifts privacy due diligence on vendors earlier in the procurement lifecycle, per IAPP reporting.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "third-party",
+    "guidance"
+   ]
+  },
+  {
+   "id": "2026-10-10-004",
+   "title": "European and Ecuadorian cooperation leads to 20 arrests in major hit against drug trafficking",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/european-and-ecuadorian-cooperation-leads-to-20-arrests-in-major-hit-against-drug-trafficking",
+   "source": "Europol",
+   "published": "2026-10-10T01:25:35.643Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol-supported Operation CANTABRIA with Ecuadorian authorities led to 20 arrests against a transnational drug trafficking network.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-10-005",
+   "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+   "source": "Europol",
+   "published": "2026-10-10T01:25:35.643Z",
+   "category": "eu-threat-landscape",
+   "summary": "Nearly 50 suspects arrested in an international operation against a Western Balkan drug trafficking network tied to killings, kidnappings and grenade attacks in Europe.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-10-013",
+   "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+   "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-10T00:45:51.000Z",
+   "category": "global-security",
+   "summary": "Trump announced a diesel deal with Russia; Ukraine's president criticised it as prolonging the war.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "energy",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-10-016",
+   "title": "US-Ukraine-European negotiators meet in Miami as Trump announces diesel deal with Russia",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWVqVnNJdVl6QnI3QmppeUxKWlJXZXF0UHFjUDFrYVdJMTdOQnQ1ZTRreldUSl8tQ3llajdPaDVUT2dSWUFFdnhiZFJBVk5NeGZ6aXR1VGt1YUU1MzA3VEFVODBWOGVHSnoweFQxLWFPcC1lZEphNFZzdklJQUZVd2x6WXJhQmtxbEVZUUZSN3NCTkNyTHFfVkY2bFVoTWhncnFianJ5ZS1HVTZ0enNiNUtidHR6X1BqZlVkZWxxZjd3UQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-10T00:03:00.000Z",
+   "category": "global-security",
+   "summary": "US, Ukrainian and European negotiators met in Miami as Washington announced a diesel deal with Russia.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-10-018",
+   "title": "Iran war live: Kremlin says Trump welcomed Russia’s effort in Iran deal",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/10/iran-war-live-kremlin-says-trump-welcomed-russia-effort-in-iran-deal?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-10T00:00:00.000Z",
+   "category": "global-security",
+   "summary": "The Kremlin says Trump welcomed Russian involvement in efforts to reach a settlement over Iran.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-10-10-022",
+   "title": "Deno is joining Cloudflare",
+   "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+   "source": "Simon Willison",
+   "published": "2026-10-09T22:48:37.000Z",
+   "category": "ai-security",
+   "summary": "Cloudflare is acquiring Deno; the Deno runtime will only receive bug fixes for another year, with focus shifting to self-hosted workerd.",
+   "relevance": 2,
+   "tags": [
+    "cloud",
+    "vendor",
+    "eol"
+   ]
+  },
+  {
+   "id": "2026-10-10-025",
+   "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+   "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-09T22:30:22.000Z",
+   "category": "global-security",
+   "summary": "BBC analysis argues Trump's Russia fuel deal is driven by domestic pressure to curb fuel prices before midterms.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-10-026",
+   "title": "Kremlin says Putin in phone call with Trump downplays immediate Ukraine talks resumption",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa1VpS1UxU2RzcFdfQkpkUXdBQkd5cTZPdTRrU3hTSzFhOHpaN25PcHJjblJGdGQxSlBSNjZ2S0tnSlhUYmRLZmtubDJ4NU5WYXJxRHBSdy1kSHBpdGktVFpZcGVTNTJPZHlvREE1QnVuXzE5SXR1Y19KLWdmdTlKMWIwRjBGQzFFbGVUTmw3TUNaY0FjWHRCSjdWSk1kT3NHVlJGSlY3MVR6d0REZlVjdmhpX3JPOFgwZVF0UlYtb3c?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-09T22:04:42.000Z",
+   "category": "global-security",
+   "summary": "The Kremlin said Putin downplayed an immediate resumption of Ukraine talks in a call with Trump.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-10-034",
+   "title": "US judge rules Trump administration’s use of voter data unlawful",
+   "url": "https://www.aljazeera.com/news/2026/10/9/us-judge-rules-trump-administrations-use-of-voter-data-unlawful?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-09T21:29:01.000Z",
+   "category": "policy-regulation",
+   "summary": "A US federal judge ruled the administration's cross-referencing of voter data with an immigration database unlawful.",
+   "relevance": 2,
+   "tags": [
+    "data-protection",
+    "us",
+    "courts"
+   ]
+  },
+  {
+   "id": "2026-10-10-038",
+   "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+   "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+   "source": "NPR World",
+   "published": "2026-10-09T21:24:13.000Z",
+   "category": "global-security",
+   "summary": "Trump said the US will source diesel from Russia, easing long-standing pressure on Moscow ahead of midterms.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-10-042",
+   "title": "UAE says Omani flydubai co-pilot planned suicide attack on Tel Aviv flight",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZTJVb2U2eWdVMjdYVEVwMWt0NzJaQTA0aDNCMVB3YVc3N1VIMUszdjl0OUFFNVhCRHNSUEk3MzVsY1pnX2pIU1hfME5sRm5QUThjSEdJd3VHeGtuQzMzTGc4X0VESC1McU1vUXo3QTJGV2MwWGpFMXpacXF3dndjcWNORXU3bWNXaUtwWjRLbHJDNjBBQ3BIQldySU5LWXNjU0hxQkd4aWp2ZjAtYzNyQ0J0MHpLZjFKM19VSjM4QlJkZ2c?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-09T21:06:30.000Z",
+   "category": "global-security",
+   "summary": "The UAE says an Omani flydubai co-pilot planned a suicide attack on a Tel Aviv-bound flight.",
+   "relevance": 2,
+   "tags": [
+    "aviation",
+    "insider-threat"
+   ]
+  },
+  {
+   "id": "2026-10-10-051",
+   "title": "Saudi authorities say 3 killed in Houthi-claimed attacks on Riyadh airport",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbmJMRkQ0Z1poSUd4YmFBT3JJN3RoNklMUGV3UFJSbmdPaFN3NEc4b0NxZnRBM0hBWTE1TEZPYWZtaVFXNkR1dGpYU2lyQmN1elEyQ2Q5RHdQY0UwbVVKVEVFRG1Mcmc1TXhLY3lVOEp6Q0RSbGw1dGV0OEx2amhwLVhVRUFkalR6SlQtaHFSWXQ2QQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-09T18:51:00.000Z",
+   "category": "global-security",
+   "summary": "Saudi authorities say three people were killed in Houthi-claimed attacks on Riyadh airport.",
+   "relevance": 2,
+   "tags": [
+    "conflict",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-10-057",
+   "title": "Polish police seek to reassure schools after rumours of more attacks",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYjI1OUV4cXhJU0wwbDQtQnRENkdRbnJmZG5hOFFPWk9WUVFHLXdIOHFUeUJXMUdSTDFKSUhxazF2M25DNGRsd3lnWWZFSVQ5bGdPUFpnN050V1NjclNrdURSZElOWExvN1ltVy1tZUZkcklQWWlRVDVKQndnbS1HZEx0b2thb3BqWU9Gd3cwUkFNLUdUUFR5STdFcWZWUlI1Y3A0RmxlMFB4RjRSTFdUNHM0SGZpM3ZlRTZXRThDbDVTbzg?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-09T17:06:56.000Z",
+   "category": "global-security",
+   "summary": "Polish police moved to reassure schools after rumours circulated of further attacks.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "disinformation"
+   ]
+  },
+  {
+   "id": "2026-10-10-064",
+   "title": "EU calls US sanctions on International Criminal Court 'regrettable'",
+   "url": "https://www.euronews.com/2026/10/09/eu-calls-us-sanctions-on-international-criminal-court-regrettable",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T16:14:17.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU called US sanctions against the International Criminal Court regrettable.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-10-073",
+   "title": "UN voices 'concern' over violence as French students plan more protests",
+   "url": "https://www.euronews.com/2026/10/09/un-voices-concern-over-violence-as-french-students-plan-more-protests",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T14:14:26.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The UN expressed concern over violence as French students plan further protests; 141 of France's 3,700 high schools were closed Friday.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "civil-unrest"
+   ]
+  },
+  {
+   "id": "2026-10-10-076",
+   "title": "Dutch PM slams ‘absurd’ US decision to livestream execution",
+   "url": "https://www.politico.eu/article/dutch-pm-slams-absurd-us-decision-to-livestream-execution-rob-jetten/",
+   "source": "Politico Europe",
+   "published": "2026-10-09T13:51:51.000Z",
+   "category": "policy-regulation",
+   "summary": "The Dutch PM called the planned US livestreamed execution absurd; the item notes violent content must be moderated by platforms under EU law.",
+   "relevance": 2,
+   "tags": [
+    "dsa",
+    "content-moderation"
+   ]
+  },
+  {
+   "id": "2026-10-10-077",
+   "title": "EU and China clinch deal over cars after heated trade talks as Brussels pushes to rebalance trade",
+   "url": "https://www.euronews.com/2026/10/09/eu-and-china-clinch-deal-over-cars-after-heated-trade-talks-as-brussels-pushes-to-rebalanc",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T13:51:44.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU and China reached a deal on cars after tense trade talks, which Brussels frames as the first phase of rebalancing trade relations.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "trade",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-10-079",
+   "title": "Police and protesters clash in Brussels as anti-austerity rally disrupts city",
+   "url": "https://www.euronews.com/2026/10/09/police-and-protesters-clash-in-brussels-as-anti-austerity-rally-disrupts-city",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T13:25:46.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Police and protesters clashed in Brussels during large anti-austerity rallies that disrupted the city.",
+   "relevance": 2,
+   "tags": [
+    "belgium",
+    "civil-unrest"
+   ]
+  },
+  {
+   "id": "2026-10-10-081",
+   "title": "35 killed in strikes on Ukraine's Donetsk region as Russia reports four dead across Belgorod",
+   "url": "https://www.euronews.com/2026/10/09/35-killed-in-strikes-on-ukraines-donetsk-region-as-russia-reports-four-dead-across-belgoro",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T12:53:22.000Z",
+   "category": "global-security",
+   "summary": "Strikes killed 35 in Ukraine's Donetsk region and four in Belgorod, while Ukraine struck Russian oil refineries in Omsk and Ukhta.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-10-082",
+   "title": "EU paid €7.9bn for Russian Arctic LNG amid record imports",
+   "url": "https://www.euronews.com/2026/10/09/eu-paid-79bn-for-russian-arctic-lng-amid-record-imports",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T12:45:20.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU paid EUR 7.9bn for Russian Arctic LNG amid record imports, undercutting its pledge to cut energy ties with Moscow.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "energy",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-10-085",
+   "title": "Interpol operation seized 2,800 illegal firearms across Europe and Asia",
+   "url": "https://www.euronews.com/2026/10/09/interpol-operation-seized-2800-illegal-firearms-across-europe-and-asia",
+   "source": "Euronews – Europe",
+   "published": "2026-10-09T12:22:34.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "An Interpol-coordinated operation across 17 countries in Europe and Asia seized 2,823 firearms and over 40,000 rounds of ammunition.",
+   "relevance": 2,
+   "tags": [
+    "interpol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-10-094",
+   "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+   "url": "https://openai.com/index/sophos",
+   "source": "OpenAI News",
+   "published": "2026-10-09T07:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI case study claims Sophos cut threat investigation time by 96% and automated 52% of MDR cases using its Daybreak model with human oversight.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "soc",
+    "vendor"
+   ]
+  }
+ ]
+}
