@@ -245,6 +245,7 @@ let results = candidates.map((it) => ({
   tags: [],
 }));
 let post = null;
+let llmOk = false;   // igaz, ha az API-szerkesztés ténylegesen lefutott → a kiadás "done"
 
 if (!NO_LLM && candidates.length) {
   const client = new Anthropic();
@@ -311,6 +312,7 @@ Then write a LinkedIn post (English, max 1200 characters, no emojis except at mo
       return m ? { ...r, category: m.category, summary: clip(stripHtml(m.summary), 320), relevance: m.relevance, tags: m.tags.map((t) => clip(stripHtml(t).toLowerCase(), 24)) } : r;
     });
     post = stripHtml(parsed.post).replace(/ (?=#)/g, "\n").trim();
+    llmOk = true;
     console.log(`[llm] served by ${response.model}; in=${response.usage.input_tokens} out=${response.usage.output_tokens}`);
   }
 }
@@ -340,7 +342,7 @@ const day = {
   model: NO_LLM ? null : MODEL,
   // "pending": waiting for the external editor; "heuristic": fallback edition without AI review
   // (the editor still overrides it); "done" is only set by scripts/apply-editorial.mjs.
-  editorial: KEEP_ALL ? "pending" : "heuristic",
+  editorial: KEEP_ALL ? "pending" : (llmOk ? "done" : "heuristic"),   // API-szerkesztés = done; kulcs nélkül heuristic
   itemCount: capped.length,
   feeds: feedStatus.sort((a, b) => a.name.localeCompare(b.name)),
   items: capped,
