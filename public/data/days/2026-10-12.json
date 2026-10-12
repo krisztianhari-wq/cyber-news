@@ -1,0 +1,681 @@
+{
+ "date": "2026-10-12",
+ "generatedAt": "2026-10-12T05:46:30.722Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 31,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": false,
+   "error": "fetch failed"
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-12-005",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-12T05:45:10.881Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-015: Atlassian's 5 Oct advisory fixes a critical arbitrary file access flaw across Bitbucket, Confluence, Jira, Bamboo, Crowd, Crucible and Fisheye Data Center. Patch internet-facing instances first and review access logs.",
+   "relevance": 5,
+   "tags": [
+    "atlassian",
+    "cve",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-12-006",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-12T05:45:10.881Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-014: Citrix fixed 8 NetScaler ADC/Gateway flaws, including 2 critical unauthenticated RCEs confirmed exploited in the wild. Update and run compromise assessments on exposed devices.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-12-007",
+   "title": "2026-013: Critical Vulnerability in F5 BIG-IP APM",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-013/",
+   "source": "CERT-EU",
+   "published": "2026-10-12T05:45:10.881Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory 2026-013: F5 disclosed a critical BIG-IP APM vulnerability with confirmed active exploitation; immediate remediation is recommended.",
+   "relevance": 5,
+   "tags": [
+    "f5",
+    "exploited",
+    "edge"
+   ]
+  },
+  {
+   "id": "2026-10-12-068",
+   "title": "AI systems are fully capable of carrying out nightmare attacks against infrastructure and nobody's ready",
+   "url": "https://www.theregister.com/security/2026/10/11/ai-systems-are-fully-capable-of-carrying-out-nightmare-attacks-against-infrastructure-and-nobodys-ready/5302450",
+   "source": "The Register – Security",
+   "published": "2026-10-11T11:30:00.000Z",
+   "category": "ai-security",
+   "summary": "Researchers warn AI systems are already capable of executing damaging attacks on critical infrastructure, including moving robotic arms and falsifying OT operator screens, with defences lagging.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "ot",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-12-001",
+   "title": "Több ezer olcsó Androidos telefon került forgalomba reklámcsaló vírussal Kutatók több ezer olcsó androidos telefonon találtak előre telepített kártevőt, amely csalárd hirdetési bevételt képes generál…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-ezer-olcso-androidos-telefon-kerult-forgalomba-reklamcsalo-virussal/",
+   "source": "NKI Hungary",
+   "published": "2026-10-12T05:45:12.508Z",
+   "category": "eu-threat-landscape",
+   "summary": "Researchers found pre-installed adware/malware on thousands of low-cost Android phones, generating fraudulent advertising revenue. Supply-chain risk for consumer devices sold in Europe.",
+   "relevance": 4,
+   "tags": [
+    "android",
+    "supply-chain",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-12-004",
+   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+   "source": "Europol",
+   "published": "2026-10-12T05:45:11.274Z",
+   "category": "policy-regulation",
+   "summary": "Europol urges organisations to start post-quantum migration now, stressing crypto-agility to protect cryptocurrency and sensitive data regardless of when quantum capabilities arrive.",
+   "relevance": 4,
+   "tags": [
+    "post-quantum",
+    "crypto-agility",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-12-014",
+   "title": "AI vulnerability patching has a grading problem",
+   "url": "https://www.helpnetsecurity.com/2026/10/12/ai-vulnerability-patching-grading-problem/",
+   "source": "Help Net Security",
+   "published": "2026-10-12T04:45:43.000Z",
+   "category": "ai-security",
+   "summary": "Northwestern University tested AI coding agents on 112 real security bugs: a third of patches that stopped the crash still failed maintainer-written tests, questioning autonomous AI vulnerability patching.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "patching",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-12-062",
+   "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+   "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+   "source": "BleepingComputer",
+   "published": "2026-10-11T14:23:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Daiichi Kosho disclosed that a malware infection at contractor Nippon Columbia exposed over 8.6 million customer and employee records — another third-party supply-chain breach.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "third-party",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-12-075",
+   "title": "Canadian ransomware negotiator arrested amid FBI hacker crackdown",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcERTdzZuVGZ3R1NXOE1IbEpneTR1dEZaNzZwM3p1NXlrbkMxZjl6Q3lNVS1ybTY3THlTSkt3SnRQbndfalJSUkt5M1c2Tm9sb0ticnZ3b3dfNHd4N0g2emp0Qmh2SzNlWjJoX1VQRHV3NEpxTnFVYnNkOGdHbVVPS081ZVRFOUNpdGlJYy1PTnNlQkctbWlzcHdOeHhtRVh5UlRiSzRrRmpqem43MzRUS0NuamVLa0FXQWc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-11T02:14:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A Canadian ransomware negotiator was arrested as part of an FBI crackdown on hackers, raising insider-risk questions for incident response supply chains.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "insider",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-12-009",
+   "title": "Strands Box: Open-source sandbox for AI agents",
+   "url": "https://www.helpnetsecurity.com/2026/10/12/aws-strands-box-open-source-ai-agent-sandbox/",
+   "source": "Help Net Security",
+   "published": "2026-10-12T05:30:34.000Z",
+   "category": "ai-security",
+   "summary": "AWS released Strands Box, an open-source sandbox in developer preview that isolates AI agents at the OS level and applies rules based on an agent's prior actions before allowing further operations.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "sandbox"
+   ]
+  },
+  {
+   "id": "2026-10-12-022",
+   "title": "Energy ceasefire: Confusion in Kyiv, support from allies, silence from Moscow and fresh strikes",
+   "url": "https://www.euronews.com/2026/10/12/energy-ceasefire-confusion-in-kyiv-support-from-allies-silence-from-moscow-and-fresh-strik",
+   "source": "Euronews – Europe",
+   "published": "2026-10-12T03:19:44.000Z",
+   "category": "global-security",
+   "summary": "Trump announced an immediate Russia-Ukraine energy ceasefire, unconfirmed by Moscow; Zelenskyy reported fresh Russian strikes on power plants causing outages.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "energy",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-12-025",
+   "title": "How can Europe leverage laws to secure cloud sovereignty?",
+   "url": "https://www.politico.eu/sponsored-content/how-can-europe-leverage-laws-to-secure-cloud-sovereignty/",
+   "source": "Politico Europe",
+   "published": "2026-10-12T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Opinion piece on how Europe can use legislation to advance cloud sovereignty without sacrificing speed.",
+   "relevance": 3,
+   "tags": [
+    "cloud",
+    "sovereignty",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-12-035",
+   "title": "UK PM Andy Burnham says it is ‘clear’ Russia interfered in 2016 Brexit vote",
+   "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-says-it-is-clear-russia-interfered-in-2016-brexit-vote?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-12T01:12:35.000Z",
+   "category": "global-security",
+   "summary": "UK PM Andy Burnham publicly stated it is 'clear' Russia interfered in the 2016 Brexit referendum, a first for a sitting UK prime minister.",
+   "relevance": 3,
+   "tags": [
+    "disinformation",
+    "russia",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-12-061",
+   "title": "Russia strikes power plants in Ukraine despite 'energy ceasefire' announced by Trump",
+   "url": "https://www.euronews.com/2026/10/11/energy-ceasefire-agreed-between-russia-and-ukraine-trump-says",
+   "source": "Euronews – Europe",
+   "published": "2026-10-11T14:34:47.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Russia struck Ukrainian power plants hours after Trump announced an 'energy ceasefire', keeping energy infrastructure under sustained attack.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-12-065",
+   "title": "Russian army strikes Sloviansk and Kyiv as Ukrainian drones hit third Yandex data centre",
+   "url": "https://www.euronews.com/2026/10/11/russian-army-strikes-sloviansk-and-kyiv-as-ukrainian-drones-hit-third-yandex-data-centre",
+   "source": "Euronews – Europe",
+   "published": "2026-10-11T13:15:52.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Russian strikes hit Sloviansk and Kyiv while Ukrainian drones struck a third Yandex data centre in Vladimir, causing major service outages — data centres increasingly targeted in the conflict.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "data-center",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-10-12-072",
+   "title": "Week in review: FortiBleed is still active, Patch Tuesday forecast",
+   "url": "https://www.helpnetsecurity.com/2026/10/11/week-in-review-fortibleed-is-still-active-patch-tuesday-forecast/",
+   "source": "Help Net Security",
+   "published": "2026-10-11T08:00:49.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Help Net Security weekly roundup noting FortiBleed exploitation is still active and previewing the Patch Tuesday forecast, plus healthcare CISO guidance.",
+   "relevance": 3,
+   "tags": [
+    "patch-tuesday",
+    "fortinet",
+    "roundup"
+   ]
+  },
+  {
+   "id": "2026-10-12-008",
+   "title": "Sweden's Telia to cut around 900 jobs and save $1 million",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQajFSeTNKMXZMRjFZOVAtVmkxT3FMUnh0b3l3NjFRVW5wa3JOM0o1UGVIb21LcmhBWFozd05sc2VxTDdaLUE0SWlDbkw0WHM2VXRPRHhycWVRT3FQczdPR2JDdkJEN0lnLW9uRjZCTFR5cF9ZUGRLdFFxVEVBeEhlZE5DS1F6aGU4VEdBMWhqNmI5Zm5WMDVBeGgtWlJsazRFam9ZQ1lGQmpYdjQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-12T05:38:00.000Z",
+   "category": "global-security",
+   "summary": "Swedish operator Telia announced around 900 job cuts as part of cost savings, per Reuters.",
+   "relevance": 2,
+   "tags": [
+    "telecom",
+    "business"
+   ]
+  },
+  {
+   "id": "2026-10-12-016",
+   "title": "The EU budget battle just got nastier",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-eu-budget-battle-just-got-nastier/",
+   "source": "Politico Europe",
+   "published": "2026-10-12T04:30:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Germany rejected Ireland's proposal for the EU's next seven-year budget despite €159bn in cuts, with governments split and Parliament threatening to block the deal.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-10-12-019",
+   "title": "What makes some open source updates so difficult?",
+   "url": "https://www.helpnetsecurity.com/2026/10/12/google-open-source-maintenance-costs-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-12T04:00:49.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A Google case study estimates most updates of internal open source package copies take four engineering hours or less, but some require days or months — relevant for dependency and patch planning.",
+   "relevance": 2,
+   "tags": [
+    "open-source",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-12-021",
+   "title": "Wie Trumps Ölkrise zur Ukraine-Frage wird",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-trumps-olkrise-zur-ukraine-frage-wird/",
+   "source": "Politico Europe",
+   "published": "2026-10-12T03:30:00.000Z",
+   "category": "policy-regulation",
+   "summary": "German-language analysis of Trump's announced 'energy ceasefire' between Ukraine and Russia, easing of Russia sanctions over oil prices, and his call for new Ukrainian leadership.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-12-029",
+   "title": "Saudi Arabia says 1 dead, 11 injured in latest attack on Riyadh airport",
+   "url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-12T02:11:21.000Z",
+   "category": "global-security",
+   "summary": "An attack on Riyadh's King Khalid International Airport killed one and injured 11.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-10-12-030",
+   "title": "Taiwan says it is closely monitoring series of Chinese live-fire drills",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbzdVRzBOYnM4YWQ3Z0g2QTc2OTZwM0t0TUI3SUlGeTdBbXJ1amlQV0IyS2F2cGxmMk1hdW1HTElpV0pmaS1JUUt5N1lwdXdJUkNpYThnLVpvTEdsYjhnTVpqb015TTRDWWRZTTV6Ylo5c0pFbVRPeUM2YzNIdExpd1hRLWt6ZWR4bXZUeTRLZnJnNDlLVnAyX1JDdUxCajE3akRNMnpaUlpaVVRoWFJEWkh0MHEya28?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-12T02:04:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan says it is closely monitoring a series of Chinese live-fire drills.",
+   "relevance": 2,
+   "tags": [
+    "taiwan",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-12-031",
+   "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
+   "url": "https://isc.sans.edu/diary/rss/33416",
+   "source": "SANS ISC",
+   "published": "2026-10-12T02:00:03.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily Stormcast podcast episode for 12 October 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-12-045",
+   "title": "Trump faces growing backlash over plans to import diesel from Russia",
+   "url": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-11T23:18:45.000Z",
+   "category": "global-security",
+   "summary": "Trump faces bipartisan criticism over plans to import Russian diesel ahead of US midterms.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-10-12-048",
+   "title": "Ireland’s budget cuts weaken EU, Commission warns",
+   "url": "https://www.politico.eu/article/eu-budget-cuts-crisis-response-funds-commission-warns/",
+   "source": "Politico Europe",
+   "published": "2026-10-11T20:00:54.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission warns Ireland's proposed long-term budget cuts hit competitiveness and flexibility priorities and weaken the EU.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-10-12-056",
+   "title": "Parliament split on EU climate rules opens way for conservative deal with far right",
+   "url": "https://www.politico.eu/article/parliament-split-on-eu-climate-rules-opens-way-for-conservative-deal-with-far-right/",
+   "source": "Politico Europe",
+   "published": "2026-10-11T16:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Parliament is split over EU climate rules, potentially pushing conservatives toward a deal with the far right on the carbon market.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "climate"
+   ]
+  },
+  {
+   "id": "2026-10-12-059",
+   "title": "Europeans back Zelenskyy after Trump calls for new Ukrainian leader",
+   "url": "https://www.politico.eu/article/europe-back-volodymyr-zelenskyy-after-donald-trump-calls-for-new-ukrainian-leader/",
+   "source": "Politico Europe",
+   "published": "2026-10-11T15:26:18.000Z",
+   "category": "policy-regulation",
+   "summary": "Several European governments reaffirmed support for Zelenskyy after Trump called for new Ukrainian leadership.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-12-060",
+   "title": "Fix airport queues by Christmas, migration commissioner tells Brussels Airport",
+   "url": "https://www.politico.eu/article/airport-queues-christmas-migration-commissioner-tells-brussels-airport/",
+   "source": "Politico Europe",
+   "published": "2026-10-11T15:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "EU migration commissioner Brunner pressed Brussels Airport to resolve Entry/Exit System queues by Christmas, saying member states had enough time to prepare.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ees",
+    "borders"
+   ]
+  },
+  {
+   "id": "2026-10-12-064",
+   "title": "'Up to our people' to pick leader, Zelenskyy responds to Trump's pledge for new elections in Ukraine",
+   "url": "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u",
+   "source": "Euronews – Europe",
+   "published": "2026-10-11T14:19:57.000Z",
+   "category": "policy-regulation",
+   "summary": "Zelenskyy responded to Trump's call for new Ukrainian elections, saying leadership choice is up to Ukrainians and that Russia alone is responsible for the war.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-10-12-070",
+   "title": "Man who planned to attack Poland's prime minister has been arrested, interior minister says",
+   "url": "https://www.euronews.com/2026/10/11/polish-police-alerted-over-possible-attack-on-pm-donald-tusk",
+   "source": "Euronews – Europe",
+   "published": "2026-10-11T10:42:33.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Polish authorities arrested a man suspected of planning an attack on PM Tusk and the defence minister.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-10-12-079",
+   "title": "Python 3.15.0 added to actions/python-versions",
+   "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+   "source": "Simon Willison",
+   "published": "2026-10-10T23:58:04.000Z",
+   "category": "ai-security",
+   "summary": "Python 3.15.0 is now available in actions/python-versions, enabling GitHub Actions test matrices against the new stable release.",
+   "relevance": 2,
+   "tags": [
+    "python",
+    "ci-cd"
+   ]
+  }
+ ]
+}
