@@ -1,0 +1,1005 @@
+{
+ "date": "2026-10-14",
+ "generatedAt": "2026-10-14T05:47:05.656Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 53,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 1
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-14-002",
+   "title": "Maximális súlyosságú hibát javított a GitLab A GitLab maximális súlyosságú távoli kódfuttatási hibát javított a CI/CD rendszerében. A hiba lehetővé tette, hogy egy be nem jelentkezett támadó egy spec…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/maximalis-sulyossagu-hibat-javitott-a-gitlab/",
+   "source": "NKI Hungary",
+   "published": "2026-10-14T05:45:17.009Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a maximum-severity remote code execution flaw in its CI/CD component that an unauthenticated attacker could exploit via a crafted configuration.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-14-009",
+   "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+   "source": "CERT-EU",
+   "published": "2026-10-14T05:45:14.633Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory: GitLab CE/EE 19.4.2, 19.3.4 and 19.2.8 fix 24 issues including a critical unauthenticated RCE; prioritise internet-facing self-managed instances.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-10-14-011",
+   "title": "2026-014: Critical Vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-014/",
+   "source": "CERT-EU",
+   "published": "2026-10-14T05:45:14.633Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags 8 Citrix NetScaler ADC/Gateway vulnerabilities, including two critical unauthenticated RCEs confirmed exploited in the wild; patch and run compromise assessments.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-14-018",
+   "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+   "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+   "source": "The Hacker News",
+   "published": "2026-10-14T04:34:43.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft's October Patch Tuesday fixed a record 1,413 flaws (1,102 in Windows), including an actively exploited Windows Shell bug; over 670 are privilege escalation issues.",
+   "relevance": 5,
+   "tags": [
+    "patch-tuesday",
+    "microsoft",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-10-14-056",
+   "title": "Microsoft Patches More Than 1,400 Security Flaws",
+   "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+   "source": "Krebs on Security",
+   "published": "2026-10-13T23:24:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Krebs reports Microsoft shipped fixes for more than 1,400 vulnerabilities, dwarfing September's record of nearly 1,000 and roughly ten times the historical monthly volume.",
+   "relevance": 5,
+   "tags": [
+    "patch-tuesday",
+    "microsoft"
+   ]
+  },
+  {
+   "id": "2026-10-14-067",
+   "title": "Patch Tuesday - October 2026",
+   "url": "https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-13T21:40:27.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7's analysis of October Patch Tuesday: 1,413 Microsoft vulnerabilities, one exploited in the wild (Windows Shell security feature bypass) and two publicly disclosed.",
+   "relevance": 5,
+   "tags": [
+    "patch-tuesday",
+    "zero-day",
+    "windows"
+   ]
+  },
+  {
+   "id": "2026-10-14-085",
+   "title": "Ivanti Connect Secure zero-day exploited in the wild (CVE-2026-104935)",
+   "url": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-13T17:06:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Ivanti Connect Secure zero-day CVE-2026-104935 (CVSS 8.6) allows unauthenticated remote command execution via authentication bypass; exploited in the wild and added to CISA KEV.",
+   "relevance": 5,
+   "tags": [
+    "ivanti",
+    "zero-day",
+    "vpn"
+   ]
+  },
+  {
+   "id": "2026-10-14-099",
+   "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+   "source": "CISA Advisories",
+   "published": "2026-10-13T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA urges immediate patching of Ivanti Connect Secure CVE-2026-104935, exploited for credential theft and data exfiltration and added to the KEV catalog on 13 October.",
+   "relevance": 5,
+   "tags": [
+    "ivanti",
+    "kev",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-14-100",
+   "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-10-13T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added two actively exploited vulnerabilities to KEV: a Microsoft Windows command injection (CVE-2026-96951) and the Ivanti Connect Secure authentication bypass (CVE-2026-104935).",
+   "relevance": 5,
+   "tags": [
+    "kev",
+    "exploited",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-14-103",
+   "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-13T11:29:03.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 details CVE-2026-97229, a CVSS 10.0 integer overflow in GitLab's CI/CD regex compiler enabling remote code execution via a crafted CI/CD configuration.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "cve",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-14-001",
+   "title": "Gyenge jelszavak miatt szivárogtak ki milliók személyes adatai A dán központi népesség-nyilvántartás (CPR) elleni jelentős adatszivárgása jól példázza, hogy akár egyetlen gyenge jelszó és a partneri…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/gyenge-jelszavak-miatt-szivarogtak-ki-milliok-szemelyes-adatai/",
+   "source": "NKI Hungary",
+   "published": "2026-10-14T05:45:17.009Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungarian NKI reports a major breach of Denmark's central population register (CPR), attributed to weak passwords and supplier/partner access weaknesses, exposing millions of citizens' personal data.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "supply-chain",
+    "credentials"
+   ]
+  },
+  {
+   "id": "2026-10-14-003",
+   "title": "MI ügynökökkel támadta az ukrán kritikus infrastruktúrát, egy konfigurációs hiba leplezte le Egy oroszul beszélő, pénzügyi motivációjú kiberbűnöző mesterséges intelligenciával támogatott eszközökkel…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/mi-ugynokokkel-tamadta-az-ukran-kritikus-infrastrukturat-egy-konfiguracios-hiba-leplezte-le/",
+   "source": "NKI Hungary",
+   "published": "2026-10-14T05:45:17.009Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Russian-speaking, financially motivated actor used AI agent-based tooling against Ukrainian critical infrastructure; a configuration error exposed the operation.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "critical-infrastructure",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-14-008",
+   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+   "source": "Europol",
+   "published": "2026-10-14T05:45:15.487Z",
+   "category": "policy-regulation",
+   "summary": "Europol urges organisations to act now on post-quantum readiness, stressing crypto-agility for protecting cryptocurrencies and sensitive data regardless of when quantum capabilities arrive.",
+   "relevance": 4,
+   "tags": [
+    "post-quantum",
+    "crypto-agility",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-14-015",
+   "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+   "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+   "source": "Dark Reading",
+   "published": "2026-10-14T05:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading reports organisations claiming ransomware crews now threaten employees' families with stalking and physical violence, though such claims are difficult to verify.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-10-14-016",
+   "title": "Ransomware gets personal: 'We-know-where-you-are kind of stuff'",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/14/ransomware-gets-personal-we-know-where-you-are-kind-of-stuff/5302939",
+   "source": "The Register – Security",
+   "published": "2026-10-14T05:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A global survey finds 37% of ransomware attacks involve psychological or physical threats against staff, a shift beyond purely digital extortion.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "extortion",
+    "survey"
+   ]
+  },
+  {
+   "id": "2026-10-14-019",
+   "title": "Most companies count AI agents as insiders, and CISOs worry about their own liability",
+   "url": "https://www.helpnetsecurity.com/2026/10/14/ciso-ai-agent-insider-risk/",
+   "source": "Help Net Security",
+   "published": "2026-10-14T04:30:05.000Z",
+   "category": "ai-security",
+   "summary": "A Trellix survey of 600 CISOs found 95% had an AI agent or autonomous system linked to an insider incident in the past year; 78% now treat AI agents and machine identities as insiders.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "insider-risk",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-14-064",
+   "title": "Ivanti misses opportunity to fix vulnerability before attackers got to work and made it a zero-day",
+   "url": "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/",
+   "source": "CyberScoop",
+   "published": "2026-10-13T22:10:42.000Z",
+   "category": "incidents-threats",
+   "summary": "CyberScoop reports Ivanti partially identified the flaw internally in June but deemed it below the bar for an out-of-band fix, before attackers turned it into a zero-day.",
+   "relevance": 4,
+   "tags": [
+    "ivanti",
+    "zero-day",
+    "vendor"
+   ]
+  },
+  {
+   "id": "2026-10-14-066",
+   "title": "DOJ charges 14 over a sprawling North Korean remote work scheme",
+   "url": "https://cyberscoop.com/doj-north-korea-remote-work-laptop-farms/",
+   "source": "CyberScoop",
+   "published": "2026-10-13T21:43:23.000Z",
+   "category": "incidents-threats",
+   "summary": "The US DOJ charged 14 people in Operation Lonestar Roundup over a North Korean remote-worker scheme that used stolen identities to funnel $3 million from 70 US employers to Pyongyang.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "insider-risk",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-10-14-072",
+   "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+   "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+   "source": "BleepingComputer",
+   "published": "2026-10-13T21:16:34.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic warns that small AI models could self-replicate across consumer IoT devices such as Android TV boxes and smart ovens, forming distributed botnets running AI workloads outside data centres.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "iot",
+    "botnet"
+   ]
+  },
+  {
+   "id": "2026-10-14-074",
+   "title": "Two arrested as DOJ takes down laptop farms responsible for $3 million in North Korean revenue",
+   "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
+   "source": "The Record",
+   "published": "2026-10-13T20:55:00.000Z",
+   "category": "incidents-threats",
+   "summary": "US authorities dismantled laptop farms across more than 40 Texas residences, with two arrests, tied to North Korean remote-worker schemes generating $3 million.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "laptop-farm",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-10-14-076",
+   "title": "Anthropic Finds Ingredients for Future AI Worms",
+   "url": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
+   "source": "Dark Reading",
+   "published": "2026-10-13T20:35:23.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic research combining IoT and network testing suggests the building blocks for AI self-replication exist, and such worms would be challenging to shut down.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "worm",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-14-090",
+   "title": "Russia remains 'aggressor number one,' UK's MI5 spy agency chief warns in threat update",
+   "url": "https://www.euronews.com/2026/10/13/russia-remains-aggressor-number-one-uks-mi5-spy-agency-chief-warns-in-threat-update",
+   "source": "Euronews – Europe",
+   "published": "2026-10-13T14:16:30.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "MI5 chief Ken McCallum calls Russia 'aggressor number one', noting an escalation of alleged Russian hybrid attacks across Europe as its military progress in Ukraine stalls.",
+   "relevance": 4,
+   "tags": [
+    "hybrid-threats",
+    "russia",
+    "mi5"
+   ]
+  },
+  {
+   "id": "2026-10-14-092",
+   "title": "In Frankreich wurden Kühlanlagen manipuliert – geht das auch bei uns?",
+   "url": "https://www.cert.at/de/blog/2026/10/in-frankreich-wurden-kuhlanlagen-manipuliert-geht-das-auch-bei-uns",
+   "source": "CERT.at",
+   "published": "2026-10-13T13:23:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at examines the manipulation of refrigeration systems at French retail chains on 11/12 October that spoiled frozen goods, raising questions about exposed ICS components and similar risk elsewhere.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "ot",
+    "retail"
+   ]
+  },
+  {
+   "id": "2026-10-14-004",
+   "title": "9,6 millió dolláros bírságot kapott a Microsoft hirdetéstechnológiai cége a Grindr-adatok jogellenes megosztása miatt A norvég adatvédelmi hatóság (Datatilsynet) 92 millió norvég korona (mintegy 9,6…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/96-millio-dollaros-birsagot-kapott-a-microsoft-hirdetestechnologiai-cege-a-grindr-adatok-jogellenes-megosztasa-miatt/",
+   "source": "NKI Hungary",
+   "published": "2026-10-14T05:45:17.009Z",
+   "category": "policy-regulation",
+   "summary": "Norway's DPA fined a Microsoft advertising technology subsidiary NOK 92 million (~USD 9.6M) over unlawful sharing of Grindr user data.",
+   "relevance": 3,
+   "tags": [
+    "gdpr",
+    "privacy",
+    "fine"
+   ]
+  },
+  {
+   "id": "2026-10-14-012",
+   "title": "Patching and preventing issues: What are the lessons you can learn?",
+   "url": "https://www.helpnetsecurity.com/2026/10/14/kunal-modasiya-qualys-vulnerability-remediation/",
+   "source": "Help Net Security",
+   "published": "2026-10-14T05:30:59.000Z",
+   "category": "incidents-threats",
+   "summary": "Interview with Qualys' Kunal Modasiya on why patching still fails: business pressure, revenue-critical systems and breaking patches, and why the exposure-to-weaponization gap matters more than raw speed.",
+   "relevance": 3,
+   "tags": [
+    "patch-management",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-10-14-017",
+   "title": "Russian strikes hit key power plant in Kyiv, Zelensky says",
+   "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-14T04:36:06.000Z",
+   "category": "global-security",
+   "summary": "Russian ballistic missiles struck Kyiv's power plant infrastructure; Zelensky said there was no early warning from partners.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "energy",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-10-14-023",
+   "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-14T04:16:13.000Z",
+   "category": "global-security",
+   "summary": "OpenAI says a hidden recording device was found in one of its offices; a Saudi-born engineer has been arrested.",
+   "relevance": 3,
+   "tags": [
+    "insider-threat",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-10-14-038",
+   "title": "Russian missile hits Kyiv power plant with no early warning from allies, Zelensky says",
+   "url": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
+   "source": "Euronews – Europe",
+   "published": "2026-10-14T02:47:37.000Z",
+   "category": "global-security",
+   "summary": "A Russian ballistic missile hit Kyiv's CHP-4 power plant; Zelensky criticised allies for lack of advance warning despite claims of an energy ceasefire.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-10-14-050",
+   "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+   "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+   "source": "The Hacker News",
+   "published": "2026-10-14T01:59:25.000Z",
+   "category": "incidents-threats",
+   "summary": "An OpenAI employee was arrested and charged with planting a hidden recording device in an executive conference room to intercept oral communications.",
+   "relevance": 3,
+   "tags": [
+    "insider-threat",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-10-14-057",
+   "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+   "url": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+   "source": "Wired – AI",
+   "published": "2026-10-13T23:17:59.000Z",
+   "category": "ai-security",
+   "summary": "Wired reports chatbot prompts allegedly show an OpenAI engineer using an AI assistant to help prepare the covert listening device found in an executive meeting room.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "insider-threat"
+   ]
+  },
+  {
+   "id": "2026-10-14-070",
+   "title": "North Korea Phishes Ukrainians for War Intel",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel",
+   "source": "Dark Reading",
+   "published": "2026-10-13T21:24:45.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading reports North Korean actors are running simple reply-baiting phishing campaigns against Ukrainian targets to gather intelligence on the war.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "phishing",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-10-14-077",
+   "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+   "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+   "source": "Wired – AI",
+   "published": "2026-10-13T19:35:29.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI and Anthropic asked British lawmakers for regulation at a parliamentary session, while the UK intelligence chief warned AI could aid bioweapon development.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "regulation",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-10-14-083",
+   "title": "EU advances Ukraine accession as Hungary lifts veto, paving way for Zelenskyy-Magyar meeting",
+   "url": "https://www.euronews.com/2026/10/13/eu-advances-ukraine-accession-as-hungary-lifts-veto-paving-way-for-zelenskyy-magyar-meetin",
+   "source": "Euronews – Europe",
+   "published": "2026-10-13T17:51:14.000Z",
+   "category": "policy-regulation",
+   "summary": "EU governments opened two further accession clusters with Ukraine after Hungary lifted its veto following an agreement on ethnic Hungarian minority rights.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "hungary",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-14-087",
+   "title": "Tageszusammenfassung - 13.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-13102026",
+   "source": "CERT.at",
+   "published": "2026-10-13T16:37:04.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report notes 31 newly disclosed MarkLogic Server flaws, five critical, two of which could let partially privileged accounts seize admin control; fixes in 11.3.7 and 12.1.0.",
+   "relevance": 3,
+   "tags": [
+    "cert-at",
+    "database",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-14-101",
+   "title": "EDPB publishes statement on the data protection challenges of smart glasses",
+   "url": "https://www.edpb.europa.eu/news/edpb-publishes-statement-on-the-data-protection-challenges-of-smart-glasses_en",
+   "source": "EDPB",
+   "published": "2026-10-13T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The EDPB adopted a statement and report on smart glasses, flagging data protection risks around video recording, surveillance and evidence handling.",
+   "relevance": 3,
+   "tags": [
+    "edpb",
+    "gdpr",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-14-005",
+   "title": "US state lawmakers highlight chatbot bills, AI's impact on mental health",
+   "url": "https://iapp.org/news/a/us-state-lawmakers-highlight-chatbot-bills-ais-impact-on-mental-health",
+   "source": "IAPP",
+   "published": "2026-10-14T05:45:15.549Z",
+   "category": "policy-regulation",
+   "summary": "US state legislators are pushing chatbot-related bills, focusing on AI's effects on mental health.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "regulation",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-14-013",
+   "title": "Ukrainian drones strike more than 100km into Russian territory",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/ukrainian-drones-strike-more-than-100km-into-russian-territory?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-14T05:07:55.000Z",
+   "category": "global-security",
+   "summary": "Ukrainian drones struck Russia's Saratov region more than 100km beyond the border, with one person reported killed.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-10-14-014",
+   "title": "Meshery: Open-source cloud-native manager for Kubernetes",
+   "url": "https://www.helpnetsecurity.com/2026/10/14/meshery-open-source-cloud-native-manager-kubernetes/",
+   "source": "Help Net Security",
+   "published": "2026-10-14T05:00:01.000Z",
+   "category": "incidents-threats",
+   "summary": "Overview of Meshery, an open-source CNCF-hosted tool for visually designing, validating and deploying Kubernetes infrastructure across clusters and clouds.",
+   "relevance": 2,
+   "tags": [
+    "kubernetes",
+    "open-source"
+   ]
+  },
+  {
+   "id": "2026-10-14-036",
+   "title": "Ukrainian ex-officer goes on trial in Germany over Nord Stream blasts",
+   "url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-14T03:06:42.000Z",
+   "category": "global-security",
+   "summary": "A former Ukrainian officer went on trial in Germany over the Nord Stream pipeline blasts; proceedings may run into February.",
+   "relevance": 2,
+   "tags": [
+    "critical-infrastructure",
+    "sabotage"
+   ]
+  },
+  {
+   "id": "2026-10-14-039",
+   "title": "Kyiv hit by Russian ballistic missiles for second day with no warning",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/kyiv-russian-ballistic-missile-strikes-no-advance-warning?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-14T02:45:40.000Z",
+   "category": "global-security",
+   "summary": "Kyiv was hit by Russian ballistic missiles for a second consecutive day without advance warning.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-10-14-045",
+   "title": "Bank of America hit with $1.2bn fine for money laundering failings",
+   "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-14T02:05:32.000Z",
+   "category": "global-security",
+   "summary": "Bank of America was fined $1.2bn for anti-money-laundering failings tied to inadequate flagging of transactions linked to Chinese laundering networks.",
+   "relevance": 2,
+   "tags": [
+    "compliance",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-10-14-048",
+   "title": "How Europe can increase resilience to global shocks — live updates",
+   "url": "https://www.politico.eu/article/european-resilience-summit-live-updates/",
+   "source": "Politico Europe",
+   "published": "2026-10-14T02:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Live coverage from Politico's European Resilience Summit on strengthening Europe's resilience to global shocks.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-10-14-049",
+   "title": "Corruption could become harder to catch under new EU budget, watchdog warns",
+   "url": "https://www.politico.eu/article/corruption-could-become-harder-to-catch-under-new-eu-budget-watchdog-warns/",
+   "source": "Politico Europe",
+   "published": "2026-10-14T02:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Court of Auditors warns that greater spending flexibility in the new EU budget could make tracing corruption harder.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-14-058",
+   "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+   "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+   "source": "SecurityWeek",
+   "published": "2026-10-13T23:07:00.000Z",
+   "category": "incidents-threats",
+   "summary": "SecurityWeek: Saudi national Abdulrahman Alfozan was arrested and terminated by OpenAI after a listening device was found in a conference room, per the FBI and the company.",
+   "relevance": 2,
+   "tags": [
+    "insider-threat",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-10-14-059",
+   "title": "Redesigning source control at Anthropic",
+   "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+   "source": "Simon Willison",
+   "published": "2026-10-13T23:00:06.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic describes building a custom Git alternative after daily merged code changes rose from ~2,500 in May 2026 to over 30,000 by September, driven by AI coding agents.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "devops"
+   ]
+  },
+  {
+   "id": "2026-10-14-069",
+   "title": "Burnham pledges ‘rock-solid support’ for Ukraine as Zelenskyy makes UK trip",
+   "url": "https://www.politico.eu/article/andy-burnham-ukraine-support-volodymyr-zelenskyy-uk-trip/",
+   "source": "Politico Europe",
+   "published": "2026-10-13T21:30:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The UK pledged continued support for Ukraine, with ministers asked to prepare further sanctions, military aid and fiscal packages during Zelenskyy's visit.",
+   "relevance": 2,
+   "tags": [
+    "uk",
+    "ukraine",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-14-080",
+   "title": "Violence in Paris as tens of thousands turn out for student protests across France",
+   "url": "https://www.euronews.com/2026/10/13/violence-in-paris-as-tens-of-thousands-turn-out-for-student-protests-across-france",
+   "source": "Euronews – Europe",
+   "published": "2026-10-13T19:01:44.000Z",
+   "category": "global-security",
+   "summary": "Tens of thousands joined student protests across France; 11 police officers were hospitalised after clashes in Paris.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-14-081",
+   "title": "Europe’s leaders abandon the race for frontier AI",
+   "url": "https://www.politico.eu/article/europe-ai-strategy-frontier-models-us-china/",
+   "source": "Politico Europe",
+   "published": "2026-10-13T18:47:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico reports European leaders are shifting away from competing on frontier AI models toward adopting and applying AI.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ai",
+    "strategy"
+   ]
+  },
+  {
+   "id": "2026-10-14-082",
+   "title": "From no cards to many: Europe warns Trump not to waste Ukraine’s leverage",
+   "url": "https://www.politico.eu/article/trump-europe-ukraine-leverage-war-russia-oil/",
+   "source": "Politico Europe",
+   "published": "2026-10-13T17:56:33.000Z",
+   "category": "global-security",
+   "summary": "European officials urge the US not to squander Ukraine's leverage as Kyiv's strikes on Russian refineries complicate Washington's position.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-14-084",
+   "title": "Russian strike injures dozens at Rivne University as ballistic missiles hit Kyiv",
+   "url": "https://www.euronews.com/2026/10/13/russian-strike-injures-dozens-at-rivne-university-as-ballistic-missiles-hit-kyiv",
+   "source": "Euronews – Europe",
+   "published": "2026-10-13T17:13:22.000Z",
+   "category": "global-security",
+   "summary": "Russian strikes across Ukraine injured dozens at a university in Rivne and hit civilian infrastructure in Kyiv.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-10-14-091",
+   "title": "Quoting Geoffrey Huntley",
+   "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+   "source": "Simon Willison",
+   "published": "2026-10-13T13:32:00.000Z",
+   "category": "ai-security",
+   "summary": "Commentary on enforcing coding-agent behaviour through pre-commit hooks that fail builds and inject corrective prompts rather than relying on agent instruction files.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "devsecops"
+   ]
+  },
+  {
+   "id": "2026-10-14-104",
+   "title": "Europe paid Russia $209bn for energy since 2022, far below Moscow’s $320bn claim",
+   "url": "https://www.euronews.com/2026/10/13/europe-paid-russia-209bn-for-energy-since-2022-far-below-moscows-320bn-claim",
+   "source": "Euronews – Europe",
+   "published": "2026-10-13T11:17:24.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission disputes Russian and US claims, saying Europe paid $209bn for Russian energy since 2022 rather than $320bn.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-10-14-109",
+   "title": "Vulnérabilité dans NetApp StorageGRID (13 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1295/",
+   "source": "CERT-FR",
+   "published": "2026-10-13T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports a vulnerability in NetApp StorageGRID that allows a remote attacker to cause a denial of service.",
+   "relevance": 2,
+   "tags": [
+    "cve",
+    "dos",
+    "storage"
+   ]
+  }
+ ]
+}
