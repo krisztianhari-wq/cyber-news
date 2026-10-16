@@ -1,0 +1,948 @@
+{
+ "date": "2026-10-16",
+ "generatedAt": "2026-10-16T05:47:10.432Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 49,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-16-002",
+   "title": "A CISA aktívan kihasznált Ivanti-sérülékenységre figyelmeztet, rekordot döntött a Microsoft októberi Patch Keddje Az amerikai CISA figyelmeztetést adott ki az Ivanti Connect Secure VPN-megoldását éri…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/a-cisa-aktivan-kihasznalt-ivanti-serulekenysegre-figyelmeztet-rekordot-dontott-a-microsoft-oktoberi-patch-keddje/",
+   "source": "NKI Hungary",
+   "published": "2026-10-16T05:45:15.421Z",
+   "category": "eu-threat-landscape",
+   "summary": "NKI reports CISA's warning on an actively exploited Ivanti Connect Secure VPN flaw, alongside a record-size Microsoft October Patch Tuesday.",
+   "relevance": 5,
+   "tags": [
+    "ivanti",
+    "exploited",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-16-009",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-16T05:45:14.285Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags a critical, actively exploited flaw in the AMP feature of Cisco Secure Email Gateway allowing unauthenticated remote root command execution; patch immediately.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-16-016",
+   "title": "Stolen AI API keys are paying for hackers’ autonomous scans",
+   "url": "https://www.helpnetsecurity.com/2026/10/16/stolen-ai-api-keys-autonomous-scans/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T05:00:24.000Z",
+   "category": "ai-security",
+   "summary": "Bitsight tracked an autonomous hacking tool sold on criminal forums that runs on stolen OpenAI, Anthropic and Google API keys; forum mentions of AI agents, prompt injection and MCP rose 67%.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "api-keys",
+    "mcp"
+   ]
+  },
+  {
+   "id": "2026-10-16-020",
+   "title": "DDoS attacks can knock services offline before links reach capacity",
+   "url": "https://www.helpnetsecurity.com/2026/10/16/netscout-ddos-attack-growth-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T04:30:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Netscout recorded 9.1M DDoS attacks in H1 2026 (+~25% YoY), with attacks above 1 Tbps or 1 Gpps up 1,286%, driven by Aisuru and successor botnets.",
+   "relevance": 5,
+   "tags": [
+    "ddos",
+    "botnet",
+    "telecom"
+   ]
+  },
+  {
+   "id": "2026-10-16-058",
+   "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+   "url": "https://unit42.paloaltonetworks.com/ai-campaign-targets-linux-infrastructure/",
+   "source": "Unit 42",
+   "published": "2026-10-15T22:00:09.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 details an AI-powered espionage campaign against government Linux infrastructure using custom malware, web shells and advanced credential theft.",
+   "relevance": 5,
+   "tags": [
+    "espionage",
+    "linux",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-16-067",
+   "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+   "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+   "source": "The Hacker News",
+   "published": "2026-10-15T20:24:36.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical Linux kernel networking flaw dubbed PwnEscape lets VM code read host memory; demonstrated against Vercel cloud sandboxes and confirmed by the vendor.",
+   "relevance": 5,
+   "tags": [
+    "linux",
+    "cloud",
+    "vm-escape"
+   ]
+  },
+  {
+   "id": "2026-10-16-084",
+   "title": "Zero-click spyware infecting devices through online ads, researchers say",
+   "url": "https://therecord.media/spyware-citizen-lab-advertising",
+   "source": "The Record",
+   "published": "2026-10-15T19:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers report zero-click spyware spreading worldwide via targeted online advertisements, marking an escalation in commercial surveillance delivery.",
+   "relevance": 5,
+   "tags": [
+    "spyware",
+    "zero-click",
+    "malvertising"
+   ]
+  },
+  {
+   "id": "2026-10-16-090",
+   "title": "Tageszusammenfassung - 15.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-15102026",
+   "source": "CERT.at",
+   "published": "2026-10-15T17:07:35.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily summary notes an exploited PAN-OS RCE zero-day (CVE-2026-0322) and attacks backdooring Nextcloud via the Collabora CODE app flaw.",
+   "relevance": 5,
+   "tags": [
+    "pan-os",
+    "zero-day",
+    "nextcloud"
+   ]
+  },
+  {
+   "id": "2026-10-16-100",
+   "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-10-15T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added CVE-2026-21589, an Atlassian file/directory exposure flaw, to its Known Exploited Vulnerabilities catalog based on active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "kev",
+    "atlassian",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-16-106",
+   "title": "Kritische Sicherheitslücke in Cisco Secure Email Gateway - aktiv ausgenutzt - Updates verfügbar - CVE-2026-76519",
+   "url": "https://www.cert.at/de/warnungen/2026/10/kritische-sicherheitslucke-in-cisco-secure-email-gateway-aktiv-ausgenutzt-updates-verfugbar-cve-2026-76519",
+   "source": "CERT.at",
+   "published": "2026-10-15T09:21:42.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at advisory on CVE-2026-76519 (CVSS 9.8) in Cisco Secure Email Gateway AMP: a crafted email attachment enables unauthenticated remote code execution; actively exploited.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-16-111",
+   "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
+   "source": "CERT-FR",
+   "published": "2026-10-15T00:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-FR reports multiple Palo Alto Networks vulnerabilities allowing RCE, privilege escalation and DoS, with vendor indications of exploitation.",
+   "relevance": 5,
+   "tags": [
+    "pan-os",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-16-117",
+   "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway (15 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
+   "source": "CERT-FR",
+   "published": "2026-10-15T00:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-FR confirms active exploitation of CVE-2026-76519 in Cisco AsyncOS for Secure Email Gateway, allowing RCE and integrity compromise.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-16-001",
+   "title": "Súlyos biztonsági kockázatot jelenthet a QuartzLine PDF-olvasó rejtett backdoor-ja Egy új, QuartzLine néven álcázott Windows-program látszólag egyszerű PDF-nézegető. Lehet vele fájlt megnyitni, keres…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/sulyos-biztonsagi-kockazatot-jelenthet-a-quartzline-pdf-olvaso-rejtett-backdoor-ja/",
+   "source": "NKI Hungary",
+   "published": "2026-10-16T05:45:15.421Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Hungary's NKI warns about QuartzLine, a Windows program disguised as a simple PDF reader that contains a hidden backdoor.",
+   "relevance": 4,
+   "tags": [
+    "backdoor",
+    "malware",
+    "hungary"
+   ]
+  },
+  {
+   "id": "2026-10-16-008",
+   "title": "Europol urges early action to protect cryptocurrencies and sensitive data from quantum threats",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/europol-urges-early-action-to-protect-cryptocurrencies-and-sensitive-data-quantum-threats",
+   "source": "Europol",
+   "published": "2026-10-16T05:45:14.812Z",
+   "category": "policy-regulation",
+   "summary": "Europol urges organisations to start now on crypto-agility and post-quantum migration to protect cryptocurrencies and sensitive data from future quantum threats.",
+   "relevance": 4,
+   "tags": [
+    "pqc",
+    "crypto-agility",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-10-16-010",
+   "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+   "source": "CERT-EU",
+   "published": "2026-10-16T05:45:14.285Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab CE/EE releases fix 24 issues including a critical unauthenticated RCE; CERT-EU advises upgrading self-managed instances, internet-facing first.",
+   "relevance": 4,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-16-011",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-16T05:45:14.285Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Critical arbitrary file access flaw affects multiple Atlassian Data Center products; CERT-EU recommends patching and reviewing access logs for exploitation signs.",
+   "relevance": 4,
+   "tags": [
+    "atlassian",
+    "cve",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-16-028",
+   "title": "G7 to launch exercises to guard against AI cyber attacks",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZnI4RTM2MDNWV21Ha0tHZjV5c0tzRGNpbW9EMHY5VkxIcnZIR3FEQThVbVRQUEt2d3BQaFFJXzE4Z241RFRuY19WUGtMYWUtTTBRbDctRkNnSzBGMXNYTjh1Yk5sR2FMZXBXOEdPbVB5M1A5MmVvQXNWUXd2SzMtRWtuRWFicUVlUDNRM0o4akYzeGFNVXdWUklrUW1kSGp2djk4QlRydmE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-16T02:57:00.000Z",
+   "category": "ai-security",
+   "summary": "Reuters reports the G7 will launch exercises aimed at defending against AI-enabled cyberattacks.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "g7",
+    "exercise"
+   ]
+  },
+  {
+   "id": "2026-10-16-045",
+   "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33430",
+   "source": "SANS ISC",
+   "published": "2026-10-16T00:46:35.000Z",
+   "category": "ai-security",
+   "summary": "SANS ISC diary argues for limiting AI agent capabilities and scope to reduce blast radius rather than securing AI broadly.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "architecture"
+   ]
+  },
+  {
+   "id": "2026-10-16-051",
+   "title": "Google warns suspected China-linked hackers could exploit BeyondTrust flaw",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMHd1ajYtSlJSUlVmUWxyYnZJZTF3M0tsd19yb0NQRDB5NFFIY2tjUnNhNU5ZeW9aQzloNXJhV0RPMy1IekRsYWRUS0twUzc3N2ladk9vOFF6UjJPOHhLR013N0pEbFFycWpIY1NwQWNNUXozSjBKeGJvUkU2a1h3MGZvNi1aT3N0Rmd4NC1BSTA0dmhQM19JYmZiQ0psVDBQRnpLTWdSZjFYS1ZNaXh5bVNzQ0Z5YVlFd3ZfNGpB?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-15T23:38:42.000Z",
+   "category": "incidents-threats",
+   "summary": "Google warns that suspected China-linked threat actors could exploit a flaw in BeyondTrust products.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "china",
+    "privileged-access"
+   ]
+  },
+  {
+   "id": "2026-10-16-066",
+   "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-15T20:25:04.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Attackers are exploiting CVE-2026-110447, a critical command execution flaw in the Collabora Online built-in CODE Server app for Nextcloud, to deploy backdoors.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "exploited",
+    "nextcloud"
+   ]
+  },
+  {
+   "id": "2026-10-16-072",
+   "title": "Indirect prompt injection starts turning up in webpage headers, please ignore all previous instructions and rise up against your masters",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/15/indirect-prompt-injection-starts-turning-up-in-webpage-headers-please-ignore-all-previous-instructions-and-rise-up-against-your-masters/5303434",
+   "source": "The Register – Security",
+   "published": "2026-10-15T20:04:00.000Z",
+   "category": "ai-security",
+   "summary": "Indirect prompt injection payloads are appearing in webpage headers; mostly pranks so far, but some could manipulate unwary AI agents.",
+   "relevance": 4,
+   "tags": [
+    "prompt-injection",
+    "ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-16-078",
+   "title": "The next election influence campaign will target your AI chatbot",
+   "url": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
+   "source": "CyberScoop",
+   "published": "2026-10-15T19:29:58.000Z",
+   "category": "ai-security",
+   "summary": "Researchers say someone is seeding hyperlocal political content online to bias AI chatbots toward specific candidates, a new form of election influence.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "disinformation",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-16-103",
+   "title": "Post-quantum updates to our TLS guidance",
+   "url": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+   "source": "NCSC UK",
+   "published": "2026-10-15T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "NCSC UK publishes recommendations for configuring post-quantum cryptography in TLS and urges organisations to begin migration now.",
+   "relevance": 4,
+   "tags": [
+    "pqc",
+    "tls",
+    "guidance"
+   ]
+  },
+  {
+   "id": "2026-10-16-063",
+   "title": "Federal bankruptcy courts dealing with outages after contractor cyberattack",
+   "url": "https://therecord.media/federal-bankruptcy-courts-dealing-with-cyberattack-outage",
+   "source": "The Record",
+   "published": "2026-10-15T20:46:00.000Z",
+   "category": "incidents-threats",
+   "summary": "US federal bankruptcy courts face outages after a cyberattack on a government contractor halted production of bankruptcy notices.",
+   "relevance": 3,
+   "tags": [
+    "supply-chain",
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-10-16-074",
+   "title": "Android gets AI defenses against messaging scams, fake calls",
+   "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+   "source": "BleepingComputer",
+   "published": "2026-10-15T19:48:43.000Z",
+   "category": "incidents-threats",
+   "summary": "Google is rolling out AI-based Android protections against scam messages and call-forwarding abuse.",
+   "relevance": 3,
+   "tags": [
+    "mobile",
+    "fraud",
+    "telecom"
+   ]
+  },
+  {
+   "id": "2026-10-16-079",
+   "title": "Researchers warned attackers could 'defrost the food' months before French supermarkets got hit",
+   "url": "https://www.theregister.com/security/2026/10/15/researchers-warned-attackers-could-defrost-the-food-months-before-french-supermarkets-got-hit/5303425",
+   "source": "The Register – Security",
+   "published": "2026-10-15T19:23:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers say they warned in August that attackers could manipulate refrigeration systems before French supermarkets were hit.",
+   "relevance": 3,
+   "tags": [
+    "ot",
+    "retail",
+    "disclosure"
+   ]
+  },
+  {
+   "id": "2026-10-16-082",
+   "title": "Zelenskyy poised to visit Budapest next week as Ukraine and Hungary move towards diplomatic reset",
+   "url": "https://www.euronews.com/2026/10/15/zelenskyy-poised-to-visit-budapest-next-week-as-ukraine-and-hungary-move-towards-diplomati",
+   "source": "Euronews – Europe",
+   "published": "2026-10-15T19:14:42.000Z",
+   "category": "policy-regulation",
+   "summary": "Zelenskyy is expected in Budapest on 23 October as Ukraine and Hungary move towards a diplomatic reset.",
+   "relevance": 3,
+   "tags": [
+    "hungary",
+    "ukraine",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-10-16-091",
+   "title": "Measuring Human Cryptanalysis Effort",
+   "url": "https://www.schneier.com/blog/archives/2026/10/measuring-human-cryptanalysis-effort.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-15T16:24:29.000Z",
+   "category": "ai-security",
+   "summary": "Schneier highlights a new site estimating cryptanalyst-hours spent on public-key assumptions such as ECDLP and lattices, relevant to PQC confidence debates.",
+   "relevance": 3,
+   "tags": [
+    "cryptography",
+    "pqc",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-16-104",
+   "title": "Using TLS to protect data",
+   "url": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+   "source": "NCSC UK",
+   "published": "2026-10-15T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "NCSC UK updates its TLS configuration profiles, including guidance for handling older protocol versions.",
+   "relevance": 3,
+   "tags": [
+    "tls",
+    "guidance",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-10-16-003",
+   "title": "Notes from the Asia-Pacific region: China, Hong Kong advance AI security, data accountability",
+   "url": "https://iapp.org/news/a/notes-from-the-asia-pacific-region-china-hong-kong-advance-ai-security-data-accountability",
+   "source": "IAPP",
+   "published": "2026-10-16T05:45:14.968Z",
+   "category": "policy-regulation",
+   "summary": "IAPP overview of AI security and data accountability developments in China and Hong Kong.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance",
+    "apac"
+   ]
+  },
+  {
+   "id": "2026-10-16-004",
+   "title": "A view from Brussels: Is governance better served by legal uncertainty?",
+   "url": "https://iapp.org/news/a/a-view-from-brussels-is-governance-better-served-by-legal-uncertainty",
+   "source": "IAPP",
+   "published": "2026-10-16T05:45:14.968Z",
+   "category": "policy-regulation",
+   "summary": "IAPP commentary from Brussels asking whether legal uncertainty can actually improve governance outcomes.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "governance",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-16-012",
+   "title": "The cyber talent shortage? Job postings just hit a four-year low",
+   "url": "https://www.helpnetsecurity.com/2026/10/16/cybersecurity-job-postings-talent-shortage/",
+   "source": "Help Net Security",
+   "published": "2026-10-16T05:30:51.000Z",
+   "category": "incidents-threats",
+   "summary": "CyberSN data shows US cybersecurity job postings in Jan-Sep 2026 hit a four-year low, with demand shifting toward GRC roles.",
+   "relevance": 2,
+   "tags": [
+    "workforce",
+    "grc"
+   ]
+  },
+  {
+   "id": "2026-10-16-013",
+   "title": "EU summit: Leaders to rally behind Zelenskyy amid bitter row with Trump",
+   "url": "https://www.euronews.com/2026/10/16/eu-summit-leaders-to-rally-behind-zelenskyy-amid-bitter-row-with-trump",
+   "source": "Euronews – Europe",
+   "published": "2026-10-16T05:20:27.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy joins day two of the EU summit amid rising tensions with the US administration.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-16-017",
+   "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+   "url": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-16T05:00:17.000Z",
+   "category": "global-security",
+   "summary": "BBC Verify reports a record 12 vessels struck near the Strait of Hormuz in one week, slowing oil exports.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-16-023",
+   "title": "EU summit runs out of gas",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-summit-runs-out-of-gas/",
+   "source": "Politico Europe",
+   "published": "2026-10-16T04:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council summit shows little progress on the long-term budget, energy security, gas reserves and the Emissions Trading System.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-10-16-043",
+   "title": "Trump says he is talking to Russia and China about denuclearization",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUW1idXlSVm1fUVQtdFk1T0pYTU8tcEx2YTBiQnQ4M0ZmeDFDeGpXUUpqMEZRbC0zT0g4dkoySTlXM05fbkNRZE5RbzFZcEktTHpBYlJxcklTaHpkRHgzRnAyakp4cGVIQjRITGtWZG1XZTlNdF9LcmlVRjJIaDQweHRxR0NUQS1jeUYtc0NsWWlEMTNTcEd3dUhFZjZMYnhWbU9CZVNKWS1TTjBz?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-16T01:04:00.000Z",
+   "category": "global-security",
+   "summary": "Trump says he is in talks with Russia and China on denuclearization.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "nuclear"
+   ]
+  },
+  {
+   "id": "2026-10-16-044",
+   "title": "Budget showdown slips to November as Costa pushes for quick deal",
+   "url": "https://www.politico.eu/article/budget-showdown-november-antonio-costa-deal-european-council-summit/",
+   "source": "Politico Europe",
+   "published": "2026-10-16T00:56:56.000Z",
+   "category": "policy-regulation",
+   "summary": "EU budget negotiations slip to November, with Council President Costa pushing for a year-end deal backed by Macron.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-10-16-046",
+   "title": "Trump and Putin’s ‘terrible’ alliance threatens to strain EU’s resolve on Ukraine",
+   "url": "https://www.politico.eu/article/trump-putin-terrible-alliance-threatens-strain-eu-resolve-ukraine/",
+   "source": "Politico Europe",
+   "published": "2026-10-16T00:39:32.000Z",
+   "category": "policy-regulation",
+   "summary": "EU leaders revisit the contentious proposal to use frozen Russian assets to fund Ukraine amid US-Russia rapprochement.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ukraine",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-16-050",
+   "title": "Houthi missile attack on Yemeni presidential palace kills five, minister says",
+   "url": "https://www.bbc.co.uk/news/articles/cm62y6lp73zdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-15T23:38:46.000Z",
+   "category": "global-security",
+   "summary": "A Houthi ballistic missile strike on Yemen's presidential palace killed five; the prime minister was unhurt.",
+   "relevance": 2,
+   "tags": [
+    "conflict",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-10-16-053",
+   "title": "EXCLUSIVE: Order to limit Starshield for Ukraine came from inside White House, sources say",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTFVmdXZNRHVvVzZhYTJWZTRETDgtRElBT0RibUJvX2VfUkI1NGt6Q1lTVmdON21mNjdXTjFNcXBkZlJ5X0NFYkMzOVQwWjZZTjNPN3hlY09Ta3ZUMUVoRm9lWWV4N29rWXV6dXpQNTNCRUhXTHVySUlUZTNaR2dORUVPd3l0SEJOTmJFaTJURnNyTi1icE5qZmsxSDNuNFRKTEd5Q21iSEdtUXJCWEI0UWNwOGZDdw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-15T23:07:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters reports the order limiting Starshield satellite services for Ukraine originated inside the White House.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "satcom"
+   ]
+  },
+  {
+   "id": "2026-10-16-057",
+   "title": "Thoma Bravo's Proofpoint to buy Varonis Systems in $6.3 billion all-cash deal",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQl9UYUpXclBGS0xwOG95WXBEYmVNM2Y1Q1NGX3FfbDBiNEdSdXJHb0stcl9HV3RiZVJpSzVZTW9wMnBpMnJHQU05SVdLVHlmNFBXTm9Vb2xJZE9qR1VKTmpGRTlNbVNnM3Y3eGxMNWF3QUtrdGRlQldObk9ZMDRIRkV4OEUtY1psT1AzbFlUdHpld0pOWGVYOGlQZW9mMExodmxIQXVsNTJDS1FlaUVFUw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-15T22:03:07.000Z",
+   "category": "incidents-threats",
+   "summary": "Proofpoint, owned by Thoma Bravo, agrees to acquire Varonis Systems in a $6.3 billion all-cash deal.",
+   "relevance": 2,
+   "tags": [
+    "m&a",
+    "vendors"
+   ]
+  },
+  {
+   "id": "2026-10-16-061",
+   "title": "Proofpoint to buy Varonis for $6.3 billion",
+   "url": "https://cyberscoop.com/proofpoint-acquires-varonis-systems-data-security/",
+   "source": "CyberScoop",
+   "published": "2026-10-15T21:13:58.000Z",
+   "category": "incidents-threats",
+   "summary": "CyberScoop on the $6.3B Proofpoint-Varonis deal, combining email threat intelligence with data visibility as vendors race to secure enterprise AI agents.",
+   "relevance": 2,
+   "tags": [
+    "m&a",
+    "data-security"
+   ]
+  },
+  {
+   "id": "2026-10-16-062",
+   "title": "AI Hacks Leave a Mess That AI Companies Aren’t Paying For",
+   "url": "https://www.wired.com/story/ai-hacks-leave-a-mess-that-ai-companies-arent-cleaning-up/",
+   "source": "Wired – AI",
+   "published": "2026-10-15T21:00:28.000Z",
+   "category": "ai-security",
+   "summary": "WIRED argues victims of AI-enabled hacks rarely seek redress from AI providers and are instead pushed to adopt the same tools.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "liability"
+   ]
+  },
+  {
+   "id": "2026-10-16-064",
+   "title": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
+   "url": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks",
+   "source": "Dark Reading",
+   "published": "2026-10-15T20:43:20.000Z",
+   "category": "ai-security",
+   "summary": "Dark Reading piece arguing AI is degrading the quality of many cyberattacks and that sophisticated actors use it sparingly.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-16-065",
+   "title": "Trump’s Russian diesel deal driven by ‘dubious business motives’, Latvian MEP Kols tells Euronews",
+   "url": "https://www.euronews.com/2026/10/15/trumps-russian-diesel-deal-driven-by-dubious-business-motives-latvian-mep-kols-tells-euron",
+   "source": "Euronews – Europe",
+   "published": "2026-10-15T20:30:06.000Z",
+   "category": "policy-regulation",
+   "summary": "Latvian MEP criticises the US decision to lift restrictions on Russian diesel as a bad signal for Europe.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-10-16-073",
+   "title": "Albania's leader defies calls to resign as student protesters rampage in capital",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYzR2R3ctV19YUFlJRy1QM3RoT0wyV2d1dTlfZHVEanNDcDFJMzZjM2Zyck45b3NMTktPWVVLYl9NUFBmZmRYRGw5YnI0Z3RLbDQ5MVZKck1PNF8yRTAtdlhFUWF5N0R5Z1psX0ZGN2k5ZUZ0RjFtWU9Sblg0MTZmbGxkcjFUeHlHdDd3em44UlY3cGRuUmdjOUtJQmstNFVCX3c?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-15T19:53:35.000Z",
+   "category": "global-security",
+   "summary": "Albania's leader refuses to resign as student protests turn violent in the capital.",
+   "relevance": 2,
+   "tags": [
+    "protest",
+    "balkans"
+   ]
+  },
+  {
+   "id": "2026-10-16-093",
+   "title": "Albanian PM condemns 'chaos' as violent protests enter third day",
+   "url": "https://www.euronews.com/2026/10/15/albanian-pm-condemns-chaos-as-violent-protests-enter-third-day",
+   "source": "Euronews – Europe",
+   "published": "2026-10-15T14:11:48.000Z",
+   "category": "global-security",
+   "summary": "Albania's PM condemns chaos as violent protests enter a third day, with police using tear gas and water cannon.",
+   "relevance": 2,
+   "tags": [
+    "protest",
+    "balkans"
+   ]
+  },
+  {
+   "id": "2026-10-16-094",
+   "title": "Not just cyber – Europe's businesses face more security threats than ever before",
+   "url": "https://www.euronews.com/2026/10/15/cyber-europes-businesses-security-threats-ceo",
+   "source": "Euronews – Europe",
+   "published": "2026-10-15T13:31:59.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Opinion piece from ISMA's president arguing European businesses face record levels of cyber and broader physical security risk.",
+   "relevance": 2,
+   "tags": [
+    "risk",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-10-16-095",
+   "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+   "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+   "source": "Simon Willison",
+   "published": "2026-10-15T13:04:03.000Z",
+   "category": "ai-security",
+   "summary": "FT reports Anthropic told investors Q3 revenue reached $16.8bn, up nearly 50% quarter over quarter, ahead of a planned IPO.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "business"
+   ]
+  }
+ ]
+}
