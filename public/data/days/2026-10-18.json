@@ -1,0 +1,711 @@
+{
+ "date": "2026-10-18",
+ "generatedAt": "2026-10-18T05:46:28.964Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 33,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-18-004",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-18T05:45:14.782Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco disclosed a critical flaw in the AMP feature of Secure Email Gateway allowing unauthenticated remote attackers to write files and run commands as root; Cisco PSIRT confirms active exploitation. CERT-EU urges immediate patching.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "cisco",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-18-005",
+   "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+   "source": "CERT-EU",
+   "published": "2026-10-18T05:45:14.782Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab CE/EE releases 19.4.2, 19.3.4 and 19.2.8 fix 24 issues, including a critical unauthenticated remote code execution flaw. CERT-EU recommends prioritising internet-facing self-managed instances.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "gitlab",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-18-042",
+   "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+   "source": "BleepingComputer",
+   "published": "2026-10-17T15:18:51.000Z",
+   "category": "incidents-threats",
+   "summary": "ConnectWise shut down access to its Cloud Backup (ex-SkyKick) service after attackers abused application identities to compromise customer Microsoft 365 tenants — a supply-chain risk for MSP-served organisations.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "m365",
+    "msp"
+   ]
+  },
+  {
+   "id": "2026-10-18-061",
+   "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+   "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+   "source": "The Hacker News",
+   "published": "2026-10-17T06:16:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Threat actors used a compromised Microsoft 365 credential tied to ConnectWise Cloud Backup to sign in to 173 customer M365 tenants; MSP-managed environments should review sign-in and consent logs.",
+   "relevance": 5,
+   "tags": [
+    "m365",
+    "supply-chain",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-18-006",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-18T05:45:14.782Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Atlassian patched a critical arbitrary file access vulnerability affecting Bitbucket, Confluence, Jira, Bamboo, Crowd, Crucible and Fisheye Data Center products. CERT-EU advises upgrading and reviewing access logs for exploitation signs.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "atlassian",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-18-035",
+   "title": "Romanian F-16s shoot down two drones over Black Sea, authorities say",
+   "url": "https://www.euronews.com/2026/10/17/romanian-f-16s-shoot-down-two-drones-over-black-sea-authorities-say",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T18:14:45.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Romanian F-16s on air policing duty shot down two jet-powered Geran-family attack drones over the Black Sea, per the Defence Ministry.",
+   "relevance": 4,
+   "tags": [
+    "drones",
+    "nato",
+    "romania"
+   ]
+  },
+  {
+   "id": "2026-10-18-044",
+   "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+   "source": "BleepingComputer",
+   "published": "2026-10-17T14:32:48.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Drupal patched two critical remote code execution vulnerabilities affecting all supported versions and warned that exploits may appear soon.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "drupal",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-18-052",
+   "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+   "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+   "source": "The Hacker News",
+   "published": "2026-10-17T11:11:56.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A malicious npm package 'imgdecode', part of the MALFEX supply-chain campaign, hides a shellcode loader in a Windows native addon; it had ~979 downloads and remained available on npm.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "npm",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-18-053",
+   "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+   "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+   "source": "SecurityWeek",
+   "published": "2026-10-17T11:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers report Israeli ad firm Discover-Tech's advertising infrastructure was used as a delivery channel for Candiru zero-click spyware, enabling mass device fingerprinting and targeted infection.",
+   "relevance": 4,
+   "tags": [
+    "spyware",
+    "zero-click",
+    "adtech"
+   ]
+  },
+  {
+   "id": "2026-10-18-002",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-18T05:45:15.372Z",
+   "category": "eu-threat-landscape",
+   "summary": "A European Commission/Europol report finds digital forensic tools, resources and expertise across the EU are struggling to keep pace with the volume and variety of modern e-evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "europol",
+    "e-evidence"
+   ]
+  },
+  {
+   "id": "2026-10-18-020",
+   "title": "Iran says two tankers catch fire after hitting mines in Strait of Hormuz",
+   "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-18T01:54:18.000Z",
+   "category": "global-security",
+   "summary": "Iran says two crude oil tankers caught fire after striking mines in the Strait of Hormuz, with the IRGC claiming they used an unauthorised route.",
+   "relevance": 3,
+   "tags": [
+    "hormuz",
+    "energy",
+    "maritime"
+   ]
+  },
+  {
+   "id": "2026-10-18-023",
+   "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+   "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-18T01:10:25.000Z",
+   "category": "global-security",
+   "summary": "The US president temporarily waived several recently legislated Russia sanctions citing national security, amid an escalating row with Ukraine's president.",
+   "relevance": 3,
+   "tags": [
+    "sanctions",
+    "russia",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-18-033",
+   "title": "Violent clashes, looting and buildings ablaze in France as over 1,000 arrested after protests",
+   "url": "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-17T20:52:17.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "More than 1,000 people were arrested in France after cost-of-living protests involving over half a million participants turned into looting and arson in several cities.",
+   "relevance": 3,
+   "tags": [
+    "france",
+    "unrest",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-10-18-048",
+   "title": "Starlink restrictions in Ukraine a ‘planned operation’, Zelenskyy says",
+   "url": "https://www.politico.eu/article/volodymyr-zelenskyy-says-vladimir-putin-looking-cause-ukraine-wide-blackout/",
+   "source": "Politico Europe",
+   "published": "2026-10-17T12:23:48.000Z",
+   "category": "policy-regulation",
+   "summary": "Ukraine's president claims Starlink speed restrictions in Ukraine were a planned operation, saying tests showed no such limits elsewhere in Europe — raising satellite connectivity dependency questions.",
+   "relevance": 3,
+   "tags": [
+    "satellite",
+    "ukraine",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-10-18-051",
+   "title": "Cybercrims go beyond stealing data to attack physical building systems",
+   "url": "https://www.theregister.com/security/2026/10/17/cybercrims-go-beyond-stealing-data-to-attack-physical-building-systems/5303677",
+   "source": "The Register – Security",
+   "published": "2026-10-17T11:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The Register reports cybercriminals increasingly moving beyond data theft to attack physical building systems, such as access control, affecting office operations.",
+   "relevance": 3,
+   "tags": [
+    "ot",
+    "building-systems",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-10-18-063",
+   "title": "Federal agencies recommend cyber controls, independent testing for frontier AI systems",
+   "url": "https://cyberscoop.com/federal-ai-agent-sandbox-security-guidance/",
+   "source": "CyberScoop",
+   "published": "2026-10-17T00:34:02.000Z",
+   "category": "ai-security",
+   "summary": "US federal agencies issued voluntary but detailed guidance recommending cybersecurity controls and independent testing for frontier AI systems, including securing sandbox environments during model testing.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "guidance",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-18-001",
+   "title": "Almost 50 arrested as police target Western Balkan network linked to killings",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/almost-50-arrested-police-target-western-balkan-network-linked-to-killings",
+   "source": "Europol",
+   "published": "2026-10-18T05:45:15.373Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol reports nearly 50 arrests in an international operation against a Western Balkan drug trafficking network linked to killings, kidnappings and grenade attacks across Europe.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-10-18-008",
+   "title": "Deaths, injuries after fire at Alberta military base: Canada minister",
+   "url": "https://www.aljazeera.com/news/2026/10/18/deaths-injuries-after-fire-at-alberta-military-base-canada-minister?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-18T04:59:29.000Z",
+   "category": "global-security",
+   "summary": "Canada's defence minister confirms deaths and injuries after a fire at a military base in Alberta; cause and figures not yet disclosed.",
+   "relevance": 2,
+   "tags": [
+    "canada",
+    "military"
+   ]
+  },
+  {
+   "id": "2026-10-18-009",
+   "title": "St Petersburg under attack from Ukrainian drone swarm",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/st-petersburg-under-attack-from-ukrainian-drone-swarm?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-18T04:51:01.000Z",
+   "category": "global-security",
+   "summary": "Multiple explosions reported in St Petersburg after a suspected Ukrainian drone swarm attack.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "drones",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-18-015",
+   "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRlRkQlBQYXFvck1VQUYxcVpwM2dEVDMwQThIY3ZHRldBd0M0dmV5NXFnZlBXMnpuUnozQlhLbkg4ZjZCT3kzVW5mcnl3RVEwUXRpdUJsZGViRlE1MFdJbHZWZ3pRTXNOUDQtOTRsQU5nSzd4a3d5Z3c2dTkzZWZSNlZsbXZBamFSMS1qVEVnaHc2MTZJUHZ4YU1zS0hfNVM4eVE?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-18T03:38:00.000Z",
+   "category": "global-security",
+   "summary": "Rubio says the US president will take up to 60 days to decide on Russia sanctions measures.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-18-021",
+   "title": "Buildings burn as French protests go into the night",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/buildings-burn-as-french-protests-go-into-the-night?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-18T01:30:46.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "During nightly unrest in France, masked protesters set fire to Limoges town hall, which officials say is largely destroyed.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-024",
+   "title": "Israeli settlers attack European diplomats in the occupied West Bank",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/israeli-settlers-attack-european-diplomats-in-the-occupied-west-bank?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-18T01:02:37.000Z",
+   "category": "global-security",
+   "summary": "Masked Israeli settlers attacked European diplomats, a French mayor and Palestinians in the occupied West Bank.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-10-18-025",
+   "title": "European diplomats attacked by Israeli settlers in West Bank",
+   "url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-17T23:52:38.000Z",
+   "category": "global-security",
+   "summary": "European diplomats were attacked by Israeli settlers in the West Bank; the Israeli military condemned the violence while the PM's office called it part of a smear campaign.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-10-18-028",
+   "title": "Student protests widen into greater social unrest in France",
+   "url": "https://www.npr.org/2026/10/17/nx-s1-6006735/student-protests-widen-into-greater-social-unrest-in-france",
+   "source": "NPR World",
+   "published": "2026-10-17T21:18:52.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Student protests in France widened into broader social unrest, with hundreds of demonstrations nationwide and some turning violent.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-031",
+   "title": "Historic Limoges town hall engulfed in flames amid protests in France",
+   "url": "https://www.euronews.com/2026/10/17/historic-limoges-town-hall-engulfed-in-flames-amid-protests-in-france",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T20:55:12.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The 143-year-old Limoges town hall was set ablaze during nationwide French cost-of-living protests.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-032",
+   "title": "Anti-government protesters battle with police in Albania",
+   "url": "https://www.bbc.co.uk/news/articles/crwydey50xeno?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-17T20:53:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Violent clashes between anti-government demonstrators and riot police continued in Tirana, Albania.",
+   "relevance": 2,
+   "tags": [
+    "albania",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-034",
+   "title": "'No room for violence,' says Macron after rioters and looters hijack peaceful demonstrations across France",
+   "url": "https://www.euronews.com/2026/10/17/no-room-for-violence-says-macron-after-rioters-and-looters-hijack-peaceful-demonstrations-",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T19:59:57.000Z",
+   "category": "policy-regulation",
+   "summary": "President Macron pledged accountability for rioters and looters who hijacked peaceful demonstrations across France, as the PM highlighted the cost of the damage.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-10-18-036",
+   "title": "Albanian police fire rubber bullets and arrest hundreds as anti-government protests enter fifth day",
+   "url": "https://www.euronews.com/2026/10/17/albanian-police-fire-rubber-bullets-and-arrest-hundreds-as-anti-government-protests-enter-",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T18:11:08.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Albanian police used rubber bullets and tear gas and made hundreds of arrests as anti-government protests entered a fifth day.",
+   "relevance": 2,
+   "tags": [
+    "albania",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-037",
+   "title": "Protesters clash with police in Belgium as demonstrations turn violent across Europe",
+   "url": "https://www.euronews.com/2026/10/17/protesters-clash-with-police-in-belgium-as-demonstrations-turn-violent-across-europe",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T17:29:24.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Protests turned violent in Belgium, with the interior minister describing the situation as beyond simple protest, as unrest spreads across Europe.",
+   "relevance": 2,
+   "tags": [
+    "belgium",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-18-038",
+   "title": "European diplomats attacked by Israeli settlers amid rising violence in occupied West Bank",
+   "url": "https://www.euronews.com/2026/10/17/european-diplomats-attacked-by-israeli-settlers-amid-rising-violence-in-occupied-west-bank",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T17:23:27.000Z",
+   "category": "policy-regulation",
+   "summary": "Belgium's foreign minister blamed Israeli settlement policy for an attack on European diplomats in the West Bank and pledged to push for further EU sanctions.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-18-049",
+   "title": "AI rapidly improving, could vastly boost US GDP, Anthropic's Clark tells policymakers",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbk9CdFVPN2k3VV9iLUx0SGxFc184WkJQSDVpNGhBTkxVUElnNmFvRk5YeHJNVjloYlFXZWY1MC1TQjBaT3RMSmJXQjl4YUU4X0ZDVllhRGR5T09ncE1vRTVhZVBqZGZYeE1kRG9jRVFram83dWZSd3N1eU9jeWpPckdNTTFyYV9jN1kxTHBWR3YycW1DRlVMU095QzMxVnVNb1RULVZPaXYtVlRaMlF4TEFEd1U4aFpySG83R3BMaDNXYlpPclE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-17T11:39:54.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic's Jack Clark told US policymakers that AI capabilities are improving rapidly and could substantially boost GDP.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-18-056",
+   "title": "France's fridges hacked - when cyberattacks hit home",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1BRWliamUzMFl5bGp5bzZnV2xGTkRUTjVUb2MzckJGNl9VWkVYTFpaQ2FJOVZOeWZHMjZhUXM2R0pQdU9sNnJTYWV4YmNYSDc5TzI5N3VHOXlRdkhqa0xlcVpaT0kyZw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-17T09:35:49.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters report on cyberattacks reaching consumer devices in France, including hacked fridges, highlighting IoT exposure in homes.",
+   "relevance": 2,
+   "tags": [
+    "iot",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-10-18-060",
+   "title": "No money for Ukraine and EU budget cuts: What could a Le Pen victory mean for the EU?",
+   "url": "https://www.euronews.com/2026/10/17/no-money-for-ukraine-and-eu-budget-cuts-what-could-a-le-pen-victory-mean-for-the-eu",
+   "source": "Euronews – Europe",
+   "published": "2026-10-17T07:00:24.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of how a Le Pen victory in France's 2027 presidential election could mean EU budget cuts and no funding for Ukraine, setting Paris against Brussels.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "france",
+    "politics"
+   ]
+  }
+ ]
+}
