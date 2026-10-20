@@ -1,0 +1,946 @@
+{
+ "date": "2026-10-20",
+ "generatedAt": "2026-10-20T05:47:08.351Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 48,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-20-001",
+   "title": "Egyetlen feltört FortiManager, több mint 500 tűzfal A Unit 42 szerint egy 2024 szeptemberi támadás során egyetlen FortiManager feltörése elég volt ahhoz, hogy a támadók megszerezzék egy távközlési sz…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/egyetlen-feltort-fortimanager-tobb-mint-500-tuzfal/",
+   "source": "NKI Hungary",
+   "published": "2026-10-20T05:45:17.531Z",
+   "category": "eu-threat-landscape",
+   "summary": "Unit 42 reports that compromising a single FortiManager instance in a September 2024 attack gave attackers control over more than 500 firewalls at a telecom provider.",
+   "relevance": 5,
+   "tags": [
+    "fortinet",
+    "telecom",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-20-011",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-20T05:45:15.863Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco disclosed a critical flaw in Secure Email Gateway's AMP feature allowing unauthenticated remote attackers to write files and execute commands as root; CERT-EU notes active exploitation and urges immediate patching.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "rce",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-20-054",
+   "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "source": "Unit 42",
+   "published": "2026-10-19T22:35:42.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 updates its brief on PAN-OS CVE-2026-0257, now exploited by ransomware operators including Qilin and INC.",
+   "relevance": 5,
+   "tags": [
+    "palo-alto",
+    "ransomware",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-20-067",
+   "title": "ConnectWise suspends Cloud Backup service after supply chain attack",
+   "url": "https://therecord.media/connectwise-suspends-cloud-backup-service-supply-chain-attack",
+   "source": "The Record",
+   "published": "2026-10-19T19:45:00.000Z",
+   "category": "incidents-threats",
+   "summary": "ConnectWise suspended its Cloud Backup service after confirming unauthorised access to the environment, a supply-chain incident affecting downstream MSPs.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "msp",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-20-070",
+   "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
+   "url": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
+   "source": "Dark Reading",
+   "published": "2026-10-19T19:19:33.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers say attackers used ConnectWise credentials to authenticate into customer Microsoft 365 tenants; ConnectWise says customer impact is still unconfirmed.",
+   "relevance": 5,
+   "tags": [
+    "m365",
+    "identity",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-20-091",
+   "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
+   "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-19T15:11:57.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 investigated a Citrix NetScaler ADC compromise chaining CVE-2026-88771 and CVE-2026-88779, yielding root execution, web shells, tunnelling, AD/vCenter recon and config exfiltration.",
+   "relevance": 5,
+   "tags": [
+    "netscaler",
+    "exploited",
+    "intrusion"
+   ]
+  },
+  {
+   "id": "2026-10-20-094",
+   "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-19T14:34:04.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "BeyondTrust disclosed CVE-2026-102764 (CVSSv4 9.3), a critical unauthenticated authentication bypass in Remote Support allowing file operations; exploitation occurred before disclosure.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "exploited",
+    "auth-bypass"
+   ]
+  },
+  {
+   "id": "2026-10-20-002",
+   "title": "Tizenhat éves Broadcom Wi-Fi sérülékenység: jelszó nélkül támadható routerek Egy legalább 2010 óta jelen lévő hiba a Broadcom saját 802.11-es Wi-Fi implementációjában lehetővé teszi, hogy egy jelható…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tizenhat-eves-broadcom-wi-fi-serulekenyseg-jelszo-nelkul-tamadhato-routerek/",
+   "source": "NKI Hungary",
+   "published": "2026-10-20T05:45:17.531Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A flaw present since at least 2010 in Broadcom's proprietary 802.11 Wi-Fi implementation reportedly allows attacks on routers without authentication.",
+   "relevance": 4,
+   "tags": [
+    "wifi",
+    "router",
+    "vulnerability"
+   ]
+  },
+  {
+   "id": "2026-10-20-012",
+   "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+   "source": "CERT-EU",
+   "published": "2026-10-20T05:45:15.863Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab fixed 24 issues including a critical unauthenticated RCE; CERT-EU recommends upgrading self-managed CE/EE instances, starting with internet-facing ones.",
+   "relevance": 4,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-20-013",
+   "title": "2026-015: Critical Vulnerability in Multiple Atlassian Products",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-015/",
+   "source": "CERT-EU",
+   "published": "2026-10-20T05:45:15.863Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Atlassian patched a critical arbitrary file access flaw affecting Confluence, Jira, Bitbucket, Bamboo, Crowd, Crucible and Fisheye Data Center products; CERT-EU advises upgrading and reviewing access logs.",
+   "relevance": 4,
+   "tags": [
+    "atlassian",
+    "patch",
+    "file-access"
+   ]
+  },
+  {
+   "id": "2026-10-20-020",
+   "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+   "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
+   "source": "The Hacker News",
+   "published": "2026-10-20T04:05:58.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Forescout Vedere Labs detailed ROMULUS, a ClickFix-style malware delivery service using fake landing pages to trick users into running commands, distributing LegionLoader and other payloads.",
+   "relevance": 4,
+   "tags": [
+    "clickfix",
+    "malware",
+    "loader"
+   ]
+  },
+  {
+   "id": "2026-10-20-056",
+   "title": "EXCLUSIVE: How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUVKUWRvY0tQeUZscHhGcDBLYjI5VVZaYXRFRklFbmEzX29RaVFuMmt6cDlpMURENUtWRFpBQVBnNngwcWJla3NJZllZVDFBb2NKU21YUnBkMTNKb1NEM3BNLXk2OXpVbVpyZXM3NHVaOUNrWGZzRWhGQlRFSDhPa0E4TVdCTnBuZjNBS2R2UU9ySzV1c2hCbUVycmFHUTNpVk1vX0kxSEEyMUllRlpsakRfNEdZUlJUWVBVRTFqYkZiYm5jR1E?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-19T21:30:28.000Z",
+   "category": "ai-security",
+   "summary": "Reuters reports a single hacker used AI agents and a few thousand dollars in compute to compromise dozens of websites, illustrating falling attack costs.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "offensive-ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-20-063",
+   "title": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline",
+   "url": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
+   "source": "The Register – Security",
+   "published": "2026-10-19T20:26:21.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Grocery group Ahold Delhaize confirmed a cyberattack that forced US and European systems offline, its second security incident in two years.",
+   "relevance": 4,
+   "tags": [
+    "cyberattack",
+    "retail",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-10-20-064",
+   "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
+   "url": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
+   "source": "Dark Reading",
+   "published": "2026-10-19T19:55:01.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Dark Reading describes 'AdFection', where spyware vendors abuse targeted ad bidding to identify, track and deliver zero-click spyware to individuals of interest.",
+   "relevance": 4,
+   "tags": [
+    "spyware",
+    "adtech",
+    "zero-click"
+   ]
+  },
+  {
+   "id": "2026-10-20-076",
+   "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+   "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+   "source": "SecurityWeek",
+   "published": "2026-10-19T18:15:39.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Attackers abused a signed copy of Siemens Software Center with malicious DLLs for sideloading, delivering malware through ClickFix lures.",
+   "relevance": 4,
+   "tags": [
+    "clickfix",
+    "dll-sideloading",
+    "siemens"
+   ]
+  },
+  {
+   "id": "2026-10-20-081",
+   "title": "Tageszusammenfassung - 19.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-19102026",
+   "source": "CERT.at",
+   "published": "2026-10-19T16:45:12.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report covers the ConnectWise supply-chain breach of Microsoft 365 tenants and active attacks on Plex servers after exploit code leaked.",
+   "relevance": 4,
+   "tags": [
+    "cert",
+    "supply-chain",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-20-003",
+   "title": "Teszt MI-ügynökök fértek hozzá indiai vállalatok éles rendszereihez Az indiai kiberbiztonsági hatóság, a CERT-In tájékoztatása szerint tesztelés alatt álló mesterséges intelligencia modellek jogosula…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/teszt-mi-ugynokok-fertek-hozza-indiai-vallalatok-eles-rendszereihez/",
+   "source": "NKI Hungary",
+   "published": "2026-10-20T05:45:17.531Z",
+   "category": "ai-security",
+   "summary": "India's CERT-In reported that AI models under testing gained unauthorised access to production systems of Indian companies.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "access-control"
+   ]
+  },
+  {
+   "id": "2026-10-20-005",
+   "title": "MI-alapú védelmet kapott az Android A Google bejelentette, hogy egy új, mesterséges intelligencia alapú védelem bevezetésével igyekeznek felvenni a harcot a csaló üzenetekkel és a hamis telefonhíváso…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/mi-alapu-vedelmet-kapott-az-android/",
+   "source": "NKI Hungary",
+   "published": "2026-10-20T05:45:17.531Z",
+   "category": "ai-security",
+   "summary": "Google introduced new AI-based protections in Android aimed at detecting scam messages and fraudulent calls.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "mobile",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-10-20-007",
+   "title": "Thought for the week: Preparing for AI incidents",
+   "url": "https://iapp.org/news/a/thought-for-the-week-preparing-for-ai-incidents",
+   "source": "IAPP",
+   "published": "2026-10-20T05:45:16.835Z",
+   "category": "ai-security",
+   "summary": "IAPP commentary on how organisations should prepare for AI-related incidents.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "incident-response",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-20-008",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-20T05:45:16.533Z",
+   "category": "policy-regulation",
+   "summary": "A European Commission and Europol report finds that investigative tools, resources and expertise are struggling to keep up with the volume and formats of digital evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "europol",
+    "e-evidence"
+   ]
+  },
+  {
+   "id": "2026-10-20-017",
+   "title": "Your frontline workers have a workaround for that MFA prompt",
+   "url": "https://www.helpnetsecurity.com/2026/10/20/frontline-worker-authentication-passwordless/",
+   "source": "Help Net Security",
+   "published": "2026-10-20T04:30:18.000Z",
+   "category": "incidents-threats",
+   "summary": "A Sapio Research survey of 700 IT and security decision-makers found 95% observed frontline workers bypassing MFA or sharing credentials, breaking account-to-person accountability.",
+   "relevance": 3,
+   "tags": [
+    "mfa",
+    "identity",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-10-20-035",
+   "title": "ICANN testing tech to let law enforcement access non-public WHOIS info",
+   "url": "https://www.theregister.com/networks/2026/10/20/icann-testing-tech-to-let-law-enforcement-access-non-public-whois-info/5304036",
+   "source": "The Register – Security",
+   "published": "2026-10-20T02:11:27.000Z",
+   "category": "policy-regulation",
+   "summary": "ICANN is testing single sign-on technology to give law enforcement access to non-public WHOIS data for imminent threats to life, critical infrastructure or children.",
+   "relevance": 3,
+   "tags": [
+    "whois",
+    "icann",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-20-061",
+   "title": "EU Parliament launches probe into fake email seeking to sway internal election",
+   "url": "https://www.politico.eu/article/eu-parliament-launches-probe-into-fake-email-seeking-to-sway-internal-election/",
+   "source": "Politico Europe",
+   "published": "2026-10-19T20:54:57.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The European Parliament opened an investigation into a fake email apparently intended to influence an internal EPP leadership vote.",
+   "relevance": 3,
+   "tags": [
+    "disinformation",
+    "phishing",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-20-072",
+   "title": "Bullhorn takes staffing platform offline to contain cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
+   "source": "BleepingComputer",
+   "published": "2026-10-19T18:51:13.000Z",
+   "category": "incidents-threats",
+   "summary": "Staffing software vendor Bullhorn took its platform offline to contain a cyberattack that caused a system-wide outage.",
+   "relevance": 3,
+   "tags": [
+    "saas",
+    "outage",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-20-073",
+   "title": "Two more Serbian opposition figures targeted with spyware, researchers say",
+   "url": "https://therecord.media/serbia-spyware-pegasus-elections",
+   "source": "The Record",
+   "published": "2026-10-19T18:45:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Researchers found Pegasus spyware on the phone of the University of Belgrade rector, the latest case targeting Serbian opposition figures before national elections.",
+   "relevance": 3,
+   "tags": [
+    "spyware",
+    "pegasus",
+    "serbia"
+   ]
+  },
+  {
+   "id": "2026-10-20-080",
+   "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-19T17:27:15.000Z",
+   "category": "ai-security",
+   "summary": "Open-source AI coding project OpenCode notified users that API keys for external providers were exposed in a breach, amid reported AI distillation attacks.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "secrets",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-20-083",
+   "title": "Your Next Insider Threat Won’t be Human: Securing AI Agents From the Outside in",
+   "url": "https://www.rapid7.com/blog/post/ai-inhuman-insider-threats-securing-agents",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-19T16:34:43.000Z",
+   "category": "ai-security",
+   "summary": "Rapid7 argues controls for AI agents must be enforced externally, outlining what SOC teams can implement to manage agent identity, scope and revocation.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-20-085",
+   "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+   "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+   "source": "Wired – AI",
+   "published": "2026-10-19T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Around 80 WhatsApp help pages exposed hidden system instructions for Meta's chatbot, including 'what not to say'; Meta attributes it to a bug.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "prompt-leak",
+    "meta"
+   ]
+  },
+  {
+   "id": "2026-10-20-100",
+   "title": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
+   "source": "CERT-FR",
+   "published": "2026-10-19T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR's weekly bulletin reviews the most significant vulnerabilities of the past week and their criticality.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "vulnerability",
+    "bulletin"
+   ]
+  },
+  {
+   "id": "2026-10-20-004",
+   "title": "Adatvédelmi incidens történt a Canvánál A Canva megerősítette, hogy egy harmadik féltől származó eszközt érintő kiberbiztonsági incidens során illetéktelenek hozzáférhettek egyes vállalati ügyfelek a…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adatvedelmi-incidens-tortent-a-canvanal/",
+   "source": "NKI Hungary",
+   "published": "2026-10-20T05:45:17.531Z",
+   "category": "incidents-threats",
+   "summary": "Canva confirmed that a cybersecurity incident involving a third-party tool exposed data of some enterprise customers.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "third-party"
+   ]
+  },
+  {
+   "id": "2026-10-20-006",
+   "title": "It's all 'relative': Genomic data and the EDPB's draft anonymization guidelines",
+   "url": "https://iapp.org/news/a/its-all-relative-genomic-data-and-the-edpbs-draft-anonymization-guidelines",
+   "source": "IAPP",
+   "published": "2026-10-20T05:45:16.835Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of genomic data under the EDPB's draft anonymisation guidelines, highlighting the relative nature of anonymisation.",
+   "relevance": 2,
+   "tags": [
+    "gdpr",
+    "edpb",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-20-014",
+   "title": "Ukraine needs another €70 billion, but where will the EU find the money?",
+   "url": "https://www.euronews.com/2026/10/20/ukraine-needs-another-70-billion-but-where-will-the-eu-find-the-money",
+   "source": "Euronews – Europe",
+   "published": "2026-10-20T05:00:27.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU is seeking a further €70 billion to fund Ukraine's war effort in 2027 amid rising borrowing costs and disagreement over frozen Russian assets.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ukraine",
+    "funding"
+   ]
+  },
+  {
+   "id": "2026-10-20-021",
+   "title": "Macron and Merz edge closer to a budget deal",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/macron-and-merz-edge-closer-to-a-budget-deal/",
+   "source": "Politico Europe",
+   "published": "2026-10-20T04:05:17.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico podcast on a Franco-German budget deal and a new European Commission Arctic strategy focused on security amid Russian military build-up and Chinese shipping interest.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "arctic",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-20-032",
+   "title": "Seventh day of violent clashes between Albanian protesters and police",
+   "url": "https://www.bbc.co.uk/news/articles/cmy4xjlpqgd3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-20T02:45:05.000Z",
+   "category": "global-security",
+   "summary": "Violent anti-government protests in Albania entered a seventh day with nearly 300 people injured, more than half of them police.",
+   "relevance": 2,
+   "tags": [
+    "albania",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-10-20-041",
+   "title": "Zelenskyy seeks answers to why SpaceX Starshield defence is failing",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/zelenskyy-seeks-answers-to-why-spacex-starshield-defence-is-failing?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-20T01:50:15.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy is seeking explanations for reported failures of SpaceX Starshield defence services.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "satellite"
+   ]
+  },
+  {
+   "id": "2026-10-20-047",
+   "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+   "url": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-20T01:05:31.000Z",
+   "category": "global-security",
+   "summary": "Saudi Arabia postponed its flagship investment conference to 2027 amid Houthi attacks and ordered government staff to work from home.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-10-20-050",
+   "title": "Trump appointees asked a federal cybersecurity agency to secretly hack a voting machine",
+   "url": "https://www.defenseone.com/threats/2026/10/trump-appointees-cybersecurity-agency-hack-voting-machine/416692/",
+   "source": "Defense One",
+   "published": "2026-10-20T00:23:36.000Z",
+   "category": "policy-regulation",
+   "summary": "Defense One reports Trump appointees asked a federal cybersecurity agency to covertly hack a voting machine, alarming staff who feared political interference.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "election-security",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-20-052",
+   "title": "DeepSeek deep-sixed at all US federal civilian agencies",
+   "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010",
+   "source": "The Register – Security",
+   "published": "2026-10-20T00:11:10.000Z",
+   "category": "policy-regulation",
+   "summary": "US federal civilian agencies have been ordered to stop using DeepSeek; the order is reportedly vague and broad in scope.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "ban",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-20-055",
+   "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+   "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+   "source": "BleepingComputer",
+   "published": "2026-10-19T21:49:48.000Z",
+   "category": "incidents-threats",
+   "summary": "Nikkei disclosed its third breach in about a month, exposing 1.83 million personal data records.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "data-leak"
+   ]
+  },
+  {
+   "id": "2026-10-20-059",
+   "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
+   "url": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
+   "source": "Dark Reading",
+   "published": "2026-10-19T21:13:41.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers infiltrated a large Microsoft-impersonating tech support scam operation that relies on a Russian-run traffic distribution system and thousands of abused Cloudflare links.",
+   "relevance": 2,
+   "tags": [
+    "scam",
+    "tds",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-10-20-060",
+   "title": "Nvidia CEO Jensen Huang warns Germany is falling behind in AI race",
+   "url": "https://www.euronews.com/2026/10/19/nvidia-ceo-jensen-huang-warns-germany-is-falling-behind-in-ai-race",
+   "source": "Euronews – Europe",
+   "published": "2026-10-19T21:12:22.000Z",
+   "category": "policy-regulation",
+   "summary": "Nvidia's CEO warned Germany is lagging in the AI race as Berlin prepares a joint AI pact to accelerate industrial AI adoption.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "germany",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-20-065",
+   "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+   "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
+   "source": "Wired – AI",
+   "published": "2026-10-19T19:49:17.000Z",
+   "category": "ai-security",
+   "summary": "A former OpenAI engineer accused of spying on executives was ordered to remain in custody, with the judge criticising a Saudi government release offer.",
+   "relevance": 2,
+   "tags": [
+    "insider",
+    "ai",
+    "legal"
+   ]
+  },
+  {
+   "id": "2026-10-20-066",
+   "title": "Judge denies WhatsApp’s bid to hold spyware maker in contempt for allegedly targeting users",
+   "url": "https://therecord.media/whatsapp-denied-appeal-alleged-nso-group-violation-injunction",
+   "source": "The Record",
+   "published": "2026-10-19T19:49:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A US judge denied WhatsApp's request to hold NSO Group in contempt over alleged breaches of a 2025 spyware injunction, citing insufficient disclosure by WhatsApp.",
+   "relevance": 2,
+   "tags": [
+    "spyware",
+    "nso",
+    "legal"
+   ]
+  },
+  {
+   "id": "2026-10-20-071",
+   "title": "AI agents are only as good as the personal information you share. That raises privacy concerns",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNGphS2ZSQS1YeGlhbnF0WDZXZFpMNG5hUmxnOWdBYVRVZ0hjeld1NGxEbTJ3ME1ZMXg3MDZ4blBVOE5fM3pLTUlwQVRYSEJaMlJFel9YdE5yQXU4VTFzWlZQVnMwRllTWFY2TU1Fc3JEV1lYSTBtbDAzOXVZOEcwOWJGTnN1SlZvTFhUY2E0UkR4TnB6eVE?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-19T19:05:00.000Z",
+   "category": "ai-security",
+   "summary": "AP piece on the privacy trade-offs of AI agents that require extensive personal data to be useful.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "privacy",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-20-074",
+   "title": "Wyden seeks adoption of encryption tech at hundreds of federal agencies to protect visitors’ sensitive traffic",
+   "url": "https://cyberscoop.com/wyden-urges-federal-adoption-encrypted-client-hello/",
+   "source": "CyberScoop",
+   "published": "2026-10-19T18:27:32.000Z",
+   "category": "policy-regulation",
+   "summary": "US Senator Wyden urged hundreds of federal agencies to adopt encryption technology protecting visitors' sensitive web traffic, citing risks to tipsters and whistleblowers.",
+   "relevance": 2,
+   "tags": [
+    "encryption",
+    "us",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-20-078",
+   "title": "Albanian PM Rama accuses anti-government protesters of crossing 'red line' amid violent demonstrations",
+   "url": "https://www.euronews.com/2026/10/19/albanian-pm-rama-accuses-anti-government-protesters-of-crossing-red-line-amid-violent-demo",
+   "source": "Euronews – Europe",
+   "published": "2026-10-19T17:51:27.000Z",
+   "category": "global-security",
+   "summary": "Albania's PM accused protesters of crossing a 'red line'; the European Commission condemned the violence and urged a proportionate response.",
+   "relevance": 2,
+   "tags": [
+    "albania",
+    "unrest",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-20-095",
+   "title": "Visegrad Four urge Brussels to ease Russian energy phase-out rules",
+   "url": "https://www.euronews.com/2026/10/19/visegrad-four-urge-brussels-to-ease-russian-energy-phase-out-rules",
+   "source": "Euronews – Europe",
+   "published": "2026-10-19T14:13:10.000Z",
+   "category": "policy-regulation",
+   "summary": "The Visegrad Four are asking Brussels to soften Russian energy phase-out rules and provide more funding amid high electricity prices.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "eu",
+    "v4"
+   ]
+  },
+  {
+   "id": "2026-10-20-096",
+   "title": "Agents are your newest insiders. Security must move at their speed.",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-19T13:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft outlines new Microsoft 365 E7 and Project Perception capabilities aimed at containing risks from AI agents acting as privileged insiders.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "microsoft",
+    "agents"
+   ]
+  }
+ ]
+}
