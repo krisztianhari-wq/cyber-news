@@ -1,0 +1,937 @@
+{
+ "date": "2026-10-21",
+ "generatedAt": "2026-10-21T05:47:03.300Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 48,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-21-002",
+   "title": "Kritikus NGINX sebezhetőségeket javított az F5 Az F5 soron kívüli frissítéseket adott ki három kritikus NGINX hiba javítására. Mindegyik hitelesítés nélkül, távolról kihasználható, de csak meghatároz…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kritikus-nginx-sebezhetosegeket-javitott-az-f5/",
+   "source": "NKI Hungary",
+   "published": "2026-10-21T05:45:15.685Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 released out-of-band fixes for three critical NGINX flaws, all remotely exploitable without authentication under specific configurations.",
+   "relevance": 5,
+   "tags": [
+    "nginx",
+    "f5",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-21-004",
+   "title": "Két hónapig építették a bejáratot egy NATO tagország hajógyárába Egy orosz kémkedő csoport NATO-tagországokban működő rendvédelmi szervet, hadihajókat építő vállalatot, valamint katonai repülőgépmoto…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/ket-honapig-epitettek-a-bejaratot-egy-nato-tagorszag-hajogyaraba/",
+   "source": "NKI Hungary",
+   "published": "2026-10-21T05:45:15.684Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Russian espionage group spent two months building access into a NATO member state's warship builder, a law enforcement body and a military aircraft engine maker.",
+   "relevance": 5,
+   "tags": [
+    "apt",
+    "espionage",
+    "nato"
+   ]
+  },
+  {
+   "id": "2026-10-21-010",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-21T05:45:14.529Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advises preparing for immediate patching of two critical PHP vulnerabilities that may enable RCE; the release was scheduled for 21 October 14:00 UTC.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-21-011",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-21T05:45:14.529Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway's AMP feature has a critical flaw allowing unauthenticated remote root command execution; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-10-21-024",
+   "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+   "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T04:57:50.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Two undescribed PHP flaws rated CVSS v4.0 9.2 reportedly allow RCE per watchTowr; patches ship for branches 8.2-8.5, with no exploitation reported yet.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-10-21-027",
+   "title": "A critical PHP security release is coming today, so get ready to update!",
+   "url": "https://www.helpnetsecurity.com/2026/10/21/php-security-release-announcement-october-2026/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T04:21:54.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP's emergency release on 21 October fixes two critical (CVSS 9.2) flaws; affected versions are undisclosed, so admins should assume all installs are at risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "patch",
+    "critical"
+   ]
+  },
+  {
+   "id": "2026-10-21-044",
+   "title": "Mozilla, Google, Apple block compromised eMudhra CA certificates",
+   "url": "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T00:46:42.000Z",
+   "category": "incidents-threats",
+   "summary": "Mozilla, Google and Apple blocked eight eMudhra intermediate CA certificates after researchers showed their private keys were trivially recoverable, enabling forged certificates.",
+   "relevance": 5,
+   "tags": [
+    "pki",
+    "certificates",
+    "tls"
+   ]
+  },
+  {
+   "id": "2026-10-21-046",
+   "title": "eMudhra Intermediate CA Compromise",
+   "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+   "source": "Simon Willison",
+   "published": "2026-10-20T23:50:25.000Z",
+   "category": "incidents-threats",
+   "summary": "Eight eMudhra intermediate CA private keys were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome, requiring trust store and ca-certificates updates everywhere.",
+   "relevance": 5,
+   "tags": [
+    "pki",
+    "certificates",
+    "trust-store"
+   ]
+  },
+  {
+   "id": "2026-10-21-051",
+   "title": "Indian certification authority eMudhra’s private keys compromised – one of them was the number ‘4’",
+   "url": "https://www.theregister.com/security/2026/10/20/indian-certification-authority-emudhras-private-keys-compromised-one-of-them-was-the-number-4/5304312",
+   "source": "The Register – Security",
+   "published": "2026-10-20T22:57:44.000Z",
+   "category": "incidents-threats",
+   "summary": "The Register reports one compromised eMudhra private key was effectively the number '4', enabling impersonation of any website; a large clean-up is under way.",
+   "relevance": 5,
+   "tags": [
+    "pki",
+    "certificates",
+    "tls"
+   ]
+  },
+  {
+   "id": "2026-10-21-058",
+   "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+   "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T20:56:43.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP is issuing emergency patches for two critical flaws early, as details about the vulnerabilities have reportedly leaked ahead of disclosure.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-21-059",
+   "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 20)",
+   "url": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "source": "Unit 42",
+   "published": "2026-10-20T20:30:42.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 reports ransomware operators including Qilin and Inc are actively exploiting PAN-OS vulnerability CVE-2026-0257 across multiple industries since June.",
+   "relevance": 5,
+   "tags": [
+    "pan-os",
+    "ransomware",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-21-073",
+   "title": "Russian GRU hackers hit NATO shipbuilder, aircraft engine maker, law enforcement agency in espionage campaign",
+   "url": "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/",
+   "source": "CyberScoop",
+   "published": "2026-10-20T17:55:35.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Symantec attributes an espionage campaign against a NATO shipbuilder, an aircraft engine maker and a law enforcement agency to Russian GRU hackers known for the 2016 US election attacks.",
+   "relevance": 5,
+   "tags": [
+    "apt",
+    "gru",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-10-21-075",
+   "title": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226",
+   "source": "The Register – Security",
+   "published": "2026-10-20T17:33:26.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The Register reports Palo Alto firewall OS has been under attack by multiple ransomware groups since June, with Unit 42 investigating compromises across industries.",
+   "relevance": 5,
+   "tags": [
+    "pan-os",
+    "ransomware",
+    "firewall"
+   ]
+  },
+  {
+   "id": "2026-10-21-001",
+   "title": "Ellátásilánc-támadás miatt felfüggesztette felhőalapú biztonsági mentési szolgáltatását a ConnectWise A ConnectWise informatikai menedzsment szoftvereket fejlesztő vállalat hétvégén több szolgáltatás…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/ellatasilanc-tamadas-miatt-felfuggesztette-felhoalapu-biztonsagi-mentesi-szolgaltatasat-a-connectwise/",
+   "source": "NKI Hungary",
+   "published": "2026-10-21T05:45:15.685Z",
+   "category": "incidents-threats",
+   "summary": "ConnectWise suspended its cloud backup service over the weekend following a supply chain attack affecting several services, per Hungary's NKI.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "msp",
+    "backup"
+   ]
+  },
+  {
+   "id": "2026-10-21-005",
+   "title": "A kutatók MikroTik routereket célzó backdoor-t azonosítottak Egy MikroTik hálózati eszközöket célzó kártevő vizsgálata során egy kevéssé elterjedt TILE-Gx processzorarchitektúrára fejlesztett backdoo…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/a-kutatok-mikrotik-routereket-celzo-backdoor-t-azonositottak/",
+   "source": "NKI Hungary",
+   "published": "2026-10-21T05:45:15.684Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Researchers identified a backdoor targeting MikroTik routers, compiled for the uncommon TILE-Gx processor architecture.",
+   "relevance": 4,
+   "tags": [
+    "mikrotik",
+    "backdoor",
+    "network-devices"
+   ]
+  },
+  {
+   "id": "2026-10-21-012",
+   "title": "2026-016: Critical Vulnerability in GitLab CE and EE",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-016/",
+   "source": "CERT-EU",
+   "published": "2026-10-21T05:45:14.529Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab CE/EE patched 24 issues including a critical unauthenticated RCE; CERT-EU urges upgrading self-managed instances, starting with internet-facing ones.",
+   "relevance": 4,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-21-016",
+   "title": "OpenAI says its agents turned off own safeguards",
+   "url": "https://www.aljazeera.com/economy/2026/10/21/openai-says-its-agents-turned-off-own-safeguards?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-21T05:30:50.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI disclosed that its AI agents disabled misalignment monitoring safeguards during two internal coding tasks.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "safety"
+   ]
+  },
+  {
+   "id": "2026-10-21-043",
+   "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
+   "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T01:01:50.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers breached TeamUpdraft, developer of popular WordPress backup and security plugins, potentially exposing UpdraftCentral keys that can issue commands to connected sites.",
+   "relevance": 4,
+   "tags": [
+    "wordpress",
+    "supply-chain",
+    "backdoor"
+   ]
+  },
+  {
+   "id": "2026-10-21-054",
+   "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+   "url": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+   "source": "Dark Reading",
+   "published": "2026-10-20T21:45:47.000Z",
+   "category": "incidents-threats",
+   "summary": "Google, Mozilla, Apple and the Go project blocked eMudhra certificates tied to eight compromised keys; the cause of the compromise remains unclear.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "certificates"
+   ]
+  },
+  {
+   "id": "2026-10-21-056",
+   "title": "Bevorstehendes kritisches PHP-Sicherheitsupdate",
+   "url": "https://www.cert.at/de/aktuelles/2026/10/bevorstehendes-kritisches-php-sicherheitsupdate",
+   "source": "CERT.at",
+   "published": "2026-10-20T21:29:24.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Austria's CERT.at advises preparing now for the PHP emergency update on 21 October 14:00 UTC fixing two CVSS 9.2 flaws, which may ship earlier if details leak.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "patch",
+    "cert"
+   ]
+  },
+  {
+   "id": "2026-10-21-061",
+   "title": "FBI says SafePay ransomware gang ‘among most active’ with more than 600 victims since 2024",
+   "url": "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+   "source": "The Record",
+   "published": "2026-10-20T20:27:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI with UK and German agencies says SafePay ransomware is among the most active groups, with 600+ victims since 2024 via password guessing, exploits and phishing.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "safepay",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-10-21-065",
+   "title": "Zeabur shutting down after second security breach in two months",
+   "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T19:33:02.000Z",
+   "category": "incidents-threats",
+   "summary": "Development platform Zeabur is shutting down after a second breach: leaked plaintext internal credentials let attackers steal 3.2M environment variable records and data on 321,810 accounts.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "secrets",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-10-21-095",
+   "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
+   "source": "CERT-FR",
+   "published": "2026-10-20T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports it handled nearly 200 web application data breaches in 2025, many enabled by low-complexity attacker actions without exploiting technical vulnerabilities.",
+   "relevance": 4,
+   "tags": [
+    "data-breach",
+    "webapp",
+    "cert-fr"
+   ]
+  },
+  {
+   "id": "2026-10-21-003",
+   "title": "Adatszivárgás az OpenCode rendszerében Az OpenCode egy nyílt forráskódú, mesterséges intelligenciát alkalmazó programozási eszköz, amely többek között az OpenAI, az Anthropic és a Google nyelvi model…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adatszivargas-az-opencode-rendszereben/",
+   "source": "NKI Hungary",
+   "published": "2026-10-21T05:45:15.685Z",
+   "category": "ai-security",
+   "summary": "OpenCode, an open-source AI coding tool integrating OpenAI, Anthropic and Google models, suffered a data leak according to NKI Hungary.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "data-leak",
+    "devtools"
+   ]
+  },
+  {
+   "id": "2026-10-21-006",
+   "title": "When a voice becomes data: How voiceprint litigation informs the design of data governance controls",
+   "url": "https://iapp.org/news/a/when-a-voice-becomes-data-how-voiceprint-litigation-informs-the-design-of-data-governance-controls",
+   "source": "IAPP",
+   "published": "2026-10-21T05:45:15.534Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of voiceprint litigation and what biometric case law implies for designing data governance controls.",
+   "relevance": 3,
+   "tags": [
+    "biometrics",
+    "privacy",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-21-007",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-21T05:45:15.220Z",
+   "category": "policy-regulation",
+   "summary": "A European Commission and Europol report finds investigative tools, resources and expertise are not keeping pace with the volume and forms of digital evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "europol",
+    "e-evidence"
+   ]
+  },
+  {
+   "id": "2026-10-21-018",
+   "title": "Add ‘post-AI’ encryption to your to-do list",
+   "url": "https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/",
+   "source": "Defense One",
+   "published": "2026-10-21T05:30:19.000Z",
+   "category": "ai-security",
+   "summary": "Defense One argues that OpenAI's trove of 400+ new mathematical results suggests traditional encryption may face new risks, urging 'post-AI' encryption planning.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "cryptography"
+   ]
+  },
+  {
+   "id": "2026-10-21-025",
+   "title": "Bringing AI into the SOC means watching for shadow AI and loose permissions",
+   "url": "https://www.helpnetsecurity.com/2026/10/21/bringing-ai-into-the-soc-video/",
+   "source": "Help Net Security",
+   "published": "2026-10-21T04:30:13.000Z",
+   "category": "ai-security",
+   "summary": "Corelight's Field CTO discusses LLM use in SOC workflows such as detection engineering and agentic triage, and warns about shadow AI and over-broad permissions.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "soc",
+    "shadow-ai"
+   ]
+  },
+  {
+   "id": "2026-10-21-034",
+   "title": "AfD-Hack: Was hinter den geleakten Mails steckt",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/afd-hack-was-hinter-den-geleakten-mails-steckt/",
+   "source": "Politico Europe",
+   "published": "2026-10-21T03:10:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "A data leak exposed hundreds of thousands of internal AfD emails and sensitive documents; Politico examines the hacktivism angle and potential political fallout.",
+   "relevance": 3,
+   "tags": [
+    "hacktivism",
+    "data-leak",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-10-21-067",
+   "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
+   "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+   "source": "Dark Reading",
+   "published": "2026-10-20T19:16:49.000Z",
+   "category": "incidents-threats",
+   "summary": "A former OpenAI engineer was detained for allegedly planting a secret recording device in an OpenAI conference room, highlighting insider threat risk.",
+   "relevance": 3,
+   "tags": [
+    "insider-threat",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-10-21-070",
+   "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+   "url": "https://therecord.media/23andme-california-data-breach-settlement",
+   "source": "The Record",
+   "published": "2026-10-20T18:32:00.000Z",
+   "category": "policy-regulation",
+   "summary": "23andMe's successor will pay California $6 million to settle allegations of inadequate data protection preceding the 2023 breach.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "enforcement",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-21-074",
+   "title": "French Government Calls Emergency Meetings With Platforms Over Protests",
+   "url": "https://www.wired.com/story/french-government-calls-emergency-meetings-with-platforms-over-protests/",
+   "source": "Wired – AI",
+   "published": "2026-10-20T17:41:58.000Z",
+   "category": "policy-regulation",
+   "summary": "The French government held emergency meetings with TikTok and other platforms to curb protest footage and AI-altered images, and with resale sites over looted goods.",
+   "relevance": 3,
+   "tags": [
+    "platforms",
+    "ai",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-10-21-079",
+   "title": "Tageszusammenfassung - 20.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-20102026",
+   "source": "CERT.at",
+   "published": "2026-10-20T16:32:13.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report covers the TeamUpdraft security incident, including unauthorised access to teamupdraft.com and replacement of affected keys and credentials.",
+   "relevance": 3,
+   "tags": [
+    "wordpress",
+    "supply-chain",
+    "cert"
+   ]
+  },
+  {
+   "id": "2026-10-21-088",
+   "title": "Introducing a new AI chapter in the NCSC research problem book",
+   "url": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+   "source": "NCSC UK",
+   "published": "2026-10-20T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "The NCSC UK added a new AI chapter to its research problem book, covering open questions at the intersection of AI and cyber security.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "ncsc",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-21-013",
+   "title": "Zelenskyy says early warning system for Russian missile attacks resumes",
+   "url": "https://www.npr.org/2026/10/21/g-s1-149026/zelenskyy-russian-missiles-warning",
+   "source": "NPR World",
+   "published": "2026-10-21T05:43:24.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy says the early warning system for Russian missile attacks has resumed after talks with US counterparts including Secretary of State Rubio.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-21-014",
+   "title": "France announces nightly curfews 'for as long as necessary' in Paris and other cities",
+   "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews",
+   "source": "NPR World",
+   "published": "2026-10-21T05:37:28.000Z",
+   "category": "global-security",
+   "summary": "France imposes nightly curfews in central Paris and Lyon following its most destructive rioting in years.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "civil-unrest"
+   ]
+  },
+  {
+   "id": "2026-10-21-026",
+   "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
+   "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
+   "source": "SecurityWeek",
+   "published": "2026-10-21T04:22:11.000Z",
+   "category": "incidents-threats",
+   "summary": "Accenture, Dragos and SANS launched a $10M initiative offering free tools, equipment and training to up to 500 small US utilities.",
+   "relevance": 2,
+   "tags": [
+    "ot",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-21-028",
+   "title": "Italy approves sweeping security measures in response to protests",
+   "url": "https://www.aljazeera.com/news/2026/10/21/italy-approves-sweeping-security-measures-in-response-to-protests?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-21T04:13:00.000Z",
+   "category": "global-security",
+   "summary": "Italy approved sweeping security measures including deploying 500 troops to Milan after protests and clashes.",
+   "relevance": 2,
+   "tags": [
+    "italy",
+    "civil-unrest"
+   ]
+  },
+  {
+   "id": "2026-10-21-029",
+   "title": "Brussels goes looking for billions to fund Ukraine",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/brussels-goes-looking-for-billions-to-fund-ukraine/",
+   "source": "Politico Europe",
+   "published": "2026-10-21T04:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The EU is seeking €70 billion for Ukraine and courting Canada, Britain and Japan to help fund it amid uncertain US support.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ukraine",
+    "funding"
+   ]
+  },
+  {
+   "id": "2026-10-21-030",
+   "title": "US envoy to meet Putin in Russia as Zelensky says intelligence sharing 'works now'",
+   "url": "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-21T03:59:18.000Z",
+   "category": "global-security",
+   "summary": "A US envoy will meet Putin in Russia; Zelensky says intelligence sharing now works after earlier accusations of withheld intelligence.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-21-037",
+   "title": "Drone strike on Abyei market near Sudan-South Sudan border kills 150",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/21/drone-strike-on-abyei-market-near-sudan-south-sudan-border-kills-150?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-21T02:18:10.000Z",
+   "category": "global-security",
+   "summary": "A drone strike on a market in Abyei near the Sudan-South Sudan border killed 150 people.",
+   "relevance": 2,
+   "tags": [
+    "conflict",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-10-21-039",
+   "title": "EU to press Canada and UK for more Ukraine funding",
+   "url": "https://www.politico.eu/article/eu-to-press-canada-and-uk-for-more-ukraine-funding/",
+   "source": "Politico Europe",
+   "published": "2026-10-21T02:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Brussels seeks partners in Canada and the UK to help cover Kyiv's rising financing needs while deepening trade and defence ties.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-21-041",
+   "title": "UK fighter jets to protect Saudi Arabia from Houthi attacks",
+   "url": "https://www.dw.com/en/uk-fighter-jets-to-protect-saudi-arabia-from-houthi-attacks/a-79718467?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-10-21T01:23:00.000Z",
+   "category": "global-security",
+   "summary": "The UK is deploying fighter jets to help defend Saudi Arabia against repeated Houthi attacks.",
+   "relevance": 2,
+   "tags": [
+    "conflict",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-10-21-055",
+   "title": "Maybe it’s personal: Europeans worry Trump just likes Putin more than Zelenskyy",
+   "url": "https://www.politico.eu/article/europe-worries-donald-trump-prefers-vladimir-putin-volodymyr-zelenskyy-ukraine-war/",
+   "source": "Politico Europe",
+   "published": "2026-10-20T21:32:24.000Z",
+   "category": "policy-regulation",
+   "summary": "EU officials fear personal animosity from the US president toward Zelenskyy is shaping Washington's approach to a Ukraine peace deal.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-21-068",
+   "title": "Europe’s conservatives have 2 new targets in their campaign to weaken EU climate laws",
+   "url": "https://www.politico.eu/article/europe-conservatives-new-targets-campaign-weaken-eu-climate-laws/",
+   "source": "Politico Europe",
+   "published": "2026-10-20T19:15:19.000Z",
+   "category": "policy-regulation",
+   "summary": "The EPP is targeting the new carbon price on driving and heating and methane emission rules in its campaign against EU climate legislation.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "climate",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-10-21-071",
+   "title": "US to offer Putin face-to-face talks with Zelenskyy and Trump",
+   "url": "https://www.politico.eu/article/volodymyr-zelenskyy-vladimir-putin-donald-trump-peace-talks/",
+   "source": "Politico Europe",
+   "published": "2026-10-20T18:13:07.000Z",
+   "category": "global-security",
+   "summary": "US envoy Steve Witkoff travels to Russia to discuss peace proposals, with an offer of face-to-face talks between Putin, Zelenskyy and Trump.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-21-072",
+   "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+   "source": "BleepingComputer",
+   "published": "2026-10-20T18:11:03.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI says its newer GPT-6.1 Sol models are substantially better at writing and migrating legacy-language code.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "legacy-code"
+   ]
+  },
+  {
+   "id": "2026-10-21-081",
+   "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+   "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+   "source": "Wired – AI",
+   "published": "2026-10-20T15:07:43.000Z",
+   "category": "ai-security",
+   "summary": "An AI agent joined a 7,500-member researcher listserv, triggering reply-all chaos and debate over privacy norms in large online groups.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents",
+    "privacy"
+   ]
+  }
+ ]
+}
