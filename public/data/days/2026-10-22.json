@@ -1,0 +1,1041 @@
+{
+ "date": "2026-10-22",
+ "generatedAt": "2026-10-22T05:47:34.447Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 55,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-22-009",
+   "title": "Joint statement on critical PHP vulnerabilities",
+   "url": "https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities",
+   "source": "ENISA",
+   "published": "2026-10-22T05:45:14.240Z",
+   "category": "policy-regulation",
+   "summary": "ENISA issued a joint statement on the critical PHP vulnerabilities, signalling EU-level coordination on patching.",
+   "relevance": 5,
+   "tags": [
+    "enisa",
+    "php",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-10-22-020",
+   "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T04:21:26.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft attributes the ConnectWise Cloud Backup supply chain compromise to China state-aligned Storm-0940, which used the Go-based agentic AI pentest framework ARTEX to accelerate scanning and attacks.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "apt",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-22-022",
+   "title": "Cloudflare sees millions of exploit attempts after PHP disclosure",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdktBazJSdlhwYU9JVlI3SEFkZ2k1V0plWjZ6N2RxOFdmZ3VubFZmM01zbGhsX2k1Z3dWQ1pwZjdQeS1Sa3NFN1ltampIQjhmT2t5Sk5KV1luajZoa3JqUzVCRjRFV2ptT2loWVFkYWRnVGFPZWh1VjRtMlo0aE1Nc3FGemtOOVZxNUItM2ZYOGMyaDN1c1RfdlhFZFpZclNYdnF6RWdmZjVicWhXMGs1NUx1SkNHWGNY?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-22T04:08:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloudflare reports millions of exploit attempts against the newly disclosed PHP vulnerabilities.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "exploitation",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-10-22-035",
+   "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+   "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+   "source": "Wired – AI",
+   "published": "2026-10-22T02:24:17.000Z",
+   "category": "incidents-threats",
+   "summary": "AWS logged attempts to exploit the PHP2Shell bugs four days before public disclosure; the flaws are now described as broadly exploited across the internet.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "0day",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-22-054",
+   "title": "Microsoft pins ConnectWise supply-chain attack to China-state aligned threat group",
+   "url": "https://cyberscoop.com/microsoft-attributes-connectwise-supply-chain-attack-china-storm-0940/",
+   "source": "CyberScoop",
+   "published": "2026-10-21T21:58:21.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft says Storm-0940 used the ARTEX agentic AI pentest framework in the ConnectWise supply-chain attack, reaching over 2,250 tenants at 2,900 sign-in attempts per minute.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "apt",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-22-059",
+   "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33440",
+   "source": "SANS ISC",
+   "published": "2026-10-21T21:02:43.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC raised InfoCon to yellow over critical PHP flaws CVE-2026-109618/109619 (CVSS 9.4 expected) given PHP's ubiquity and pre-patch PoC availability.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "cve",
+    "infocon"
+   ]
+  },
+  {
+   "id": "2026-10-22-062",
+   "title": "Compromised eMudhra intermediate certificates",
+   "url": "https://blog.talosintelligence.com/compromised-intermediate-certificates/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-21T20:43:29.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos reports eight compromised intermediate certificates belonging to certificate authority eMudhra, with trust-store implications.",
+   "relevance": 5,
+   "tags": [
+    "pki",
+    "ca",
+    "trust"
+   ]
+  },
+  {
+   "id": "2026-10-22-069",
+   "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+   "url": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+   "source": "Dark Reading",
+   "published": "2026-10-21T19:19:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Security teams are racing to remediate two critical PHP flaws dubbed PHP2Shell following leaked details and reported exploitation attempts.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "cve",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-072",
+   "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+   "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+   "source": "The Hacker News",
+   "published": "2026-10-21T18:57:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a CVSS 10.0 unauthenticated RCE affecting self-managed versions back to 7.0; admins who patched on 12 October must update again as fixed versions sit one patch higher.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-073",
+   "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+   "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+   "source": "Simon Willison",
+   "published": "2026-10-21T18:41:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The PHP Foundation explains that CVE IDs leaked on forums on 20 October with wrong timing and CVSS data, enabling exploits before patches; all PHP 8.x users should upgrade immediately.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "disclosure",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-076",
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-21T18:23:55.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft details how Storm-0940 used ARTEX agentic AI to accelerate the ConnectWise supply chain compromise and abuse application credentials across Microsoft 365 tenants.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "supplychain",
+    "m365"
+   ]
+  },
+  {
+   "id": "2026-10-22-079",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "source": "Unit 42",
+   "published": "2026-10-21T16:30:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 threat brief on the critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 affecting web servers and CMS deployments globally.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "cve",
+    "threatbrief"
+   ]
+  },
+  {
+   "id": "2026-10-22-083",
+   "title": "CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-21T15:22:52.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 details CVE-2026-109618 (OOM memory corruption) and CVE-2026-109619 (use-after-free via stale global state), both CVSSv4 9.2 and enabling unauthenticated RCE on any PHP install serving web requests.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-10-22-089",
+   "title": "Kritische Sicherheitslücken in PHP - Updates verfügbar",
+   "url": "https://www.cert.at/de/warnungen/2026/10/kritische-sicherheitslucken-in-php-updates-verfugbar",
+   "source": "CERT.at",
+   "published": "2026-10-21T13:49:06.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at advisory on the two critical PHP RCEs, affecting PHP-FPM, mod_php, php-cgi, FrankenPHP and LiteSpeed; updates are available.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "cert",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-10-22-094",
+   "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+   "source": "CISA Advisories",
+   "published": "2026-10-21T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA urges immediate patching of the 'php2shell' flaws CVE-2026-109618/109619, recommending upgrades to PHP 8.5.12, 8.4.27, 8.3.36 or 8.2.35.",
+   "relevance": 5,
+   "tags": [
+    "cisa",
+    "php",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-116",
+   "title": "eMudhra Intermediate CA Compromise",
+   "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+   "source": "Simon Willison",
+   "published": "2026-10-20T23:50:25.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Private keys of eight eMudhra intermediate CA certificates were compromised; they chain to roots trusted by Mozilla, Microsoft, Apple and Chrome, requiring trust-store and ca-certificates updates.",
+   "relevance": 5,
+   "tags": [
+    "pki",
+    "ca",
+    "trust"
+   ]
+  },
+  {
+   "id": "2026-10-22-001",
+   "title": "Eredeti Siemens programmal töltöttek be kártékony DLL-eket a támadók A Siemens megerősítette, hogy támadók aktívan kihasználják a Siemens Software Center CVE-2026-110936 azonosítójú sérülékenységét.…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/eredeti-siemens-programmal-toltottek-be-kartekony-dll-eket-a-tamadok/",
+   "source": "NKI Hungary",
+   "published": "2026-10-22T05:45:16.063Z",
+   "category": "eu-threat-landscape",
+   "summary": "Siemens confirms active exploitation of CVE-2026-110936 in Siemens Software Center, where attackers abuse the legitimate program to side-load malicious DLLs.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "exploitation",
+    "ot"
+   ]
+  },
+  {
+   "id": "2026-10-22-010",
+   "title": "Governments working to identify exposure after global cyber-security warning",
+   "url": "https://www.bbc.co.uk/news/articles/cmx23d0k57d3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-22T05:37:53.000Z",
+   "category": "incidents-threats",
+   "summary": "Governments and companies are assessing exposure after a global cyber-security warning; Amazon reports it observed exploitation attempts before public disclosure.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-22-013",
+   "title": "AI agent permissions are outrunning security",
+   "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-permissions-security/",
+   "source": "Help Net Security",
+   "published": "2026-10-22T05:30:14.000Z",
+   "category": "ai-security",
+   "summary": "Survey of 1,100 IT and security decision-makers finds 70% now let AI agents act without human approval, and three in four organisations saw at least one AI-related security issue in the past year.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-22-015",
+   "title": "Say a few words, and a rigged AI asks for $5,000",
+   "url": "https://www.helpnetsecurity.com/2026/10/22/research-speech-model-backdoor/",
+   "source": "Help Net Security",
+   "published": "2026-10-22T05:00:44.000Z",
+   "category": "ai-security",
+   "summary": "Imperial College London researchers backdoored speech-to-text models so one targeted speaker triggers attacker-chosen output; in a sandbox test an AI agent executed a $5,000 transfer.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "supplychain",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-22-056",
+   "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+   "source": "BleepingComputer",
+   "published": "2026-10-21T21:43:27.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers compromised Japanese VPS provider Onamae Desktop Cloud and deployed malware on up to 26,739 customer servers.",
+   "relevance": 4,
+   "tags": [
+    "hosting",
+    "supplychain",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-22-057",
+   "title": "Chinese-linked hackers compromise ConnectWise, target hundreds in global attack, Microsoft says",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb3ZjLTdlTzhLZGFpNGw3SzBjb3p4aUwzb21qdDd5UmZ0OWxOZXlxYVlJMWFERzRfU1pRRkxOWmdBRVd3VjNWak96d1pUaHB6OHlzc2hEX3FwXzhhX2pUR1RDcTFMdExoaGVGeVlNRC16elFnMTZPbmpWTkhuQ2tCZnpBdV9vajJWNmcxRWdHSVppQ2hzYjJySTNIV3RSVEd5a0d6aGZXQUJBaVh3UnVVVkM4dzducmh3Y1h4TW9BZw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-21T21:16:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports Microsoft's finding that Chinese-linked hackers compromised ConnectWise and targeted hundreds of organisations globally.",
+   "relevance": 4,
+   "tags": [
+    "supplychain",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-22-087",
+   "title": "“Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities",
+   "url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/",
+   "source": "Unit 42",
+   "published": "2026-10-21T14:00:24.000Z",
+   "category": "ai-security",
+   "summary": "Unit 42 investigates a threat actor bypassing AI safety controls to plan and execute credential theft, VoIP fraud and database exfiltration.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "fraud",
+    "voip"
+   ]
+  },
+  {
+   "id": "2026-10-22-088",
+   "title": "AI Guardrails Aren’t Stopping Criminal Hackers",
+   "url": "https://www.wired.com/story/ai-guardrails-arent-stopping-criminal-hackers/",
+   "source": "Wired – AI",
+   "published": "2026-10-21T14:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Report that criminal hackers worldwide are adopting agentic AI and manipulating assistants such as Claude to support attacks despite guardrails.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "cybercrime"
+   ]
+  },
+  {
+   "id": "2026-10-22-095",
+   "title": "Critical security issue affecting PHP",
+   "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+   "source": "NCSC UK",
+   "published": "2026-10-21T12:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The UK NCSC urges organisations to take immediate action on the PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619.",
+   "relevance": 4,
+   "tags": [
+    "ncsc",
+    "php",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-10-22-107",
+   "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1359/",
+   "source": "CERT-FR",
+   "published": "2026-10-21T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR advisory on multiple PHP vulnerabilities allowing remote arbitrary code execution.",
+   "relevance": 4,
+   "tags": [
+    "certfr",
+    "php",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-22-115",
+   "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+   "source": "CERT-FR",
+   "published": "2026-10-21T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Updated CERT-FR advisory confirms patches are available for PHP CVE-2026-109618 and CVE-2026-109619, which allow remote code execution.",
+   "relevance": 4,
+   "tags": [
+    "certfr",
+    "php",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-002",
+   "title": "Világszerte kiesett a Revolut, a háttérben a Google felhőszolgáltatásának zavara állt Kedden reggel széles körű üzemzavar sújtotta a Revolut nevű fintech céget. Az alkalmazás, a mobilbanki szolgáltat…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/vilagszerte-kiesett-a-revolut-a-hatterben-a-google-felhoszolgaltatasanak-zavara-allt/",
+   "source": "NKI Hungary",
+   "published": "2026-10-22T05:45:16.063Z",
+   "category": "eu-threat-landscape",
+   "summary": "Revolut suffered a global outage on Tuesday morning affecting app and mobile banking services, reportedly caused by a Google cloud service disruption.",
+   "relevance": 3,
+   "tags": [
+    "outage",
+    "cloud",
+    "fintech"
+   ]
+  },
+  {
+   "id": "2026-10-22-006",
+   "title": "AI security incidents accelerate global regulatory response",
+   "url": "https://iapp.org/news/a/ai-security-incidents-accelerate-global-regulatory-response",
+   "source": "IAPP",
+   "published": "2026-10-22T05:45:15.589Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis argues recent AI security incidents are accelerating regulatory responses worldwide.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-10-22-026",
+   "title": "AI agent observability is struggling to keep up with hallucinations",
+   "url": "https://www.helpnetsecurity.com/2026/10/22/ai-agent-observability-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-22T04:00:14.000Z",
+   "category": "ai-security",
+   "summary": "Splunk survey of 2,050 professionals finds 62% frequently use AI agents for root-cause analysis, while over half cannot measure whether the agents are correct.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "observability",
+    "ops"
+   ]
+  },
+  {
+   "id": "2026-10-22-050",
+   "title": "PHP blames supply chain security biz Chainguard for putting huge chunks of the web at risk",
+   "url": "https://www.theregister.com/security/2026/10/22/php-blames-supply-chain-security-biz-chainguard-for-putting-huge-chunks-of-the-web-at-risk/5304611",
+   "source": "The Register – Security",
+   "published": "2026-10-21T23:02:57.000Z",
+   "category": "incidents-threats",
+   "summary": "The PHP project blames supply chain security vendor Chainguard for a disclosure leak that exposed large parts of the web; Chainguard's CEO defends its handling.",
+   "relevance": 3,
+   "tags": [
+    "php",
+    "disclosure",
+    "supplychain"
+   ]
+  },
+  {
+   "id": "2026-10-22-058",
+   "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+   "url": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+   "source": "Dark Reading",
+   "published": "2026-10-21T21:15:39.000Z",
+   "category": "incidents-threats",
+   "summary": "The TiDB breach shows cloud providers may hold sensitive customer data neither side is aware of, undermining shared-responsibility assumptions.",
+   "relevance": 3,
+   "tags": [
+    "cloud",
+    "databreach"
+   ]
+  },
+  {
+   "id": "2026-10-22-066",
+   "title": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+   "url": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+   "source": "Dark Reading",
+   "published": "2026-10-21T20:03:14.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloud Security Alliance research finds only 16% of organisations experiencing data loss said DLP blocked their most significant incident before data left.",
+   "relevance": 3,
+   "tags": [
+    "dlp",
+    "dataloss",
+    "survey"
+   ]
+  },
+  {
+   "id": "2026-10-22-080",
+   "title": "Tageszusammenfassung - 21.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-21102026",
+   "source": "CERT.at",
+   "published": "2026-10-21T16:30:04.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily summary notes Lenovo tablets shipped with a known Android Verified Boot test key and Kaspersky's analysis of Lazarus 'Operation FlashHole' watering-hole attacks.",
+   "relevance": 3,
+   "tags": [
+    "cert",
+    "lazarus",
+    "android"
+   ]
+  },
+  {
+   "id": "2026-10-22-092",
+   "title": "A Design Flaw in Share Links Exposes Users’ Personal Conversations With Meta’s Muse",
+   "url": "https://www.wired.com/story/a-design-flaw-in-share-links-exposes-users-personal-conversations-with-meta-muse/",
+   "source": "Wired – AI",
+   "published": "2026-10-21T12:35:00.000Z",
+   "category": "ai-security",
+   "summary": "A design flaw in share links exposed personal conversations with Meta's Muse assistant; the feature has been suspended after researchers' findings.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "privacy",
+    "dataleak"
+   ]
+  },
+  {
+   "id": "2026-10-22-100",
+   "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+   "source": "OpenAI News",
+   "published": "2026-10-21T07:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI describes 'Patch the Planet', an initiative connecting researchers, maintainers and responders to handle critical open-source vulnerabilities found by AI agents.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "opensource",
+    "disclosure"
+   ]
+  },
+  {
+   "id": "2026-10-22-106",
+   "title": "Multiples vulnérabilités dans les produits Mozilla (21 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1346/",
+   "source": "CERT-FR",
+   "published": "2026-10-21T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Mozilla product vulnerabilities enabling arbitrary code execution, data disclosure and denial of service.",
+   "relevance": 3,
+   "tags": [
+    "certfr",
+    "browser",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-109",
+   "title": "Multiples vulnérabilités dans les produits StormShield (21 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
+   "source": "CERT-FR",
+   "published": "2026-10-21T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR advisory on multiple Stormshield product vulnerabilities enabling code execution, remote DoS and data disclosure.",
+   "relevance": 3,
+   "tags": [
+    "certfr",
+    "firewall",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-110",
+   "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1357/",
+   "source": "CERT-FR",
+   "published": "2026-10-21T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Google Chrome vulnerabilities with unspecified security impact; updates are available.",
+   "relevance": 3,
+   "tags": [
+    "certfr",
+    "chrome",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-22-007",
+   "title": "Navigating the ghosts in the machine: Liability, governance lessons from recent AI hallucination cases",
+   "url": "https://iapp.org/news/a/navigating-the-ghosts-in-the-machine-liability-governance-lessons-from-recent-ai-hallucination-cases",
+   "source": "IAPP",
+   "published": "2026-10-22T05:45:15.589Z",
+   "category": "policy-regulation",
+   "summary": "IAPP piece reviews liability and governance lessons from recent court cases involving AI hallucinations.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance",
+    "liability"
+   ]
+  },
+  {
+   "id": "2026-10-22-016",
+   "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+   "url": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+   "source": "Dark Reading",
+   "published": "2026-10-22T05:00:00.000Z",
+   "category": "ai-security",
+   "summary": "The UAE says it has moved 50% of government services to agentic AI, claiming a security and safety foundation for the transition.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-10-22-019",
+   "title": "AI coding boom exposes cracks in cloud development",
+   "url": "https://www.helpnetsecurity.com/2026/10/22/localstack-ai-code-testing-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-22T04:30:38.000Z",
+   "category": "ai-security",
+   "summary": "LocalStack report finds 65% of teams generate at least twice as much code since adopting AI, increasing bugs, testing delays and disruptions in shared cloud environments.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "devsecops",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-10-22-023",
+   "title": "Who speaks for Europe in the Ukraine peace talks?",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/who-speaks-for-europe-in-the-ukraine-peace-talks/",
+   "source": "Politico Europe",
+   "published": "2026-10-22T04:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico examines internal EU tensions over who represents Europe in renewed US-pushed Ukraine-Russia peace talks.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-22-030",
+   "title": "US embassy accuses Canada of election meddling ahead of midterms",
+   "url": "https://www.bbc.co.uk/news/articles/cmn06g29522lo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-22T03:05:28.000Z",
+   "category": "global-security",
+   "summary": "The US embassy accuses Canada of election meddling ahead of the midterms; PM Carney rejects the claim.",
+   "relevance": 2,
+   "tags": [
+    "influenceops",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-22-032",
+   "title": "DeepSeek wrapping up $15 billion fundraising to fuel AI race",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQkI4b1B0WkYzUnhGdTF6b0VTRnBCWjRxelF3Q2g4VlRjTzNUOFFTZUhrM3VHSWs2M1VpWkZqN0FleF9JREgzdXpEWFNHM0VvSXhhNm5pdHRXZkRrNUR0UGFJVUMzRjNDWWRwZ0ZtOEsyMm93VU82Rno1R3FxQTNxMllyeWh2YnJRY19hUjZMbExjank3YUg5anFYdjRHRUdnSlN3cFMwMU9TLVBDSldIYUpUdy1vYTdtS3RHTnphNU1KYTdtYWVzNFFR?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-22T02:46:00.000Z",
+   "category": "global-security",
+   "summary": "DeepSeek is reportedly finalising a $15 billion fundraising round to compete in the AI race.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "industry"
+   ]
+  },
+  {
+   "id": "2026-10-22-034",
+   "title": "Taiwan probes organised crime links to China's 'transnational repression'",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejRPNmlvaDhHZDJQYlloWDU5cnZpTHZEOU0yWHotRTRsX3Q0TGs4V1F3ZzRBLVNqMnhSVUtNS3ZlWGFTVEU1VUJodkdZMUR0aFUxVnhqU1lVdWEyTlI0dVp1VmRncVIzVDU0WmtxcmI1TXo4cHh0SDhGWXJHY1lSMG8wSnJuUWRrbkI3VXhqWXlUajNuSjYwTFRyNWtOSzlDNnZkamRWRFBUdjVkQUFaTlhSNHZGQQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-22T02:32:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan investigates links between organised crime groups and China's alleged transnational repression activities.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-22-041",
+   "title": "Trump’s diesel deal derailed Ukraine-Russia peace progress, says Czech president",
+   "url": "https://www.politico.eu/article/donald-trump-diesel-deal-derailed-ukraine-russia-peace-progress-says-czech-president-petr-pavel/",
+   "source": "Politico Europe",
+   "published": "2026-10-22T02:02:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Czech President Pavel says a US diesel deal with Russia has set back Ukraine peace progress by giving Moscow new hope.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-10-22-046",
+   "title": "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
+   "url": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-22T01:45:48.000Z",
+   "category": "global-security",
+   "summary": "Qatar and France call for reopening the Strait of Hormuz to navigation and implementing the Gaza ceasefire.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "supplychain"
+   ]
+  },
+  {
+   "id": "2026-10-22-049",
+   "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-22T01:07:34.000Z",
+   "category": "global-security",
+   "summary": "The US ordered some diplomats to leave Saudi Arabia as Houthi attacks escalate, with deaths reported at an airport and an oil field.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "criticalinfrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-22-064",
+   "title": "Meta on the spot for $25 billion under New Mexico privacy ruling",
+   "url": "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+   "source": "The Record",
+   "published": "2026-10-21T20:25:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A New Mexico privacy ruling exposes Meta to up to $25 billion in liability tied to the Cambridge Analytica scandal.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "litigation"
+   ]
+  },
+  {
+   "id": "2026-10-22-067",
+   "title": "Talking to Putin: Europe seeks a negotiator-in-chief for Ukraine",
+   "url": "https://www.politico.eu/article/talking-to-vladimir-putin-europe-seeks-a-negotiator-in-chief-for-ukraine/",
+   "source": "Politico Europe",
+   "published": "2026-10-21T19:53:50.000Z",
+   "category": "policy-regulation",
+   "summary": "European officials debate who should directly negotiate with Putin on Ukraine, highlighting EU coordination gaps.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-22-068",
+   "title": "Tech trio launches $10 million initiative to help under-resourced utilities bolster cybersecurity",
+   "url": "https://therecord.media/utilities-cybersecurity-initiative-accenture",
+   "source": "The Record",
+   "published": "2026-10-21T19:45:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A $10 million private-sector initiative will help up to 500 under-resourced utilities improve their cybersecurity.",
+   "relevance": 2,
+   "tags": [
+    "criticalinfrastructure",
+    "utilities"
+   ]
+  },
+  {
+   "id": "2026-10-22-077",
+   "title": "Russia ready for 3-way talks on Ukraine war, Kremlin says",
+   "url": "https://www.politico.eu/article/russia-ready-talks-end-ukraine-war/",
+   "source": "Politico Europe",
+   "published": "2026-10-21T18:13:23.000Z",
+   "category": "policy-regulation",
+   "summary": "The Kremlin says Russia is ready for three-way talks on Ukraine, with Putin's aide claiming the conflict is nearing its end.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-10-22-082",
+   "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
+   "url": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
+   "source": "Wired – AI",
+   "published": "2026-10-21T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Feature on a startup pursuing recursive self-improvement in AI models and its claimed risk-benefit tradeoff.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "safety"
+   ]
+  },
+  {
+   "id": "2026-10-22-099",
+   "title": "Europe Wants Data Centers. Its Climate Goals Are Getting in the Way",
+   "url": "https://www.wired.com/story/europe-data-centers-climate-change/",
+   "source": "Wired – AI",
+   "published": "2026-10-21T08:30:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Report on tension between European data centre expansion and climate goals, including a failed German waste-heat reuse plan.",
+   "relevance": 2,
+   "tags": [
+    "datacenter",
+    "eu",
+    "energy"
+   ]
+  }
+ ]
+}
