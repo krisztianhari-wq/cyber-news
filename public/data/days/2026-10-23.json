@@ -1,0 +1,869 @@
+{
+ "date": "2026-10-23",
+ "generatedAt": "2026-10-23T05:46:58.458Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 43,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-23-001",
+   "title": "A PHP2Shell javítások megérkeztek, de a leállások és a kihasználási kísérletek miatt még nem ért véget az incidens A két kritikus PHP-sérülékenység kezelése világszerte rendkívüli üzemeltetési akcióv…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/a-php2shell-javitasok-megerkeztek-de-a-leallasok-es-a-kihasznalasi-kiserletek-miatt-meg-nem-ert-veget-az-incidens/",
+   "source": "NKI Hungary",
+   "published": "2026-10-23T05:45:16.229Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungary's NKI reports that although fixes for the two critical PHP (PHP2Shell) flaws are out, the incident continues with service outages and ongoing exploitation attempts worldwide.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-23-011",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-23T05:45:15.114Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-EU warns of a critical GitLab flaw allowing unauthenticated remote code execution; patch internet-facing instances immediately and assess for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-012",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-23T05:45:15.114Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-EU advisory on two critical PHP flaws enabling unauthenticated RCE, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating and exploitation is likely underway.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "poc"
+   ]
+  },
+  {
+   "id": "2026-10-23-013",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-23T05:45:15.114Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-EU flags a critical, actively exploited flaw in the AMP feature of Cisco Secure Email Gateway allowing unauthenticated root-level command execution; patch AsyncOS or Content Scanner Tools now.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "zero-day",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-10-23-055",
+   "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+   "source": "Dark Reading",
+   "published": "2026-10-22T20:42:17.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft attributes the ConnectWise supply chain attack affecting over 2,200 tenants to China-linked Storm-0940, which used an AI-enabled pentesting tool to automate the intrusion.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "apt",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-23-056",
+   "title": "PHP2Shell exploit bypasses protections designed to stop remote code execution",
+   "url": "https://www.theregister.com/security/2026/10/22/php2shell-exploit-bypasses-protections-designed-to-stop-remote-code-execution/5304883",
+   "source": "The Register – Security",
+   "published": "2026-10-22T20:37:52.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Researchers report a PHP2Shell exploit that bypasses protections intended to block remote code execution, indicating active adversary investment in weaponising the PHP bugs.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "exploit",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-23-062",
+   "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+   "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+   "source": "BleepingComputer",
+   "published": "2026-10-22T19:12:51.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers compromised the LiteLLM project's PyPI package and Docker images to distribute an info-stealer and backdoor harvesting credentials, secrets and environment variables.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "pypi",
+    "infostealer"
+   ]
+  },
+  {
+   "id": "2026-10-23-064",
+   "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+   "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T19:05:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Arista warns of an actively exploited SQL injection zero-day in VeloCloud Orchestrator that lets any logged-in user, even read-only, escalate to operator privileges over SD-WAN management.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "sd-wan",
+    "privilege-escalation"
+   ]
+  },
+  {
+   "id": "2026-10-23-075",
+   "title": "Max-severity GitLab bug allows remote code execution over 12 years of releases",
+   "url": "https://www.theregister.com/security/2026/10/22/max-severity-gitlab-bug-allows-remote-code-execution-over-12-years-of-releases/5304854",
+   "source": "The Register – Security",
+   "published": "2026-10-22T17:36:30.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A maximum-severity GitLab remote code execution bug affects releases spanning 12 years; the vendor strongly recommends upgrading immediately.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-077",
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-10-22T17:18:22.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Arista released fixes for an actively exploited zero-day in on-prem VeloCloud Orchestrator deployments; operators of SD-WAN management platforms should patch urgently.",
+   "relevance": 5,
+   "tags": [
+    "sd-wan",
+    "zero-day",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-083",
+   "title": "New Serious PHP Vulnerabilities Released and Patched",
+   "url": "https://www.schneier.com/blog/archives/2026/10/new-serious-php-vulnerabilities-released-and-patched.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-22T13:26:51.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Schneier summarises the two critical PHP unauthenticated RCE flaws; all web-serving PHP installs are at risk, with mod_php considered highest risk due to a demonstrated pre-application-code exploit.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-087",
+   "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+   "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+   "source": "Wired – AI",
+   "published": "2026-10-22T02:24:17.000Z",
+   "category": "incidents-threats",
+   "summary": "AWS logged exploitation attempts against the PHP2Shell bugs four days before patches; the flaws are now reported as broadly exploited across the internet.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "zero-day",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-23-092",
+   "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1363/",
+   "source": "CERT-FR",
+   "published": "2026-10-22T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR advisory on multiple GitLab vulnerabilities including remote code execution, data confidentiality breach and security policy bypass.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-002",
+   "title": "PHP: Már 2024-ben felfedezték a kritikus sérülékenység jeleit, de csak az MI-alapú vizsgálatok után kezdték meg a javítást A PHP Foundation szerdai közleményében részletesen ismertette annak a két kr…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/php-mar-2024-ben-felfedeztek-a-kritikus-serulekenyseg-jeleit-de-csak-az-mi-alapu-vizsgalatok-utan-kezdtek-meg-a-javitast/",
+   "source": "NKI Hungary",
+   "published": "2026-10-23T05:45:16.229Z",
+   "category": "eu-threat-landscape",
+   "summary": "The PHP Foundation detailed that indicators of the critical vulnerability were visible as early as 2024, with remediation only starting after AI-assisted code review surfaced the issue.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "vulnerability",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-23-005",
+   "title": "EU member states finalize negotiating stance on Digital Omnibus",
+   "url": "https://iapp.org/news/a/eu-member-states-finalize-digital-omnibus-negotiating-stance",
+   "source": "IAPP",
+   "published": "2026-10-23T05:45:15.740Z",
+   "category": "policy-regulation",
+   "summary": "EU member states have agreed their negotiating position on the Digital Omnibus package, a key step in simplifying EU digital and data rules.",
+   "relevance": 4,
+   "tags": [
+    "eu",
+    "digital-omnibus",
+    "gdpr"
+   ]
+  },
+  {
+   "id": "2026-10-23-006",
+   "title": "Securing NIS2, DORA compliance in the cloud supply chain",
+   "url": "https://iapp.org/news/a/securing-nis2-dora-compliance-in-the-cloud-supply-chain",
+   "source": "IAPP",
+   "published": "2026-10-23T05:45:15.740Z",
+   "category": "policy-regulation",
+   "summary": "Guidance piece on meeting NIS2 and DORA obligations across cloud supply chains, relevant for regulated operators managing third-party risk.",
+   "relevance": 4,
+   "tags": [
+    "nis2",
+    "dora",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-23-053",
+   "title": "Railway warns devs to rotate secrets after potential breach",
+   "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-10-22T21:25:31.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloud platform Railway urged developers to rotate secrets after detecting suspicious activity on systems storing customer environment variables.",
+   "relevance": 4,
+   "tags": [
+    "cloud",
+    "secrets",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-23-068",
+   "title": "Indian tech company eMudhra announces withdrawal from certificate business after security incident",
+   "url": "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+   "source": "The Record",
+   "published": "2026-10-22T18:46:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Indian CA eMudhra is exiting the certificate business after a researcher found one of its private keys was simply the number four, undermining trust in its issued certificates.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "tls",
+    "certificate-authority"
+   ]
+  },
+  {
+   "id": "2026-10-23-070",
+   "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+   "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T18:12:43.000Z",
+   "category": "incidents-threats",
+   "summary": "eMudhra will withdraw from the global SSL/TLS business after a researcher recovered private keys for eight of its intermediate CA certificates; affected customers get replacement certificates from partners.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "tls",
+    "ca-compromise"
+   ]
+  },
+  {
+   "id": "2026-10-23-073",
+   "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+   "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T17:45:44.000Z",
+   "category": "incidents-threats",
+   "summary": "Weekly roundup of critical PHP and GitLab RCE flaws, Linux bugs, compromised eMudhra certificates, a Node.js RCE, the hacked LiteLLM release, hundreds of hijacked Tor relays, a Signal flaw and a Laravel auth bypass.",
+   "relevance": 4,
+   "tags": [
+    "roundup",
+    "vulnerabilities",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-23-076",
+   "title": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXNid0stVGgtZWpqaVMyd01mNVgzZndaWHhnUTlFT3FKQW1PZ0daVDBfMWxSbThxUzdCSnFNT2U3YWFnMjZvMDVnVFVyUW1DZENvWnFZZU5jRFNCUnlsRE4zU25FZzNpUEUxcDhUYUs3Um1ZZW5tUEc1Z2FwdUF1d2lqVXZ1Z0JyVVkxR1FrZVJ4QTZVX3J4cGZRN2ZiUQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-22T17:25:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Mainstream reporting on the global rush to patch a software flaw (PHP) estimated to affect up to 70% of websites worldwide.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-23-078",
+   "title": "EMudhra Intermediate CA Certificates Compromised",
+   "url": "https://unit42.paloaltonetworks.com/emudhra-certificate-compromise/",
+   "source": "Unit 42",
+   "published": "2026-10-22T17:15:32.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 analyses the compromise of eight eMudhra intermediate CA private keys, which enable unauthorised TLS certificate signing and machine-in-the-middle interception, and offers containment guidance.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "mitm",
+    "tls"
+   ]
+  },
+  {
+   "id": "2026-10-23-079",
+   "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+   "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T17:01:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Two CVSS 9.0 RCE flaws in the Linux kernel's KSMBD SMB server were publicly disclosed before mainline fixes; one is pre-authentication exploitable.",
+   "relevance": 4,
+   "tags": [
+    "linux",
+    "0day",
+    "smb"
+   ]
+  },
+  {
+   "id": "2026-10-23-081",
+   "title": "Tageszusammenfassung - 22.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-22102026",
+   "source": "CERT.at",
+   "published": "2026-10-22T16:27:52.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covering the LiteLLM supply chain compromise delivering a credential stealer and backdoor, plus a Fortinet security hardening release for multiple products.",
+   "relevance": 4,
+   "tags": [
+    "cert",
+    "supply-chain",
+    "fortinet"
+   ]
+  },
+  {
+   "id": "2026-10-23-090",
+   "title": "Multiples vulnérabilités dans ISC BIND (22 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1365/",
+   "source": "CERT-FR",
+   "published": "2026-10-22T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple ISC BIND vulnerabilities allowing remote code execution and denial of service; relevant for DNS infrastructure operators.",
+   "relevance": 4,
+   "tags": [
+    "bind",
+    "dns",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-091",
+   "title": "Multiples vulnérabilités dans Node (22 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1367/",
+   "source": "CERT-FR",
+   "published": "2026-10-22T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR advisory on multiple Node.js vulnerabilities, some enabling remote code execution and security policy bypass.",
+   "relevance": 4,
+   "tags": [
+    "nodejs",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-23-094",
+   "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1360/",
+   "source": "CERT-FR",
+   "published": "2026-10-22T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR advisory covering multiple Cisco product vulnerabilities allowing remote code execution, privilege escalation and denial of service.",
+   "relevance": 4,
+   "tags": [
+    "cisco",
+    "patch",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-23-004",
+   "title": "A view from Brussels: Final countdown to the Digital Fairness Act has started",
+   "url": "https://iapp.org/news/a/a-view-from-brussels-final-countdown-to-the-digital-fairness-act-has-started",
+   "source": "IAPP",
+   "published": "2026-10-23T05:45:15.740Z",
+   "category": "policy-regulation",
+   "summary": "IAPP Brussels column on the final stage of negotiations for the EU Digital Fairness Act, which will affect online consumer-facing practices.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "digital-fairness-act",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-23-007",
+   "title": "New Mexico court orders Meta to pay $25B over Cambridge Analytica incident",
+   "url": "https://iapp.org/news/a/new-mexico-court-orders-meta-to-pay-25b-over-cambridge-analytica-incident",
+   "source": "IAPP",
+   "published": "2026-10-23T05:45:15.740Z",
+   "category": "policy-regulation",
+   "summary": "A New Mexico court ordered Meta to pay USD 25 billion over the Cambridge Analytica data misuse incident, a notable data-protection liability precedent.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "litigation",
+    "meta"
+   ]
+  },
+  {
+   "id": "2026-10-23-017",
+   "title": "AI is taking cybersecurity jobs at junior and experienced levels alike",
+   "url": "https://www.helpnetsecurity.com/2026/10/23/barracuda-cybersecurity-career-development-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-23T04:30:39.000Z",
+   "category": "incidents-threats",
+   "summary": "Barracuda's Skills Gap Report finds 56% of organisations cut cybersecurity roles due to AI adoption, split evenly between entry-level and senior positions, despite reported expertise shortages.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "workforce",
+    "skills-gap"
+   ]
+  },
+  {
+   "id": "2026-10-23-039",
+   "title": "Trump says Musk restored Ukraine’s Starlink access amid Russia war",
+   "url": "https://www.aljazeera.com/news/2026/10/23/trump-says-musk-restored-ukraines-starlink-access-amid-russia-war?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-23T01:46:40.000Z",
+   "category": "global-security",
+   "summary": "Trump said Musk restored Ukraine's Starlink access after speed and access restrictions were lifted, highlighting dependency on commercial satellite connectivity in conflict zones.",
+   "relevance": 3,
+   "tags": [
+    "satcom",
+    "ukraine",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-10-23-052",
+   "title": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczNGJ4Z1NXUzQ2WU1OaVhXbjlRaXpHVy1HMHg5S1Q0dFgwS1Y3ajJIV1V4UjBIcWxodTMtZmJtbzZqVWZ1bVdVWEpicmI3dktxdzdfOTZkQW94bWVvR19tR01OZ3QyOFZiNGRrN0I4TFdVLWZNNWZkZk4zYzI5bk8ycjI5SExjdlVFUDNsMVJLQks?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-22T21:57:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The US Treasury proposed a rule restricting high-tech investments into China and other adversary states, with potential supply chain and vendor implications.",
+   "relevance": 3,
+   "tags": [
+    "export-controls",
+    "china",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-23-057",
+   "title": "What We Missed: Feds Lasso Texas Laptop Farms",
+   "url": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+   "source": "Dark Reading",
+   "published": "2026-10-22T20:33:10.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading roundup covering US federal takedown of North Korean IT worker laptop farms in Texas ('Operation Lonestar Justice') and other missed stories.",
+   "relevance": 3,
+   "tags": [
+    "north-korea",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-10-23-072",
+   "title": "I had plans for that second",
+   "url": "https://blog.talosintelligence.com/i-had-plans-for-that-second/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-22T18:04:32.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos newsletter covering the critical PHP vulnerabilities alongside the abolition of the leap second.",
+   "relevance": 3,
+   "tags": [
+    "php",
+    "newsletter"
+   ]
+  },
+  {
+   "id": "2026-10-23-080",
+   "title": "The Current Landscape of OAuth Attacks",
+   "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks/",
+   "source": "Unit 42",
+   "published": "2026-10-22T17:00:25.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 reviews the current OAuth attack landscape and recommends practical steps to harden identity and token flows.",
+   "relevance": 3,
+   "tags": [
+    "oauth",
+    "identity",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-23-003",
+   "title": "Notes from the Asia-Pacific region: Key developments in India's digital policy landscape",
+   "url": "https://iapp.org/news/a/notes-from-the-asia-pacific-region-key-developments-in-indias-digital-policy-landscape",
+   "source": "IAPP",
+   "published": "2026-10-23T05:45:15.740Z",
+   "category": "policy-regulation",
+   "summary": "IAPP overview of recent developments in India's digital policy landscape, relevant for organisations with Asia-Pacific data operations.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "india",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-23-025",
+   "title": "US tech stocks tumble as investors fret over AI spending",
+   "url": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-23T03:13:13.000Z",
+   "category": "global-security",
+   "summary": "US tech stocks fell sharply, with the Nasdaq down 2.6%, amid investor concern over AI capital spending and bubble fears.",
+   "relevance": 2,
+   "tags": [
+    "markets",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-23-031",
+   "title": "Can Europe save the world’s war crimes court from Trump?",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-save-the-worlds-war-crimes-court-from-trump/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T02:10:00.000Z",
+   "category": "global-security",
+   "summary": "Analysis of US sanctions against the International Criminal Court and Europe's limited ability to shield the institution from American financial pressure.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-23-036",
+   "title": "Serbia’s protesting students mount serious challenge to Vučić’s power",
+   "url": "https://www.politico.eu/article/serbia-student-protests-challenge-aleksandar-vucic-power-poll/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T02:00:00.000Z",
+   "category": "global-security",
+   "summary": "Serbian student protesters are mounting a significant political challenge to President Vucic after two years of street demonstrations.",
+   "relevance": 2,
+   "tags": [
+    "politics",
+    "balkans"
+   ]
+  },
+  {
+   "id": "2026-10-23-049",
+   "title": "This summer’s heat was Europe’s deadliest on record, scientists say",
+   "url": "https://www.politico.eu/article/this-summer-was-europes-deadliest-on-record-scientists-say/",
+   "source": "Politico Europe",
+   "published": "2026-10-22T23:01:00.000Z",
+   "category": "global-security",
+   "summary": "Studies find this summer was Europe's deadliest heat season on record, with over 50,000 deaths across 850 cities, mostly attributed to climate change.",
+   "relevance": 2,
+   "tags": [
+    "climate",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-10-23-063",
+   "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+   "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+   "source": "The Hacker News",
+   "published": "2026-10-22T19:05:35.000Z",
+   "category": "ai-security",
+   "summary": "Vendor webinar promotion on unowned AI agents holding API keys and credentials as an emerging insider threat.",
+   "relevance": 2,
+   "tags": [
+    "ai-agents",
+    "webinar",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-10-23-071",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "source": "Simon Willison",
+   "published": "2026-10-22T18:09:56.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic is donating the Agent Skills standard to the Linux Foundation's Agentic AI Foundation, following the earlier MCP donation, pushing vendor-neutral agent standards.",
+   "relevance": 2,
+   "tags": [
+    "ai-agents",
+    "standards",
+    "anthropic"
+   ]
+  },
+  {
+   "id": "2026-10-23-074",
+   "title": "Exclusive: bipartisan bill would develop federal guidance for distillation attacks, convene industry on defensive cyber",
+   "url": "https://cyberscoop.com/bipartisan-bill-combat-ai-distillation-attacks-nist/",
+   "source": "CyberScoop",
+   "published": "2026-10-22T17:37:24.000Z",
+   "category": "policy-regulation",
+   "summary": "A bipartisan US bill would create federal guidance on AI model distillation attacks and convene industry on defensive cyber measures.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "legislation",
+    "us"
+   ]
+  }
+ ]
+}
