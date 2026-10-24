@@ -1,0 +1,1014 @@
+{
+ "date": "2026-10-24",
+ "generatedAt": "2026-10-24T05:47:01.571Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 53,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-24-006",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-24T05:45:16.039Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws allowing unauthenticated RCE, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating and exploitation is considered likely.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-10-24-007",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-24T05:45:16.039Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical GitLab CE/EE flaw enabling unauthenticated arbitrary code execution on the server; patch internet-facing instances and hunt for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-24-008",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-24T05:45:16.039Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway AMP feature contains a critical flaw allowing unauthenticated remote file write and root command execution; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "0day",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-24-044",
+   "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33452",
+   "source": "SANS ISC",
+   "published": "2026-10-23T20:04:47.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC assesses the real-world exploitability of the php2shell vulnerability after a day of widespread panic among defenders.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "exploit",
+    "sans"
+   ]
+  },
+  {
+   "id": "2026-10-24-049",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "source": "Unit 42",
+   "published": "2026-10-23T19:00:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 threat brief, updated 23 October, on critical PHP vulnerabilities CVE-2026-109618 and CVE-2026-109619 affecting web servers and CMS platforms globally.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "php",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-24-054",
+   "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+   "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T17:50:47.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers found exposed infrastructure revealing an AI-driven intrusion framework named Phantom, used by INC and The Gentlemen ransomware affiliates as an autonomous red-team kill chain.",
+   "relevance": 5,
+   "tags": [
+    "ransomware",
+    "ai",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-24-065",
+   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T15:38:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The PHP security team published mitigations for a further RCE flaw that has no patch and affects systems with non-default configurations.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "unpatched",
+    "mitigation"
+   ]
+  },
+  {
+   "id": "2026-10-24-070",
+   "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+   "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T13:50:56.000Z",
+   "category": "incidents-threats",
+   "summary": "A large-scale campaign against exposed Fortinet FortiGate and Palo Alto GlobalProtect edge devices has exposed over 70,000 credentials, with operators pivoting deeper into victim networks.",
+   "relevance": 5,
+   "tags": [
+    "edge-devices",
+    "credentials",
+    "vpn"
+   ]
+  },
+  {
+   "id": "2026-10-24-020",
+   "title": "Inside the cyber flaw scramble that brought the AI threat to life",
+   "url": "https://www.politico.eu/article/the-cyber-flaw-scramble-that-brought-the-ai-threat-to-life/",
+   "source": "Politico Europe",
+   "published": "2026-10-24T02:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico recounts the 72-hour global scramble by cybersecurity agencies over critical vulnerabilities in a web programming language, framed around AI-accelerated threats.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "ai",
+    "incident-response"
+   ]
+  },
+  {
+   "id": "2026-10-24-033",
+   "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd0F1M2JpV18ycDZBTzdodjMzcDMyQUQ1QmpZZk41emRob2VIbXdkWHN4SThaWGVtQ0R5VkdhUl9LRW5SQktkNENWVG4xVXZJaGtnOElZZ194c2tNSG9sTjVUaG1NYzFSeEdTV2ZsTTlIbmozV1NMYWlQNGNNTTRZM2d2MU1tTTFac1VFU2l0dU1jM05XbTdmSEFjaVlkaDN3UGJINGtXQjNEaVBib0kwM1JlVVc1cUYwckNOVQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-23T21:59:08.000Z",
+   "category": "policy-regulation",
+   "summary": "The PHP Foundation's director says the project is under-funded with a single full-time staff member, highlighting open-source sustainability risk amid the PHP RCE crisis.",
+   "relevance": 4,
+   "tags": [
+    "open-source",
+    "supply-chain",
+    "php"
+   ]
+  },
+  {
+   "id": "2026-10-24-040",
+   "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+   "url": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+   "source": "Dark Reading",
+   "published": "2026-10-23T20:57:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading analysis of malware-free intrusions where attackers use AI-assisted social engineering against help desks to obtain access.",
+   "relevance": 4,
+   "tags": [
+    "social-engineering",
+    "helpdesk",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-24-045",
+   "title": "There's a third PHP2Shell bug, but it won't get an emergency fix",
+   "url": "https://www.theregister.com/security/2026/10/23/theres-a-third-php2shell-bug-but-it-wont-get-an-emergency-fix/5305208",
+   "source": "The Register – Security",
+   "published": "2026-10-23T20:04:40.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A third PHP2Shell-class bug has surfaced but will not receive an emergency fix, leaving defenders reliant on mitigations.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "unpatched",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-24-046",
+   "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+   "url": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+   "source": "Dark Reading",
+   "published": "2026-10-23T19:41:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Dark Reading guidance on assessing exposure to the critical PHP flaws, noting remediation is more complex than simply applying an update.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "patching",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-10-24-048",
+   "title": "Red-team report found OpenAI utterly failed to monitor its agents during Hugging Face attack",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/23/red-team-report-found-openai-utterly-failed-to-monitor-its-agents-during-hugging-face-attack/5305200",
+   "source": "The Register – Security",
+   "published": "2026-10-23T19:14:57.000Z",
+   "category": "ai-security",
+   "summary": "A red-team report found OpenAI's monitoring of its agents during a Hugging Face attack scenario was only partial and easily bypassed.",
+   "relevance": 4,
+   "tags": [
+    "ai-agents",
+    "red-team",
+    "monitoring"
+   ]
+  },
+  {
+   "id": "2026-10-24-051",
+   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "source": "The Hacker News",
+   "published": "2026-10-23T18:50:13.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Kaspersky details BlackX, a UEFI bootkit attributed to China-linked APT41, which bypasses Secure Boot on patched Windows systems lacking revocations and targeted Central Asian diplomats.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "uefi",
+    "secure-boot"
+   ]
+  },
+  {
+   "id": "2026-10-24-052",
+   "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-23T18:12:19.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft Threat Intelligence analyses the LiteLLM 1.107.0 supply chain compromise, which abused Python startup hooks for credential theft and remote code loading.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "python",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-24-056",
+   "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+   "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+   "source": "Dark Reading",
+   "published": "2026-10-23T17:26:59.000Z",
+   "category": "incidents-threats",
+   "summary": "Research shows AI tooling enabling cheap mass attacks: one campaign hit 105 sites using open-weight models, and another achieved full domain control for about $12.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "attack-economics"
+   ]
+  },
+  {
+   "id": "2026-10-24-060",
+   "title": "Tageszusammenfassung - 23.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-23102026",
+   "source": "CERT.at",
+   "published": "2026-10-23T16:39:19.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers the Railway hosting provider breach warning to rotate secrets and a demonstrated Node2Shell RCE on Node.js using crafted Brotli data.",
+   "relevance": 4,
+   "tags": [
+    "cert-at",
+    "secrets",
+    "nodejs"
+   ]
+  },
+  {
+   "id": "2026-10-24-067",
+   "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+   "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+   "source": "SecurityWeek",
+   "published": "2026-10-23T14:23:37.000Z",
+   "category": "incidents-threats",
+   "summary": "SecurityWeek roundup: hijacked Tor exit relays, banks detecting rogue AI agents, self-rebuilding macOS ransomware, APT28 targeting NATO defence firms and PingCAP source code theft.",
+   "relevance": 4,
+   "tags": [
+    "apt28",
+    "roundup",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2026-10-24-075",
+   "title": "Drone hits another ship in Black Sea near Romania, killing at least 1 sailor",
+   "url": "https://www.politico.eu/article/drone-hits-another-ship-in-black-sea-near-romania-killing-at-least-one-sailor/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T11:34:27.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "A drone struck another ship in the Black Sea near Romania, killing at least one sailor; Romania's president called it part of Russia's escalation.",
+   "relevance": 4,
+   "tags": [
+    "drone",
+    "critical-infrastructure",
+    "romania"
+   ]
+  },
+  {
+   "id": "2026-10-24-084",
+   "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1369/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR flags multiple HPE Aruba Networking vulnerabilities enabling remote code execution, privilege escalation and denial of service.",
+   "relevance": 4,
+   "tags": [
+    "cert-fr",
+    "network",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-24-005",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-24T05:45:16.737Z",
+   "category": "eu-threat-landscape",
+   "summary": "A European Commission/Europol report finds digital forensic tools, resources and expertise are failing to keep pace with the volume and variety of modern e-evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "eu",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-24-031",
+   "title": "UK government sets out $800 million of AI security funding",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTDJseUNYVnJGcWZWUjlPR0RUSXJHTVItRmh1dkdnNTFiZ2tmTFhUM1p3YnI1T2RGdlpFZ1JWN3BGR2dCajk3Y1pBMlBCYjNFX2dnbjJzZnNJb1BONkNGREFYamNWT1FLRFJXdjdVeEdMUFZnM3FQRXE2VFBIbFdWUVItWEJwd3F4dmFRbHpKTzE4RWpXSGRnTzY4QVdISFJj?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-23T23:03:43.000Z",
+   "category": "policy-regulation",
+   "summary": "The UK government announced roughly $800 million in funding for AI security.",
+   "relevance": 3,
+   "tags": [
+    "uk",
+    "ai",
+    "funding"
+   ]
+  },
+  {
+   "id": "2026-10-24-035",
+   "title": "PwC confirms cybersecurity incident involving employee learning records",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcldEOEdyclVvcTNpbkhsUkMwV0U1UlcwMFA1bklVenFndDNaekpKSTdOZEtWY0swSUhUeTZZM3BmSDgzSEgzMldIb3U0U3Y1WjgtNU1UX29qS1pMT1YwWWpMdjFVeWNmTTlreEJJRzV0eDBDdWY3UTB2amMyb1RadDVRWktiNVNNcHdfbnVlWHpHaEVQemExX0JFdlVlaGRaWk1BbE4yUFFhQnh6Ri10aUJYVjJSclZ2Zl9xcUNmNlRXUQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-23T21:45:13.000Z",
+   "category": "incidents-threats",
+   "summary": "PwC confirmed a cybersecurity incident affecting employee learning records.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "third-party"
+   ]
+  },
+  {
+   "id": "2026-10-24-037",
+   "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFNJeDNkbkFpbnliam8zamd3UU1pZjgzS1JkNTF3M1dRcG0wbm8yZnpxMmp1UDdGdWpPZ2F4WU95YzZnTzVURnNlbDFId3VzWEpmMnJNQkxSY3ZJRmEycDVFR2F2YUpGaVZLbjZNbm1fTkRiclV6a3pXVmZtekVWaU52aHhHMHl0R3ZjX0hKQ3Z3SjUydzdsSklfRTVReUl2Mkh3RFlZRk0xUW4zVWZkbW5YdEo0UkZsRzZqZ0lIMA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-23T21:16:00.000Z",
+   "category": "global-security",
+   "summary": "Russia and Ukraine agreed a localised ceasefire in a contested town and plan peace talks next month.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-24-050",
+   "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T18:54:41.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft will add AI-powered, context-aware phishing detection to Teams messages starting early November 2026.",
+   "relevance": 3,
+   "tags": [
+    "microsoft",
+    "phishing",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-24-055",
+   "title": "FCC bans two devices with surveillance chips linked to Huawei",
+   "url": "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
+   "source": "The Record",
+   "published": "2026-10-23T17:28:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The FCC banned a wireless video transmitter and a dashcam built with chips from Huawei subsidiary HiSilicon marketed for surveillance use.",
+   "relevance": 3,
+   "tags": [
+    "supply-chain",
+    "huawei",
+    "telecom"
+   ]
+  },
+  {
+   "id": "2026-10-24-059",
+   "title": "Quest Diagnostics confirms data breach exposed patient records",
+   "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T16:40:07.000Z",
+   "category": "incidents-threats",
+   "summary": "Quest Diagnostics disclosed a breach exposing patient records after unauthorised access to its Quanum LSM system.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "healthcare",
+    "data"
+   ]
+  },
+  {
+   "id": "2026-10-24-062",
+   "title": "Senators say targeted ads are a security risk. Ad groups say the critics are off base.",
+   "url": "https://cyberscoop.com/targeted-ads-spyware-government-threat/",
+   "source": "CyberScoop",
+   "published": "2026-10-23T16:23:06.000Z",
+   "category": "policy-regulation",
+   "summary": "US senators cite Citizen Lab's AdFection findings to push adtech reform on national security grounds, while IAB Europe and Google defend their vetting.",
+   "relevance": 3,
+   "tags": [
+    "adtech",
+    "privacy",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-24-063",
+   "title": "UK tells public to keep three days' emergency supplies at home",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVmRBVlhXaFdmTFBac29hb2o0NWNXRlJsYWRNYUJKeWtPLWN1c3FqcVh6RWhsemJPeFFzZThhM0dUWnNRTVFoWlNxemgtcGVfTnNBYy1vNlF1aEc0QU44Zy1KdVhiNGstRFFOU0JqVk1XMzFrQ1RTcUJvNmcwYVo5RUI1bkZBTFFDUERMYlRLdXh0VFU1Z0p0UlRySjk2QkxhX2Mya3NPaEw5TFR2b0o0T0VpWlRJRjJZTUE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-23T15:48:51.000Z",
+   "category": "global-security",
+   "summary": "The UK government advised the public to keep three days of emergency supplies at home, reflecting growing resilience messaging.",
+   "relevance": 3,
+   "tags": [
+    "resilience",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-10-24-066",
+   "title": "Hacked emails yield revelations on Germany's far-right AfD party leader",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTUp3TDBYaTdpV3VqejFSMS1BVEZPLVJXTG0wT19yRU1pNW5adEhDYjFXODNMb3JhWWE5aGx4ZjlJdXNNc1JLSkNOTHM2TE55UTB0QnlLN0xhRlZwVHdwRUFoakV3OWJHcWF1Y1E5ZkVjYlJvdWZIVV9RM25pNmx3Mi1RUHZFa0JYaDFWNHgxOGtrMDZmSTMyOWZVSHNZRlZaRmJDZU5HeFQ4MGpUQ0hjbk5XaFBNMEc5Z2dzeVk3Y1d2cnJf?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-23T15:19:15.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hacked emails produced revelations about the leader of Germany's far-right AfD party.",
+   "relevance": 3,
+   "tags": [
+    "hack-and-leak",
+    "germany",
+    "influence"
+   ]
+  },
+  {
+   "id": "2026-10-24-080",
+   "title": "Securing our frontier model training environment",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "OpenAI News",
+   "published": "2026-10-23T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI describes hardened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "containment",
+    "red-team"
+   ]
+  },
+  {
+   "id": "2026-10-24-081",
+   "title": "Starlink still restricted for Ukraine despite Trump saying Musk lifted speed limits",
+   "url": "https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T08:09:47.000Z",
+   "category": "global-security",
+   "summary": "Starlink service for Ukraine reportedly remains restricted with connection interruptions despite claims that speed limits were lifted.",
+   "relevance": 3,
+   "tags": [
+    "satcom",
+    "ukraine",
+    "availability"
+   ]
+  },
+  {
+   "id": "2026-10-24-082",
+   "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+   "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+   "source": "OpenAI News",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI and Poland's national research institute NASK announced a partnership on AI safety, security and technical research.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "eu",
+    "partnership"
+   ]
+  },
+  {
+   "id": "2026-10-24-083",
+   "title": "Multiples vulnérabilités dans les produits Red Hat (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1373/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Red Hat vulnerabilities allowing security policy bypass, denial of service and unspecified issues.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "redhat",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-24-087",
+   "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1375/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Debian LTS Linux kernel flaws allowing privilege escalation, data disclosure and denial of service.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "linux",
+    "kernel"
+   ]
+  },
+  {
+   "id": "2026-10-24-088",
+   "title": "Multiples vulnérabilités dans les produits Tenable (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1370/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR warns of multiple Tenable product vulnerabilities permitting remote arbitrary code execution.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "tenable",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-24-089",
+   "title": "Multiples vulnérabilités dans le noyau Linux de Debian (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1374/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Debian Linux kernel vulnerabilities enabling privilege escalation, data disclosure and denial of service.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "linux",
+    "kernel"
+   ]
+  },
+  {
+   "id": "2026-10-24-090",
+   "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (23 octobre 2026)",
+   "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1376/",
+   "source": "CERT-FR",
+   "published": "2026-10-23T00:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-FR reports multiple Ubuntu Linux kernel vulnerabilities allowing remote code execution, privilege escalation and denial of service.",
+   "relevance": 3,
+   "tags": [
+    "cert-fr",
+    "ubuntu",
+    "kernel"
+   ]
+  },
+  {
+   "id": "2026-10-24-002",
+   "title": "A view from DC: The state enforcement playbook is already spreading beyond social media",
+   "url": "https://iapp.org/news/a/a-view-from-dc-the-state-enforcement-playbook-is-already-spreading-beyond-social-media",
+   "source": "IAPP",
+   "published": "2026-10-24T05:45:16.979Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis arguing US state-level enforcement approaches developed for social media are expanding into other sectors.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "us",
+    "enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-24-010",
+   "title": "Massive oil slick seen weeks after tanker struck off UAE’s coast",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/24/massive-oil-slick-seen-weeks-after-tanker-struck-off-uaes-coast?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-24T04:48:40.000Z",
+   "category": "global-security",
+   "summary": "A large oil slick and beach closures followed a tanker reportedly striking a naval mine off the UAE coast in early October.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-24-011",
+   "title": "France prepares for day of protest a week after nationwide riots",
+   "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-24T04:03:46.000Z",
+   "category": "global-security",
+   "summary": "France deploys more than 70,000 police ahead of a planned day of protest, a week after nationwide riots.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "civil-unrest"
+   ]
+  },
+  {
+   "id": "2026-10-24-016",
+   "title": "Pentagon designates Confucius Institutes a national security threat",
+   "url": "https://www.aljazeera.com/news/2026/10/24/pentagon-designates-confucius-institutes-a-national-security-threat?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-24T03:38:20.000Z",
+   "category": "global-security",
+   "summary": "The Pentagon designated Confucius Institutes a national security threat, saying 80 'propaganda cells' at 30 universities were dismantled.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "china",
+    "influence"
+   ]
+  },
+  {
+   "id": "2026-10-24-027",
+   "title": "Iran war live: Saudi Arabia downs Houthi ballistic missile targeting Riyadh",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/24/iran-war-live-israel-launches-targeted-hebron-operation-after-attack?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-24T00:00:00.000Z",
+   "category": "global-security",
+   "summary": "Saudi-led coalition air defences intercepted a Houthi ballistic missile targeting Riyadh amid the ongoing Iran conflict.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-24-028",
+   "title": "Knicks say using championship rings in an email to fool employees was an 'unfortunate mistake'",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamZRRjFOdkJrdmx2OUJzX0RRc2prYnpPV1Q4b0FQajZWZGQ3ejhMaTNZanFsUHh3X0VMUjNGTGJLNi1oZkRYTTJNTXNkNnFZdzhsbHhvTEtSTEF5RlZ6ZkxJeVppQTh3VUxhSG1TczRVaUFVTEZ6NE1xcFlmXzBhZFJocXd1c2pMWS1adjNXUjRGVXRyenc?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-23T23:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The New York Knicks called the use of championship rings as a lure in a staff phishing simulation an 'unfortunate mistake'.",
+   "relevance": 2,
+   "tags": [
+    "phishing",
+    "awareness"
+   ]
+  },
+  {
+   "id": "2026-10-24-030",
+   "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+   "url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-23T23:08:23.000Z",
+   "category": "global-security",
+   "summary": "Serbia's election is neck-and-neck as a student-led anti-corruption movement mounts the biggest challenge yet to President Vučić.",
+   "relevance": 2,
+   "tags": [
+    "serbia",
+    "elections",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-10-24-032",
+   "title": "Pentagon designates Confucius Institutes in US a national security threat",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTjlqd2hYQ2RCbHlUamZVR3B6YXNIckZLTldSbGZQbGdLeXd2b0RINDhOUVdfZm9TU3BFSGdWcmNKV093WXEwQ3BLSmtOWk5uc05fSnYySnV1VmdJdVhNOHZIU2hQSHRZeEFWWTd6dVJ6N280akV1TkNmZGwxaXBWOTVBNktfbHFRYVhXRm82YXI0QVdxMzdfVk1fZUdKUi1jSlp4X1h4TjRwNzNaTGs2THlkdw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-23T22:20:28.000Z",
+   "category": "global-security",
+   "summary": "Reuters coverage of the Pentagon designating US Confucius Institutes a national security threat.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "china",
+    "influence"
+   ]
+  },
+  {
+   "id": "2026-10-24-047",
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "source": "Simon Willison",
+   "published": "2026-10-23T19:40:54.000Z",
+   "category": "ai-security",
+   "summary": "Moonshot released Kimi K3.1 Pro via API with open weights promised by 4 November 2026, priced below Claude Opus 5.5 and benchmarking near frontier models.",
+   "relevance": 2,
+   "tags": [
+    "llm",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-24-061",
+   "title": "Safety company acknowledges hack seven months after breach exposed millions of crime tips",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSXJYOGppd2dEVERlUXFEbjAzdm9qeTJydFRzQXN1Vk9obFhVb3N4alFvVGxuSmtUZVhzbWlHTjE3RkRLWmlpNjlCS3dlQUxRaWdVX3lwRXlCcjdzQzg3UWdyaXRpUlBheloyWGZFbnNYZy1fMHdkSXpTMk5uWUJHTkNMaU00b0ExNDVwdGtQUjE5c2Q1d0Fpc2RPOUJLY0t1YmptTS01YjhndkZ6M25pcmd4LXBLSGYxazc2enlnOTJnYmU5OVZ1U2RDSks?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-23T16:35:59.000Z",
+   "category": "incidents-threats",
+   "summary": "A public safety company acknowledged a hack seven months after a breach exposed millions of crime tips.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "disclosure"
+   ]
+  },
+  {
+   "id": "2026-10-24-068",
+   "title": "You gave your AI agent access, but who is giving it orders?",
+   "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+   "source": "BleepingComputer",
+   "published": "2026-10-23T14:00:10.000Z",
+   "category": "ai-security",
+   "summary": "Vendor-sponsored piece on how AI agents can be hijacked via malicious emails, sites and plugins to misuse their legitimate permissions, promoting Gen Digital's Agent Trust Hub.",
+   "relevance": 2,
+   "tags": [
+    "ai-agents",
+    "prompt-injection",
+    "sponsored"
+   ]
+  },
+  {
+   "id": "2026-10-24-072",
+   "title": "Ukraine and Russia each exchange 270 prisoners of war",
+   "url": "https://www.politico.eu/article/ukraine-russia-exchange-270-prisoners-war-zelenskyy-putin-trump/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T13:31:40.000Z",
+   "category": "global-security",
+   "summary": "Ukraine and Russia each exchanged 270 prisoners of war in a third swap stage facilitated by the US and UAE.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-10-24-074",
+   "title": "EU prosecutor probes EPP over consultant contracts",
+   "url": "https://www.politico.eu/article/eu-prosecutor-probes-epp-consultant-contracts/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T11:37:43.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Public Prosecutor's Office is investigating the EPP over consultant contracts after Parliament refused to refund some pre-election spending.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-24-077",
+   "title": "Top ICC official urges EU to act ‘as soon as possible’ on US sanctions",
+   "url": "https://www.politico.eu/article/icc-top-official-urges-eu-reassert-sovereignty-as-soon-as-possible/",
+   "source": "Politico Europe",
+   "published": "2026-10-23T10:53:22.000Z",
+   "category": "policy-regulation",
+   "summary": "A senior ICC official urged the EU to clarify its position quickly on US sanctions against the court, which leave companies and NGOs in legal limbo.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "sanctions",
+    "compliance"
+   ]
+  }
+ ]
+}
