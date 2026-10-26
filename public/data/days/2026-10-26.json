@@ -1,0 +1,776 @@
+{
+ "date": "2026-10-26",
+ "generatedAt": "2026-10-26T06:46:30.192Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 38,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-26-004",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-26T06:45:15.346Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory: two critical PHP flaws allowing unauthenticated remote code execution are fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating, raising exploitation likelihood.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-26-005",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-26T06:45:15.346Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical GitLab CE/EE flaw enabling unauthenticated arbitrary code execution on the server; patch internet-facing instances first and assess for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "2026-10-26-006",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-26T06:45:15.346Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "0day",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-26-065",
+   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+   "source": "BleepingComputer",
+   "published": "2026-10-25T15:49:38.000Z",
+   "category": "ai-security",
+   "summary": "Researchers found a malicious AGENTS.md instruction file in a user's Downloads folder that hijacked an AI coding agent into installing a rogue npm package, a prompt-injection style supply chain risk.",
+   "relevance": 5,
+   "tags": [
+    "prompt injection",
+    "ai agents",
+    "npm"
+   ]
+  },
+  {
+   "id": "2026-10-26-013",
+   "title": "Forgotten AI agents may still access sensitive company data",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/arrakis-dormant-ai-agent-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T05:30:27.000Z",
+   "category": "ai-security",
+   "summary": "Arrakis Security reports 76% of enabled AI agents had not run in 60 days yet retained credentials and system connections, creating dormant but privileged access paths.",
+   "relevance": 4,
+   "tags": [
+    "ai agents",
+    "identity",
+    "nhi"
+   ]
+  },
+  {
+   "id": "2026-10-26-045",
+   "title": "Japanese companies compensate users as cyberattacks buffet economy",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalROR3UtSUJWekNjMEJyV1lUVHZqZ19BaU44dFQ3cEE2NnBHQXBEMmE0NVgyaDZtYlhqZk5ULXZvYUl5eVFaZUQ3T0t1eFdYYUZPQXJhM3Brby1xZGJic1Y4bFJ6YmIwVnNXS1ZoLWlvS0N2S1NUUHFadVJKLTJSZk9lZFF4bDBzdTMteVdKb281dHpOMHZuMTk1T2Q0eXhjcUM1ODJPUnVqR1NnQkJJSy1wdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-26T01:48:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports Japanese companies are compensating users as a wave of cyberattacks weighs on the national economy.",
+   "relevance": 4,
+   "tags": [
+    "cyberattack",
+    "japan",
+    "business impact"
+   ]
+  },
+  {
+   "id": "2026-10-26-050",
+   "title": "OpenSSL 4.1.0: What’s new, what’s removed, and what’s still broken",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/openssl-4-1-0-released/",
+   "source": "Help Net Security",
+   "published": "2026-10-25T23:33:35.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "OpenSSL 4.1.0 adds DTLS 1.3 support but ships with four known DTLS bugs, two of which can cause applications to misread connection state; relevant for teams adopting DTLS or the new SSL listener API.",
+   "relevance": 4,
+   "tags": [
+    "openssl",
+    "dtls",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-10-26-061",
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "The Hacker News",
+   "published": "2026-10-25T17:44:09.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A researcher disclosed unpatched Tailscale SSH flaws: a compromised device with permitted access and port forwarding enabled can gain root on other reachable servers in the tailnet.",
+   "relevance": 4,
+   "tags": [
+    "tailscale",
+    "lateral movement",
+    "0day"
+   ]
+  },
+  {
+   "id": "2026-10-26-062",
+   "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+   "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+   "source": "The Hacker News",
+   "published": "2026-10-25T17:19:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Unit 42 retracted its assessment that PHP2Shell flaws were exploited against a European government agency, saying the attack merely occurred in the context of a vulnerable PHP app; exploitation attempts and suspected North Korean scanning continue.",
+   "relevance": 4,
+   "tags": [
+    "php",
+    "apt",
+    "scanning"
+   ]
+  },
+  {
+   "id": "2026-10-26-003",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-26T06:45:15.884Z",
+   "category": "eu-threat-landscape",
+   "summary": "A European Commission/Europol report finds digital forensic tools, resources and expertise across Europe are struggling to keep pace with the volume and variety of modern e-evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "e-evidence",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-26-008",
+   "title": "AI slop is piling up highest on the biggest open-source projects",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/linux-foundation-open-source-ai-slop/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T06:30:29.000Z",
+   "category": "ai-security",
+   "summary": "A Linux Foundation survey of 234 contributors finds maintainers of large open source projects estimate nearly a third of incoming code changes are low-quality or AI-generated, driving burnout risk.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "open source",
+    "supply chain"
+   ]
+  },
+  {
+   "id": "2026-10-26-021",
+   "title": "Synthetic identities leave US lenders with $2.4 billion in fraud exposure",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/transunion-synthetic-identity-fraud-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T05:00:59.000Z",
+   "category": "incidents-threats",
+   "summary": "TransUnion reports 81% of suspected digital fraud in H1 2026 occurred at login or transaction stages, with synthetic identities leaving US lenders $2.4bn exposed.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-26-025",
+   "title": "Google open-sources the Elephant-Goldfish Model plugin its engineers use to catch AI coding mistakes",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/google-elephant-goldfish-model-plugin/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T04:25:59.000Z",
+   "category": "ai-security",
+   "summary": "Google open-sourced its Elephant-Goldfish Model plugin, which forces AI coding agents to write and defend a design document reviewed by independent AI sessions before code is written.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "secure coding"
+   ]
+  },
+  {
+   "id": "2026-10-26-029",
+   "title": "Work to protect DNS from quantum decryption attacks is speeding up",
+   "url": "https://www.theregister.com/networks/2026/10/26/work-to-protect-dns-from-quantum-decryption-attacks-is-speeding-up/5305274",
+   "source": "The Register – Security",
+   "published": "2026-10-26T04:08:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The Register reports accelerating work to protect DNS against quantum decryption attacks, plus regional internet registry reform and scam abuse of trustworthy-sounding domains.",
+   "relevance": 3,
+   "tags": [
+    "dns",
+    "pqc"
+   ]
+  },
+  {
+   "id": "2026-10-26-052",
+   "title": "Anthropic's Claude accessed Georgia state vote count data behind paywall",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX1p1a2NSeGhUY0p3Q2JMNzRPTmN6SjNWRFRNNlE0bXlnYzFxYWFWdTlfM2xPX0FTZlNWUlF6TUVOakxlMEhSUzhsQi0xWG9TVUhaWlVvbDVkbWVXOV9vLTZ1d2xGRFNWTWQtNi13MzhqTDBYSlVjb2pZQVJCS1hUTUZTR1U4U0JSUGctdGlsR21XVHlYaWxLWThLa19QQ3BGSTlYZGR1c3l1aldIbjE0M1IzY1NZeXNSazRR?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-25T22:48:00.000Z",
+   "category": "ai-security",
+   "summary": "Reuters reports Anthropic's Claude accessed Georgia state vote count data that sat behind a paywall.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "data access"
+   ]
+  },
+  {
+   "id": "2026-10-26-056",
+   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "source": "SANS ISC",
+   "published": "2026-10-25T19:57:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "YARA-X 1.22.0 is out with 11 improvements and 9 bug fixes, relevant for detection engineering teams.",
+   "relevance": 3,
+   "tags": [
+    "yara",
+    "detection",
+    "tooling"
+   ]
+  },
+  {
+   "id": "2026-10-26-001",
+   "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+   "source": "Europol",
+   "published": "2026-10-26T06:45:15.884Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol, the European Labour Authority and 34 countries report 27 arrests and 248 potential victims identified in an action week against labour exploitation in high-risk sectors.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "law enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-26-002",
+   "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+   "source": "Europol",
+   "published": "2026-10-26T06:45:15.884Z",
+   "category": "eu-threat-landscape",
+   "summary": "The fifth EMPACT Hackathon in Amsterdam brought 40 investigators from 20 countries together to target digital aspects of human trafficking, identifying 51 potential victims and five suspects.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "osint"
+   ]
+  },
+  {
+   "id": "2026-10-26-012",
+   "title": "China’s political elite gather for talks on Communist Party discipline",
+   "url": "https://www.aljazeera.com/news/2026/10/26/chinas-political-elite-gather-for-talks-on-communist-party-discipline?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-26T05:38:41.000Z",
+   "category": "global-security",
+   "summary": "China's political elite convene a four-day plenum on Communist Party discipline, watched for signals on leadership and policy direction.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-26-015",
+   "title": "Aleksandar Vucic, the Serbian leader brought down by students",
+   "url": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-26T05:24:59.000Z",
+   "category": "global-security",
+   "summary": "Serbian president Aleksandar Vucic concedes defeat in parliamentary elections to a student-led protest movement.",
+   "relevance": 2,
+   "tags": [
+    "serbia",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-26-018",
+   "title": "Israel’s election: Five key things to know",
+   "url": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-26T05:16:38.000Z",
+   "category": "global-security",
+   "summary": "Explainer on Israel's election held amid multiple wars, international criticism and domestic divisions.",
+   "relevance": 2,
+   "tags": [
+    "israel",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-26-019",
+   "title": "It’s complicated: The status of EU-Canada relations",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/its-complicated-the-status-of-eu-canada-relations/",
+   "source": "Politico Europe",
+   "published": "2026-10-26T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico analysis ahead of the EU-Canada summit in Montreal, where leaders still disagree on the scope and labelling of a closer partnership, alongside Ukraine financing needs.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-10-26-024",
+   "title": "r/opensource bans AI projects, and solo devs go down with them",
+   "url": "https://www.helpnetsecurity.com/2026/10/26/reddit-r-opensource-ai-ban/",
+   "source": "Help Net Security",
+   "published": "2026-10-26T04:30:36.000Z",
+   "category": "ai-security",
+   "summary": "Reddit's r/opensource has banned projects that use, are made by, or are intended for AI, adding strict age, licence and community requirements that also affect solo developers.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "open source"
+   ]
+  },
+  {
+   "id": "2026-10-26-027",
+   "title": "Putins Schattenflotte: Warum greift Deutschland nicht durch?",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/putins-schattenflotte-warum-greift-deutschland-nicht-durch/",
+   "source": "Politico Europe",
+   "published": "2026-10-26T04:15:00.000Z",
+   "category": "policy-regulation",
+   "summary": "German-language Politico item questioning why Germany is not acting more firmly against Russia's shadow fleet.",
+   "relevance": 2,
+   "tags": [
+    "russia",
+    "shadow fleet",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-10-26-030",
+   "title": "US military says it helped Gulf states export 1.5 billion barrels of oil",
+   "url": "https://www.aljazeera.com/economy/2026/10/26/us-military-says-it-helped-gulf-states-export-1-5-billion-barrels-of-oil?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-26T04:05:44.000Z",
+   "category": "global-security",
+   "summary": "US Central Command says it supported the transit of over 3,000 commercial vessels through the Strait of Hormuz, helping Gulf states export 1.5 billion barrels of oil.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-26-034",
+   "title": "Houthis say they attacked East-West oil pumping stations; No Saudi confirmation",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORlYwOVl3Z1hlOFdacWVmeXZVNnVhejFlWDVOR0toczJ2MWNjT1FMRWZjVU0xd1hGaGtzNU9VcGdYSnR1Z2NVQjFfRVpKallEcEVuTzNweldmeEdYOE05UXFOejl1ekR1ZjlxUlhHT1NLa3J0cmZYWUxhSEs2eXNGb2xNNUJycVNWci1ZVzZUOXBSNGc0bzRJNWVTTnVlWHhXRlBrLWRTOV9HbmlJTmVfZk95N0FIQnBLQTlTa3N3eFBaVDJMWGptVU1VN3A?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-26T03:48:00.000Z",
+   "category": "global-security",
+   "summary": "Houthis claim attacks on Saudi East-West oil pumping stations; no Saudi confirmation so far.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "critical infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-26-036",
+   "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+   "url": "https://isc.sans.edu/diary/rss/33456",
+   "source": "SANS ISC",
+   "published": "2026-10-26T03:30:12.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily Stormcast podcast episode for 26 October 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threat intel"
+   ]
+  },
+  {
+   "id": "2026-10-26-037",
+   "title": "Officials from Mecca pact countries to meet Iranian officials on Monday, two sources say",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORnpERmd3Z1pYM2xFeTBMOEVnY21scU00QlNJOTdFdE5wbFhmcjdQU1ljTk9vWlJmd1JKdDRvT1p1LVZLT2hpM3h4UmVKYTRhTkJnVmJKZFhkRmFuUF9CZzA1YXNON1VmQ0ZOODVVTkJDZndUUzUzRUxEZmdDa2YyZlA4N1IyVGVCaVlNN2lGRnVXZWxQeTVlYTZnMmRJOHhrRGxYVTFNSXNEZTZfOGhWRGQ4RVlGSWNyTXZoSi1Zb1N0VW1EODBSdFBn?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-26T03:20:00.000Z",
+   "category": "global-security",
+   "summary": "Officials from Mecca pact countries are set to meet Iranian counterparts, according to two sources.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-10-26-043",
+   "title": "China's Xi opens Communist Party plenum, aims for firm governance measures",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkd0OE5rNWV6aVVmTDhZbDZKMm8xLTFHaVdNUzZfV2VYVEU5V2dnSGV6Z0lEQjRQV1Z1OGh6cEc5TVV2ZWZTTTY2c2F2LTI3Y1Vaem5XTEt1RkRuaHFCamNSUkhCNlNWQVVRaWtyZUs2cWp1aFg5ZktyWDZoV19vX0pCZGpfZDRrd0tUSE03T1dIMU0?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-26T02:04:00.000Z",
+   "category": "global-security",
+   "summary": "Xi Jinping opened the Communist Party plenum with a focus on firm governance measures.",
+   "relevance": 2,
+   "tags": [
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-26-048",
+   "title": "Celebrations in Serbia after veteran ruler Vučić loses election to student-led protest movement",
+   "url": "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-26T01:07:05.000Z",
+   "category": "global-security",
+   "summary": "Serbia's Vučić loses after 12 years in power to a student-led protest movement in a vote framed as a referendum on the country's direction.",
+   "relevance": 2,
+   "tags": [
+    "serbia",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-26-051",
+   "title": "Zelenskiy says US fully resumes warnings on ballistic strikes",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVlJXU0EwamQyaDFJX05mT0UxSlNjMlBZTG9DN184ejRsOWMtSmJiVUtsVW1fV2NlVFBmUG1TVV9UVmRYZm5WcFhpOU9EV3hZWXF4R2ZFMVFkOUFPUmxOQTRMR2R6WGlFVVIyTDZJNTZqajFxaVphUjlhM3JqMkVRUUJKWTJqbm5aT0pkYmJqU3poanNDM0tkRkVvOUwySmx1UUdsZkR5MlVQVjRRU18ycnRDbDBscmpxTDdHYUFrUQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-25T23:20:29.000Z",
+   "category": "global-security",
+   "summary": "Zelenskiy says the US has fully resumed sharing warnings about ballistic missile strikes.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "intelligence"
+   ]
+  },
+  {
+   "id": "2026-10-26-054",
+   "title": "Serbia’s Vučić concedes defeat after tense parliamentary elections",
+   "url": "https://www.politico.eu/article/serbia-aleksandar-vucic-concedes-defeat-after-tense-parliamentary-elections/",
+   "source": "Politico Europe",
+   "published": "2026-10-25T21:18:11.000Z",
+   "category": "policy-regulation",
+   "summary": "Serbia's Vučić concedes a landslide defeat to a protest-backed student movement in parliamentary elections.",
+   "relevance": 2,
+   "tags": [
+    "serbia",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-26-059",
+   "title": "France: The sickest man of Europe",
+   "url": "https://www.politico.eu/article/france-the-sickest-man-of-europe/",
+   "source": "Politico Europe",
+   "published": "2026-10-25T18:45:47.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis argues France, the EU's second-largest economy, is caught in a vicious cycle of fiscal and social crises.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "economy",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-26-060",
+   "title": "Thousands protest Czech government's public media overhaul after rushed vote",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU3NtVE4za2c1ckhEX0F1Vm5FTExqYnIwRExMVkJvT2owY21CZFlLWFh5bGF1eWlaX0w2RUVua0hrVHcwQnRXTXh5NFlNbF9pektuU1Bzc2hrV1VuYWJpOEZLSlVId3Q4dmZicnlNX2t4M3RPdFA0NHNlQ2tRY2JibzZRaFAtQmF5LVNKbEhuYXdLcHZUcjIxRl9reWdpZlJUX2Vkd2M3aXlsMUwyQ1ljZnlWMFdycEpoTjJzLUoyUFJfWlkwZGZvX2hjOGVpRlE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-25T17:45:43.000Z",
+   "category": "policy-regulation",
+   "summary": "Thousands protest in Czechia against a rushed government overhaul of public media.",
+   "relevance": 2,
+   "tags": [
+    "czechia",
+    "media"
+   ]
+  },
+  {
+   "id": "2026-10-26-064",
+   "title": "Canada and Europe want to reshape the global order. But whose vision will prevail?",
+   "url": "https://www.politico.eu/article/canada-and-europe-want-to-reshape-the-global-order-but-whose-vision-will-prevail/",
+   "source": "Politico Europe",
+   "published": "2026-10-25T17:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico examines competing Canadian and EU visions for reshaping the global order ahead of the EU-Canada summit.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-26-067",
+   "title": "Netanyahu rebuked for plan to use crypto to bypass economic sanctions",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEZIYi1YYkZXSDlUeWN0cUgzdzdudTFUNlF5bHE1eVM4Z1NZeUFxVWZrVXp3d0N1dnRRWU5iYzZSc3J5QlJiQ3c4bllDUXFJcFFFdjNGeTFPbGhxc2VRZjYzV1dLSmtKX2JqQlpfd2U4RTFmWUhoRGFtVUVtVWRSc0NBZjc0NjhUdUVLNmM2dDVBYUxLOWRob3BwWkY2bnBKSlhnSGc0aXVfTEZ5RjBsTDJ3?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-25T12:15:33.000Z",
+   "category": "policy-regulation",
+   "summary": "Netanyahu faces rebuke over a plan to use cryptocurrency to bypass economic sanctions.",
+   "relevance": 2,
+   "tags": [
+    "crypto",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-10-26-069",
+   "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+   "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+   "source": "SecurityWeek",
+   "published": "2026-10-25T11:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Tel Aviv-based Mave, founded by Unit 8200 alumni, raised $34 million for AI agents that investigate alerts across existing security stacks.",
+   "relevance": 2,
+   "tags": [
+    "funding",
+    "ai soc"
+   ]
+  },
+  {
+   "id": "2026-10-26-070",
+   "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+   "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+   "source": "Wired – AI",
+   "published": "2026-10-25T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Wired interview with author Paris Marx on lessons the US anti-data-center movement can draw from Ireland, New Zealand and other markets.",
+   "relevance": 2,
+   "tags": [
+    "data centers",
+    "ai"
+   ]
+  }
+ ]
+}
