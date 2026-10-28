@@ -1,0 +1,885 @@
+{
+ "date": "2026-10-28",
+ "generatedAt": "2026-10-28T06:46:46.454Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 45,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 1
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-28-002",
+   "title": "Új, Yggdrasil-hálózatban rejtőző backdoort használtak ukrán logisztikai vállalat elleni adattörlő támadásban Az ESET kutatói egy korábban nem dokumentált, MythicRatatoskr nevű backdoort azonosítottak…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/uj-yggdrasil-halozatban-rejtozo-backdoort-hasznaltak-ukran-logisztikai-vallalat-elleni-adattorlo-tamadasban/",
+   "source": "NKI Hungary",
+   "published": "2026-10-28T06:45:15.746Z",
+   "category": "eu-threat-landscape",
+   "summary": "ESET identified a previously undocumented backdoor named MythicRatatoskr, which hides in the Yggdrasil network and was used in a wiper attack against a Ukrainian logistics company.",
+   "relevance": 5,
+   "tags": [
+    "wiper",
+    "backdoor",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-10-28-009",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-28T06:45:14.065Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP fixed two critical vulnerabilities enabling unauthenticated remote code execution in versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating, raising exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-28-010",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-28T06:45:14.065Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw allowing unauthenticated arbitrary code execution on GitLab servers; CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-28-011",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-28T06:45:14.065Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway's AMP feature has a critical, actively exploited flaw allowing unauthenticated remote attackers to write files and run commands as root; patch immediately.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-10-28-059",
+   "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
+   "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
+   "source": "Dark Reading",
+   "published": "2026-10-27T20:42:40.000Z",
+   "category": "incidents-threats",
+   "summary": "A large ongoing social engineering campaign abuses external Microsoft Teams chats to deliver malware within about 15 minutes, possibly linked to the Black Basta ransomware gang.",
+   "relevance": 5,
+   "tags": [
+    "social-engineering",
+    "teams",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2026-10-28-075",
+   "title": "Tageszusammenfassung - 27.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-27102026",
+   "source": "CERT.at",
+   "published": "2026-10-27T17:52:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT.at's daily report covers 'Broccoli2Shell' (CVE-2026-111497), a critical Brotli decoder flaw affecting Node.js, Bun, Envoy Proxy and others, allowing unauthenticated memory corruption and data disclosure.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "supply-chain",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-28-001",
+   "title": "Dahua márkájú megfigyelőkamerák sérülékenységét használják ki a támadók Ukrajna számítógépes vészhelyzeteket kezelő csoportja, a CERT-UA a múlt hét végén olyan incidensekről számolt be, amelyek során…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/dahua-markaju-megfigyelokamerak-serulekenyseget-hasznaljak-ki-a-tamadok/",
+   "source": "NKI Hungary",
+   "published": "2026-10-28T06:45:15.746Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT-UA reported incidents in which attackers exploited a vulnerability in Dahua-branded surveillance cameras.",
+   "relevance": 4,
+   "tags": [
+    "iot",
+    "cert-ua",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-28-004",
+   "title": "Italy's AI Act framework takes shape: What Legislative Decree No. 179/2026 means for organizations",
+   "url": "https://iapp.org/news/a/italys-ai-act-framework-takes-shape-what-legislative-decree-no-179-2026-means-for-organizations",
+   "source": "IAPP",
+   "published": "2026-10-28T06:45:15.317Z",
+   "category": "policy-regulation",
+   "summary": "Italy's Legislative Decree No. 179/2026 implements its national AI Act framework, with practical compliance implications for organisations operating in Italy.",
+   "relevance": 4,
+   "tags": [
+    "ai-act",
+    "compliance",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-28-021",
+   "title": "NIST starts the countdown to retire quantum-vulnerable encryption",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/nist-post-quantum-cryptography-migration-roadmap/",
+   "source": "Help Net Security",
+   "published": "2026-10-28T05:30:29.000Z",
+   "category": "policy-regulation",
+   "summary": "NIST released IR 8547, a roadmap for transitioning to post-quantum cryptography, setting deadlines to retire quantum-vulnerable algorithms, with earlier dates for sensitive federal systems.",
+   "relevance": 4,
+   "tags": [
+    "pqc",
+    "crypto",
+    "nist"
+   ]
+  },
+  {
+   "id": "2026-10-28-023",
+   "title": "Breach victims discover their data was held by companies they’ve never heard of",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/kroll-third-party-data-breaches-insurance-claims-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-28T05:00:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Kroll's Data Breach Outlook 2026 finds nearly 70% of breach-affected individuals were exposed via a third-party supplier, underlining supply chain risk.",
+   "relevance": 4,
+   "tags": [
+    "third-party",
+    "data-breach",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-28-051",
+   "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "source": "BleepingComputer",
+   "published": "2026-10-27T23:35:51.000Z",
+   "category": "incidents-threats",
+   "summary": "Japan's GMO Group told customers to disconnect systems and shut down PCs after an intruder in its Onamae Desktop Cloud threatened to deploy ransomware.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "hosting",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-28-058",
+   "title": "Hackers hijack Convertr analytics script to steal payment card data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+   "source": "BleepingComputer",
+   "published": "2026-10-27T20:57:25.000Z",
+   "category": "incidents-threats",
+   "summary": "A card skimming group compromised a shared analytics script used by e-commerce platform Convertr to steal payment card data at checkout.",
+   "relevance": 4,
+   "tags": [
+    "magecart",
+    "supply-chain",
+    "web-skimming"
+   ]
+  },
+  {
+   "id": "2026-10-28-062",
+   "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+   "url": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
+   "source": "Dark Reading",
+   "published": "2026-10-27T19:58:06.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Analysis of a recent Shai-Hulud supply chain attack argues SBOMs alone are insufficient; defenders need real-time visibility into production code and affected services.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "sbom",
+    "npm"
+   ]
+  },
+  {
+   "id": "2026-10-28-068",
+   "title": "AI 'hacker' finds 4 severe bugs in popular industrial control software in under 4 hours",
+   "url": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811",
+   "source": "The Register – Security",
+   "published": "2026-10-27T19:11:02.000Z",
+   "category": "ai-security",
+   "summary": "An AI-driven research agent found four severe vulnerabilities, one critical, in widely used EPICS industrial control software in under four hours.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "ai",
+    "vulnerability-research"
+   ]
+  },
+  {
+   "id": "2026-10-28-071",
+   "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-27T18:26:46.000Z",
+   "category": "ai-security",
+   "summary": "Researchers detailed three AI-enabled attacks on Japanese organisations, including CyberStrikeAI, which orchestrates 44 AI agents to automate offensive operations.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "offensive-ai",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-28-072",
+   "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+   "source": "BleepingComputer",
+   "published": "2026-10-27T18:20:28.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft issued out-of-band Windows updates to distrust certificates tied to compromised eMudhra certificate authority keys for systems without automatic trust updates.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "windows",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-28-077",
+   "title": "CVE-2026-35273: SSRF to RCE in Oracle PeopleSoft",
+   "url": "https://www.thezdi.com/blog/2026/10/20/cve-2026-35273-ssrf-to-rce-in-oracle-peoplesoft",
+   "source": "Zero Day Initiative",
+   "published": "2026-10-27T16:39:07.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ZDI details CVE-2026-35273, an SSRF-to-RCE chain in Oracle PeopleSoft under mass exploitation by ShinyHunters; researchers reported three distinct flaws patched under one CVE.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "oracle",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-28-082",
+   "title": "Hiding Capabilities in AI Models",
+   "url": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-27T11:01:26.000Z",
+   "category": "ai-security",
+   "summary": "Research shows AI models can provably hide arbitrary capabilities via encrypted backdoored circuits triggered by a secret, undermining pre-deployment capability evaluations.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "backdoor",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-28-003",
+   "title": "Kiberbiztonsági incidens miatt irányították át a betegeket egy új-mexikói kórházból Egy kiberbiztonsági esemény hatására a University of New Mexico Health System hétfőn több, mint 30 klinikáján töröl…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kiberbiztonsagi-incidens-miatt-iranyitottak-at-a-betegeket-egy-uj-mexikoi-korhazbol/",
+   "source": "NKI Hungary",
+   "published": "2026-10-28T06:45:15.746Z",
+   "category": "incidents-threats",
+   "summary": "A cybersecurity incident forced the University of New Mexico Health System to cancel and redirect patients at more than 30 clinics.",
+   "relevance": 3,
+   "tags": [
+    "healthcare",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-28-008",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-28T06:45:14.859Z",
+   "category": "policy-regulation",
+   "summary": "A European Commission/Europol report finds digital forensic tools, resources and expertise are failing to keep pace with the volume and variety of modern e-evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "eu",
+    "e-evidence"
+   ]
+  },
+  {
+   "id": "2026-10-28-012",
+   "title": "Experts defer to AI in decision-making, Anthropic study finds",
+   "url": "https://www.aljazeera.com/economy/2026/10/28/experts-defer-to-ai-in-decision-making-anthropic-study-finds?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-28T06:33:19.000Z",
+   "category": "ai-security",
+   "summary": "An Anthropic study found professional analysts matched an AI assistant's preferred option 86% of the time, highlighting automation bias in expert decision-making.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "human-factors"
+   ]
+  },
+  {
+   "id": "2026-10-28-013",
+   "title": "Bellini Capital CISO on AI security governance and the limits of patching faster",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/brian-blakley-bellini-capital-ai-security-governance/",
+   "source": "Help Net Security",
+   "published": "2026-10-28T06:30:35.000Z",
+   "category": "ai-security",
+   "summary": "Interview with a CISO arguing that faster patching is insufficient; teams should reduce exposure while remediation is pending and manage AI agent ownership and silent model updates.",
+   "relevance": 3,
+   "tags": [
+    "ai-governance",
+    "vulnerability-management"
+   ]
+  },
+  {
+   "id": "2026-10-28-017",
+   "title": "AbuseBox: Open-source monitor for blacklists, DNS, SSL and email records",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/abusebox-open-source-ip-blacklist-monitoring/",
+   "source": "Help Net Security",
+   "published": "2026-10-28T06:00:45.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "AbuseBox is a free open-source tool monitoring IPs and domains across 60 DNS blacklists, AbuseIPDB reputation, DNS, SSL and email authentication records with change alerts.",
+   "relevance": 3,
+   "tags": [
+    "tooling",
+    "open-source",
+    "monitoring"
+   ]
+  },
+  {
+   "id": "2026-10-28-019",
+   "title": "Third Serengeti Sweep Tops 1,400 Arrests as Investigations Mature",
+   "url": "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
+   "source": "Dark Reading",
+   "published": "2026-10-28T06:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Interpol's third Operation Serengeti resulted in 1,462 arrests across 20 African countries and the US, recovering $105 million in stolen funds.",
+   "relevance": 3,
+   "tags": [
+    "law-enforcement",
+    "cybercrime"
+   ]
+  },
+  {
+   "id": "2026-10-28-034",
+   "title": "Disinformation videos, likely from Russia, are exploiting real people to malign Senate candidates",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTXBRQWtGd3R6TThQTzE1bG5tc2FRd3djYVVsd0JiYl9MbTV4dWtXV2RsOTNiV3E4T2Nmdm1hYS1CazJPdVNKUG92aWJIcEdiQnhIaXJmbmZQZzNrZTgzMWswSmIzOUFvcll4NHhKYWNBR0hKaEJVaDNsNjJNMW5XM1VSdXRvUFd2cUFRcW9POWl6T1FyUWhGSmpPUnk2Mndtb1k5V2Fray15NGJDTzA0Y1NzTQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-28T03:14:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Disinformation videos likely originating from Russia are exploiting footage of real people to smear US Senate candidates ahead of the midterms.",
+   "relevance": 3,
+   "tags": [
+    "disinformation",
+    "influence-ops"
+   ]
+  },
+  {
+   "id": "2026-10-28-053",
+   "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
+   "source": "BleepingComputer",
+   "published": "2026-10-27T22:43:27.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI says GPT-6.1 Terra is safer overall than older models, but safety testing surfaced more destructive-action flags.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "model-safety"
+   ]
+  },
+  {
+   "id": "2026-10-28-055",
+   "title": "UNM Health ransomware attack disrupts patient care, surgeries",
+   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+   "source": "BleepingComputer",
+   "published": "2026-10-27T22:07:34.000Z",
+   "category": "incidents-threats",
+   "summary": "The University of New Mexico Health Sciences Center disclosed a ransomware attack causing system outages that disrupted patient care, surgeries and academic activity.",
+   "relevance": 3,
+   "tags": [
+    "ransomware",
+    "healthcare"
+   ]
+  },
+  {
+   "id": "2026-10-28-056",
+   "title": "Before you file that AI bug report, OpenAI has some advice",
+   "url": "https://cyberscoop.com/openai-ai-generated-bug-reports/",
+   "source": "CyberScoop",
+   "published": "2026-10-27T21:21:27.000Z",
+   "category": "ai-security",
+   "summary": "Open-source maintainers are overwhelmed by low-quality AI-generated security reports, with some refusing them; OpenAI calls for higher-quality findings and better coordination.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "vuln-disclosure",
+    "open-source"
+   ]
+  },
+  {
+   "id": "2026-10-28-057",
+   "title": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
+   "url": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
+   "source": "Dark Reading",
+   "published": "2026-10-27T21:15:03.000Z",
+   "category": "ai-security",
+   "summary": "Dark Reading outlines three frameworks for CISOs to manage AI liability through documentation, transparency and AI vendor contract terms.",
+   "relevance": 3,
+   "tags": [
+    "ai-governance",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-10-28-061",
+   "title": "Nefilim, Hive ransomware operator given five-year-plus sentence after guilty plea",
+   "url": "https://therecord.media/nefilim-hive-ransomware-operator-70-months-prison",
+   "source": "The Record",
+   "published": "2026-10-27T20:40:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Ukrainian national Artem Stryzhak was sentenced to over five years after pleading guilty to participating in the Nefilim and Hive ransomware operations.",
+   "relevance": 3,
+   "tags": [
+    "ransomware",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-28-069",
+   "title": "EXCLUSIVE: Hackers target US FEC system, disrupting campaign finance disclosures days before midterms",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbDV3WWJ5Ulh3Q05tT203WGNGVE1UNmFvZ2ZoclFXemtrWXFhNlRhUmtabmlPZXRaYU1sQ251VWhSSWJMODNJQkRrMk9MNFdfb1RVT2VJQTR4akpfM0JQNk9wMkpMV2tFY2tHc2ZpTGMwcHlLNFU3UDBrZk5MbGFrb2ZqX25XRVZCQmI5Z29LbDI5cjF2S0JodjVNcVVmV3RyUFR1SW5RZUwwY2JlSWJrRUMyNEgta3dl?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-27T18:44:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Hackers targeted the US Federal Election Commission system, disrupting campaign finance disclosures days before the midterm elections.",
+   "relevance": 3,
+   "tags": [
+    "government",
+    "election-security"
+   ]
+  },
+  {
+   "id": "2026-10-28-076",
+   "title": "Impatient with Brussels, European capitals forge ahead with social media bans",
+   "url": "https://www.politico.eu/article/europe-capitals-brush-off-brussels-national-social-media-bans/",
+   "source": "Politico Europe",
+   "published": "2026-10-27T17:04:13.000Z",
+   "category": "policy-regulation",
+   "summary": "Several European capitals are pushing their own social media bans for minors, risking fragmentation of the EU's planned Kids Act.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "regulation",
+    "online-safety"
+   ]
+  },
+  {
+   "id": "2026-10-28-081",
+   "title": "From industry concern to practical action: the value of working with regulators",
+   "url": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+   "source": "NCSC UK",
+   "published": "2026-10-27T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "NCSC UK describes how industry, the NCSC and the FCA cooperated to enable threat information sharing while protecting market integrity.",
+   "relevance": 3,
+   "tags": [
+    "ncsc",
+    "information-sharing",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-10-28-088",
+   "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+   "url": "https://isc.sans.edu/diary/rss/33458",
+   "source": "SANS ISC",
+   "published": "2026-10-27T02:09:55.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Apple released patches for 304 vulnerabilities across its products, in line with the volume of previous updates.",
+   "relevance": 3,
+   "tags": [
+    "apple",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-28-006",
+   "title": "27 arrests and 248 potential victims identified in action week against labour exploitation",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/27-arrests-and-248-potential-victims-identified-in-action-week-against-labour-exploitation",
+   "source": "Europol",
+   "published": "2026-10-28T06:45:14.859Z",
+   "category": "global-security",
+   "summary": "Europol, the European Labour Authority and 34 countries reported 27 arrests and 248 potential victims identified in an action week against labour exploitation.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-28-007",
+   "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+   "url": "http://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+   "source": "Europol",
+   "published": "2026-10-28T06:45:14.859Z",
+   "category": "global-security",
+   "summary": "The fifth EMPACT Hackathon in Amsterdam, with 40 experts from 20 countries, identified 51 potential human trafficking victims and five suspects via online investigation techniques.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "osint"
+   ]
+  },
+  {
+   "id": "2026-10-28-018",
+   "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+   "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+   "source": "Wired – AI",
+   "published": "2026-10-28T06:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Senior English judge Geoffrey Vos argues AI could adjudicate many civil cases, raising questions on where limits should be drawn.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "legal"
+   ]
+  },
+  {
+   "id": "2026-10-28-022",
+   "title": "The Putin call dividing EU leaders",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-putin-call-dividing-eu-leaders/",
+   "source": "Politico Europe",
+   "published": "2026-10-28T05:05:00.000Z",
+   "category": "global-security",
+   "summary": "EU unity on Ukraine is strained as Finland's and Norway's leaders opened a direct line to Putin, drawing criticism from some European leaders while Ukraine backs the effort.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-28-024",
+   "title": "EXCLUSIVE: China's CXMT to start advanced AI memory production despite poor yields, sources say",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTDFWeWo1UVJwSDh4OXB5RnJyVVhXaG1zNHZIMlMyZmpaV0FEU3llN21sZG05OGpyUEZtR3FuTTJ6Y2pBZzEwWVU0dFRPSkExVFRfUGg0SFpzb2tLWDlObGFIQ3Axa2lodWgySngtb2ZEMUFxcXlwZUJnbmdNcTZCalJtSDV5TUpTM282XzFldlZTM012WFRhc0hQamIwOGMxUlpYOEsxUDh1UVkyWjE0aWh2OVdFOTN1cEVKVER0RmE4eEhudGc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-28T04:50:00.000Z",
+   "category": "global-security",
+   "summary": "China's CXMT will reportedly start advanced AI memory production despite poor yields, per Reuters sources.",
+   "relevance": 2,
+   "tags": [
+    "semiconductors",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-28-037",
+   "title": "EU Public Prosecutor’s Office will be ‘killed softly for doing its job’ says outgoing chief",
+   "url": "https://www.politico.eu/article/eppo-european-public-prosecutors-office-laura-codruta-kovesi-interview/",
+   "source": "Politico Europe",
+   "published": "2026-10-28T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Outgoing EPPO chief Laura Codruța Kövesi warns the European Public Prosecutor's Office is being undermined for doing its job.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-28-038",
+   "title": "Serbian opposition landslide exposes cost of EU’s bet on ousted Vučić",
+   "url": "https://www.politico.eu/article/serbian-opposition-landslide-exposes-eu-bet-cost-aleksandar-vucic-outsted-belgrade/",
+   "source": "Politico Europe",
+   "published": "2026-10-28T03:00:00.000Z",
+   "category": "global-security",
+   "summary": "A Serbian opposition landslide leaves the EU facing a skeptical incoming government after years of backing Vučić.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "balkans"
+   ]
+  },
+  {
+   "id": "2026-10-28-041",
+   "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
+   "url": "https://isc.sans.edu/diary/rss/33464",
+   "source": "SANS ISC",
+   "published": "2026-10-28T02:30:11.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily podcast episode for 28 October 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-28-045",
+   "title": "Oil rises over 1% after Saudi Arabian refinery attack reignites supply risk",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUhHblNqOGNPczlpdUR2NDFMWjZxX2FZYjVTTzREX2R4YU5jRzF2ckN1MG9sSnIxWG9hbDJ0TjV4YTZXRjdqSUc3aF9OcTJuUVlJZkZrdUd0V0RMUU1qUWxiNDdmdXhCTmJUczZWOFRUWTRKdzJQLUJYNXZBODhnTjJfOXMyNU01OGVreWM5TkNyamNjbzV5UzAxX3ZOdWcwcUE5SFZHSkEyUjZ1M1dUQ3ByRDdxbC13ZzRQR0xfcTZ0bjh6dnNPalJZRWI?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-28T01:49:00.000Z",
+   "category": "global-security",
+   "summary": "Oil prices rose over 1% after an attack on a Saudi refinery revived supply risk concerns.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-28-060",
+   "title": "All the security risks Anthropic is worried about before its IPO",
+   "url": "https://cyberscoop.com/anthropic-ipo-filing-cybersecurity-risks/",
+   "source": "CyberScoop",
+   "published": "2026-10-27T20:41:16.000Z",
+   "category": "ai-security",
+   "summary": "CyberScoop reviews the AI and security risks Anthropic flags in its IPO filing, including how commercial pressures shape safety decisions.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-10-28-074",
+   "title": "EU eyes global tax deal revenue to boost next budget",
+   "url": "https://www.politico.eu/article/eu-eyes-global-tax-deal-revenue-to-boost-next-budget/",
+   "source": "Politico Europe",
+   "published": "2026-10-27T17:58:36.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council President Costa is pushing member states to agree new EU-wide levies, including global tax deal revenue, to finance the next EU budget.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  }
+ ]
+}
