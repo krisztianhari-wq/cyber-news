@@ -1,0 +1,944 @@
+{
+ "date": "2026-10-29",
+ "generatedAt": "2026-10-29T06:47:00.151Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 48,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-29-012",
+   "title": "BSI stellt Curriculum für NIS2-Geschäftsleitungsschulung vor",
+   "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/NIS-2-Curriculum-CEO-Schulung_261028.html",
+   "source": "BSI Germany",
+   "published": "2026-10-29T06:45:15.013Z",
+   "category": "policy-regulation",
+   "summary": "Germany's BSI published a curriculum for NIS2 management board training, supporting the directive's governance and liability requirements for executives.",
+   "relevance": 5,
+   "tags": [
+    "nis2",
+    "bsi",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-29-013",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-29T06:45:15.005Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating, raising exploitation likelihood.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-10-29-014",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-29T06:45:15.005Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw allowing unauthenticated arbitrary code execution on GitLab servers; CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "devops"
+   ]
+  },
+  {
+   "id": "2026-10-29-015",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-29T06:45:15.005Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway's AMP feature has a critical flaw enabling unauthenticated remote file write and root command execution; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "0day",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-10-29-057",
+   "title": "Belgium tax agency hit by cyberattack, shuts online portal",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTUFNRDhyTkhSOUMtUGpZNXMycjZXSVl1VW9pMTNoclk1Q3N5UmxIZlJ4ZnZzRHUyRmRodUloY0hpdjV5RDRYbGIyRkJOY19JY1dScnVhT05yMTgzOUw3NVhlX0haWC0zWF9JX05kN2x1Z1lYWlI4VGZDb0EzVXBEcmh6d01BOWs2N0xlWVNMcFRtS2toRVl2bFEzU0lLU0twUzlyODAta3NFZ081cG9z?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-28T23:14:33.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Belgium's tax agency was hit by a cyberattack and shut down its online portal, disrupting citizen-facing services.",
+   "relevance": 5,
+   "tags": [
+    "belgium",
+    "government",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-29-062",
+   "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+   "url": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-28T21:32:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos details UAT-11473, a sophisticated APT exploiting CVE-2026-20127, an authentication bypass in Cisco SD-WAN Catalyst Controllers, to deploy the KeyDrift implant.",
+   "relevance": 5,
+   "tags": [
+    "apt",
+    "cisco",
+    "sd-wan"
+   ]
+  },
+  {
+   "id": "2026-10-29-076",
+   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "source": "The Hacker News",
+   "published": "2026-10-28T18:08:33.000Z",
+   "category": "incidents-threats",
+   "summary": "Lumen Black Lotus Labs attributes a now-disrupted covert access network, 'Silent Train', to Volt Typhoon; it used rotating chains of compromised SOHO, IoT and enterprise devices for zero-day campaigns.",
+   "relevance": 5,
+   "tags": [
+    "volt-typhoon",
+    "orb",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-29-002",
+   "title": "Puffer túlcsordulás a végtelenbe és tovább A TianoCore EDK II firmware fejlesztési környezet PXE Base Code driverében memóriakezelési hibát azonosítottak, amely hálózati indítás közben kihasználható…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/puffer-tulcsordulas-a-vegtelenbe-es-tovabb/",
+   "source": "NKI Hungary",
+   "published": "2026-10-29T06:45:16.446Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A memory handling flaw was identified in the PXE Base Code driver of the TianoCore EDK II firmware framework, exploitable during network boot. Affects a wide range of UEFI-based servers.",
+   "relevance": 4,
+   "tags": [
+    "uefi",
+    "firmware",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-10-29-004",
+   "title": "LiteLLM: egyetlen kulcs kiszivárgása több ezer felhasználót érintettet A LiteLLM egy AI-fejlesztésekhez használt, széles körben elterjedt nyílt forráskódú szoftver, melyet az elmúlt napokban súlyos e…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/litellm-egyetlen-kulcs-kiszivargasa-tobb-ezer-felhasznalot-erintettet/",
+   "source": "NKI Hungary",
+   "published": "2026-10-29T06:45:16.446Z",
+   "category": "ai-security",
+   "summary": "A single leaked key in the widely used open-source LiteLLM AI proxy reportedly exposed thousands of users, highlighting supply chain risk in AI tooling.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "secrets"
+   ]
+  },
+  {
+   "id": "2026-10-29-020",
+   "title": "Russia’s alleged sabotage campaign in Europe raises fears of escalation",
+   "url": "https://www.aljazeera.com/news/2026/10/29/russias-alleged-sabotage-campaign-in-europe-raises-fears-of-escalation?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-29T06:01:29.000Z",
+   "category": "global-security",
+   "summary": "Reporting on Russia's alleged hybrid sabotage campaign in Europe, including drone incursions and assassination plots, raising escalation fears.",
+   "relevance": 4,
+   "tags": [
+    "hybrid",
+    "russia",
+    "sabotage"
+   ]
+  },
+  {
+   "id": "2026-10-29-021",
+   "title": "IT bosses are confident they’ve found the certificates they don’t know about",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/tls-certificate-automation-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-29T06:00:06.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Sectigo survey of 500 IT leaders: 40% feel very prepared for monthly TLS renewals, but only 4% are fully automated and 61% had a certificate-related outage in the past year.",
+   "relevance": 4,
+   "tags": [
+    "pki",
+    "tls",
+    "automation"
+   ]
+  },
+  {
+   "id": "2026-10-29-037",
+   "title": "Chinese AI model carries out complex cyberattacks in controlled tests, researchers say",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVE5MN2Rib1hrX3Z1VDhFWlZiSTUyc0oydVhxNW5OZ1RBOElfamxQWUVBcTFyd3NVbmxBNjd3QW9sYll4U1lfUDE5bGJMVXZXZW1CVS1NV3FHaTFSQ3VCanUtYXZRcm1ZWnJCazBzUWVCakZLaUVoTV9MV1BCblBzeWlIX3A2OWNiNXdYRG5JSlYwakpZdDdRUjdYajQtcXBERVdJSHYyRVIyT0lLOEIxVGg2WnFmREM2LWp5ajA3aVIxTUVx?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-29T03:28:00.000Z",
+   "category": "ai-security",
+   "summary": "Researchers report a Chinese AI model performed complex cyberattacks in controlled tests, adding to evidence of AI-enabled offensive capability.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "offensive",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-10-29-052",
+   "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+   "url": "https://isc.sans.edu/diary/rss/33466",
+   "source": "SANS ISC",
+   "published": "2026-10-29T00:42:15.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC documents another ClickFix campaign, the social-engineering technique that tricks users into pasting malicious commands.",
+   "relevance": 4,
+   "tags": [
+    "clickfix",
+    "social-engineering",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-29-053",
+   "title": "Officials seize domain of top bulletproof hosting provider Virtualine",
+   "url": "https://cyberscoop.com/virtualine-bulletproof-hosting-provider-seized/",
+   "source": "CyberScoop",
+   "published": "2026-10-29T00:38:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Authorities seized the domain of Virtualine, a Russian-speaking bulletproof hosting provider that researchers say received nearly a fifth of tracked illicit-attributed inflows this year.",
+   "relevance": 4,
+   "tags": [
+    "takedown",
+    "bulletproof-hosting",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2026-10-29-064",
+   "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime",
+   "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+   "source": "BleepingComputer",
+   "published": "2026-10-28T20:47:22.000Z",
+   "category": "incidents-threats",
+   "summary": "US law enforcement seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums and linked to ransomware operations.",
+   "relevance": 4,
+   "tags": [
+    "takedown",
+    "ransomware",
+    "hosting"
+   ]
+  },
+  {
+   "id": "2026-10-29-068",
+   "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+   "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121",
+   "source": "The Register – Security",
+   "published": "2026-10-28T19:56:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers are probing another Oracle E-Business Suite bug, while ShinyHunters' PeopleSoft zero-day is reported to involve three separate vulnerabilities.",
+   "relevance": 4,
+   "tags": [
+    "oracle",
+    "0day",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-10-29-069",
+   "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+   "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+   "source": "Dark Reading",
+   "published": "2026-10-28T19:39:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The GhostAction GitHub supply chain campaign has slowed, but attackers are shifting toward developer endpoints and cloud access.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "github",
+    "devops"
+   ]
+  },
+  {
+   "id": "2026-10-29-080",
+   "title": "Tageszusammenfassung - 28.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-28102026",
+   "source": "CERT.at",
+   "published": "2026-10-28T17:33:50.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers the EDK2 UEFI code-execution flaw affecting most servers and Microsoft out-of-band Windows updates distrusting compromised eMudhra certificates.",
+   "relevance": 4,
+   "tags": [
+    "uefi",
+    "certificates",
+    "cert-at"
+   ]
+  },
+  {
+   "id": "2026-10-29-081",
+   "title": "GitHub’s npm package firewall can block brand-new versions before they install",
+   "url": "https://www.helpnetsecurity.com/2026/10/28/github-package-firewall-npm/",
+   "source": "Help Net Security",
+   "published": "2026-10-28T17:09:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitHub launched an npm package firewall that enforces enterprise policy before install, blocking known malware, critical vulnerabilities and brand-new package versions.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "npm",
+    "github"
+   ]
+  },
+  {
+   "id": "2026-10-29-083",
+   "title": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+   "source": "BleepingComputer",
+   "published": "2026-10-28T16:45:47.000Z",
+   "category": "incidents-threats",
+   "summary": "Sony Network Communications confirmed a breach affecting roughly 2.5 million records of current and former ISP customers' personal information.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "telecom",
+    "pii"
+   ]
+  },
+  {
+   "id": "2026-10-29-089",
+   "title": "Studying Fraudulent North Korean IT Workers",
+   "url": "https://www.schneier.com/blog/archives/2026/10/studying-fraudulent-north-korean-it-workers.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-28T11:05:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers set up a fake start-up to study fraudulent North Korean IT workers and their infiltration techniques.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "insider-risk",
+    "hiring"
+   ]
+  },
+  {
+   "id": "2026-10-29-094",
+   "title": "ESET APT Activity Report Q2 2026–Q3 2026",
+   "url": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
+   "source": "ESET WeLiveSecurity",
+   "published": "2026-10-28T09:45:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ESET published its APT Activity Report covering selected state-aligned groups tracked in Q2 and Q3 2026.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "threat-intel",
+    "report"
+   ]
+  },
+  {
+   "id": "2026-10-29-001",
+   "title": "Az MI-vezérelt kibertámadások miatt egyre több szolgáltatáskiesésre figyelmeztet Ausztrália Az Australian Signals Directorate (ASD) főigazgatója, Abigail Bradshaw arra figyelmeztetett, hogy az ország…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/az-mi-vezerelt-kibertamadasok-miatt-egyre-tobb-szolgaltataskiesesre-figyelmeztet-ausztralia/",
+   "source": "NKI Hungary",
+   "published": "2026-10-29T06:45:16.446Z",
+   "category": "ai-security",
+   "summary": "Australia's ASD director-general warned that AI-driven cyberattacks are causing an increasing number of service outages in the country.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "outage",
+    "asd"
+   ]
+  },
+  {
+   "id": "2026-10-29-003",
+   "title": "Régebbi eszközökön is elérhetővé váltak az Apple fontos frissítései Az Apple visszamenőleg elérhetővé tette régebbi iPhone és iPad készülékekre azokat az előző hónapban közzétett biztonsági frissítés…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/regebbi-eszkozokon-is-elerhetove-valtak-az-apple-fontos-frissitesei/",
+   "source": "NKI Hungary",
+   "published": "2026-10-29T06:45:16.446Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Apple has retroactively released last month's security fixes for older iPhone and iPad models, extending patch coverage to legacy devices.",
+   "relevance": 3,
+   "tags": [
+    "apple",
+    "patching",
+    "mobile"
+   ]
+  },
+  {
+   "id": "2026-10-29-007",
+   "title": "Notes from the AI Governance Center: Agentified cyberattacks",
+   "url": "https://iapp.org/news/a/notes-from-the-ai-governance-center-agentified-cyberattacks",
+   "source": "IAPP",
+   "published": "2026-10-29T06:45:15.701Z",
+   "category": "ai-security",
+   "summary": "IAPP AI Governance Center note discussing 'agentified' cyberattacks, where AI agents carry out offensive operations.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-29-011",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-29T06:45:15.652Z",
+   "category": "policy-regulation",
+   "summary": "A new European Commission/Europol report finds investigative tools, resources and expertise are struggling to keep pace with the volume and forms of digital evidence.",
+   "relevance": 3,
+   "tags": [
+    "forensics",
+    "e-evidence",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-10-29-028",
+   "title": "Stolen staff logins are spreading attacks between K-12 school districts",
+   "url": "https://www.helpnetsecurity.com/2026/10/29/cis-k-12-cybersecurity/",
+   "source": "Help Net Security",
+   "published": "2026-10-29T05:00:01.000Z",
+   "category": "incidents-threats",
+   "summary": "MS-ISAC notified 808 of its 6,116 K-12 members that staff credentials were circulating on dark web markets; attackers phish one district account then pivot to others.",
+   "relevance": 3,
+   "tags": [
+    "credentials",
+    "phishing",
+    "education"
+   ]
+  },
+  {
+   "id": "2026-10-29-055",
+   "title": "Cyberattack concealed political spending by big donors before US midterm elections",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYnZZTVlBNFp4UHBwR0dYQ19GaGtNXzFtcExQamE5QmZkX2c0dGNkUkdtRXlHWDB6dnJKUDRWa3ZFeVliUmNUMlY3cEpEei1sWE5OX2ZYcnEydlozWFZ4b0p2M1dPQUR1NXowNEtuRmVhSl9RQVo5T3JSNGVyMWw0QnFkX2JiTjhycGVjZVFOb3ZzN3RwUWo4WlNvY3JmOFpPSVlTZHBQTzR1ZVJ6NUxCbjV4Vi0tQUhG?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-28T23:43:42.000Z",
+   "category": "incidents-threats",
+   "summary": "A cyberattack reportedly concealed political spending by large donors ahead of the US midterm elections.",
+   "relevance": 3,
+   "tags": [
+    "elections",
+    "integrity"
+   ]
+  },
+  {
+   "id": "2026-10-29-061",
+   "title": "Leak site publishes data on more than 41,000 DHS employees obtained by hacktivists",
+   "url": "https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/",
+   "source": "CyberScoop",
+   "published": "2026-10-28T21:33:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A leak site published data on more than 41,000 DHS employees obtained by a hacktivist group and republished via DDoSecrets.",
+   "relevance": 3,
+   "tags": [
+    "hacktivism",
+    "data-leak",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-10-29-067",
+   "title": "EU lawmakers slam new border force powers to surveil social media",
+   "url": "https://www.politico.eu/article/eu-lawmakers-slam-new-border-force-powers-to-surveil-social-media-frontex/",
+   "source": "Politico Europe",
+   "published": "2026-10-28T20:24:30.000Z",
+   "category": "policy-regulation",
+   "summary": "EU lawmakers criticised a broad new mandate for the EU border agency to monitor social media for illegal content, citing surveillance concerns.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "surveillance",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-29-077",
+   "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+   "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance",
+   "source": "The Record",
+   "published": "2026-10-28T18:02:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Privacy nonprofit noyb sued Scale AI over allegedly invasive monitoring of freelancers, including keystroke and mouse-click recording.",
+   "relevance": 3,
+   "tags": [
+    "gdpr",
+    "privacy",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-29-085",
+   "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-28T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft commentary on the CISO role in the agentic era, focusing on identity and data guardrails for AI agents and modernising defence against AI-powered threats.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "ciso",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-10-29-005",
+   "title": "New York's governor signs youth AI chatbot safety bill",
+   "url": "https://iapp.org/news/a/new-york-s-governor-signs-youth-ai-chatbot-safety-bill",
+   "source": "IAPP",
+   "published": "2026-10-29T06:45:15.701Z",
+   "category": "policy-regulation",
+   "summary": "New York's governor signed legislation on safety requirements for AI chatbots used by minors.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "regulation",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-29-006",
+   "title": "Trust by design: Provenance for the agentic AI era",
+   "url": "https://iapp.org/news/a/trust-by-design-provenance-for-the-agentic-ai-era",
+   "source": "IAPP",
+   "published": "2026-10-29T06:45:15.701Z",
+   "category": "ai-security",
+   "summary": "IAPP commentary on building provenance and trust mechanisms into agentic AI deployments.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "provenance",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-29-008",
+   "title": "SB 53 and the TDTA: How California is regulating AI transparency",
+   "url": "https://iapp.org/news/a/sb-53-and-the-tdta-how-california-is-regulating-ai-transparency",
+   "source": "IAPP",
+   "published": "2026-10-29T06:45:15.701Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of California's SB 53 and the TDTA and how the state is approaching AI transparency obligations.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "transparency",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-29-019",
+   "title": "Spain reckons with 2nd deadly train crash of the year ahead of national election",
+   "url": "https://www.npr.org/2026/10/29/nx-s1-6021963/spain-train-crash-updates",
+   "source": "NPR World",
+   "published": "2026-10-29T06:10:11.000Z",
+   "category": "global-security",
+   "summary": "Spain's second high-speed rail disaster this year killed 68 people and has raised fresh concerns about national rail safety ahead of elections.",
+   "relevance": 2,
+   "tags": [
+    "safety",
+    "spain",
+    "transport"
+   ]
+  },
+  {
+   "id": "2026-10-29-025",
+   "title": "Russia says more than 600 drones launched towards Moscow overnight",
+   "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-29T05:22:21.000Z",
+   "category": "global-security",
+   "summary": "Russia reported more than 600 drones launched towards Moscow overnight, the latest in a series of large drone assaults.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "drones"
+   ]
+  },
+  {
+   "id": "2026-10-29-027",
+   "title": "The great EU-Canada lovefest",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-great-eu-canada-lovefest/",
+   "source": "Politico Europe",
+   "published": "2026-10-29T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Podcast coverage of the EU-Canada summit in Montreal, covering defence, critical raw materials, space and AI cooperation.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "canada",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-29-032",
+   "title": "Ukraine sends drones towards Moscow, Russia strikes Kharkiv, officials say",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOb3F1YnVQRFlzek5JbUlNWWRDWEQySFVzemNFQ0p0VHhjUTBMdnQ3VktON3FFaWE5VENiVFJSaTl3TTlzZVluQnlTT1NFR3gybTMyTjR2eVRsN0lrNlJSVkVweGFyTW5odGtDYm52SW85Smx1LWEyYnhUaWZNMUxjZHpXNG1VdDVpR3NmcWh4SnpFVVByVlZJQWNySjBFM1R3NWwwUThYZmRJX2toQzRGTjdEcnI4ZzdmLUo4SVpR?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-29T04:20:00.000Z",
+   "category": "global-security",
+   "summary": "Ukraine launched drones toward Moscow while Russia struck Kharkiv, officials said.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-29-035",
+   "title": "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNnZ5bUJlNUMySGJ0bkRrSWk0b0RFeXVlLVZEU1FJbHBQUTNESXZyWkdtdm5hOFY3T1UzaTNmWGJXNkNIcDJrUGR2MUd0djRRUTJ3WHcyS1VncEt4VnpELUhvdk9ZVlNod0I2djAyVHUzeDZQd004bHNkZTNKQWdsVk9udEE4SWFuemZFS1liUnNYNnY4MFdVX1B4UlJDNVNrYlJEZmk4cHdEVWw0LUtnNkd0bmw3a1JOQUtGU0pRcUtVTlN2dlZEdUNnWXN3UUdm?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-29T03:59:00.000Z",
+   "category": "global-security",
+   "summary": "North Korea fired around 10 ballistic missiles toward the sea off its east coast, according to Seoul.",
+   "relevance": 2,
+   "tags": [
+    "dprk",
+    "missiles"
+   ]
+  },
+  {
+   "id": "2026-10-29-041",
+   "title": "EU and Canada eye now-or-never window to Trump-proof their ties",
+   "url": "https://www.politico.eu/article/eu-and-canada-eye-golden-window-to-trump-proof-their-ties/",
+   "source": "Politico Europe",
+   "published": "2026-10-29T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Brussels and Ottawa are seeking an ambitious upgrade of EU-Canada relations while the US president is focused on the midterms.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "trade",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-29-046",
+   "title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelRKZ21DWjJBX09xRTJyZnBicWsyLWJTQk1CcmVoVFJYLXBIcWt6LWpwdDRyeGhzbFpNaUFmV0ZhM0NuWmNVRXpKd2s2QnY3bTdwTUFJSFBoUEVUNjlWbThFLXpxN0dkRklMYy1JQVZhWW5abUNtQlZYc21la2htWWVzUWVBMjhTMHc5OF80V3EzLWVPQmFhZnFyOExtWEVfeFhsMnVOYzdfakc1NHdIMjN3?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-29T02:24:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan flagged an 'obvious' threat from about 50 Chinese vessels operating across a wide sweep of waters.",
+   "relevance": 2,
+   "tags": [
+    "china",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "2026-10-29-050",
+   "title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZ2JmLWlsUUNaZ2g5VnF1TU1IZU5rWDV6T1ZLdXJBdmJrVnpHanBobFBiWjNkaXJGMjE1MUlqMlVrOGJOaHVrU18yVkRBWFVoOENmVjhqYVA3Vy1EdkdXTDN1REJPQWpVdFp5MFdlMzFhMXhEVUdBQS01STRwTW41R2RKWWloUHBhYUNVY2tyR19Geld5RHc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-29T00:56:00.000Z",
+   "category": "global-security",
+   "summary": "Samsung expects the AI chip shortage to worsen and left investors without clarity on shareholder returns.",
+   "relevance": 2,
+   "tags": [
+    "supply-chain",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "2026-10-29-060",
+   "title": "Ukraine peace talks: 5 things to know about the chances of a deal",
+   "url": "https://www.politico.eu/article/ukraine-peace-talks-5-things-to-know-about-the-chances-of-a-deal/",
+   "source": "Politico Europe",
+   "published": "2026-10-28T21:48:03.000Z",
+   "category": "global-security",
+   "summary": "Overview of Ukraine truce negotiation prospects, with concerns that escalation in the US-Iran conflict could derail talks.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-10-29-063",
+   "title": "Court strikes down West Virginia law barring disclosure of public officials’ personal data",
+   "url": "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
+   "source": "The Record",
+   "published": "2026-10-28T20:50:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A US federal appellate panel struck down West Virginia's Daniel's Law analogue shielding police and officials' personal data as unconstitutional.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "legal",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-10-29-070",
+   "title": "Anthropic tells California governor courts should be able to block risky AI models",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQb3lwQkM2YlRwQ3lBT0UxOUtJTks3bkNxb0Rfbm90ZFAxdGZyT05KMXY2ZEVEYTJZeHFqd0YyMTFVQXBfOEtWeHFUdGt3cWRTNXhqTjloNGVEdkoyU0RxUHowMUw4UXNwVWUzdjQzMmZpTmRCakZjdzJLcE10dGcyUm15TGY5Y0I0Q0VhM3ZtUUlsTUFHWlAtT01XRkZYZXY5cjdzMmYwTnlfSkZkaWxtaTI5dmphVHhkQVhRUko1b1ctTldPaGlFamVONlE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-28T19:04:22.000Z",
+   "category": "policy-regulation",
+   "summary": "Anthropic told California's governor that courts should have the power to block the release of risky AI models.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "regulation",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-29-084",
+   "title": "GitHub Octoverse 2026",
+   "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+   "source": "Simon Willison",
+   "published": "2026-10-28T16:45:23.000Z",
+   "category": "ai-security",
+   "summary": "GitHub's Octoverse 2026 report shows merged pull requests tripling to 220 million per month and commits exceeding 7 billion monthly, attributed to agentic engineering.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "devops",
+    "trends"
+   ]
+  },
+  {
+   "id": "2026-10-29-088",
+   "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+   "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+   "source": "OpenAI News",
+   "published": "2026-10-28T13:15:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI and ServiceNow expanded their partnership to embed OpenAI models and agents in ServiceNow workflows and vice versa.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "enterprise",
+    "partnership"
+   ]
+  }
+ ]
+}
