@@ -1,0 +1,795 @@
+{
+ "date": "2026-10-30",
+ "generatedAt": "2026-10-30T06:46:48.410Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 38,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-30-001",
+   "title": "Egy új nulladik napi sérülékenység szolgáltatásmegtagadást okozhat a Cisco SSL VPN-tűzfalainál A Cisco biztonsági frissítéseket adott ki az Adaptive Security Appliance (ASA) és a Firepower Threat Def…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/egy-uj-nulladik-napi-serulekenyseg-szolgaltatasmegtagadast-okozhat-a-cisco-ssl-vpn-tuzfalainal/",
+   "source": "NKI Hungary",
+   "published": "2026-10-30T06:45:16.633Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Hungary's NKI reports a new zero-day in Cisco ASA and Firepower Threat Defense SSL VPN that can cause denial of service; Cisco has released security updates.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "zero-day",
+    "vpn"
+   ]
+  },
+  {
+   "id": "2026-10-30-008",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-30T06:45:15.380Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP vulnerabilities enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating publicly.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-10-30-009",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-30T06:45:15.380Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical GitLab flaw allowing unauthenticated remote code execution; patch internet-facing instances first and assess for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-10-30-010",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-30T06:45:15.380Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Critical flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-10-30-012",
+   "title": "Fake IT help desk callers got by on little more than names and email addresses",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/cisco-talos-it-help-desk-vishing/",
+   "source": "Help Net Security",
+   "published": "2026-10-30T06:30:26.000Z",
+   "category": "incidents-threats",
+   "summary": "Cisco Talos IR observed Q3 2026 attackers impersonating IT help desk staff via phone, email and Teams to obtain remote access sessions, in one case leading to ransomware, using only names and email addresses.",
+   "relevance": 5,
+   "tags": [
+    "vishing",
+    "social-engineering",
+    "ransomware"
+   ]
+  },
+  {
+   "id": "2026-10-30-071",
+   "title": "Limited reports of PHP bug exploitation emerge",
+   "url": "https://therecord.media/php2shell-successful-exploitation-reports-emerge",
+   "source": "The Record",
+   "published": "2026-10-29T20:01:25.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Limited exploitation of the critical PHP2Shell bugs is being observed, including a suspected Chinese campaign that breached US government-affiliated servers.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "exploitation",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-30-073",
+   "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+   "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+   "source": "Wired – AI",
+   "published": "2026-10-29T18:39:43.000Z",
+   "category": "ai-security",
+   "summary": "WIRED reports an Accenture employee's personal Claude agent ran on a DoD network for two months before detection, illustrating shadow AI agent risk in sensitive environments.",
+   "relevance": 5,
+   "tags": [
+    "shadow-ai",
+    "agents",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-10-30-074",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+   "url": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "source": "Unit 42",
+   "published": "2026-10-29T18:00:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 threat brief on critical PHP flaws CVE-2026-109618 and CVE-2026-109619, affecting web servers and CMS deployments worldwide.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "cve",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-30-079",
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-29T16:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft Threat Intelligence details how North Korean threat actors are integrating AI across their attack chains at varying levels of maturity.",
+   "relevance": 5,
+   "tags": [
+    "dprk",
+    "ai",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-10-30-084",
+   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+   "url": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-29T14:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos Q3 2026 IR trends: phishing remains the top initial access vector, ransomware and pre-ransomware cases rose, and finance and public administration were the most targeted sectors.",
+   "relevance": 5,
+   "tags": [
+    "ransomware",
+    "phishing",
+    "incident-response"
+   ]
+  },
+  {
+   "id": "2026-10-30-004",
+   "title": "Notes from the IAPP Europe: Digital Omnibus progress, health data and online scams and fraud",
+   "url": "https://iapp.org/news/a/notes-from-the-iapp-europe-digital-omnibus-progress-health-data-and-online-scams-and-fraud",
+   "source": "IAPP",
+   "published": "2026-10-30T06:45:16.080Z",
+   "category": "policy-regulation",
+   "summary": "IAPP Europe notes cover progress on the EU Digital Omnibus, health data rules, and online scams and fraud policy work.",
+   "relevance": 4,
+   "tags": [
+    "eu",
+    "digital-omnibus",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-10-30-017",
+   "title": "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-30T05:15:16.000Z",
+   "category": "incidents-threats",
+   "summary": "BBC reports Binance suffered a $6.3bn hack, attributed by two analytics firms to North Korean unit TraderTraitor, potentially the largest crypto theft to date.",
+   "relevance": 4,
+   "tags": [
+    "crypto",
+    "dprk",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-30-024",
+   "title": "Blockchain analysis firm TRM says North Korea behind Binance crypto theft",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQc01IcXZiYm9zemhhbHhBenBOeFE4NDlHMC1TNGxUOHNlVFJIQmY3QTF1cnpqZmRBcGlic184TnhyRVEtSEVkSTNGdzBxejNaUVlqSEkyMllicG50YkY1TURzUWtnVE5nVlhSYk1ROWwwdDdwQWg2NlZVVEgxc2NuQVZwUWxrOVBmRzNHb2dYUUJiQ2tmTFhfT3NGblYtTjhPdDNmUE5VVFJ1RnRTbnJnRXdSNm55VzRBSVBySTc2Wnc3aDJ2?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-30T04:26:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Blockchain analytics firm TRM attributes the Binance crypto theft to North Korea.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "crypto",
+    "attribution"
+   ]
+  },
+  {
+   "id": "2026-10-30-025",
+   "title": "In the year AI re-wrote the infosec rulebook, it’s comforting to know crypto exchanges still have bad security",
+   "url": "https://www.theregister.com/security/2026/10/30/in-the-year-ai-re-wrote-the-infosec-rulebook-its-comforting-to-know-crypto-exchanges-still-have-bad-security/5306539",
+   "source": "The Register – Security",
+   "published": "2026-10-30T04:22:12.000Z",
+   "category": "incidents-threats",
+   "summary": "The Register reports the Binance compromise stemmed from a compromised engineer's laptop, leading to $6.3bn in fraudulent trades and frozen funds.",
+   "relevance": 4,
+   "tags": [
+    "crypto",
+    "endpoint",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-10-30-027",
+   "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+   "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+   "source": "The Hacker News",
+   "published": "2026-10-30T04:14:59.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance confirmed a security incident affecting about $6.3bn in assets; nearly $3bn frozen on-chain, with Tether and Circle freezing over 1.5bn USDT and 800m respectively.",
+   "relevance": 4,
+   "tags": [
+    "crypto",
+    "breach",
+    "incident-response"
+   ]
+  },
+  {
+   "id": "2026-10-30-030",
+   "title": "US plans to ban Chinese telecom firms from direct access to US phone numbers",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmkxUGhMdkg5VlhUSUtxUkN2cFFlb2tzcG81Rzk0YUhVQTNrR0gzcVBweVQxZlA3dDRRaHlCS1hTWnpIWUtfelBoQXRiUmd3OHYwNlBvOVFtWENOMDlaUUZMOElsb3VwMUVKQmZIUmpMUmE3cEtBcnZsZDlHZXJrZlpnWUNENHZyVExzM3hhUC1YWjFBaDROZzJnd3BjSDJUdjhSQWlXTjFTYlJ5Sk1veXc2UGRCQUlyN1YtNA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-30T03:44:00.000Z",
+   "category": "global-security",
+   "summary": "The US plans to bar Chinese telecom firms from direct access to US phone numbers, a supply-chain and telecom sovereignty measure.",
+   "relevance": 4,
+   "tags": [
+    "telecom",
+    "china",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-10-30-056",
+   "title": "Researchers find bugs in 5 AI developer tools, with OpenAI and Microsoft flaws still unpatched",
+   "url": "https://www.theregister.com/security/2026/10/29/researchers-find-bugs-in-5-ai-developer-tools-with-openai-and-microsoft-flaws-still-unpatched/5306508",
+   "source": "The Register – Security",
+   "published": "2026-10-29T23:12:26.000Z",
+   "category": "ai-security",
+   "summary": "Researchers disclosed bugs in five AI developer tools rooted in embedded browsers, with OpenAI and Microsoft flaws reportedly still unpatched.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "devtools",
+    "vulnerabilities"
+   ]
+  },
+  {
+   "id": "2026-10-30-059",
+   "title": "EXCLUSIVE: Pentagon treating military base freezer malfunctions as suspected cyberattack, officials say",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZWtDa2JmUnFRRENlQ0RoX2hseFpyajltZE5vbjUwdnlDeTQ5M01zanFrNTBJcE1NV0RwZGFCd29LQXZQN2RYd3pBZnhNbU91eEdZalRSbVpXbTdnS2VXMXNaWE9ZdV9tSHVub29PUy1kX3BFYTNZUWM2NFpTLTZTWGdLX2hTXzYxR2JPanVaeVowcVZmMTZubVZxZE9QSjFPYmVuQjJFVVZqTUJKRUlMclM0NGM4YTNzMmR0ZUdR?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-29T22:39:05.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports the Pentagon is treating freezer malfunctions at military bases as a suspected cyberattack, pointing to possible OT/ICS targeting.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "critical-infrastructure",
+    "investigation"
+   ]
+  },
+  {
+   "id": "2026-10-30-061",
+   "title": "Hugging Face malware campaign returns to hijack GPUs for crypto mining",
+   "url": "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+   "source": "BleepingComputer",
+   "published": "2026-10-29T22:09:24.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A crypto-mining campaign abusing Hugging Face models resurfaced days after takedown, hijacking GPU servers and planting backdoors; a fake Solana GitHub starter kit targets AI coding agents with NetSupport RAT.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "ai",
+    "cryptomining"
+   ]
+  },
+  {
+   "id": "2026-10-30-065",
+   "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+   "source": "Dark Reading",
+   "published": "2026-10-29T21:21:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading reports Anthropic-themed phishing emails with obvious red flags are slipping past leading secure email gateways.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "email-security",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-30-076",
+   "title": "Tageszusammenfassung - 29.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-29102026",
+   "source": "CERT.at",
+   "published": "2026-10-29T17:23:27.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report notes an attacker attempted to exploit GitLab CVE-2026-97229 on Alpine Linux's instance a week after the fix; Alpine rebuilt the instance as a precaution.",
+   "relevance": 4,
+   "tags": [
+    "gitlab",
+    "supply-chain",
+    "cert-at"
+   ]
+  },
+  {
+   "id": "2026-10-30-086",
+   "title": "NIK C2: The new AI-enabled command-and-control framework",
+   "url": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-29T10:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos observed a new AI-integrated command-and-control framework in the wild called NIK C2.",
+   "relevance": 4,
+   "tags": [
+    "c2",
+    "ai",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-10-30-016",
+   "title": "Scammers rebuild fake shopping sites within hours of a takedown",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/akamai-fake-account-abuse-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-30T05:30:26.000Z",
+   "category": "incidents-threats",
+   "summary": "Akamai's 2026 Fraud and Abuse Report describes retail scam infrastructure with 1,200+ look-alike .shop domains on one IP, rebuilt within hours of takedowns, harvesting card data.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "phishing",
+    "brand-abuse"
+   ]
+  },
+  {
+   "id": "2026-10-30-018",
+   "title": "Smart TVs can harbor unpatched security flaws and track what you watch",
+   "url": "https://www.helpnetsecurity.com/2026/10/30/bitdefender-smart-tvs-vulnerabilities-report/",
+   "source": "Help Net Security",
+   "published": "2026-10-30T05:00:27.000Z",
+   "category": "incidents-threats",
+   "summary": "Bitdefender's 2026 IoT report finds smart TVs (22.7%) and smart plugs (22.4%) dominate vulnerability observations across 10.4 million monitored home routers.",
+   "relevance": 3,
+   "tags": [
+    "iot",
+    "home-network",
+    "vulnerabilities"
+   ]
+  },
+  {
+   "id": "2026-10-30-051",
+   "title": "Binance flags ‘potential security issue,’ says crypto firms froze more than $2.5 billion",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWmNFOVU3dkJheHFpZnlQZ0d2RVd2dDZFdjBlVldUczQteU5yUUlIeldzeVR6d2lJem9aWkh6RV94Uko1cXpZS2RhV2FGR2E2djNHZGJaNG5BOTFvSnZkLWp5c2tSanlNalhnaTJ6RFlxVWNNMHo1NnpzNGVQWHdJZkw0ZkxkWUNQdnRnZGU1Y1JCQ3NuRGc?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-30T00:49:22.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance flagged a potential security issue and said crypto firms have frozen more than $2.5bn in related assets.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-30-072",
+   "title": "GM settles with 36 states for selling driver data, agrees to $220 million fine and reforms",
+   "url": "https://therecord.media/general-motors-lawsuit-privacy",
+   "source": "The Record",
+   "published": "2026-10-29T19:45:00.000Z",
+   "category": "policy-regulation",
+   "summary": "General Motors agreed to a $220 million settlement and reforms with 36 US state attorneys general over unlawful sale of driver behaviour data.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "telematics",
+    "enforcement"
+   ]
+  },
+  {
+   "id": "2026-10-30-083",
+   "title": "Mistral Says Its AI Model ‘Le Chonk’ Has Leapfrogged China in the Open-Weight Race",
+   "url": "https://www.wired.com/story/mistral-says-le-chonk-surpasses-chinese-models-cybersecurity/",
+   "source": "Wired – AI",
+   "published": "2026-10-29T14:00:00.000Z",
+   "category": "ai-security",
+   "summary": "French lab Mistral claims its new open-weight model 'Le Chonk' matches or beats leading Chinese models in coding and cybersecurity tasks.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "eu",
+    "open-weights"
+   ]
+  },
+  {
+   "id": "2026-10-30-087",
+   "title": "How we detect frontier model misalignment",
+   "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+   "source": "OpenAI News",
+   "published": "2026-10-29T09:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI describes its layered monitoring approach for detecting frontier model misalignment and unauthorized agent behaviour.",
+   "relevance": 3,
+   "tags": [
+    "ai-safety",
+    "monitoring",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-10-30-002",
+   "title": "FTC expands personalized pricing scrutiny as states, Congress, regulators turn up pressure",
+   "url": "https://iapp.org/news/a/ftc-expands-personalized-pricing-scrutiny-as-states-congress-regulators-turn-up-pressure",
+   "source": "IAPP",
+   "published": "2026-10-30T06:45:16.080Z",
+   "category": "policy-regulation",
+   "summary": "The US FTC is widening scrutiny of personalized pricing, with states, Congress and other regulators adding pressure on data-driven pricing practices.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "ftc",
+    "pricing"
+   ]
+  },
+  {
+   "id": "2026-10-30-003",
+   "title": "China's PIPL at 5: Enforcement, evolution and what comes next",
+   "url": "https://iapp.org/news/a/chinas-pipl-at-five-enforcement-evolution-and-what-comes-next",
+   "source": "IAPP",
+   "published": "2026-10-30T06:45:16.080Z",
+   "category": "policy-regulation",
+   "summary": "IAPP reviews five years of China's PIPL, covering enforcement trends and likely next steps in the data protection regime.",
+   "relevance": 2,
+   "tags": [
+    "pipl",
+    "privacy",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-30-007",
+   "title": "Keeping pace with e-evidence: New report examines Europe’s digital forensic capabilities",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/keeping-pace-e-evidence-new-report-examines-europes-digital-forensic-capabilities",
+   "source": "Europol",
+   "published": "2026-10-30T06:45:15.880Z",
+   "category": "policy-regulation",
+   "summary": "A European Commission and Europol report finds digital forensic tools, resources and expertise are struggling to keep pace with the volume and variety of e-evidence.",
+   "relevance": 2,
+   "tags": [
+    "forensics",
+    "eu",
+    "e-evidence"
+   ]
+  },
+  {
+   "id": "2026-10-30-021",
+   "title": "Aid convoy sets off for Russian-held town of Oleshky in Ukraine",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdWRLMEk4OWxzWDJXa0ZLLTBMVFFicnVjZ2lKV3QzUENDOWdPakJtUG1MT2RnMTN1Nm1hWV9qVUxES0JkQ0xISU9qUkljbDc0NElkUkNHREQxM3NSdERlSy0xSDJRZTExSjVNMWc0T3NQdVo1YkRadTg3QVlwZ3RlZFlTT05aTmcxTURZUmE5S3pyUTN3dF9TNkVnLWFVM2NqZmN4V3VYOTZLZlJGNE11d2psTV9yeGM?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-30T04:32:00.000Z",
+   "category": "global-security",
+   "summary": "An aid convoy departed for the Russian-held Ukrainian town of Oleshky.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-10-30-046",
+   "title": "Japan's Nikkei slumps 3% as tech stocks tumble on AI worries",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQU9uNjhpN1dHMHNxdDR0SlBWa1VGV0Q5MkxrVWxKYWk0YWhtd2ZBZFM4dkYwaFNocVBfYmR2czM3VU9aUlV5SVMwRGtOWUJicTV4VFlZODRZRC1IMUw2aFZyYzcxUWpjWFNJbWY0YWFyaHJaRloxM1BWTlZzc1NzRkoyUm45aVNBM1hNODNWbkY4ZmpreWVmMXc4b2FGbkc5NzdWQkwwaWVCYm8?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-30T02:20:00.000Z",
+   "category": "global-security",
+   "summary": "Japan's Nikkei fell 3% as tech stocks dropped on AI-related concerns.",
+   "relevance": 2,
+   "tags": [
+    "markets",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-30-047",
+   "title": "Canada and Europe share challenge of diversifying without antagonizing US and China",
+   "url": "https://www.politico.eu/article/eu-canada-summit-montreal-shared-challenges/",
+   "source": "Politico Europe",
+   "published": "2026-10-30T01:51:56.000Z",
+   "category": "policy-regulation",
+   "summary": "Canada and the EU discuss diversifying trade and strengthening sovereignty without antagonising the US and China.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "trade",
+    "sovereignty"
+   ]
+  },
+  {
+   "id": "2026-10-30-070",
+   "title": "Rethinking Cybersecurity Awareness in the AI Era",
+   "url": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+   "source": "Dark Reading",
+   "published": "2026-10-29T20:15:37.000Z",
+   "category": "ai-security",
+   "summary": "Dark Reading video discussion on modernising security awareness training for the AI era.",
+   "relevance": 2,
+   "tags": [
+    "awareness",
+    "ai",
+    "training"
+   ]
+  },
+  {
+   "id": "2026-10-30-075",
+   "title": "A quiet week in infosec <.<",
+   "url": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-29T18:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Talos newsletter covering the PHP vulnerability wave and related Node.js issues dominating the week's security discussion.",
+   "relevance": 2,
+   "tags": [
+    "php",
+    "nodejs"
+   ]
+  },
+  {
+   "id": "2026-10-30-078",
+   "title": "An updated Model Spec for more capable and beneficial AI",
+   "url": "https://openai.com/index/updated-model-spec",
+   "source": "OpenAI News",
+   "published": "2026-10-29T17:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI published an updated Model Spec setting out five core values guiding model behaviour, human agency and intent alignment.",
+   "relevance": 2,
+   "tags": [
+    "ai-governance",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-10-30-081",
+   "title": "The ‘Pain in the Ass’ Math That Could Save Vibe Coding From Itself",
+   "url": "https://www.wired.com/story/software-verification-is-the-hot-new-answer-to-the-ai-safety-crisis/",
+   "source": "Wired – AI",
+   "published": "2026-10-29T15:00:00.000Z",
+   "category": "ai-security",
+   "summary": "WIRED profiles startup &Truth, which aims to automate formal verification to mathematically prove AI-generated code behaves as intended.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "secure-coding"
+   ]
+  }
+ ]
+}
