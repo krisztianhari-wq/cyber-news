@@ -1,0 +1,888 @@
+{
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T06:46:42.605Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 45,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-10-31-008",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-10-31T06:45:15.323Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of two critical PHP vulnerabilities enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating publicly.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-31-009",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-10-31T06:45:15.323Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw allowing unauthenticated arbitrary code execution on the server; CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-10-31-010",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-10-31T06:45:15.323Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical, actively exploited flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root. Patch immediately.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-31-021",
+   "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T04:56:12.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloudflare mitigated 18.2 million network-layer DDoS attacks and 14.4 trillion HTTP DDoS requests in Q3 2026, a 38% rise, averaging one attack every 0.44 seconds.",
+   "relevance": 5,
+   "tags": [
+    "ddos",
+    "telecom",
+    "trends"
+   ]
+  },
+  {
+   "id": "2026-10-31-034",
+   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-31T01:02:57.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft analyses a malicious Claude Code-branded extension that installs a persistent SSH backdoor, with detection and remediation guidance.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "backdoor",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-31-046",
+   "title": "China-backed threat group used agentic AI pentesting tool to compromise 140 sensitive targets in 11 days",
+   "url": "https://cyberscoop.com/china-vapor-panda-agentic-ai-artex-campaign-crowdstrike/",
+   "source": "CyberScoop",
+   "published": "2026-10-30T21:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "CrowdStrike reports China-nexus Vapor Panda used an agentic AI pentesting tool to compromise 140 sensitive targets in 11 days, hitting 200+ organisations in at least 14 countries.",
+   "relevance": 5,
+   "tags": [
+    "apt",
+    "ai",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-31-049",
+   "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "source": "BleepingComputer",
+   "published": "2026-10-30T21:09:46.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical Linux kernel flaw permits unauthenticated remote root command execution on servers with MPTCP listeners; Anthropic researchers built a working exploit.",
+   "relevance": 5,
+   "tags": [
+    "linux",
+    "rce",
+    "kernel"
+   ]
+  },
+  {
+   "id": "2026-10-31-063",
+   "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+   "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+   "source": "The Hacker News",
+   "published": "2026-10-30T16:58:44.000Z",
+   "category": "incidents-threats",
+   "summary": "CrowdStrike details Chinese state-sponsored use of the Go-based AI-powered pentest framework ARTEX against more than 200 high-value organisations worldwide.",
+   "relevance": 5,
+   "tags": [
+    "china",
+    "ai",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-31-069",
+   "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+   "url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+   "source": "Rapid7 Blog",
+   "published": "2026-10-30T16:01:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 analyses CVE-2026-102764, an unauthenticated file upload to RCE flaw in BeyondTrust Remote Support exploitable via the public customer connection without credentials.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "rce",
+    "beyondtrust"
+   ]
+  },
+  {
+   "id": "2026-10-31-001",
+   "title": "Kihasznált peremeszköz-hibáktól az AI-vezérelt behatolásokig – Heti hírösszefoglaló Heti kitekintő: A heti válogatásban a hálózati peremeszközök kihasználása és az AI támadói felhasználása kap kiemel…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kihasznalt-peremeszkoz-hibaktol-az-ai-vezerelt-behatolasokig-heti-hirosszefoglalo/",
+   "source": "NKI Hungary",
+   "published": "2026-10-31T06:45:17.047Z",
+   "category": "eu-threat-landscape",
+   "summary": "NKI Hungary's weekly roundup highlights exploitation of network edge devices and the adversarial use of AI as the dominant themes of the week.",
+   "relevance": 4,
+   "tags": [
+    "edge-devices",
+    "ai",
+    "weekly"
+   ]
+  },
+  {
+   "id": "2026-10-31-002",
+   "title": "Nagyszabású kibertámadás érte Moldova állami digitális szolgáltatásait Moldova jelentős kiberbiztonsági incidenssel néz szembe, miután október 19. és 23. között támadók állami digitális szolgáltatáso…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/nagyszabasu-kibertamadas-erte-moldova-allami-digitalis-szolgaltatasait/",
+   "source": "NKI Hungary",
+   "published": "2026-10-31T06:45:17.047Z",
+   "category": "eu-threat-landscape",
+   "summary": "Moldova suffered a large-scale cyberattack against state digital services between 19 and 23 October, disrupting government platforms.",
+   "relevance": 4,
+   "tags": [
+    "moldova",
+    "government",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-10-31-017",
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T05:33:41.000Z",
+   "category": "ai-security",
+   "summary": "Researchers showed a malicious ChatGPT share link could execute attacker code in a victim's logged-in session and read private chats; OpenAI rated it P1 and fixed it within eight days.",
+   "relevance": 4,
+   "tags": [
+    "chatgpt",
+    "xss",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-31-030",
+   "title": "Why North Korea's 'elite' hackers are the prime suspect in major Binance hack",
+   "url": "https://www.bbc.co.uk/news/articles/ck9dz3v7z7v3o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T02:12:19.000Z",
+   "category": "incidents-threats",
+   "summary": "BBC analysis names suspected North Korean state hackers as prime suspects in the record-breaking Binance heist, underlining their growing capability.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "crypto",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-10-31-033",
+   "title": "What to know about the $6.3B hack on Binance, likely the biggest-ever crypto theft",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaS1PbC12ckM5dTFzWDZISy0zcmVfWjc2ODREc1dFMnlOem5RUmpWWGdxR2dKSlNQS0JrZXVvZGI4VDN2aXRQQkpIaHF4bWdwSjJvYjduMkFQUmdDaEdGS01lQThMQXpjTS02SW5YenA5U0ZQZUZsazg5SnhyZzFZel9YWTZqUmVVYUcxYTEyTDl3V3Z5dEZ6RTZCS3U5ZkUwWFBna2hDNnZ3dHo0?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-10-31T01:04:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Explainer on the $6.3bn Binance hack, likely the largest crypto theft on record.",
+   "relevance": 4,
+   "tags": [
+    "crypto",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-10-31-053",
+   "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+   "source": "Dark Reading",
+   "published": "2026-10-30T20:05:58.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Developers were hit by a trojanized Claude Code extension for Cursor, one of two serious issues affecting the AI-powered IDE on the same day.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "devtools",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-10-31-061",
+   "title": "Tageszusammenfassung - 30.10.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/10/tagesberichte-30102026",
+   "source": "CERT.at",
+   "published": "2026-10-30T17:32:29.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers the critical Linux TCP/IP stack RCE discovered with help from Anthropic's Claude, an 11-year-old bug with updates in progress.",
+   "relevance": 4,
+   "tags": [
+    "linux",
+    "cert",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-10-31-062",
+   "title": "Apple notifications alert victims in 99 countries about mercenary spyware infections",
+   "url": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/",
+   "source": "CyberScoop",
+   "published": "2026-10-30T17:07:05.000Z",
+   "category": "incidents-threats",
+   "summary": "Apple notified mercenary spyware victims across 99 countries, as the Pall Mall Process nears final negotiations on commercial hacking tool guidelines.",
+   "relevance": 4,
+   "tags": [
+    "spyware",
+    "mobile",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-10-31-066",
+   "title": "Anthropic: That Claude Code extension compromise… couldn't be us",
+   "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682",
+   "source": "The Register – Security",
+   "published": "2026-10-30T16:27:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Anthropic denies responsibility for the Claude Code extension compromise, attributing it to a malicious actor in a targeted supply-chain attack on Cursor.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "ai",
+    "devtools"
+   ]
+  },
+  {
+   "id": "2026-10-31-067",
+   "title": "From help desk impersonation to AD CS abuse: Investigating ESC1 and ESC8 intrusion paths",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/help-desk-impersonation-ad-cs-abuse-investigating-esc1-esc8-intrusion-paths/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-30T16:11:44.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft details an intrusion chain from help desk impersonation via Teams to AD CS abuse using ESC1 and ESC8 relay and Kerberos techniques.",
+   "relevance": 4,
+   "tags": [
+    "adcs",
+    "social-engineering",
+    "ttp"
+   ]
+  },
+  {
+   "id": "2026-10-31-076",
+   "title": "Russian citizen faces spying charges in Poland after photographing railways",
+   "url": "https://www.politico.eu/article/russian-citizen-detained-in-poland-over-espionage/",
+   "source": "Politico Europe",
+   "published": "2026-10-30T13:35:45.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "A Russian citizen faces espionage charges in Poland after being arrested photographing railway infrastructure, reflecting ongoing hybrid threat activity.",
+   "relevance": 4,
+   "tags": [
+    "espionage",
+    "poland",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-10-31-025",
+   "title": "Iran says four tankers on fire after striking mines in Hormuz",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-31T03:55:48.000Z",
+   "category": "global-security",
+   "summary": "Iran's Revolutionary Guard says four tankers caught fire after striking mines in the Strait of Hormuz, raising shipping and energy risk.",
+   "relevance": 3,
+   "tags": [
+    "hormuz",
+    "energy",
+    "escalation"
+   ]
+  },
+  {
+   "id": "2026-10-31-032",
+   "title": "Police deployed during stand-off over control of top Poland court",
+   "url": "https://www.bbc.co.uk/news/articles/crz9824d5e88o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T01:11:43.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Police were deployed in Warsaw amid a stand-off over control of Poland's top court after the government suspended two senior justices.",
+   "relevance": 3,
+   "tags": [
+    "poland",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-10-31-036",
+   "title": "Crypto exchanges call for quick moves to bolster defenses after Binance heist",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3JLSjZvamdLbG1LSWxKR0czYXlpN281cDZLZ0J6ZE1OdmYxNFdIUzVKQnMzQVdWMVlQRTVzdVh2OHFybGkwVy15STRoOGV3N3E3RXppU0pJS2poMTRlRWFaZVEtVUhjTkFMTjAyOFpLc19RWjEwS1BkTEdXWGtOel9qd1VuNXlzWDBUS1IzSHAtUUVHREFBWDVDNGQ4Vm9zMGRKRHB1VE5LbmN5QmZJZ2NZZ2Q1Y2h1c19ONV9HLXU?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-31T00:26:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Crypto exchanges urge rapid defensive improvements across the sector following the Binance heist.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-10-31-044",
+   "title": "India's RBI tightens cyber checks on lenders after spate of hacks",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUV9lcE01R2l5NFJ3Nmg3YWVuSUxtcUNET1ZsTHdEMGNTcGh6X1pqT0NjUkk3NFBXOHliWlhuaXZISV9KdXMxbFVyVGo0OXhUMkdFczRyVjRVMWhfWVRtN1JWRlNpVkdzNUJUNDQzTFM2TlJjbkxVUmljbnFSNDFQeWNXUE1ZTkJuQ2hxRnRIMENTUGprdW9NRWFYMkstLVNIbVpBc0NaZk1mVmlCV0pTUQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-30T21:59:04.000Z",
+   "category": "global-security",
+   "summary": "India's central bank tightens cybersecurity checks on lenders following a series of hacks against financial institutions.",
+   "relevance": 3,
+   "tags": [
+    "regulation",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-10-31-047",
+   "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+   "source": "Wired – AI",
+   "published": "2026-10-30T21:19:26.000Z",
+   "category": "ai-security",
+   "summary": "Wired podcast discusses how a contractor's Claude agent reached Pentagon systems, alongside Anthropic's IPO filing.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-31-048",
+   "title": "Tusk-Nawrocki battle escalates as chief judge is ousted from Poland’s top court",
+   "url": "https://www.politico.eu/article/tusk-nawrocki-battle-escalates-chief-judge-ousted-from-polands-top-court/",
+   "source": "Politico Europe",
+   "published": "2026-10-30T21:12:50.000Z",
+   "category": "policy-regulation",
+   "summary": "Poland's constitutional crisis deepens as the top court's chief judge is ousted, triggering coup accusations and clashes in Warsaw.",
+   "relevance": 3,
+   "tags": [
+    "poland",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-10-31-052",
+   "title": "DOJ raises privacy concerns over potential sale of Character.AI chats",
+   "url": "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+   "source": "The Record",
+   "published": "2026-10-30T20:45:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The US DOJ raised privacy concerns over the potential sale of Character.AI chat data, calling for a consumer privacy ombudsman in the bankruptcy proceedings.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "privacy",
+    "data"
+   ]
+  },
+  {
+   "id": "2026-10-31-055",
+   "title": "Crim spent $7K+ on AI services in extortion attacks, then left evidence for all to see",
+   "url": "https://www.theregister.com/security/2026/10/30/crim-spent-7k-on-ai-services-in-extortion-attacks-then-left-evidence-for-all-to-see/5306754",
+   "source": "The Register – Security",
+   "published": "2026-10-30T19:37:12.000Z",
+   "category": "incidents-threats",
+   "summary": "An extortion actor spent over $7,000 on AI services during attacks and left behind evidence exposing their operations.",
+   "relevance": 3,
+   "tags": [
+    "extortion",
+    "ai",
+    "opsec"
+   ]
+  },
+  {
+   "id": "2026-10-31-056",
+   "title": "North Korean hackers linked to crypto thefts among world's best, experts say",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX1VyT1h6VFVDRHB0ZWRFWk9OMVNrYmxIa2lrV181eFhJMEZZMElNNzNLRFVLWGtrWE1lR1hwYjVaS1U4Yjg0RXlIbjZrUHFtREZJUzY2YU9iVU9tVk93YzY1WERWSmQtUHM3WXEzY056dWtPejRIcHRYc1o3N0RNaG5hQXpCeVVfMUdsdnNaQklBRW5BXzNSeGtvaldFNHNEWkRHMDhBVVFsVEVTajJ4WDExdi1IaFo5ZWV6YUpjb3RVQQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-30T19:17:50.000Z",
+   "category": "incidents-threats",
+   "summary": "Experts assess North Korean hackers behind major crypto thefts as among the world's most capable operators.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-10-31-074",
+   "title": "This month in security with Tony Anscombe – October 2026 edition",
+   "url": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+   "source": "ESET WeLiveSecurity",
+   "published": "2026-10-30T15:03:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ESET's monthly security roundup covers the PHP2Shell disclosure and other October news, stressing the need for cyber-readiness plans.",
+   "relevance": 3,
+   "tags": [
+    "php",
+    "roundup"
+   ]
+  },
+  {
+   "id": "2026-10-31-003",
+   "title": "A view from DC: The one-two punch is a knockout for driver privacy",
+   "url": "https://iapp.org/news/a/a-view-from-dc-the-one-two-punch-is-a-knockout-for-driver-privacy",
+   "source": "IAPP",
+   "published": "2026-10-31T06:45:16.429Z",
+   "category": "policy-regulation",
+   "summary": "IAPP commentary from Washington on converging legal and regulatory pressure affecting connected-vehicle driver privacy.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "automotive"
+   ]
+  },
+  {
+   "id": "2026-10-31-015",
+   "title": "Spain train disaster clouds Sánchez chances of re-election",
+   "url": "https://www.bbc.co.uk/news/articles/cmeweppr990qo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T05:44:21.000Z",
+   "category": "global-security",
+   "summary": "A train disaster in Spain compounds a series of crises for PM Sánchez weeks before a snap general election.",
+   "relevance": 2,
+   "tags": [
+    "spain",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-10-31-022",
+   "title": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-31T04:51:25.000Z",
+   "category": "global-security",
+   "summary": "The US approved a $2.1bn Patriot missile sale to Ukraine, a significant step in defensive weapons supply.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-10-31-023",
+   "title": "US jails two Chinese nationals for spying",
+   "url": "https://www.aljazeera.com/news/2026/10/31/us-jails-two-chinese-nationals-for-spying?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-31T04:41:32.000Z",
+   "category": "global-security",
+   "summary": "Two Chinese nationals were jailed in the US for facilitating dead-drop payments worth at least $30,000 in an espionage case.",
+   "relevance": 2,
+   "tags": [
+    "espionage",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-10-31-027",
+   "title": "Russia’s Novaya Gazeta ‘killed off’ after murders, arrests and pressure",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/russias-novaya-gazeta-killed-off-after-murders-arrests-and-pressure?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-10-31T03:27:21.000Z",
+   "category": "global-security",
+   "summary": "Russia's investigative newspaper Novaya Gazeta is closing, with staff blaming sustained government pressure, arrests and murders.",
+   "relevance": 2,
+   "tags": [
+    "russia",
+    "press-freedom"
+   ]
+  },
+  {
+   "id": "2026-10-31-035",
+   "title": "US approves sale of 500 Patriot missiles to Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T00:40:43.000Z",
+   "category": "global-security",
+   "summary": "The US approved the sale of 500 Patriot interceptors to Ukraine for countering Russian ballistic missiles.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-10-31-037",
+   "title": "Poland's Sikorski calls for rapid ceasefire in Black Sea to allow food shipments",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNjZfQ1RGNVhiRHQ3SzZQVTV6WjVPdTNJRzF4R2cxYkVPMHFWTk1MS3pnX3FZRy00WFJXR3Y4THdob2ZGR3Z3LTRxWWNnLTVSQWE4eHIxR09wMWZnU1FDdFdpNW1PbzU2NjRUY3VaMndmNUI5cGRsZW9kS1A4Yndab2p3UU02NVNiWXdRcFNXNWgybV9MbTJ5Sm5VbmIzQW1xSlI4cGN0YzlQaEItLTBRVmVwN0NxOWJLbFE?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-31T00:08:00.000Z",
+   "category": "global-security",
+   "summary": "Poland's foreign minister Sikorski calls for a rapid Black Sea ceasefire to enable food shipments.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "poland"
+   ]
+  },
+  {
+   "id": "2026-10-31-038",
+   "title": "Gen Z protests reach Germany as over 160,000 expected at Halloween rallies",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVVU2eHhKcXB0TU1teDBNamJNdjczWUVuNFpYVDBQUTNCMEJwYmYweGE1MXFsXzAxcGdYVlVObG1VQjg3dm94dXUyc2F5UHd6TkE0cUdQb2xpTk8tczhWNWdMR3pubExzLVkwZzdTWUY4bjhocmFMeWhzUE01WE1qTkZzNHBZZm1RUDlUQkJxSG5HT2tyS1ZDQm9GeWtXdjJOTXBrY29EZmJVVkxKOHNDLUc0RXY2VG8?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-31T00:03:00.000Z",
+   "category": "global-security",
+   "summary": "Gen Z protest movement spreads to Germany, with over 160,000 people expected at Halloween rallies.",
+   "relevance": 2,
+   "tags": [
+    "germany",
+    "protests"
+   ]
+  },
+  {
+   "id": "2026-10-31-039",
+   "title": "France braces for fresh unrest, government vows tough response",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWXk1S3NHdWFyaW5FR2xIZTNXczZnczhPU1NJUVRpU2NUeU5iajVUcDN0RVl6cGVjNmJGanQyU0F1UmQ2a2lKQnJZNXRROExfOEZISzdKcExIOHFua19XVUc3RmF5N0pCZEI4RXZ0Z1ZvMkw3T1l3bjB4T2syMllUeFBiYV8yeG53SmJfZWh1NEw3UGVjTm05T2ZOdzF4aHlRdi1sNU0xajFBdw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-31T00:03:00.000Z",
+   "category": "global-security",
+   "summary": "France prepares for renewed unrest as the government promises a tough response.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "protests"
+   ]
+  },
+  {
+   "id": "2026-10-31-045",
+   "title": "8 things we learned at the EU-Canada summit",
+   "url": "https://www.politico.eu/article/8-things-we-learned-eu-canada-summit/",
+   "source": "Politico Europe",
+   "published": "2026-10-30T21:43:34.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico summarises eight takeaways from the EU-Canada summit and the emerging partnership framework.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "canada"
+   ]
+  },
+  {
+   "id": "2026-10-31-058",
+   "title": "Mark Carney puts deadline on EU ‘associate membership’ push",
+   "url": "https://www.politico.eu/article/mark-carney-puts-deadline-on-eu-associate-membership-push/",
+   "source": "Politico Europe",
+   "published": "2026-10-30T19:11:14.000Z",
+   "category": "policy-regulation",
+   "summary": "Canadian PM Carney sets a deadline for an EU 'associate membership' push while trade differences persist.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "canada"
+   ]
+  },
+  {
+   "id": "2026-10-31-065",
+   "title": "GM cracks the petty cash box for multistate driver tracking settlement",
+   "url": "https://www.theregister.com/security/2026/10/30/gm-cracks-the-petty-cash-box-for-multistate-driver-tracking-settlement/5306721",
+   "source": "The Register – Security",
+   "published": "2026-10-30T16:48:37.000Z",
+   "category": "policy-regulation",
+   "summary": "GM agreed to a $220 million multistate settlement over driver tracking and data sharing practices.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "automotive",
+    "settlement"
+   ]
+  },
+  {
+   "id": "2026-10-31-073",
+   "title": "Bloatware in Aftermarket Auto Parts",
+   "url": "https://www.schneier.com/blog/archives/2026/10/bloatware-in-aftermarket-auto-parts.html",
+   "source": "Schneier on Security",
+   "published": "2026-10-30T15:20:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Report on bloatware and spyware-like components, including Baidu location services and a call recorder, pre-installed in a cheap aftermarket car head unit.",
+   "relevance": 2,
+   "tags": [
+    "iot",
+    "automotive",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-10-31-080",
+   "title": "Making it easier for websites to express AI training preferences",
+   "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+   "source": "OpenAI News",
+   "published": "2026-10-30T09:30:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI will honour a shared robots.txt signal allowing website operators to express AI training preferences to participating providers.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "robots-txt",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-10-31-081",
+   "title": "Community safety report and new protections for teens",
+   "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+   "source": "OpenAI News",
+   "published": "2026-10-30T09:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI announced expanded violence-prevention safeguards in ChatGPT, earlier interventions for teens and a commitment to public safety reporting.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "safety",
+    "teens"
+   ]
+  }
+ ]
+}
