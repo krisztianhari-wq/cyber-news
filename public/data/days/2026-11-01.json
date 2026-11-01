@@ -1,0 +1,845 @@
+{
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T06:46:39.466Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 43,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-01-004",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-01T06:45:16.438Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of two critical PHP vulnerabilities enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating publicly, raising exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-01-005",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-01T06:45:16.438Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw allowing unauthenticated arbitrary code execution on GitLab servers; CERT-EU advises prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-01-006",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-01T06:45:16.438Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-11-01-047",
+   "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T15:35:11.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A public PoC for Android flaw CVE-2026-58882 (\"SMS of Death\") lets attackers crash unpatched phones or disrupt cellular service via a crafted text message.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "android",
+    "telecom"
+   ]
+  },
+  {
+   "id": "2026-11-01-057",
+   "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "source": "Talos Intelligence",
+   "published": "2026-10-31T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos details the self-deleting VOLTA infostealer, which exfiltrates credentials, sessions and crypto wallets and uses LLMs to profile victims and rank their most valuable assets.",
+   "relevance": 5,
+   "tags": [
+    "infostealer",
+    "ai",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-01-069",
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T08:27:43.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added two actively exploited Ivanti Connect Secure flaws to the KEV catalog, including CVE-2026-111357; attackers chain three bugs for unauthenticated root access.",
+   "relevance": 5,
+   "tags": [
+    "ivanti",
+    "kev",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-11-01-026",
+   "title": "FBI blames North Korea for record $6.3bn crypto heist from Binance",
+   "url": "https://www.aljazeera.com/news/2026/11/1/fbi-blames-north-korea-for-record-6-3bn-crypto-heist?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-01T02:28:38.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI attributes a record $6.3bn crypto theft from Binance to North Korea; Binance says it has covered 90% of losses.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "crypto",
+    "attribution"
+   ]
+  },
+  {
+   "id": "2026-11-01-027",
+   "title": "FBI says North Korea behind $6 billion Binance crypto theft",
+   "url": "https://www.dw.com/en/fbi-says-north-korea-behind-6-billion-binance-crypto-theft/a-79819998?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-01T01:53:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI links the $6bn Binance theft to the North Korean TraderTraitor cluster, the same actors behind the $1.5bn Bybit hack.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "tradertraitor",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-01-035",
+   "title": "How We Took Over ChatGPT Accounts",
+   "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+   "source": "Simon Willison",
+   "published": "2026-10-31T23:15:22.000Z",
+   "category": "ai-security",
+   "summary": "Parameter Labs detailed an attack chain against ChatGPT's sandboxed HTML preview/artifacts feature, abusing a MathLive library behaviour to break isolation and reach OpenAI APIs and private data.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "sandbox-escape",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-11-01-043",
+   "title": "Northflank security breach leads to abuse of customers' AI API keys",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T18:01:12.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloud hosting platform Northflank told customers to rotate all stored credentials and secrets after a breach led to unauthorized use of their AI API keys.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "secrets",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-11-01-054",
+   "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T12:50:09.000Z",
+   "category": "incidents-threats",
+   "summary": "Chainalysis disclosed a breach in which attackers used \"offensive agentic techniques\" to reach internal systems, exposing customer names, emails, user IDs and roles.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "agentic-ai"
+   ]
+  },
+  {
+   "id": "2026-11-01-055",
+   "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T12:01:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Chainalysis confirmed an external actor accessed internal tools and non-sensitive customer identity data, but says investigation content, credentials and session tokens were not compromised.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "agentic-ai"
+   ]
+  },
+  {
+   "id": "2026-11-01-056",
+   "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+   "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+   "source": "Wired – AI",
+   "published": "2026-10-31T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "WIRED reports on the \"Volta-Autodoxer\" infostealer, which uses AI tooling to aggregate victim data including credentials, card numbers and session artefacts.",
+   "relevance": 4,
+   "tags": [
+    "infostealer",
+    "ai",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-01-073",
+   "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "source": "The Hacker News",
+   "published": "2026-10-31T05:33:41.000Z",
+   "category": "ai-security",
+   "summary": "Researchers at Parameter showed a malicious ChatGPT share link could execute attacker code in a victim's logged-in session and read private chats; OpenAI rated it P1 and fixed it within eight days.",
+   "relevance": 4,
+   "tags": [
+    "openai",
+    "session-hijacking",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-01-076",
+   "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-10-31T01:02:57.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft analysed a malicious extension branded as Claude Code that installs a persistent SSH backdoor, and published detection and remediation guidance.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "backdoor",
+    "developer-tools"
+   ]
+  },
+  {
+   "id": "2026-11-01-017",
+   "title": "Binance to resume withdrawals after recovering bulk of $6 billion in stolen funds",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNckdSaWg1UnpYNmhtY1BWZzdiV2EyLUVQb3dKWC1vRGtHNzdFUTVsMjh1dUthY3lKWHd1d1JXTnNtRFNDUzVHY1BkS2J6emlQV0oyVmxFeHJEY21lVkIyeS03OEFjT2hWUEIwc0NOMm1QODBNS2ZFcGdaZmgyLTBwZmN4S0tPdnVpbmZpR2hraTkxVXFLQVY2eUdjdWxWTlRRa29vTEh4N3NpZDgwSEVxRUNUNURrNmd2MVNIbVBnNWNfdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-01T04:57:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance plans to resume withdrawals after recovering most of roughly $6 billion in funds stolen in a major exchange hack.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-01-023",
+   "title": "What we know about latest efforts to end US war on Iran",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/iran-wrap-iran-latest-developments-011126?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-01T03:24:02.000Z",
+   "category": "global-security",
+   "summary": "US and Iranian foreign ministers say a diplomatic end to the ongoing US-Iran war remains possible.",
+   "relevance": 3,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-01-028",
+   "title": "FBI blames North Korea for stolen billions from Binance in biggest hack in history",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQkM3dmhycV92Tk5Oa2xmTVhpMUI3RnluVVRpV1dlUGtIVXo4NjBqX0RDcjlLVW5FaGN4TGhZOXpEMlhBbzhzZ0gteVMwWUx2dVFoVzhnMzkxeU5tZzlDaHpZZE5LUVMxYllLTVBfTzhTcEZMaTl4eXhKT2l4ekwxWFFWOHc3bjJrWXhHRkVQQTFhOUNXMzlJSGQyZw?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-01T01:28:00.000Z",
+   "category": "incidents-threats",
+   "summary": "AP reports the FBI blames North Korea for the Binance theft, described as the largest hack in history by value.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-01-038",
+   "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+   "url": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T22:11:45.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance says it has covered 90% of losses from the $6.3bn hack the FBI attributes to North Korea.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "dprk"
+   ]
+  },
+  {
+   "id": "2026-11-01-040",
+   "title": "FBI links North Korea to theft of $6 billion from Binance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT0F3bEEtREZiMG5WVnJMQlVHUDdaaHJQTno1VUJJRENOT2MySEZDcmpCYm41YnpkMS1Ub1l1ZThqSUJSa214ay1Gb3E3NFFNNWRZZDJtVjZSWU91M1NFVkRWZjJPdG9nN2ZCTm12RnhFVWFTTkhpMnBnRU5XZDhmRTRYNFZ0V1lKSkc3N1htMnRLbHhFWlo0?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-10-31T21:44:23.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports the FBI linking North Korea to the theft of $6 billion from Binance.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-01-045",
+   "title": "Putin’s potential G20 comeback risks normalizing Russian war crimes, says Kallas",
+   "url": "https://www.politico.eu/article/kaja-kallas-vladimir-putin-g20-return-risks-normalizing-russian-war-crimes/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T16:41:12.000Z",
+   "category": "policy-regulation",
+   "summary": "EU foreign policy chief Kallas warned that a potential Putin return to the G20 risks normalising Russian war crimes, rejecting calls to soften criticism of the Kremlin.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "russia",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-01-003",
+   "title": "5th EMPACT Hackathon leads to the detection of 51 potential victims",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/5th-empact-hackathon-leads-to-detection-of-51-potential-victims",
+   "source": "Europol",
+   "published": "2026-11-01T06:45:17.125Z",
+   "category": "eu-threat-landscape",
+   "summary": "The fifth EMPACT Hackathon in Amsterdam brought 40 investigators from 20 countries together on digital aspects of human trafficking, identifying 51 potential victims and five suspects.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "online-investigations"
+   ]
+  },
+  {
+   "id": "2026-11-01-007",
+   "title": "Shops looted as German cost of living protests turn violent",
+   "url": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-01T06:30:59.000Z",
+   "category": "global-security",
+   "summary": "Cost-of-living protests in Berlin, Hamburg and Frankfurt turned violent with shops looted, coinciding with mass demonstrations in France.",
+   "relevance": 2,
+   "tags": [
+    "civil-unrest",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-11-01-016",
+   "title": "Security Sunday: Wie real ist die Kriegsgefahr? – mit General Alexander Sollfrank",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-wie-real-ist-die-kriegsgefahr-mit-general-alexander-sollfrank/",
+   "source": "Politico Europe",
+   "published": "2026-11-01T05:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico German-language podcast episode discussing the risk of war with General Alexander Sollfrank.",
+   "relevance": 2,
+   "tags": [
+    "defence",
+    "podcast"
+   ]
+  },
+  {
+   "id": "2026-11-01-019",
+   "title": "France protests enter third week as police fire tear gas",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-01T04:31:24.000Z",
+   "category": "global-security",
+   "summary": "French cost-of-living protests entered a third week, with police using tear gas against demonstrators.",
+   "relevance": 2,
+   "tags": [
+    "civil-unrest",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-11-01-022",
+   "title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
+   "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-01T03:37:23.000Z",
+   "category": "global-security",
+   "summary": "Ukrainian evacuees from Russian-occupied Oleshky reunited with relatives after months of isolation.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-11-01-029",
+   "title": "Taiwan says China harassing shipping with east coast patrol",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNmpudFJ3RHh6NXBMa1hnRnV6WFRyZ0VXM3d2dlhJMEJPRTdmbmg3NG1NVzJRa3hFNnhUN1l5cjAxR01IN3l2N1pzS0htLXMwZGVxVUdFQ3JJdFU1LXRDVTJaVmY0Ny1UWG9CY2NwRmlXZjl6S3ZLdmVGYThIa0JrM2FjSjJhcU9vT1ZNRWxGWTRiWXFoY2dKZUpQamlDVlRVYlIzTHdQc19WNVk?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-01T01:20:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan says Chinese patrols on its east coast are harassing commercial shipping.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-01-030",
+   "title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+   "url": "https://www.bbc.co.uk/news/articles/c893z699q401o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-01T00:55:06.000Z",
+   "category": "global-security",
+   "summary": "BBC analysis comparing the electoral defeat of Serbia's Vucic with the earlier fall of Hungary's Orban.",
+   "relevance": 2,
+   "tags": [
+    "politics",
+    "hungary"
+   ]
+  },
+  {
+   "id": "2026-11-01-041",
+   "title": "Thousands demonstrate in Paris as protests spread across Europe",
+   "url": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-10-31T21:29:01.000Z",
+   "category": "global-security",
+   "summary": "More than 320,000 people protested across France over living costs and public services, with clashes between protesters and police as unrest spread across Europe.",
+   "relevance": 2,
+   "tags": [
+    "civil-unrest",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-11-01-042",
+   "title": "Secretary Rubio has a tough time getting officials at G20 on the same page",
+   "url": "https://www.npr.org/2026/10/31/nx-s1-6022223/secretary-rubio-has-a-tough-time-getting-officials-at-g20-on-the-same-page",
+   "source": "NPR World",
+   "published": "2026-10-31T21:14:34.000Z",
+   "category": "global-security",
+   "summary": "US Secretary of State Rubio struggled to align G20 foreign ministers on economic and security priorities at the Atlanta meeting.",
+   "relevance": 2,
+   "tags": [
+    "g20",
+    "diplomacy"
+   ]
+  },
+  {
+   "id": "2026-11-01-044",
+   "title": "Hundreds of thousands of protesters march across France for third week in a row",
+   "url": "https://www.politico.eu/article/france-youth-protests-cost-of-living-spread-europe/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T17:33:31.000Z",
+   "category": "global-security",
+   "summary": "Hundreds of thousands marched across France for a third consecutive week, part of a wider European wave of cost-of-living protests.",
+   "relevance": 2,
+   "tags": [
+    "civil-unrest",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-11-01-046",
+   "title": "Polish president pushes into top court, accuses PM Tusk of takeover",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdXhQWW1XVzNXQU9TQl9WVDZwTXcwWkxldy1nVmI0S0o1LV9uNjlpRzBXb1pZeG1RSWVQbE9jemxpVVRzRjJjaHdSdDkySmJYTVAxSlBmWEtlbGFiZVZqM2lvaG1TU3g2Ni1OdWZuU2VjMEdoQVNVaEJWOXVqcmVoNW9mc2l6Z0JlTWpMalZGSHF0VzR5YlE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-31T15:39:37.000Z",
+   "category": "policy-regulation",
+   "summary": "Poland's president escalated a rule-of-law conflict by pushing into the top court and accusing PM Tusk of a takeover.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-11-01-048",
+   "title": "Binance says it has covered $6 billion of $6.3 billion stolen in hack",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV05QRmVQbjJDUTZkNzRFaTA5VVp5RE9Bd2ctMkxITEVaZnNLZVVzdkx5aHBUUFZYOTJCb19YRFJRM2I1RW5QS0JJUmowaUtsVjlnaTExaWJDM2NsLVJINlJQZ0JHdlUyb05LS0kyRGdRMHlyVWdYRHFJOTNlbFRZc0plbkc2SE1nOHB1SklPVVNUVnhFY3lYdWtR?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-10-31T14:59:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance states it has covered $6 billion of the $6.3 billion stolen in the hack.",
+   "relevance": 2,
+   "tags": [
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-01-049",
+   "title": "Merz ‘surprised’ by Asian pushback to ‘Made in Europe’ plan for car industry",
+   "url": "https://www.politico.eu/article/friedrich-merz-surprised-by-asian-pushback-over-made-in-europe-car-industry/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T14:19:53.000Z",
+   "category": "policy-regulation",
+   "summary": "Chancellor Merz said the Franco-German 'Made in Europe' car subsidy restriction plan drew considerable concern from East Asian capitals.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "trade"
+   ]
+  },
+  {
+   "id": "2026-11-01-051",
+   "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "source": "BleepingComputer",
+   "published": "2026-10-31T13:10:19.000Z",
+   "category": "ai-security",
+   "summary": "Sponsored-style piece noting AI-generated vulnerability reports are flooding bug bounty programs, with guidance for new researchers on producing reproducible findings.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "bug-bounty"
+   ]
+  },
+  {
+   "id": "2026-11-01-060",
+   "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33476",
+   "source": "SANS ISC",
+   "published": "2026-10-31T10:52:53.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Wireshark 5.0.0rc1 release candidate published ahead of a new major version.",
+   "relevance": 2,
+   "tags": [
+    "tooling"
+   ]
+  },
+  {
+   "id": "2026-11-01-061",
+   "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+   "url": "https://isc.sans.edu/diary/rss/33474",
+   "source": "SANS ISC",
+   "published": "2026-10-31T10:48:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "YARA-X 1.22.1 bugfix release published with two fixes.",
+   "relevance": 2,
+   "tags": [
+    "tooling",
+    "yara"
+   ]
+  },
+  {
+   "id": "2026-11-01-062",
+   "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33454",
+   "source": "SANS ISC",
+   "published": "2026-10-31T10:45:40.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "YARA-X 1.22.0 released with 11 improvements and 9 bugfixes.",
+   "relevance": 2,
+   "tags": [
+    "tooling",
+    "yara"
+   ]
+  },
+  {
+   "id": "2026-11-01-063",
+   "title": "Zelenskyy urges US to speed up Patriot deliveries",
+   "url": "https://www.politico.eu/article/volodymyr-zelenskyy-urges-us-speed-up-patriot-deliveries/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T10:41:36.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy urged faster US Patriot deliveries after Washington approved the sale of 500 interceptors against Russian ballistic missiles.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-11-01-064",
+   "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+   "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+   "source": "Wired – AI",
+   "published": "2026-10-31T10:30:00.000Z",
+   "category": "ai-security",
+   "summary": "WIRED analysis of Meta's Muse AI agent and companies' efforts to frame agentic AI as an opportunity rather than a disruption threat.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-11-01-065",
+   "title": "Polish president Nawrocki pushes his way into top court amid rule-of-law tussle",
+   "url": "https://www.politico.eu/article/poland-president-karol-nawrocki-rule-of-law-crisis/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T10:03:04.000Z",
+   "category": "policy-regulation",
+   "summary": "Polish President Nawrocki physically entered the constitutional court past protesters, escalating the rule-of-law dispute with PM Tusk.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-11-01-066",
+   "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+   "source": "Wired – AI",
+   "published": "2026-10-31T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "A biotech startup allowed an AI agent to select and administer a gene therapy injection in a live mouse, illustrating expanding autonomy of agents in physical workflows.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-11-01-075",
+   "title": "Special episode: An exclusive interview with Canadian PM Mark Carney",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/special-episode-an-exclusive-interview-with-canadian-pm-mark-carney/",
+   "source": "Politico Europe",
+   "published": "2026-10-31T04:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico interview with Canadian PM Mark Carney on closer EU-Canada partnership and transatlantic relations.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "diplomacy"
+   ]
+  }
+ ]
+}
