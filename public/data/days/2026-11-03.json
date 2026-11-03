@@ -1,0 +1,903 @@
+{
+ "date": "2026-11-03",
+ "generatedAt": "2026-11-03T06:46:51.236Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 46,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-03-001",
+   "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+   "source": "NCSC UK",
+   "published": "2026-11-03T12:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The UK NCSC warns that AI-enabled attacks on critical national infrastructure are likely within two years, blaming underinvestment in IT and long-tolerated weaknesses now discoverable at scale.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "cni",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-03-008",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-03T06:45:17.254Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws enabling unauthenticated remote code execution; fixes shipped in 8.5.12, 8.4.27, 8.3.36 and 8.2.35, with PoCs already circulating.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-11-03-009",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-03T06:45:17.254Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags a critical GitLab CE/EE flaw allowing unauthenticated arbitrary code execution; patch internet-facing instances first and check for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-03-010",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-03T06:45:17.254Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Critical Cisco Secure Email Gateway AMP flaw permits unauthenticated remote file write and root command execution; Cisco PSIRT confirms active exploitation, patch immediately.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email"
+   ]
+  },
+  {
+   "id": "2026-11-03-066",
+   "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "source": "BleepingComputer",
+   "published": "2026-11-02T21:40:14.000Z",
+   "category": "incidents-threats",
+   "summary": "Chinese threat actors reportedly used ARTEX, an open-source multi-agent AI pentesting framework, to automate attacks against 200+ organisations in 14 countries.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "apt",
+    "automation"
+   ]
+  },
+  {
+   "id": "2026-11-03-074",
+   "title": "EU Commission to probe supermarket cyberattacks",
+   "url": "https://www.politico.eu/article/european-commission-probe-supermarket-cyberattack-christophe-hansen/",
+   "source": "Politico Europe",
+   "published": "2026-11-02T19:20:11.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission will investigate the wave of supermarket cyberattacks; the Agriculture Commissioner said food security is not at risk but supply chain resilience is a concern.",
+   "relevance": 5,
+   "tags": [
+    "eu",
+    "supply-chain",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-03-086",
+   "title": "Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)",
+   "url": "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-02T11:04:08.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Ivanti patched two more Connect Secure zero-days (CVE-2026-111357 privilege escalation, CVE-2026-118527 predictable identifiers); both are listed in CISA KEV as exploited.",
+   "relevance": 5,
+   "tags": [
+    "ivanti",
+    "0day",
+    "kev"
+   ]
+  },
+  {
+   "id": "2026-11-03-002",
+   "title": "Artificial intelligence and cyber intrusion",
+   "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+   "source": "NCSC UK",
+   "published": "2026-11-03T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "NCSC assessment on AI-enabled intrusion trends with projections of the threat landscape to 2028, useful input for multi-year defensive planning.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "threat-intel",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-03-015",
+   "title": "AI coding agents are installing MCP servers that will never be patched",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/mcphantom-deprecated-mcp-servers/",
+   "source": "Help Net Security",
+   "published": "2026-11-03T05:45:53.000Z",
+   "category": "ai-security",
+   "summary": "Glow Labs research ('MCPhantom') found AI coding agents installing deprecated, never-to-be-patched MCP servers on developer machines in the majority of reviewed sessions.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "mcp"
+   ]
+  },
+  {
+   "id": "2026-11-03-016",
+   "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "source": "The Hacker News",
+   "published": "2026-11-03T05:34:41.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CVE-2026-58115 (CVSS 10.0), a missing-authentication flaw in Siemens SIMATIC IoT2050 Advanced devices, is under active exploitation to plant remote command backdoors.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "exploited",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-03-046",
+   "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "source": "Krebs on Security",
+   "published": "2026-11-03T02:24:31.000Z",
+   "category": "incidents-threats",
+   "summary": "Google and partners dismantled a botnet of over 1.3 million Android TV set-top boxes shipped with preinstalled malware used for residential proxying and ad fraud, potentially cutting off 10M more devices.",
+   "relevance": 4,
+   "tags": [
+    "botnet",
+    "iot",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-03-054",
+   "title": "UK cyber chief says the UK will face AI cyberattacks on critical infrastructure by 2028",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaGx3eWwwYzBFUHZMcktMZFJxU1JEclEyZnZNTDVRNkg3c1dQeEY1WUItTTFhN3ZXZE00dm43MGgxbTR4SU1MZm9KOGpTLUxjTThXX0V1X0N3YXZmVW1BMjVwNnJ1VmY3dTFKaTc3dEZtREN3WDhYWm82UndfWEZnR3BiU0hsN2gweENzRGJxcWVmWnkwMFV2cWsycVQzbU9pNk13R1VWNVM2cWotd25maDdEZldfeF9TRkw5aQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-03T00:08:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Wire coverage of the UK cyber chief's warning that AI-driven cyberattacks on critical infrastructure should be expected by 2028.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "cni",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-03-055",
+   "title": "UK must expect AI-powered attack on critical infrastructure within two years, report says",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTjFmQ0ExbUxlWldEekp5T3NVZUc2Mm92VzBUdzJBUUtGVHJjVEhzRmRPSXJTaW1SdFJRTDd0SDNhWGxfc0VJOXJSSFBzX1NfWTVYU2I4Xy1Xa1FPajdrOWVMOHhMeVF2cFlvRGhReXZnOHdRLWxkTGQzV2d5MjBRNkFzZmNick93VXZIdXJSbTk4OWNadkFkUW41RjJCME9FdlZ5ZGFMV0NMM2FuQnRTSmNGcktqR0pNNnZsRl9zTmpMbGZ1T1NiZ2MyLW9Qdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-03T00:02:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters summary of the NCSC report urging UK organisations to prepare for an AI-powered attack on critical infrastructure within two years.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "cni"
+   ]
+  },
+  {
+   "id": "2026-11-03-056",
+   "title": "UK faces ‘unprecedented rise’ in cyberattacks in coming months, warns cyber chief",
+   "url": "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
+   "source": "The Record",
+   "published": "2026-11-03T00:01:00.000Z",
+   "category": "incidents-threats",
+   "summary": "The NCSC annual report warns of an 'unprecedented rise' in attacks, noting long-tolerated vulnerabilities can now be found and exploited at previously unimaginable scale.",
+   "relevance": 4,
+   "tags": [
+    "ncsc",
+    "ai",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-03-062",
+   "title": "Max-severity bug in widely used OT programming tool exploited to deliver Linux malware",
+   "url": "https://www.theregister.com/security/2026/11/02/max-severity-bug-in-widely-used-ot-programming-tool-exploited-to-deliver-linux-malware/5307086",
+   "source": "The Register – Security",
+   "published": "2026-11-02T22:55:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A maximum-severity bug in a widely used OT programming tool is being exploited to deploy Linux malware on industrial IoT gateways.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "exploited",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-03-063",
+   "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+   "source": "Dark Reading",
+   "published": "2026-11-02T22:27:24.000Z",
+   "category": "incidents-threats",
+   "summary": "Analysis of the Binance theft highlighting how one compromised laptop plus weak system separation and untested attack paths escalated into systemic loss.",
+   "relevance": 4,
+   "tags": [
+    "attack-path",
+    "segmentation",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-03-064",
+   "title": "Google shuts down global botnet running on certified Android devices",
+   "url": "https://cyberscoop.com/google-disrupts-xcpe-botnet-videostrong-android-devices/",
+   "source": "CyberScoop",
+   "published": "2026-11-02T21:58:24.000Z",
+   "category": "incidents-threats",
+   "summary": "Google disrupted a botnet built on Videostrong-made certified Android devices shipped with pre-installed malware, which evaded security testing for years.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "botnet",
+    "android"
+   ]
+  },
+  {
+   "id": "2026-11-03-067",
+   "title": "New cyberattack on supermarket fridges sweeps across Europe",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObF9LUXZ2TVpjZm13eW9HNXZ0MkZFVDM5eHl5RXc0aDkzODdvc0VKYVE4YV9MSDZITjVTR01CM3l6ajdCVEFZMXlmdmx3MzBRWHN5QVkyTFU2bkR2Sm5VQm5OWUVfLVJoeHFZaXdrc0F1QTRnT0tHYXRvcVd4S0V2QUxmV3ptOEszT2EyWmFpVjYyUnRwODF1eGhXbGpGcUV2UXRwZFFLOGhPLTY1MWUxal9TY3M0Qm9MOVpSeTFHazNxMUNGSnVfdzVvOE0tUGM?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-02T21:37:54.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Reuters reports a new wave of cyberattacks against supermarket refrigeration systems spreading across Europe.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "retail",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-11-03-072",
+   "title": "What exploited vulnerabilities have in common: A data-driven analysis of real-world attacks",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-02T20:20:59.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft data-driven analysis shows real-world exploitation concentrates in a small subset of CVEs, offering prioritisation criteria based on exploitation likelihood, exposure and blast radius.",
+   "relevance": 4,
+   "tags": [
+    "vulnerability-management",
+    "prioritisation"
+   ]
+  },
+  {
+   "id": "2026-11-03-079",
+   "title": "Tageszusammenfassung - 02.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-02112026",
+   "source": "CERT.at",
+   "published": "2026-11-02T17:34:52.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report notes supermarket refrigeration attacks spreading to Belgium, Luxembourg and Sweden after France, plus a Northflank security breach.",
+   "relevance": 4,
+   "tags": [
+    "cert",
+    "ot",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-11-03-004",
+   "title": "Rekordméretű kriptolopás a Binance-nél 2026. október 29-én mintegy 6,36 milliárd dollár értékű kriptoeszközt loptak el a Binance tárcáiból. A tíz blokkláncot érintő támadás legnagyobb része körülbelü…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/rekordmeretu-kriptolopas-a-binance-nel/",
+   "source": "NKI Hungary",
+   "published": "2026-11-03T06:45:18.897Z",
+   "category": "incidents-threats",
+   "summary": "NKI reports roughly USD 6.36 billion in crypto assets stolen from Binance wallets on 29 October 2026, spanning ten blockchains in a record-sized theft.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "theft",
+    "binance"
+   ]
+  },
+  {
+   "id": "2026-11-03-012",
+   "title": "North Korea denies being behind record $6.3bn Binance hack",
+   "url": "https://www.bbc.co.uk/news/articles/c6rey4v53exgo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-03T06:22:29.000Z",
+   "category": "global-security",
+   "summary": "North Korea publicly denies responsibility for the record USD 6.3bn Binance hack that US agencies and analysts attribute to Pyongyang.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto",
+    "attribution"
+   ]
+  },
+  {
+   "id": "2026-11-03-017",
+   "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+   "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+   "source": "The Hacker News",
+   "published": "2026-11-03T05:34:37.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Attackers are targeting an unpatched CVSS 10.0 flaw (CVE-2026-81648) in the CryptoPayment Gateway WordPress plugin allowing arbitrary file deletion and credential exposure.",
+   "relevance": 3,
+   "tags": [
+    "wordpress",
+    "0day",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-03-019",
+   "title": "Fireperf: Open-source network testing tool for firewalls and routers",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/fireperf-open-source-network-testing-tool/",
+   "source": "Help Net Security",
+   "published": "2026-11-03T05:30:59.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "IPFire released fireperf, an open-source tool to measure how firewalls and routers handle high connection-state rates, complementing bandwidth testers like iperf3.",
+   "relevance": 3,
+   "tags": [
+    "tooling",
+    "network",
+    "firewall"
+   ]
+  },
+  {
+   "id": "2026-11-03-038",
+   "title": "US strikes Iran ahead of midterm elections",
+   "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-03T03:39:08.000Z",
+   "category": "global-security",
+   "summary": "US forces struck Qeshm Island in Iran, described by officials as limited and defensive, days before the midterms.",
+   "relevance": 3,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-03-050",
+   "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-03T01:56:27.000Z",
+   "category": "global-security",
+   "summary": "Russian aerial bombing of a southern Ukrainian village killed 26 people at an aid centre, Kyiv says.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-11-03-061",
+   "title": "Unit 42 Threat Intelligence Highlights - Nov. 2, 2026",
+   "url": "https://unit42.paloaltonetworks.com/u42-threat-intelligence-highlights-oct-2026/",
+   "source": "Unit 42",
+   "published": "2026-11-02T23:00:45.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 threat intelligence roundup covering cyberespionage, financial extortion and rapid adoption of AI in offensive workflows.",
+   "relevance": 3,
+   "tags": [
+    "threat-intel",
+    "extortion",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-03-065",
+   "title": "Largest crypto exchange in Brazil confirms cyberattack as millions flow out of platform",
+   "url": "https://therecord.media/mercado-bitcoin-brazil-cryptocurrency-heist",
+   "source": "The Record",
+   "published": "2026-11-02T21:42:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Brazil's largest crypto exchange Mercado Bitcoin confirmed a cyberattack, with blockchain analysts tracking more than USD 46 million leaving the platform.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-11-03-075",
+   "title": "Mistral CEO: Europe faces ‘complete trap’ without frontier AI",
+   "url": "https://www.politico.eu/article/mistral-ceo-mensch-warns-europe-trap-ai-dependence/",
+   "source": "Politico Europe",
+   "published": "2026-11-02T18:36:08.000Z",
+   "category": "policy-regulation",
+   "summary": "Mistral's CEO warns Europe risks a 'complete trap' without its own frontier AI capability and calls for a European AI strategy.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "sovereignty",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-03-084",
+   "title": "AI Vulnerability Finding",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-02T12:02:34.000Z",
+   "category": "ai-security",
+   "summary": "Schneier highlights a claim that 3% of all critical software security bugs ever recorded were found in the past month, driven by AI-assisted discovery.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "vulnerabilities"
+   ]
+  },
+  {
+   "id": "2026-11-03-003",
+   "title": "Több ezer alkalmazott adatait lopták el a Belbiztonsági Minisztériumtól Az Egyesült Államok Belbiztonsági Minisztériumát (DHS) érintő korábbi adatszivárgás során több ezer alkalmazottjának személyes…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-ezer-alkalmazott-adatait-loptak-el-a-belbiztonsagi-miniszteriumtol/",
+   "source": "NKI Hungary",
+   "published": "2026-11-03T06:45:18.897Z",
+   "category": "incidents-threats",
+   "summary": "Hungarian NKI reports that a prior breach at the US Department of Homeland Security exposed personal data of thousands of employees.",
+   "relevance": 2,
+   "tags": [
+    "data-breach",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-11-03-011",
+   "title": "What human hackers still do better than AI, according to HackerOne’s CEO",
+   "url": "https://www.helpnetsecurity.com/2026/11/03/kara-sprague-hackerone-ai-bug-bounty/",
+   "source": "Help Net Security",
+   "published": "2026-11-03T06:30:36.000Z",
+   "category": "ai-security",
+   "summary": "HackerOne's CEO argues humans still outperform AI on business-logic bugs and impact judgement, while AI-assisted submissions flood bounty programs.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "bugbounty"
+   ]
+  },
+  {
+   "id": "2026-11-03-018",
+   "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+   "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+   "source": "Simon Willison",
+   "published": "2026-11-03T05:32:25.000Z",
+   "category": "ai-security",
+   "summary": "OSINT demonstration showing how faint aircraft noise in video audio can be matched via Doppler curves to ADS-B data to geolocate the recording.",
+   "relevance": 2,
+   "tags": [
+    "osint",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-03-022",
+   "title": "California’s Bay Area debates data centres ahead of US midterm elections",
+   "url": "https://www.aljazeera.com/news/2026/11/3/californias-bay-area-debates-data-centres-ahead-of-us-midterm-elections?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-03T05:13:42.000Z",
+   "category": "global-security",
+   "summary": "At least seven San Francisco Bay Area cities have passed data centre moratoriums ahead of US midterms, despite the region's AI industry role.",
+   "relevance": 2,
+   "tags": [
+    "datacenter",
+    "ai",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-03-024",
+   "title": "Poland’s court fight boils over",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/polands-court-fight-boils-over/",
+   "source": "Politico Europe",
+   "published": "2026-11-03T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Poland's rule-of-law dispute escalates as PM Tusk moves to undo judicial appointments made under the previous government.",
+   "relevance": 2,
+   "tags": [
+    "rule-of-law",
+    "poland",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-03-041",
+   "title": "Crisis over top court shapes Poland’s battle lines before 2027 election",
+   "url": "https://www.politico.eu/article/crisis-over-top-court-shapes-polands-battle-lines-before-2027-election/",
+   "source": "Politico Europe",
+   "published": "2026-11-03T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Poland's Constitutional Tribunal crisis is shaping political battle lines ahead of the 2027 election, with rival rule-of-law and coup narratives.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-11-03-042",
+   "title": "Why Europe shouldn’t celebrate a Democratic midterm victory",
+   "url": "https://www.politico.eu/article/why-europe-shouldnt-celebrate-democratic-us-midterm-victory/",
+   "source": "Politico Europe",
+   "published": "2026-11-03T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis arguing a Democratic midterm win would do little to constrain US foreign policy toward Europe.",
+   "relevance": 2,
+   "tags": [
+    "transatlantic",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-03-043",
+   "title": "Malaysia to hold meetings to prepare for rising cyber and geopolitical threats, PM says",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdGVuREFmeWttaHp3SHJTdll0ZEs1WlFXYjFpS2loMDhHemxWRVpxQmMwTHhjRnBac2FrTlB4d3drZThQQmNXa2FQYktSVEptdlJydXVTbTlUak9NVDBmTEVhTkFONlJXVGRTSjQ4Qll2aXZOT0l2a2xwNm03X2Nwa3d1ZjhjMjNwRnFCVzFrN19pV0dFVGlZc2h1dTMyazA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-03T02:57:00.000Z",
+   "category": "global-security",
+   "summary": "Malaysia's PM announced preparatory meetings to address rising cyber and geopolitical threats.",
+   "relevance": 2,
+   "tags": [
+    "government",
+    "strategy"
+   ]
+  },
+  {
+   "id": "2026-11-03-048",
+   "title": "South Korea's Lee calls for powerful government-wide cybersecurity body",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPa3l1ZksxcWNyX2pid2FGeTk1MlduYjFNQkM5aEp6SHRmUzNMLU82NXdCbFVOWkFYOEoyblJhM1JTSkdULWhKX3R1dHBIQkFZMTJIV2hlZzFFajRLY3JLQTAySm9JWG5fVDd6MmMwWTFzRG50VWI4MS02MDRURDJRV3BpLXJCTGlrTmdaYUpTVV9fT0YybE9QcUlrd0ZUX05YcWNjejVfb3dQZF9zblFxY0pXOGFBWGk5V213T0x3?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-03T02:03:00.000Z",
+   "category": "global-security",
+   "summary": "South Korea's President Lee called for a powerful government-wide cybersecurity body.",
+   "relevance": 2,
+   "tags": [
+    "governance",
+    "strategy"
+   ]
+  },
+  {
+   "id": "2026-11-03-058",
+   "title": "Russia bombs aid center and shelter in southern Ukraine, killing 26, officials say",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSjQxRVBYSHRNOF9zQ2l4RldLcXhabTFZWjVtWkhRaGZ3c25xemVZZmJjU1FiQUxMYlpzdmFvQkp1RGRFcWpaVGlOel9vLWx4ZDdfdDdlbm9DWTBXU1B2ZTNHQVFfU1EyQ1VaSHE2NFNqTXEwSEdxZmJEM3piSHhQc1YwUnM0SmxQVFFXYkQtM3BkdW5hclJpdEZwNXZ0M01mRXVUWQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-02T23:52:00.000Z",
+   "category": "global-security",
+   "summary": "Russian bombing of an aid centre and shelter in southern Ukraine killed 26 people, officials say.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "war"
+   ]
+  },
+  {
+   "id": "2026-11-03-069",
+   "title": "Business groups mount fresh campaign for long-term renewal of information sharing law",
+   "url": "https://cyberscoop.com/business-groups-cisa-2015-renewal-ndaa-cybersecurity/",
+   "source": "CyberScoop",
+   "published": "2026-11-02T21:04:42.000Z",
+   "category": "policy-regulation",
+   "summary": "US business groups are pushing to attach a long-term renewal of the CISA 2015 information-sharing law to the annual defense authorization bill.",
+   "relevance": 2,
+   "tags": [
+    "info-sharing",
+    "legislation",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-03-070",
+   "title": "Trump raises doubts about renewed attacks on Iran",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQndTRnlIMnd2YXYxWE0ySGhhU2lzZldZWGdGNlhUejVqLUxyTkJ3dzVnNWNZaGszckxhWVh3eDdtb1VmWHlpSkdyS1lES2VoYnhfdnVraHV4UE9ScDV3UHo2UVFmb1lHblVhaDdxM0I2QkxNc2x5Q3RybjNEVFRJQXdTbk05N2lxemd5cU1jWHh0aXVvM05rVmJiQm5uY2VmNGc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-02T20:57:44.000Z",
+   "category": "global-security",
+   "summary": "President Trump cast doubt on further attacks against Iran following recent strikes.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-03-077",
+   "title": "Rewarding defenders with bigger bug bounties",
+   "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+   "source": "OpenAI News",
+   "published": "2026-11-02T18:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI is increasing security bug bounty payouts and adding report-quality, loyalty and priority campaign bonuses.",
+   "relevance": 2,
+   "tags": [
+    "bugbounty",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-11-03-078",
+   "title": "Preparing our next security sprint to harden OpenAI",
+   "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+   "source": "OpenAI News",
+   "published": "2026-11-02T18:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI announced an internal security sprint with Cathedral Systems to test and harden its defenses using AI.",
+   "relevance": 2,
+   "tags": [
+    "openai",
+    "red-team"
+   ]
+  },
+  {
+   "id": "2026-11-03-081",
+   "title": "Introducing the Grid Protectors Program",
+   "url": "https://openai.com/index/grid-protectors-program",
+   "source": "OpenAI News",
+   "published": "2026-11-02T15:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI launched a Grid Protectors Program with utilities aimed at grid reliability and consumer electricity costs around compute campuses.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-11-03-087",
+   "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+   "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+   "source": "Wired – AI",
+   "published": "2026-11-02T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "WIRED identified around 400 apps and sites tied to Chinese-language developers that hide sexually abusive deepfake generation features behind mundane AI tools.",
+   "relevance": 2,
+   "tags": [
+    "deepfake",
+    "abuse",
+    "ai"
+   ]
+  }
+ ]
+}
