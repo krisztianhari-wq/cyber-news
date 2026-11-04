@@ -1,0 +1,980 @@
+{
+ "date": "2026-11-04",
+ "generatedAt": "2026-11-04T06:46:57.569Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 51,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-04-002",
+   "title": "Egy speciális üzenet távolról is megbéníthatja az Android telefonokat Egy újonnan nyilvánosságra hozott, működő proof of concept (PoC) azt demonstrálja, hogyan lehet egy speciálisan kialakított SMS-s…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/egy-specialis-uzenet-tavolrol-is-megbenithatja-az-android-telefonokat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-04T06:45:12.985Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A published proof-of-concept shows a specially crafted SMS message can remotely disrupt Android phones, raising concerns for mobile fleets and operators.",
+   "relevance": 5,
+   "tags": [
+    "android",
+    "sms",
+    "poc"
+   ]
+  },
+  {
+   "id": "2026-11-04-007",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-04T06:45:11.498Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws allowing unauthenticated remote code execution; fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35, with PoCs already circulating.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-11-04-008",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-04T06:45:11.498Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw enabling unauthenticated arbitrary code execution on the server; CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-04-009",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-04T06:45:11.498Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway AMP feature contains a critical flaw allowing unauthenticated remote attackers to write files and run commands as root; active exploitation confirmed.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "0day",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-11-04-053",
+   "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "source": "BleepingComputer",
+   "published": "2026-11-03T22:18:50.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers compromised the autoupdate infrastructure of the cPGuard web security suite to push a backdoor and a data-stealing script — a software supply chain attack on a security product.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "backdoor",
+    "hosting"
+   ]
+  },
+  {
+   "id": "2026-11-04-067",
+   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+   "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+   "source": "BleepingComputer",
+   "published": "2026-11-03T18:51:04.000Z",
+   "category": "ai-security",
+   "summary": "Google reports LLMjacking attacks abusing stolen cloud AI credentials are generating massive fraudulent charges, with some victims losing over $100,000 per day and $1M totals observed.",
+   "relevance": 5,
+   "tags": [
+    "llmjacking",
+    "cloud",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-04-078",
+   "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+   "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+   "source": "NCSC UK",
+   "published": "2026-11-03T12:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "The NCSC warns the UK faces AI-powered attacks on critical infrastructure within two years, saying underinvestment in technology has left organisations exposed and calling for urgent resilience spending.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "criticalinfrastructure",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-04-079",
+   "title": "Artificial intelligence and cyber intrusion",
+   "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+   "source": "NCSC UK",
+   "published": "2026-11-03T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "NCSC assessment of current AI-enabled threat trends and projections of the threat landscape through 2028.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "threatintel",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-04-001",
+   "title": "C3RB3R zsarolóvírus támadja a Synology NAS-okat A Synology a C3RB3R zsarolóvírussal végrehajtott támadások megszaporodása miatt arra figyelmezteti ügyfeleit, hogy haladéktalanul frissítsék hálózati a…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/c3rb3r-zsarolovirus-tamadja-a-synology-nas-okat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-04T06:45:12.985Z",
+   "category": "eu-threat-landscape",
+   "summary": "Synology warns customers of a surge in C3RB3R ransomware attacks against NAS devices and urges immediate firmware updates.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "nas",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-04-003",
+   "title": "Európai hűtők kerültek a kibertámadások kereszttüzébe Eddig összesen hét ország, köztük Belgium, Észtország, Írország, Finnország, Luxemburg, Hollandia és Svédország kiskereskedelmi egységei számolta…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas/",
+   "source": "NKI Hungary",
+   "published": "2026-11-04T06:45:12.985Z",
+   "category": "eu-threat-landscape",
+   "summary": "Retail refrigeration units in at least seven European countries (incl. Belgium, Estonia, Ireland, Finland, Luxembourg, Netherlands, Sweden) have been hit by cyberattacks.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "iot",
+    "retail"
+   ]
+  },
+  {
+   "id": "2026-11-04-021",
+   "title": "Companies going all in on AI could see their strategy backfire",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/ai-strategy-miscalculation-gartner-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-04T05:30:45.000Z",
+   "category": "ai-security",
+   "summary": "Gartner's Quarterly Emerging Risk Report finds four of the top five enterprise risks are AI-related, with AI-driven discovery of cyber vulnerabilities ranked first for a second quarter.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "risk",
+    "gartner"
+   ]
+  },
+  {
+   "id": "2026-11-04-054",
+   "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
+   "url": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
+   "source": "Dark Reading",
+   "published": "2026-11-03T22:16:49.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading analysis of renewed attacks on European supermarket refrigeration systems, highlighting cold-chain and temperature-controlled infrastructure exposed via internet-connected remote access.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "iot",
+    "criticalinfrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-04-055",
+   "title": "North Korean fake job interview led to $6.3B Binance heist",
+   "url": "https://www.theregister.com/security/2026/11/03/north-korean-fake-job-interview-led-to-63b-binance-heist/5307398",
+   "source": "The Register – Security",
+   "published": "2026-11-03T22:04:45.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance says a North Korean fake job interview lure, not a simple phishing incident, led to the multi-stage compromise behind the $6.3B crypto heist.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "socialengineering",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-04-059",
+   "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "source": "BleepingComputer",
+   "published": "2026-11-03T21:28:44.000Z",
+   "category": "incidents-threats",
+   "summary": "Developer platform WorkOS disclosed a breach in which an attacker used ARTEX AI to access an internal sales app containing business contact records and customer communication summaries.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "databreach",
+    "saas"
+   ]
+  },
+  {
+   "id": "2026-11-04-063",
+   "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+   "source": "BleepingComputer",
+   "published": "2026-11-03T20:05:50.000Z",
+   "category": "incidents-threats",
+   "summary": "Binance confirms North Korean hackers used a fake job interview to install malware on an employee device, eventually compromising wallet infrastructure and stealing about $6.34 billion.",
+   "relevance": 4,
+   "tags": [
+    "dprk",
+    "crypto",
+    "socialengineering"
+   ]
+  },
+  {
+   "id": "2026-11-04-064",
+   "title": "Google dismantles massive botnet hidden in Android TV boxes",
+   "url": "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+   "source": "The Record",
+   "published": "2026-11-03T19:48:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Google dismantled the X.CPE botnet built mostly from infected Android TV set-top boxes, plus other Android IoT devices such as telehealth equipment, karaoke machines and digital signage.",
+   "relevance": 4,
+   "tags": [
+    "botnet",
+    "iot",
+    "android"
+   ]
+  },
+  {
+   "id": "2026-11-04-068",
+   "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+   "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+   "source": "The Hacker News",
+   "published": "2026-11-03T18:46:38.000Z",
+   "category": "incidents-threats",
+   "summary": "Password manager mSecure urged users to change stored passwords, reset 2FA and remove passkeys after detecting suspicious activity linked to the app.",
+   "relevance": 4,
+   "tags": [
+    "passwordmanager",
+    "breach",
+    "credentials"
+   ]
+  },
+  {
+   "id": "2026-11-04-069",
+   "title": "Several German lawmakers and foreign policy staff received Apple warnings on spyware",
+   "url": "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
+   "source": "The Record",
+   "published": "2026-11-03T18:44:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Several German lawmakers and foreign policy staff were among those who received Apple mercenary spyware notifications, part of warnings sent to targets in 99 countries.",
+   "relevance": 4,
+   "tags": [
+    "spyware",
+    "germany",
+    "targeting"
+   ]
+  },
+  {
+   "id": "2026-11-04-070",
+   "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+   "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+   "source": "The Hacker News",
+   "published": "2026-11-03T18:16:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Blockchain infrastructure provider Chainstack disclosed a production systems breach exposing customer data and password hashes, assessed as part of a large-scale AI-powered attack campaign.",
+   "relevance": 4,
+   "tags": [
+    "databreach",
+    "ai",
+    "supplychain"
+   ]
+  },
+  {
+   "id": "2026-11-04-004",
+   "title": "Investment scams with potential victims in at least 50 countries: over 100 servers seized",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized",
+   "source": "Europol",
+   "published": "2026-11-04T06:45:12.243Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol supported a German-led operation against a supplier of fraudulent trading websites; over 100 servers seized, 17 locations searched, seven suspects, losses over EUR 4 million across 50+ countries.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "europol",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-04-017",
+   "title": "Secure your containers without breaking what works",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/rapidfort-runtime-container-profiling/",
+   "source": "Help Net Security",
+   "published": "2026-11-04T06:00:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Analysis of container security hygiene: minimising unused packages and tools in images to shrink attack surface and reduce vulnerability noise.",
+   "relevance": 3,
+   "tags": [
+    "containers",
+    "hardening"
+   ]
+  },
+  {
+   "id": "2026-11-04-018",
+   "title": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaTQ2OEJBMGZkOXY0S1pkeEpQU1ZEUTAySjQwekdEM0FNY3JickJzSnZOMnNqM1NtbWFnYkNxMXp4S0dvcER5VHRlcVpZb2lSSlRMUm9JdDJrWGVIOVFlUHlFeGQzUlp0bE9sOVpCWVUzbmZmZU9SUWtzN29DMmxITzBwYllTSlFqWG4zVnRabUJJMjQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-04T05:51:00.000Z",
+   "category": "global-security",
+   "summary": "North Korea launched missiles toward the sea while protesting US attribution claims over the Binance hack.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "geopolitics",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-04-028",
+   "title": "N Korea fires multiple missiles, denies US claims on Binance hack",
+   "url": "https://www.aljazeera.com/news/2026/11/4/n-korea-fires-multiple-missiles-denies-us-claims-on-binance-hack?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-04T05:11:00.000Z",
+   "category": "global-security",
+   "summary": "North Korea fired multiple missiles and denied US claims of responsibility for the theft of over $6bn in crypto assets from Binance.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto",
+    "attribution"
+   ]
+  },
+  {
+   "id": "2026-11-04-034",
+   "title": "Iran says US reply to Hormuz plan ‘unconvincing’; Trump confirms strikes",
+   "url": "https://www.aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-04T04:39:31.000Z",
+   "category": "global-security",
+   "summary": "Iran called the US response to its Hormuz plan unconvincing as Trump confirmed a US strike on an Iranian anti-aircraft facility; indirect talks continue.",
+   "relevance": 3,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-04-037",
+   "title": "Anthropic open-sources FlashProve, its provable inference prototype for MoE models",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/anthropic-flashprove-provable-inference/",
+   "source": "Help Net Security",
+   "published": "2026-11-04T04:36:14.000Z",
+   "category": "ai-security",
+   "summary": "Anthropic's Frontier Red Team with EPFL, MIT and StarkWare open-sourced FlashProve, a prototype producing cryptographic proof that a specific model generated a specific response, addressing API model-routing trust.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "cryptography",
+    "assurance"
+   ]
+  },
+  {
+   "id": "2026-11-04-056",
+   "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
+   "url": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
+   "source": "Dark Reading",
+   "published": "2026-11-03T21:57:12.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "German-led multinational probe dismantled an alleged crime-as-a-service provider that supplied fraudulent trading platforms to investment scam operations.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "caas",
+    "lawenforcement"
+   ]
+  },
+  {
+   "id": "2026-11-04-057",
+   "title": "Defense and aerospace firm settles with government over allegedly failing to meet cybersecurity contract requirements",
+   "url": "https://cyberscoop.com/ilc-dover-cybersecurity-settlement-false-claims-act/",
+   "source": "CyberScoop",
+   "published": "2026-11-03T21:49:51.000Z",
+   "category": "policy-regulation",
+   "summary": "Defense and aerospace supplier ILC settled for $13 million over allegedly failing to meet cybersecurity requirements in government contracts, without admitting liability.",
+   "relevance": 3,
+   "tags": [
+    "compliance",
+    "defense",
+    "contracts"
+   ]
+  },
+  {
+   "id": "2026-11-04-062",
+   "title": "European supermarket fridges got hacked. Again. Here’s what to know",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR2N6aHhEeFRuMW9VRjR5QlRtYVFWdmVzM0haLU04TWMzYlgtRlB1d2dWUTlESDI1UDBTZGdmd1J4S2JIbkhGWWlObEYxUGxKMXJGQWJLNWJiWnFWZW5XNWJrZUJvdEpENGZzMXlMbnNiSU05bjV3bXZkdWpkMlo0am0yVEY1ekpXYVNJRnZFNllsNGdLT3pWUzc1ZUpuXzBqTmZYcUdseEpaWE9uU2ROZlZHUGI5VnpEWEg1LQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-03T20:20:14.000Z",
+   "category": "incidents-threats",
+   "summary": "AP explainer on the repeated hacking of European supermarket refrigeration systems and what it means for connected commercial equipment.",
+   "relevance": 3,
+   "tags": [
+    "iot",
+    "retail",
+    "ot"
+   ]
+  },
+  {
+   "id": "2026-11-04-065",
+   "title": "AI policy wonks declare 'sovereign agents' a threat to civilization",
+   "url": "https://www.theregister.com/security/2026/11/03/ai-policy-wonks-declare-sovereign-agents-a-threat-to-civilization/5307354",
+   "source": "The Register – Security",
+   "published": "2026-11-03T19:33:01.000Z",
+   "category": "ai-security",
+   "summary": "AI policy researchers warn that 'sovereign agents' — AI agents operating outside human control and pursuing open-ended survival — pose civilizational risk.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-11-04-071",
+   "title": "Tageszusammenfassung - 03.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-03112026",
+   "source": "CERT.at",
+   "published": "2026-11-03T17:48:50.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covering the mSecure password manager incident and fake webshops exploiting the insolvency of the 'Depot' retail chain in Austria.",
+   "relevance": 3,
+   "tags": [
+    "cert",
+    "fraud",
+    "dach"
+   ]
+  },
+  {
+   "id": "2026-11-04-072",
+   "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-03T17:32:47.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft Threat Intelligence details a fake-download campaign using trojanized Inno Setup installers to deliver monetization payloads, with detection and investigation guidance.",
+   "relevance": 3,
+   "tags": [
+    "malware",
+    "installer",
+    "detection"
+   ]
+  },
+  {
+   "id": "2026-11-04-076",
+   "title": "AIs Hacking the Law",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-03T12:01:00.000Z",
+   "category": "ai-security",
+   "summary": "Schneier highlights German research demonstrating AI systems discovering exploitable vulnerabilities in legal texts at scale, extending 'hacking' to the legal system.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "research",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-04-005",
+   "title": "Not a game: Europol and partners target terrorist role-playing online",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online",
+   "source": "Europol",
+   "published": "2026-11-04T06:45:12.243Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's EU IRU and 16 countries ran a referral action day targeting violent extremist and terrorist role-playing content in online gaming environments.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "extremism",
+    "gaming"
+   ]
+  },
+  {
+   "id": "2026-11-04-010",
+   "title": "Democratic Party gains US House majority in 2026 midterm elections",
+   "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-gains-us-house-majority-in-2026-midterm-elections?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-04T06:34:46.000Z",
+   "category": "global-security",
+   "summary": "Democrats won the US House majority in the 2026 midterm elections, with all 435 seats contested.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-04-011",
+   "title": "Ghostunnel: Open-source TLS proxy with mutual authentication",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/ghostunnel-open-source-tls-proxy/",
+   "source": "Help Net Security",
+   "published": "2026-11-04T06:30:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Overview of Ghostunnel, an open-source TLS proxy adding mutual TLS authentication in front of or behind services that cannot handle TLS themselves.",
+   "relevance": 2,
+   "tags": [
+    "tls",
+    "opensource",
+    "mtls"
+   ]
+  },
+  {
+   "id": "2026-11-04-012",
+   "title": "Europe wakes up to a blue tsunami in the US midterms",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/europe-wakes-up-to-a-blue-tsunami-in-the-us-midterms/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T06:30:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico podcast analysing Democratic gains in the US midterms and what the shift may mean for Europe.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "eu-us"
+   ]
+  },
+  {
+   "id": "2026-11-04-016",
+   "title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+   "url": "https://www.bbc.co.uk/news/articles/c6y8lz73vmv7o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-04T06:07:24.000Z",
+   "category": "global-security",
+   "summary": "A US contractor of Ethiopian origin admitted sharing dozens of classified documents with senior Ethiopian officials, aiding operations against Tigray fighters.",
+   "relevance": 2,
+   "tags": [
+    "insider",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-11-04-025",
+   "title": "5 things Europe needs to monitor as Democrats blitz Trump in US midterms",
+   "url": "https://www.politico.eu/article/five-things-europe-monitor-democrats-blitz-donald-trump-us-midterms/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T05:21:25.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico lists five areas Europe should watch after heavy Republican midterm losses, including trade and foreign policy impacts.",
+   "relevance": 2,
+   "tags": [
+    "eu-us",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-04-027",
+   "title": "Trump acknowledges Iran role in Democratic sweep",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNekxLRjk1cjhWRGpWMThYYTlLVXFRZDRBLWZqTVFtZHVIejNuRnZ0TE9CVzUwcFN0VmdaMjRIYlQ0Vmt0RjV1aUp3YUx5RzBCbDVKcUprZGE0S3JxOWhNbEVTTGhWOVFkc0NQN0RqZE56UXBqai1Bc3NaOWJmaHhSQzhVSzJYaXZSQ21ZUHZqaTlXczlETEhoelhpRno4Vmp0eGdJLWNBSEZFUQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-04T05:17:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters reports Trump acknowledging an Iranian role in the Democratic midterm sweep.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-11-04-031",
+   "title": "NIST publishes cybersecurity guide for businesses too small to have IT staff",
+   "url": "https://www.helpnetsecurity.com/2026/11/04/nist-small-business-cybersecurity-guide/",
+   "source": "Help Net Security",
+   "published": "2026-11-04T05:00:23.000Z",
+   "category": "policy-regulation",
+   "summary": "NIST published cybersecurity guidance tailored to solo entrepreneurs and micro-businesses without dedicated IT or security staff.",
+   "relevance": 2,
+   "tags": [
+    "nist",
+    "guidance",
+    "sme"
+   ]
+  },
+  {
+   "id": "2026-11-04-036",
+   "title": "Democratic Party wins US Senate in 2026 midterm elections",
+   "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-04T04:37:05.000Z",
+   "category": "global-security",
+   "summary": "Democrats won control of the US Senate in the 2026 midterms, a reversal of the 2024 result.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-04-043",
+   "title": "North Korea fires multiple missiles in fourth weapons launch in a month, Seoul says",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSGd2b2RVUmtvZUZCMHFtelFwQUV1Umdta1FkSTloenlXeGUxbUhuNVNqaDdHd0IzaU1wcWtUdnNDSVJ0YVJGREIwMTBqZElfcjlNbXp3YWpyNzlodHhXbWp4c0FaSE1iSkh3UUl3SFJsN2lDcHJsdUhzZVVQZE1QTzc5QkswcS1TR3hFMkNrM0RIUWFwekZ3Y1hNS0tIMUpfSjZFQ1E4cFAxVF9HMzRNNXFXbl9VUGlROTJlNkFOR2xaYWdoNGZ5V2FnOU4?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-04T03:34:35.000Z",
+   "category": "global-security",
+   "summary": "Seoul reports North Korea fired multiple missiles, its fourth weapons launch within a month.",
+   "relevance": 2,
+   "tags": [
+    "dprk",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-04-047",
+   "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
+   "url": "https://isc.sans.edu/diary/rss/33486",
+   "source": "SANS ISC",
+   "published": "2026-11-04T02:10:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily Stormcast podcast for 4 November 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threatintel"
+   ]
+  },
+  {
+   "id": "2026-11-04-048",
+   "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+   "source": "Dark Reading",
+   "published": "2026-11-04T02:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "An unknown actor exfiltrated 69GB of SQL Server backups from the Philippine Overseas Employment Administration in under 30 minutes, likely exposing migrant worker data.",
+   "relevance": 2,
+   "tags": [
+    "databreach",
+    "government",
+    "exfiltration"
+   ]
+  },
+  {
+   "id": "2026-11-04-049",
+   "title": "What Europe hopes to see in the US midterms",
+   "url": "https://www.politico.eu/article/what-europe-hopes-to-see-in-the-us-midterms/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T01:51:06.000Z",
+   "category": "policy-regulation",
+   "summary": "European capitals watch the US midterms for signals of shifts in Washington's foreign policy and trade approach towards 2028.",
+   "relevance": 2,
+   "tags": [
+    "eu-us",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-04-052",
+   "title": "EU tells Ukraine to speed up reforms, sets out more cautious path for accession",
+   "url": "https://www.politico.eu/article/ukraine-accession-path-eu-membership-wobbles-european-commission-brussels-caution/",
+   "source": "Politico Europe",
+   "published": "2026-11-03T23:26:22.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission urged Ukraine to accelerate reforms and set out a more cautious accession path, while offering Moldova a more ambitious membership roadmap.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "enlargement"
+   ]
+  },
+  {
+   "id": "2026-11-04-074",
+   "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+   "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+   "source": "Simon Willison",
+   "published": "2026-11-03T16:29:48.000Z",
+   "category": "ai-security",
+   "summary": "Blog experiment showing a locally run Qwen 3.8 27B model can interpret neural network weights, replicating findings from a paper on LLMs reading and writing model weights.",
+   "relevance": 2,
+   "tags": [
+    "llm",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-11-04-075",
+   "title": "Here’s Why You Shouldn’t Use AI to Vote",
+   "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+   "source": "Wired – AI",
+   "published": "2026-11-03T14:45:08.000Z",
+   "category": "ai-security",
+   "summary": "WIRED argues AI chatbots are unreliable for election-related guidance due to hallucinations and partisan bias.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "misinformation"
+   ]
+  },
+  {
+   "id": "2026-11-04-081",
+   "title": "How Cisco defends at machine speed with OpenAI",
+   "url": "https://openai.com/index/cisco-cyber",
+   "source": "OpenAI News",
+   "published": "2026-11-03T08:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Vendor case study on how Cisco combines network telemetry with OpenAI models for adaptive enterprise defence.",
+   "relevance": 2,
+   "tags": [
+    "vendor",
+    "ai",
+    "soc"
+   ]
+  },
+  {
+   "id": "2026-11-04-083",
+   "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+   "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+   "source": "Simon Willison",
+   "published": "2026-11-03T05:32:25.000Z",
+   "category": "ai-security",
+   "summary": "OSINT demonstration showing how faint aircraft noise in a video can be correlated with ADS-B data to geolocate the recording precisely.",
+   "relevance": 2,
+   "tags": [
+    "osint",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-04-085",
+   "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+   "url": "https://isc.sans.edu/diary/rss/33484",
+   "source": "SANS ISC",
+   "published": "2026-11-03T02:00:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily Stormcast podcast for 3 November 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threatintel"
+   ]
+  }
+ ]
+}
