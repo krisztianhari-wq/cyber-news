@@ -1,0 +1,983 @@
+{
+ "date": "2026-11-05",
+ "generatedAt": "2026-11-05T06:46:54.489Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 51,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 500"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 406"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-05-012",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-05T06:45:12.168Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of two critical PHP vulnerabilities enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "cert-eu"
+   ]
+  },
+  {
+   "id": "2026-11-05-013",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-05T06:45:12.168Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab fixed a critical flaw allowing unauthenticated remote code execution on GitLab servers; CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-05-014",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-05T06:45:12.168Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Secure Email Gateway AMP feature contains a critical flaw enabling unauthenticated remote code execution as root; active exploitation is confirmed and patches are available.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "zero-day",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-05-015",
+   "title": "Joint statement on cyber incidents in refrigeration systems across the EU",
+   "url": "https://www.enisa.europa.eu/news/joint-statement-on-cyber-incidents-in-refrigeration-systems-across-the-eu",
+   "source": "ENISA",
+   "published": "2026-11-05T06:45:11.812Z",
+   "category": "eu-threat-landscape",
+   "summary": "ENISA and partners issued a joint statement on cyber incidents affecting refrigeration systems across the EU, pointing to an OT/IoT supply-chain exposure.",
+   "relevance": 5,
+   "tags": [
+    "enisa",
+    "ot",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-05-060",
+   "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+   "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+   "source": "BleepingComputer",
+   "published": "2026-11-04T20:58:19.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Zyxel patched a zero-day in GS1900 series switches exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "zyxel",
+    "network-devices"
+   ]
+  },
+  {
+   "id": "2026-11-05-070",
+   "title": "French bank confirms cyber heist, hackers suspected to have stolen an estimated $133 million",
+   "url": "https://therecord.media/french-bank-confirms-cyber-heist",
+   "source": "The Record",
+   "published": "2026-11-04T18:58:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Crédit Mutuel Arkéa confirmed a cyber heist with an estimated USD 133 million stolen; attackers compromised an unnamed supplier and used the bank's own account for transfers.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "finance",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-11-05-073",
+   "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+   "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+   "source": "BleepingComputer",
+   "published": "2026-11-04T18:02:56.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "France's national blood service confirmed a cyberattack on a refrigeration equipment provider altered temperature and defrost settings at three facilities, endangering stored blood.",
+   "relevance": 5,
+   "tags": [
+    "ot",
+    "healthcare",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-05-076",
+   "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+   "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+   "source": "The Hacker News",
+   "published": "2026-11-04T17:00:46.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An APT package manager flaw in Debian and Ubuntu lets a man-in-the-middle swap verified packages during retried downloads and execute code as root; advisories published 4 November.",
+   "relevance": 5,
+   "tags": [
+    "apt",
+    "linux",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-05-001",
+   "title": "2026. 11. 04. Kritikus Barracuda hibákkal root jogosultság szerezhető A Barracuda Networks két súlyos sérülékenységet javított hálózati biztonsági termékeiben, amelyek együttes kihasználásával akár t…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kritikus-barracuda-hibakkal-root-jogosultsag-szerezheto/",
+   "source": "NKI Hungary",
+   "published": "2026-11-05T06:45:13.713Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Barracuda patched two severe flaws in its network security products that, chained together, can give attackers root privileges.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "barracuda",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-05-004",
+   "title": "2026. 11. 04. Az Apple kibertámadásokról küld figyelmeztetést a német politikusoknak A német Szövetségi Kiberbiztonsági Hivatal (BSI) hétvégén adott ki közleményt arra vonatkozóan, hogy politikusok é…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/apple-kibertamadasok/",
+   "source": "NKI Hungary",
+   "published": "2026-11-05T06:45:13.713Z",
+   "category": "eu-threat-landscape",
+   "summary": "Germany's BSI reports Apple threat notifications sent to German politicians and others, indicating targeted (likely state-linked) attacks on devices.",
+   "relevance": 4,
+   "tags": [
+    "spyware",
+    "germany",
+    "targeted"
+   ]
+  },
+  {
+   "id": "2026-11-05-023",
+   "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+   "source": "The Hacker News",
+   "published": "2026-11-05T05:17:04.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added CVE-2024-27834, an improper authentication flaw in Apple operating systems, to its KEV catalog after reports of exploitation to deliver info-stealing malware.",
+   "relevance": 4,
+   "tags": [
+    "kev",
+    "apple",
+    "infostealer"
+   ]
+  },
+  {
+   "id": "2026-11-05-029",
+   "title": "Want to Rent an Internet Address at the White House?",
+   "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+   "source": "Krebs on Security",
+   "published": "2026-11-05T04:36:17.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers found White House staff devices running residential proxy software that rents out their IP addresses, one service linked to a Russian operator.",
+   "relevance": 4,
+   "tags": [
+    "proxy",
+    "supply-chain",
+    "opsec"
+   ]
+  },
+  {
+   "id": "2026-11-05-030",
+   "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+   "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+   "source": "The Hacker News",
+   "published": "2026-11-05T04:31:16.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI detailed an AI pipeline that reproduced 1,724 Linux kernel vulnerabilities and produced 948 local privilege escalation findings with patches for about USD 1.2m in API costs.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "linux",
+    "vulnerability-research"
+   ]
+  },
+  {
+   "id": "2026-11-05-057",
+   "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+   "url": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+   "source": "Dark Reading",
+   "published": "2026-11-04T21:48:18.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical Rails Active Storage/ImageMagick flaw lets attackers write arbitrary files and read sensitive data via uploaded images, enabling lateral movement.",
+   "relevance": 4,
+   "tags": [
+    "rails",
+    "rce",
+    "webapp"
+   ]
+  },
+  {
+   "id": "2026-11-05-059",
+   "title": "More Asian airlines announce data breaches after attack on Spanish IT provider Amadeus",
+   "url": "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+   "source": "The Record",
+   "published": "2026-11-04T21:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Japan Airlines, Cathay Pacific, Korean Air, Asiana, Singapore Airlines and Malaysia Airlines reported data breaches traced to an attack on Spanish IT provider Amadeus IT Group.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "data-breach",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-11-05-075",
+   "title": "Tageszusammenfassung - 04.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-04112026",
+   "source": "CERT.at",
+   "published": "2026-11-04T17:43:56.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers the wave of attacks on refrigeration systems in Europe, now including Coolworld units storing blood supplies in France.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "cert",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-11-05-077",
+   "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+   "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+   "source": "The Hacker News",
+   "published": "2026-11-04T17:00:38.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SonicWall will not patch two flaws in end-of-life GMS 9.5.2 and earlier, including CVE-2026-109593 (CVSS 9.1) allowing unauthenticated file reads; migration is the only mitigation.",
+   "relevance": 4,
+   "tags": [
+    "sonicwall",
+    "eol",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-05-079",
+   "title": "French bank Credit Mutuel Arkea counting losses from cyberattack",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMk9lNHNwaDVoMHhWMmVnT3cwQ21SSzBDLUxDTHpJZDRrVlRyaGdHMVVZQV94dEtpeHRWc2dqN0dtTXY3cG5OOGlIcXMxRmhIb2hZVTU1T2t4TFpWQ1dqVXRkNkdWTlhLRzZGdTBxTkx3enB6NTRXM2NFY3FsS2dtMzBwLWF1cVJzX1Zzdk5TbXlFaV9jbTNURDZLY1JvZw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-04T16:58:09.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Reuters reports Crédit Mutuel Arkéa is assessing losses from the cyberattack against it.",
+   "relevance": 4,
+   "tags": [
+    "finance",
+    "france",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-11-05-088",
+   "title": "A thousand fewer paths to root",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+   "source": "OpenAI News",
+   "published": "2026-11-04T08:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI describes an autonomous pipeline that found, validated and patched 948 local privilege escalation vulnerabilities in the Linux kernel.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "linux",
+    "vulnerability-research"
+   ]
+  },
+  {
+   "id": "2026-11-05-002",
+   "title": "2026. 11. 04. Hamis állásinterjúval indult a Binance 6,3 milliárd dolláros kriptós támadása A Binance szerint észak-koreai hackerek egy látszólag ártalmatlan állásinterjún keresztül juttattak kártéko…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/hamis-allasinterjuval-indult-a-binance-63-milliard-dollaros-kriptos-tamadasa/",
+   "source": "NKI Hungary",
+   "published": "2026-11-05T06:45:13.713Z",
+   "category": "incidents-threats",
+   "summary": "Binance attributes a USD 6.3 billion crypto theft to North Korean actors who delivered malware via a fake job interview, a familiar social engineering playbook.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "social-engineering",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-05-003",
+   "title": "2026. 11. 04. Több mint 200 sebezhetőséget javít az Android novemberi frissítőcsomagja A Google hétfőn új biztonsági frissítéseket adott ki az Android rendszerhez, amelyben több mint 200 sérülékenysé…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tobb-mint-200-sebezhetoseget-javit-az-android-novemberi-frissitocsomagja/",
+   "source": "NKI Hungary",
+   "published": "2026-11-05T06:45:13.713Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Google's November Android security bulletin fixes more than 200 vulnerabilities; mobile fleets and BYOD devices should be updated promptly.",
+   "relevance": 3,
+   "tags": [
+    "android",
+    "patch",
+    "mobile"
+   ]
+  },
+  {
+   "id": "2026-11-05-008",
+   "title": "Investment scams with potential victims in at least 50 countries: over 100 servers seized",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized",
+   "source": "Europol",
+   "published": "2026-11-05T06:45:12.832Z",
+   "category": "eu-threat-landscape",
+   "summary": "German-led operation with Europol seized over 100 servers behind fraudulent trading sites used in investment scams across 50+ countries; seven suspects and EUR 4m+ in losses.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "europol",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-05-018",
+   "title": "Healthcare can’t govern the AI tools it hasn’t found yet",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/healthcare-ai-governance-patient-data/",
+   "source": "Help Net Security",
+   "published": "2026-11-05T06:11:25.000Z",
+   "category": "ai-security",
+   "summary": "Survey finds 70% of healthcare leaders discovered AI-built tools handling patient data without IT or security awareness, highlighting shadow AI governance gaps.",
+   "relevance": 3,
+   "tags": [
+    "shadow-ai",
+    "governance",
+    "healthcare"
+   ]
+  },
+  {
+   "id": "2026-11-05-021",
+   "title": "Companies are spending more on AI governance and getting less control",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/dnsfilter-shadow-ai-cost-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-05T05:30:14.000Z",
+   "category": "ai-security",
+   "summary": "DNSFilter report: 74.5% of organisations raised security budgets, with AI security and governance the top spending priority, yet shadow AI control remains weak.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "budget",
+    "shadow-ai"
+   ]
+  },
+  {
+   "id": "2026-11-05-027",
+   "title": "Most consumers aren’t ready to let AI agents shop unsupervised",
+   "url": "https://www.helpnetsecurity.com/2026/11/05/okta-ai-customer-experiences-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-05T05:00:30.000Z",
+   "category": "ai-security",
+   "summary": "Okta report finds consumers hesitant to let AI agents transact autonomously, raising new requirements for verifying agents and managing their permissions.",
+   "relevance": 3,
+   "tags": [
+    "agentic-ai",
+    "identity",
+    "trust"
+   ]
+  },
+  {
+   "id": "2026-11-05-056",
+   "title": "Apple turns iCloud into spy cloud, will start looking at public share links",
+   "url": "https://www.theregister.com/security/2026/11/04/apple-turns-icloud-into-spy-cloud-will-start-looking-at-public-share-links/5307681",
+   "source": "The Register – Security",
+   "published": "2026-11-04T21:49:38.000Z",
+   "category": "policy-regulation",
+   "summary": "Apple will begin scanning publicly shared iCloud links for 'harmful content', a term it has not defined, raising privacy and scope questions.",
+   "relevance": 3,
+   "tags": [
+    "privacy",
+    "apple",
+    "content-scanning"
+   ]
+  },
+  {
+   "id": "2026-11-05-069",
+   "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+   "source": "BleepingComputer",
+   "published": "2026-11-04T19:05:19.000Z",
+   "category": "incidents-threats",
+   "summary": "DreamHost confirmed a breach in which attackers accessed its File Manager platform for two months and stole customer FTP/SFTP credentials and webmail sessions.",
+   "relevance": 3,
+   "tags": [
+    "data-breach",
+    "hosting",
+    "credentials"
+   ]
+  },
+  {
+   "id": "2026-11-05-078",
+   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+   "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+   "source": "BleepingComputer",
+   "published": "2026-11-04T16:58:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers tampered with the PC launcher scripts of the game NIKKE in a supply-chain attack delivering credential- and crypto-wallet-stealing malware.",
+   "relevance": 3,
+   "tags": [
+    "supply-chain",
+    "infostealer",
+    "gaming"
+   ]
+  },
+  {
+   "id": "2026-11-05-005",
+   "title": "Neural data as the newest frontier in data privacy",
+   "url": "https://iapp.org/news/a/neural-data-as-the-newest-frontier-in-data-privacy",
+   "source": "IAPP",
+   "published": "2026-11-05T06:45:13.212Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis on neural data emerging as a new frontier for data privacy regulation.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "data-protection"
+   ]
+  },
+  {
+   "id": "2026-11-05-006",
+   "title": "When does not using AI become negligence?",
+   "url": "https://iapp.org/news/a/when-does-not-using-ai-become-negligence",
+   "source": "IAPP",
+   "published": "2026-11-05T06:45:13.212Z",
+   "category": "policy-regulation",
+   "summary": "Commentary exploring whether failing to adopt AI could become a form of professional negligence, with liability implications.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "liability",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-05-007",
+   "title": "Democratic midterm wins set stage for tougher tech and AI scrutiny",
+   "url": "https://iapp.org/news/a/democratic-midterm-wins-set-stage-for-tougher-tech-and-ai-scrutiny",
+   "source": "IAPP",
+   "published": "2026-11-05T06:45:13.212Z",
+   "category": "policy-regulation",
+   "summary": "US midterm results shifting Congress to Democratic control are expected to bring tougher scrutiny of tech and AI companies.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "policy",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-05-009",
+   "title": "Not a game: Europol and partners target terrorist role-playing online",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online",
+   "source": "Europol",
+   "published": "2026-11-05T06:45:12.832Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's EU IRU and 16 countries ran a referral action day against violent extremist and terrorist role-playing content in online gaming environments.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "extremism",
+    "gaming"
+   ]
+  },
+  {
+   "id": "2026-11-05-011",
+   "title": "BSI übergibt IT-Sicherheitszertifikate auf der it-sa 2026",
+   "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/it-sa-Zertifikatuebergaben_261104.html",
+   "source": "BSI Germany",
+   "published": "2026-11-05T06:45:12.196Z",
+   "category": "policy-regulation",
+   "summary": "Germany's BSI handed over IT security certificates at the it-sa 2026 trade fair.",
+   "relevance": 2,
+   "tags": [
+    "bsi",
+    "certification"
+   ]
+  },
+  {
+   "id": "2026-11-05-024",
+   "title": "How to find a job in the age of AI",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-to-find-a-job-in-the-age-of-ai/",
+   "source": "Politico Europe",
+   "published": "2026-11-05T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico podcast on the European Commission's Education and Skills Package aimed at responding to AI's impact on Europe's labour market.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "ai",
+    "skills"
+   ]
+  },
+  {
+   "id": "2026-11-05-026",
+   "title": "France braces for fresh protests as Macron seeks to prevent repeat of October unrest",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTHdQNTRZYUZObjV0d3hRRUQza2thc1Ricy1GblZzUzFGOUxybnlvbVgtMldCRkJDUGlxQlB6dTJvSS14ZzVtSVdGZndrVnNLTTJCQXNpRVlweTBsOHdicU9Qbm1Qbkw4Y1dkWG9MdnIwTTM5WW41VDBPM25yZ3pFSEZObkNNa3A0U1g4NDBvSlBISEhYb1k0YjVtTm5TUVAzTE5XMm91RmNocW1PVHdwblQzVnU3R2JRMTBaWg?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-05T05:02:00.000Z",
+   "category": "global-security",
+   "summary": "France prepares for renewed protests as the government seeks to avoid a repeat of October's unrest.",
+   "relevance": 2,
+   "tags": [
+    "france",
+    "unrest"
+   ]
+  },
+  {
+   "id": "2026-11-05-028",
+   "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
+   "url": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-05T04:49:56.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy and EU officials hope the new US Congress will increase support for Ukraine and pressure on Russia.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-05-033",
+   "title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN2pHcmkxeDJDM184TXNiS2xIOUdXdHNrTXcyVHFKcUNGZEgtanhxTm9TR0UxWjA5cGlXSy12RVBLT3JYYVVBVEltbXFTNWtFT09OMVBIUkFEVlZiaW1mcVhPM3JfQ2tnZm1uRnJSQlVoX1FfNTl5bmh1c1pZMUJBVlVZeVdoWnlQMURoR0g0WVZYcjU4WDloZzRxMHh3Q24zMlRSYXV3MUFZTGxEQXM3NXNuNExxUQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-05T04:21:00.000Z",
+   "category": "global-security",
+   "summary": "Iran's IRGC reports two tankers and a tugboat caught fire in the Strait of Hormuz, a key energy chokepoint.",
+   "relevance": 2,
+   "tags": [
+    "hormuz",
+    "maritime",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-11-05-041",
+   "title": "Syria, Saudi Arabia sign defence cooperation deal, agree $403m in loans",
+   "url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-05T03:46:13.000Z",
+   "category": "global-security",
+   "summary": "Syria and Saudi Arabia signed a defence cooperation agreement alongside USD 403 million in loans.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-11-05-045",
+   "title": "Canada spat exposes widening rift between Merz and von der Leyen",
+   "url": "https://www.politico.eu/article/ursula-von-der-leyen-friedrich-merz-canada-european-union-associate-member/",
+   "source": "Politico Europe",
+   "published": "2026-11-05T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A dispute over Canada's EU association status exposes growing friction between Berlin and Commission President von der Leyen.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-05-047",
+   "title": "Taiwan sees continued US arms sale support after midterm election",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVWRHR1I4R0JTNGloMlpZQVpHelBtM0VBWWFQMV9IcVZIdHZYSTlBRFFVUXlLRnk3WU4zYkp4Tjd2SkllRkx2X2FpWXE0a0s1b2lnSjRzS3pIVVFsUVgybGdMRHFVUk93MTktRERWN214VWN2c2dMWVd5MGwySWlVOFpiVWxCa3VXRk10REFlM3FFWi04dHlQb1BGVmFsdk1CZzRUa3FlS0N3LS1UZmN6ZmhYVQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-05T02:29:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan expects continued US arms sales support following the US midterm elections.",
+   "relevance": 2,
+   "tags": [
+    "taiwan",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-05-051",
+   "title": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWmlVV005TWpIcUdLT2ZZaUpORmNMc09CYnNzQnFBRUhJeF8yTklGM20tcHlpZkI3bGpCa2VXQlJfOGd2MEdOTWtpN1BpMnNmUVUyYzF1R2U5SjN4bl90X2xGRDZ2MzY2aGU1WTVYM3otVlRhTjRXR2JMUWp5cGZsZFV1MFUtWG83QW1tMG44aXY3dmg4Zl9GbGFjMEZ5bWhUbGliempaM2dRaE9pZHlHUldkUndDZEtLTkdTUlQ1RQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-05T01:54:00.000Z",
+   "category": "global-security",
+   "summary": "South Korea will expand anti-piracy naval operations closer to the Strait of Hormuz.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "hormuz"
+   ]
+  },
+  {
+   "id": "2026-11-05-054",
+   "title": "What Democratic control of Congress means for cybersecurity",
+   "url": "https://cyberscoop.com/democrats-congress-cybersecurity-cisa-ai-priorities/",
+   "source": "CyberScoop",
+   "published": "2026-11-04T23:05:04.000Z",
+   "category": "policy-regulation",
+   "summary": "CyberScoop analysis of how Democratic control of the US Congress may reshape cybersecurity legislative priorities.",
+   "relevance": 2,
+   "tags": [
+    "policy",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-05-064",
+   "title": "Officials extradite Canadian man to US for alleged cryptomining spree",
+   "url": "https://cyberscoop.com/canadian-extradited-cryptomining-universities/",
+   "source": "CyberScoop",
+   "published": "2026-11-04T19:59:57.000Z",
+   "category": "incidents-threats",
+   "summary": "A Canadian man was extradited to the US over an alleged scheme hijacking university computing resources for cryptomining.",
+   "relevance": 2,
+   "tags": [
+    "cryptomining",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-05-067",
+   "title": "Canadian extradited to US for allegedly hacking schools in at least four states",
+   "url": "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
+   "source": "The Record",
+   "published": "2026-11-04T19:17:00.000Z",
+   "category": "incidents-threats",
+   "summary": "DOJ identified two suspects in a cryptomining intrusion campaign dating to 2016 against US educational institutions in at least four states.",
+   "relevance": 2,
+   "tags": [
+    "cryptomining",
+    "doj"
+   ]
+  },
+  {
+   "id": "2026-11-05-068",
+   "title": "Hugging Face’s CEO Says His P(Doom) Is ‘Close to Zero’",
+   "url": "https://www.wired.com/story/wired-world-fair-2026-clement-delangue-hugging-face/",
+   "source": "Wired – AI",
+   "published": "2026-11-04T19:16:25.000Z",
+   "category": "ai-security",
+   "summary": "Hugging Face CEO argues open-source AI reduces risk, saying most danger stems from closed development by a few major players.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "open-source"
+   ]
+  },
+  {
+   "id": "2026-11-05-071",
+   "title": "Hungary releases secret police files from communist era",
+   "url": "https://www.politico.eu/article/hungary-releases-secret-police-files-from-communist-era/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T18:43:55.000Z",
+   "category": "policy-regulation",
+   "summary": "Hungary released communist-era secret police files, revealing the names of the regime's informant network.",
+   "relevance": 2,
+   "tags": [
+    "hungary",
+    "transparency"
+   ]
+  },
+  {
+   "id": "2026-11-05-072",
+   "title": "MEPs fear fundamental rights will take a hit under plans to expand EU border agency",
+   "url": "https://www.politico.eu/article/meps-fear-fundamental-rights-will-take-hit-plans-expand-eu-border-agency/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T18:31:17.000Z",
+   "category": "policy-regulation",
+   "summary": "MEPs raise fundamental rights concerns over an expanded Frontex mandate that would support deportations to and from return hubs.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "frontex",
+    "rights"
+   ]
+  },
+  {
+   "id": "2026-11-05-074",
+   "title": "Midterms : 5 points que l’Europe doit surveiller après l’écrasante victoire des démocrates face à Trump",
+   "url": "https://www.politico.eu/article/midterms-5-points-que-leurope-doit-surveiller-apres-lecrasante-victoire-des-democrates-face-a-trump/",
+   "source": "Politico Europe",
+   "published": "2026-11-04T17:55:27.000Z",
+   "category": "global-security",
+   "summary": "Politico lists five consequences for Europe following the Democrats' sweeping US midterm victory.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "eu",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-05-084",
+   "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+   "url": "https://openai.com/index/openai-to-acquire-pierre",
+   "source": "OpenAI News",
+   "published": "2026-11-04T14:30:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI is acquiring Pierre Computer Company to expand Codex tooling for building, understanding and reviewing code.",
+   "relevance": 2,
+   "tags": [
+    "openai",
+    "codex",
+    "m&a"
+   ]
+  },
+  {
+   "id": "2026-11-05-086",
+   "title": "UK Officials Said AI Would Add £400 Billion to the Economy. That Figure Mainly Came From Google",
+   "url": "https://www.wired.com/story/uk-officials-said-ai-would-add-400-billion-to-the-economy-that-figure-mainly-came-from-google/",
+   "source": "Wired – AI",
+   "published": "2026-11-04T13:49:51.000Z",
+   "category": "ai-security",
+   "summary": "UK's AI minister concedes the claimed GBP 400 billion economic benefit of AI, sourced largely from Google, is less than a third of that figure.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "uk",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-05-089",
+   "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+   "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+   "source": "OpenAI News",
+   "published": "2026-11-04T07:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI's Daybreak Red with GPT-5.6 Cyber is now available to approved customers via Amazon Bedrock in AWS GovCloud (US-East).",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "openai",
+    "cloud"
+   ]
+  }
+ ]
+}
