@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 import { BRAND, SITE_NAME } from "./brand";
 import { ViewCounter } from "./ViewCounter";
 import { CATEGORIES, categoryName } from "./categories";
-import type { DayFile, IndexFile, NewsItem } from "./types";
+import type { DayFile, IndexFile, NewsItem, Radar, RadarSignal } from "./types";
 
 const BASE = import.meta.env.BASE_URL;
 const fmtLong = (iso: string) => new Date(iso + "T00:00:00").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
@@ -142,6 +142,8 @@ export function App() {
           </section>
         )}
 
+        {!searching && cat === "all" && day?.radar && day.radar.items.length > 0 && <ExploitRadar radar={day.radar} />}
+
         {filtered.length === 0 && (index || error) && <p className="empty">{searching ? "No matches." : "No stories in this category today."}</p>}
 
         {(cat === "all" ? CATEGORIES : CATEGORIES.filter((c) => c.id === cat)).map((c) => {
@@ -200,5 +202,46 @@ function Story({ item, showDate }: { item: NewsItem; showDate: boolean }) {
         {showDate && <span className="tag">{categoryName(item.category)}</span>}
       </div>
     </article>
+  );
+}
+
+const SIGNAL_LABEL: Record<RadarSignal, { label: string; title: string }> = {
+  kev: { label: "CISA KEV", title: "Added to the CISA Known Exploited Vulnerabilities catalog" },
+  euvd: { label: "EUVD exploited", title: "Listed as exploited by ENISA (EU Vulnerability Database)" },
+  itw: { label: "KEV", title: "Listed in a known-exploited catalog (CISA, EUVD or VulnCheck KEV), per Ethiack Zero" },
+  zero: { label: "Proven exploit", title: "Ethiack Zero produced a working proof of exploit" },
+};
+
+function ExploitRadar({ radar }: { radar: Radar }) {
+  const credit = radar.sources.filter((s) => s.ok);
+  return (
+    <section className="radar" aria-label="Exploit radar">
+      <h2>Exploit radar</h2>
+      <p className="radar-lead">Newly exploited in the wild or with a proven working exploit since {fmtDate(radar.since)}. EPSS = probability of exploitation in the next 30 days.</p>
+      <ul className="radar-list">
+        {radar.items.map((it) => (
+          <li key={it.cve} className={it.signals.some((s) => s !== "zero") ? "itw" : ""}>
+            <div className="radar-head">
+              <a className="cve" href={it.links.cve} target="_blank" rel="noopener noreferrer nofollow">{it.cve}</a>
+              {it.signals.map((s) => <span key={s} className={`sig sig-${s}`} title={SIGNAL_LABEL[s].title}>{SIGNAL_LABEL[s].label}</span>)}
+              {it.ransomware && <span className="sig sig-kev" title="CISA: known use in ransomware campaigns">Ransomware</span>}
+              {typeof it.cvss === "number" && <span className="num" title="CVSS base score">CVSS {it.cvss.toFixed(1)}</span>}
+              {typeof it.epss === "number" && <span className="num" title={`EPSS percentile ${Math.round((it.epssPct ?? 0) * 100)}`}>EPSS {(it.epss * 100).toFixed(it.epss < 0.1 ? 1 : 0)}%</span>}
+            </div>
+            <h3>{it.title}</h3>
+            {it.summary && <p>{it.summary}</p>}
+            {it.mitigation && <p className="fix"><b>Mitigation:</b> {it.mitigation}</p>}
+            <div className="meta">
+              {it.links.euvd && <a href={it.links.euvd} target="_blank" rel="noopener noreferrer nofollow">EUVD</a>}
+              {it.links.zero && <a href={it.links.zero} target="_blank" rel="noopener noreferrer nofollow">Ethiack Zero</a>}
+            </div>
+          </li>
+        ))}
+      </ul>
+      {radar.total > radar.items.length && <p className="radar-more">+{radar.total - radar.items.length} more signals not shown.</p>}
+      <p className="radar-credit">
+        Data: {credit.map((s, i) => <span key={s.key}>{i > 0 && " · "}<a href={s.url} target="_blank" rel="noopener noreferrer nofollow">{s.name}</a> ({s.license})</span>)}
+      </p>
+    </section>
   );
 }

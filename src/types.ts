@@ -25,6 +25,32 @@ export interface NewsItem {
 
 export interface FeedStatus { name: string; ok: boolean; items?: number; error?: string }
 
+export type RadarSignal = "kev" | "euvd" | "itw" | "zero";
+
+export interface RadarItem {
+  cve: string;
+  title: string;
+  vendor?: string;
+  product?: string;
+  summary?: string;
+  mitigation?: string;
+  cvss?: number;
+  epss?: number;
+  epssPct?: number;
+  kevAdded?: string;
+  ransomware?: boolean;
+  euvdId?: string;
+  euvdExploited?: string;
+  knownExploited?: string;
+  zeroExploit?: string;
+  signals: RadarSignal[];
+  links: { cve: string; euvd?: string; zero?: string };
+}
+
+export interface RadarSource { key: string; name: string; url: string; license: string; ok: boolean; items?: number; error?: string }
+
+export interface Radar { since: string; generatedAt: string; total: number; sources: RadarSource[]; items: RadarItem[] }
+
 export interface DayFile {
   date: string;
   generatedAt: string;
@@ -32,6 +58,7 @@ export interface DayFile {
   itemCount: number;
   feeds: FeedStatus[];
   items: NewsItem[];
+  radar?: Radar;
 }
 
 export interface IndexFile {
