@@ -1,0 +1,918 @@
+{
+ "date": "2026-11-06",
+ "generatedAt": "2026-11-06T06:46:53.258Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 47,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-06-001",
+   "title": "2026. 11. 05. APT29 watering hole támadása ismert iOS és Android sérülékenységeket használt ki A Sekoia vizsgálata egy kiterjedt, mobileszközöket célzó „watering hole” kampányt ír le. A módszer lénye…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/apt29-watering-hole-tamadasa-ismert-ios-es-android-serulekenysegeket-hasznalt-ki/",
+   "source": "NKI Hungary",
+   "published": "2026-11-06T06:45:14.568Z",
+   "category": "eu-threat-landscape",
+   "summary": "Sekoia reports an extensive watering-hole campaign attributed to APT29 that targeted mobile devices by exploiting known iOS and Android vulnerabilities.",
+   "relevance": 5,
+   "tags": [
+    "apt29",
+    "mobile",
+    "watering-hole"
+   ]
+  },
+  {
+   "id": "2026-11-06-007",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-06T06:45:12.768Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw allowing unauthenticated remote code execution on GitLab servers; CERT-EU urges prioritised patching of internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-06-008",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-06T06:45:12.768Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root; Cisco PSIRT confirms active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-11-06-009",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-06T06:45:12.767Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP fixed two critical vulnerabilities enabling unauthenticated RCE in versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35; PoCs are circulating, raising exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "poc"
+   ]
+  },
+  {
+   "id": "2026-11-06-051",
+   "title": "Threat actors use agentic AI tooling to find and abuse exposed secrets",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/threat-actors-use-agentic-ai-tooling-to-find-and-abuse-exposed-secrets/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-05T23:46:50.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft observed threat actors using the agentic offensive framework ARTEX to scan GitHub for OAuth application secrets, then abusing compromised OAuth apps to act inside victim tenants.",
+   "relevance": 5,
+   "tags": [
+    "agentic-ai",
+    "oauth",
+    "secrets"
+   ]
+  },
+  {
+   "id": "2026-11-06-056",
+   "title": "French bank Credit Mutuel Arkea says €100 million missing after cyberattack",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObnU2SlpvVWVvS09oNFhpM25OcnhQeDhHLVF5SC1HSjZSY2dUMVZ1eFlyX1J6OGxyQVctbVRGRnF6X2luaFhnZVlaTmRnaTl3MXd2YnVONS1fbFZhQ2xBUFZmR3JETFQwTWh6cjF1Ty0yMjFlTjRDN2QwVzFFekhPZTMwY19la3QxdldNUUhFbFVoRjNtOXdFSTNlMzBHRU1JRnlaWUxUY01RVHUyeTUtYjZDSDhPUjFlOXcwV3B5Nkkzakh0c1E?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-05T22:25:38.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "French bank Credit Mutuel Arkea reports roughly EUR 100 million missing following a cyberattack.",
+   "relevance": 5,
+   "tags": [
+    "banking",
+    "incident",
+    "france"
+   ]
+  },
+  {
+   "id": "2026-11-06-014",
+   "title": "87% say their AI controls need to work better",
+   "url": "https://www.helpnetsecurity.com/2026/11/06/autonomous-ai-oversight-governance/",
+   "source": "Help Net Security",
+   "published": "2026-11-06T06:00:03.000Z",
+   "category": "ai-security",
+   "summary": "Vanson Bourne survey of 3,600 decision-makers: most report AI systems acting without routine review, and 87% say their organisation needs better ways to approve, monitor and control AI use.",
+   "relevance": 4,
+   "tags": [
+    "ai-governance",
+    "shadow-ai"
+   ]
+  },
+  {
+   "id": "2026-11-06-017",
+   "title": "99% of repository access tokens never expire",
+   "url": "https://www.helpnetsecurity.com/2026/11/06/blueflag-ai-agents-access-risks-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-06T05:30:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "BlueFlag Security report finds 99% of repository access tokens never expire, leaving developers, bots and AI coding agents with standing access to code long after work ends.",
+   "relevance": 4,
+   "tags": [
+    "secrets",
+    "devsecops",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-11-06-034",
+   "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+   "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+   "source": "SecurityWeek",
+   "published": "2026-11-06T03:03:29.000Z",
+   "category": "incidents-threats",
+   "summary": "Three people were charged in a scheme using AI to impersonate CEOs and attorneys, defrauding companies' accounting departments of USD 129 million.",
+   "relevance": 4,
+   "tags": [
+    "deepfake",
+    "bec",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-11-06-044",
+   "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
+   "url": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
+   "source": "The Register – Security",
+   "published": "2026-11-06T01:17:40.000Z",
+   "category": "incidents-threats",
+   "summary": "CERT-IN warns of a significant escalation in AI-powered attacks against Indian fintechs, with a threat actor deliberately striking on weekends when defender coverage is thin.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "finance",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-06-046",
+   "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+   "source": "BleepingComputer",
+   "published": "2026-11-06T00:56:44.000Z",
+   "category": "incidents-threats",
+   "summary": "FBI and CISA warn that attackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, risking spoilage, equipment damage and fire hazards.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "ot",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-11-06-055",
+   "title": "India flags Chinese-linked AI tools in hacking campaign against financial firms",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTWVkN29DQ3RzdVJEWDZTU0JvTXZCSldfNVROUHNLMzFsTF9mSTN1Z1FCV2VQSE16MHR5YU1lR1lhVUgxdkhYQ2VpT0prNktfT3IybFhJTE0zbWZ4U3h5aWUzSTMxZm1JRTVDUkJXeHRGaHBpM1dUYnhDSzhqbVNkVlJMZmJMTS1nRC1vZzBDZDZlMjlzdUZINzZuMFpFM0VnOVRhUEdBZEEzSFRSUHBIX21QTEktTmdCYTFUTjZTUk5qeHpxU2RVdQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-05T22:26:16.000Z",
+   "category": "incidents-threats",
+   "summary": "India has flagged Chinese-linked AI tooling used in a hacking campaign against financial firms.",
+   "relevance": 4,
+   "tags": [
+    "china",
+    "ai",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-06-062",
+   "title": "US Government Email Systems Open to Abuse Thanks to Typos",
+   "url": "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
+   "source": "Dark Reading",
+   "published": "2026-11-05T21:35:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Dark Reading reports that erroneous or outdated DNS records in US government domains leave email systems open to abuse by attackers.",
+   "relevance": 4,
+   "tags": [
+    "dns",
+    "email",
+    "spoofing"
+   ]
+  },
+  {
+   "id": "2026-11-06-063",
+   "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "source": "BleepingComputer",
+   "published": "2026-11-05T21:30:30.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers are using fake OpenAI, SpaceX and Anthropic event invitations delivered via two phishing-as-a-service platforms to steal Microsoft and Google credentials and session tokens.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "phaas",
+    "session-hijacking"
+   ]
+  },
+  {
+   "id": "2026-11-06-068",
+   "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+   "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+   "source": "BleepingComputer",
+   "published": "2026-11-05T20:15:08.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Truffle Security launched a free Secrets Revocation Program helping API key issuers revoke about 1.4 million publicly exposed but still-valid secrets.",
+   "relevance": 4,
+   "tags": [
+    "secrets",
+    "devsecops"
+   ]
+  },
+  {
+   "id": "2026-11-06-075",
+   "title": "Tageszusammenfassung - 05.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-05112026",
+   "source": "CERT.at",
+   "published": "2026-11-05T17:36:43.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report covers a second European wave of refrigeration system manipulations (none observed in Austria) and a confirmed DreamHost data breach.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "austria",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-06-081",
+   "title": "Kühlanlagenmanipulationen: Zweite Runde",
+   "url": "https://www.cert.at/de/blog/2026/11/kuhlanlagenmanipulationen-zweite-runde",
+   "source": "CERT.at",
+   "published": "2026-11-05T16:14:26.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at details a second wave of attacks on refrigeration systems across Europe, initially targeting Danfoss and Copeland/Dixell XWEB devices in France; Austria reports exposure now minimal.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "europe",
+    "exposure"
+   ]
+  },
+  {
+   "id": "2026-11-06-082",
+   "title": "Email threat landscape: Q3 2026 trends and insights",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-05T16:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft's Q3 2026 email threat report notes a sharp rise in phishing, declining QR code phishing, recovering CAPTCHA-gated phishing, and abuse of spoofed business-service sender domains via security overrides.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "email",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-11-06-088",
+   "title": "Post-Quantum Questions to Ask Your Vendors",
+   "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
+   "source": "CISA Advisories",
+   "published": "2026-11-05T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "CISA, ASD's ACSC and NSA published joint guidance and a quick-reference list of questions to assess vendor readiness for post-quantum cryptography migration.",
+   "relevance": 4,
+   "tags": [
+    "pqc",
+    "supply-chain",
+    "guidance"
+   ]
+  },
+  {
+   "id": "2026-11-06-089",
+   "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
+   "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
+   "source": "CISA Advisories",
+   "published": "2026-11-05T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA, FBI, HHS, USDA and DoT issued joint guidance on hardening industrial refrigeration and cold-chain monitoring systems after observing global malicious activity against healthcare, chemical, food and transport operators.",
+   "relevance": 4,
+   "tags": [
+    "ics",
+    "advisory",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-06-092",
+   "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+   "url": "https://openai.com/index/introducing-gpt-6-cyber",
+   "source": "OpenAI News",
+   "published": "2026-11-05T09:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI introduced GPT-6 Cyber, a cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to remain within authorised scope.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "offensive-security",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-11-06-002",
+   "title": "A view from Brussels: What the Commission's Work Programme says about 2027 initiatives",
+   "url": "https://iapp.org/news/a/a-view-from-brussels-what-the-commission-s-work-programme-says-about-2027-initiatives",
+   "source": "IAPP",
+   "published": "2026-11-06T06:45:13.671Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of the European Commission's Work Programme and what it signals for 2027 digital and privacy initiatives.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-06-004",
+   "title": "Investment scams with potential victims in at least 50 countries: over 100 servers seized",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized",
+   "source": "Europol",
+   "published": "2026-11-06T06:45:13.507Z",
+   "category": "eu-threat-landscape",
+   "summary": "German-led Europol-supported operation seized over 100 servers behind fraudulent trading websites used in investment scams spanning 50+ countries; losses estimated above EUR 4 million, seven suspects identified.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "europol",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-06-011",
+   "title": "Security certification is a snapshot, and buyers read too much into it",
+   "url": "https://www.helpnetsecurity.com/2026/11/06/mariia-bakhtina-masaryk-university-security-certification/",
+   "source": "Help Net Security",
+   "published": "2026-11-06T06:30:16.000Z",
+   "category": "policy-regulation",
+   "summary": "Researchers argue Common Criteria and FIPS-140 certificates are point-in-time snapshots: roughly 6 in 10 vulnerabilities matched to certified products were disclosed after certification.",
+   "relevance": 3,
+   "tags": [
+    "certification",
+    "procurement",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-06-020",
+   "title": "Rental phishing sites use live chat to win over hesitant travelers",
+   "url": "https://www.helpnetsecurity.com/2026/11/06/holiday-rental-platform-phishing-travelers/",
+   "source": "Help Net Security",
+   "published": "2026-11-06T05:00:41.000Z",
+   "category": "incidents-threats",
+   "summary": "Fortra took down phishing sites cloning rental platforms with copied listings, reviews and live chat support to harvest credentials and card data from travellers.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "fraud",
+    "brand-abuse"
+   ]
+  },
+  {
+   "id": "2026-11-06-026",
+   "title": "AI agents are a ‘bane’ for some website operators, says Cloudflare",
+   "url": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
+   "source": "The Register – Security",
+   "published": "2026-11-06T04:25:14.000Z",
+   "category": "ai-security",
+   "summary": "Cloudflare's CEO says AI agents are a growing burden on website operators, suggests state actors likely exploited the PHP2SHELL issue long ago, and questions the future of containers.",
+   "relevance": 3,
+   "tags": [
+    "ai-agents",
+    "php",
+    "cloudflare"
+   ]
+  },
+  {
+   "id": "2026-11-06-045",
+   "title": "South Korea stocks hit 9-month low as US midterm results spark AI selloff",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUXFPZWJ0ekg2Mnl6b3ZEMDRpRzJON3M1b3FnWlpsbVZSSlpnMDR1YXJFWG0zMmROd0NybFRLWXdtcjdQWm1hckFsTE15d2FoY0hnMGZsMjctbnc1VjFCZ09uUWhDbVpGOUtmQmU4UEhLNmtINHZjbTA4cXZPSmpqTFM3TEptUUU4clROU0xCc3QtM3NNbThZOHMxU1lqU1I4Y3EzRnRnY1hqUFpwUTJWcWcxQWhJNVh2VER2dGtzZUxxSmJSeXc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-06T01:01:00.000Z",
+   "category": "global-security",
+   "summary": "South Korea stocks hit 9-month low as US midterm results spark AI selloff Reuters",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-11-06-053",
+   "title": "New wave of bomb hoaxes hits dozens of flights across Europe",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNSUllcFZWajRSZE9PZE82Zl9aMHl5SlF6b09IejNjUjdqLTRJb2hKemVORDZGVDdkZkFaUksyV3hxMXNCNXlHZnR2QjY5anN0RkFpeC1UMzBQcjkxRC05S0tBcVhSOTA1dWw5d2s3ZDNkX1FadkI3SGh0Ti1zaWloUFVteWRfNlJNQl9uUkRVY0FyXzNDTEo2dkI5R3NveEd2eVVSeHFTOXhGQ0V3ZjRGOFpfcWJ6dm9VUXR3bGNxXzhrLXYtV29sRkR1NTc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-05T22:58:37.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "A new wave of bomb hoaxes disrupted dozens of flights across Europe.",
+   "relevance": 3,
+   "tags": [
+    "europe",
+    "hoax",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-11-06-054",
+   "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
+   "url": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
+   "source": "The Register – Security",
+   "published": "2026-11-05T22:37:06.000Z",
+   "category": "incidents-threats",
+   "summary": "US federal agencies urge grocers and cold-chain operators to harden defences amid a spree of freezer and refrigeration system hacks; no confirmed US supermarket incidents yet.",
+   "relevance": 3,
+   "tags": [
+    "ics",
+    "retail",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-11-06-057",
+   "title": "US warns of 'ongoing cyber threat' to industrial refrigeration systems",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR2s2bmFfRVpxV19jRHlKYkY2NXlKbDhkbF9vVi1seHE2cDJRbi15Z0NEOEV2MjlYb1F0emRmdG9xZmRRcVY1R3VsWnRjZW9iNGlqbFQwMm1XUlRfUTVSQ3ZEbGdIRmtQQ1NrN3IzYVNiaXZ6XzJGbDUyODJzNGo1OGVSMHRqU3lfb3djN0dfY093dmYwcm5EV05wd2x4bUtJeXUxWFctcHdsM25wb0JYcS0yMGQxYllCOUczOEVKTWc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-05T22:25:07.000Z",
+   "category": "incidents-threats",
+   "summary": "US authorities warn of an ongoing cyber threat to industrial refrigeration systems across multiple critical sectors.",
+   "relevance": 3,
+   "tags": [
+    "ics",
+    "ot",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-11-06-060",
+   "title": "Binance hack prompted US regulators to check in on bank systems, sources say",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUTBnQWFyUm5Ob1BXb24yOUNReWNWOW1IV3FYaGVrcjh2Z0pBTy1QdE4zTVpfSHg0cm9KY3dCeVd2aFR4aGpueTJ2UmZJUUE4T3haMWMwY3VqemRBNXIzdUtfZ19HS1QtNVlscFhmVnBCT2FFUUdpUUtEb2ZLUHRKVnZUZndrcXEyWl9ZMEpnTFVLS2JVc01lT295X0RMWjN5UlhYNTZweHU0VlpJY0xLTlZPWjlPamJuRmxv?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-05T21:39:08.000Z",
+   "category": "incidents-threats",
+   "summary": "Following the Binance hack, US regulators reportedly began checking the resilience of bank systems, per Reuters sources.",
+   "relevance": 3,
+   "tags": [
+    "crypto",
+    "banking",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-11-06-077",
+   "title": "New investments to reduce on-premises security risk",
+   "url": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-05T17:10:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft announced an on-premises security initiative combining guidance, migration support and product investments to reduce on-prem risk.",
+   "relevance": 3,
+   "tags": [
+    "microsoft",
+    "hardening"
+   ]
+  },
+  {
+   "id": "2026-11-06-003",
+   "title": "Notes from the Asia-Pacific region: Singapore charts course for AI risk management in financial services",
+   "url": "https://iapp.org/news/a/notes-from-the-asia-pacific-region-singapore-charts-course-for-ai-risk-management-in-financial-services",
+   "source": "IAPP",
+   "published": "2026-11-06T06:45:13.671Z",
+   "category": "policy-regulation",
+   "summary": "Singapore is setting out an AI risk management approach for the financial services sector, a possible reference point for other regulators.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-06-005",
+   "title": "Not a game: Europol and partners target terrorist role-playing online",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online",
+   "source": "Europol",
+   "published": "2026-11-06T06:45:13.507Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's EU IRU coordinated a referral action day with 16 countries against violent extremist role-playing content in online gaming environments.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "extremism",
+    "gaming"
+   ]
+  },
+  {
+   "id": "2026-11-06-012",
+   "title": "Why is Iran exempting India, China, Qatar, Iraq from Hormuz restrictions?",
+   "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-06T06:06:24.000Z",
+   "category": "global-security",
+   "summary": "Iran exempts ships from India, China, Qatar and Iraq from Strait of Hormuz restrictions, a move analysts see as politically risky.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-11-06-013",
+   "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+   "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-06T06:00:59.000Z",
+   "category": "global-security",
+   "summary": "Global tech stocks fell as US midterm results fuelled expectations of tougher scrutiny of data centre construction and the AI sector.",
+   "relevance": 2,
+   "tags": [
+    "markets",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-06-019",
+   "title": "Iraq’s al-Zaidi talks to Trump as Baghdad seeks to stay out of war on Iran",
+   "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-06T05:00:47.000Z",
+   "category": "global-security",
+   "summary": "Iraq's top diplomat urges armed groups to stay out of Iranian retaliation as Baghdad seeks to avoid being drawn into the US-Iran conflict.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-11-06-028",
+   "title": "EXCLUSIVE: China's top flash memory chipmaker targets more homegrown tools for new factory, sources say",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOX2pDd1BuOVZzeGl6Q0RiSzR3MzVBTnhnQUJOMXRUZk1PSF9HZTk5YVhzVjJZVVpaMFlKV0hhMVZNeXpOTHpxZkxvSVZKclYtMWwzUGc5N0dxQlZuS0NURFJBcUloOU9rVGJQbmprb2E4N1JRaGpjNi04OFgxUTdXVFY4OGFBWVQ4OHVkOFpoY1B4ZmhoNFJySWhfdXFBYTZSUGlVeG1KWW1XVUI3c3FfMjF0bXlNVUZNdHlSdktSaw?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-06T04:03:00.000Z",
+   "category": "global-security",
+   "summary": "China's top flash memory chipmaker aims to use more domestic equipment in a new factory, per Reuters sources.",
+   "relevance": 2,
+   "tags": [
+    "supply-chain",
+    "semiconductors"
+   ]
+  },
+  {
+   "id": "2026-11-06-033",
+   "title": "US voters’ warning to European politicians",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/us-voters-warning-to-european-politicians/",
+   "source": "Politico Europe",
+   "published": "2026-11-06T03:15:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico discusses whether the Democratic midterm victory will shift US policy on tariffs and Ukraine support in ways that matter for Europe.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-06-037",
+   "title": "Don’t try to ‘please the dictator,’ Estonian leader urges Europe about Putin",
+   "url": "https://www.politico.eu/article/estonia-prime-minister-kristen-michal-europe-vladimir-putin-russia/",
+   "source": "Politico Europe",
+   "published": "2026-11-06T03:00:00.000Z",
+   "category": "global-security",
+   "summary": "Estonian PM Kristen Michal urges Europe to tighten sanctions on Moscow rather than negotiate with Putin.",
+   "relevance": 2,
+   "tags": [
+    "russia",
+    "sanctions",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-06-039",
+   "title": "Iran’s security chief meets Putin, delivers message from Khamenei",
+   "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-06T02:48:19.000Z",
+   "category": "global-security",
+   "summary": "Iran's security chief met Putin in Moscow and delivered a letter from Khamenei amid regional security talks.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "russia",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-06-059",
+   "title": "Queens Public Library says ransomware attack disrupted Wi-Fi, on-site computers",
+   "url": "https://therecord.media/queens-library-ransomware-causes-disruptions",
+   "source": "The Record",
+   "published": "2026-11-05T22:08:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Queens Public Library confirmed a ransomware attack disrupted Wi-Fi and on-site computers across its 66 branches.",
+   "relevance": 2,
+   "tags": [
+    "ransomware",
+    "public-sector"
+   ]
+  },
+  {
+   "id": "2026-11-06-061",
+   "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+   "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+   "source": "Wired – AI",
+   "published": "2026-11-05T21:37:18.000Z",
+   "category": "ai-security",
+   "summary": "Advertising is entering AI chatbots, with most vendors courting advertisers while Anthropic keeps ads out of Claude.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "advertising"
+   ]
+  },
+  {
+   "id": "2026-11-06-067",
+   "title": "Social media giants sue California to overturn law shielding kids 15 and under from compulsive use",
+   "url": "https://therecord.media/social-media-giants-sue-california-over-social-media-law",
+   "source": "The Record",
+   "published": "2026-11-05T20:48:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Google, Meta and TikTok sued California over a law banning platform features deemed psychologically exploitative for users 15 and under.",
+   "relevance": 2,
+   "tags": [
+    "platform-regulation",
+    "minors"
+   ]
+  },
+  {
+   "id": "2026-11-06-071",
+   "title": "Bring a tent, I've got the coffee: Lessons from it-sa",
+   "url": "https://blog.talosintelligence.com/bring-a-tent-ive-got-the-coffee-lessons-from-it-sa/",
+   "source": "Talos Intelligence",
+   "published": "2026-11-05T19:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Cisco Talos reflects on it-sa in Nuremberg and a German initiative to create a formal IT security apprenticeship programme.",
+   "relevance": 2,
+   "tags": [
+    "skills",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-11-06-073",
+   "title": "EU targets large firms to unlock budget deal",
+   "url": "https://www.politico.eu/article/eu-targets-large-firms-to-unlock-budget-deal/",
+   "source": "Politico Europe",
+   "published": "2026-11-05T18:22:33.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council President Costa proposes targeting large firms as a concession to unlock agreement on the EU's next long-term budget.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-06-094",
+   "title": "Setting a new standard for responsible AI infrastructure",
+   "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+   "source": "OpenAI News",
+   "published": "2026-11-05T02:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI published a National Community Compact and Compute Campus Policy Blueprint on responsible AI infrastructure development.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "infrastructure",
+    "policy"
+   ]
+  }
+ ]
+}
