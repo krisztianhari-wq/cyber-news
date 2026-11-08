@@ -1,0 +1,675 @@
+{
+ "date": "2026-11-08",
+ "generatedAt": "2026-11-08T06:46:20.549Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 24,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-08-001",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-08T06:45:14.016Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws allowing unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating publicly, raising exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-08-002",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-08T06:45:14.016Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab fixed several flaws, including a critical one allowing unauthenticated arbitrary code execution on the server. CERT-EU urges prioritising internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "devops"
+   ]
+  },
+  {
+   "id": "2026-11-08-003",
+   "title": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-08T06:45:14.016Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical flaw in the AMP feature of Cisco Secure Email Gateway permits unauthenticated remote file write and root command execution; Cisco PSIRT confirms active exploitation. Patch AsyncOS/Content Scanner Tools now.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-11-08-041",
+   "title": "Hackers pull off $133 million French bank heist via service provider",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+   "source": "BleepingComputer",
+   "published": "2026-11-07T15:25:35.000Z",
+   "category": "incidents-threats",
+   "summary": "French cooperative bank Crédit Mutuel Arkéa suffered a cyberattack via a service provider enabling fraudulent transactions of up to $133 million, prompting suspension of certain systems.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "banking",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-11-08-049",
+   "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+   "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+   "source": "SecurityWeek",
+   "published": "2026-11-07T10:16:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SonicWall patched CVE-2026-19868 in SonicOS, exploited in the wild, which lets attackers with credentials for another login method bypass SAML checks including SAML-enforced MFA.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "vpn",
+    "mfa-bypass"
+   ]
+  },
+  {
+   "id": "2026-11-08-057",
+   "title": "ARTEX abuse expands as cybercriminals target financial sector",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-07T02:44:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft reports that financially motivated actor Storm-3358 began targeting financial sector organisations in October 2026 using the agentic AI offensive framework ARTEX.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "threat-actor",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-08-042",
+   "title": "Italy foreign minister says he has been targeted by pro-Russian hackers over Ukraine backing",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYWZNYXdzeHF4Ymh3blFVa2M3MlNpVWRUN0FjRXlkcWtVTjdwd0ZWZF9FSXpISWczYURGdmxzWVh1RE9SQ0NvaUhkTFV5dXg2dExMU1lGOVNJYnAyRUFGMUF2U1RMR0dlbFRiT3JmNV92Q3E0LUh6ZHU2Vm1WN2RvMk1hQWZyVTNlbGNCWFEyd3RtSkZaTHlEanRmOWJ3Qk1BQ3BSSDFwamdUb3pGWmVrQ1BWMnQwMW9rTFE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-07T15:02:21.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Italy's foreign minister says he was targeted by pro-Russian hackers in response to his support for Ukraine.",
+   "relevance": 4,
+   "tags": [
+    "hacktivism",
+    "russia",
+    "italy"
+   ]
+  },
+  {
+   "id": "2026-11-08-047",
+   "title": "Italy’s Meloni blames pro-Russian hackers for leak of foreign minister’s data on the dark web",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSnhobklXSzBuM2dmR0dmam80Z3BmWDRZUG05bmRRNnQ5RmJ5em5jUGlEbFFPeVN4MmNBa3JSTjF3N1hLdlJYamUtVVFQcHo0dEEzOU4yb1lEUWlLRTUxYlNTcXlrRlUzVHRQc25xdWJXY0lPNXd1U3pWYVpKWG5UclkzX0p3SGhjdVJjVEZVMGNSbFFzNWdseQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-07T10:41:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Italian PM Meloni attributes the leak of the foreign minister's data on the dark web to pro-Russian hackers, part of a pattern of pressure on Ukraine-supporting governments.",
+   "relevance": 4,
+   "tags": [
+    "data-leak",
+    "russia",
+    "italy"
+   ]
+  },
+  {
+   "id": "2026-11-08-052",
+   "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+   "source": "The Hacker News",
+   "published": "2026-11-07T06:44:17.000Z",
+   "category": "ai-security",
+   "summary": "Apiiro found 1,122 public GitHub repositories containing Claude Code settings files that stored approved commands verbatim, exposing passwords and API keys entered by developers.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "secrets",
+    "github"
+   ]
+  },
+  {
+   "id": "2026-11-08-004",
+   "title": "Investment scams with potential victims in at least 50 countries: over 100 servers seized",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized",
+   "source": "Europol",
+   "published": "2026-11-08T06:45:13.907Z",
+   "category": "eu-threat-landscape",
+   "summary": "A German-led Europol-supported operation seized over 100 servers from a firm suspected of supplying fraudulent trading websites, with victims in 50+ countries and losses over EUR 4 million. Seven suspects identified, 17 locations searched.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "europol",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-08-040",
+   "title": "What to know about the hoax bomb threats that targeted flights in Europe",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQkhLVU9pZzlsTld0UVBVTXlldEdlU3lDWW5Sb0JucF9kOXhUa0xSdG55cklRV0hvZk5iaDAySHExZDJxSDVWOVJUQ1dQUk51YUdOR29XSGNFMFV3a2ZjRjhtVnhnUEdYSUlTcElJd01QQVExOWh1ZmV2UjlWdUIxS1ZZc2NoQXAwU0p6M0tVNXh2UWxr?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-07T16:00:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Explainer on hoax bomb threats that disrupted flights across Europe, a recurring disruptive tactic affecting critical transport operations.",
+   "relevance": 3,
+   "tags": [
+    "hoax",
+    "aviation",
+    "disruption"
+   ]
+  },
+  {
+   "id": "2026-11-08-048",
+   "title": "NHS breach helpline left staff carrying a 'significant emotional burden'",
+   "url": "https://www.theregister.com/security/2026/11/07/nhs-breach-helpline-left-staff-carrying-a-significant-emotional-burden/5308201",
+   "source": "The Register – Security",
+   "published": "2026-11-07T10:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Report on an NHS breach helpline where staff given one day's notice handled distressed callers and safeguarding decisions over an 11-week project, highlighting incident response resourcing gaps.",
+   "relevance": 3,
+   "tags": [
+    "incident-response",
+    "healthcare",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-08-005",
+   "title": "Not a game: Europol and partners target terrorist role-playing online",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online",
+   "source": "Europol",
+   "published": "2026-11-08T06:45:13.907Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's EU Internet Referral Unit and Spain coordinated a referral action day with 16 countries against violent extremist and terrorist role-playing in online gaming environments.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "extremism",
+    "online-platforms"
+   ]
+  },
+  {
+   "id": "2026-11-08-009",
+   "title": "Drone attack on Colombian army base kills three soldiers and wounds 16",
+   "url": "https://www.aljazeera.com/news/2026/11/8/drone-attack-on-colombian-army-base-kills-three-soldiers-and-wounds-16?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-08T04:56:37.000Z",
+   "category": "global-security",
+   "summary": "A drone attack on a Colombian army base in Santa Rosa del Sur killed three soldiers and wounded 16, illustrating continued weaponised drone use by armed groups.",
+   "relevance": 2,
+   "tags": [
+    "drones",
+    "physical-security"
+   ]
+  },
+  {
+   "id": "2026-11-08-015",
+   "title": "US launches task force to disrupt Iran’s land-based supply routes",
+   "url": "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-08T02:34:04.000Z",
+   "category": "global-security",
+   "summary": "The US has launched a task force aimed at disrupting Iran's land-based routes for transporting weapons and materials, amid escalating regional conflict.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-08-016",
+   "title": "What we know so far after Krakow gun attack",
+   "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-08T01:47:41.000Z",
+   "category": "global-security",
+   "summary": "Six people were killed in a random shooting in Krakow's main square; three further bodies were found at the attacker's home.",
+   "relevance": 2,
+   "tags": [
+    "terrorism",
+    "poland"
+   ]
+  },
+  {
+   "id": "2026-11-08-018",
+   "title": "Polish gunman who killed 6 people in Krakow has ‘ultranationalistic’ views, authorities say",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3JpbnhmUWhOUkNrNkUwYVdXYkk1cDFHbEVsVGlsOElHU1dkOUNWa3JVLUdsWkdlQ1A1aWlqbkRQMmVxMk1iRko4Vng5cWdKWTA2cVdBR0xaVUVWU3pQbjJveEFwbzhmTktUX0dyQWFxX3R4eU9zbFFaWTBBM3FRaDE1TW1pZFJHUlBJbVpGMHZCVnpZVV9FUGVn?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-08T01:13:00.000Z",
+   "category": "global-security",
+   "summary": "Polish authorities say the Krakow gunman who killed six people held 'ultranationalistic' views.",
+   "relevance": 2,
+   "tags": [
+    "terrorism",
+    "poland"
+   ]
+  },
+  {
+   "id": "2026-11-08-019",
+   "title": "Polish PM calls deadly Krakow shooting an act of ‘terrorism’",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/polish-pm-calls-deadly-krakow-shooting-an-act-of?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-08T00:50:28.000Z",
+   "category": "global-security",
+   "summary": "Polish PM Donald Tusk labelled the deadly Krakow shooting, which killed six people, an act of terrorism.",
+   "relevance": 2,
+   "tags": [
+    "terrorism",
+    "poland"
+   ]
+  },
+  {
+   "id": "2026-11-08-020",
+   "title": "Iran war live: US moves to block land supply routes; UAE rescues 22 sailors",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/8/iran-war-live-explosions-hit-qeshm-us-moves-to-block-land-supply-routes?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-08T00:00:56.000Z",
+   "category": "global-security",
+   "summary": "Live coverage of the Iran conflict: US moves to block Iranian land supply routes, blasts reported on Qeshm Island and several southern Iranian cities.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-08-032",
+   "title": "US military says it disabled cargo vessel in Gulf of Oman",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3Z5Um5vZGVEQndERDNUZDljektyalQxMjB1SVk0SkNJOWRSSWJRLVBUc0czRzIxMWtFSEs0WnFoVk81XzN6V0xKOGZkNkUzYXFiM2wwdGE2cks3Uk05RlRpQk92SWp3REllTGF4cUVFV0IyelBXbFJNRzVJem5DRkVCLWRKQ0tPQTNVWi04NU5yRlJEeE1MUmVreHVHQ2RrYTZrUHpuLUs?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-07T21:22:00.000Z",
+   "category": "global-security",
+   "summary": "The US military says it disabled a cargo vessel in the Gulf of Oman, adding to maritime tensions in the region.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-08-037",
+   "title": "Several killed in shooting in Krakow main square, police say",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tOTRUcmdDZF9leTY5Szh3cGtac3NQYzBCOWREM3NzRFJxREtYcjBTVDY4dVRkdEw2SGU0dEdyU2Z4RXZxMDBPRnBVRTVrdlBYamlnbWZ2clVfVTVjNkQ0Y3RycWRrRXc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-07T18:45:12.000Z",
+   "category": "global-security",
+   "summary": "Police report several people killed in a shooting in Krakow's main square.",
+   "relevance": 2,
+   "tags": [
+    "poland",
+    "terrorism"
+   ]
+  },
+  {
+   "id": "2026-11-08-045",
+   "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+   "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+   "source": "BleepingComputer",
+   "published": "2026-11-07T14:10:19.000Z",
+   "category": "incidents-threats",
+   "summary": "CTM360 reports scam campaigns impersonating major brands and celebrities with fake gift card giveaways that harvest personal data and trigger unwanted subscriptions via affiliate networks.",
+   "relevance": 2,
+   "tags": [
+    "phishing",
+    "scam",
+    "brand-abuse"
+   ]
+  },
+  {
+   "id": "2026-11-08-050",
+   "title": "Russian diplomats and military officials to join talks with US and Ukraine, Kremlin says",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPckRkTENydGpmMGpDbWpfYVhKemxXQnRLcWVIU05MdHZMS2Nma2Z3UlRONVpMWkg0bFh2N2J5STdSRVRPVUZNdWQ3eTRGWVZoTm90LW9acDZaOUNLYU0xQ2FubkxtbGVDc3NidWtNbkFMM0VOQ1BPS2Nfa2ptLXBGN1NKQXlIZ0F6RE5lSWtjb0dQZHFva3N5SzM2WWZnNWIwOXZlZDhTekpIMy1pQnBpZFpQbFk4VkxOc05IWU40NFR6RS0z?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-07T08:14:35.000Z",
+   "category": "global-security",
+   "summary": "The Kremlin says Russian diplomats and military officials will join talks with the US and Ukraine.",
+   "relevance": 2,
+   "tags": [
+    "russia",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-11-08-051",
+   "title": "Russia says it hit targets in and around Kyiv in massive overnight strike",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVkpxUWQ1cUFXSEJhbTI5OFNqVGZNOUFIb3ZoY3lZWmdEUHNYMHYwWXowdnNQZ1dlcWJ3dDF5engyV0VaaG1XUEVia2oyTjNJTEgwYUI3VHhCaml6RTdZMEQwbm9YZ1BTcUZjekdhOHhwQ2gwcFI5YkpJcTV2YUQ3WjVWampRdS1SZk5JQXA0WW04OV9ZMzNQcklSTDhIS2IxT3I4OE14VkRBN0huQzhmdktR?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-07T07:31:00.000Z",
+   "category": "global-security",
+   "summary": "Russia says it struck targets in and around Kyiv in a massive overnight attack.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-07",
+  "generatedAt": "2026-11-08T06:46:20.548Z",
+  "total": 3,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 3
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 2
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-63645",
+    "title": "Unauthenticated configuration disclosure in OpenObserve",
+    "vendor": "openobserve",
+    "product": "openobserve",
+    "summary": "OpenObserve versions before 0.90.3 expose runtime configuration to unauthenticated clients that can reach the HTTP service. PostgreSQL-backed deployments may disclose database connection credentials, while other deployments may reveal reporting credentials and internal configuration details; network access to the serv…",
+    "zeroExploit": "2026-11-07",
+    "cvss": 7.5,
+    "mitigation": "Upgrade OpenObserve to version 0.90.3 or later. Until upgraded, restrict unauthenticated network access to the OpenObserve HTTP service and rotate any credentials that may have been exposed.",
+    "epss": 0.00333,
+    "epssPct": 0.26675,
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-63645",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-63645"
+    }
+   },
+   {
+    "cve": "CVE-2026-121380",
+    "title": "Unauthenticated email disclosure in Tournamatch",
+    "product": "Tournamatch",
+    "summary": "Tournamatch WordPress plugin versions before 4.7.1 expose team invitation listings without adequate access checks. An unauthenticated attacker can obtain email addresses of people invited to teams when such invitations are present.",
+    "zeroExploit": "2026-11-07",
+    "cvss": 5.3,
+    "mitigation": "Upgrade the Tournamatch WordPress plugin to version 4.7.1 or later. Until upgraded, restrict public access to the affected site where possible.",
+    "epss": 0.00157,
+    "epssPct": 0.04842,
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-121380",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-121380"
+    }
+   },
+   {
+    "cve": "CVE-2026-123991",
+    "title": "Authentication bypass enabling file upload in DataEase",
+    "product": "DataEase",
+    "summary": "DataEase versions through 2.10.27 do not consistently enforce authentication for a standalone static-resource upload endpoint. A remote attacker who can reach that endpoint may upload files without authorization.",
+    "zeroExploit": "2026-11-07",
+    "cvss": 7.3,
+    "mitigation": "Upgrade DataEase to version 2.10.28 or later. Until the upgrade is complete, disable or restrict network access to the standalone static-resource upload endpoint and enforce authentication upstream.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-123991",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-123991"
+    }
+   }
+  ]
+ }
+}
