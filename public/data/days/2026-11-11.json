@@ -1,0 +1,1090 @@
+{
+ "date": "2026-11-11",
+ "generatedAt": "2026-11-11T06:47:20.040Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 47,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 1
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-11-016",
+   "title": "CERT-EU 2026-018: Critical vulnerabilities in PHP",
+   "originalTitle": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-11T06:45:11.265Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP fixed two critical flaws allowing unauthenticated remote code execution in versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating, raising exploitation likelihood for internet-facing hosts.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-11-017",
+   "title": "CERT-EU 2026-019: Critical vulnerability in GitLab Community and Enterprise Editions",
+   "originalTitle": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-11T06:45:11.265Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab patched a critical flaw enabling unauthenticated arbitrary code execution on the server. CERT-EU urges prioritised patching of internet-facing instances and compromise assessment.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-11-018",
+   "title": "CERT-EU 2026-017: Critical vulnerability in Cisco Secure Email Gateway",
+   "originalTitle": "2026-017: Critical Vulnerability in Cisco Secure Email Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-017/",
+   "source": "CERT-EU",
+   "published": "2026-11-11T06:45:11.265Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical flaw in the AMP feature of Cisco Secure Email Gateway allows unauthenticated remote attackers to write files and run commands as root. Cisco PSIRT confirms active exploitation; patch immediately.",
+   "relevance": 5,
+   "tags": [
+    "cisco",
+    "exploited",
+    "email-security"
+   ]
+  },
+  {
+   "id": "2026-11-11-023",
+   "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+   "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+   "source": "The Hacker News",
+   "published": "2026-11-11T06:04:02.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added actively exploited flaws in Cisco BroadWorks (CVE-2026-20320, XXE) and Openwave Messaging Webtop Media Transcoder to its KEV catalog despite patches being available. Direct relevance for telecom operators running BroadWorks.",
+   "relevance": 5,
+   "tags": [
+    "kev",
+    "cisco",
+    "telecom"
+   ]
+  },
+  {
+   "id": "2026-11-11-056",
+   "title": "Microsoft Patch Tuesday for November 2026 — Snort rules and prominent vulnerabilities",
+   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-november-2026/",
+   "source": "Talos Intelligence",
+   "published": "2026-11-11T01:41:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos summarises Microsoft's November 2026 update covering 1,328 vulnerabilities, 60 rated critical and 45 of those remote code execution, with accompanying Snort coverage.",
+   "relevance": 5,
+   "tags": [
+    "patch-tuesday",
+    "microsoft",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-11-067",
+   "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+   "source": "Dark Reading",
+   "published": "2026-11-10T22:26:51.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft's November release includes an actively exploited Outlook zero-day plus critical Exchange, SharePoint, Windows Search and LDAP flaws requiring fast prioritisation.",
+   "relevance": 5,
+   "tags": [
+    "patch-tuesday",
+    "outlook",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-11-11-088",
+   "title": "Critical vulnerabilities in N-able N-central prompt hosted shutdown",
+   "url": "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-10T14:20:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "N-able is responding to 'Able2Shell', a public disclosure of 33 issues in N-central RMM including unauthenticated RCE, root privilege escalation and credential disclosure, with PoC code available; hosted service was shut down.",
+   "relevance": 5,
+   "tags": [
+    "rmm",
+    "rce",
+    "msp"
+   ]
+  },
+  {
+   "id": "2026-11-11-092",
+   "title": "New OpenSSH Vulnerability",
+   "url": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-10T12:02:38.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A decade-old OpenSSH flaw with musl, dubbed '*sshole', lets attackers log in to certain Alpine Linux and musl-based accounts configured to block password authentication by supplying a password longer than 256 bytes.",
+   "relevance": 5,
+   "tags": [
+    "openssh",
+    "linux",
+    "authentication"
+   ]
+  },
+  {
+   "id": "2026-11-11-094",
+   "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-10T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added six actively exploited flaws to KEV, including Cisco BroadWorks XXE, two Barracuda Email Security Gateway issues (command injection and auth bypass) and an Openwave Messaging flaw.",
+   "relevance": 5,
+   "tags": [
+    "kev",
+    "barracuda",
+    "cisco"
+   ]
+  },
+  {
+   "id": "2026-11-11-003",
+   "title": "Data breach at DigiCert",
+   "originalTitle": "2026. 11. 10. Adatszivárgás történt a DigiCertnél A DigiCert, digitális tanúsítványokat kibocsátó hitelesítésszolgáltató vállalat, adatvédelmi incidenst jelentett be, amelynek során illetéktelenek fé…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adatszivargas-tortent-a-digicertnel/",
+   "source": "NKI Hungary",
+   "published": "2026-11-11T06:45:12.942Z",
+   "category": "eu-threat-landscape",
+   "summary": "Certificate authority DigiCert disclosed a data protection incident in which unauthorised parties gained access to data. Relevant for organisations relying on DigiCert-issued certificates and PKI supply chain trust.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "pki",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-11-006",
+   "title": "Latest Chrome update fixes zero-day XML flaw",
+   "originalTitle": "2026. 11. 10. Nulladik napi XML hibát javít a Chrome legújabb frissítése A Google hétfőn adta ki a Chrome legújabb biztonsági frissítését, amelyben 9 sebezhetőség, köztük egy, feltehetően aktívan kih…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/nulladik-napi-xml-hibat-javit-a-chrome-legujabb-frissitese/",
+   "source": "NKI Hungary",
+   "published": "2026-11-11T06:45:12.942Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Google shipped a Chrome security update covering nine vulnerabilities, including one reportedly exploited in the wild. Patch browsers across the fleet promptly.",
+   "relevance": 4,
+   "tags": [
+    "chrome",
+    "zero-day",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-11-007",
+   "title": "USD 129 million fraud: companies deceived using artificial intelligence",
+   "originalTitle": "2026. 11. 10. 129 millió dolláros csalás: mesterséges intelligenciával verték át a vállalatokat A mesterséges intelligencia segítségével vállalatvezetők és ügyvédek személyazonosságával visszaélve kö…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/129-millio-dollaros-csalas-mesterseges-intelligenciaval-vertek-at-a-vallalatokat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-11T06:45:12.942Z",
+   "category": "eu-threat-landscape",
+   "summary": "Fraudsters used AI to impersonate executives and lawyers, causing losses reported at USD 129 million. Reinforces need for out-of-band verification of payment instructions.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "fraud",
+    "deepfake"
+   ]
+  },
+  {
+   "id": "2026-11-11-019",
+   "title": "ENISA reveals the State of Cybersecurity in the Union",
+   "url": "https://www.enisa.europa.eu/news/enisa-reveals-the-state-of-cybersecurity-in-the-union",
+   "source": "ENISA",
+   "published": "2026-11-11T06:45:10.759Z",
+   "category": "policy-regulation",
+   "summary": "ENISA published its State of Cybersecurity in the Union report, the EU-level assessment of maturity and risk underpinning NIS2 policy decisions.",
+   "relevance": 4,
+   "tags": [
+    "enisa",
+    "nis2",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-11-024",
+   "title": "EU cyber scores look healthy, but 45% of surveyed IT providers take months to patch",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/eu-enisa-cybersecurity-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-11T06:00:09.000Z",
+   "category": "policy-regulation",
+   "summary": "ENISA's 2026 EU assessment finds 45% of surveyed IT service management providers need more than three months to patch critical systems, creating downstream risk for their customers.",
+   "relevance": 4,
+   "tags": [
+    "enisa",
+    "patching",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-11-062",
+   "title": "Detecting sleeper agents hiding in AI model neurons",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-10T23:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft Research shows an agent model can be turned into a sleeper agent by editing fewer than ten neurons, and that frontier agents can detect such anomalous weight edits. Relevant to AI model supply-chain assurance.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-11-11-068",
+   "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+   "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T22:20:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Cloud hosting provider Railway says attackers exploited infrastructure flaws to steal customer authentication secrets, racking up about $740,000 in fraudulent AI usage and potentially exposing up to 100,000 workspaces.",
+   "relevance": 4,
+   "tags": [
+    "cloud",
+    "credentials",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-11-087",
+   "title": "Daily summary - 10 November 2026",
+   "originalTitle": "Tageszusammenfassung - 10.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-10112026",
+   "source": "CERT.at",
+   "published": "2026-11-10T17:15:22.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report flags active exploitation of two patched Barracuda Email Security Gateway flaws granting root-level command execution, plus a fake-invoice scam campaign.",
+   "relevance": 4,
+   "tags": [
+    "barracuda",
+    "exploited",
+    "cert"
+   ]
+  },
+  {
+   "id": "2026-11-11-104",
+   "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+   "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+   "source": "Wired – AI",
+   "published": "2026-11-10T05:01:00.000Z",
+   "category": "ai-security",
+   "summary": "Google DeepMind researchers used a new AI tool to formally verify the security of the Signal protocol, with ambitions to extend formal verification more broadly.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "cryptography",
+    "formal-verification"
+   ]
+  },
+  {
+   "id": "2026-11-11-004",
+   "title": "Cyberattack on Technical University of Munich, tens of thousands of passwords possibly exposed",
+   "originalTitle": "2026. 11. 10. Kibertámadás érte a Müncheni Műszaki Egyetemet, több tízezer jelszó kerülhetett veszélybe Komoly kibertámadás érte a Müncheni Műszaki Egyetemet (TUM), amelynek során a támadók megszerez…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kibertamadas-erte-a-muncheni-muszaki-egyetemet-tobb-tizezer-jelszo-kerulhetett-veszelybe/",
+   "source": "NKI Hungary",
+   "published": "2026-11-11T06:45:12.942Z",
+   "category": "eu-threat-landscape",
+   "summary": "Attackers compromised systems at TUM in Germany and may have obtained tens of thousands of credentials. Credential reuse risk for partner and research organisations.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "credentials",
+    "germany"
+   ]
+  },
+  {
+   "id": "2026-11-11-009",
+   "title": "Australia rolls out new AI regulator, frontier model security obligations",
+   "url": "https://iapp.org/news/a/australia-rolls-out-new-ai-regulators-security-obligations",
+   "source": "IAPP",
+   "published": "2026-11-11T06:45:12.046Z",
+   "category": "policy-regulation",
+   "summary": "Australia is setting up a new AI regulator and imposing security obligations on frontier model developers. A reference point for EU AI Act implementation debates.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "regulation",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-11-013",
+   "title": "Investment scams with potential victims in at least 50 countries: over 100 servers seized",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/investment-scams-potential-victims-in-least-50-countries-over-100-servers-seized",
+   "source": "Europol",
+   "published": "2026-11-11T06:45:11.794Z",
+   "category": "eu-threat-landscape",
+   "summary": "A German-led Europol-supported operation seized over 100 servers from a supplier of fraudulent trading websites, with victims in 50+ countries and losses over EUR 4 million. Seven suspects identified, 17 locations searched.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "fraud",
+    "takedown"
+   ]
+  },
+  {
+   "id": "2026-11-11-021",
+   "title": "A CISO’s guide to trimming waste from a flat security budget",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/flat-security-budget-video/",
+   "source": "Help Net Security",
+   "published": "2026-11-11T06:30:10.000Z",
+   "category": "incidents-threats",
+   "summary": "Practical guidance for CISOs on cutting tool sprawl under a flat budget: inventory every tool and cost, then map coverage against MITRE ATT&CK.",
+   "relevance": 3,
+   "tags": [
+    "ciso",
+    "budget",
+    "mitre"
+   ]
+  },
+  {
+   "id": "2026-11-11-028",
+   "title": "OpenAI builds a kill switch for its research models",
+   "url": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+   "source": "The Register – Security",
+   "published": "2026-11-11T05:20:56.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI has built a shutdown mechanism for its research models, with reported shutdown times around 35 seconds. Raises questions about containment of autonomous agents.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "safety"
+   ]
+  },
+  {
+   "id": "2026-11-11-030",
+   "title": "EXCLUSIVE: PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZGFWV2J1LVZpcHZIbWtuMU5qVm1teTBwSTFIaVF0c2hJYzN2WFBlYmdDbHJFeVVJQk5PNzA5WTBmQlNudWpFaHpyZDBGaFJEbGMwd0FlQWNrTWpxZW9kWE5sVGxtbl9sWEljZlBtQmMyMHp1b29wNmVSdnpYOVdGcHcxclo5TjRPNXRVMFNoUUdsWnc4ZUFDM0lZMXZOa3lfQWtlN25rWHFXcFF1RXRGcmI2TmFveEli?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-11T05:13:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters reports a PLA-linked Chinese university procured Nvidia H200 chips despite US export blacklisting, highlighting gaps in AI hardware export controls.",
+   "relevance": 3,
+   "tags": [
+    "export-control",
+    "ai",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-11-035",
+   "title": "Google Fi super network leans on encryption to keep hotspot traffic private",
+   "url": "https://www.helpnetsecurity.com/2026/11/11/google-fi-super-network-encryption/",
+   "source": "Help Net Security",
+   "published": "2026-11-11T04:50:38.000Z",
+   "category": "incidents-threats",
+   "summary": "Google Fi's 'super network' automatically moves devices between Wi-Fi hotspots and two 5G networks, with encrypted auto-connect to limit hotspot operator visibility. Of interest to mobile operators.",
+   "relevance": 3,
+   "tags": [
+    "telecom",
+    "wifi",
+    "encryption"
+   ]
+  },
+  {
+   "id": "2026-11-11-063",
+   "title": "South Korea's financial security regulator found personal information stolen in cyberattack, Yonhap reports",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0l0V1lGcFhFTXFaWGtfS3NjRTEwVklhUzNzTmc2OG51bnRfWks3NllBQmtORzZKdDhLTXR0SVZURnFPNmV5R1ROczQzazZJSkt4cnlOWWFlZ2lKUERxamlvZm1UM0h4NFdQNVN6aVF5SjRqMmR0UDRaeTNRc0FncjJrQ0tjVWhLOUdLeWpXQXdkb1ZOX3JCYmtLWUU0VnVFM1ZSZ0dKNV8xY0IxNGRfVFZXck55SE5rdU5CUEVZN3B1Tzc4MHY3QWZR?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-10T22:42:39.000Z",
+   "category": "incidents-threats",
+   "summary": "South Korea's financial security regulator confirmed personal information was stolen in a cyberattack, per Yonhap.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-11-075",
+   "title": "US Army member arrested in UK over allegations of spying for Russia",
+   "url": "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+   "source": "The Record",
+   "published": "2026-11-10T21:13:00.000Z",
+   "category": "global-security",
+   "summary": "British counterterrorism police, working with the FBI and US military, arrested a US Army member in the UK on suspicion of spying for Russia.",
+   "relevance": 3,
+   "tags": [
+    "espionage",
+    "insider",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-11-11-080",
+   "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+   "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+   "source": "BleepingComputer",
+   "published": "2026-11-10T20:54:55.000Z",
+   "category": "incidents-threats",
+   "summary": "Japanese retailer Nitori says an attacker accessed an internal system and may have stolen 37.62 million customer records.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "retail",
+    "data-theft"
+   ]
+  },
+  {
+   "id": "2026-11-11-081",
+   "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+   "url": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+   "source": "Dark Reading",
+   "published": "2026-11-10T20:41:45.000Z",
+   "category": "ai-security",
+   "summary": "F-Secure published an AI Harms Taxonomy mapping 26 consumer harm pathways, from misleading chatbot answers to compromised autonomous agents, and where controls can intervene.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "taxonomy",
+    "risk"
+   ]
+  },
+  {
+   "id": "2026-11-11-084",
+   "title": "Brussels takes on the evils of online commerce",
+   "url": "https://www.politico.eu/article/brussels-takes-on-the-evils-of-online-commerce-digital-fairness-act-commission/",
+   "source": "Politico Europe",
+   "published": "2026-11-10T19:45:24.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Commission proposes rules penalising manipulative online practices such as dark patterns, dynamic pricing and addictive design in e-commerce.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "consumer-protection",
+    "dark-patterns"
+   ]
+  },
+  {
+   "id": "2026-11-11-095",
+   "title": "Tear Down Those Guardrails! Meet the Renegades Freeing Chatbots From Corporate Enslavers",
+   "url": "https://www.wired.com/story/tear-down-those-guardrails-meet-the-renegades-freeing-chatbots-from-corporate-enslavers/",
+   "source": "Wired – AI",
+   "published": "2026-11-10T11:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Feature on 'abliterators' publishing guardrail-stripped AI models that will answer anything, useful for defensive testing but also for harmful instructions.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "jailbreak",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-11-11-101",
+   "title": "Security Flaws Across UK Government Sites Exposed ‘God-Tier’ Information",
+   "url": "https://www.wired.com/story/security-flaws-across-uk-government-sites-exposed-god-tier-information/",
+   "source": "Wired – AI",
+   "published": "2026-11-10T07:00:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A researcher found security flaws across multiple UK government websites, with publicly available code exposing highly sensitive information. Highlights secrets-in-code risk in public sector supply chains.",
+   "relevance": 3,
+   "tags": [
+    "government",
+    "secrets",
+    "exposure"
+   ]
+  },
+  {
+   "id": "2026-11-11-005",
+   "title": "Data breach at Amplifon",
+   "originalTitle": "2026. 11. 10. Adatszivárgás történt az Amplifonnál Adatvédelmi incidens érte az Amplifon egészségügyi vállalatot, amely során amerikai ügyfelek személyes, pénzügyi és egészségügyi adatai kompromittál…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adatszivargas-tortent-az-amplifonnal/",
+   "source": "NKI Hungary",
+   "published": "2026-11-11T06:45:12.942Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hearing-care company Amplifon reported a breach exposing personal, financial and health data of US customers. Health data exposure raises regulatory exposure for the EU-headquartered group.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "healthcare",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-11-010",
+   "title": "What AI governance demands of the teams putting it into practice",
+   "url": "https://iapp.org/news/a/what-ai-governance-demands-of-the-teams-putting-it-into-practice",
+   "source": "IAPP",
+   "published": "2026-11-11T06:45:12.046Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of the operational skills and processes teams need to implement AI governance in practice.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-11-014",
+   "title": "Not a game: Europol and partners target terrorist role-playing online",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/not-game-europol-and-partners-target-terrorist-role-playing-online",
+   "source": "Europol",
+   "published": "2026-11-11T06:45:11.794Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's EU Internet Referral Unit coordinated an action day with 16 countries against violent extremist role-playing in online gaming environments.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "extremism",
+    "gaming"
+   ]
+  },
+  {
+   "id": "2026-11-11-020",
+   "title": "How AI worsens online violence against Middle East women",
+   "url": "https://www.dw.com/en/how-ai-worsens-online-violence-against-middle-east-women/a-79912634?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-11T06:38:00.000Z",
+   "category": "global-security",
+   "summary": "Report on how AI-enabled tools amplify online harassment and gender-based violence against women in the Middle East.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "abuse"
+   ]
+  },
+  {
+   "id": "2026-11-11-031",
+   "title": "How to bypass unruly MEPs",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-to-bypass-unruly-meps/",
+   "source": "Politico Europe",
+   "published": "2026-11-11T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Podcast on how European Parliament leaders bypass full plenary votes to pass contested legislation, a procedural trend that affects EU digital files.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-11-032",
+   "title": "US charges three men for allegedly plotting attack on UK base",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-charges-three-men-for-allegedly-plotting-attack-on-uk-base?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-11T05:01:47.000Z",
+   "category": "global-security",
+   "summary": "US prosecutors charged three men over an alleged plot to attack RAF Fairford in the UK.",
+   "relevance": 2,
+   "tags": [
+    "terrorism",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-11-11-037",
+   "title": "Russia claims interception of 146 drones in Leningrad region",
+   "url": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-11T04:34:47.000Z",
+   "category": "global-security",
+   "summary": "Russia claims interception of 146 drones over the Leningrad region as US-mediated talks continue in Abu Dhabi.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-11-043",
+   "title": "Senior Republican on US Senate banking panel calls on Nvidia CEO Huang to resign",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakhNTHdFSEhVdlBiTnJYLTZJZklCRG1iOWR3SzRlNW5MNGdGZ2xBcUtLZXdwSm5qZ1lpei1DOHdIUGpkdmVaZ3cwM29INlJ1c3V1T1hLSUcxdFYwSGdGM2tnV1VNVEZiMWYzYlUzQUpyV3F6N3VLbHlkWTVCaDczZmJLdVNsbUZhX2lWRnVMR28zZDZUUFBvUjdqdUR2VW84SndUNkFzWk9Fd2RwYnFfU2ZjRW5USXNkNXBZ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-11T03:43:00.000Z",
+   "category": "global-security",
+   "summary": "A senior Republican senator called for Nvidia CEO Jensen Huang to resign, adding political pressure around the chipmaker.",
+   "relevance": 2,
+   "tags": [
+    "nvidia",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-11-049",
+   "title": "Turkey-Greece maritime spat threatens to spill into EU summit",
+   "url": "https://www.politico.eu/article/turkey-libya-maritime-deal-raises-greece-tensions-eu-leaders-summit/",
+   "source": "Politico Europe",
+   "published": "2026-11-11T03:00:00.000Z",
+   "category": "global-security",
+   "summary": "A Libya-Turkey maritime border deal has escalated tensions with Greece and may surface at the EU leaders' summit in Dublin.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-11-058",
+   "title": "US and China should stay clear-eyed on AI cooperation and competition, Bessent says",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWUdDU2JVSnpLTmIzYVRmNm5Wb2Y3UC1vVElXMTZwdlM4M2YwRGZKT2tkYXI5YVlzRk1GZm5HRmY3NDlPQm1UaC1McjQ3STR0ME1LeDJCQ2NPQlVyU1RBa0RkSUotV2tSWndkN3NiQmdsVFFoVENFUVdFTExITml0bnc3RVdGcU1mSTB1T1gzcHpWMUM4MXFnSm1oWTdhZ0I2TG11M1JBU0xfUUtYLTNDRlcxeFpWcWZSUFVz?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-11T01:25:00.000Z",
+   "category": "global-security",
+   "summary": "US Treasury Secretary Bessent urged a clear-eyed approach to AI cooperation and competition with China.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-11-059",
+   "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+   "url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-11T01:01:20.000Z",
+   "category": "global-security",
+   "summary": "US DOJ alleges three Iran-backed suspects plotted multiple attacks, including an incident near RAF Fairford used by US forces.",
+   "relevance": 2,
+   "tags": [
+    "iran",
+    "terrorism"
+   ]
+  },
+  {
+   "id": "2026-11-11-065",
+   "title": "CISA director pick already drawing concern from Hill Dems over Palantir connection",
+   "url": "https://cyberscoop.com/michael-losapio-cisa-director-nomination-palantir-scrutiny/",
+   "source": "CyberScoop",
+   "published": "2026-11-10T22:38:16.000Z",
+   "category": "policy-regulation",
+   "summary": "The nominee for CISA director, Michael LoSapio, faces Democratic concerns over his Palantir ties, though supporters cite his CISO credentials.",
+   "relevance": 2,
+   "tags": [
+    "cisa",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-11-069",
+   "title": "Zelenskyy tells Europe to hurry up and pick a rep for peace talks with Russia",
+   "url": "https://www.politico.eu/article/zelenskyy-tells-europe-pick-negotiator-peace-talks-russia-ukraine/",
+   "source": "Politico Europe",
+   "published": "2026-11-10T22:09:28.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy urged Europe to quickly nominate a representative for peace talks with Russia and to consult Kyiv on the choice.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-11-072",
+   "title": "The US wants its quantum lead to turn into factories and supply chains",
+   "url": "https://cyberscoop.com/us-quantum-computing-industry-manufacturing-push/",
+   "source": "CyberScoop",
+   "published": "2026-11-10T21:50:46.000Z",
+   "category": "policy-regulation",
+   "summary": "US lawmakers show bipartisan support for scaling quantum manufacturing and supply chains, with concerns about industrial capacity.",
+   "relevance": 2,
+   "tags": [
+    "quantum",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-11-096",
+   "title": "The AI Safety Debate Has Lost the Plot. We Asked 10 Experts What the Real Nightmares Are",
+   "url": "https://www.wired.com/story/the-ai-safety-debate-has-lost-the-plot-we-asked-10-experts-what-the-real-nightmares-are/",
+   "source": "Wired – AI",
+   "published": "2026-11-10T11:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Ten experts outline what they see as realistic AI risks, including nuclear-related scenarios and US-China espionage dynamics, rather than science-fiction scenarios.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "risk"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-10",
+  "generatedAt": "2026-11-11T06:47:20.039Z",
+  "total": 6,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 6
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 4
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 4
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-111560",
+    "title": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+    "vendor": "Barracuda Networks",
+    "product": "Multiple Products",
+    "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerability could allow an authenticated administ…",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-115148",
+    "euvdExploited": "2026-11-10",
+    "cvss": 8.6,
+    "epss": 0.0106,
+    "epssPct": 0.6483,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-111560",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-115148"
+    }
+   },
+   {
+    "cve": "CVE-2026-20320",
+    "title": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "vendor": "Cisco",
+    "product": "BroadWorks",
+    "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-62586",
+    "euvdExploited": "2026-11-10",
+    "cvss": 7.5,
+    "epss": 0.00385,
+    "epssPct": 0.32917,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-20320",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-62586"
+    }
+   },
+   {
+    "cve": "CVE-2026-124194",
+    "title": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+    "vendor": "Microsoft",
+    "product": "Office",
+    "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-122310",
+    "euvdExploited": "2026-11-10",
+    "cvss": 6.5,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-124194",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-122310"
+    }
+   },
+   {
+    "cve": "CVE-2026-125350",
+    "title": "Google Chromium Use-After-Free Vulnerability",
+    "vendor": "Google",
+    "product": "Chromium",
+    "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Micros…",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-121390",
+    "euvdExploited": "2026-11-10",
+    "cvss": 8.8,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-125350",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-121390"
+    }
+   },
+   {
+    "cve": "CVE-2026-116606",
+    "title": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "vendor": "Barracuda Networks",
+    "product": "Barracuda Email Security Gateway (ESG)",
+    "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s…",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "epss": 0.01602,
+    "epssPct": 0.76026,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-116606"
+    }
+   },
+   {
+    "cve": "CVE-2026-111793",
+    "title": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+    "vendor": "Openwave Messaging Limited",
+    "product": "Webtop Media Transcoder",
+    "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
+    "kevAdded": "2026-11-10",
+    "ransomware": false,
+    "epss": 0.00274,
+    "epssPct": 0.19971,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-111793"
+    }
+   }
+  ]
+ }
+}
