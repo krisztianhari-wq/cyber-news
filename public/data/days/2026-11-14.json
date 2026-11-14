@@ -1,0 +1,994 @@
+{
+ "date": "2026-11-14",
+ "generatedAt": "2026-11-14T06:46:54.477Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 45,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-14-008",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-14T06:45:15.161Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix patched 28 memory flaws in NetScaler ADC and Gateway; CVE-2026-120868 affects all deployments including default configuration, with DoS/unpredictable behaviour impact. No known exploitation yet; CERT-EU urges upgrades.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-14-009",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-14T06:45:15.161Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP fixed two critical vulnerabilities allowing unauthenticated remote code execution in versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating, raising exploitation likelihood.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "rce",
+    "php"
+   ]
+  },
+  {
+   "id": "2026-11-14-048",
+   "title": "FBI flash alert says Artex tool automating cyberattacks at ‘machine speed’",
+   "url": "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+   "source": "The Record",
+   "published": "2026-11-13T21:32:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An FBI flash alert warns the open-source tool Artex automates attack chaining at 'machine speed', with some intrusions reaching privileged access in under three hours.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "offensive-tooling",
+    "fbi"
+   ]
+  },
+  {
+   "id": "2026-11-14-051",
+   "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+   "url": "https://blog.talosintelligence.com/artex-and-beyond/",
+   "source": "Talos Intelligence",
+   "published": "2026-11-13T20:57:13.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos analyses AI-enabled pentest and red team frameworks such as ARTEX that chain reconnaissance and exploitation, lowering attacker skill thresholds and accelerating intrusions.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "offensive-tooling",
+    "ttps"
+   ]
+  },
+  {
+   "id": "2026-11-14-063",
+   "title": "Microsoft outage renews European calls to detox from US tech",
+   "url": "https://www.politico.eu/article/microsoft-outage-renews-european-calls-to-detox-from-us-tech/",
+   "source": "Politico Europe",
+   "published": "2026-11-13T17:32:11.000Z",
+   "category": "policy-regulation",
+   "summary": "The Microsoft outage has renewed calls from European lawmakers to reduce dependence on a small number of foreign technology providers.",
+   "relevance": 5,
+   "tags": [
+    "digital-sovereignty",
+    "eu",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-14-064",
+   "title": "German military drone operations disrupted by cyberattack",
+   "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T17:31:56.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "German defence tech firm Quantum Systems confirmed a late-October incident tied to an active cyberattack by hostile actors, disrupting military drone operations.",
+   "relevance": 5,
+   "tags": [
+    "defence",
+    "germany",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-14-066",
+   "title": "Daily summary - 13.11.2026",
+   "originalTitle": "Tageszusammenfassung - 13.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-13112026",
+   "source": "CERT.at",
+   "published": "2026-11-13T17:17:28.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at end-of-day report notes the N-able N-central '4EverAble2Shell' zero-day exploited hours after PoC release, with at least 21 compromised systems deploying cryptominers, including 19 on the latest patch.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "n-able",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-11-14-072",
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+   "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T16:21:43.000Z",
+   "category": "incidents-threats",
+   "summary": "Attackers exploited vulnerable Check Point Security Gateway instances via PHP2Shell to deploy data-wiping malware on VMware ESXi hosts.",
+   "relevance": 5,
+   "tags": [
+    "exploitation",
+    "wiper",
+    "esxi"
+   ]
+  },
+  {
+   "id": "2026-11-14-002",
+   "title": "N-able N-central servers under active attack",
+   "originalTitle": "2026. 11. 13. Aktívan támadják az N-able N-central szervereket A kiberbiztonsági kutatók szerint támadók aktívan használnak egy frissen nyilvánosságra hozott, zero-day sérülékenységet az N-able N-cen…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/aktivan-tamadjak-az-n-able-n-central-szervereket/",
+   "source": "NKI Hungary",
+   "published": "2026-11-14T06:45:16.371Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungarian NKI reports attackers actively exploiting a freshly disclosed zero-day in N-able N-central servers. RMM platforms are high-value targets for downstream access.",
+   "relevance": 4,
+   "tags": [
+    "zero-day",
+    "rmm",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-11-14-007",
+   "title": "6.4 million victim datasets secured in international operation against malware networks",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+   "source": "Europol",
+   "published": "2026-11-14T06:45:15.829Z",
+   "category": "eu-threat-landscape",
+   "summary": "International operation dismantled infrastructure behind Gootloader, CastleRAT and StealC, seizing 235 servers and 257 domains and securing 6.4 million victim datasets.",
+   "relevance": 4,
+   "tags": [
+    "malware",
+    "takedown",
+    "infostealer"
+   ]
+  },
+  {
+   "id": "2026-11-14-010",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-14T06:45:15.161Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab advisory addresses a critical flaw allowing unauthenticated arbitrary code execution on GitLab servers. CERT-EU advises prioritising internet-facing assets and compromise assessment.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "gitlab",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-14-011",
+   "title": "Microsoft says services fully restored after for day-long global outage",
+   "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-14T06:42:27.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft says Outlook, Teams and Copilot are fully restored after a day-long global outage.",
+   "relevance": 4,
+   "tags": [
+    "outage",
+    "cloud",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-14-022",
+   "title": "German spies granted sweeping new powers",
+   "url": "https://www.aljazeera.com/news/2026/11/14/german-spies-granted-sweeping-new-powers?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-14T04:41:11.000Z",
+   "category": "policy-regulation",
+   "summary": "The German parliament passed legislation granting intelligence services sweeping new powers, months after a thwarted attack at Leipzig-Halle airport linked to Russia.",
+   "relevance": 4,
+   "tags": [
+    "germany",
+    "intelligence",
+    "legislation"
+   ]
+  },
+  {
+   "id": "2026-11-14-044",
+   "title": "Microsoft outage shows the risks of relying on a single technology provider for essential services",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYWY5MnRXdTRCaHJZT3BKRWs4TzQxdUR3NEZzQ3ZsTmxCLW9wcFJJMzFaLS1pVGhtb3BabWdhN3pvQUhPU0FNbDJMV2I0a3BWaGtuQWpxVVNxRTZIUGhNS3c5RG5oVHNGaGg3XzJDdkE1V0RBWFJKVzMzTFVnN3otc0xZNWhCWWducmlfS2dXZ3lGcUtWcFJQWkxnejVqWjFxTlZKbENDamJfUQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-13T22:43:00.000Z",
+   "category": "incidents-threats",
+   "summary": "AP analysis of concentration risk after the Microsoft outage, highlighting dependence on a single technology provider for essential services.",
+   "relevance": 4,
+   "tags": [
+    "concentration-risk",
+    "cloud",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-14-049",
+   "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-13T21:31:44.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Microsoft details SCKit, which abuses ScreenConnect to deploy unauthorised remote access and target technician sessions, with mitigations and Defender XDR hunting guidance.",
+   "relevance": 4,
+   "tags": [
+    "rmm",
+    "abuse",
+    "detection"
+   ]
+  },
+  {
+   "id": "2026-11-14-054",
+   "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+   "url": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+   "source": "Dark Reading",
+   "published": "2026-11-13T20:20:27.000Z",
+   "category": "incidents-threats",
+   "summary": "The ArcticRAT Android malware has expanded from crypto theft to full device control, with attackers using AI to profile victims' finances from stolen data.",
+   "relevance": 4,
+   "tags": [
+    "android",
+    "ai",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-14-056",
+   "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+   "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+   "source": "BleepingComputer",
+   "published": "2026-11-13T19:38:36.000Z",
+   "category": "incidents-threats",
+   "summary": "Trezor confirmed that three Safe 5 devices sold by a Southeast Asian reseller contained hardware implants exfiltrating recovery phrases over cellular networks; a fix was released.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "hardware",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-14-058",
+   "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+   "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+   "source": "Wired – AI",
+   "published": "2026-11-13T19:08:57.000Z",
+   "category": "incidents-threats",
+   "summary": "Microsoft 365 recovered after a 24-hour outage that the company attributes to a faulty update rather than a cyberattack or AI.",
+   "relevance": 4,
+   "tags": [
+    "outage",
+    "cloud",
+    "m365"
+   ]
+  },
+  {
+   "id": "2026-11-14-067",
+   "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+   "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T16:53:08.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PostgreSQL patched 52 flaws including CVE-2026-6460 (CVSS 8.8), a 22-year-old type confusion bug allowing authenticated users with object creation rights to run code on the server; C extensions must be rebuilt.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "postgresql",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-14-069",
+   "title": "German parliament passes law giving spy agencies hacking, sabotage powers",
+   "url": "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+   "source": "The Record",
+   "published": "2026-11-13T16:32:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The Bundestag approved the biggest postwar overhaul of German spy laws, granting agencies hacking and sabotage powers, by 308 votes to 190.",
+   "relevance": 4,
+   "tags": [
+    "germany",
+    "legislation",
+    "intelligence"
+   ]
+  },
+  {
+   "id": "2026-11-14-076",
+   "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+   "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+   "source": "The Hacker News",
+   "published": "2026-11-13T15:27:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "New Mior and Skyfall attacks let malicious hosts read and, for Mior, modify data in AMD SEV-SNP confidential VMs and forge attestation reports; both require hypervisor control, Mior also BIOS control.",
+   "relevance": 4,
+   "tags": [
+    "amd",
+    "confidential-computing",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-14-001",
+   "title": "From critical server flaws to AI-assisted intrusions: this week's most urgent tasks",
+   "originalTitle": "2026. 11. 13. Kritikus szerverhibáktól az AI-támogatott behatolásokig A hét legsürgetőbb teendőit a MongoDB és az Apache javított sérülékenységei, valamint az LNbits elleni tényleges pénzlopások adjá…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/kritikus-szerverhibaktol-az-ai-tamogatott-behatolasokig/",
+   "source": "NKI Hungary",
+   "published": "2026-11-14T06:45:16.371Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungary's NKI weekly roundup highlights patched MongoDB and Apache vulnerabilities and actual funds theft via attacks against LNbits, alongside AI-supported intrusion trends.",
+   "relevance": 3,
+   "tags": [
+    "patching",
+    "hungary",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-11-14-006",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-14T06:45:15.829Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, coordinated by Europol across 14 countries, led to 354 arrests of dark web vendors and buyers and hundreds of house searches between May 2025 and October 2026.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "darkweb",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-14-019",
+   "title": "Trump administration blames ‘overloaded’ systems for ground stop after FAA lets flights resume",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFBta25Rakd3c0VBM0NUWjJzbmV2ajZwTWRtUFVTcTVzZ2otRGo0cXZSWWV0MzNBSXdmMXNzdm9SU1d1blBBNnktRlNqQmcwVUVxQzhCNERGel9ETDBHZjJwb29IYmhGX2VPNm8xeGwwU0VNajFzZnpIM19lejBOVTZrRVVjb2t4SDh3emhSZHI?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-14T04:57:00.000Z",
+   "category": "incidents-threats",
+   "summary": "US administration blames 'overloaded' systems rather than a cyberattack for the nationwide FAA ground stop, now lifted.",
+   "relevance": 3,
+   "tags": [
+    "aviation",
+    "outage",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-14-028",
+   "title": "What we know about the longest ground stop since 9/11",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-14T03:45:21.000Z",
+   "category": "incidents-threats",
+   "summary": "US officials attribute the longest ground stop since 9/11 to ageing equipment overloading, explicitly ruling out a cyberattack or the Microsoft outage.",
+   "relevance": 3,
+   "tags": [
+    "aviation",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-14-029",
+   "title": "FAA ground stop lifted: Why were US flights grounded, and what’s next?",
+   "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-14T03:32:07.000Z",
+   "category": "incidents-threats",
+   "summary": "The FAA says the nationwide ground stop affecting thousands of flights was caused by a telecommunications outage; flights have resumed.",
+   "relevance": 3,
+   "tags": [
+    "telecom",
+    "outage",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-11-14-047",
+   "title": "FAA Ground Stop Issued Due to ‘Extraordinary Circumstances’",
+   "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+   "source": "SecurityWeek",
+   "published": "2026-11-13T21:33:27.000Z",
+   "category": "incidents-threats",
+   "summary": "SecurityWeek reports officials had not yet disclosed the cause of the communications disruption behind the FAA ground stop or whether a cyberattack is being investigated.",
+   "relevance": 3,
+   "tags": [
+    "aviation",
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-11-14-050",
+   "title": "Researchers continue to find serious vulnerabilities in internet connected refrigerators",
+   "url": "https://cyberscoop.com/copeland-dixell-refrigeration-vulnerabilities/",
+   "source": "CyberScoop",
+   "published": "2026-11-13T21:20:51.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "VulnCheck disclosed 14 vulnerabilities in Dixell refrigeration units granting root access, while honeypots see heavy malicious probing of such devices.",
+   "relevance": 3,
+   "tags": [
+    "iot",
+    "ot",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-14-052",
+   "title": "Industry guidelines for offensive cyber tools unveiled through international Pall Mall Process",
+   "url": "https://cyberscoop.com/pall-mall-process-commercial-spyware-guidelines/",
+   "source": "CyberScoop",
+   "published": "2026-11-13T20:56:20.000Z",
+   "category": "policy-regulation",
+   "summary": "The Pall Mall Process unveiled voluntary industry guidelines for commercial cyber intrusion capabilities such as spyware; the US signed on, though advocates wanted stronger terms.",
+   "relevance": 3,
+   "tags": [
+    "spyware",
+    "governance",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-14-053",
+   "title": "This year’s bug count just passed 100K",
+   "url": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
+   "source": "The Register – Security",
+   "published": "2026-11-13T20:52:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "This year's disclosed bug count has passed 100,000, with commentary that vulnerability management is now a data triage problem.",
+   "relevance": 3,
+   "tags": [
+    "cve",
+    "vulnerability-management"
+   ]
+  },
+  {
+   "id": "2026-11-14-074",
+   "title": "ChatGPT Wallet lets agents pay without seeing your card number",
+   "url": "https://www.helpnetsecurity.com/2026/11/13/openai-chatgpt-wallet/",
+   "source": "Help Net Security",
+   "published": "2026-11-13T16:15:25.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI is rolling out ChatGPT Wallet, letting agents pay with a stand-in card number so real card details are not shared with agents or merchants; built with Amex, Mastercard and Visa.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "payments",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-11-14-080",
+   "title": "Whitehall to increase face-to-face job interviews after surge in AI applications",
+   "url": "https://www.politico.eu/article/whitehall-increase-in-person-job-interviews-after-ai-applications/",
+   "source": "Politico Europe",
+   "published": "2026-11-13T15:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "UK Whitehall will increase face-to-face interviews after a surge in AI-generated job applications, with suspicions that entire applications and video interviewees were AI-generated.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "fraud",
+    "hr"
+   ]
+  },
+  {
+   "id": "2026-11-14-081",
+   "title": "AI Doesn’t Have to Go Rogue to Break the World",
+   "url": "https://www.schneier.com/blog/archives/2026/11/ai-doesnt-have-to-go-rogue-to-break-the-world.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-13T12:03:30.000Z",
+   "category": "ai-security",
+   "summary": "Schneier essay adapted from a DEF CON 34 keynote on people hacking AI, using AI to hack, and AI systems hacking systems on their own.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "research"
+   ]
+  },
+  {
+   "id": "2026-11-14-004",
+   "title": "Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles",
+   "url": "https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles",
+   "source": "IAPP",
+   "published": "2026-11-14T06:45:16.084Z",
+   "category": "policy-regulation",
+   "summary": "IAPP Canada commentary arguing accountability should take precedence over consent in connected vehicle data governance.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "automotive"
+   ]
+  },
+  {
+   "id": "2026-11-14-016",
+   "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+   "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-14T05:52:31.000Z",
+   "category": "global-security",
+   "summary": "The White House says Trump, Putin and Xi plan an unprecedented joint meeting in China, with nuclear weapons reduction on the agenda.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-14-017",
+   "title": "Paranoid or practical? Britain’s ‘Be Ready’ citizen campaign",
+   "url": "https://www.aljazeera.com/features/2026/11/14/paranoid-or-practical-britains-be-ready-citizen?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-14T05:51:42.000Z",
+   "category": "global-security",
+   "summary": "Report on the UK 'Be Ready' civil preparedness campaign prompting households to stock supplies, relevant to wider resilience messaging.",
+   "relevance": 2,
+   "tags": [
+    "resilience",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-11-14-018",
+   "title": "FAA ground stop disrupts NBA, NHL and college football weekend travel",
+   "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-disrupts-nba-nhl-and-college-football-weekend-travel?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-14T05:42:41.000Z",
+   "category": "global-security",
+   "summary": "An FAA ground stop disrupted travel for more than 1.5 million passengers, with knock-on delays on domestic and international routes.",
+   "relevance": 2,
+   "tags": [
+    "aviation",
+    "disruption"
+   ]
+  },
+  {
+   "id": "2026-11-14-020",
+   "title": "Trump, Xi and Putin to hold first three-way summit in China",
+   "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-14T04:55:58.000Z",
+   "category": "global-security",
+   "summary": "Trump, Xi and Putin are to hold a first three-way summit in China on the APEC sidelines, covering the Iran war and nuclear arms.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-14-038",
+   "title": "Trump to raise nuclear-arms cuts with Putin, Xi on Thursday, White House says",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPX1dzUndCOE42aUFUazd4SFcxMFVWUTl6VmRVOE5QR0ZjNWRXY19qWTVuRUthUXhDS3UybmZnQmFHSHVRV20wdXJwTUlKUTlGVU42N1B4bkVwSjI4bkdJeG94aFpxX01NUTdyWUJOUVZHSHlXZkxGZXlsTWhjSmUwRXoyRklMekIycXlEUk1pM1NpNjJp?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-14T00:22:00.000Z",
+   "category": "global-security",
+   "summary": "The White House says Trump will raise nuclear arms cuts with Putin and Xi on Thursday.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-14-041",
+   "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-13T23:30:55.000Z",
+   "category": "ai-security",
+   "summary": "Reuters reports strong investor interest in Anthropic's IPO, with questions about the durability of its AI lead.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "market"
+   ]
+  },
+  {
+   "id": "2026-11-14-057",
+   "title": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+   "url": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/",
+   "source": "Politico Europe",
+   "published": "2026-11-13T19:10:16.000Z",
+   "category": "policy-regulation",
+   "summary": "EU leaders agreed the E5 format plus Commission and Council will represent the bloc in future Ukraine peace talks, overshadowing an AI-focused summit in Dublin.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-14-059",
+   "title": "NYC to bar surveillance pricing as momentum for bans grows nationwide",
+   "url": "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+   "source": "The Record",
+   "published": "2026-11-13T18:35:00.000Z",
+   "category": "policy-regulation",
+   "summary": "New York City will ban surveillance pricing, with fines of $1,000 per verified instance, as similar bans gain momentum nationwide.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-11-14-060",
+   "title": "Why Europe failed to find a superhero to take on Putin",
+   "url": "https://www.politico.eu/article/why-europe-failed-to-find-a-superhero-to-take-on-vladimir-putin/",
+   "source": "Politico Europe",
+   "published": "2026-11-13T18:14:04.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico analysis of Europe's seven-member Ukraine peace envoy team and the challenge of agreeing a strategy towards Russia.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-14-062",
+   "title": "Cut off from Europe, Russia will have to rewire its Arctic gas trade",
+   "url": "https://www.politico.eu/article/cut-off-europe-russia-rewire-arctic-gas-trade-lng-eu-ban/",
+   "source": "Politico Europe",
+   "published": "2026-11-13T17:56:13.000Z",
+   "category": "policy-regulation",
+   "summary": "From 2027 Europe will stop buying Russian LNG from Yamal, forcing Russia to reroute Arctic gas to Asia at higher cost.",
+   "relevance": 2,
+   "tags": [
+    "energy",
+    "sanctions"
+   ]
+  },
+  {
+   "id": "2026-11-14-079",
+   "title": "Introducing ChatGPT Wallet",
+   "url": "https://openai.com/index/introducing-chatgpt-wallet",
+   "source": "OpenAI News",
+   "published": "2026-11-13T15:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI announces ChatGPT Wallet for agent-completed purchases in ChatGPT Work, Codex and dots, with user approval and existing card protections.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "payments",
+    "agents"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-13",
+  "generatedAt": "2026-11-14T06:46:54.477Z",
+  "total": 3,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 2
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 2
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 2
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-123039",
+    "title": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+    "vendor": "Check Point",
+    "product": "Multiple Products",
+    "summary": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources vulnerability when the Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket without authe…",
+    "kevAdded": "2026-11-13",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-124481",
+    "euvdExploited": "2026-11-13",
+    "cvss": 7.8,
+    "epss": 0.01274,
+    "epssPct": 0.70349,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-123039",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-124481"
+    }
+   },
+   {
+    "cve": "CVE-2026-114713",
+    "title": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+    "vendor": "UnrealIRCd",
+    "product": "UnrealIRCd",
+    "summary": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are executed with server authority.",
+    "kevAdded": "2026-11-13",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-119377",
+    "euvdExploited": "2026-11-13",
+    "cvss": 8.6,
+    "epss": 0.00302,
+    "epssPct": 0.23297,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-114713",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-119377"
+    }
+   },
+   {
+    "cve": "CVE-2026-63151",
+    "title": "Predictable calendar access tokens in Agora Project",
+    "vendor": "Omnispace",
+    "product": "Agora Project",
+    "summary": "Agora Project through 26.10.0 may generate predictable tokens for calendars whose creation-date value is absent. An unauthenticated attacker can use this condition to access private calendar event data.",
+    "zeroExploit": "2026-11-13",
+    "cvss": 8.7,
+    "mitigation": "Restrict network and unauthenticated access to the calendar display functionality, especially any public-facing calendar endpoint. Review calendars for missing creation-date values and apply a vendor-provided update whe…",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-63151",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-63151"
+    }
+   }
+  ]
+ }
+}
