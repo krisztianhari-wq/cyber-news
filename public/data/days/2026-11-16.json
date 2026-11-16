@@ -1,0 +1,719 @@
+{
+ "date": "2026-11-16",
+ "generatedAt": "2026-11-16T06:46:44.588Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 28,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": false,
+   "error": "feed too large"
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-16-001",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-16T06:45:15.214Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cloud Software Group patched 28 memory flaws in Citrix NetScaler ADC and Gateway; CVE-2026-120868 affects all deployments including default configs, with DoS/unpredictable behaviour impact. No exploitation reported yet; CERT-EU urges upgrades.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-002",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-16T06:45:15.214Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP fixed two critical unauthenticated RCE vulnerabilities in versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating publicly, raising the likelihood of active exploitation.",
+   "relevance": 5,
+   "tags": [
+    "rce",
+    "php",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-006",
+   "title": "6.4 million victim datasets secured in international operation against malware networks",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+   "source": "Europol",
+   "published": "2026-11-16T06:45:14.698Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol and global partners seized 235 servers and 257 domains behind Gootloader, CastleRAT and StealC, securing 6.4 million victim datasets and disrupting major malware distribution networks.",
+   "relevance": 5,
+   "tags": [
+    "takedown",
+    "malware",
+    "infostealer"
+   ]
+  },
+  {
+   "id": "2026-11-16-064",
+   "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-15T18:29:53.000Z",
+   "category": "ai-security",
+   "summary": "The FBI warns that threat actors are using ARTEX, an AI-powered penetration testing framework, to automate attacks worldwide, including a ConnectWise supply-chain breach affecting Microsoft 365 tenants.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "supplychain",
+    "fbi"
+   ]
+  },
+  {
+   "id": "2026-11-16-003",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-16T06:45:15.214Z",
+   "category": "vulns-malware-ttps",
+   "summary": "GitLab advisory fixes a critical flaw allowing unauthenticated arbitrary code execution on GitLab servers. CERT-EU recommends prioritising internet-facing instances and compromise assessment.",
+   "relevance": 4,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-008",
+   "title": "Google Project Zero will disclose bugs after 90 days, fixed or not",
+   "url": "https://www.helpnetsecurity.com/2026/11/16/google-project-zero-disclosure-policy/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T06:30:02.000Z",
+   "category": "policy-regulation",
+   "summary": "Google Project Zero will disclose vulnerabilities 90 days after reporting regardless of patch status, dropping to 60 days in Feb 2027 and 30 days in Jan 2028 under its new \"Full X\" policy.",
+   "relevance": 4,
+   "tags": [
+    "disclosure",
+    "projectzero",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-016",
+   "title": "AI uncovers flaws in discontinued devices with no vendor left to patch them",
+   "url": "https://www.helpnetsecurity.com/2026/11/16/forescout-ai-models-vulnerability-research/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T05:00:22.000Z",
+   "category": "ai-security",
+   "summary": "Forescout used commercially available AI models on a limited budget to find 99 vulnerabilities across 10 TCP/IP stacks, 66 previously unknown and over half rated high or critical, many in unsupported devices.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "iot",
+    "vulnerability-research"
+   ]
+  },
+  {
+   "id": "2026-11-16-036",
+   "title": "Estonia has a plan for Russian occupation: Run its government from the cloud",
+   "url": "https://www.politico.eu/article/estonias-digital-preppers-have-a-doomsday-backup-plan/",
+   "source": "Politico Europe",
+   "published": "2026-11-16T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Estonia is preparing to run its digital government from cloud infrastructure abroad as a continuity plan in case of Russian invasion — a notable national resilience model.",
+   "relevance": 4,
+   "tags": [
+    "resilience",
+    "cloud",
+    "estonia"
+   ]
+  },
+  {
+   "id": "2026-11-16-072",
+   "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+   "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+   "source": "The Hacker News",
+   "published": "2026-11-15T11:27:31.000Z",
+   "category": "policy-regulation",
+   "summary": "Italy's Garante fined Meta €805 million after finding Facebook for Android accessed users' photos, videos and metadata by default without explicit consent. Meta has 60 days to respond.",
+   "relevance": 4,
+   "tags": [
+    "gdpr",
+    "privacy",
+    "fine"
+   ]
+  },
+  {
+   "id": "2026-11-16-005",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-16T06:45:14.698Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, coordinated by Europol across 14 countries, led to 354 arrests of dark web vendors and buyers tied to cybercrime, drugs and firearms between May 2025 and October 2026.",
+   "relevance": 3,
+   "tags": [
+    "darkweb",
+    "law-enforcement",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-11-16-015",
+   "title": "How Brussels is learning to spot a spy",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-brussels-is-learning-to-spot-a-spy/",
+   "source": "Politico Europe",
+   "published": "2026-11-16T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico reports on counter-espionage awareness in Brussels as EU foreign ministers meet on Ukraine, Gaza and Iran, assessing Russia's demands from Abu Dhabi talks.",
+   "relevance": 3,
+   "tags": [
+    "espionage",
+    "eu",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-11-16-033",
+   "title": "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
+   "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-16T03:08:31.000Z",
+   "category": "global-security",
+   "summary": "Saudi-backed Yemeni forces withdrew from the Bab al-Mandab Strait to defend Aden, leaving the Houthis in control of the key Red Sea waterway with implications for shipping and subsea routes.",
+   "relevance": 3,
+   "tags": [
+    "yemen",
+    "shipping",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-16-068",
+   "title": "TSMC employee data breach linked to cloud provider",
+   "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+   "source": "BleepingComputer",
+   "published": "2026-11-15T15:23:48.000Z",
+   "category": "incidents-threats",
+   "summary": "TSMC confirmed a leak of employee personal data traced to a cloud provider after a threat actor auctioned 6.9GB of allegedly stolen information.",
+   "relevance": 3,
+   "tags": [
+    "databreach",
+    "thirdparty",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-11-16-075",
+   "title": "Week in review: Secret stealer hits GitHub repos, Claude Code turned into remote-controlled implant",
+   "url": "https://www.helpnetsecurity.com/2026/11/15/week-in-review-secret-stealer-hits-github-repos-claude-code-turned-into-remote-controlled-implant/",
+   "source": "Help Net Security",
+   "published": "2026-11-15T09:00:37.000Z",
+   "category": "incidents-threats",
+   "summary": "Weekly roundup covering a secret stealer targeting GitHub repositories, Claude Code abused as a remote-controlled implant, and guidance on leaked credentials liability.",
+   "relevance": 3,
+   "tags": [
+    "roundup",
+    "credentials",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-16-007",
+   "title": "India's Mphasis says clients boost cybersecurity spending as AI-driven threats rise",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLTR3c1pqUmI2b1RKWnRxSS03dUs5QkRERk1aeV9FQS1Mc013SDJQVGcyYTdlMmEwWG1EcXRZWUo0Z0dTUmVvdU5QN05PRXJkUnl3N2pjdHFVck9uMVRpQTVTVzdhSm02cWhiTzV6TU96YzVCdWxENXkwaUdQcDBRREdJTjhkU21SZldsTUNEUFBnOGIwUWZOOWJoaUdHQ200WEtkcEJCcU5aRElTOHh6Ni1XUkQwTnRkb3ZpajlMZlB2SUpWb0I3cS1qNUs?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-16T06:31:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Indian IT services firm Mphasis reports clients increasing cybersecurity budgets in response to AI-driven threats.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "spending"
+   ]
+  },
+  {
+   "id": "2026-11-16-009",
+   "title": "Ory Hydra: Open-source OAuth 2.0 server and OpenID Connect provider",
+   "url": "https://www.helpnetsecurity.com/2026/11/16/ory-hydra-oauth-server-open-source/",
+   "source": "Help Net Security",
+   "published": "2026-11-16T06:00:29.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Overview of Ory Hydra, an open-source OAuth 2.0 and OpenID Connect server that issues and validates tokens without storing credentials.",
+   "relevance": 2,
+   "tags": [
+    "oauth",
+    "opensource",
+    "iam"
+   ]
+  },
+  {
+   "id": "2026-11-16-021",
+   "title": "Megaspeed, firm at centre of Nvidia scandal, says Alice Huang left in 2025",
+   "url": "https://www.aljazeera.com/news/2026/11/16/megaspeed-firm-at-centre-of-nvidia-scandal-says-alice-huang-left-in-2025?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-16T04:46:49.000Z",
+   "category": "global-security",
+   "summary": "Singapore-based Megaspeed, central to the Nvidia scandal, says the executive linked to ex-CEO Jensen Huang left the firm in August 2025.",
+   "relevance": 2,
+   "tags": [
+    "nvidia",
+    "export-controls"
+   ]
+  },
+  {
+   "id": "2026-11-16-023",
+   "title": "Alibaba unveils new flagship AI model with safety upgrades",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVhrY1I2NEhJUndRTG5sMWlxRXUxTS0wOHdOLVg2bG83NS10R0RuM1h2VWpMVTFrcHd3SmlsVy1hWFhiNld3NGdzcGxLWVVwN0UtUjhjUTdwaFdzMnVoSEkwZWR0MHYxMUw1NDVxbW5GZkFNbWZuaXlGZlRHUjRaTU1JM3FiVGRONXNCaTNtb3dFa1hmZlYxbUd6ZWRBdmgxVk1od0RDT3dscl9XaDRncU84RkxmYnNlcVFF?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-16T04:29:00.000Z",
+   "category": "ai-security",
+   "summary": "Alibaba launched a new flagship AI model featuring safety upgrades.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-11-16-040",
+   "title": "Houthis advance in Yemen as government forces move to defend Aden",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/houthis-advance-in-yemen-as-government-forces-move-to-defend-aden?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-16T02:22:29.000Z",
+   "category": "global-security",
+   "summary": "Houthi forces are advancing in Yemen, threatening Aden, one of the government's last strongholds.",
+   "relevance": 2,
+   "tags": [
+    "yemen",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-16-044",
+   "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+   "url": "https://isc.sans.edu/diary/rss/33520",
+   "source": "SANS ISC",
+   "published": "2026-11-16T02:00:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily podcast episode for 16 November 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "sans"
+   ]
+  },
+  {
+   "id": "2026-11-16-046",
+   "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+   "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-16T01:47:57.000Z",
+   "category": "global-security",
+   "summary": "Megaspeed says the Chinese executive linked to Nvidia's former CEO left in 2025; the case raises questions about advanced AI chips reaching China despite US export restrictions.",
+   "relevance": 2,
+   "tags": [
+    "nvidia",
+    "export-controls",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-16-056",
+   "title": "datasette 1.0a43",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+   "source": "Simon Willison",
+   "published": "2026-11-15T23:20:27.000Z",
+   "category": "ai-security",
+   "summary": "Datasette 1.0a43 adds streaming output renderers and includes security fixes, one covered by a GitHub advisory for exposure of private stored queries.",
+   "relevance": 2,
+   "tags": [
+    "opensource",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-057",
+   "title": "datasette 0.65.6",
+   "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+   "source": "Simon Willison",
+   "published": "2026-11-15T23:18:17.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Datasette 0.65.6 backports a security fix preventing unauthorised download of databases registered with a route differing from their name.",
+   "relevance": 2,
+   "tags": [
+    "opensource",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-16-058",
+   "title": "Coles probes cyber security incident, says no evidence customer data compromised",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUUozZVlTVHJkcG5vekViSUtBcWJQTXZ2UzVCZUVuazg3UFRwNXdlLVoxUmw0bTk3cWY2RUhsaE81VVFhMmtTb0RtTjVXZ09OTkVCbk94cldiZDJrcFBMTF9KNjJ5OVlGRnV0MjFETlZodTRUTUU1OHpRUk9uRkd2R21Gb1RDekJUQ2oyRjk3aUZ0MnZjSkdhdEk2ek05MkxaU3FGQkFXc0VBTnBmYWFYa0RpX0JpazNQd3M1Y3c1Y2lYQzN1dUFHb2EzZE8?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-15T22:31:43.000Z",
+   "category": "incidents-threats",
+   "summary": "Australian retailer Coles is investigating a cyber security incident and says there is no evidence so far that customer data was compromised.",
+   "relevance": 2,
+   "tags": [
+    "incident",
+    "retail"
+   ]
+  },
+  {
+   "id": "2026-11-16-062",
+   "title": "What to know about flights after the US nationwide ground stop",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbllWRHp3cmxNbThYelRDekVJQjFlUGxCcjU3ckVtZ21RaUdwVnNxclNFdXZsOWFzRE5MSWlKUUoydGt6c3ItZ19xdVdVV2FMdGR1RFVHbldTZFEwNWtjMExHNTVEV0syck1ueGpPWlJOTVE3Q3EwYk1iaDhhdG1sZDlMWVRGbklqaDJnVFk2MmxaQQ?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-15T21:05:00.000Z",
+   "category": "global-security",
+   "summary": "Guidance for travellers following a nationwide US ground stop that disrupted flights.",
+   "relevance": 2,
+   "tags": [
+    "aviation",
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-11-16-063",
+   "title": "Could everything be broken? Grounded jets, Microsoft outage, AI chaos make some wonder",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbUFCdzU3WWxqWDJyOThxR0pfSENwbHdjWE50LVZfX0xSUUZFZnpTemtWN2RRckNlOW56TnZwT2pmUHpPYnU0cGtiaUJ4aFpzLXZ4OHN0a3UxVEpNenFlc0VETFE2UDJkdy1Ld0ZSU2V2MHJxNE9WN3VFMjA2U1lLRThOdE5kSWk2UVdpektzb00yV3ZjUjhOeWpiNA?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-15T19:10:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Feature piece linking grounded flights, a Microsoft outage and AI-related disruptions to broader concerns about systemic fragility of digital infrastructure.",
+   "relevance": 2,
+   "tags": [
+    "resilience",
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-11-16-065",
+   "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+   "url": "https://isc.sans.edu/diary/rss/33496",
+   "source": "SANS ISC",
+   "published": "2026-11-15T18:17:27.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "YARA-X 1.23.0 ships four improvements and 16 bug fixes for detection engineering teams.",
+   "relevance": 2,
+   "tags": [
+    "yara",
+    "tooling"
+   ]
+  },
+  {
+   "id": "2026-11-16-074",
+   "title": "Wingtech says it will appeal against Dutch court order in Nexperia dispute",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaXZTUkRPYXJwN2pOdDR6MXNvXzhCbkdnejJucnBjNVM1TGlYdU50MkQ1d3VlWnBmT25pQi1DS0pNQlJhNmFDZzFreHlrcWx3ZVlPMkIzUml3N3JOUDg4MkdTRmpvaTdBQ3FQbVJvWWhXdzNvYTRaX1drZ1VoeXA2aFRla08zZFNUYXlPdlUtNFhhcXR3NnREZDdzaUpyTXliOENQeVZvbWxuMllPNEdpVE1SRTg0Z29F?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-15T10:24:00.000Z",
+   "category": "global-security",
+   "summary": "Wingtech will appeal a Dutch court order in the ongoing Nexperia semiconductor ownership dispute.",
+   "relevance": 2,
+   "tags": [
+    "supplychain",
+    "semiconductors",
+    "eu"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-15",
+  "generatedAt": "2026-11-16T06:46:44.587Z",
+  "total": 2,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 2
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 2
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-120468",
+    "title": "Unauthenticated mailing-list metadata disclosure in AcyMailing",
+    "vendor": "acymailing",
+    "product": "AcyMailing",
+    "summary": "AcyMailing for Joomla versions 1.0.0 through 11.1.1 can expose mailing-list metadata to unauthenticated remote users. An attacker able to reach the affected Joomla installation may view information about public and restricted lists, including ownership, access settings, and subscriber totals. The WordPress plugin is n…",
+    "zeroExploit": "2026-11-15",
+    "knownExploited": "2026-11-15",
+    "cvss": 6.9,
+    "mitigation": "Disable the affected AcyMailing extension or restrict unauthenticated access to the Joomla site until a vendor update is available. Apply the vendor-provided fix when released.",
+    "epss": 0.00372,
+    "epssPct": 0.31601,
+    "signals": [
+     "itw",
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-120468",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-120468"
+    }
+   },
+   {
+    "cve": "CVE-2026-127048",
+    "title": "Unauthenticated REST authorization bypass in Custom Block Builder",
+    "product": "Custom Block Builder",
+    "summary": "Custom Block Builder versions before 3.0.0 expose REST routes with ineffective authorization checks. An unauthenticated attacker may execute PHP code on the affected WordPress server by accessing those routes.",
+    "zeroExploit": "2026-11-15",
+    "mitigation": "Update Custom Block Builder to version 3.0.0 or later. Restrict public access to affected REST routes until the update is applied.",
+    "epss": 0.00173,
+    "epssPct": 0.06798,
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-127048",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-127048"
+    }
+   }
+  ]
+ }
+}
