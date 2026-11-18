@@ -1,0 +1,1052 @@
+{
+ "date": "2026-11-18",
+ "generatedAt": "2026-11-18T06:47:27.525Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 49,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-18-002",
+   "title": "Malicious code reached websites of 178 organisations via the Optimizely Web platform",
+   "originalTitle": "2026. 11. 17. Az Optimalizely Web platformon keresztül kártékony kód jutott el 178 szervezet weboldalára November 16-án kártékony JavaScript-kód jutott el 178 szervezet weboldalainak látogatóihoz az…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/az-optimalizely-web-platformon-keresztul-kartekony-kod-jutott-el-178-szervezet-weboldalara/",
+   "source": "NKI Hungary",
+   "published": "2026-11-18T06:45:17.396Z",
+   "category": "eu-threat-landscape",
+   "summary": "On 16 November malicious JavaScript was delivered to visitors of 178 organisations' websites through the Optimizely Web experimentation platform, a third-party script supply chain compromise.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "javascript",
+    "optimizely"
+   ]
+  },
+  {
+   "id": "2026-11-18-003",
+   "title": "FBI warns the Artex tool automates cyberattacks at 'machine speed'",
+   "originalTitle": "2026. 11. 17. Az FBI figyelmeztetése szerint az Artex eszköz „gépi sebességgel” automatizálja a kibertámadásokat Az FBI új biztonsági figyelmeztetése szerint a kiberbűnözők és az APT csoportok egyre…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/az-fbi-figyelmeztetese-szerint-az-artex-eszkoz-gepi-sebesseggel-automatizalja-a-kibertamadasokat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-18T06:45:17.396Z",
+   "category": "ai-security",
+   "summary": "An FBI advisory says criminals and APT groups increasingly use the ARTEX AI framework to automate intrusions at machine speed, compressing defender response windows.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "fbi",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-18-011",
+   "title": "2026-018: Critical Vulnerabilities in PHP",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-018/",
+   "source": "CERT-EU",
+   "published": "2026-11-18T06:45:15.639Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory on two critical PHP flaws enabling unauthenticated remote code execution, fixed in 8.5.12, 8.4.27, 8.3.36 and 8.2.35. PoCs are circulating, raising exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "php",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-18-012",
+   "title": "2026-019: Critical Vulnerability in GitLab Community and Enterprise Editions",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-019/",
+   "source": "CERT-EU",
+   "published": "2026-11-18T06:45:15.639Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU warns of a critical GitLab CE/EE flaw allowing unauthenticated arbitrary code execution on the server; patch internet-facing instances first and hunt for compromise.",
+   "relevance": 5,
+   "tags": [
+    "gitlab",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-18-013",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-18T06:45:15.638Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix published fixes for 28 memory flaws in NetScaler ADC and Gateway; CVE-2026-120868 affects all deployments including default configurations, with DoS and unpredictable behaviour impact. No known exploitation yet.",
+   "relevance": 5,
+   "tags": [
+    "citrix",
+    "netscaler",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-18-031",
+   "title": "Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps",
+   "url": "https://www.theregister.com/security/2026/11/18/oracle-reveals-fix-this-asap-grade-java4shell-bug-that-allows-attacks-on-many-third-party-apps/5310661",
+   "source": "The Register – Security",
+   "published": "2026-11-18T04:33:05.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle issued an urgent fix for the Java4Shell flaw that lets attackers crash the JVM or achieve unauthenticated RCE in many third-party applications.",
+   "relevance": 5,
+   "tags": [
+    "java",
+    "rce",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-18-033",
+   "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+   "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T04:27:41.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Java4Shell (CVE-2026-114938) enables pre-auth RCE in Jira, Jenkins, Keycloak and other apps on Java 17.0.6+ running on x86-64 CPUs with AVX-512 VBMI support.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-18-047",
+   "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+   "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+   "source": "Krebs on Security",
+   "published": "2026-11-18T02:52:04.000Z",
+   "category": "incidents-threats",
+   "summary": "Krebs reports attackers abused Optimizely to A/B test malware against visitors of at least 178 major sites including BBC, CNN, Equifax, Ledger and Zoom, worsened by weak third-party content controls.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "malware",
+    "csp"
+   ]
+  },
+  {
+   "id": "2026-11-18-051",
+   "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+   "url": "https://blog.talosintelligence.com/java4shell/",
+   "source": "Talos Intelligence",
+   "published": "2026-11-18T01:53:03.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cisco Talos tracks CVE-2026-114938 'Java4Shell' in OpenJDK, CVSS 4.0 score 9.2, potentially enabling unauthenticated remote code execution.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-18-055",
+   "title": "US, South Korea advise users to urgently fix flaws in Java programming language",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRE5uQWVHVHVQV19VTmJrT29QT1lKV0xQQzhUZWp6Wk5aSWZCV3ZKbHNKZ3NBMmlhYzNsT1J6V1AxQjBxR2QzWWk2ODlfaTBEU1JCLXFVWE1adHFQU0M2Rk1fZXhYYzQ5bmczU1lyWHc5WjNFVi1SLXF0NkJSaWlMQUNGdmZfX1ZETWtxZ05UUER6VVpxRDZBaUkzUTZMSGRsWVRacEJkSTUxYkRyeVc2dGJvWUpSNVNPbGc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-18T00:51:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "US and South Korean authorities urge immediate patching of the critical Java flaws, signalling elevated exploitation risk.",
+   "relevance": 5,
+   "tags": [
+    "java",
+    "patch",
+    "advisory"
+   ]
+  },
+  {
+   "id": "2026-11-18-064",
+   "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+   "source": "BleepingComputer",
+   "published": "2026-11-17T23:04:21.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "BleepingComputer reports the critical Java4Shell OpenJDK flaw enables unauthenticated RCE against enterprise apps including Jenkins, Jira, Confluence and Keycloak.",
+   "relevance": 5,
+   "tags": [
+    "java",
+    "rce",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-18-068",
+   "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+   "url": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+   "source": "Dark Reading",
+   "published": "2026-11-17T22:34:22.000Z",
+   "category": "incidents-threats",
+   "summary": "Dark Reading analysis of the Optimizely compromise that exposed visitors of at least 178 organisations to multi-payload malware, underscoring third-party vendor risk on web properties.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "thirdpartyrisk",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-18-073",
+   "title": "Website management platform Optimizely confirms hackers put malicious code into customer sites",
+   "url": "https://therecord.media/optimizely-malicious-code-customer-sites",
+   "source": "The Record",
+   "published": "2026-11-17T21:20:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Optimizely confirmed its Web experimentation platform was breached and used to inject malicious JavaScript into 178 widely visited customer websites.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "breach",
+    "javascript"
+   ]
+  },
+  {
+   "id": "2026-11-18-079",
+   "title": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
+   "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/",
+   "source": "Unit 42",
+   "published": "2026-11-17T20:43:14.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 analyses the OPTIMJACK supply chain attack, showing how a compromised vendor script can expose website visitors and why strict segmentation of third-party code matters.",
+   "relevance": 5,
+   "tags": [
+    "supplychain",
+    "optimjack",
+    "segmentation"
+   ]
+  },
+  {
+   "id": "2026-11-18-081",
+   "title": "CVE-2026-114938: Reported Critical Pre-authentication Remote Code Execution in Java 17",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-114938-reported-critical-pre-authentication-remote-code-execution-java-17",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-17T18:26:55.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 tracks CVE-2026-114938, a memory corruption flaw in Java 17 and above permitting unauthenticated remote code execution, CVSSv4 9.2; details pending full Oracle/OpenJDK confirmation.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-18-001",
+   "title": "Lithuanian customs authority systems partially restored after cyberattack",
+   "originalTitle": "2026. 11. 17. Részlegesen helyreálltak a litván vámhatóság rendszerei a kibertámadás után A litván vámhatóság részben helyreállította online szolgáltatásait. A digitális tanúsítványos bejelentkezés v…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/reszlegesen-helyrealltak-a-litvan-vamhatosag-rendszerei-a-kibertamadas-utan/",
+   "source": "NKI Hungary",
+   "published": "2026-11-18T06:45:17.396Z",
+   "category": "eu-threat-landscape",
+   "summary": "Lithuania's customs authority has partially restored its online services following a cyberattack; digital certificate-based login remains affected. Relevant for EU critical service dependencies and cross-border trade continuity.",
+   "relevance": 4,
+   "tags": [
+    "lithuania",
+    "incident",
+    "publicsector"
+   ]
+  },
+  {
+   "id": "2026-11-18-009",
+   "title": "6.4 million victim datasets secured in international operation against malware networks",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+   "source": "Europol",
+   "published": "2026-11-18T06:45:16.471Z",
+   "category": "eu-threat-landscape",
+   "summary": "International law enforcement dismantled infrastructure behind Gootloader, CastleRAT and StealC, seizing 235 servers and 257 domains and securing 6.4 million victim datasets.",
+   "relevance": 4,
+   "tags": [
+    "takedown",
+    "infostealer",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-18-018",
+   "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+   "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+   "source": "The Hacker News",
+   "published": "2026-11-18T05:58:04.000Z",
+   "category": "incidents-threats",
+   "summary": "Mandiant reports Russia-linked Cold Relic (formerly COLDRIVER) turned a single Google Workspace cloud compromise into third-party intrusions, breaching a second US organisation.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "cloud",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-11-18-062",
+   "title": "Norway's Equinor detects ongoing cyberattack, oil and gas output unaffected",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbjhGTnNBTjRRNVlLVTFYb2NsSnB6bDJmbUIwbWY2UTh5YUpDNC1UQXpvLWJacEh2THJTOUlnM2NkMHF0QUJramtnRkpadURDR0FieUJvOWU4bFdka2RKdVE0b3dCMGVHTWpCYzV4SHBZNDZkU3gwOGwwRThtMnNRQ0NtZG5OdUNzRXdnNU1TY0E5Z3FHQV9PeVJmZm40RmpmclE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-17T23:21:17.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Norwegian energy major Equinor says it has detected an ongoing cyberattack; oil and gas production is reportedly unaffected.",
+   "relevance": 4,
+   "tags": [
+    "energy",
+    "incident",
+    "criticalinfrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-18-084",
+   "title": "Daily summary - 17.11.2026",
+   "originalTitle": "Tageszusammenfassung - 17.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-17112026",
+   "source": "CERT.at",
+   "published": "2026-11-17T17:23:03.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report notes Barracuda linking its cloud breach to a stolen access key and the ARTEX AI pentest framework, plus California's lawsuit against OpenAI over AI agents escaping sandboxes.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "breach",
+    "cert"
+   ]
+  },
+  {
+   "id": "2026-11-18-086",
+   "title": "The risks of device code authentication for AI coding agents",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-17T15:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft research shows device code phishing can be extended to AI coding agents, illustrated with GitHub Copilot CLI, affecting any device-flow client.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "oauth",
+    "aiagents"
+   ]
+  },
+  {
+   "id": "2026-11-18-008",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-18T06:45:16.471Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, coordinated by Europol across 14 countries, led to 354 arrests of dark web vendors and buyers involved in cybercrime, drugs and firearms trade between May 2025 and October 2026.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "darkweb",
+    "lawenforcement"
+   ]
+  },
+  {
+   "id": "2026-11-18-029",
+   "title": "Fraudsters feed the right face into identity checks through virtual cameras",
+   "url": "https://www.helpnetsecurity.com/2026/11/18/entrust-document-verification-fraud-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-18T05:00:34.000Z",
+   "category": "incidents-threats",
+   "summary": "Entrust's identity fraud report finds document fraud remains the top attack category, with criminals injecting selected faces into KYC checks via virtual cameras; document fraud rate fell 19% year over year.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "identity",
+    "deepfake"
+   ]
+  },
+  {
+   "id": "2026-11-18-036",
+   "title": "Rubio rules out cyberattacks or links between tech outages",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-18T04:01:16.000Z",
+   "category": "global-security",
+   "summary": "US Secretary of State Rubio said there is no evidence that the recent wave of technical outages is linked or caused by cyberattacks.",
+   "relevance": 3,
+   "tags": [
+    "outage",
+    "attribution"
+   ]
+  },
+  {
+   "id": "2026-11-18-049",
+   "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+   "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+   "source": "SecurityWeek",
+   "published": "2026-11-18T02:15:07.000Z",
+   "category": "incidents-threats",
+   "summary": "NSANet, the NSA's classified internal communications network, suffered an outage disrupting agency operations, according to a defense official.",
+   "relevance": 3,
+   "tags": [
+    "outage",
+    "govt"
+   ]
+  },
+  {
+   "id": "2026-11-18-056",
+   "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
+   "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
+   "source": "Defense One",
+   "published": "2026-11-18T00:39:24.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI granted NATO access to its most advanced cybersecurity AI; NATO operators built and deployed AI agents during an exercise this month.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "nato",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-11-18-061",
+   "title": "Daily disruptive outages that ground planes and halt work – welcome to the new normal",
+   "url": "https://www.theregister.com/security/2026/11/17/daily-disruptive-outages-that-ground-planes-and-halt-work-welcome-to-the-new-normal/5310634",
+   "source": "The Register – Security",
+   "published": "2026-11-17T23:41:31.000Z",
+   "category": "incidents-threats",
+   "summary": "The Register notes a week of high-profile outages including NSA and Apple, mostly attributed to routine maintenance, raising questions about operational resilience.",
+   "relevance": 3,
+   "tags": [
+    "outage",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-18-063",
+   "title": "Classified US national security communications network hit by outage, NSA says",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc2ZFQXV3ZUxOU0hNN0lPMXA2Z0l6aTNFekJ5cXpuNEVOZk92a0RVOUhZNmVOdXJURUV6Q0VDNzk1Q0ZRYkMyeW1KS0pxcGlESzJ6dER0QWlDdXNTY3pyV1l6NzcyWnhhUkhpYlJwRXMxU3YwdmE4RTZvRFZNbnZwX2ktaDdtTEllZmdlN0ktancwenNjSDhKZ2RpT3lxbXhmdXNkVGZybkFxeDNOeldCbFpQcWhjMi03LXVOeA?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-17T23:09:06.000Z",
+   "category": "incidents-threats",
+   "summary": "The NSA confirmed an outage on a classified US national security communications network.",
+   "relevance": 3,
+   "tags": [
+    "outage",
+    "govt"
+   ]
+  },
+  {
+   "id": "2026-11-18-066",
+   "title": "External sandboxes for coding agents",
+   "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+   "source": "Simon Willison",
+   "published": "2026-11-17T22:52:29.000Z",
+   "category": "ai-security",
+   "summary": "Simon Willison describes an 'external sandbox' pattern for coding agents, where agent-executed code runs in an isolated sandbox to limit damage from mistakes or prompt injection.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "sandbox",
+    "promptinjection"
+   ]
+  },
+  {
+   "id": "2026-11-18-074",
+   "title": "GSA says post-quantum work on PIV cards shows new encryption can work on old tech",
+   "url": "https://cyberscoop.com/gsa-post-quantum-encryption-piv-cards/",
+   "source": "CyberScoop",
+   "published": "2026-11-17T21:19:45.000Z",
+   "category": "policy-regulation",
+   "summary": "The US GSA says post-quantum cryptography work on PIV cards shows new algorithms can run on legacy hardware, while gaps in encryption visibility remain.",
+   "relevance": 3,
+   "tags": [
+    "pqc",
+    "crypto",
+    "govt"
+   ]
+  },
+  {
+   "id": "2026-11-18-088",
+   "title": "Formal Verification of the Signal Protocol Using AI",
+   "url": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-17T12:05:43.000Z",
+   "category": "ai-security",
+   "summary": "Google DeepMind researchers used agentic AI to formally verify key cryptographic guarantees of the Signal protocol in four weeks, validating both Signal's crypto and AI-assisted formal verification.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "cryptography",
+    "formalverification"
+   ]
+  },
+  {
+   "id": "2026-11-18-101",
+   "title": "Why threat hunting should matter to every board",
+   "url": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
+   "source": "NCSC UK",
+   "published": "2026-11-17T12:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "NCSC UK argues boards should back proactive threat hunting, since monitoring alone cannot detect every intrusion and hunting exposes defensive gaps.",
+   "relevance": 3,
+   "tags": [
+    "threathunting",
+    "governance",
+    "ncsc"
+   ]
+  },
+  {
+   "id": "2026-11-18-004",
+   "title": "LEGO's popular online marketplace BrickLink down for days after data breach",
+   "originalTitle": "2026. 11. 17. Adatszivárgás miatt napokra leállt a LEGO népszerű online piactere Adatvédelmi incidens miatt több napra elérhetetlenné vált a LEGO tulajdonában álló BrickLink, a világ egyik legnagyobb…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/adatszivargas-miatt-napokra-leallt-a-lego-nepszeru-online-piactere/",
+   "source": "NKI Hungary",
+   "published": "2026-11-18T06:45:17.396Z",
+   "category": "eu-threat-landscape",
+   "summary": "LEGO-owned BrickLink, one of the world's largest second-hand marketplaces, was offline for several days following a data protection incident.",
+   "relevance": 2,
+   "tags": [
+    "databreach",
+    "ecommerce"
+   ]
+  },
+  {
+   "id": "2026-11-18-006",
+   "title": "A closer look at the global rush toward youth social media restrictions",
+   "url": "https://iapp.org/news/a/a-closer-look-at-the-global-rush-toward-youth-social-media-restrictions",
+   "source": "IAPP",
+   "published": "2026-11-18T06:45:16.717Z",
+   "category": "policy-regulation",
+   "summary": "IAPP analysis of the international wave of regulatory proposals restricting social media access for minors, and the compliance and age-verification implications.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "regulation",
+    "ageverification"
+   ]
+  },
+  {
+   "id": "2026-11-18-010",
+   "title": "Energy transition, but secure: BSI hands certificates to DZG Metering and Kiwigrid",
+   "originalTitle": "Energiewende, aber sicher: BSI übergibt Zertifikate an DZG Metering und Kiwigrid",
+   "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Alle-Meldungen-News/Meldungen/2026/Zertifikate_DZG-Metering-Kiwigrid_261117.html",
+   "source": "BSI Germany",
+   "published": "2026-11-18T06:45:15.663Z",
+   "category": "policy-regulation",
+   "summary": "Germany's BSI issued security certificates to DZG Metering and Kiwigrid, part of the smart metering and energy transition assurance regime.",
+   "relevance": 2,
+   "tags": [
+    "bsi",
+    "certification",
+    "energy"
+   ]
+  },
+  {
+   "id": "2026-11-18-021",
+   "title": "APEC summit: What Trump, Xi and Putin want",
+   "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-18T05:39:00.000Z",
+   "category": "global-security",
+   "summary": "Preview of the first trilateral Trump-Xi-Putin meeting at APEC, with diverging agendas on trade, Ukraine, Iran and arms control.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "apec"
+   ]
+  },
+  {
+   "id": "2026-11-18-026",
+   "title": "Deadly drug-resistant infections are surging in European hospitals",
+   "url": "https://www.politico.eu/article/drug-resistant-infections-superbug-europe-hospitals/",
+   "source": "Politico Europe",
+   "published": "2026-11-18T05:07:14.000Z",
+   "category": "global-security",
+   "summary": "European hospitals report surging drug-resistant Klebsiella pneumoniae infections resistant even to newest antibiotics, a healthcare resilience concern.",
+   "relevance": 2,
+   "tags": [
+    "health",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-11-18-028",
+   "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+   "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+   "source": "Wired – AI",
+   "published": "2026-11-18T05:01:00.000Z",
+   "category": "ai-security",
+   "summary": "A Gallup report finds over a third of Gen Z use AI as a social companion, with higher loneliness rates among those relying on AI or online-only friendships.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "society"
+   ]
+  },
+  {
+   "id": "2026-11-18-032",
+   "title": "Trump meets Putin and Xi: what does it mean for the Ukraine summit in Berlin?",
+   "originalTitle": "Trump trifft Putin und Xi: Was bedeutet das für den Ukraine-Gipfel in Berlin?",
+   "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/trump-trifft-putin-und-xi-was-bedeutet-das-fur-den-ukraine-gipfel-in-berlin/",
+   "source": "Politico Europe",
+   "published": "2026-11-18T04:30:00.000Z",
+   "category": "global-security",
+   "summary": "Analysis of the Shenzhen APEC trilateral meeting taking place as the coalition of the willing gathers in Berlin on Ukraine support.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-11-18-043",
+   "title": "Europe fears Putin is stringing Trump along on Ukraine",
+   "url": "https://www.politico.eu/article/europe-vladimir-putin-not-serious-about-ukraine-peace-talks/",
+   "source": "Politico Europe",
+   "published": "2026-11-18T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "European officials fear Russia is stalling peace talks on Ukraine while continuing to engage with Washington.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-18-054",
+   "title": "NATO aims to spur space industry, help militaries by joining data marketplace",
+   "url": "https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/",
+   "source": "Defense One",
+   "published": "2026-11-18T01:03:52.000Z",
+   "category": "global-security",
+   "summary": "NATO plans to join a data marketplace to ease sharing and sale of space-derived information, aiming to boost launch tempo and threat awareness.",
+   "relevance": 2,
+   "tags": [
+    "nato",
+    "space"
+   ]
+  },
+  {
+   "id": "2026-11-18-060",
+   "title": "Multiple tech systems have been crashing. Here is how to protect yourself",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSWVUT0djTW55S2JCaEt4aWVaWjlNR2JwUkFJVzAzYk1ZRUNudmR4NU1SNVBpV3FnNVhFc1BQZW02UWpEX3Y2ZGhNUWR6RnExV3NkTDJyTjBmNzkxT0hpb1BOd3FvbldURWduYWVNN0o4NGxGVV8xdEpqWVZGbGhQSGpqWVlqeXpaMHg2dHVfZGhjRmhwWkJIcFFkWl93cUU0OGZjcEJwY3BlcEZFRzExREhSVkFkU2ZObmduTXUtSQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-17T23:50:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Consumer-facing Reuters guidance on protecting yourself amid the recent wave of technology outages.",
+   "relevance": 2,
+   "tags": [
+    "outage",
+    "resilience"
+   ]
+  },
+  {
+   "id": "2026-11-18-065",
+   "title": "Apple works to restore services after outage caused by internal update",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYVJuYnNwMGtjY1NfY01rbXdSVTVnOFdaak1sd1ZkbXpPZzFuWjlOcTJNVUplNDJZLUVxeGZtaXlGZlg1UjFkY2Z5Um5Td19tS2pUZmZKNFlEb0QxVUwyekt2UnRPRlJUT3hRM3FhQWp2MDJRVGI4U1hfeWlpeGlBdFJyTG1rei1yNXJqbnF5LV9vQ3FwYVloZjVhZ1hfVWUzV0RlQVpRc3I3emJwU1lFZEduaUZSS1k5anRlN2lDQkQ0SFI0QkVz?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-17T22:55:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Apple is restoring services after an outage caused by an internal update rather than an attack.",
+   "relevance": 2,
+   "tags": [
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-11-18-067",
+   "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+   "source": "Simon Willison",
+   "published": "2026-11-17T22:38:52.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI released GPT-6.2 Astra and Sol frontier and efficiency models in the API, with roughly 20% lower pricing than predecessors.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-11-18-078",
+   "title": "How CISA is prioritizing companies for talks about security improvements",
+   "url": "https://cyberscoop.com/cisa-100-critical-infrastructure-companies-fed-talks/",
+   "source": "CyberScoop",
+   "published": "2026-11-17T20:52:59.000Z",
+   "category": "policy-regulation",
+   "summary": "CISA's acting director explained how the agency prioritises which companies it approaches about security improvements.",
+   "relevance": 2,
+   "tags": [
+    "cisa",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-18-080",
+   "title": "US scolds Ukraine over deep strikes ahead of fresh Russia peace talks",
+   "url": "https://www.politico.eu/article/us-scold-ukraine-strikes-russia-peace-talks-elbridge-colby/",
+   "source": "Politico Europe",
+   "published": "2026-11-17T19:53:42.000Z",
+   "category": "policy-regulation",
+   "summary": "The US criticised Ukraine's deep strikes ahead of new Russia talks; Germany's defence minister rejected the criticism.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-18-082",
+   "title": "Security for the agentic era, powered by Microsoft Perception",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/17/security-for-the-agentic-era-powered-by-microsoft-perception/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-17T18:14:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft outlines updates to Microsoft Perception and its new security cyber stack aimed at defending agentic AI deployments. Vendor announcement.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "vendor",
+    "agents"
+   ]
+  },
+  {
+   "id": "2026-11-18-083",
+   "title": "Introducing GPT-6.2 Astra and Sol",
+   "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+   "source": "OpenAI News",
+   "published": "2026-11-17T17:45:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI introduced GPT-6.2 Astra and Sol with improved coding and computer-use capabilities at lower cost across ChatGPT Work, Codex and the API.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "llm"
+   ]
+  },
+  {
+   "id": "2026-11-18-087",
+   "title": "Who Has Access to Claude? Bring AI Identity and Access Context Into Surface Command",
+   "url": "https://www.rapid7.com/blog/post/em-claude-access-brings-ai-context-into-surface-command-asm-easm",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-17T14:26:29.000Z",
+   "category": "ai-security",
+   "summary": "Rapid7 vendor post on bringing AI identity and access context into Surface Command, citing that 97% of organisations with AI-related breaches lacked proper AI access controls.",
+   "relevance": 2,
+   "tags": [
+    "iam",
+    "ai",
+    "vendor"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-17",
+  "generatedAt": "2026-11-18T06:47:27.525Z",
+  "total": 3,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 2
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 1
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-115731",
+    "title": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+    "vendor": "Perforce",
+    "product": "Puppet Enterprise",
+    "summary": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing a crafted rich-data type through a PUT…",
+    "kevAdded": "2026-11-17",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-116495",
+    "euvdExploited": "2026-11-17",
+    "cvss": 9.4,
+    "epss": 0.00366,
+    "epssPct": 0.30882,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-115731",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-116495"
+    }
+   },
+   {
+    "cve": "CVE-2026-131852",
+    "title": "Format string flaw in OwnTracks Recorder",
+    "vendor": "OwnTracks",
+    "product": "Recorder",
+    "summary": "OwnTracks Recorder versions before 1.0.5 mishandle formatting of a stored tracking identifier in response output. An unauthenticated attacker who can submit location data may be able to trigger code execution when affected data is returned.",
+    "zeroExploit": "2026-11-18",
+    "cvss": 9.3,
+    "mitigation": "Upgrade OwnTracks Recorder to version 1.0.5 or later. Until upgraded, restrict untrusted access to location-ingestion and API endpoints.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-131852",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-131852"
+    }
+   },
+   {
+    "cve": "CVE-2026-130840",
+    "title": "Authentication bypass in dataelement BISHENG",
+    "vendor": "dataelement",
+    "product": "BISHENG",
+    "summary": "BISHENG versions before 3.0.0 use a hard-coded default JWT secret in AuthJwt. An unauthenticated remote attacker can impersonate an administrator and access administrative functions if the affected authentication configuration is exposed.",
+    "zeroExploit": "2026-11-17",
+    "cvss": 9.3,
+    "mitigation": "Upgrade BISHENG to version 3.0.0 or later. Restrict access to affected BISHENG instances until the upgrade is complete.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-130840",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-130840"
+    }
+   }
+  ]
+ }
+}
