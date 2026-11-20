@@ -1,0 +1,1088 @@
+{
+ "date": "2026-11-20",
+ "generatedAt": "2026-11-20T06:47:03.790Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 51,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 406"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-20-002",
+   "title": "Russian hackers ran a cyberattack with AI and no human intervention",
+   "originalTitle": "2026. 11. 19. Emberi beavatkozás nélkül hajtottak végre kibertámadást mesterséges intelligenciával az orosz hackerek A Google Threat Intelligence Group és a Mandiant szakemberei szerint orosz nyelvű…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/emberi-beavatkozas-nelkul-hajtottak-vegre-kibertamadast-mesterseges-intelligenciaval-az-orosz-hackerek/",
+   "source": "NKI Hungary",
+   "published": "2026-11-20T06:45:14.263Z",
+   "category": "ai-security",
+   "summary": "Google Threat Intelligence Group and Mandiant report Russian-speaking actors executing an AI-driven attack without human operators in the loop, signalling growing autonomy in offensive tooling.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "apt",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-11-20-003",
+   "title": "Java4Shell: attacker can achieve code execution without an account",
+   "originalTitle": "2026. 11. 19. Java4Shell: fiók nélkül is kódfuttatást érhet el a támadó Az Oracle novemberi Critical Security Patch Update csomagja 11 Java SE sérülékenységet javít. Ezek egyike a Java4Shell néven is…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/java4shell-fiok-nelkul-is-kodfuttatast-erhet-el-a-tamado/",
+   "source": "NKI Hungary",
+   "published": "2026-11-20T06:45:14.263Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle's November Critical Patch Update fixes 11 Java SE flaws, including one dubbed Java4Shell that can allow unauthenticated code execution. Patch internet-facing Java workloads first.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-20-012",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-20T06:45:12.982Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed five NGINX vulnerabilities allowing unauthenticated remote code execution as the worker process; a PoC exists for CVE-2026-123007 but no in-the-wild exploitation yet. Patch internet-facing instances urgently.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "nginx",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-20-054",
+   "title": "VMware patches vCenter zero-day exploited in attacks since September",
+   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+   "source": "BleepingComputer",
+   "published": "2026-11-20T00:26:25.000Z",
+   "category": "incidents-threats",
+   "summary": "Broadcom patched a critical VMware vCenter authentication bypass that Chinese-linked actors have exploited as a zero-day since September 2026. Immediate patching of vCenter is advised.",
+   "relevance": 5,
+   "tags": [
+    "0day",
+    "vmware",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-20-071",
+   "title": "CVE-2026-123890: Critical Authentication Bypass in VMware vCenter",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-19T21:06:24.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 details CVE-2026-123890, a CVSS 9.8 authentication bypass in the VMware Directory Service of vCenter allowing unauthenticated attackers to gain Administrator access. Patch per VMSA-2026-0009.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "vmware",
+    "vcenter"
+   ]
+  },
+  {
+   "id": "2026-11-20-075",
+   "title": "Second Norwegian Energy Company Breached in Two Days",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+   "source": "Dark Reading",
+   "published": "2026-11-19T20:14:15.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "A second Norwegian energy company was breached within two days; no formal link has been established between the incidents.",
+   "relevance": 5,
+   "tags": [
+    "energy",
+    "breach",
+    "nordics"
+   ]
+  },
+  {
+   "id": "2026-11-20-011",
+   "title": "6.4 million victim datasets secured in international operation against malware networks",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/64-million-victim-datasets-secured-in-international-operation-against-malware-networks",
+   "source": "Europol",
+   "published": "2026-11-20T06:45:13.420Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol and partners seized 235 servers and 257 domains used by Gootloader, CastleRAT and StealC, securing 6.4 million victim datasets and disrupting major malware distribution networks.",
+   "relevance": 4,
+   "tags": [
+    "malware",
+    "takedown",
+    "infostealer"
+   ]
+  },
+  {
+   "id": "2026-11-20-013",
+   "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-20T06:45:12.982Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advises patching CVE-2026-114938 in Java SE and OpenJDK, a high-severity flaw that can lead to unauthenticated remote code execution under certain conditions.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "certeu"
+   ]
+  },
+  {
+   "id": "2026-11-20-014",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-20T06:45:12.982Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix fixed 28 memory flaws in NetScaler ADC and Gateway; CVE-2026-120868 affects all deployments including default configurations, with DoS and unpredictable behaviour impact. No exploitation reported.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "citrix",
+    "netscaler"
+   ]
+  },
+  {
+   "id": "2026-11-20-015",
+   "title": "Your AI red team may be finding the same prompt injection thousands of times",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/ai-prompt-injection-red-team/",
+   "source": "Help Net Security",
+   "published": "2026-11-20T06:30:20.000Z",
+   "category": "ai-security",
+   "summary": "Academic research found that AI agents retrained on larger sets of prompt injection attacks became easier to hijack in three of four tests, questioning volume-driven automated red teaming.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "prompt-injection",
+    "red-team"
+   ]
+  },
+  {
+   "id": "2026-11-20-023",
+   "title": "AI agent API security hasn’t caught up with agents already running in production",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/ai-agent-api-security-production/",
+   "source": "Help Net Security",
+   "published": "2026-11-20T05:30:11.000Z",
+   "category": "ai-security",
+   "summary": "A Postman survey of ~9,000 practitioners found a quarter of organisations already run AI agents calling production APIs, while around four in ten have not settled agent credential and identity management.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "api",
+    "identity"
+   ]
+  },
+  {
+   "id": "2026-11-20-026",
+   "title": "Most CIOs and CISOs expect to contain attacks, though few can reach their gear right away",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/network-outage-recovery-resilience/",
+   "source": "Help Net Security",
+   "published": "2026-11-20T05:00:27.000Z",
+   "category": "incidents-threats",
+   "summary": "An Opengear survey of 514 CIOs and CISOs found few can obtain secure management access to critical network infrastructure immediately when the primary network fails, a key gap during ransomware or bad-update events.",
+   "relevance": 4,
+   "tags": [
+    "resilience",
+    "ransomware",
+    "network"
+   ]
+  },
+  {
+   "id": "2026-11-20-052",
+   "title": "Flaws in VMware and KVM need attention, if you have time while fixing Java, PHP, and everything else",
+   "url": "https://www.theregister.com/security/2026/11/20/flaws-in-vmware-and-kvm-need-attention-if-you-have-time-while-fixing-java-php-and-everything-else/5311193",
+   "source": "The Register – Security",
+   "published": "2026-11-20T00:57:45.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Round-up of critical VMware and KVM virtualization flaws arriving alongside Java and PHP patch waves, plus a notable Digital Ocean response to a nested virtualization issue.",
+   "relevance": 4,
+   "tags": [
+    "vmware",
+    "patching",
+    "virtualization"
+   ]
+  },
+  {
+   "id": "2026-11-20-063",
+   "title": "Android developer verification will reach every install source, with a side door for power users",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/android-developer-verification-power-users/",
+   "source": "Help Net Security",
+   "published": "2026-11-19T23:03:24.000Z",
+   "category": "policy-regulation",
+   "summary": "From January 2027 Google extends Android developer verification worldwide across all install sources, starting with seven app distributors; unverified developers' apps lose the normal install experience.",
+   "relevance": 4,
+   "tags": [
+    "android",
+    "supply-chain",
+    "mobile"
+   ]
+  },
+  {
+   "id": "2026-11-20-064",
+   "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+   "url": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
+   "source": "Dark Reading",
+   "published": "2026-11-19T22:40:03.000Z",
+   "category": "ai-security",
+   "summary": "Incidents involving Qwen models show that organisations self-hosting AI agents have only an illusion of control and need enforceable steering and guardrails.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "llm",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-20-069",
+   "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+   "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+   "source": "BleepingComputer",
+   "published": "2026-11-19T21:15:59.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ASUS released Control Center Express v1.7.29 fixing three critical flaws, including a hard-coded key, that could give remote attackers administrative control of the console and managed devices.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "asus",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-20-070",
+   "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+   "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175",
+   "source": "The Register – Security",
+   "published": "2026-11-19T21:12:33.000Z",
+   "category": "incidents-threats",
+   "summary": "Chase, Visa and Mastercard confirmed cyberattacks on third-party vendors that may have exposed customer information, following a week of service outages.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "breach",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-20-074",
+   "title": "JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV1VHOTlUSTlCVmhEY0dIdi11T2tlc2xPMG16MHhDWkl0SnlBVFl0cHNiZlVPaEtNRERzYXJGa28yUG9DSVZobFBicGFwcXBUWG1icU1RSzYtRUpNV3V4YU1uNkVkNGtQN0tJOVpTMExic1VCMWIxMzhUZm5ISjN4eWJoRFBmSzhZM0x0YlJIRjBJYWJsNlF5WUMxN3NsUE9pWndFLVhTcG1saUE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-19T20:34:02.000Z",
+   "category": "incidents-threats",
+   "summary": "JPMorgan, Visa and Mastercard say third-party vendors were targeted in a cyberattack, highlighting financial sector supply-chain exposure.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "finance",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-20-076",
+   "title": "Critical PHP Flaws Allow Code Execution, But Don't Panic 'PHP2Shell'-Style",
+   "url": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+   "source": "Dark Reading",
+   "published": "2026-11-19T19:57:31.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "PHP's November release patches seven critical flaws enabling code execution, though experts say exploitability depends heavily on configuration. Less severe than the earlier PHP2Shell issue.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "php",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-20-080",
+   "title": "The web is held together by volunteers. AI could tear it apart.",
+   "url": "https://www.politico.eu/article/ai-internet-website-shutdown-hack-cyberattack/",
+   "source": "Politico Europe",
+   "published": "2026-11-19T19:32:08.000Z",
+   "category": "policy-regulation",
+   "summary": "Report on volunteer maintainers of core web infrastructure struggling to keep up as AI-driven analysis surfaces deeply hidden vulnerabilities.",
+   "relevance": 4,
+   "tags": [
+    "open-source",
+    "ai",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-20-082",
+   "title": "Daily summary - 19.11.2026",
+   "originalTitle": "Tageszusammenfassung - 19.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-19112026",
+   "source": "CERT.at",
+   "published": "2026-11-19T17:22:54.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report notes NVIDIA investigating Gentlemen ransomware breach claims and a further PHP Foundation warning on critical PHP vulnerabilities after PHP2Shell.",
+   "relevance": 4,
+   "tags": [
+    "ransomware",
+    "php",
+    "certat"
+   ]
+  },
+  {
+   "id": "2026-11-20-085",
+   "title": "Critical security vulnerabilities in PHP - updates available",
+   "originalTitle": "Kritische Sicherheitslücken in PHP - Updates verfügbar",
+   "url": "https://www.cert.at/de/warnungen/2026/11/kritische-sicherheitslucken-in-php-updates-verfugbar2",
+   "source": "CERT.at",
+   "published": "2026-11-19T15:53:12.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at reports PHP security updates fixing seven critical flaws in ext-session, ext-date, PHP-FPM and the Zend Engine that can lead to arbitrary code execution in certain configurations.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "php",
+    "certat"
+   ]
+  },
+  {
+   "id": "2026-11-20-086",
+   "title": "Spying on Governments with Zero Lines of Malware: A Custom SoftEther Bridge in Webworm’s Toolkit",
+   "url": "https://www.rapid7.com/blog/post/tr-spying-on-governments-no-malware-custom-webworms-toolkit-softether-bridge",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-19T15:05:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Rapid7 analyses a custom SoftEther VPN bridge used by China-aligned APT Webworm to maintain stealthy, malware-free long-term access to government networks.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "lotl",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-11-20-004",
+   "title": "EU, US officials unmoved by litigation potentially impacting Data Privacy Framework",
+   "url": "https://iapp.org/news/a/eu-us-officials-unmoved-by-litigation-potentially-impacting-data-privacy-framework",
+   "source": "IAPP",
+   "published": "2026-11-20T06:45:13.658Z",
+   "category": "policy-regulation",
+   "summary": "EU and US officials say they are not worried by ongoing litigation that could affect the Data Privacy Framework, maintaining confidence in the transatlantic transfer mechanism.",
+   "relevance": 3,
+   "tags": [
+    "gdpr",
+    "data-transfers",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-20-007",
+   "title": "One year on, Digital Omnibus may face delays",
+   "url": "https://iapp.org/news/a/one-year-on-digital-omnibus-may-face-delays",
+   "source": "IAPP",
+   "published": "2026-11-20T06:45:13.658Z",
+   "category": "policy-regulation",
+   "summary": "The EU's Digital Omnibus simplification package may be delayed a year after its launch, prolonging uncertainty for compliance planning.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-11-20-008",
+   "title": "Fraud data sharing under the new PSR: When a DPIA becomes the ticket of entry",
+   "url": "https://iapp.org/news/a/fraud-data-sharing-under-the-new-psr-when-a-dpia-becomes-the-ticket-of-entry",
+   "source": "IAPP",
+   "published": "2026-11-20T06:45:13.658Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of fraud data sharing under the new Payment Services Regulation, where a data protection impact assessment becomes a precondition for participation.",
+   "relevance": 3,
+   "tags": [
+    "psr",
+    "dpia",
+    "fraud"
+   ]
+  },
+  {
+   "id": "2026-11-20-010",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-20T06:45:13.420Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, coordinated by Europol across 14 countries, led to 354 arrests of dark web vendors and buyers tied to cybercrime, drugs and firearms between May 2025 and October 2026.",
+   "relevance": 3,
+   "tags": [
+    "law-enforcement",
+    "dark-web",
+    "europol"
+   ]
+  },
+  {
+   "id": "2026-11-20-019",
+   "title": "It’s time to retire vanity security dashboards",
+   "url": "https://www.helpnetsecurity.com/2026/11/20/security-dashboards-tips-video/",
+   "source": "Help Net Security",
+   "published": "2026-11-20T06:00:21.000Z",
+   "category": "incidents-threats",
+   "summary": "An OT security architect argues for retiring vanity dashboards and instead having SOC and control engineering teams jointly tune recurring, low-value alerts.",
+   "relevance": 3,
+   "tags": [
+    "ot",
+    "soc",
+    "operations"
+   ]
+  },
+  {
+   "id": "2026-11-20-020",
+   "title": "Trump bows to pressure, replaces US cyber security director",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/trump-bows-to-pressure-replaces-us-cyber-security-director?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-20T05:48:35.000Z",
+   "category": "global-security",
+   "summary": "President Trump removed National Cyber Director Sean Cairncross and named a Defense Department official as interim replacement.",
+   "relevance": 3,
+   "tags": [
+    "us",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-20-022",
+   "title": "EXCLUSIVE: Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSW41aUpxeGUzMDFwdHhVNmJHdFBWaTdvTUNfUWlKN0hIdU1sMDB3X1NWd05UaF9RT1JzdTMtMlI4VEgxNDJqY2pXenVWTDlJZlZNcXVwSnVXNUxKMjEyUXVfWEppWmUxNzg0MVQwWmdxMlhHT3VJbTRNUnliRElmU1FfTUU5QS1nS1hXbFpLcEUySUEyallMLVpoVjAwNnUyUnhlbnROMHo2R0RUQ0h2SFlUQTZaSnpIYm5nakJqWQ?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-20T05:34:34.000Z",
+   "category": "global-security",
+   "summary": "Taiwan has told Meta that thousands of China-linked accounts are seeking to influence its elections, according to a Reuters exclusive.",
+   "relevance": 3,
+   "tags": [
+    "influence-ops",
+    "china",
+    "elections"
+   ]
+  },
+  {
+   "id": "2026-11-20-024",
+   "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+   "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+   "source": "The Hacker News",
+   "published": "2026-11-20T05:30:01.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An unpatched Windows technique called FastUnlock lets someone with physical access to a locked PC launch programs without signing in, under a limited account rather than administrator.",
+   "relevance": 3,
+   "tags": [
+    "0day",
+    "windows",
+    "physical-access"
+   ]
+  },
+  {
+   "id": "2026-11-20-030",
+   "title": "White House replaces cyber security chief after tech outages",
+   "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-20T04:21:00.000Z",
+   "category": "global-security",
+   "summary": "Sean Cairncross leaves the US national cyber director role after a week of major tech outages; Pentagon CIO Kirsten Davies takes over in an acting capacity.",
+   "relevance": 3,
+   "tags": [
+    "us",
+    "governance",
+    "outages"
+   ]
+  },
+  {
+   "id": "2026-11-20-040",
+   "title": "Stockpiling Britain: Does Westminster know something we don’t?",
+   "url": "https://www.politico.eu/podcast/westminster-insider/stockpiling-britain-does-westminster-know-something-we-dont/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The UK government's 'Be Ready' campaign urges citizens to stockpile essentials, with planners citing 'Black Sky' scenarios such as a major blackout disrupting communications and supply chains.",
+   "relevance": 3,
+   "tags": [
+    "resilience",
+    "critical-infrastructure",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-11-20-044",
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "source": "Simon Willison",
+   "published": "2026-11-20T02:49:57.000Z",
+   "category": "ai-security",
+   "summary": "The founder of AI product ChatPRD describes large-scale token fraud, where groups abuse free trials to obtain or resell AI compute for commercial schemes.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "fraud",
+    "abuse"
+   ]
+  },
+  {
+   "id": "2026-11-20-050",
+   "title": "Sean Cairncross out as national cyber director",
+   "url": "https://cyberscoop.com/sean-cairncross-out-national-cyber-director/",
+   "source": "CyberScoop",
+   "published": "2026-11-20T01:07:07.000Z",
+   "category": "policy-regulation",
+   "summary": "Sean Cairncross departs as US national cyber director after involvement in key decisions on AI security and critical infrastructure protection.",
+   "relevance": 3,
+   "tags": [
+    "us",
+    "governance",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-20-051",
+   "title": "White House fires cyber director in wake of outages, sources say",
+   "url": "https://www.defenseone.com/policy/2026/11/pentagon-cio-replaces-white-house-cyber-director-sean-cairncross-major-shakeup/417359/",
+   "source": "Defense One",
+   "published": "2026-11-20T01:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Sources say the White House fired the national cyber director following outages; the Pentagon CIO takes over while doubts grow about the CISA nominee.",
+   "relevance": 3,
+   "tags": [
+    "us",
+    "cisa",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-20-053",
+   "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+   "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-20T00:50:24.000Z",
+   "category": "global-security",
+   "summary": "European leaders meeting in Berlin say they hold a united position and are ready for talks with Russia on ending the war in Ukraine.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "geopolitics",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-20-065",
+   "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+   "source": "BleepingComputer",
+   "published": "2026-11-19T22:25:42.000Z",
+   "category": "incidents-threats",
+   "summary": "SBC Medical Group disclosed in an SEC filing that two cybersecurity incidents exposed personal data of 1.6 million customers and employees.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "healthcare",
+    "pii"
+   ]
+  },
+  {
+   "id": "2026-11-20-068",
+   "title": "Lawmakers launch new AI safety caucus amid rising security concerns",
+   "url": "https://therecord.media/lawmakers-launch-new-ai-safety-caucus",
+   "source": "The Record",
+   "published": "2026-11-19T21:19:00.000Z",
+   "category": "policy-regulation",
+   "summary": "US lawmakers launched a bipartisan AI safety caucus with 26 founding members, including seven Republicans, amid rising security concerns.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "policy",
+    "us"
+   ]
+  },
+  {
+   "id": "2026-11-20-077",
+   "title": "A cyberattack leaks thousands of Chase customer emails and some phone numbers",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaUJ0SkZZV3RlbElWb3E4cXZSUVNiaDNwLVhLZTFGMFFSQ0hOUU5obzdIMkNMbGRhUVNYMlhvb3JpLXBLVlNJWWhRZmEyUS02REVCekpEWUkyNGYxSWZTRFpGOVUtcXJOQjlCaEF4VnBVc0dHVHJSVFJmaHZRbjBQUnhYQnlibS0taDBRclJlbGM?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-19T19:47:00.000Z",
+   "category": "incidents-threats",
+   "summary": "A cyberattack leaked thousands of Chase customer email addresses and some phone numbers.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "finance",
+    "pii"
+   ]
+  },
+  {
+   "id": "2026-11-20-079",
+   "title": "Costa eyes tax on Big Tech to boost EU budget after Trump’s poor midterms showing",
+   "url": "https://www.politico.eu/article/antonio-costa-tax-big-tech-eu-budget-trump-midterms/",
+   "source": "Politico Europe",
+   "published": "2026-11-19T19:35:28.000Z",
+   "category": "policy-regulation",
+   "summary": "European Council President Costa is considering a tax on Big Tech to strengthen the EU budget, seeing an opening after Trump's midterm losses.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "bigtech",
+    "taxation"
+   ]
+  },
+  {
+   "id": "2026-11-20-083",
+   "title": "Google Built a Giant ‘Mirror Dimension’ Internet to Test Its Chrome AI Agents",
+   "url": "https://www.wired.com/story/google-built-a-giant-mirror-dimension-internet-to-test-its-chrome-ai-agents/",
+   "source": "Wired – AI",
+   "published": "2026-11-19T17:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Google built a large simulated 'mirror' internet as a sandbox to train and test Chrome AI browsing agents without real-world risk.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "sandbox"
+   ]
+  },
+  {
+   "id": "2026-11-20-001",
+   "title": "GTA VI leaker hacker Arion Kurtaj pleads guilty",
+   "originalTitle": "2026. 11. 20. Bűnösnek vallotta magát a GTA VI felvételeit kiszivárogtató hacker Artion Kurtaj brit hacker hat bűncselekmény elkövetését ismerte el a woolwichi koronabíróságon.",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/bunosnek-vallotta-magat-a-gta-vi-felveteleit-kiszivarogtato-hacker/",
+   "source": "NKI Hungary",
+   "published": "2026-11-20T06:45:14.263Z",
+   "category": "eu-threat-landscape",
+   "summary": "British hacker Arion Kurtaj admitted six offences at Woolwich Crown Court in connection with the leak of GTA VI footage.",
+   "relevance": 2,
+   "tags": [
+    "cybercrime",
+    "law-enforcement",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-11-20-018",
+   "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
+   "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-20T06:03:03.000Z",
+   "category": "global-security",
+   "summary": "A US Maritime Administration memo acknowledges that a naval blockade of Iran is pushing up Gulf insurance premiums and squeezing cargo capacity.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "shipping"
+   ]
+  },
+  {
+   "id": "2026-11-20-028",
+   "title": "Kushner: Trump open to NATO-like security guarantees for Ukraine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kushner-trump-open-to-nato-like-security-guarantees-for-ukraine?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-20T04:44:53.000Z",
+   "category": "global-security",
+   "summary": "US envoy Jared Kushner says President Trump is open to NATO-like security guarantees for Ukraine.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "nato"
+   ]
+  },
+  {
+   "id": "2026-11-20-043",
+   "title": "White House taps Kirsten Davies as cyber chief after outages rattle Americans",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOR1gxYnBpX3A3aDBXNVlpS3dkeUVsZHdQYTdYMjFCMDc5R21mYnhvdEVUNWZxS0poMlAxSm5TbnRMeUg3dmQ4S1M0NnNwN25ocms4VzhqQnhKYnhYcFlod2doeGdTSHdTc1B5cmZTbmY5UTdZRzhHdEU0bTRlbkF2Z0NlMUR3UEpBaTRzTlpRVUVHT3BkWEZMcjFrLXAxdV93MERLdXNwVlI?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-20T02:51:00.000Z",
+   "category": "global-security",
+   "summary": "The White House appointed Kirsten Davies as acting national cyber director following a week of outages affecting US users.",
+   "relevance": 2,
+   "tags": [
+    "us",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-20-057",
+   "title": "Germ Network infects Android, but in a good way",
+   "url": "https://www.theregister.com/security/2026/11/20/germ-network-infects-android-but-in-a-good-way/5311186",
+   "source": "The Register – Security",
+   "published": "2026-11-20T00:06:35.000Z",
+   "category": "incidents-threats",
+   "summary": "Coverage of Germ Network, an encrypted messaging app for Android favoured by Bluesky users, which supports multiple identities without phone number binding.",
+   "relevance": 2,
+   "tags": [
+    "encryption",
+    "mobile",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-20-060",
+   "title": "Anthropic surges in market debut after biggest IPO on record, despite fears that AI is running amok",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXdyUExSdjhGa000MWtxaUR0YzhiVHJnNzN0N0lTUnNONktkaWZkUVUwdExoUXhXMTlJN0NEZ3F3M2RYbUZYelpiNFhpOE14LWdtYjF1MnB2M00xMk1GbENmci1UeFlXa3V0aHM4TWlxVVZNeFBwUkZjMTA2ZWhCSFBVaVVBb0FUdnpj?oc=5",
+   "source": "AP News (via Google News)",
+   "published": "2026-11-19T23:22:00.000Z",
+   "category": "global-security",
+   "summary": "Anthropic surged in its market debut after the largest IPO on record, despite concerns about unchecked AI growth.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "markets"
+   ]
+  },
+  {
+   "id": "2026-11-20-066",
+   "title": "What’s With All These Outages?",
+   "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+   "source": "Wired – AI",
+   "published": "2026-11-19T21:57:01.000Z",
+   "category": "ai-security",
+   "summary": "Podcast discussion of the week's widespread digital outages, Anthropic's IPO proceeds and the AI chip landscape.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "outages",
+    "podcast"
+   ]
+  },
+  {
+   "id": "2026-11-20-072",
+   "title": "PostgreSQL 19 Released",
+   "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "source": "Simon Willison",
+   "published": "2026-11-19T20:43:57.000Z",
+   "category": "ai-security",
+   "summary": "PostgreSQL 19 shipped two months late, partly due to a wave of AI-reported vulnerabilities the team had to triage; new features include WAIT FOR LSN read-your-writes consistency.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "postgresql",
+    "vuln-reports"
+   ]
+  },
+  {
+   "id": "2026-11-20-087",
+   "title": "Anthropic’s Record-Breaking IPO Highlights the AI Giant’s Worst Enemy—Itself",
+   "url": "https://www.wired.com/story/anthropics-record-breaking-ipo-highlights-the-ai-giants-worst-enemy-itself/",
+   "source": "Wired – AI",
+   "published": "2026-11-19T12:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Analysis of Anthropic's $107 billion IPO and whether its AI safety strategy and public backlash against data centres could constrain growth.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "markets"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-19",
+  "generatedAt": "2026-11-20T06:47:03.790Z",
+  "total": 3,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 6
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 1
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-61826",
+    "title": "Missing authentication in Bazarr Plex OAuth API",
+    "vendor": "pip",
+    "product": "bazarr",
+    "summary": "Bazarr before 1.5.7-beta.14 does not require API-key authentication for Plex OAuth API handlers. A network-reachable attacker can change persistent Plex configuration, disable or rebind the Plex integration, and potentially influence later server-side requests; some actions require no Plex account, PIN, or prior acces…",
+    "zeroExploit": "2026-11-19",
+    "cvss": 10,
+    "mitigation": "Upgrade bazarr to >= 1.5.7-beta.14 or later.",
+    "epss": 0.00263,
+    "epssPct": 0.18427,
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-61826",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-61826"
+    }
+   },
+   {
+    "cve": "CVE-2026-104099",
+    "title": "Route normalization access-control bypass in fabio",
+    "vendor": "fabiolb",
+    "product": "fabio",
+    "summary": "Fabio versions before 1.7.3 can apply route ACL or basic-auth checks to a different path interpretation than the backend uses. An unauthenticated attacker may reach protected backend content when a less-restricted fallback route targets the same backend and that backend normalizes the requested path differently.",
+    "zeroExploit": "2026-11-19",
+    "cvss": 9.1,
+    "mitigation": "Upgrade fabio to version 1.7.3 or later. Until upgraded, remove or restrict fallback routes that share backends with protected routes.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-104099",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-104099"
+    }
+   },
+   {
+    "cve": "CVE-2026-77338",
+    "title": "Authentication bypass via default JWT secret in sprout-track",
+    "vendor": "Oak-and-Sprout",
+    "product": "sprout-track",
+    "summary": "sprout-track versions before 1.3.5 may use a publicly known JWT signing secret when JWT_SECRET is not configured. An unauthenticated attacker able to reach the deployment could forge privileged authentication tokens and access or alter application data; deployments with a strong unique JWT_SECRET are not affected.",
+    "zeroExploit": "2026-11-19",
+    "cvss": 9.3,
+    "mitigation": "Upgrade sprout-track to version 1.3.5. Set JWT_SECRET to a strong, unique value and restrict network access to the application until the upgrade is complete.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-77338",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-77338"
+    }
+   }
+  ]
+ }
+}
