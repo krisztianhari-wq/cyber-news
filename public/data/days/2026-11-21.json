@@ -1,0 +1,1050 @@
+{
+ "date": "2026-11-21",
+ "generatedAt": "2026-11-21T06:47:07.990Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 45,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-21-001",
+   "title": "European Commission attacked with the help of artificial intelligence",
+   "originalTitle": "2026. 11. 20. Mesterséges intelligenciával támadták az Európai Bizottságot Az Európai Bizottság megerősítette, hogy októberben kibertámadás érte. A támadók nyilvánosan elérhető MI-eszközt használtak.…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/mesterseges-intelligenciaval-tamadtak-az-europai-bizottsagot/",
+   "source": "NKI Hungary",
+   "published": "2026-11-21T06:45:22.200Z",
+   "category": "eu-threat-landscape",
+   "summary": "The European Commission confirmed an October cyberattack in which attackers leveraged a publicly available AI tool. Details remain limited, but it signals AI-assisted intrusion against EU institutions.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "eu",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-11-21-002",
+   "title": "Microsoft Agent Framework PyPI package compromised",
+   "originalTitle": "2026. 11. 20. Támadás érte a Microsoft Agent Framework PyPI csomagtárolóját A támadók kompromittálták a Microsoft hivatalos Agent Framework Python-csomagját, és annak két rosszindulatú változatát tet…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tamadas-erte-a-microsoft-agent-framework-pypi-csomagtarolojat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-21T06:45:22.200Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Attackers compromised Microsoft's official Agent Framework Python package on PyPI and published two malicious versions. Organisations using the package should audit dependencies and pinned versions.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "pypi",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-21-010",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-21T06:45:21.146Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed five NGINX vulnerabilities allowing unauthenticated remote code execution as the worker process. A PoC exists for CVE-2026-123007; CERT-EU urges prioritising internet-facing systems.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "nginx",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-21-050",
+   "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+   "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+   "source": "Dark Reading",
+   "published": "2026-11-20T21:03:27.000Z",
+   "category": "incidents-threats",
+   "summary": "A China-nexus group dubbed 'Armory Castle' is exploiting a VMware vCenter zero-day, apparently held in reserve during the previous patch cycle. vCenter operators should verify patch status and hunt for compromise.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "vmware",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-21-059",
+   "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+   "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+   "source": "BleepingComputer",
+   "published": "2026-11-20T18:51:43.000Z",
+   "category": "incidents-threats",
+   "summary": "Bell Canada confirmed an 'agentic' threat actor breached its systems on 17 November 2026 and stole enterprise customer data, including from a telecom circuit ordering and provisioning system.",
+   "relevance": 5,
+   "tags": [
+    "telecom",
+    "breach",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-21-062",
+   "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+   "source": "BleepingComputer",
+   "published": "2026-11-20T17:30:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Threat actors used the open-source autonomous AI pentest framework Cairn to discover an unknown vulnerability in a medical imaging application and take over a server.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "zero-day",
+    "ttp"
+   ]
+  },
+  {
+   "id": "2026-11-21-063",
+   "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+   "url": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+   "source": "The Record",
+   "published": "2026-11-20T17:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Amazon researchers report a China-linked actor used the open-source AI pentesting tool Cairn against two universities, in one case apparently discovering a zero-day.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "apt",
+    "zero-day"
+   ]
+  },
+  {
+   "id": "2026-11-21-064",
+   "title": "China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server",
+   "url": "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382",
+   "source": "The Register – Security",
+   "published": "2026-11-20T17:30:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Amazon's CISO says Chinese attackers ran AI agents that autonomously found and exploited a zero-day to compromise a university server, adapting for nearly a day without human direction.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "autonomous-attack",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-21-080",
+   "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/20/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-20T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added four actively exploited CVEs to the KEV catalog: SAP NetWeaver, Cisco Expressway hard-coded credentials, VMware vCenter authentication bypass and Apache Roller deserialization.",
+   "relevance": 5,
+   "tags": [
+    "kev",
+    "cve",
+    "exploitation"
+   ]
+  },
+  {
+   "id": "2026-11-21-003",
+   "title": "Firewall flaws, AI attacks and data exposure: weekly threat roundup",
+   "originalTitle": "2026. 11. 20. Tűzfalhibák, AI-támadások és adatkitettség A hét kiemelt fenyegetései között egy aktívan kihasznált Check Point-támadási lánc, az ASUS vállalati felügyeleti szoftverének kritikus hibái…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/tuzfalhibak-ai-tamadasok-es-adatkitettseg/",
+   "source": "NKI Hungary",
+   "published": "2026-11-21T06:45:22.200Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungarian NCSC weekly summary highlights an actively exploited Check Point attack chain, critical flaws in ASUS enterprise management software and AI-related incidents.",
+   "relevance": 4,
+   "tags": [
+    "weekly",
+    "exploitation",
+    "asus"
+   ]
+  },
+  {
+   "id": "2026-11-21-011",
+   "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-21T06:45:21.146Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle and OpenJDK fixed CVE-2026-114938, a high-severity flaw that can lead to unauthenticated RCE under certain conditions. CERT-EU recommends patching internet-facing Java applications first.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-21-012",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-21T06:45:21.146Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix patched 28 memory flaws in NetScaler ADC and Gateway; CVE-2026-120868 affects all deployments including default configurations, with DoS and unpredictable behaviour impact. No exploitation reported.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "citrix",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-21-023",
+   "title": "FBI's criminal information database hacked, CNN reports",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRE83U2NSQ2FlbllBaUxQUzl5UWdfWktnME85LVk1ZkJFczYwOUJEbXpoV0tzUXltYWhtTl8zT05jeW9yX29sREJwZkxCNWdxZWwxcGlUa2N1YzM4YjRZcVF6dWpNbGhfak5zWjNsdnpQcFAzVGdoSmZGLTN5R21KZlcxV2dUZU15czdSQU5fYXJLV1MzWTVuYkdTRi1weFU?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-21T03:15:00.000Z",
+   "category": "incidents-threats",
+   "summary": "CNN reports that an FBI criminal information database was hacked. No technical details confirmed in the item.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "law-enforcement",
+    "usa"
+   ]
+  },
+  {
+   "id": "2026-11-21-045",
+   "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+   "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/",
+   "source": "Unit 42",
+   "published": "2026-11-20T22:00:25.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Unit 42 details 'the Com' affiliate campaigns using vishing for initial access, followed by cloud data theft and extortion against healthcare and finance, with defensive guidance.",
+   "relevance": 4,
+   "tags": [
+    "vishing",
+    "extortion",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-11-21-051",
+   "title": "Signal slams door on prying AI agents to protect privacy",
+   "url": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466",
+   "source": "The Register – Security",
+   "published": "2026-11-20T20:42:04.000Z",
+   "category": "ai-security",
+   "summary": "Signal is blocking AI agents from reading its content and criticises Apple, Google and Microsoft for insufficient developer controls over OS-level AI agents.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "privacy",
+    "endpoint"
+   ]
+  },
+  {
+   "id": "2026-11-21-053",
+   "title": "Signal blocks Apple, Google AI screenshotting in response to ‘existential threat’ to privacy app",
+   "url": "https://cyberscoop.com/signal-blocks-apple-google-ai-screenshots/",
+   "source": "CyberScoop",
+   "published": "2026-11-20T19:54:25.000Z",
+   "category": "ai-security",
+   "summary": "Signal will block Apple and Google AI screenshotting by default, calling OS-level AI capture an existential threat to private messaging, following earlier action against Microsoft.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "privacy",
+    "signal"
+   ]
+  },
+  {
+   "id": "2026-11-21-061",
+   "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+   "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+   "source": "The Hacker News",
+   "published": "2026-11-20T17:57:20.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "WhatsApp fixed three flaws, including CVE-2026-23871 in the Android app (incomplete validation of ad-reply URLs) suspected of abuse in scam messaging. Users should update to 2.26.17.4 or later.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "mobile",
+    "whatsapp"
+   ]
+  },
+  {
+   "id": "2026-11-21-066",
+   "title": "Daily summary - 20 November 2026 (CERT.at)",
+   "originalTitle": "Tageszusammenfassung - 20.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-20112026",
+   "source": "CERT.at",
+   "published": "2026-11-20T17:07:16.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report flags ASUS Control Center Express critical hard-coded key flaw (fixed in v1.7.29) and critical Synology NAS vulnerabilities enabling data theft.",
+   "relevance": 4,
+   "tags": [
+    "asus",
+    "synology",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-21-071",
+   "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+   "source": "The Hacker News",
+   "published": "2026-11-20T16:58:16.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "ThreatFabric detailed Bazuka, a new Android malware framework using fake overlays for credential theft and device control, with LLM integration for large-scale victim management.",
+   "relevance": 4,
+   "tags": [
+    "android",
+    "malware",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-21-076",
+   "title": "Tusk: Russian cruise missile incursion into Poland seems ‘intentional’",
+   "url": "https://www.politico.eu/article/russian-missile-incursion-into-poland-seems-intentional-tusk-says/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T12:43:31.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Polish PM Tusk said a Russian cruise missile incursion into Poland appears intentional, raising NATO-border escalation risk relevant to critical infrastructure operators.",
+   "relevance": 4,
+   "tags": [
+    "russia",
+    "poland",
+    "hybrid-threat"
+   ]
+  },
+  {
+   "id": "2026-11-21-085",
+   "title": "‘Staff deserve answers’ on Commission cyberattack, union says",
+   "url": "https://www.politico.eu/article/staff-deserve-answers-eu-commission-cyberattack-union-says/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T10:04:39.000Z",
+   "category": "policy-regulation",
+   "summary": "A staff union says the European Commission has not sent a single all-staff update about the recent cyberattack, criticising its incident communication.",
+   "relevance": 4,
+   "tags": [
+    "eu",
+    "incident-response",
+    "communication"
+   ]
+  },
+  {
+   "id": "2026-11-21-008",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-21T06:45:21.640Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, coordinated by Europol across 14 countries, led to 354 arrests of dark web vendors and buyers linked to cybercrime, drugs and firearms between May 2025 and October 2026.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "darkweb",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-21-030",
+   "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+   "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-21T01:12:48.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Denmark expelled a Russian diplomat over an alleged plot with a banned local gang to assassinate a Ukrainian rapper, part of a broader hybrid threat pattern in Europe.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "hybrid-threat",
+    "denmark"
+   ]
+  },
+  {
+   "id": "2026-11-21-031",
+   "title": "Europeans, with Ukraine’s help, brace for more Russian attacks",
+   "url": "https://www.defenseone.com/threats/2026/11/europeans-ukraines-help-brace-more-russian-attacks/417389/",
+   "source": "Defense One",
+   "published": "2026-11-21T00:58:14.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "European states, supported by Ukraine, are preparing for further Russian attacks while US rhetoric downplays Russian missiles landing in Poland.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "europe",
+    "hybrid-threat"
+   ]
+  },
+  {
+   "id": "2026-11-21-033",
+   "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+   "source": "Krebs on Security",
+   "published": "2026-11-21T00:36:39.000Z",
+   "category": "incidents-threats",
+   "summary": "The CTO of ransomwarehelp.com was indicted for wire fraud after an FBI sting showed the firm simply paid ransoms and resold decryption keys at a markup while claiming advanced recovery capabilities.",
+   "relevance": 3,
+   "tags": [
+    "ransomware",
+    "fraud",
+    "third-party"
+   ]
+  },
+  {
+   "id": "2026-11-21-043",
+   "title": "CrowdStrike in talks to acquire Zscaler, sources say",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQelZkLVhGN0lQVWs3SVJrWU00RjF6LV9tUEUyaDlySnhaQ29EVW1mUWFBajFfMmpTckxRUHY3aUxDTHRYV3kxSm1zbDNUdTQ3UnFuRVVULVk1bXlOaDNRc3hrM3k4dDQ2OVBtTHRNR1dlSzQweG1Ya2RjTVNGNk0xLVlKTzBHQjRtTHhhQVBUeW5ZMm1YZ3lUWUNfbGUtNk0?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-20T22:31:25.000Z",
+   "category": "incidents-threats",
+   "summary": "Sources say CrowdStrike is in talks to acquire Zscaler, a deal that would reshape the endpoint and SSE vendor landscape.",
+   "relevance": 3,
+   "tags": [
+    "market",
+    "vendor",
+    "m&a"
+   ]
+  },
+  {
+   "id": "2026-11-21-047",
+   "title": "UK finds fix for fridge and freezer vulnerability after European hacks",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVlPYjE2cEpJQjlLNzNNcjVjRnI3LUxkcnE5UVJBak9QOTlPUXR2S1htU3BEUWxfM0RfUmo2QVVfX0g3cXpzTjdUSFNRMERVR0FKUVJ4T21TYUhUU2d3bE9tV2hpaGo1bUxqc25WR0VYWFl0Z0UxZDBiMGM3RUdYODlURmFxYnVvcm9KTXVhZWdObGl0bTZfNENXTTlhdG9ibzVNX1hCOFpkQ1k?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-20T21:33:49.000Z",
+   "category": "incidents-threats",
+   "summary": "UK authorities identified a fix for a vulnerability in connected fridges and freezers following hacks in Europe, highlighting consumer IoT exposure.",
+   "relevance": 3,
+   "tags": [
+    "iot",
+    "uk",
+    "vulnerability"
+   ]
+  },
+  {
+   "id": "2026-11-21-048",
+   "title": "Trump says US to penalize firms building data centers abroad",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT3hEcEp0SWhZNmU0eXhJUEU3ekVWWkQ3SVp1ZWlQeUZPRVBKUkx6R08yMkVGSWo5S3JWelR4STNQN2pCanZjaTE2ZWl0anlHQjJjWExCVFBVaVF4Uy1HNEZrRWZoNnVhVmx0WFBQNUg5cTA2UEpxZHpHcTRZSXctTU9jMHhPclFTdUQ3NktmbkJNS203N0dVeHA4R1pTRFRieHY3NnZWNA?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-20T21:29:46.000Z",
+   "category": "policy-regulation",
+   "summary": "Trump said the US would penalise companies that build data centres abroad, a potential factor for European cloud and hosting investment plans.",
+   "relevance": 3,
+   "tags": [
+    "datacentre",
+    "trade",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-21-049",
+   "title": "Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478",
+   "source": "The Register – Security",
+   "published": "2026-11-20T21:27:56.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers say data stolen in the Visa/Mastercard-related theft contains information useful for phishing and social engineering, but no financial details enabling direct account draining.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "phishing",
+    "payments"
+   ]
+  },
+  {
+   "id": "2026-11-21-052",
+   "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+   "source": "The Record",
+   "published": "2026-11-20T20:25:00.000Z",
+   "category": "policy-regulation",
+   "summary": "A US House Homeland Security Committee investigation criticises US companies' use of low-cost Chinese open-weight AI models in certain projects.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-21-074",
+   "title": "Latvian leader calls for closure of EU borders to all Russians",
+   "url": "https://www.politico.eu/article/latvian-leader-andris-kulbergs-calls-for-closure-of-eu-borders-to-all-russians/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T16:28:09.000Z",
+   "category": "policy-regulation",
+   "summary": "A Latvian leader called for closing EU borders to all Russian citizens, arguing screening is infeasible as Moscow escalates hybrid attacks.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "hybrid-threat",
+    "russia"
+   ]
+  },
+  {
+   "id": "2026-11-21-084",
+   "title": "Metasploit Wrap Up: Breaking Zimbra's Identity Boundaries",
+   "url": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-breaking-zimbra-s-identity-boundaries",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-20T10:30:36.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Metasploit added a shared Zimbra HTTP mixin and new modules targeting identity-boundary issues from Rapid7 research, lowering the bar for exploitation of unpatched Zimbra servers.",
+   "relevance": 3,
+   "tags": [
+    "metasploit",
+    "zimbra",
+    "exploit"
+   ]
+  },
+  {
+   "id": "2026-11-21-088",
+   "title": "Token fraud is here and it’s BAD (YouTube)",
+   "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+   "source": "Simon Willison",
+   "published": "2026-11-20T02:49:57.000Z",
+   "category": "ai-security",
+   "summary": "ChatPRD's founder describes large-scale token fraud, with groups abusing free trials to obtain and resell AI tokens or run commercial services on top of the product.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "fraud",
+    "abuse"
+   ]
+  },
+  {
+   "id": "2026-11-21-004",
+   "title": "UK lawmakers question Big Tech representatives on OSA compliance work",
+   "url": "https://iapp.org/news/a/uk-lawmakers-question-big-tech-representatives-on-osa-compliance-work",
+   "source": "IAPP",
+   "published": "2026-11-21T06:45:21.659Z",
+   "category": "policy-regulation",
+   "summary": "UK lawmakers questioned Big Tech representatives about their compliance work under the Online Safety Act. Relevant for platform and content governance teams.",
+   "relevance": 2,
+   "tags": [
+    "osa",
+    "uk",
+    "compliance"
+   ]
+  },
+  {
+   "id": "2026-11-21-006",
+   "title": "A view from DC: Navigating the California and Colorado ADMT rules",
+   "url": "https://iapp.org/news/a/a-view-from-dc-navigating-the-california-and-colorado-admt-rules",
+   "source": "IAPP",
+   "published": "2026-11-21T06:45:21.659Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of California and Colorado rules on automated decision-making technology, relevant for organisations deploying AI-driven profiling in the US.",
+   "relevance": 2,
+   "tags": [
+    "admt",
+    "privacy",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-21-018",
+   "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+   "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-21T05:15:41.000Z",
+   "category": "global-security",
+   "summary": "Zelensky called Putin a 'killer' after Trump described the Russian leader as a friend, underscoring transatlantic tension over Russia policy.",
+   "relevance": 2,
+   "tags": [
+    "russia",
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-21-019",
+   "title": "Al Jazeera explains: The US-China AI race is entering a new phase",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/al-jazeera-explains-the-us-china-ai-race-is-entering-a-new-phase?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-21T05:08:40.000Z",
+   "category": "ai-security",
+   "summary": "Explainer on the next phase of the US-China artificial intelligence competition.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-21-021",
+   "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+   "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-21T04:32:07.000Z",
+   "category": "global-security",
+   "summary": "Saudi-led coalition intercepted three Houthi missiles aimed at Riyadh as the Houthis threaten ports and power infrastructure.",
+   "relevance": 2,
+   "tags": [
+    "middle-east",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-21-025",
+   "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-21T02:49:16.000Z",
+   "category": "global-security",
+   "summary": "Gen Z protests over living costs, military spending and climate took place across 25 European countries; potential for disruption and physical security impacts.",
+   "relevance": 2,
+   "tags": [
+    "europe",
+    "protest"
+   ]
+  },
+  {
+   "id": "2026-11-21-040",
+   "title": "Hackers breached US Department of Agriculture, NBC News reports",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUXZEVUk4YzBsSEdWSzNZc0RDelRmeWRPc0ZWY1NGd2FOM19DVTZyU3Q4UGIzM3FoenNsX3N1N2h2TEx1MHNZUDBhdF9WSDdiMUJVZzg2UThoRVkycnJQRkZJZU96NHdDQmkyX3QySXFia3RiMFBkTUgxWWVwVVU3eWFWZzhtZWU0ODlVM0JZVkNDZEVCc3FDU1BEMDh5WWlVaGxlSUpSd0ItUVRjOFVsOWdYMHhHNHc1X3IwY29uNFBaT0k?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-20T23:13:44.000Z",
+   "category": "incidents-threats",
+   "summary": "NBC News reports hackers breached the US Department of Agriculture. No further technical detail provided.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "government",
+    "usa"
+   ]
+  },
+  {
+   "id": "2026-11-21-054",
+   "title": "Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation",
+   "url": "https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/",
+   "source": "Wired – AI",
+   "published": "2026-11-20T19:52:21.000Z",
+   "category": "ai-security",
+   "summary": "WIRED reports the Nvidia board's chief concern before Jensen Huang's resignation was a lack of candor, amid allegations including a relationship with an alleged Chinese intelligence asset.",
+   "relevance": 2,
+   "tags": [
+    "nvidia",
+    "insider-risk"
+   ]
+  },
+  {
+   "id": "2026-11-21-065",
+   "title": "The biggest winners and losers of the EU-UK summit deals",
+   "url": "https://www.politico.eu/article/the-winners-and-losers-of-the-eu-uk-summit-deals/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T17:24:57.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of winners and losers from three new agreements signed at the EU-UK summit.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "uk",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-21-067",
+   "title": "Tanker catches fire after projectile strike near Strait of Hormuz, UKMTO says",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUFlEbXRhcG1QdzdPMU5DZTludFpwQllURVktV0I4cC1pX2g4V1k1dEhTWFVibXk4Wm9IUWFNYjZLRTlCZHBnM044cGo3amFOdTQ2SWdZWkVBUG9LaERYQ3pUQTdvd1loNVlxN0VPTUJTS29tcWsxWlIydFcxRGp4N2xlTUUyMDk1Y1VfLTVfXzYxZGZnVVFEUWpxaW05bS1MTlNQRGZpYUMwQ2xMY3MyMDRFUm1PM1JjaXc?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-20T17:05:12.000Z",
+   "category": "global-security",
+   "summary": "UKMTO reports a tanker caught fire after a projectile strike near the Strait of Hormuz, raising shipping and energy risk.",
+   "relevance": 2,
+   "tags": [
+    "maritime",
+    "middle-east"
+   ]
+  },
+  {
+   "id": "2026-11-21-081",
+   "title": "Marine Le Pen’s party faces scrutiny over alleged leaks from interior ministry",
+   "url": "https://www.politico.eu/article/marine-le-pen-national-rally-party-alleged-interior-ministry-leaks/",
+   "source": "Politico Europe",
+   "published": "2026-11-20T11:56:27.000Z",
+   "category": "policy-regulation",
+   "summary": "A senior French civil servant is under investigation for allegedly leaking confidential judicial information to Marine Le Pen's National Rally.",
+   "relevance": 2,
+   "tags": [
+    "insider",
+    "france",
+    "leak"
+   ]
+  },
+  {
+   "id": "2026-11-21-086",
+   "title": "Combatting adversarial distillation",
+   "url": "https://openai.com/index/combatting-adversarial-distillation",
+   "source": "OpenAI News",
+   "published": "2026-11-20T10:00:00.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI describes its layered defences against adversarial distillation, combining training measures, safeguards, detection and enforcement to prevent capability extraction.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "modelsecurity"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-20",
+  "generatedAt": "2026-11-21T06:47:07.989Z",
+  "total": 5,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 4
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 4
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 4
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-129448",
+    "title": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+    "vendor": "Apache",
+    "product": "Roller",
+    "summary": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 bu…",
+    "kevAdded": "2026-11-20",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-126955",
+    "euvdExploited": "2026-11-20",
+    "cvss": 9.8,
+    "epss": 0.01191,
+    "epssPct": 0.68723,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-129448",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-126955"
+    }
+   },
+   {
+    "cve": "CVE-2026-123890",
+    "title": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "vendor": "Broadcom",
+    "product": "VMware vCenter",
+    "summary": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+    "kevAdded": "2026-11-20",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-130196",
+    "euvdExploited": "2026-11-20",
+    "cvss": 9.8,
+    "epss": 0.00843,
+    "epssPct": 0.58845,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-123890",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-130196"
+    }
+   },
+   {
+    "cve": "CVE-2026-76466",
+    "title": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+    "vendor": "Cisco",
+    "product": "Expressway Series",
+    "summary": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+    "kevAdded": "2026-11-20",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-107382",
+    "euvdExploited": "2026-11-20",
+    "cvss": 9.8,
+    "epss": 0.00417,
+    "epssPct": 0.36836,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-76466",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-107382"
+    }
+   },
+   {
+    "cve": "CVE-2025-42884",
+    "title": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+    "vendor": "SAP",
+    "product": "NetWeaver",
+    "summary": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+    "kevAdded": "2026-11-20",
+    "ransomware": false,
+    "euvdId": "EUVD-2025-60994",
+    "euvdExploited": "2026-11-20",
+    "cvss": 6.5,
+    "epss": 0.00276,
+    "epssPct": 0.2048,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2025-42884",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2025-60994"
+    }
+   },
+   {
+    "cve": "CVE-2026-133872",
+    "title": "Missing login rate limiting in LessPass backend",
+    "vendor": "lesspass",
+    "product": "lesspass",
+    "summary": "LessPass self-hosted sync server backends before commit 9469b0cb90b5a79e2ab4f7f07bb67318dd312b99 do not rate-limit JWT login requests. An unauthenticated remote attacker can make unlimited authentication attempts and may obtain tokens with read and write access to stored profiles if account credentials are successfull…",
+    "zeroExploit": "2026-11-20",
+    "cvss": 9.1,
+    "mitigation": "Update LessPass to commit 9469b0cb90b5a79e2ab4f7f07bb67318dd312b99 or a later release containing it. Until updated, restrict public access to the login endpoints and apply rate limiting at a reverse proxy or gateway.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133872",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-133872"
+    }
+   }
+  ]
+ }
+}
