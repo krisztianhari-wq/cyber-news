@@ -1,0 +1,744 @@
+{
+ "date": "2026-11-23",
+ "generatedAt": "2026-11-23T06:46:34.851Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 31,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "BSI Germany",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "EDPB",
+   "ok": false,
+   "error": "HTTP 503"
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-23-004",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "originalTitle": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-23T06:45:17.474Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed five NGINX flaws allowing unauthenticated remote code execution as the worker process. A researcher PoC exists for CVE-2026-123007; no in-the-wild exploitation reported. Patch internet-facing instances first.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "nginx",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-23-023",
+   "title": "Google claims last week’s critical VMware bug was under attack in September",
+   "url": "https://www.theregister.com/virtualization/2026/11/23/google-claims-last-weeks-critical-vmware-bug-was-under-attack-in-september/5311547",
+   "source": "The Register – Security",
+   "published": "2026-11-23T04:39:19.000Z",
+   "category": "incidents-threats",
+   "summary": "Google says the critical VMware vCenter flaw disclosed last week was already exploited in September by China-linked ARMORY CASTLE, which deployed five custom malware tools.",
+   "relevance": 5,
+   "tags": [
+    "vmware",
+    "zero-day",
+    "apt"
+   ]
+  },
+  {
+   "id": "2026-11-23-057",
+   "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "source": "BleepingComputer",
+   "published": "2026-11-22T18:45:37.000Z",
+   "category": "incidents-threats",
+   "summary": "GL.iNet confirmed attackers abused a flaw in its cloud remote management service to deploy custom malware on customer routers and KVM devices, with users reporting backdoors and reverse shells.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "iot",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-23-065",
+   "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "source": "The Hacker News",
+   "published": "2026-11-22T05:06:55.000Z",
+   "category": "ai-security",
+   "summary": "Dragos found attackers exfiltrated data from three AI inference providers for months, including requests marked Zero Data Retention; OpenRouter dropped the three providers.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "supply-chain",
+    "data-theft"
+   ]
+  },
+  {
+   "id": "2026-11-23-005",
+   "title": "2026-021: High severity vulnerability in Java SE and OpenJDK",
+   "originalTitle": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-23T06:45:17.474Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle and OpenJDK patched CVE-2026-114938, a high severity flaw that may allow unauthenticated RCE under certain conditions. CERT-EU advises prioritising internet-facing Java applications.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-23-006",
+   "title": "2026-020: Critical vulnerabilities in Citrix NetScaler ADC and Gateway",
+   "originalTitle": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-23T06:45:17.474Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cloud Software Group patched 28 memory flaws in NetScaler ADC/Gateway; CVE-2026-120868 affects all deployments including default configs, with unpredictable behaviour and DoS impact. No known exploitation.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "citrix",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-23-048",
+   "title": "Google’s semantic governance policies can block an AI agent’s tool call before it runs",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/google-semantic-governance-policies/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T00:27:25.000Z",
+   "category": "ai-security",
+   "summary": "Google's semantic governance policies, in preview on Gemini, inspect each proposed AI agent tool call at an external enforcement point such as Agent Gateway and block calls that violate rules or user intent.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "agents",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-23-061",
+   "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-11-22T15:43:04.000Z",
+   "category": "incidents-threats",
+   "summary": "E-commerce platform Cleverbridge disclosed a breach in which attackers stole customer payment card data including card numbers and CVV codes.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "payment",
+    "pci"
+   ]
+  },
+  {
+   "id": "2026-11-23-066",
+   "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+   "source": "The Hacker News",
+   "published": "2026-11-22T05:03:41.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Researchers at pwn.ai demonstrated a now-patched Ghostscript sandbox escape allowing RCE on servers processing uploaded PDFs, PostScript files or images.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "rce",
+    "ghostscript"
+   ]
+  },
+  {
+   "id": "2026-11-23-003",
+   "title": "354 dark web vendors and buyers arrested in Europol-coordinated global crackdown",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/354-dark-web-vendors-and-buyers-arrested-in-europol-coordinated-global-crackdown",
+   "source": "Europol",
+   "published": "2026-11-23T06:45:17.953Z",
+   "category": "eu-threat-landscape",
+   "summary": "Operation TorNado, spanning May 2025 to October 2026 across 14 countries, led to 354 arrests of dark web vendors and buyers tied to cybercrime, drugs and firearms.",
+   "relevance": 3,
+   "tags": [
+    "darkweb",
+    "europol",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-23-007",
+   "title": "Xalgorix: Open-source AI penetration testing tool",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/xalgorix-ai-penetration-testing-tool/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T06:30:08.000Z",
+   "category": "ai-security",
+   "summary": "Xalgorix is an open-source AI pentesting tool that uses a second agent to re-exploit findings, reducing false positives and flagging unverified results for human review.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "pentesting",
+    "opensource"
+   ]
+  },
+  {
+   "id": "2026-11-23-011",
+   "title": "Black Friday scams started earlier this year without the usual red flags",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T06:00:16.000Z",
+   "category": "incidents-threats",
+   "summary": "Doppel reports fake Black Friday offers began on 1 September, over a month earlier than last year, using Facebook groups and Google Sites pages rather than lookalike domains.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "fraud",
+    "brand-abuse"
+   ]
+  },
+  {
+   "id": "2026-11-23-018",
+   "title": "COBIT 7 adds AI risk scenarios to ISACA’s governance framework",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/isaca-cobit-7-released/",
+   "source": "Help Net Security",
+   "published": "2026-11-23T05:30:49.000Z",
+   "category": "policy-regulation",
+   "summary": "ISACA released COBIT 7, updating its IT governance framework with AI risk scenarios, a digital platform and customisable practitioner tools.",
+   "relevance": 3,
+   "tags": [
+    "governance",
+    "ai",
+    "framework"
+   ]
+  },
+  {
+   "id": "2026-11-23-053",
+   "title": "Debian 13.8 bundles kernel and Chromium security fixes with a 122-package bugfix list",
+   "url": "https://www.helpnetsecurity.com/2026/11/23/debian-13-8-released/",
+   "source": "Help Net Security",
+   "published": "2026-11-22T23:05:09.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Debian 13.8 ships security fixes (DSA-6408 to DSA-6629) covering Chromium, Firefox ESR, OpenJDK 25, nginx, BIND 9, Dovecot, rsync and PostgreSQL 17, plus 122 bugfixes.",
+   "relevance": 3,
+   "tags": [
+    "patching",
+    "linux",
+    "debian"
+   ]
+  },
+  {
+   "id": "2026-11-23-058",
+   "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+   "url": "https://isc.sans.edu/diary/rss/33530",
+   "source": "SANS ISC",
+   "published": "2026-11-22T18:40:18.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS ISC diary on syslog timestamp formats and a dropped rsyslogd config directive in Debian and Ubuntu since 2023, relevant for log parsing and detection.",
+   "relevance": 3,
+   "tags": [
+    "logging",
+    "detection"
+   ]
+  },
+  {
+   "id": "2026-11-23-062",
+   "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+   "source": "BleepingComputer",
+   "published": "2026-11-22T15:15:25.000Z",
+   "category": "ai-security",
+   "summary": "Signal will block screenshots on iOS 27 and prevent AI assistants such as Siri and Gemini from capturing conversations on supported Android devices.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "privacy",
+    "mobile"
+   ]
+  },
+  {
+   "id": "2026-11-23-063",
+   "title": "Banks Have Had It Up to Here With Your AI Agent",
+   "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+   "source": "Wired – AI",
+   "published": "2026-11-22T11:00:00.000Z",
+   "category": "ai-security",
+   "summary": "Major US banks are barring third-party AI agents from logging into customer accounts and stating that losses from bot errors fall on the customer.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "banking"
+   ]
+  },
+  {
+   "id": "2026-11-23-064",
+   "title": "Week in review: Java4Shell proves tricky to exploit, malware planted via Optimizely hits 178 orgs",
+   "url": "https://www.helpnetsecurity.com/2026/11/22/week-in-review-java4shell-proves-tricky-to-exploit-malware-planted-via-optimizely-hits-178-orgs/",
+   "source": "Help Net Security",
+   "published": "2026-11-22T09:00:25.000Z",
+   "category": "incidents-threats",
+   "summary": "Weekly roundup covering the Optimizely supply-chain malware campaign affecting 178 organisations and analysis showing CVE-2026-114938 (Java4Shell) exploitation is CPU-dependent and difficult.",
+   "relevance": 3,
+   "tags": [
+    "supply-chain",
+    "cve",
+    "roundup"
+   ]
+  },
+  {
+   "id": "2026-11-23-068",
+   "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "source": "SecurityWeek",
+   "published": "2026-11-22T00:53:02.000Z",
+   "category": "incidents-threats",
+   "summary": "The FBI is investigating an apparent compromise of a national criminal justice database it maintains, according to an AP source.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-23-001",
+   "title": "Over 70 women identified as victims of trafficking network operating across nine European countries",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/over-70-women-identified-victims-of-trafficking-network-operating-across-nine-european-countries",
+   "source": "Europol",
+   "published": "2026-11-23T06:45:17.953Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol-backed actions in November 2026 targeted a network trafficking Romanian women for sexual exploitation across nine European countries; over 70 victims identified.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "organised-crime"
+   ]
+  },
+  {
+   "id": "2026-11-23-010",
+   "title": "As Syria-EU talks progress, diplomats fear focus will be on repatriation",
+   "url": "https://www.aljazeera.com/features/2026/11/23/as-syria-eu-talks-progress-diplomats-fear-focus-will-be-on-repatriation?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-23T06:08:13.000Z",
+   "category": "global-security",
+   "summary": "Syria and the EU are negotiating trade and political ties, with migration and repatriation expected to dominate the agenda.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-23-017",
+   "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+   "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-23T05:33:17.000Z",
+   "category": "global-security",
+   "summary": "A Russian strike on Dymer, Ukraine killed eleven people; a seven-year-old boy was pulled alive from the rubble as rescue work continues.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-23-020",
+   "title": "France gets an EU budget win — but wants more",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/france-gets-an-eu-budget-win-but-wants-more/",
+   "source": "Politico Europe",
+   "published": "2026-11-23T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico newsletter item on France securing a win in EU budget negotiations while pushing for more.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-23-024",
+   "title": "Child rescued in Ukraine after Russian drone attack kills 10",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/child-rescued-in-ukraine-after-russian-drone-attack-kills-10?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-23T04:38:14.000Z",
+   "category": "global-security",
+   "summary": "A Russian drone attack in Ukraine killed 10; a seven-year-old was rescued after 14 hours under rubble.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-23-033",
+   "title": "Belgium’s airports set to shut down due to anti-austerity strike",
+   "url": "https://www.aljazeera.com/news/2026/11/23/belgiums-airports-set-to-shut-down-due-to-anti-austerity-strike?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-23T03:15:55.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Belgian air traffic control provider Skeyes halted services amid an anti-austerity strike, grounding flights at Belgian airports. Relevant for travel and continuity planning.",
+   "relevance": 2,
+   "tags": [
+    "belgium",
+    "disruption"
+   ]
+  },
+  {
+   "id": "2026-11-23-035",
+   "title": "Far right wants to transform the EU after big national election wins",
+   "url": "https://www.politico.eu/article/far-right-patriots-for-europe-national-election-wins-transform-eu/",
+   "source": "Politico Europe",
+   "published": "2026-11-23T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Patriots co-president Kinga Gál says the far-right group aims to transform the EU after national election wins.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "politics"
+   ]
+  },
+  {
+   "id": "2026-11-23-037",
+   "title": "In the new world order, Europe doesn’t have a seat at the table",
+   "url": "https://www.politico.eu/article/new-world-order-europe-seat-table/",
+   "source": "Politico Europe",
+   "published": "2026-11-23T03:00:00.000Z",
+   "category": "global-security",
+   "summary": "Analysis argues the Trump-Putin-Xi meeting in Shenzhen highlighted Europe's declining geopolitical influence despite few concrete outcomes.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-23-038",
+   "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-23T02:59:35.000Z",
+   "category": "global-security",
+   "summary": "An explosion on a Russian ship at a Libyan port is suspected to have been caused by a drone attack, according to Libya's eastern government.",
+   "relevance": 2,
+   "tags": [
+    "drones",
+    "conflict"
+   ]
+  },
+  {
+   "id": "2026-11-23-046",
+   "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33548",
+   "source": "SANS ISC",
+   "published": "2026-11-23T02:00:04.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Daily SANS Internet Storm Center podcast episode for 23 November 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-11-23-049",
+   "title": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
+   "url": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532",
+   "source": "The Register – Security",
+   "published": "2026-11-23T00:23:31.000Z",
+   "category": "ai-security",
+   "summary": "The Register reports that about $1 of GPT-5.1 tokens was enough to discover new circumvention methods for China's Great Firewall, plus other regional tech news.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "censorship"
+   ]
+  },
+  {
+   "id": "2026-11-23-051",
+   "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+   "url": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-23T00:08:00.000Z",
+   "category": "global-security",
+   "summary": "BBC reports growing concern among San Francisco AI workers that the sector is overheated and may crash.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "economy"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-22",
+  "generatedAt": "2026-11-23T06:46:34.850Z",
+  "total": 1,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 2
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 1
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-134623",
+    "title": "Improper access control in Microweber Generic API Dispatcher",
+    "product": "Microweber",
+    "summary": "Microweber through version 2.0.20 contains an improper access-control flaw in its Generic API Dispatcher. A remote attacker may be able to perform actions with insufficient authorization; the advisory does not identify an authentication prerequisite.",
+    "zeroExploit": "2026-11-22",
+    "cvss": 7.3,
+    "mitigation": "Upgrade Microweber to version 2.0.21 or later. If an immediate upgrade is not possible, restrict access to the affected API endpoints to trusted users and networks.",
+    "epss": 0.00583,
+    "epssPct": 0.48802,
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-134623",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-134623"
+    }
+   }
+  ]
+ }
+}
