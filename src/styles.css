@@ -165,3 +165,5 @@ footer details[open] summary::after { content: " ↑"; }
 .radar-list p { margin: 0 0 6px; color: var(--muted); font-size: 0.88rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; overflow-wrap: anywhere; }
 .radar-list p.fix { -webkit-line-clamp: 2; }
 .radar-list .meta { display: flex; gap: 12px; font-size: 0.8rem; }
+.meta a.tag.cve { text-decoration: none; }
+.meta a.tag.cve:hover { text-decoration: underline; }

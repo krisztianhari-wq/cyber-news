@@ -29,12 +29,20 @@ export function App() {
   useEffect(() => {
     fetch(`${BASE}data/index.json`, { cache: "no-cache" })
       .then((r) => { if (!r.ok) throw new Error(`index ${r.status}`); return r.json() as Promise<IndexFile>; })
-      .then((ix) => { setIndex(ix); if (ix.days[0]) setSelectedDate(ix.days[0].date); })
+      .then((ix) => {
+        setIndex(ix);
+        // ?d=YYYY-MM-DD → az adott napi kiadás (megosztható link); egyébként a legfrissebb
+        const want = new URLSearchParams(location.search).get("d");
+        const d = ix.days.find((x) => x.date === want) ?? ix.days[0];
+        if (d) setSelectedDate(d.date);
+      })
       .catch((e) => setError(String(e)));
   }, []);
 
   useEffect(() => {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(selectedDate)) return;
+    if (index && selectedDate !== index.days[0]?.date) history.replaceState(null, "", `?d=${selectedDate}`);
+    else if (location.search.includes("d=")) history.replaceState(null, "", location.pathname);
     setDay(null);
     fetch(`${BASE}data/days/${selectedDate}.json`, { cache: "no-cache" })
       .then((r) => { if (!r.ok) throw new Error(`day ${r.status}`); return r.json() as Promise<DayFile>; })
@@ -185,6 +193,10 @@ export function App() {
   );
 }
 
+// sadrobot-arculatban a hírben említett CVE-k a Sebezhetőség-naplóra linkelnek (a Yettel-buildben nem)
+const cvesOf = (item: NewsItem) =>
+  BRAND === "sadrobot" ? [...new Set(`${item.title} ${item.originalTitle ?? ""} ${item.summary}`.toUpperCase().match(/CVE-\d{4}-\d{4,7}/g) ?? [])].slice(0, 4) : [];
+
 function Story({ item, showDate }: { item: NewsItem; showDate: boolean }) {
   const safe = isHttp(item.url);
   return (
@@ -200,6 +212,7 @@ function Story({ item, showDate }: { item: NewsItem; showDate: boolean }) {
         {item.originalTitle && <span className="tag" title={item.originalTitle}>translated</span>}
         {item.tags.map((t) => <span className="tag" key={t}>{t}</span>)}
         {showDate && <span className="tag">{categoryName(item.category)}</span>}
+        {cvesOf(item).map((c) => <a className="tag cve" key={c} href={`https://sadrobot.eu/vuln/?q=${c}&all=1`} title="sadrobot Sebezhetőség-napló / Vulnerability Log">{c}</a>)}
       </div>
     </article>
   );
