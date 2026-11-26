@@ -1,0 +1,1162 @@
+{
+ "date": "2026-11-26",
+ "generatedAt": "2026-11-26T06:47:07.008Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 47,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "BSI Germany",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-26-001",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-26T06:45:26.086Z",
+   "category": "vulns-malware-ttps",
+   "summary": "F5 disclosed five NGINX vulnerabilities allowing unauthenticated remote code execution as the worker process; a PoC exists for CVE-2026-123007 but no in-the-wild exploitation reported. CERT-EU urges prioritising internet-facing instances.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "rce",
+    "nginx"
+   ]
+  },
+  {
+   "id": "2026-11-26-003",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-26T06:45:26.086Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cloud Software Group patched 28 memory flaws in Citrix NetScaler ADC/Gateway; CVE-2026-120868 affects all deployments including default configs, with impact described as unpredictable behaviour and DoS. No exploitation or public PoC confirmed.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-26-031",
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "source": "The Hacker News",
+   "published": "2026-11-26T04:20:22.000Z",
+   "category": "incidents-threats",
+   "summary": "1Password disclosed a breach of backend systems that exposed some customer information; the company states password vaults and secrets were not accessed. Source code was also reportedly stolen.",
+   "relevance": 5,
+   "tags": [
+    "breach",
+    "supply-chain",
+    "github"
+   ]
+  },
+  {
+   "id": "2026-11-26-059",
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T22:05:09.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Palo Alto Networks warns attackers are chaining the PHP2Shell and Fragnesia vulnerabilities against PAN-OS devices with internet-exposed management interfaces.",
+   "relevance": 5,
+   "tags": [
+    "exploitation",
+    "pan-os",
+    "edge"
+   ]
+  },
+  {
+   "id": "2026-11-26-060",
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T21:33:33.000Z",
+   "category": "incidents-threats",
+   "summary": "1Password says an employee's corporate GitHub account was compromised and used to push malicious code into backend services to steal customer data.",
+   "relevance": 5,
+   "tags": [
+    "breach",
+    "github",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-26-070",
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "source": "BleepingComputer",
+   "published": "2026-11-25T19:39:31.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "Swiss and Italian national cyber agencies warn of automated attacks driven by AI agents targeting critical infrastructure organisations.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "critical-infrastructure",
+    "europe"
+   ]
+  },
+  {
+   "id": "2026-11-26-074",
+   "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+   "source": "Microsoft Security Blog",
+   "published": "2026-11-25T18:09:06.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft details how the agentic AI pentest framework ARTEX is abused by actors including Salt Typhoon, Onyx Sleet and Crystal Typhoon to speed up reconnaissance, credential attacks and web app exploitation.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "apt",
+    "ttps"
+   ]
+  },
+  {
+   "id": "2026-11-26-083",
+   "title": "CVE-2026-123903: Critical VMware Directory Service Authentication Bypass affects vCenter",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter",
+   "source": "Rapid7 Blog",
+   "published": "2026-11-25T12:19:20.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Broadcom's VMSA-2026-0011 fixes CVE-2026-123903, a CVSS 9.8 authentication bypass in vCenter's VMware Directory Service allowing network-reachable attackers to gain access without credentials.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "vmware",
+    "vcenter"
+   ]
+  },
+  {
+   "id": "2026-11-26-002",
+   "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-26T06:45:26.086Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle and OpenJDK patched CVE-2026-114938, a high-severity flaw that can lead to unauthenticated RCE under certain conditions. CERT-EU recommends updating, starting with internet-facing Java applications.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-26-021",
+   "title": "More than 4,400 malicious domains are waiting for holiday shoppers",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/fortinet-holiday-shopping-cyber-threats-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-26T06:00:53.000Z",
+   "category": "incidents-threats",
+   "summary": "FortiGuard Labs found over 24,000 newly registered shopping-themed domains in 90 days, 4,400+ of them malicious, supporting storefront fraud, retailer impersonation and account takeover during the holiday season.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "fraud",
+    "holiday"
+   ]
+  },
+  {
+   "id": "2026-11-26-024",
+   "title": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+   "source": "Help Net Security",
+   "published": "2026-11-26T05:30:05.000Z",
+   "category": "ai-security",
+   "summary": "Google will require Workspace AI agents to use MCP or CLI access from February 2027, adding agent identities, human approval for sensitive operations, prompt injection screening and limits on third-party AI data access.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "mcp",
+    "prompt-injection"
+   ]
+  },
+  {
+   "id": "2026-11-26-037",
+   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+   "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+   "source": "The Hacker News",
+   "published": "2026-11-26T03:48:52.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Socket researchers found 13 malicious NuGet packages posing as WinUI 3/WPF controls, delivered to .NET developers via fake take-home job assessments that execute malware on build or run.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "nuget",
+    "malware"
+   ]
+  },
+  {
+   "id": "2026-11-26-061",
+   "title": "Microsoft: China's Salt Typhoon hackers are using ARTEX",
+   "originalTitle": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "source": "The Record",
+   "published": "2026-11-25T21:18:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft reports that the ARTEX AI tool, linked to several high-profile breaches, is being adopted into the toolkits of Chinese and North Korean state-aligned groups.",
+   "relevance": 4,
+   "tags": [
+    "apt",
+    "ai",
+    "salt-typhoon"
+   ]
+  },
+  {
+   "id": "2026-11-26-077",
+   "title": "Daily summary - 25.11.2026 (CERT.at)",
+   "originalTitle": "Tageszusammenfassung - 25.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-25112026",
+   "source": "CERT.at",
+   "published": "2026-11-25T17:23:18.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's end-of-day report highlights active exploitation of two newly patched GeoServer flaws (CVE-2026-120705, CVE-2026-129243), with researchers warning of unauthenticated RCE chains.",
+   "relevance": 4,
+   "tags": [
+    "geoserver",
+    "exploitation",
+    "cve"
+   ]
+  },
+  {
+   "id": "2026-11-26-085",
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-25T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added 10 actively exploited vulnerabilities to its KEV catalog, including Danfoss AK-SM 800A, HPE Juniper Session Smart Conductor/Router command injection and Mitel MiCollab file upload flaws.",
+   "relevance": 4,
+   "tags": [
+    "kev",
+    "exploitation",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-26-087",
+   "title": "The Great Escape: Tradecraft insights from an agentic swarm",
+   "url": "https://blog.talosintelligence.com/the-great-escape-tradecraft-insights-from-an-agentic-swarm/",
+   "source": "Talos Intelligence",
+   "published": "2026-11-25T11:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Talos analyses the tradecraft of an OpenAI-linked agentic 'swarm' activity in 2026 and compares it to current agentic attack behaviour observed in the wild.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "ttps",
+    "agentic"
+   ]
+  },
+  {
+   "id": "2026-11-26-004",
+   "title": "LearnWorlds free trial abused for phishing campaign",
+   "originalTitle": "2026. 11. 26. A LearnWorlds ingyenes próbaidőszakát használták fel adathalász kampányhoz A The Register 2026. november 16-i beszámolója szerint egy támadó kihasználta a LearnWorlds ingyenes próbaidős…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/a-learnworlds-ingyenes-probaidoszakat-hasznaltak-fel-adathalasz-kampanyhoz/",
+   "source": "NKI Hungary",
+   "published": "2026-11-26T06:45:19.893Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungary's NKI relays a report that an attacker abused the free trial of the LearnWorlds e-learning platform to host a phishing campaign, leveraging the provider's trusted infrastructure.",
+   "relevance": 3,
+   "tags": [
+    "phishing",
+    "saas-abuse"
+   ]
+  },
+  {
+   "id": "2026-11-26-005",
+   "title": "FBI hit by a second data breach in a short period",
+   "originalTitle": "2026. 11. 25. Az FBI-t rövid időn belül egy második adatszivárgás érte Sajtóértesülések szerint az FBI egy 2026. november 19-én történt támadást vizsgál, amely a National Crime Information Center (NC…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/az-fbi-t-rovid-idon-belul-egy-masodik-adatszivargas-erte/",
+   "source": "NKI Hungary",
+   "published": "2026-11-26T06:45:19.893Z",
+   "category": "incidents-threats",
+   "summary": "The FBI is reportedly investigating a 19 November 2026 intrusion affecting the National Crime Information Center, the second breach disclosed in quick succession.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-26-009",
+   "title": "How to track AI use and meet GDPR obligations effectively",
+   "url": "https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively",
+   "source": "IAPP",
+   "published": "2026-11-26T06:45:18.690Z",
+   "category": "policy-regulation",
+   "summary": "Practical IAPP guidance on inventorying and tracking AI usage within organisations to satisfy GDPR obligations.",
+   "relevance": 3,
+   "tags": [
+    "gdpr",
+    "ai",
+    "compliance"
+   ]
+  },
+  {
+   "id": "2026-11-26-011",
+   "title": "Law enforcement follow crypto money trail behind billion-euro illegal streaming industry",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-follow-crypto-money-trail-behind-billion-euro-illegal-streaming-industry",
+   "source": "Europol",
+   "published": "2026-11-26T06:45:18.560Z",
+   "category": "eu-threat-landscape",
+   "summary": "Police from 11 countries, coordinated by Europol in Seville, traced cryptocurrency payments financing illegal IPTV networks behind Europe's billion-euro piracy industry.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "crypto",
+    "iptv"
+   ]
+  },
+  {
+   "id": "2026-11-26-016",
+   "title": "How Chinese companies circumvent chips sanctions in Southeast Asia",
+   "url": "https://www.dw.com/en/how-chinese-companies-circumvent-chips-sanctions-in-southeast-asia/a-80041002?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-26T06:11:00.000Z",
+   "category": "global-security",
+   "summary": "Report on Chinese firms circumventing US AI chip export controls by renting offshore compute capacity in Southeast Asia, and US efforts to close the loophole.",
+   "relevance": 3,
+   "tags": [
+    "export-controls",
+    "ai",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-26-023",
+   "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
+   "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-world-4025-rdf",
+   "source": "DW World",
+   "published": "2026-11-26T05:45:00.000Z",
+   "category": "global-security",
+   "summary": "DW examines Russia's 'Rassvet' satellite internet project as a potential counterpart to Starlink and its possible impact on the war in Ukraine.",
+   "relevance": 3,
+   "tags": [
+    "satellite",
+    "russia",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-11-26-055",
+   "title": "Australia's Flight Centre probes data breach in third-party system",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPS3V6YWxUNDFXcU90eEFNd1FXdkFwSkF6eGdkQlk3SWwxNlc5cUNfNm45UkJFczdRTDhZOXlKVHR4OWo4SVBsWGs5Rmk5djhnZkpsUmk4azJleTB0SkFDNGVPUVZXV0pjdS03LXQzb0NFWlpWLTU5N1JrUU1VSWYwa0JUdG1kdGxQV3o2R3l3cW84TElnN2FjNjZDemh3eHUwQXRWQ2h0Q2Y1TXBScnczNjZPVF91eVVDWXhmUkJJRzVaMWMtVUYyVEhiaw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-25T23:43:46.000Z",
+   "category": "incidents-threats",
+   "summary": "Australian travel group Flight Centre is investigating a data breach originating in a third-party system, another reminder of supplier risk.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "third-party"
+   ]
+  },
+  {
+   "id": "2026-11-26-064",
+   "title": "US FinCEN takes some systems offline after cyber incident, official says",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWM5VEUyRVVFMDgwbkZqY3NGWVE1RXhFWjA1S1NseTlHQzUxMkVLSnpTNU5NbnV6ejRwd0hHSTNadk1CRzdubk9MRjExMWc3RUZ1YVVqRnczOFY3VGRzNm5LcHAyQ295dThkdGNkWUV4b2t0MDFQbDhZbE03XzQ2Um1EWE9QNHBkSjFKc05GZkFPNjZnYi16REtjcmJDZ1kxZ0ZmVTd1LV9lVWM1Z01xal9mRQ?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-25T20:42:56.000Z",
+   "category": "incidents-threats",
+   "summary": "The US Treasury's FinCEN took some systems offline following a cyber incident, according to an official.",
+   "relevance": 3,
+   "tags": [
+    "incident",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-11-26-065",
+   "title": "Retailers face rising AI cyberattack threat ahead of Black Friday, many uninsured",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOQXpGTVZodUxhM09Jb0ZEQ1JXcmt0VkoxUndncmc3cXhoSWNmWlduNlJmRlA3VzhuRktZT2F6ZjJoTGZ5eVZEa01xZ3A2OHBaVjA4dDJkUTR4TkNNUnc5ay1XazlBcHAzSkVuQVpEVGtsMGlPVlNzLVM0X3F3WnJMZklqMTJnMWszSkxBMEZRLWx5cXgyRE9aSEJtSDlELWRCVjByTGhqT0hPQ200Ui03TUJfaGd1NXRjLUVVM21ObUlSSWd0bEktdmtua0VMWlpoRHFadg?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-25T20:42:25.000Z",
+   "category": "incidents-threats",
+   "summary": "Reuters reports retailers face growing AI-assisted cyberattacks heading into Black Friday, with many lacking cyber insurance cover.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "retail",
+    "insurance"
+   ]
+  },
+  {
+   "id": "2026-11-26-069",
+   "title": "The security of US water systems is even leakier than we thought",
+   "url": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+   "source": "The Register – Security",
+   "published": "2026-11-25T19:40:17.000Z",
+   "category": "incidents-threats",
+   "summary": "Report finds US water utility security is weaker than previously assessed, with intruders often gaining access without exploiting vulnerabilities.",
+   "relevance": 3,
+   "tags": [
+    "ics",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-26-081",
+   "title": "The AI Threat Horizon: Why Speed, Edge AI and Baselines Are Our Best Defense",
+   "url": "https://unit42.paloaltonetworks.com/ai-threat-horizon/",
+   "source": "Unit 42",
+   "published": "2026-11-25T15:00:09.000Z",
+   "category": "ai-security",
+   "summary": "Unit 42 analyses the evolution of AI-driven cyberattacks and recommends speed, edge AI and strong behavioural baselines as core defensive strategies.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-11-26-084",
+   "title": "Tracking Incidents of Hacking Using AI Tools",
+   "url": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-25T12:07:21.000Z",
+   "category": "ai-security",
+   "summary": "Schneier points to a public tracker of AI-enhanced hacking incidents and the offensive harnesses used by attackers.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "threat-intel"
+   ]
+  },
+  {
+   "id": "2026-11-26-006",
+   "title": "When nobody checks the work: What recent system outages mean for AI governance",
+   "url": "https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance",
+   "source": "IAPP",
+   "published": "2026-11-26T06:45:18.690Z",
+   "category": "policy-regulation",
+   "summary": "IAPP commentary arguing that recent system outages expose weak oversight and verification practices, with implications for AI governance frameworks.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-26-007",
+   "title": "Closing the AI connector blind spot: A certification model for privacy teams",
+   "url": "https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams",
+   "source": "IAPP",
+   "published": "2026-11-26T06:45:18.690Z",
+   "category": "policy-regulation",
+   "summary": "IAPP piece proposing a certification model for privacy teams to address visibility gaps created by AI connectors integrating enterprise data sources.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-26-008",
+   "title": "Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility",
+   "url": "https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility",
+   "source": "IAPP",
+   "published": "2026-11-26T06:45:18.690Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of accountability for AI errors, highlighting the gap between legal responsibility and the technical visibility organisations actually have into AI systems.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "accountability"
+   ]
+  },
+  {
+   "id": "2026-11-26-015",
+   "title": "How Silicon Valley became central to Israel’s war on Palestinians",
+   "url": "https://www.aljazeera.com/news/2026/11/26/how-silicon-valley-central-israel-war-palestinians?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-26T06:12:53.000Z",
+   "category": "global-security",
+   "summary": "Opinion-style report on US technology firms supplying surveillance and AI targeting capabilities used in Israel's military operations.",
+   "relevance": 2,
+   "tags": [
+    "surveillance",
+    "ai"
+   ]
+  },
+  {
+   "id": "2026-11-26-019",
+   "title": "ICC judge Kimberly Prost tries war crimes. She’s a target of US sanctions",
+   "url": "https://www.aljazeera.com/news/2026/11/26/icc-judge-kimberly-prost-tries-war-crimes-shes-a-target-of-us-sanctions?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-26T06:07:35.000Z",
+   "category": "global-security",
+   "summary": "An ICC judge under US sanctions faces blocked bank transfers and unusable apps, illustrating how reliance on US technology providers affects sanctioned individuals and institutions.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "digital-sovereignty"
+   ]
+  },
+  {
+   "id": "2026-11-26-020",
+   "title": "Proxmox 9.3 adds production snapshots for SAN-backed VMs",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/proxmox-9-3-adds-production-snapshots-for-san-backed-vms/",
+   "source": "Help Net Security",
+   "published": "2026-11-26T06:07:23.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Proxmox VE 9.3 adds production-supported snapshots for VMs on shared LVM over iSCSI and Fibre Channel SANs, plus persistent guest identities across migration and restore.",
+   "relevance": 2,
+   "tags": [
+    "virtualization",
+    "backup"
+   ]
+  },
+  {
+   "id": "2026-11-26-026",
+   "title": "EU leaders brace for a summit ‘bloodbath’",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-brace-for-a-summit-bloodbath/",
+   "source": "Politico Europe",
+   "published": "2026-11-26T05:05:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico preview of a contentious European Council summit where leaders are expected to clash.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "summit"
+   ]
+  },
+  {
+   "id": "2026-11-26-027",
+   "title": "People are willing to pay to vanish from search results",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/incogni-online-privacy-concerns-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-26T05:00:06.000Z",
+   "category": "policy-regulation",
+   "summary": "An Incogni survey of 1,008 US adults found 55% would pay to permanently remove their personal data from public search results, signalling rising data-removal demand.",
+   "relevance": 2,
+   "tags": [
+    "privacy",
+    "survey"
+   ]
+  },
+  {
+   "id": "2026-11-26-032",
+   "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVE1ZllSR0xRNHFVUjR0WWJjQXF2MllxbUV3WUQ2Vno2WFFCbzkyODBvWjE1WmtscC1rdkVLdVJXUDhUUXFiMDZQbS01akV2UjhQQUFwMWp2aWdrdm5ZQy11b0tvX3BkSVU1WmdUV2J4N2l0UF9tcHVqRzBuWkxhRUVsU1FtMTl1aEhRWkx3RFI2VDlraEhKemFOV0ZEX0todDFpTTBsTndhZk0zclNaWk5lNA?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-26T04:20:00.000Z",
+   "category": "global-security",
+   "summary": "Trump and the NATO Secretary General urged Russia to avoid actions that could widen the war in Ukraine.",
+   "relevance": 2,
+   "tags": [
+    "nato",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-11-26-034",
+   "title": "US announces new tariffs on host of countries including China",
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-26T04:10:58.000Z",
+   "category": "global-security",
+   "summary": "The US announced new tariffs affecting major trading partners including China and the EU.",
+   "relevance": 2,
+   "tags": [
+    "trade",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-26-039",
+   "title": "EXCLUSIVE: US officials divided over Chinese spying allegations following Jensen Huang's return",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcXVqeXRkckRvMDl4OWJsUlhwZk5qNDNKZWl5MGxrSWFXSmdUWW14QmJvTXFUSFBXekdMc2lHZ2h0WjY2MjdJWjdhYTB6SUR0NTRaYmVQbUVMVUIyd1NJY1h2N0VDMGJoNHV2MkFYb29wS1R1WVFnWkgxVmNid1g0UVhka29CS3JzUWNvMTFaZTFucGJ6cG1RV2pDc2NUUWRrNnRYcF9uMVM2cEpFNEdrRlJsMHotUkRFR2pneW93?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-26T03:38:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters reports US officials are divided over Chinese espionage allegations following Nvidia CEO Jensen Huang's return.",
+   "relevance": 2,
+   "tags": [
+    "espionage",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-26-042",
+   "title": "Anthropic CEO denies supporting AI control as superintelligence looms",
+   "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-26T03:20:23.000Z",
+   "category": "global-security",
+   "summary": "Anthropic CEO Dario Amodei pushed back on claims he supports ceding control to AI, amid debate over superintelligence timelines.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-26-045",
+   "title": "5 budget battles to watch at the EU summit",
+   "url": "https://www.politico.eu/article/5-budget-battles-to-watch-at-the-eu-summit/",
+   "source": "Politico Europe",
+   "published": "2026-11-26T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Preview of five contentious budget issues at the EU summit, including farm subsidies and tech taxes, in the seven-year budget negotiations.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-26-063",
+   "title": "Tusk government ‘facing armageddon’ as European court resumes cases against Poland",
+   "url": "https://www.politico.eu/article/donald-tusk-government-facing-armageddon-as-european-court-resumes-cases-against-poland/",
+   "source": "Politico Europe",
+   "published": "2026-11-25T20:45:59.000Z",
+   "category": "policy-regulation",
+   "summary": "The European Court resumed cases against Poland over the former government's judicial overhaul, exposing the country to potentially significant compensation payments.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "rule-of-law"
+   ]
+  },
+  {
+   "id": "2026-11-26-066",
+   "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+   "url": "https://therecord.media/fifa-data-breach-limited",
+   "source": "The Record",
+   "published": "2026-11-25T20:40:00.000Z",
+   "category": "incidents-threats",
+   "summary": "FIFA confirmed attackers accessed a limited set of personal and business information and says it is working with authorities and law enforcement.",
+   "relevance": 2,
+   "tags": [
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-26-068",
+   "title": "'I'm going to drive': FAA outage and high fares reshape Thanksgiving travel plans",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT0JCVU41RW50NmNGSktkQ2FNUC1qRUoycmdQdTViUkFzc0w0UnhrSXZ1R1ZaS3NRYlZCR3dqTmQ5NUl2dTNYeFlxMUNyTVl6TF85RXpkX1FsanJBMmpma2pDY2xfdFJyZXhkR3Q4eEJ3cFg2WXRhbjdOSnJiUzZEcmU2MjQwcHVqWTJUY3U3dGxXUldaYjdRMFo0bEtvRkdSSno4dllLM0dteGo0Q2laWVJzeUZ5dw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-25T19:56:20.000Z",
+   "category": "incidents-threats",
+   "summary": "An FAA outage and high fares are changing US Thanksgiving travel behaviour, with more travellers choosing to drive.",
+   "relevance": 2,
+   "tags": [
+    "outage",
+    "aviation"
+   ]
+  },
+  {
+   "id": "2026-11-26-076",
+   "title": "Don’t ‘backslide’ on defense spending, senior US lawmaker tells Europe",
+   "url": "https://www.politico.eu/article/dont-backslide-on-defense-spending-senior-us-lawmaker-tells-europe-brendan-boyle/",
+   "source": "Politico Europe",
+   "published": "2026-11-25T17:25:37.000Z",
+   "category": "policy-regulation",
+   "summary": "A senior US lawmaker urged Europe not to backslide on defence spending during difficult EU seven-year budget talks.",
+   "relevance": 2,
+   "tags": [
+    "defence",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-26-079",
+   "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+   "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+   "source": "The Record",
+   "published": "2026-11-25T17:07:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Australia passed the Digital Duty of Care Act, requiring online platforms to proactively establish protocols against foreseeable harms such as violence and abuse.",
+   "relevance": 2,
+   "tags": [
+    "regulation",
+    "platforms"
+   ]
+  },
+  {
+   "id": "2026-11-26-089",
+   "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+   "url": "https://isc.sans.edu/diary/rss/33554",
+   "source": "SANS ISC",
+   "published": "2026-11-25T02:00:03.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "SANS Internet Storm Center daily podcast episode for 25 November 2026.",
+   "relevance": 2,
+   "tags": [
+    "podcast"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-25",
+  "generatedAt": "2026-11-26T06:47:07.007Z",
+  "total": 11,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 10
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 4
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 10
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-133323",
+    "title": "Mitel MiCollab OS Command Injection Vulnerability",
+    "vendor": "Mitel",
+    "product": "MiCollab",
+    "summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-130382",
+    "euvdExploited": "2026-11-25",
+    "cvss": 10,
+    "epss": 0.02546,
+    "epssPct": 0.85725,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133323",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-130382"
+    }
+   },
+   {
+    "cve": "CVE-2026-133469",
+    "title": "Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+    "vendor": "Vates",
+    "product": "Xen Orchestra",
+    "summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty JSON object.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-133254",
+    "euvdExploited": "2026-11-25",
+    "cvss": 9.8,
+    "epss": 0.01101,
+    "epssPct": 0.65258,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133469",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-133254"
+    }
+   },
+   {
+    "cve": "CVE-2026-133303",
+    "title": "Mitel MiCollab XML Injection Vulnerability",
+    "vendor": "Mitel",
+    "product": "MiCollab",
+    "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-130376",
+    "euvdExploited": "2026-11-25",
+    "cvss": 9,
+    "epss": 0.00515,
+    "epssPct": 0.37111,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133303",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-130376"
+    }
+   },
+   {
+    "cve": "CVE-2026-133324",
+    "title": "Mitel MiCollab Not Failing Securely Vulnerability",
+    "vendor": "Mitel",
+    "product": "MiCollab",
+    "summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-130384",
+    "euvdExploited": "2026-11-25",
+    "cvss": 5.3,
+    "epss": 0.00414,
+    "epssPct": 0.273,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133324",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-130384"
+    }
+   },
+   {
+    "cve": "CVE-2026-129968",
+    "title": "Unauthenticated template injection in LiteSpeed Cache for PrestaShop",
+    "vendor": "LiteSpeed Technologies",
+    "product": "LiteSpeed Cache Plugin for Prestashop",
+    "summary": "LiteSpeed Cache Plugin for PrestaShop versions before 1.6.2 are affected by an unauthenticated template-rendering flaw. An unauthenticated remote attacker can cause a vulnerable store to process attacker-controlled content, potentially compromising the store and exposing customer or payment data.",
+    "zeroExploit": "2026-11-25",
+    "knownExploited": "2026-11-25",
+    "cvss": 9.3,
+    "mitigation": "Upgrade LiteSpeed Cache Plugin for PrestaShop to version 1.6.2 or later. Until upgraded, restrict public access to affected stores where operationally feasible.",
+    "signals": [
+     "itw",
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-129968",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-129968"
+    }
+   },
+   {
+    "cve": "CVE-2023-25915",
+    "title": "Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+    "vendor": "Danfoss",
+    "product": "AK-SM 800A Series",
+    "summary": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.01431,
+    "epssPct": 0.73235,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2023-25915"
+    }
+   },
+   {
+    "cve": "CVE-2023-25914",
+    "title": "Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+    "vendor": "Danfoss",
+    "product": "AK-SM 800A Series",
+    "summary": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.01078,
+    "epssPct": 0.64585,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2023-25914"
+    }
+   },
+   {
+    "cve": "CVE-2026-103406",
+    "title": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability",
+    "vendor": "Hewlett Packard Enterprise (HPE)",
+    "product": "Juniper Session Smart Conductor and Session Smart Router",
+    "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.0086,
+    "epssPct": 0.56019,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-103406"
+    }
+   },
+   {
+    "cve": "CVE-2025-41450",
+    "title": "Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+    "vendor": "Danfoss",
+    "product": "AK-SM 800A Series",
+    "summary": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.00513,
+    "epssPct": 0.37031,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2025-41450"
+    }
+   },
+   {
+    "cve": "CVE-2026-133311",
+    "title": "Mitel MiCollab Weak Authentication Vulnerability",
+    "vendor": "Mitel",
+    "product": "MiCollab",
+    "summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.00396,
+    "epssPct": 0.2537,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133311"
+    }
+   },
+   {
+    "cve": "CVE-2026-133275",
+    "title": "Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "vendor": "Mitel",
+    "product": "MiCollab",
+    "summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+    "kevAdded": "2026-11-25",
+    "ransomware": false,
+    "epss": 0.00315,
+    "epssPct": 0.1686,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-133275"
+    }
+   }
+  ]
+ }
+}
