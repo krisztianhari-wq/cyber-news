@@ -1,0 +1,885 @@
+{
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T06:47:03.268Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 41,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "BSI Germany",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": false,
+   "error": "This operation was aborted"
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 406"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 5
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 8
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-27-009",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-27T06:45:14.663Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU flags five NGINX flaws patched by F5 allowing unauthenticated remote code execution as the worker process; a PoC exists for CVE-2026-123007, no in-the-wild exploitation yet. Patch internet-facing instances first.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "nginx",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-27-011",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-27T06:45:14.663Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Citrix patched 28 memory flaws in NetScaler ADC and Gateway; CVE-2026-120868 affects every deployment including default configurations, with unpredictable behaviour and DoS impact. No exploitation reported.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-27-014",
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "source": "The Hacker News",
+   "published": "2026-11-27T06:04:20.000Z",
+   "category": "incidents-threats",
+   "summary": "Switzerland's cyber agency confirmed attackers using AI agents breached systems in four of five confirmed cases, three targeting critical infrastructure operators, two successful, with no major disruption reported.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "critical-infrastructure",
+    "switzerland"
+   ]
+  },
+  {
+   "id": "2026-11-27-060",
+   "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+   "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+   "source": "The Register – Security",
+   "published": "2026-11-26T19:04:00.000Z",
+   "category": "ai-security",
+   "summary": "Microsoft reports Chinese and North Korean state-linked actors using the ARTEX agentic offensive framework to automate familiar attack techniques against global tech systems, potentially breaching weak defences in minutes.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "apt",
+    "china"
+   ]
+  },
+  {
+   "id": "2026-11-27-062",
+   "title": "Daily summary - 26.11.2026 (CERT.at)",
+   "originalTitle": "Tageszusammenfassung - 26.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-26112026",
+   "source": "CERT.at",
+   "published": "2026-11-26T17:38:52.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at's daily report notes Italian and Swiss warnings on autonomous AI-driven attacks against critical infrastructure and a Palo Alto Networks 'Fragnesia' PAN-OS flaw exploited in chained attacks.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "panos",
+    "critical-infrastructure"
+   ]
+  },
+  {
+   "id": "2026-11-27-005",
+   "title": "Phishing attempt against a Hungarian financial services provider",
+   "originalTitle": "2026. 11. 26. Phishing kísérlet egy magyar pénzügyi szolgáltatónál A napokban egy magyar pénzügyi szolgáltatót a szokásostól eltérő phising kísérlet érte.",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/phishing-kiserlet-egy-magyar-penzugyi-szolgaltatonal/",
+   "source": "NKI Hungary",
+   "published": "2026-11-27T06:45:15.967Z",
+   "category": "eu-threat-landscape",
+   "summary": "Hungary's NKI reports an unusual phishing attempt targeting a Hungarian financial services provider in recent days.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "hungary",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-27-010",
+   "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-27T06:45:14.663Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle and OpenJDK fixed CVE-2026-114938, a high-severity flaw that can lead to unauthenticated RCE under certain conditions. CERT-EU advises prioritising internet-facing Java applications.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-27-012",
+   "title": "In 2027, “the agent did it” stops being an excuse",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/sailpoint-2027-ai-identity-security-predictions-report/",
+   "source": "Help Net Security",
+   "published": "2026-11-27T06:30:14.000Z",
+   "category": "ai-security",
+   "summary": "SailPoint research finds 79% of enterprises run AI agents in production while only 2% have identity security controls designed for them, with regulators, boards and insurers set to demand accountability in 2027.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "identity",
+    "governance"
+   ]
+  },
+  {
+   "id": "2026-11-27-018",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "source": "The Hacker News",
+   "published": "2026-11-27T05:48:20.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A PoC zero-day in the open-source Cacti network monitoring tool (dubbed 4HTTP2SHELL/4HTTP2ROOT) allows unauthenticated RCE via guest access in four HTTP requests; no CVE assigned yet.",
+   "relevance": 4,
+   "tags": [
+    "zero-day",
+    "cacti",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-27-023",
+   "title": "AI raises new questions about what penetration testing proves",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/crest-ai-threat-led-penetration-testing/",
+   "source": "Help Net Security",
+   "published": "2026-11-27T05:00:32.000Z",
+   "category": "ai-security",
+   "summary": "CREST research finds 81% of threat-led penetration testing providers use AI beyond experimentation, raising questions about assurance, control and what a pentest actually proves, notably in financial services.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "pentest",
+    "tlpt"
+   ]
+  },
+  {
+   "id": "2026-11-27-063",
+   "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+   "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+   "source": "BleepingComputer",
+   "published": "2026-11-26T17:15:27.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The 'GoodGuys' phishing campaign impersonates Google, Nvidia, Accenture and SpaceX with fake paid expert interview and webinar invitations to steal corporate Google and Okta credentials.",
+   "relevance": 4,
+   "tags": [
+    "phishing",
+    "credentials",
+    "okta"
+   ]
+  },
+  {
+   "id": "2026-11-27-069",
+   "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+   "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+   "source": "BleepingComputer",
+   "published": "2026-11-26T15:23:28.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "The Remus infostealer uses a malicious Chrome extension posing as a Google Sheets add-on to exfiltrate Gmail messages, a capability marketed by its operators as a Gmail zero-day.",
+   "relevance": 4,
+   "tags": [
+    "infostealer",
+    "chrome",
+    "email"
+   ]
+  },
+  {
+   "id": "2026-11-27-071",
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "source": "The Hacker News",
+   "published": "2026-11-26T15:13:41.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "North Korea-linked PolinRider poisoned over 7,600 GitHub repositories with a Python loader hidden in utils packages or conftest.py, with activity possibly dating to February 2025.",
+   "relevance": 4,
+   "tags": [
+    "supply-chain",
+    "dprk",
+    "github"
+   ]
+  },
+  {
+   "id": "2026-11-27-073",
+   "title": "Wyoming uranium operation shuts down after cyberattack",
+   "url": "https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323",
+   "source": "The Register – Security",
+   "published": "2026-11-26T14:02:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Peninsula Energy shut down its Wyoming uranium operation after a cyberattack affected plant and wellfield control systems; no restart date has been given.",
+   "relevance": 4,
+   "tags": [
+    "ot",
+    "critical-infrastructure",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-11-27-002",
+   "title": "OpenAI and Cisco unveil AI-based Linux defence tool",
+   "originalTitle": "2026. 11. 27. Az OpenAI és a Cisco bemutatta a MI-alapú Linux-védelmi eszközét Az OpenAI és a Cisco közösen fejlesztette ki a Shirudo nevű, nyílt forráskódú Linux-futtatókörnyezetet, amely lehetővé t…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/az-openai-es-a-cisco-bemutatta-a-mi-alapu-linux-vedelmi-eszkozet/",
+   "source": "NKI Hungary",
+   "published": "2026-11-27T06:45:15.967Z",
+   "category": "ai-security",
+   "summary": "OpenAI and Cisco jointly developed Shirudo, an open-source Linux runtime environment aimed at defending systems, according to Hungary's NKI.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "linux",
+    "opensource"
+   ]
+  },
+  {
+   "id": "2026-11-27-003",
+   "title": "Rackspace shuts down Spot cloud platform after security incident",
+   "originalTitle": "2026. 11. 26. Biztonsági incidens után leállítja a Rackspace a Spot felhőplatformját A Rackspace bejelentette, hogy megszünteti Rackspace Spot nevű felhőszolgáltatását, miután hackereknek sikerült ho…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/biztonsagi-incidens-utan-leallitja-a-rackspace-a-spot-felhoplatformjat/",
+   "source": "NKI Hungary",
+   "published": "2026-11-27T06:45:15.967Z",
+   "category": "incidents-threats",
+   "summary": "Rackspace is discontinuing its Rackspace Spot cloud service after attackers gained access, per NKI reporting. Customers of the platform should plan migration.",
+   "relevance": 3,
+   "tags": [
+    "cloud",
+    "breach",
+    "supply-chain"
+   ]
+  },
+  {
+   "id": "2026-11-27-004",
+   "title": "1Password reports a data incident but says user passwords remain safe",
+   "originalTitle": "2026. 11. 26. Adatvédelmi incidenst jelentett az 1Password, de a felhasználók jelszavai biztonságban vannak Biztonsági incidens érintette az egyik legismertebb jelszókezelő szolgáltatást, az 1Passwor…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/111752/",
+   "source": "NKI Hungary",
+   "published": "2026-11-27T06:45:15.967Z",
+   "category": "incidents-threats",
+   "summary": "Password manager 1Password disclosed a security incident; according to the report, stored user passwords were not compromised.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "identity",
+    "passwords"
+   ]
+  },
+  {
+   "id": "2026-11-27-007",
+   "title": "Law enforcement follow crypto money trail behind billion-euro illegal streaming industry",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-follow-crypto-money-trail-behind-billion-euro-illegal-streaming-industry",
+   "source": "Europol",
+   "published": "2026-11-27T06:45:15.049Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol coordinated an 11-country operation in Seville tracing cryptocurrency payments financing illegal IPTV and streaming networks, working with the crypto industry.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "crypto",
+    "iptv"
+   ]
+  },
+  {
+   "id": "2026-11-27-019",
+   "title": "US seizes nearly $17 billion in global war on scam rings",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/doj-scam-crackdown-800-scammers/",
+   "source": "Help Net Security",
+   "published": "2026-11-27T05:30:28.000Z",
+   "category": "incidents-threats",
+   "summary": "The US DOJ announced its largest scam crackdown, seizing nearly $17 billion, with 800+ alleged scammers, 400+ cases and raids on scam compounds in more than 10 countries.",
+   "relevance": 3,
+   "tags": [
+    "fraud",
+    "law-enforcement",
+    "crypto"
+   ]
+  },
+  {
+   "id": "2026-11-27-025",
+   "title": "Estonia closing land borders with Russia to keep out spies",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/estonia-closing-land-borders-with-russia-to-keep-out-spies?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-27T04:46:15.000Z",
+   "category": "global-security",
+   "summary": "Estonia will close its land border crossings with Russia by 1 December, citing the need to keep out spies.",
+   "relevance": 3,
+   "tags": [
+    "geopolitics",
+    "estonia",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-11-27-046",
+   "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to ‘pull back’",
+   "url": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-27T02:14:25.000Z",
+   "category": "global-security",
+   "summary": "Zelenskyy warned of a major imminent Russian attack while Trump said he urged Putin to pull back military aggression in Europe.",
+   "relevance": 3,
+   "tags": [
+    "ukraine",
+    "russia",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-27-050",
+   "title": "Free e-government platform that serves two billion people in ten countries has critical SQL injection bug",
+   "url": "https://www.theregister.com/security/2026/11/27/free-e-government-platform-that-serves-two-billion-people-in-ten-countries-has-critical-sql-injection-bug/5312449",
+   "source": "The Register – Security",
+   "published": "2026-11-27T01:19:31.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "A critical SQL injection flaw was found in India's DIGIT e-government platform, used in ten countries serving two billion people, potentially exposing citizen data.",
+   "relevance": 3,
+   "tags": [
+    "sqli",
+    "egovernment",
+    "opensource"
+   ]
+  },
+  {
+   "id": "2026-11-27-055",
+   "title": "EU leaders brave clash with Trump over tech tax, defense, Ukraine",
+   "url": "https://www.politico.eu/article/eu-leaders-brave-clash-with-trump-over-tech-tax-defense-ukraine/",
+   "source": "Politico Europe",
+   "published": "2026-11-26T23:38:19.000Z",
+   "category": "policy-regulation",
+   "summary": "EU governments show increased willingness to confront the US president over tech taxation, defence and Ukraine policy.",
+   "relevance": 3,
+   "tags": [
+    "eu",
+    "techpolicy",
+    "transatlantic"
+   ]
+  },
+  {
+   "id": "2026-11-27-059",
+   "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+   "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+   "source": "The Hacker News",
+   "published": "2026-11-26T19:39:57.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Threat roundup covering around 10 million exposed NGINX services, 250+ malicious browser extensions, AI server hijacking and credential theft trends.",
+   "relevance": 3,
+   "tags": [
+    "nginx",
+    "extensions",
+    "roundup"
+   ]
+  },
+  {
+   "id": "2026-11-27-064",
+   "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+   "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+   "source": "SecurityWeek",
+   "published": "2026-11-26T17:06:55.000Z",
+   "category": "incidents-threats",
+   "summary": "FIFA confirmed a cyberattack in which personal and business information was accessed; timing and exact data types were not disclosed.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "data-leak"
+   ]
+  },
+  {
+   "id": "2026-11-27-065",
+   "title": "North Korean launderers turn to little-known crypto services to move Binance haul, say researchers",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYS11cFROVTNKbWhxdzVLY2tjZUdvN3BqUGhWZDR3aF94X0ZscFNnVkV3Y2NyVFAzRFdjWjVzUWxySjNGbXlVYzFpZlFETlZlVGtad0RlUHZoYWtMNEx2VTN0VEhHTUoxZzhiLVJuOE9GNGdWNjNleVhXQlU4WnEtUzlsbksyZTVBT1I3dFZfOWh1emVVVEwwZlVlWTRXa3dFcm9OWFJKS1ZIdV92cWhRNUItUmVPUmxsMDIxc04ybmM1MnRnWkxkd2lVUFg?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-26T16:58:44.000Z",
+   "category": "incidents-threats",
+   "summary": "Researchers say North Korean launderers are using little-known crypto services to move funds from the Binance haul.",
+   "relevance": 3,
+   "tags": [
+    "dprk",
+    "crypto",
+    "laundering"
+   ]
+  },
+  {
+   "id": "2026-11-27-068",
+   "title": "'Significant number of customer records' pwned in Flight Centre Travel Group breach",
+   "url": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360",
+   "source": "The Register – Security",
+   "published": "2026-11-26T15:29:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Flight Centre Travel Group confirmed a breach affecting a significant number of customer records, part of a wave of attacks on travel booking systems worldwide.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "travel",
+    "data-leak"
+   ]
+  },
+  {
+   "id": "2026-11-27-074",
+   "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+   "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+   "source": "Wired – AI",
+   "published": "2026-11-26T10:51:27.000Z",
+   "category": "ai-security",
+   "summary": "The UK FCA says Meta declined joint pre-launch testing of its Muse personal agent, warning that agents create another attack surface as the product rolls out in the UK.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "agents",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-11-27-001",
+   "title": "More people falling victim to holiday shopping scams",
+   "originalTitle": "2026. 11. 27. Egyre többen esnek áldozatul az ünnepi vásárlási csalásoknak A McAfee új kutatása szerint a tavalyi évhez képest csaknem megduplázódott azoknak az amerikaiaknak az aránya, akik ünnepi v…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/egyre-tobben-esnek-aldozatul-az-unnepi-vasarlasi-csalasoknak/",
+   "source": "NKI Hungary",
+   "published": "2026-11-27T06:45:15.967Z",
+   "category": "incidents-threats",
+   "summary": "McAfee research cited by Hungary's NKI says the share of Americans victimised by holiday shopping scams has nearly doubled year-on-year, ahead of the Black Friday peak.",
+   "relevance": 2,
+   "tags": [
+    "scam",
+    "phishing",
+    "awareness"
+   ]
+  },
+  {
+   "id": "2026-11-27-006",
+   "title": "Operation OPSON XV dismantles food fraud networks, seizing EUR 79 million in counterfeit products",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/operation-opson-xv-dismantles-food-fraud-networks-seizing-eur-79-million-in-counterfeit-products",
+   "source": "Europol",
+   "published": "2026-11-27T06:45:15.049Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol's Operation OPSON XV across 57 countries seized EUR 79 million in counterfeit food and drink, with 79 arrests and 18 organised crime groups disrupted.",
+   "relevance": 2,
+   "tags": [
+    "europol",
+    "fraud",
+    "law-enforcement"
+   ]
+  },
+  {
+   "id": "2026-11-27-017",
+   "title": "Spain’s 2026 election explained in maps and charts",
+   "url": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-27T05:57:37.000Z",
+   "category": "global-security",
+   "summary": "Explainer on Spain's 29 November snap general election, the electoral system, parties and key issues.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "spain"
+   ]
+  },
+  {
+   "id": "2026-11-27-022",
+   "title": "Iran warns on Gulf military presence as South Korea readies expanded naval role",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNjgyMVEwOUJRYll3NXdiU29vVVlmcGMxc3VhTGdEZ3BaZzZ0bUFtemt1c01oMXhjcHlJMEoxVWppTFV2YU12Qk4xRjlzVTNZaEVyR0dBZGtRNEdvaGhCTHhPY2VEVTUtZUw3a3dGekV4VTZkYmp3ZzFjVmxMRnliRmhwZmJOdkZhS3dBNWVfVkU4SjdObjF4WFY4Mmo4ZDlGWFcxYTZnMmVDUXN3NTVPY2lObHZlRFd0aXhjbTR0NXkwWkFkSHVr?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T05:12:00.000Z",
+   "category": "global-security",
+   "summary": "Iran warned over foreign military presence in the Gulf as South Korea prepares an expanded naval role in the region.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-27-026",
+   "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZU5SZ2xxNVZFTWlFWHlITkJLNXhSendCb3RYckhpQkhqcDRVeDdRdVJWRl9WWnJWYlZvV2tMM1VaalU2SlRQQTRYNVZzc0Y2SVp0WmJKai1kN3NtSEU1MkxLSkhGN0M2TW9JOHFianYwZEtrNTE2NW81aGlLTWRpc18xd2hwUmI1XzdQVGxON0dJREhldE5R?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T04:36:00.000Z",
+   "category": "global-security",
+   "summary": "Chinese military conducted coastal drills testing new amphibious landing tactics relevant to a Taiwan scenario.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "china",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "2026-11-27-032",
+   "title": "How Costa’s budget talks sparked a new crisis",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-costas-budget-talks-sparked-a-new-crisis/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T03:45:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Politico briefing on how EU Council President Costa's budget negotiations triggered a new political crisis.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-27-036",
+   "title": "Australia sanctions alleged Iranian agents suspected of directing antisemitic attacks",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHBtblZnbWZBQUo5LVNGb2sxQkpHOFdJTGI0YlozM0YxUGh0bnZkLWZOeWJrMFBoX0h3aGNkTEtCVVA3Zjg0WEpuYi1MdjBEa2dKVDg3Rk5yWFJCNEs1NDFnYTRrVmpJeVQ1Y1lMR0daaDItcWczSEhzT3VfVTRxVno4Zm9HVGdTN2RDT2NtYmk5NlZqTGJnekNMSTI5dERMY1dZaFpFUy1IM01aVUFjbzI3MDEteXFNS2FvaEhFLTJhZnBvRTVRbzln?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T03:17:00.000Z",
+   "category": "global-security",
+   "summary": "Australia sanctioned alleged Iranian agents suspected of directing antisemitic attacks on its territory.",
+   "relevance": 2,
+   "tags": [
+    "sanctions",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-27-037",
+   "title": "Bank of England boss warns AI must benefit humans",
+   "url": "https://www.politico.eu/article/bank-of-england-boss-warns-ai-must-benefit-humans/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Bank of England Governor Andrew Bailey said AI needs boundaries and must benefit humans, comparing oversight to raising children.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "regulation",
+    "finance"
+   ]
+  },
+  {
+   "id": "2026-11-27-042",
+   "title": "Spain’s right turn: What a PP-Vox government would mean for Madrid — and Brussels",
+   "url": "https://www.politico.eu/article/spain-right-turn-what-pp-vox-government-would-mean-for-madrid-brussels/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T03:00:00.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of what a PP-Vox coalition after Spain's 29 November election would mean for policy areas from data centres to EU relations.",
+   "relevance": 2,
+   "tags": [
+    "spain",
+    "eu",
+    "datacenters"
+   ]
+  },
+  {
+   "id": "2026-11-27-044",
+   "title": "Budget summit walkout leaves EU one month to salvage deal",
+   "url": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T02:50:17.000Z",
+   "category": "policy-regulation",
+   "summary": "EU leaders walked out of the budget summit without agreement, leaving one month to salvage a deal amid deep divisions.",
+   "relevance": 2,
+   "tags": [
+    "eu",
+    "budget"
+   ]
+  },
+  {
+   "id": "2026-11-27-058",
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "source": "BleepingComputer",
+   "published": "2026-11-26T21:06:22.000Z",
+   "category": "ai-security",
+   "summary": "OpenAI says a bug that under-counted GPT-6.2 Astra usage has been fixed, so users will reach usage limits 40% faster. Relevant for teams budgeting AI capacity.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "openai"
+   ]
+  },
+  {
+   "id": "2026-11-27-066",
+   "title": "UK privacy watchdog faces probe into its workplace culture",
+   "url": "https://www.theregister.com/public-sector/2026/11/26/uk-privacy-watchdog-faces-probe-into-its-workplace-culture/5312380",
+   "source": "The Register – Security",
+   "published": "2026-11-26T16:16:00.000Z",
+   "category": "policy-regulation",
+   "summary": "The UK ICO faces an independent review of its workplace culture, leadership and handling of staff concerns after the former commissioner resigned.",
+   "relevance": 2,
+   "tags": [
+    "ico",
+    "governance",
+    "privacy"
+   ]
+  },
+  {
+   "id": "2026-11-27-067",
+   "title": "Bank of England sees growing financial risks as AI borrowing surges",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMlNESVMtMnZuRm9TZ0FHOGE2NkE2anNKbkwwVlpqbThWRW5WdGpYMnJyMVZrX1dheTRXTGtRT2xqckxNdEo1Y1V3aUthRU5QTUJGY21qaDBnamg1cVRlSG5ZQ1IzZTVnUzJ1djJfS25sOC03WlgwOVY1LXJ0ZHZhRFFwWk5ubV9KWWIxal93a25QaDBmTGMxUmg3OFUta2NWNmFBRGNJVUlNakE3ak82Sm9tRzI?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-26T15:39:19.000Z",
+   "category": "policy-regulation",
+   "summary": "The Bank of England flags growing financial stability risks from surging AI-related borrowing.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "finance",
+    "risk"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-26",
+  "generatedAt": "2026-11-27T06:47:03.267Z",
+  "total": 0,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 0
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 0
+   }
+  ],
+  "items": []
+ }
+}
