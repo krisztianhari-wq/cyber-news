@@ -1,0 +1,850 @@
+{
+ "date": "2026-11-28",
+ "generatedAt": "2026-11-28T06:46:44.517Z",
+ "model": "claude-opus-5",
+ "editorial": "done",
+ "itemCount": 35,
+ "feeds": [
+  {
+   "name": "Al Jazeera",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "AP News (via Google News)",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "BBC World",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "BleepingComputer",
+   "ok": true,
+   "items": 11
+  },
+  {
+   "name": "BSI Germany",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "name": "CERT-EU",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "CERT-FR",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "CERT.at",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CISA Advisories",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "CyberScoop",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Dark Reading",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Defense One",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "DW World",
+   "ok": true,
+   "items": 9
+  },
+  {
+   "name": "EDPB",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ENISA",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "ESET WeLiveSecurity",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "EU Commission – Digital",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euractiv (via Google News)",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Euronews – Europe",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Europol",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "Google Threat Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Help Net Security",
+   "ok": true,
+   "items": 7
+  },
+  {
+   "name": "IAPP",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Krebs on Security",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Microsoft Security Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NCSC UK",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "NKI Hungary",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "NPR World",
+   "ok": true,
+   "items": 3
+  },
+  {
+   "name": "OpenAI News",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Politico Europe",
+   "ok": true,
+   "items": 10
+  },
+  {
+   "name": "Rapid7 Blog",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Reuters (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "Reuters World (via Google News)",
+   "ok": true,
+   "items": 12
+  },
+  {
+   "name": "SANS ISC",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Schneier on Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "SecurityWeek",
+   "ok": true,
+   "items": 4
+  },
+  {
+   "name": "Simon Willison",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Talos Intelligence",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "The Hacker News",
+   "ok": true,
+   "items": 6
+  },
+  {
+   "name": "The Record",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "The Register – Security",
+   "ok": true,
+   "items": 2
+  },
+  {
+   "name": "Unit 42",
+   "ok": true,
+   "items": 0
+  },
+  {
+   "name": "Wired – AI",
+   "ok": true,
+   "items": 1
+  },
+  {
+   "name": "Zero Day Initiative",
+   "ok": true,
+   "items": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "2026-11-28-001",
+   "title": "2026-022: Critical vulnerabilities in Nginx",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-022/",
+   "source": "CERT-EU",
+   "published": "2026-11-28T06:45:19.340Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CERT-EU advisory: F5 patched five NGINX vulnerabilities allowing unauthenticated remote code execution as the worker process; a PoC exists for CVE-2026-123007, no in-the-wild exploitation reported. Patch internet-facing instances first.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "nginx",
+    "patch"
+   ]
+  },
+  {
+   "id": "2026-11-28-003",
+   "title": "2026-020: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-020/",
+   "source": "CERT-EU",
+   "published": "2026-11-28T06:45:19.340Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Cloud Software Group fixed 28 memory flaws in Citrix NetScaler ADC/Gateway; CVE-2026-120868 affects all deployments including default configs, with impact described as unpredictable behaviour and DoS. No known exploitation yet.",
+   "relevance": 5,
+   "tags": [
+    "cve",
+    "citrix",
+    "netscaler"
+   ]
+  },
+  {
+   "id": "2026-11-28-048",
+   "title": "Daily summary - 27 November 2026",
+   "originalTitle": "Tageszusammenfassung - 27.11.2026",
+   "url": "https://www.cert.at/de/tagesberichte/2026/11/tagesberichte-27112026",
+   "source": "CERT.at",
+   "published": "2026-11-27T17:54:00.000Z",
+   "category": "eu-threat-landscape",
+   "summary": "CERT.at daily report: Germany's BSI chief warns agentic AI frameworks make cyberattacks cheaper and faster, and flags NFS2ROOT, a 12-year-old critical Linux flaw enabling root privilege escalation.",
+   "relevance": 5,
+   "tags": [
+    "ai",
+    "linux",
+    "bsi"
+   ]
+  },
+  {
+   "id": "2026-11-28-050",
+   "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+   "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+   "source": "BleepingComputer",
+   "published": "2026-11-27T17:06:13.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "An unpatched zero-day in the Cacti network monitoring platform has been publicly disclosed with a working PoC enabling unauthenticated remote command execution. Monitoring servers are high-value targets for telcos.",
+   "relevance": 5,
+   "tags": [
+    "zero-day",
+    "cacti",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-28-063",
+   "title": "Software giant SAP confirms cyber incident amid reports of source code breach",
+   "url": "https://therecord.media/sap-germany-cyberattack-github",
+   "source": "The Record",
+   "published": "2026-11-27T13:15:00.000Z",
+   "category": "incidents-threats",
+   "summary": "SAP confirmed a cyber incident after reports that attackers infiltrated its software development infrastructure and may have accessed source code, raising supply-chain concerns for enterprise customers.",
+   "relevance": 5,
+   "tags": [
+    "supply-chain",
+    "sap",
+    "breach"
+   ]
+  },
+  {
+   "id": "2026-11-28-002",
+   "title": "2026-021: High Severity Vulnerability in Java SE and OpenJDK",
+   "url": "https://cert.europa.eu/publications/security-advisories/2026-021/",
+   "source": "CERT-EU",
+   "published": "2026-11-28T06:45:19.340Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Oracle and OpenJDK fixed CVE-2026-114938, a high-severity flaw that can lead to unauthenticated RCE under certain conditions. CERT-EU advises prioritising internet-facing Java applications.",
+   "relevance": 4,
+   "tags": [
+    "cve",
+    "java",
+    "rce"
+   ]
+  },
+  {
+   "id": "2026-11-28-004",
+   "title": "Swiss and Italian alert over automated, AI-driven cyberattacks",
+   "originalTitle": "2026. 11. 27. Svájci és olasz riasztás az automatizált, MI-alapú kibertámadások miatt A svájci és az olasz kiberbiztonsági hatóság egyszerre figyelmeztet arra, hogy a támadók már élesben használnak ö…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/svajci-es-olasz-riasztas-az-automatizalt-mi-alapu-kibertamadasok-miatt/",
+   "source": "NKI Hungary",
+   "published": "2026-11-28T06:45:16.574Z",
+   "category": "ai-security",
+   "summary": "Hungarian NKI reports that Swiss and Italian cyber authorities simultaneously warn that attackers are already using autonomous, AI-based attack capabilities in live operations.",
+   "relevance": 4,
+   "tags": [
+    "ai",
+    "threat-intel",
+    "eu"
+   ]
+  },
+  {
+   "id": "2026-11-28-005",
+   "title": "Attacks on Check Point systems, AI-driven attacks and government incidents",
+   "originalTitle": "2026. 11. 27. Check Point-rendszerek elleni támadások, AI-támadások és kormányzati incidensek A hét kiemelt kockázatai között a Check Point felügyeleti kiszolgálói elleni sikeres támadások és az ARTE…",
+   "url": "https://nki.gov.hu/it-biztonsag/hirek/check-point-rendszerek-elleni-tamadasok-ai-tamadasok-es-kormanyzati-incidensek/",
+   "source": "NKI Hungary",
+   "published": "2026-11-28T06:45:16.574Z",
+   "category": "eu-threat-landscape",
+   "summary": "NKI Hungary's weekly risk roundup highlights successful attacks against Check Point management servers, AI-enabled attacks and government-sector incidents.",
+   "relevance": 4,
+   "tags": [
+    "checkpoint",
+    "ai",
+    "incident"
+   ]
+  },
+  {
+   "id": "2026-11-28-036",
+   "title": "US government bars bandwidth provider RETN from American networks",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTJDdGNxNk9lQ25td3hEVlhGVDJLZktoSmRQMWxkZ1FCbG5oLVZBd2RhTUcwSGVQRnczNXplSnNjUFNfekRwdDJtWEV0bEVNQWdYZUdHUXBreXhhUmlFeXREYkpNTF9PaW80Z0ZNdEJGLWpDS1JVYnloeXBwZmhDRy12T3VrTk84TUxIRVBTUlNpajN1Wk13b3hZeXktRU9XczYtSG1NWWxvc3pYV0VZSlE5S3NqNzZnc0Zn?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-27T23:11:16.000Z",
+   "category": "policy-regulation",
+   "summary": "The US government barred bandwidth provider RETN from American networks, a supply-chain and transit-provider decision relevant to telecom operators.",
+   "relevance": 4,
+   "tags": [
+    "telecom",
+    "supply-chain",
+    "policy"
+   ]
+  },
+  {
+   "id": "2026-11-28-044",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "source": "BleepingComputer",
+   "published": "2026-11-27T19:26:04.000Z",
+   "category": "incidents-threats",
+   "summary": "pCloud confirmed a cyberattack on its Pass password manager after users reported unknown devices connecting to accounts despite 2FA. Credential-vault compromise warrants user checks and rotation.",
+   "relevance": 4,
+   "tags": [
+    "breach",
+    "passwords",
+    "2fa"
+   ]
+  },
+  {
+   "id": "2026-11-28-057",
+   "title": "UK pensions department hit by 'serious' cyber incident, minister says",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckw3Wmx5TkduWUdyNE9qUS1vMDJLNjZjbnMzUURXdWt2NjdCdFYxWldNekg3WkJORWl1bkRva3BsSDVLN3FldzlQTmNLNnVnbVZrOWVxQ0NyX2N5SWRFaVpJaDBXeTM3Z2NzZDlxTzJaOENxWWZRYkl0VmpwZnFVYlZyYjdSLXg1OGpVNko1UHhKSEhWcDdhb0ZZaHpLdw?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-27T14:29:43.000Z",
+   "category": "incidents-threats",
+   "summary": "A UK minister confirmed the Department for Work and Pensions suffered a 'serious' cyber incident.",
+   "relevance": 4,
+   "tags": [
+    "incident",
+    "government",
+    "uk"
+   ]
+  },
+  {
+   "id": "2026-11-28-065",
+   "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+   "source": "CISA Advisories",
+   "published": "2026-11-27T12:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "CISA added three actively exploited flaws to the KEV catalog: two GeoServer vulnerabilities (XML injection, incorrect authorization) and a Drupal core issue.",
+   "relevance": 4,
+   "tags": [
+    "kev",
+    "cve",
+    "exploited"
+   ]
+  },
+  {
+   "id": "2026-11-28-066",
+   "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+   "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+   "source": "The Hacker News",
+   "published": "2026-11-27T11:49:34.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "eSentire details an attack chain using a Microsoft-signed installer posing as a snipping tool, delivered via a Microsoft Store app, to drop Vinci RAT for remote system control.",
+   "relevance": 4,
+   "tags": [
+    "rat",
+    "malware",
+    "signed-binary"
+   ]
+  },
+  {
+   "id": "2026-11-28-007",
+   "title": "Law enforcement follow crypto money trail behind billion-euro illegal streaming industry",
+   "url": "https://www.europol.europa.eu/media-press/newsroom/news/law-enforcement-follow-crypto-money-trail-behind-billion-euro-illegal-streaming-industry",
+   "source": "Europol",
+   "published": "2026-11-28T06:45:15.711Z",
+   "category": "eu-threat-landscape",
+   "summary": "Europol coordinated an 11-country operation in Seville tracing cryptocurrency payments financing illegal IPTV networks, working with the crypto industry to map the money flows.",
+   "relevance": 3,
+   "tags": [
+    "europol",
+    "crypto",
+    "piracy"
+   ]
+  },
+  {
+   "id": "2026-11-28-045",
+   "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T19:12:26.000Z",
+   "category": "global-security",
+   "summary": "Spain's Sanchez insists he will defy polls as election campaign wraps up Reuters",
+   "relevance": 3,
+   "tags": []
+  },
+  {
+   "id": "2026-11-28-049",
+   "title": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmlHdGhKd3RFRUNYajhTdlVqdUdrckt5RmtIZEltNjE0OTVPMDhaSS1DTFlGQTU5Z19LRFpLRmpXdVJkcVpRY19iLU40eXpEWUhYdDNjMXhfRkJqckxleW8tY25rOVJFTzlGeGVaUTlwb1M1NVBXSzQwSG9hX2VQR1JiMVhXYk1mdG01ei1nR1ZmOFY5RWpnejVHRkJSa2RVTHRLeURHS3hCSHJMcGluWG1fQWNjS19wTy1RejVTWE5BMW8?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T17:47:00.000Z",
+   "category": "global-security",
+   "summary": "Reuters sources say a Russian military flotilla heading to Libya turned back after a warship was sunk on 22 November.",
+   "relevance": 3,
+   "tags": [
+    "russia",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-28-051",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "source": "The Hacker News",
+   "published": "2026-11-27T16:36:11.000Z",
+   "category": "incidents-threats",
+   "summary": "SOCRadar attributes a newly documented campaign, WeaveLotus, to a suspected Vietnam-sponsored group targeting Southeast Asian military, government and legislative bodies for South China Sea intelligence.",
+   "relevance": 3,
+   "tags": [
+    "apt",
+    "espionage"
+   ]
+  },
+  {
+   "id": "2026-11-28-053",
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "source": "BleepingComputer",
+   "published": "2026-11-27T15:09:40.000Z",
+   "category": "incidents-threats",
+   "summary": "Hackers reportedly breached the US Air Force's Cloud One platform, continuing a wave of intrusions at US federal agencies including the FBI, CIA and Treasury.",
+   "relevance": 3,
+   "tags": [
+    "breach",
+    "government",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-11-28-055",
+   "title": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
+   "url": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T14:41:55.000Z",
+   "category": "policy-regulation",
+   "summary": "Poland's defence minister defended a $300M military AI contract with Palantir despite concerns about dependence on US technology, a recurring EU digital-sovereignty theme.",
+   "relevance": 3,
+   "tags": [
+    "ai",
+    "sovereignty",
+    "defence"
+   ]
+  },
+  {
+   "id": "2026-11-28-061",
+   "title": "UK pensions minister says no evidence personal data comprised in cyber incident",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMUl1NlVnLXhKR2lWWjJUUFMzdjJLYXpfelRGOWFWN0tEdjMxWGxfQjFxN2ZQblFHNE54VTlRY0RIUXZQT096RGY3SHBUQVJIbklxQTRvQkszaG5OT2kzWVVydmpYYUZKcDlvNDVkVHh3UlRueWZ3Qk5zMW9lYUNydHpwdUlwMXlJVUdCY1RsSzg4SHRRODVHS2tITUFXQ3B5ZWxZQ3Jld3g2cGtwWmFZSDAyZkExODV4QlE?oc=5",
+   "source": "Reuters (via Google News)",
+   "published": "2026-11-27T13:53:43.000Z",
+   "category": "incidents-threats",
+   "summary": "The UK pensions minister says there is no evidence so far that personal data was compromised in the department's cyber incident.",
+   "relevance": 3,
+   "tags": [
+    "incident",
+    "uk",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-11-28-064",
+   "title": "Recent Outages Have Economic Causes",
+   "url": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html",
+   "source": "Schneier on Security",
+   "published": "2026-11-27T12:02:23.000Z",
+   "category": "global-security",
+   "summary": "Schneier argues the recent wave of outages at Microsoft, the FAA, banks, United Airlines and Apple are unrelated and driven by economic underinvestment in infrastructure, not cyberattacks.",
+   "relevance": 3,
+   "tags": [
+    "resilience",
+    "outage"
+   ]
+  },
+  {
+   "id": "2026-11-28-069",
+   "title": "Microsoft removes WSUS server role in Windows Server 2028",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+   "source": "BleepingComputer",
+   "published": "2026-11-27T11:18:36.000Z",
+   "category": "policy-regulation",
+   "summary": "Microsoft will remove the WSUS server role in Windows Server 2028, requiring organisations to plan alternative patch-distribution architectures.",
+   "relevance": 3,
+   "tags": [
+    "microsoft",
+    "patching"
+   ]
+  },
+  {
+   "id": "2026-11-28-071",
+   "title": "Dependence on US Big Tech: where does France stand compared with its European neighbours?",
+   "originalTitle": "Dépendance aux Big Tech américaines : où en est la France par rapport à ses voisins européens ?",
+   "url": "https://www.politico.eu/article/ue-tech-americaine-dependance-souverainete-ia-cloud/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T09:41:42.000Z",
+   "category": "policy-regulation",
+   "summary": "Analysis of EU public-sector reliance on US technology: over 78% of Maltese public service websites run on American tech versus under 3% in Germany.",
+   "relevance": 3,
+   "tags": [
+    "sovereignty",
+    "eu",
+    "cloud"
+   ]
+  },
+  {
+   "id": "2026-11-28-018",
+   "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+   "url": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-28T04:13:45.000Z",
+   "category": "global-security",
+   "summary": "The owner of Turkish opposition broadcaster Halk TV says officials destroyed the channel after a raid on its headquarters, part of a wider media crackdown.",
+   "relevance": 2,
+   "tags": [
+    "media",
+    "turkey"
+   ]
+  },
+  {
+   "id": "2026-11-28-028",
+   "title": "Taiwan votes in local elections to choose mayors, other leaders",
+   "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+   "source": "Al Jazeera",
+   "published": "2026-11-28T02:05:27.000Z",
+   "category": "global-security",
+   "summary": "Taiwan holds local elections for mayors and other leaders, with the Taipei race seen as a test for the governing DPP.",
+   "relevance": 2,
+   "tags": [
+    "elections",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "2026-11-28-033",
+   "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd0hYazFSNFdJenpCQmdWUUh0cUZOTHhJWm5hYnB4ampiMXJRamNxVGtST2NuTV9rS2hjUHFUWElIUjhtX3VlZFlWTkpBOWh5SmJkNGdJd1VFVFFWSmR4LURfQUx0ZDVmWnk3MEpuc3hMN0QwaXFwYnZMc3kteEJpWUduWWNITVkwNTJGaGVRSWdHNVNyNjhn?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-28T00:01:00.000Z",
+   "category": "global-security",
+   "summary": "Taiwan's local elections take place as China flies warplanes nearby and criticises a Taipei candidate.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "taiwan"
+   ]
+  },
+  {
+   "id": "2026-11-28-041",
+   "title": "‘An advocate for Russia’: Kushner’s Putin comments spark outrage in Europe",
+   "url": "https://www.politico.eu/article/an-advocate-for-russia-jared-kushner-vladimir-putin-comments-spark-outrage-europe/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T20:10:58.000Z",
+   "category": "policy-regulation",
+   "summary": "Jared Kushner's comments on Putin drew criticism in Europe, with a Ukrainian lawmaker calling for his replacement as peace envoy.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "ukraine"
+   ]
+  },
+  {
+   "id": "2026-11-28-042",
+   "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+   "source": "Reuters World (via Google News)",
+   "published": "2026-11-27T20:06:57.000Z",
+   "category": "global-security",
+   "summary": "The US disabled a ship attempting to leave Iran as Tehran vowed to confront the blockade, raising regional escalation risks.",
+   "relevance": 2,
+   "tags": [
+    "geopolitics",
+    "iran"
+   ]
+  },
+  {
+   "id": "2026-11-28-046",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "source": "BleepingComputer",
+   "published": "2026-11-27T18:57:42.000Z",
+   "category": "incidents-threats",
+   "summary": "Boston Scientific is notifying individuals that a cyberattack exposed personal and medical information.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "healthcare"
+   ]
+  },
+  {
+   "id": "2026-11-28-047",
+   "title": "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
+   "url": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+   "source": "BBC World",
+   "published": "2026-11-27T18:00:40.000Z",
+   "category": "global-security",
+   "summary": "Zelensky told the BBC he is frustrated with US handling of peace talks and criticised the Trump-Putin relationship.",
+   "relevance": 2,
+   "tags": [
+    "ukraine",
+    "geopolitics"
+   ]
+  },
+  {
+   "id": "2026-11-28-059",
+   "title": "Japan’s education ministry discloses breach of government procurement system",
+   "url": "https://therecord.media/japan-education-ministry-cyberattack",
+   "source": "The Record",
+   "published": "2026-11-27T14:15:00.000Z",
+   "category": "incidents-threats",
+   "summary": "Japan's education ministry disclosed a breach of its government procurement system that may have exposed business records and email addresses.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-11-28-060",
+   "title": "'God Mode' Flaws Could Wreak Border-Control Havoc",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "source": "Dark Reading",
+   "published": "2026-11-27T14:00:00.000Z",
+   "category": "vulns-malware-ttps",
+   "summary": "Researchers found 'God Mode' flaws in online visa and immigration systems of six countries including Nigeria, Ethiopia and Sri Lanka, which could have disrupted traveller entry.",
+   "relevance": 2,
+   "tags": [
+    "vulnerability",
+    "government"
+   ]
+  },
+  {
+   "id": "2026-11-28-062",
+   "title": "FIFA hacked, cybercriminals claim access to sensitive internal records",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/fifa-cyberattack-data-leak/",
+   "source": "Help Net Security",
+   "published": "2026-11-27T13:21:50.000Z",
+   "category": "incidents-threats",
+   "summary": "FIFA confirmed attackers accessed a limited set of personal and business information; criminals claim access to sensitive internal records. Law enforcement is involved.",
+   "relevance": 2,
+   "tags": [
+    "breach",
+    "extortion"
+   ]
+  },
+  {
+   "id": "2026-11-28-067",
+   "title": "Meta’s UK rollout for Muse AI agent exposes it to more liability",
+   "url": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/",
+   "source": "Politico Europe",
+   "published": "2026-11-27T11:25:07.000Z",
+   "category": "policy-regulation",
+   "summary": "Meta's UK terms of service for its Muse AI agent grant consumers more protection than in the US, increasing the company's liability exposure.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "regulation"
+   ]
+  },
+  {
+   "id": "2026-11-28-073",
+   "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+   "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+   "source": "Wired – AI",
+   "published": "2026-11-27T07:00:00.000Z",
+   "category": "ai-security",
+   "summary": "German firm Q.ANT is developing photonic chips that use light to perform AI computations, aiming to cut energy consumption of model inference.",
+   "relevance": 2,
+   "tags": [
+    "ai",
+    "hardware"
+   ]
+  }
+ ],
+ "radar": {
+  "since": "2026-11-27",
+  "generatedAt": "2026-11-28T06:46:44.517Z",
+  "total": 4,
+  "sources": [
+   {
+    "name": "CISA KEV",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "license": "CC0 1.0",
+    "key": "kev",
+    "ok": true,
+    "items": 3
+   },
+   {
+    "name": "Ethiack Zero",
+    "url": "https://zero.ethiack.com",
+    "license": "CC BY 4.0",
+    "key": "zero",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "ENISA EUVD",
+    "url": "https://euvd.enisa.europa.eu/",
+    "license": "ENISA terms",
+    "key": "euvd",
+    "ok": true,
+    "items": 1
+   },
+   {
+    "name": "FIRST EPSS",
+    "url": "https://www.first.org/epss/",
+    "license": "FIRST EPSS usage",
+    "key": "epss",
+    "ok": true,
+    "items": 1
+   }
+  ],
+  "items": [
+   {
+    "cve": "CVE-2026-136716",
+    "title": "Drupal Core Improper Check for Unusual or Exceptional Conditions Vulnerability",
+    "vendor": "Drupal",
+    "product": "Core",
+    "summary": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the site is in one of the affected unusual or incomplete installation states.",
+    "kevAdded": "2026-11-27",
+    "ransomware": false,
+    "euvdId": "EUVD-2026-135954",
+    "euvdExploited": "2026-11-27",
+    "cvss": 9.8,
+    "epss": 0.01212,
+    "epssPct": 0.68449,
+    "signals": [
+     "kev",
+     "euvd"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-136716",
+     "euvd": "https://euvd.enisa.europa.eu/vulnerability/EUVD-2026-135954"
+    }
+   },
+   {
+    "cve": "CVE-2026-120705",
+    "title": "OSGeo GeoServer XML Injection Vulnerability",
+    "vendor": "OSGeo",
+    "product": "GeoServer",
+    "summary": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch attacker-specified HTTP or HTTPS URLs via a crafted ID parameter in the WFS 2.0 GetFeatureById stored query. This vulnerabilit…",
+    "kevAdded": "2026-11-27",
+    "ransomware": false,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-120705"
+    }
+   },
+   {
+    "cve": "CVE-2026-129243",
+    "title": "OSGeo GeoServer Incorrect Authorization Vulnerability",
+    "vendor": "OSGeo",
+    "product": "GeoServer",
+    "summary": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks via a request with a prefixed service parameter. This vulnerability can be chained with CVE-2026-129244, CVE-2026-120705,…",
+    "kevAdded": "2026-11-27",
+    "ransomware": false,
+    "signals": [
+     "kev"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-129243"
+    }
+   },
+   {
+    "cve": "CVE-2026-137684",
+    "title": "Authorization bypass in DB-GPT Editor SQL Run API",
+    "vendor": "eosphoros-ai",
+    "product": "DB-GPT",
+    "summary": "DB-GPT versions through 0.8.3 are affected by an authorization bypass in the Editor SQL Run API. A remote unauthenticated attacker may access SQL execution functionality when the affected API endpoint is reachable.",
+    "zeroExploit": "2026-11-27",
+    "cvss": 7.3,
+    "mitigation": "Restrict network access to the Editor SQL Run API and enforce authentication and authorization controls in front of it. Monitor for and apply an upstream release containing the accepted fix when available.",
+    "signals": [
+     "zero"
+    ],
+    "links": {
+     "cve": "https://www.cve.org/CVERecord?id=CVE-2026-137684",
+     "zero": "https://zero.ethiack.com/e/CVE-2026-137684"
+    }
+   }
+  ]
+ }
+}
